@@ -1,0 +1,15 @@
+Design Patterns to learn
+A. Creational Design Patterns
+   - Singleton ✅ (and code example)
+   - Factory   ✅
+   - Abstract  ✅
+
+B. Structural Design Patterns
+   - Facade ✅
+   - Adapter✅
+   - Bridge ✅
+
+C. Behavioural Design Patterns
+   - Observer ✅
+   - State    ✅
+   - Iterator ✅
