@@ -1,0 +1,119 @@
+CMP 301 STUDY
+
+COMPUTER ARCHITECTURE
+
+1a. Draw the Computer Architecture diagram
+ Ans: 
+
+ b. What are the 3 types of Buses?
+ Ans: Address Bus, Data Bus, Control Bus
+
+ c. Whenever their is a program, there must always be a __________?
+ Ans: Processor
+
+ d. Define Computer Architecture (CA)?
+ Ans: This is a science & an art of selecting & interconnecting hardware components to create computers 
+      that meet functions, performance and cost goals.
+
+ e. Computers can be broadly categorized into 3 groups. What are their names?
+ Ans: i) The Processor.   ii) The Memory.   iii) The Input and Output unit.
+
+ f. Briefly explain what The Processor, The Memory and The Input and Output unit
+ Ans: i) The Processor(CPU): It is the brains of the computer. It gives the instructions
+      ii) The Memory(RAM): This is the storage unit of the computer. It stores program files and data files
+      iii) The Input and Output unit: This is the interface that enables interaction with the computer. It allows us 
+                                      give Instructions and recieve responses
+
+ g. The screen of the computer is divided into _______________________?
+ Ans: Small Regular Boxes called Pixels.
+
+ h. The more the pixel on the screen, the ________________________?
+ Ans: The clearer the picture
+
+ i. In order for coloured pictures to be displayed what happens?
+ Ans: Different number of pixels representing colours is used
+
+ j. How are 2 bits and 3 bits pixels stored?
+ Ans: 2² => 4
+      0 0
+      0 1
+      1 0
+      1 1
+
+      2³ => 8
+      0 0 0
+      0 0 1
+      0 1 0
+      0 1 1
+      1 0 0
+      1 0 1
+      1 1 0
+      1 1 1
+
+ k. Whose Job is it to fetche instructions, decode it and then execute those instructions?
+ Ans: The Processor
+
+ l. What are Buses in computer?
+ Ans: These are sets of wires used to transfer data in and out of a computer system
+
+ m. What are the Types of Computer Buses?
+ Ans: Address, Data, Control
+
+ i. Explain
+ Ans: Address Bus: It holds the address of the location where a particular data is stored
+      Data Bus:    It holds the data and transports it into the address location(in & out of the processor/memory)
+      Control Bus: It holds the instructions of what is to be done with data (in & out of the memory)
+
+ n. List the 3 steps in the Instruction cycle?
+ Ans: Fetch -----> Decode ------> Execute
+
+ i. Explain
+ Ans: Fetch: When the processor reads information from the memory
+      Decode: Understanding the information/instruction
+      Executing: Performing the task or operation
+
+ p. What are the 2 operations that can be performed with the memory?
+ Ans: Read or Write
+ 
+
+
+LOGIC GATES
+a. __________ are basic building block of any digital system?
+ Ans: Logic gate
+
+b. How many inputs does a logic gate take?
+Ans: 1 and above
+
+c. Explain The AND Gate, The OR GATE and The NOT GATE?
+Ans: 
+     AND GATE: The output is 1 only when both inputs are 1
+     OR GATE:  The output is 1 if atleast 1 of the input is 1
+     NOT GATE: The output is 1 if the input is 0. This takes only one input and the result is always the opposite of the input
+         
+   i. Draw the above GATES and thier TT(Truth Table)
+   Ans: 
+
+d. Explain The NAND Gate, The NOR GATE and The EX-OR GATE?
+     NAND GATE: The inputs are AND'ED and then the result is NOT'ED
+     NOR GATE:  The inputs are OR'ED and then the result is NOT'ED
+     EX-OR GATE: c = AB¯ + A¯B
+     EX-NOR GATE: c = A¯B¯ + AB
+         
+   i. Draw the above GATES and thier TT(Truth Table)
+   Ans: 
+
+f. List all 10 of the Boolean Laws (Rules)
+Ans:
+     1. Idempotency Law    A+A = A   | A.A = A
+     2. Null Law           A+1 = 1   | A.0 = 0
+     3. Identity Law       A+0 = A   | A.1 = A
+     4. Commutative Law    A+B = B+A | A.B = B.A
+     5. Associative Law    (A+B)+C = A+(B+C)   |    (A.B)C = A(B.C)
+     6. Distributive Law   A(B+C) = AB + AC    |    A+BC = (A+B)(A+C) 
+     7. Absorbtion Law     A+AB = A            |    A(A+B) = A
+     8. Complement Law     A+A¯ = 1            |    A.A¯ = 0
+     9. Demorgans Law      (A+B)¯ = A¯.B¯      |    (A.B)¯ = A¯ + B¯
+    10. Inverse Law        A¯¯ = A
+    **Memorize (INICADACDI)
+
+

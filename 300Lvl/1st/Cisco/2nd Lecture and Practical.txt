@@ -1,0 +1,43 @@
+
+
+gripping tool - used for cutting of wires
+Rj45          - these are connectors
+
+cat 6 cables  - these are cables
+
+We are going to make a cross table and a something calbe
+
+
+Straight cable
+orange white
+orange
+green white
+blue 
+blue white
+green
+brown white
+brow
+
+
+Cross Cable- Both ends of the cable are connected differently
+
+1ST END
+Orange white
+orange
+green white
+blue
+blue white
+green
+brown white
+brown
+
+2ND END
+
+green white
+green
+orange white
+blue
+blue white
+orange
+brown white
+brown

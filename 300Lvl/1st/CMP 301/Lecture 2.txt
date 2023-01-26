@@ -1,0 +1,210 @@
+Topic: LOGIC GATES (check link out to see proper diagrams)
+LINK: https://www.techtarget.com/whatis/definition/logic-gate-AND-OR-XOR-NOT-NAND-NOR-and-XNOR
+
+
+SYNTAX
+INPUT ---
+           A GATE --- OUTPUT
+INPUT ---
+
+
+AND (.)(A.B or AB):
+Input A and B must be 1, for the output to be 1
+if A=1, B=1, OUTPUT=1
+
+A   __
+---|  \
+   |   |---AB
+---|__/
+B
+
+A |B |AB
+0 |0 |0 
+0 |1 |0
+1 |0 |0	 
+1 |1 |1
+
+
+
+OR GATE (+)(A+B)
+If either input A or B is 1, The output must be 1.
+if A=1, B=1, OUTPUT=1
+if A=1, B=0, OUTPUT=1
+if A=0, B=1, OUTPUT=1
+    ____
+A---\   \
+     |   |--- A+B
+B---/___/
+
+A |B |A+B
+0 |0 |0
+0 |1 |1
+1 |0 |1
+1 |1 |1
+
+
+
+NOTE (spin-off):        _
+1) A¯  : is the same as A
+                        __
+2) A¯B¯: is the same as AB
+
+
+NOT GATE(A¯ or B¯)
+Compliment/Opposite of an input is the output. If input A is 1, then the output is the opposite 0.
+
+    |\
+    | \
+A___|  \____A¯
+    |  /
+    | /
+    |/
+
+2¹ = 2 ros
+A |A¯
+0 |1
+1 |0
+
+
+
+NAND GATE(NOT and AND)                               
+Basically A and B passes through the AND gate first, and then the output passes through the NOT GATE. AB
+steps: #input-->AND-->NOT-->#output
+
+A   __
+---|  \     __
+   |   |o---AB
+---|__/
+B
+
+# or
+
+A   __         |\
+---|  \        | \      __
+   |   |---AB--|  \____ AB
+---|__/        |  /
+B              | /
+               |/
+
+
+         __    
+A |B |AB|AB
+0 |0 |0 |1
+0 |1 |0 |1
+1 |0 |0 |1
+1 |1 |1 |0
+
+
+
+NOR GATE(NOT and OR)                                                                                 
+Basically A and B passes through the OR gate first, and then the output passes through the NOT GATE. A¯B¯
+steps: #input-->OR-->NOT-->#output
+
+
+    ____
+A---\   \      ___
+     |   |o--- A+B
+B---/___/
+
+
+# or
+
+    ____             |\
+A---\   \            | \       ___
+     |   |--- A+B----|  \______A+B  
+B---/___/            |  /
+                     | /
+                     |/
+
+          ___    
+A |B |A+B|A+B
+0 |0 |0  |1
+0 |1 |1  |0
+1 |0 |1  |0
+1 |1 |1  |0
+
+
+
+
+XOR GATE (Exclusive OR)
+if either input A or B is 1 and the other is 0, The output is 1.
+if A=1, B=1, OUTPUT=0
+if A=1, B=0, OUTPUT=1
+if A=0, B=1, OUTPUT=1
+      ____
+A---\-\   \
+     | |   |--- A+B
+B---/-/___/
+
+     
+A |B |XA+B
+0 |0 |0
+0 |1 |1
+1 |0 |1
+1 |1 |0
+
+
+XNOR(Exclusive, NOT and OR)   # NOTICE: I don't know the end result symbol yet for adding X - exclusive
+Basically both input A and B having to be the exact same
+      ____
+A---\-\   \
+     | |   |o--- A+B
+B---/-/___/
+
+          
+A |B |XNOR
+0 |0 |1
+0 |1 |0
+1 |0 |0
+1 |1 |1
+
+
+
+
+
+
+BOOLEAN EXPRESSION LAWS
+Link: https://www.electronics-tutorials.ws/boolean/bool_6.html#:~:text=The%20basic%20Laws%20of%20Boolean,the%20same%20as%20in%20ordinary
+
+if A, then A = 1
+if B, then B = 1
++ = OR GATE
+. = AND GATE
+
+1. Idempotent Law
+A + A = A     |    A . A = A
+
+2. Null Law
+
+3. Identity Law
+A + 0 = A     |    A . 1 = A
+
+4. Cummutative Law
+A . B = B.A   |    A + B = B + A
+
+5. Associative Law
+A + (B + C) = (A + B) + C = A + B + C   (for OR)
+A(B.C) = (A.B)C = A . B . C             (for AND)
+
+6. Distributive Law
+A(B + C) = A.B + A.C         (for OR)
+A + (B.C) = (A + B).(A + C)  (for AND)
+
+7. Absorbtion Law
+A + (A.B) = (A.1) + (A.B) = A(1 + B) = A    (for OR)
+A(A + B) = (A + 0).(A + B) = A + (0.B) = A  (for AND)
+
+8. Complement Law
+    _
+A . A = 0     |     A + A = 1 
+
+9. Demorgan's Law
+___   _____         ___   _   _   
+A+B = A . B   |     A.B = A + B
+
+10. Inverse Law
+=
+A = A
+
+
+
