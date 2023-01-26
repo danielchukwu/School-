@@ -1,0 +1,30 @@
+What is an Object?
+In computer science an object can be a variable, data structure, function, 
+or a method of a class.
+
+What is Object Oriented Programming?
+OOP is a programming paradigm based on the concept of objects, which can contain data and code.
+
+Give 5 Examples of an Object Oriented Programming Language?
+- Java
+- Python
+- Php
+- Ruby
+- swift
+- Dart
+
+What is a class?
+A class is a blueprint for creating objects
+
+What is Inheritance?
+This is a programming concept that acquires the properties from one class to other classes
+
+What is Web 1.0?
+This is the first generation of the internet where there is the websites are static without interactions
+
+What is Web 2.0?
+This is the second generation of the internet where the users are able to interact with the websites
+
+What is Web 3.0?
+Web3 is the third generation of the World Wide Web. Currently a work in progress, 
+it is a vision of a decentralized and open Web with greater utility for its users

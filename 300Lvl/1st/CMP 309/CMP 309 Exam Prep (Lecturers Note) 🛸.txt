@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 aCMP 309 EXAM PREP
-=======
-CMP 309 EXAM PREP
->>>>>>> 3ad1123a9d1bdbe82ae5850c5ff40a1691e9a09a
 
 
 Tip on how to study
@@ -776,7 +772,6 @@ Lecture 5
 
 PAGE 45 - 60
 
-<<<<<<< HEAD
 1. What is Fact-finding?
 Ans: these are specific methods for finding information of the system
 
@@ -1167,6 +1162,11 @@ Ans: - Allows users and developers to experiment with the software and develop a
        development costs are incurred.
      - Serves as a training mechanism for users
 
+...
+
+
+
+G. Joint Requirements Planning
 
 
 
@@ -1186,17 +1186,12 @@ Ans: - Allows users and developers to experiment with the software and develop a
 
 Lecture 6
 
-=======
->>>>>>> 3ad1123a9d1bdbe82ae5850c5ff40a1691e9a09a
+
+1. 
 
 
 
-
-
-<<<<<<< HEAD
  
-=======
->>>>>>> 3ad1123a9d1bdbe82ae5850c5ff40a1691e9a09a
 
 
 

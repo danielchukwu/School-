@@ -1,0 +1,44 @@
+Lecture #2
+To add a primary key to a column
+- Click on our student_db on the left panel and then click on the courses database
+- After it opens up click on structure at the top bar
+- 
+
+DELETE COMMAND 
+DELETE FROM courses WHERE code = 'IFT 206';
+
+UPDATE COMMAND
+UPDATE tablename SET columnname = something;
+
+UPDATE courses SET department = "Computer Science";
+UPDATE courses SET creditunit = 3 WHERE code = 'IFT 206';
+UPDATE courses SET creditunit = 3 WHERE code = 'IFT 206' AND level=200;
+UPDATE courses SET semester = 'First' WHERE title = 'Data Management' AND department = 'Computer Science';
+
+Exam Question
+What is the effect of the delete, insert or update operations on the cardinality and the degree of a relation?
+
+
+SELECT COMMAND
+This is used to retrieve records from a table
+
+Ways of retrieving records from a table are
+- Select all the rows and columns in a table
+
+SELECT * FROM tablename (syntax)
+
+SELECT * FROM  courses
+
+- Select all rows and some columns
+SELECT columnlist FROM tablename;
+
+SELECT code, title, creditunit, semester FROM courses;    // Selecting 4 columns (code, title, creditunit, semester)
+SELECT title FROM courses;                                // Selecting a single column called title
+
+- Select all rows and some columns
+SELECT * FROM courses WHERE department = 'Information Technology';
+SELECT course, title, creditunit, semester FROM courses WHERE department = 'Information Technology';
+
+
+Christmas Assignment
+Select from more than 1 table using INNER JOIN and OUTER JOIN COMMAND

@@ -1,0 +1,62 @@
+Click on the start button for 
+apache and mySQL
+click on the button beside the start on mySQL row
+
+
+Visit 
+localhost/phpmyadmin
+
+Click on New at the left side bar
+Enter name of database as student_db
+
+Enter Name: courses
+Enter Number of Columns: 6
+Click Go
+
+Fill out the form using the below checks
+checkout the screenshot
+
+click preview then close after previewing and click save
+
+
+YOU SHOULD SEE YOUR TABLE STRUCTURE RIGHT NOW. Goodjob!
+
+Click drop to drop any columb you don't want
+Click change to make changes to any column you would like to see changes on
+
+If you would like to add an extra column
+scroll down to add
+Add: 1         column(s): after department      GO (click this)
+
+Add faculty 
+check out screenshot
+
+Exam Tip
+Learn how to modify a tables structure using sql commands
+
+On the top tab click on Insert and then go ahead and insert some of the courses you are offering
+
+
+Spin-off
+The Number of records in a table or relation at any given instance is known as the cardinality of th relation(table)
+
+The Number of attributes (or columns) in a relation is called the degree of the relation(table)
+
+In short
+Cadinality refers to the number of records at any given instance in a table
+Degree refers to the number of attributes or columns in a table
+
+Spin-off
+American National Standard Intitute for interacting with relational databases
+
+
+Click on Browse on the top tab to see the contents of our table
+
+# INSERT (add new records to a table)
+INSERT INTO `courses` (`code`, `title`, `semester`, `level`, `department`, `creditunit`)
+VALUES ('cmp 301', 'Computer Architecture I & II', 1, 300, 'computer science', 3),
+       ('cmp 309', 'System Analysis and Design', 1, 300, 'computer science', 2);
+
+# DELETE (remove records from a table)
+DELETE FROM `courses` 
+WHERE `code` = 'cmp 301'

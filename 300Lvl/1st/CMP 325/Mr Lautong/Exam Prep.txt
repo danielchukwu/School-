@@ -1,0 +1,12 @@
+1a. What is the Java Programming Language?
+ Ans: The Java programming language is a high-level language that can be categorized in the following buzz words
+      Simple
+      Object oriented
+      Distributed
+      Multithreaded
+      Dynamic
+      Architecture neutral
+      Portable
+      High performance
+      Robust
+      Secure

@@ -1,0 +1,236 @@
+1. What is the Java Programming Language?
+ Ans: The Java programming language is a high-level language that can be categorized in the following buzz words
+      Simple
+      Object oriented
+      Distributed
+      Multithreaded
+      Dynamic
+      Architecture neutral
+      Portable
+      High performance
+      Robust
+      Secure
+
+1a. Java technology is both a __________ and a __________.
+Ans: Programming language and a platform
+
+b. Is java a high level language?
+Ans: Yes it is
+
+b. State all 10 characteristics of the Java programming language?
+Ans: 
+- Simple
+- Object Oriented
+- Distributed
+- Multithreaded
+- Dynamic
+- Architecture neutral
+- Portable
+- High Performance
+- Robust
+- Secure
+
+c. __________ ensures secure delivery of applications that consume minimum of system resources.
+Ans: Java
+
+d. Can Java run on any hardware and software platform?
+Ans: Yes it can
+
+e. How did the Java programming language originate?
+Ans: As part of a research project to develop advanced software for a wide variety of network 
+     devices and embedded systems
+
+f. When Java started which language was the programming language of choice?
+Ans: C++
+
+g. Why was C++ abandoned for java?
+Ans: Because over time the difficulties encountered with C++ grew to the point where the problems 
+     could best be addressed by creating an entirely new language platform (in JAVA)
+
+h. The Design and architecture of Java was inspired by a variety of languages such as?
+Ans: - Eiffel
+     - SmallTalk
+     - Objective C
+     - Cedar/Mesa
+
+i. What are some primary characteristics of the Java Programming Language?
+Ans: - a simple language that can be programmed without extensive programmer 
+       training while being attuned to current software practices
+     - Its fundamental concepts are grasped quickly
+     - Programmers can be productive from the very beginning
+     - Programmers have access to existing libraries
+     - These libraries can be extended to provide new behaviour
+
+ j. Does java provide extensive compile-time checking, followed by a second level of run-time checking?
+ Ans: Yes it does
+
+ k. Is the Java technology designed to operate in distributed environments?
+ Ans: Yes it is
+
+ Page 1 - 9 above................
+
+l. What are the simple memory management techniques in Java that eliminates entire classes of programming errors 
+   found in C and CC++?
+Ans: No explicit programmer-defined pointer data types
+     No pointer-arithmetic
+     Automatic garbage collection
+
+m. Java code is designed to operate in distributed __________?
+Ans: Environments
+
+n. Where are the security features designed into?
+Ans: The Java programming language and run-time system
+
+o. Java programming language are secure from intrusion by unauthorized code attempting to get behind the scenes and create viruses or invade file systems?
+Ans: true
+
+p. What type of environment does java applications need to be capable of executing on a variety of hardware architectures.
+Ans: Heterogeneous network environments
+
+q. What does the Java Compiler do?
+Ans: It generates bytecodes and transports it to multiple hardware and software platforms
+
+r. The architecture-neutral and portable language platform of Java technology is known as _______________________?
+Ans: The Java virtual machine
+
+s. The Java Virtual Machine helps do what?
+Ans: Make sure your programs are the same on any platform across any hardware and software architecture (Architecture Neutral)
+
+t. The Java Virtual Machine is based primarily on what Specification?
+Ans: POSIX interface specification--an industry-standard definition of a portable system interface
+
+u. The Java platform achieves superior performance by ___________________________________________________?
+Ans: Adopting a scheme by which the interpreter can run at full speed without needing to check the run-time environment
+
+v. The Java interpreter can execute Java bytecodes directly on any machine to which ______________________________________________?
+Ans: the interpreter and run-time system have been ported (installed)
+
+w. Java technology's multithreading capability provides the means to build applications with many _________________?
+Ans: concurrent threads of activity
+
+x. What is a major result of multithreading?
+Ans: a high degree of interactivity for the end user.
+ 
+y. In the Java programming language, all source code is first written in plain text files ending with the ____ extension?
+Ans: .java
+
+z. Java Source files are then compiled into _______ files by the javac compiler.
+Ans: .class
+
+zi. A .class file does not conatin code that is ______ to our processor?
+Ans: native
+
+zii. The .class file containes _____________?
+Ans: bytecoeds
+
+ziii. Draw An overview of the software development process
+
+ziv. Because the Java VM is available on many different operating systems, the same .class files are capable of running on?
+Ans: Mircrosoft Windows
+     Solaris OS
+     Linux
+     Mac OS
+
+zv. Through the __________, the same application is capable of running on multiple platforms?
+Ans: Java VM (Virtual Machine)
+
+
+
+Java Platform
+2a. What is a platform?
+Ans: A platform is the hardware or software environment in which a program runs
+
+b. List 4 Popular platforms?
+Ans: Microsoft Windows,
+     Linux,
+     Solaris OS,
+     Mac OS
+
+c. Most platforms can be described as a combination of the operating system and underlying hardware but the Java plaform is a ______________________?
+Ans: Software-only platform
+
+d. Where does the Java Platform run?
+Ans: On top of the hardware-based platform
+
+e. The Java Platform is made up of two(2) components namely?
+Ans: The Java VM (Virtual Machine)
+     The Java API (Application Programming Interface)
+
+f. ___________ is the base for Java platform and is ported into various hardware based platforms.
+Ans: Java VM
+
+g. _________ is a large collection of ready-made software components that provide many useful capabilities.
+Ans: Java API
+
+h. The Java API is grouped into libraries of related __________ and ___________?
+Ans: classes and interfaces
+
+i. Libraries are also known as _____________?
+Ans: Packages
+
+j. Draw a diagram of the Java program on top Java VM and Java API and the Hardware-Based Platform
+
+k. As a platform-independent environment, the java platform can be a bit slower than _________?
+Ans: Native code
+
+h. Advances in compiler and virtual machine technologies are bringing Java's perfomance closer to that of ___________ without threatening portability
+Ans: Native code
+
+i. Every full implementation of java gives the following features. List all?
+Ans: Development Tools
+     API (Application Programming Interface)
+     Deployment Technologies (JDK)
+     User Interface Toolkits
+     Integration Libraries
+
+Develpment Tools
+j. What do the development tools provide?
+Ans: compiling,
+     running,
+     debuggin,
+     documenting your application
+
+k. The main tools new developers use are 3. Namely?
+Ans: Javac compiler
+     Java luncher
+     Javadoc documentation tool
+
+API
+l. What does the API provide?
+Ans: It provides the core functionality of the Java Programming Language
+
+m. __________ provides a wide array of useful classes ready for use in your own applications
+Ans: The API
+
+Deployment Technologies
+n. What does the JDK software provide us with?
+Ans: - Standard mechanisms such as the Java Web Start software and 
+     - Java Plug-In's for deploying an application
+
+User Interface Toolkits
+o. What does the Java User Interface Toolkit provide us with?
+Ans JavaFX, Swing, Java 2D (They all help create GUI's)
+
+p. What do the Integration Libraries provide us with?
+Ans: Java IDL API, 
+     JDBC API, 
+     Java Naming and Directory Interface (JNDI) API, 
+     Java RMI
+     e.t.c.
+
+
+Page 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
