@@ -1,0 +1,24 @@
+General Knowledge
+
+
+1. What is Agile Software Development?
+Ans: Agile software development is a methodology for managing and completing software development projects. 
+     It emphasizes flexibility, collaboration, and customer satisfaction through the early and continuous delivery 
+     of working software.
+
+b. How does it actually work(Give details)?
+Ans: Agile software development typically involves a team of developers working in short iterations, called sprints, 
+     which usually last 1-4 weeks. The team works together to define and prioritize a set of features or requirements 
+     for the software, and then sets goals for the sprint.
+
+     During the sprint, the team holds daily stand-up meetings, called Scrums, to discuss progress and identify any 
+     obstacles that need to be addressed. The team also conducts regular reviews and retrospectives to assess what 
+     is working well and what can be improved.
+
+     At the end of each sprint, the team delivers a working version of the software that includes new features or 
+     enhancements. This allows the customer or end-user to provide feedback and make suggestions for further 
+     development.
+
+     The team then uses this feedback to plan the next sprint, and the process is repeated until the software is 
+     complete. The Agile development approach encourages a collaborative and adaptive process, where the team and the 
+     customer work together to deliver a high-quality product that meets the customer's needs.

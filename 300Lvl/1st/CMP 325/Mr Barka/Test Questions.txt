@@ -1,0 +1,19 @@
+Test Questions
+
+1. Write a program with javas Swing UI that uses 1 text field and 3 buttons
+   Button 1 - Add Stack
+   Button 2 - Pop Stack
+   Button 3 - Print Stack
+   implement all 3 methods and also handle exceptions that could occur in the program
+
+2a. Discuss a Stack
+ b. Discuss a Queue
+ c. Discuss with 1 example the Creational Design Pattern
+ d. Discuss with 1 example the Structural Design Pattern
+ e. Discuss with 1 example the Behavioural Design Pattern
+
+
+3a. What is Multithreading?
+ b. What is a Deadlock?
+ c. What is the difference between a Multithreaded application and a Single threaded application
+

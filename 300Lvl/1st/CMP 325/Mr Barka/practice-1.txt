@@ -1,0 +1,146 @@
+1ST ATTEMPT
+1a. Software Design Patterns are general, reusable solutions to repeating problems in software designs
+
+b. Creational: how objects are created
+   Structural: how objects relate to one another
+   Behavioural: how objects interact with one another
+
+c. Abstract Factory: this lets you produce families of related objects without specifying
+                     without specifying their concrete class
+   Factory:   this provides an interface for creating objects in a superclass but allows 
+              subclasses to alter the type of objects that will be created
+   Singleton: this let's you ensure a class only has one or no instance
+
+d. Adapter: this allows objects with incompatible interfaces to interact
+   Bridge:  this is used to seperate a large class or a set of closely related classes into
+            two hierarchies - abstraction and implementation
+   Facade:  this provides a simple interface to a library, a framework, or any complex set of
+            classes
+   proxy
+   Composite
+   Flyweight
+   Decorator
+   
+
+e. Iterator: this allows our program traverse the elements in a collection without exposing
+             it's underlying implementation
+   Observer: this looks for change in a data/event
+   state:    this lets an object alter it's behaviour if it's internal state changes
+   Chain of Responsibility
+   Memento
+   Mediator
+   Command
+   Strategy
+   Visitor
+   Template Method
+
+
+
+
+
+2nd ATTEMPT
+1a. Software Design Patterns are general, reusable solutions for repeadly occuring problems
+    encountered in Software Design
+
+ b. Creational focuses on how objects are created
+    Structural focuses on how objects relate to one another
+    Behavioural focuses on how objects interact with each other
+
+Creational
+ c. Abstract Factory: this lets you create families of related objects without specifying 
+                      thier concrete classes
+    Factory:  this provides an interface for creating objects in a superclass, and allos a
+              subclass alter the type of objects to be created
+    Singleton: this prevents a class from having more than one instance created
+    Prototype
+    Builder
+
+Structural
+ d. Adapter: this allows objects with incompatible interfaces to collaborate
+    Bridge:  this seperrates large classes or a set of related classes into two heirarchies
+             (abstraction and implementation)
+    Facade:  this simplifies interfaces for a library, a framework or a set of complex classes    
+    Proxy
+    Composite
+    Flyweight
+    Decorator
+
+Behavioural
+ e. State: this allows an object alter its behaviour when its internal state changes
+    Iterator: this traverses the elements of a collection without revealing its undrelying
+              implementations
+    Observer: this looks for changes in data/event
+    Chain of Responsipility
+    Mediator
+    Memento
+    Visitor
+    Strategy
+    Command 
+    Template Method
+
+
+
+
+
+3rd ATTEMPT
+1a. Software Design Patterns are general, reusable solutions to commonly occuring problems in
+    software design
+
+b. Creational, Structural, Behavioural
+
+Creational
+c. Abstract Factory: this produces families of related objects without specifying a concrete class
+   Factory Method: this provides an interface for creating objects in a superclass, and allows
+                     a subclass alter the objects to be created
+   Singleton: this allows only one instance of a class to be created
+
+Structural
+d. Adapter: this allows objects with incompatible interfaces to collaborate
+   Bridge: this seperates large classes or sets of related classes into two heirarchies - abstraction and implementation
+   Facade: this provides simplified interfaces to a library, a framework, or a set of 
+           complex classes
+   Proxy
+   
+
+Behavioural
+e. Iterator: this traverses through the elements in a collection without revealing it's underlying implementation
+   Observer: this listens for change in a data/event
+   State: this alters its behaviour when its internal state changes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

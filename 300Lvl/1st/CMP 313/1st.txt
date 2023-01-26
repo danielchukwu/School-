@@ -1,0 +1,36 @@
+ASSIGNMENT 1st
+1) Why is SRAM faster than DRAM?
+2) Why do coloured pictures occupy morespace than black & white pictures?
+
+
+1) Why is SRAM faster than DRAM?
+RAM or Random Access Memory is of two types - SRAM (or Static RAM) and DRAM (or Dynamic RAM). 
+SRAM does not continuously refresh like the DRAM deos there for making it provide a better performance than the DRAM. 
+
+
+Further Explanation Why This is:
+
+What is SRAM?
+The data in an SRAM is stored in transistors. Each bit of memory is stored using Bistable Latching Circuitry in this RAM. 
+The data is stored using the six transistor memory cells.
+
+Since SRAM uses transistors to store data, it requires a constant power supply. Because the power supply is constant, 
+SRAM does not need to be refreshed in order to remember the data being stored in it. SRAM is called a static RAM 
+because no action is required to recall the stored data.
+
+
+What is DRAM?
+DRAM stands for Dynamic Random Access Memory. DRAM is the most widely used RAM in computers. The data in a DRAM is 
+stored in capacitors. Each bit of data is stored in a separate capacitor inside a particular integrated circuit.
+
+DRAMs have a high power consumption because capacitors tend to leak charge even when they are supplied with continuous
+power. Because of the charge leakage, the power supply in DRAMs needs to be refreshed regularly in order to retain 
+the data stored in them. This is why these RAMs are called Dynamic.
+
+
+
+2) Why do coloured pictures occupy morespace than bllack & white pictures?
+Ans: Colors take up the same amount of space. However, pictures aren't stored simply by encoding the color for each 
+picture.They use algorithms to compress the data. As an example, they may store the data for one pixel, then store the 
+amount of pixels to the left and right that are the same color. Then when the color changes they'll repeat the process.
+This would cause pictures with more color changes to take up more space.

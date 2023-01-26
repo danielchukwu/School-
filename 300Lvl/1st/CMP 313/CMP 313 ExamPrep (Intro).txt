@@ -1,0 +1,153 @@
+1a. What is the Theory of Computation?
+Theory of Computation is a branch of computer science that deals with how efficiently
+a problem can be solved on a model of computation using an algorithm
+
+b. Name the Three Branches of Theory of Computation? 
+Ans: Automata Theory of Computation
+     Computability Theory
+     Complexity Theory
+
+c. Discuss Automata Theory
+Ans: Automata Theory covers the definitions and properties of plenty mathematical models of
+     computation
+     E.g   Finite Automata
+           Context Free Grammer
+           Turing Machine
+
+d. Discuss Computability Theory
+Ans: Computability Theory - covers what can and cannot be computed by the model of computation
+
+e. Discuss Complexity Theory
+Ans: Complexity Theory - groups computable problems based on their hardness
+
+f. What is the main purpose of the Theory of Computation?
+Ans: It is to develop formal mathematical model of computation that reflects real world 
+     computers
+
+g. What are Symbols with examples?
+Ans: A symbol is a character 
+     e.g a, b, c, ..., z
+         0, 1, 2, ..., 9
+         +, -, /, ..., special characters
+
+h. What are Alphabets with examples?
+Ans: An alphabet is a finite, non empty set of symbols. It is denoted by sigma(Σ)
+     e.g Σ = {0, 1}
+         Σ = {a, b, ..., z}  e.t.c
+
+g. What is a String?
+Ans: A string or a word is a finite sequence of symbols choosen from an alphabet
+     e.g 011100110 is a string from binary alphabet Σ={0, 1}
+         aabbaacab is a string from lowercase alphabet Σ={a, b, c }
+
+h. What is an Empty String?
+Ans: A string with zero occurences of symbols (no symbol). It is denoted by epsilon (ε)
+
+i. What is used to denote the Length of a String?
+Ans: It is denoted with 2 pipes => |w|
+     e.g: a = 010110101 from binary alphabet Σ={0,1}
+          The length of string |a| = 9
+
+j. Contatenate the below Strings?
+   a = a1a2a3 ... an
+   b = b1b2b3 ... bn
+Ans: ab = a1a2a3 ... anb1b2b3 ... bn
+
+
+-------------------------------------------------------------------
+
+FORMAL GRAMMERS
+
+2. What are languages?
+Ans: A language can be formally defined as any system of formalized symbols, signs, e.t.c
+     used for communication
+
+b. What are Grammars?
+Ans: A grammer can be defined as a set of structural rules that govern sentences, words, 
+     e.t.c. in a natural language
+
+c. What language does the computer understand?
+Ans: Machine Language (which is in 0's and 1's)
+
+d. Give me the 4 steps that is taken by the compiler to compile a high level language code?
+Ans: 1. Source Code: Reads the code from the programmer
+     2. Lexical Analyzer: groups the characters and words in a way that makes sense for the language
+     3. Syntax Analyzer: checks that the characters/words are syntactically correct
+     4. Semantic Analyzer: checks that the program as a whole makes actual sense
+
+e. How does the Top-down parse tree work?
+Ans: It starts with a "start-symbol" representing what you are translating, and then it
+     deconstructs it using a set of given possible rules (uses left-side derivation) 
+     for the language to then reach the sentence you have
+
+f. How does the Bottom-up parse tree work?
+Ans: It starts with the symbols in your sentence and tries to match them with valid
+     representations in the language (uses right-side derivation) to combine those to 
+     form other parts of the language, until you eventually end up with the Start symbol
+
+g. Draw a top-down parse tree example?
+Ans: 
+Sentence                           (Top-down parsing tree)
+|
+---------------------
+|         |         |
+|         |         |
+Subject   |        object
+|         |         |____________________
+|         |         |         |         |
+Noun     verb     article  adjective   noun
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
+I        am         a        good    programmer
+
+
+h. Top-down is usually easy to make, but bottom-up usually works better (especially with 
+   computer programming). True or False?
+Ans: True
+
+i. digit => 0 | 1 means?
+Ans: digit can either be 0 or 1
+
+j. Given the Grammer below
+   exp   => A + A
+   A     => digit | A * A
+   digit => 0 | 1
+   
+   Check if the sentences below are valid
+   a. 1*0+1 
+   b. 1+1+1*11
+
+Ans: 
+    a.
+    Exp => A + A
+        => A * A + A
+        => digit * digit + digit
+        => 1 * digit + digit
+        => 1 * 0 + digit
+        => 1 * 0 + 1
+
+        result = this sentence is valid
+
+    b.     
+    Exp => A + A
+        => A * A + A
+        => A * A * A + A
+        => 1 * 1 * 1 + 11
+
+        result = this sentence is not valid
+
+k. What are Ambiguous Grammars?
+Ans: This is a context-free grammar for which there exists a string that can have more than
+     1 parse tree
+
+l. What is another name for Grammars?
+Ans: Production Rules
+
+
+
+
+
+
+
+

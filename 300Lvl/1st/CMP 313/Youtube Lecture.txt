@@ -1,0 +1,75 @@
+What is the Theory of Computation?
+Ans: Its the branch of computer science that deals with how efficiently a problem can be solved on 
+     a model of computation using an algorithm.
+
+Three Branches of Theory of Computation 
+1. Automata Theory and Language
+2. Computability Theory
+3. Complexity Theory
+ 
+A. Automata Theory and Language:
+   This deals with the definition and properties of various mathematical models of computation 
+    E.g Finite Automata
+        Context Free Grammar
+        Turing Machine
+
+B. Computability Theory
+   This deals with what can and what cannot be computed by the model
+
+C. Complexity Theory
+   This groups the computable problem based on their hardness
+
+
+Main Purpose of T.C (Theory of Computation): 
+Is to develop formal mathematical model of computation that reflects real world computers.
+
+
+Basic Definitions (Symbol, Alphabet, String)
+1. Symbol: 
+      Symbol is a character
+      e.g a, b, c, ..., z
+          0, 1, 2, ..., 9
+          +, -, /, ..., special characters
+
+2. Alphabet:
+      An alpabet is a finite, non-empty set of symbols. It is denoted by sigma(Σ)
+      e.g Σ = {0, 1}          // set of binary alphabets
+          Σ = {a, b, ... z}   // set of all lowercase letters
+          Σ = {+, &, /, ...}  // set of all special characters
+
+3. String or Word:
+      A string is a finite set sequence of symbols(or characters) choosen from some alphabet
+      e.g 011100110 is a string from binary alphabet Σ={0, 1}
+          aabbaacab is a string from lowercase alphabet Σ={a, b, c }
+
+Summary
+
+Symbol  ----------->      Alphabet  ----------> String
+ ↓                            ↓                   ↓
+a, 1, 0                    Σ={0, 1}              01101001 (gotten from Σ={0, 1})
+                           Σ={a, b, ...}         abbcd    (gotten from Σ={abcd})
+
+
+
+
+4. Empty String: 
+       The empty string is the string with zero occrences of symbols(no symbols). It is denoted by epsilon (ε). No symbols
+
+
+5. Length of String:
+       It is the number of symbols in the string/word. It is denoted by |w|
+       e.g: w = 010110101 from binary alphabet Σ={0,1}
+            The length of string |w| = 9
+
+6. Concatenation Of String:
+       Join 2 or more strings
+       e.g let a = a1a2a3 .... an & y = b1b2b3 ... bn
+           concatenation xy = a1a2a3 ... anb1b2b3 ... bn
+
+           S=ababab & t=cdcddc
+           Concatenation st=abababcdcddc
+
+
+Power of an Alphabet
+=> If "Σ" is an alphabet. we can express set of all string of certain length from that alphabet by 
+   using exponential notation. It is denoted by Σ^K is the set of strings of length k.

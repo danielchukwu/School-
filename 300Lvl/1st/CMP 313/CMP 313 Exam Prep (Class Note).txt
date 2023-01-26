@@ -1,0 +1,585 @@
+1ST LECTURE
+AUTOMATA THEORY OF COMPTABILITY & FORMAL LANGUAGES
+
+1a. What is a Language?
+Ans: A language is any notation used for communication of ideas and information. 
+     It doesn't need to be verbal or spoken
+
+b. What is a Programming Language?
+Ans: It is a special notation for communicating with the computer System
+
+c. Every Language displays instructions called its ____________ or _____________?
+Ans: Grammar or Syntax
+
+d. A correct sentence always consists of a ___________ and a _____________?
+Ans: A subject and a predicate
+
+     SENTENCE => SUBJECT + PREDICATE
+
+e. Give Two Examples of a subject and it's predicates
+Ans: Subject = "Trinity", "Esther"
+     Predicate = "Eats", "Talks"
+
+f. What is Lexicon?
+Ans: It's the complete set of meaningful units in a language e.g The list of verbal words in a particular language
+
+g. What is Syntax?
+Ans: The rules that govern the combination of valid words in a language
+
+h. What is Semantics?
+Ans: It is the meaning associated with a particular syntatic entity
+
+i. What is Syntax Tree?
+Ans: A tree like diagram that describes the structure of a sentence by breaking it down into it's constituent parts.
+
+j. What is a Meta Language?
+Ans: A language used to describe the structure of other languages
+     e.g The using of english to teach other languages makes english a meta language
+
+k. What is the full meaning of BNF?
+Ans: Backus Naur Form or Backus Normal Form
+
+l. What is BNF?
+Ans: It is a notation in computing used for writing grammar that is commonly used to
+     specify the syntax of programming languages.
+
+     or
+
+     It is a computing notation used to describe programming languages
+
+
+m. What are Symbols with examples?
+Ans: A symbol is a character 
+     e.g a, b, c, ..., z
+         0, 1, 2, ..., 9
+         +, -, /, ..., special characters
+
+n. What are Alphabets with examples?
+Ans: An alphabet is a finite set of symbols(or letters or characters). It is denoted by sigma(Σ)
+     e.g Σ = {0, 1}
+         Σ = {a, b, ..., z}  e.t.c
+
+o. What is a String?
+Ans: A string or a word is a finite sequence of symbols choosen from an alphabet
+     e.g 011100110 is a string from binary alphabet Σ={0, 1}
+         aabbaacab is a string from lowercase alphabet Σ={a, b, c }
+
+p. What is an Empty String?
+Ans: A string with zero occurences of symbols (no symbol). It is denoted by epsilon (ε)
+
+q. What is used to denote the Length of a String?
+Ans: It is denoted with 2 pipes => |w|
+     e.g: a = 010110101 from binary alphabet Σ={0,1}
+          The length of string |a| = 9
+
+r. Contatenate the below Strings?
+   a = a1a2a3 ... an
+   b = b1b2b3 ... bn
+Ans: ab = a1a2a3 ... anb1b2b3 ... bn
+
+
+s. digit => 0|1 means?
+Ans: digit can either be 0 or 1
+
+t. Given the Grammer below
+   exp   => A + A
+   A     => digit | A * A
+   digit => 0 | 1
+   
+   Check if the sentences below are valid
+   a. 1*0+1 
+   b. 1+1+1*11
+
+Ans: 
+    a.
+    Exp => A + A
+        => A * A + A
+        => digit * digit + digit
+        => 1 * digit + digit
+        => 1 * 0 + digit
+        => 1 * 0 + 1
+
+        The sentence is valid ✅
+
+    b.     
+    Exp => A + A
+        => A * A + A
+        => A * A * A + A
+        => 1 * 1 * 1 + 11
+
+        The sentence is not valid❌
+
+
+
+
+
+
+
+
+
+2ND LECTURE
+FORMAL LANGUAGES
+2a. What is an Alphabet?
+Ans: An alphabet is a finite set of symbols(or letters or characters)
+     Extra: It can be a character or digit in computer. 0 and 1 are alphabets
+
+b. What is another name for alphabets is ________?
+Ans: String
+
+c. A String (word) is a finite ______________?
+Ans: Sequence of symbols
+
+d. Write the kleen star symbol that denotes the set of all finite and infinite sequence over the alphabet Σ
+
+e. ___ are used to specify non-terminal symbols?
+Ans: <>
+
+f. What is the difference of terminal and non-terminal symbols. Show using a Parse Tree 
+   with the Grammer S==>AB, A==>ab, B==>bb?
+Ans:             
+                 <S>                 ⌉  Non-terminal Symbol
+            ______|______            |  - capital letters
+           |             |           |  - has <>
+          <A>           <B>          |  - has child elements
+        ___|___       ___|___        ⌋  - <S> is also known as the root (also known as the Start symbol)
+       |       |     |       |       ⌉  Terminal Symbols (also known as leaf symbols)
+       a       b     b       b       ⌋   - Small letters
+                                         - No <>
+                                         - No child elements
+                                         - they are at the bottom of the parse tree
+
+g. What does "|" mean in a Grammar e.g   1. S==>AB|BC  2. B==>AC
+Ans: it means
+     S==>AB or
+     S==>BC
+           <S>                      <S>
+      ______|______     or     ______|______          
+     |             |          |             | 
+    <A>           <B>        <B>           <C>
+
+h. Another name for Grammar is _________?
+Ans: Production Rule
+
+i. Give me an example of a Production Rule (or Grammar)?
+Ans: <Sentence>      => <Subject><Predicate>
+     <Subject>       => <article><Noun Phrase>
+     <Noun Phrase>   => <adjective><Noun>
+     <Predicate>     => <verb><Direct Object>
+     <Direct Object> => <article><Noun>
+     <article>       => The
+     <adjective>     => big
+     <verb>          => ate
+     <Noun>          => Elephant|Peanut
+
+j. Draw the parse tree of the Production Rule above?
+Ans: 
+
+                                 <Sentence>
+                     ________________|_______________
+                    |                                |
+                <Subject>                       <Predicate>
+             _______|_______                   ______|_______
+            |               |                 |              |
+         <article>    <Noun Phrase>         <verb>    <direct object>
+            |         ______|____             |          ____|_____
+            |        |           |            |         |          |      
+            |    <Adjective>   <Noun>         |       <article>  <Noun>
+            |        |           |            |         |          |       
+           The     big       Elephant        ate       The       Peanut
+ 
+
+k. Using the Production Rule above. Generate the sentential form?
+Ans: <Sentence> => <Subject><Predicate>                              # Replace <Subject>
+                => <Article><Noun Phrase> <Predicate>                # Replace <Predicate>
+                => <Article><Noun Phrase> <verb><Direct Object>      # Replace <Noun Phrase>
+                => <Article> <Adjective><Noun> <verb><Direct Object> # Replace <Direct Object>
+                => <Article> <Adjective><Noun> <verb> <article><Noun> # Perform LMD
+                => The       <Adjective><Noun> <verb> <article><Noun>
+                => The       big        <Noun> <verb> <article><Noun>
+                => The       big        Elephant <verb><articl><Noun>
+                => The       big        Elephant ate  <article><Noun>
+                => The       big        Elephant ate  the      <Noun>
+                => The       big        Elephant ate  the      Peanut
+
+Sentential Form ✅ Using Left-Most Derivation
+
+...
+
+l. Given the Production Rule (or Grammar) below
+   <Sentence>  => <Subject><Predicate>
+   <Subject>   => We  | He  | I
+   <Predicate> => ran | sat | ate
+   How many sentence can you generate with the Production?
+Ans: We ran     We sat     We ate
+     He ran     He sat     He ate 
+     I  ran     I  sat     I ate
+
+     We can generate 9 sentences 
+
+m. Given the Production Rule below. Use the Canonical Parse tree to check if the sentence (3.142) is valid?
+   <Decimal Number> => <Point><Number> | <Number><Point><Number>
+   <Number>         => <Digit> | <Number>
+   <Digit>          => 0|1|2|3|4|5|6|7|8|9 
+   <Point>          => .
+Ans: 3.142
+     <Number>    .142
+     <Number><Point>      142
+     <Number><Point><Number>    42                  
+     <Number><Point><Number><Number>    2    
+     <Number><Point><Number><Number><Number>            CANONICAL PARSE TREE (Not our usual parse tree)
+
+     Therefore the sentence (3.142) is valid ✅
+
+     EXPLANATION (using a Parse Tree 😁)
+     PARSE TREE  (remember "|" means or)
+
+                             <Decimal Number>
+                     ________________|_______________
+                    |                |               |
+                 <Number>         <Point>         <Number>
+                    |                |         ______|_______
+                    |                |        |              |
+                 <Digit>             |     <Number>       <Number>
+                    |                |        |       _______|_________
+                    |                |        |      |                 |
+                    |                |     <Digit><Digit>           <Number>
+                    |                |        |      |                 | 
+                    |                |        |      |              <Digit>
+                    |                |        |      |                 |
+                    3                .        1      4                 2
+
+
+
+
+
+
+3RD LECTURE
+FORMAL GRAMMER
+3a. What is Grammer?
+Ans: Grammer is a set of rules by which valid sentences in a language are constructed
+
+b. What is Formal Grammer G (FGG)?
+Ans: it is defined to be a quadruple (V,T,S,P) where 
+     - V is a set of Non-terminal symbols
+     - T is a set of terminal symbols
+     - S is a "Start Symbol"
+     - P is the Production Rule
+    
+c. Identify the VTSP in the below Grammar?
+   <Odd Numbers> => <Number><Digits> | <L digit>
+   <Numbers>     => <Number><Digits> | <Digits>
+   <Digits>      => 0|2|4|6|8|<L digits>
+   <L digits>    => 1|3|5|7|9
+Ans: 
+    V: <Odd Numbers>, <Number>, <Digits>, <L digit>
+    T: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+    S: <Odd Numbers>
+    P: This is basically the grammar
+
+d. What are the short form for writing many productions and their meaning too?
+Ans: α => +β     "1 or more" production
+     α =>  β     "only 1" production
+     α => *β     "0 or more" production
+
+
+
+
+
+
+
+4TH LECTURE
+
+1a. What are the 4 Types of Grammers according to Chomsky?
+Ans: Type 0 Grammars (free grammers)
+     Type 1 Grammars (context-sensitive grammers)
+     Type 2 Grammars (context-free grammers)
+     Type 3 Grammars (regular grammers)
+
+b. What are the machines that identify the above 4 types of grammers?
+Ans: Type 0 Grammars - Turing Machine
+     Type 1 Grammars - Linear Binding Machine
+     Type 2 Grammars - Pushdown Device or Pushdown Automaton
+     Type 3 Grammars - Finite State Automaton
+
+Note: 
+LHS means Left-Hand Side   &   RHS means Right-Hand Side
+c. What are the restrictions of the 4 types of grammers?
+Ans: Type 0 Grammars - only restriction is RHS must not be £ (empty)
+                       e.g aAB==>abAB ✅| S==>QNS ✅| QN==>QRS ✅| Q==>£ (empty) ❌
+     Type 1 Grammars - has 2 Restrictions
+                       - Length of elements in LHS (must be less than or equal to) RHS
+                       e.g s==>b ✅| S==>Ab ✅| aAa==>aaB ✅| aA==>B ❌
+                       - LHS must have just 1 single non-terminal symbol(capital letter) and multiple terminal symbols (small letter)
+                       e.g bB==>aBaa ✅| Da==>BBc ✅| Bacc => AbbA ✅| AAb==>ABaa ❌
+     Type 2 Grammars - LHS lenght must be 1 and it should be a non-terminal symbol(Capital Letter) only and RHS can be £ (empty)
+                       e.g S==>Ba | A==>Bc ✅| A==>a ✅| S==>£ (empty) ✅| Sa==>aB ❌
+     Type 3 Grammars - LHS length must be 1 and it should be a non-terminal symbol and RHS must contain atleast 1 non-terminal symbol
+                       e.g A==>aA ✅| A==>Aa ✅| A==>£ (empty) ❌| A==>ab ❌
+
+d. What are the below types of productions called?
+   A==>aA   and  A==>Aa
+Ans: A==>aA is called "Right Linear Production"
+     A==>Aa is called "Left  Linear Production"
+
+e. List all the Properties of Grammars?
+Ans: 1. Equivalent Grammars
+     2. Ambiguous Grammar
+     3. Recursive Grammar
+     4. Left-Factoring Grammar
+     5. Left Most Derivation and Right Most Derivation (LMD & RMD)
+
+
+
+
+
+
+5TH LECTURE
+
+1a. What are Equivalent Grammars?
+Ans: This is when two grammars have the exact same parse tree
+
+b. Given the Grammars 1. A==>Aw|y|Ax   2. A==>yB, B==>xB|y
+   show that they are equivalent?
+Ans: 1. A==>Aw|y|Ax          2. A==>yB, B==>xB|y
+          A                          A
+         / \                        / \
+        A   w                      y   B
+       / \                            / \
+      A   x                          x   B
+     /                                    \
+    y                                      y
+
+
+c. What is an Ambiguous Grammer?
+Ans: This is a Grammer with more than 1 parse tree
+
+d. Parse the sentence x*x*x using the Grammar S==>AA, A==>x|xx. Check if it is ambiguous
+Ans:        S                              S
+       _____|_____                    _____|_____
+      |           |                  |           |
+      A           A                  A           A
+   ___|___        |                  |        ___|___
+  |       |       |                  |       |       |
+  x       x       x                  x       x       x
+ 
+Left-Handed Parse Tree            Right-Handed Parse Tree
+
+
+e.What is Recursive Grammars?
+Ans: This are Productions that are often defined in terms of themselves
+
+f. Give me examples of the 2 types of the Recursive Parse Tree?
+Ans: 1. Left Recursive  (L.R)
+        Right Recursive (R.R)
+
+g. Draw a Recursive parse tree for the following Grammars   1. A==>Av|u    2. A==>vA|u
+Ans:        A                              A
+       _____|_____                    _____|_____
+      |           |                  |           |
+      A           v                  v           A
+   ___|___                                    ___|___
+  |       |                                  |       |
+  A       v                                  v       A       
+  |                                                  |
+  u                                                  u
+
+Left-Recursive (L.R)               Right-Recursive (R.R)
+
+
+
+h. What is Left-Facrtoring?
+Ans: it is the process of transforming the grammar with common prefixes of alternatives.
+
+i. Give us an example grammar of this and draw it's parse tree
+Ans: Grammar   A==>VW|VZ
+  
+                  A                     A
+               ___|___               ___|___
+              |       |             |       |
+              V       W             V       Z
+
+j. What is Left-Most Derivation (LMD) & Right-Most Derivation (RMD) with examples?
+Ans: LMD is a scenario where we replace the LHS of the production to the RHS
+     RMD is a scenario where we replace the RHS of the production to the LHS
+     e.g Using the Production/Grammar:   S==>AB, A==>y, B==z
+
+     LMD (start from left to right)
+         S                 S                 S
+      ___|___           ___|___           ___|___
+     |       | ------> |       | ------> |       |
+     A       B         A       B         A       B
+                       |                 |       |
+                       y                 y       z
+
+     RMD (start from right to left)
+         S                 S                 S
+      ___|___           ___|___           ___|___
+     |       | ------> |       | ------> |       |
+     A       B         A       B         A       B
+                               |         |       |
+                               z         y       z
+    
+
+2. What is Derivation?
+Ans: Derivation is a sequence of production rules inorder to get an input string
+
+b. What are the two decisions to be made during derivation?
+Ans: 1. We decide the Non-terminal to be replaced
+     2. Deciding the production rules by which the non-terminal is to be replaced
+ 
+c. What are the 2 derivation methods?
+Ans: Left-Most  Derivation (LMD)
+     Right-Most Derivation (RMD)
+
+d. If we scan a sentential form of an input and replace from left to right. What is this called?
+Ans: Left-Most Derivation (RMD) 
+
+Tip: An Example of LMD in use(Check Lecture 2, Question K)
+
+e. Parse the sentence id+id*id Given the grammar E==>E+E|E*E|id. Use LMD & RMD?
+Tip: The Grammar  E==>E+E|E*E|id  is the same as
+
+     E==>E+E  or
+     E==>E*E  or
+     E==>id
+
+Ans: LMD
+     E==>E+E      # Replace 2nd E with E*E
+     E==>E+E*E    # Perform LMD
+     E==>id+E*E
+     E==>id+id*E
+     E==>id+id*id     # The sentence is valid ✅
+
+     RMD
+     E==>E+E      # Replace 2nd E with E*E
+     E==>E+E*E    # Perform RMD
+     E==>E+E*id
+     E==>E+id*id
+     E==>id+id*id     # The sentence is valid ✅
+
+3. What is Parsing?
+Ans: Parsing is the process of recognizing a string in a language by breaking it down to 
+     a set of symbols and analyzing each of them against the grammer of the language
+
+b. What are the 2 approaches to parsing?
+Ans: Top-Down  Parsing
+     Bottom-Up Parsing
+
+c. What is the Top-Down Parsing?
+Ans: It's the process of building derivation trees from the top(root) to the bottom (leaf)
+
+d. What is the Bottom-Up Parsing?
+Ans: It's the process of building derivation trees from the bottom (leaf) to the top(root)
+
+e. What is a Parse Tree?
+Ans: A parse tree is a graphical depiction of derivation
+
+f. Draw the 2 possible Parse Tree for the Grammar - E==>E+E|E*E|id parsing id+id*id
+Ans: 
+         E                              E
+    _____|_____                    _____|_____
+   |     |     |                  |     |     |
+   E     +     E                  E     *     E
+   |       ____|____          ____|____       |
+   id     |    |    |        |    |    |      id
+          E    *    E        E    +    E
+          |         |        |         |
+          id        id       id        id
+
+   LMD                       RMD
+   
+   The above also shows that the Grammar is Ambiguous
+
+
+g. What are the 2 methods used to remove Ambiguity?
+Ans: Precedence    (apply BODMAS)
+     Associativity (use Brackets)
+
+h. What is a sentential form?
+Ans: 
+
+i. Use the below Production Rule to generate a Sentential form and draw the parse tree 
+   for the sentence - "The man ate the fruit".
+   <S>   ==> <NP1><VP>
+   <NP1> ==> <Art1><N1>
+   <Art1>==> The
+   <N1>  ==> man
+   <VP>  ==> <v><NP2>
+   <v>   ==> ate
+   <NP2> ==> <Art2><N2>
+   <Art2>==> the
+   <N2>  ==> fruit
+
+Ans:  Parse Tree
+
+                                    <S>
+                     ________________|_______________
+                    |                                |
+                  <NP1>                             <VP>
+             _______|_______                   ______|_______
+            |               |                 |              |
+          <Art1>           <N1>              <V>           <NP2>
+            |               |                 |          ____|_____
+            |               |                 |         |          |      
+            |               |                 |       <Art2>      <N2>
+            |               |                 |         |          |       
+           The             man                 ate     the       fruit
+
+
+       Sentential Form
+
+       <S> ==> <NP1><VP>                # Replace NP1
+       <S> ==> <Art1><N1><VP>           # Replace VP
+       <S> ==> <Art1><N1><v><NP2>       # Replace NP2
+       <S> ==> <Art1><N1><v><Art2><N2>  # Perform LMD 
+       <S> ==> The   <N1><v><Art2><N2>
+       <S> ==> The   man <v><Art2><N2>
+       <S> ==> The   man ate<Art2><N2>
+       <S> ==> The   man ate the  <N2> 
+       <S> ==> The   man ate the  fruit
+
+
+6TH LECTURE
+
+1. Define Automata Theory?
+Ans: It is the study of abstract computing devices on computational model.
+
+b. What are they used for?
+Ans: They are used to solve language recognition problem
+
+c. A device that recognizes Type 3 grammar is __________?
+Ans: Finite State Automaton
+
+d. What are the 2 types of FSA?
+Ans: DFSA  - Deterministic Finite State Automaton
+     NDFSA - Non-Deterministic Finite State Automaton
+
+e.  How is DFSA & NDFSA different from each other?
+Ans: DFSA  - When the machine ends at the final state
+     NDFSA - When the machine doesn't end at the final state
+
+e. Draw the Transition diagram (or device) using the following transition table?
+   Transition Table
+   starts| 0 | 1
+      A  |B,C| A
+      B  | D | A
+      D  | B | C
+      C  | A | D
+Ans: Go Ahead
+
+f. Can the above transition tables diagram recognize i. 0010 and ii. 0100?
+Ans: 0010 - it is recognizable
+     0100 - it is not recognizable
+
+
+
+
+
+
+
+
+
+
+
+
+GOODLUCK ✅
