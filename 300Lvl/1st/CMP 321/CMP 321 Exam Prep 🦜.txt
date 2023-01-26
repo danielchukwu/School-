@@ -1,0 +1,769 @@
+Exam Prep
+
+
+
+
+
+
+SLIDE 1
+
+
+
+1a. What is Concurrency?
+Ans: This is the execution of multiple instruction sequences at the same time
+
+b. In the operating system, concurrency occurs when there are several process 
+   threads running in parallel. True or False?
+Ans: True
+
+c. How do the Process Threads maintain communication?
+Ans: Through Shared memory or Message passing
+
+d. What are some problems with Concurrency?
+Ans: Deadlocks and Resources starvation
+
+e. How does Concurrency help?
+Ans: - Coordinating execution of processes
+     - Memory Allocation and
+     - Execution Scheduling for maximizing output
+
+f. _______ and _______ processes are two types of concurrent processes with 
+the same problems. 
+Ans: Interleaved and Overlapping
+
+g. In concurrency it is impossible to predict the relative speed of execution, 
+   and the following factors determine it:
+      - The way operating system handles interrupts
+      - Other processes' activities
+      - The operating system's scheduling policies
+
+h. List 4 Concurrency Problems?
+Ans: i.   Locating the programming errors is difficult
+     ii.  Sharing Global Resources is difficult 
+     iii. Locking the Channel could be inefficient for the OS to do
+     iv.  Optimal Allocation of Resources is challenging for the OS to handle
+
+
+i. List some of the Issues with Concurrency?
+Ans: - Non-atomic
+     - Deadlock
+     - Blocking
+     - Race Conditions
+     - Starvation
+
+j. Discuss the above issues with Concurrency?
+Ans: Non-atomic
+        - A non-atomic operation depends on other processes, and an atomic 
+          operation runs independently of other processes.
+        - Operations that are non-atomic but interruptible by several processes 
+          may have issues.
+
+     Deadlock
+        - This occurs when one group member waits for another member, including
+          itself, to send a message and release a lock
+        - Software and hardware locks are commonly used to arbitrate shared 
+          resources and implement process synchronization in parallel computing, 
+          distributed systems, and multiprocessing.
+
+     Blocking
+        - A blocked process is waiting for some event, like the availability 
+          of a resource or completing an I/O operation. 
+        - Processes may block waiting for resources, and a process may be 
+          blocked for a long time waiting for terminal input. 
+        - If the process is needed to update some data periodically, it will be 
+          very undesirable.
+
+     Race Conditions
+        - A race problem occurs when the output of a software application is 
+          determined by the timing or sequencing of other uncontrollable events. 
+        - Race situations can also happen in multithreaded software, runs in a 
+          distributed environment, or is interdependent on shared resources.
+
+     Starvation
+        - A problem in concurrent computing is where a process is continuously 
+          denied the resources it needs to complete its work.
+        - It could be caused by errors in scheduling or mutual exclusion 
+          algorithm, but resource leaks may also cause it.
+        - Concurrent system design frequently requires developing dependable 
+          strategies for coordinating their execution, data interchange, 
+          memory allocation, and execution schedule to decrease response time 
+          and maximize throughput.
+
+k. List the Advantages of Concurrency?
+Ans: - Better Performance.
+     - Better Resource Utilisation
+     - Running Multiple Applications
+
+l. List the Disadvantages of Concurrency?
+Ans: - It is necessary to protect multiple applications from each other.
+     - It is necessary to use extra techniques to coordinate several applications.
+     - Additional performance overheads and complexities in OS are needed 
+       for switching between applications.
+
+m. List the Components of a Modern OS?
+Ans: - Processes
+     - Memory Management
+     - Information Protection and Security
+     - Scheduling and Resource Management
+
+
+
+
+2. What is a Process?
+Ans: Its a program in execution
+     or
+     An instance of a running program
+     or
+     The entity that can be assigned to, and executed on a processor
+     or
+     A unit of activity characterised by a single sequential thread of execution, 
+     a current state, and an associated set of system resources.
+
+b. What are the Operations performed on the Process?
+Ans: 1. Creation
+     2. Scheduling
+     3. Execution
+     4. Deletion/killing
+
+c. What are the 3 Components of a Process?
+Ans: - An executable program.
+     - The associated data needed by the program:
+       - Variables
+       - Workspace
+       - Buffers, etc.
+     - The execution context (or process state) of the program.
+
+d. What is the Execution Context of a Process?
+Ans: it's the internal data by which the OS is able to supervise and 
+     control the process.
+
+     Extra: 
+     - Includes the contents of the various process registers.
+     - Includes information such as the priority of the process and whether the 
+       process is waiting for the completion of a particular I/O event.
+
+
+e. What are the two essential elements of a process
+Ans: - Program Code
+     - A set of data associated with the code
+
+f. When the processor begins to execute the program code, the executing entity 
+   is referred to as ________?
+Ans: The process
+
+g. While a program is executing, the process can be uniquely characterised by a 
+   number of elements. Draw a diagram showing all this elements
+Ans: 
+                 _____________
+                |             |
+                | identifier  |
+         |¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+         | State | Priority | Program Counter |    
+  |¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯|
+  | Memory  | Context | I/O status  | Accounting  |
+  | Pointer |  Data   | Information | Information |
+   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+h. Draw the Process Control Block?
+Ans: (Slide 23)
+
+
+i. What does the Process Control Block Contain?
+Ans: Process Elements
+
+j. The Process Control Block is created and Managed by __?
+Ans: OS
+
+K. The Process Block makes it possible to interrupt a running process and 
+   later resume execution. True or False?
+Ans: True
+
+l. When a process is executed, it changes the _____?
+Ans: State
+
+m. How is the State of a Process determined?
+Ans: By its current activity
+
+n. The minimum number of states is ______?
+Ans: 5
+
+o. Draw the State Diagram?
+Ans: check slide 25
+
+p. List the states the Process may be in during execution?
+Ans: New
+     Ready
+     Running
+     Block or Wall
+     Completion or termination
+     Suspend ready
+     Suspend wall
+
+q. The entire state of the process at any instance is contained in its ________?
+Ans: Context
+
+r. New features can be designed and implemented into the OS by expanding the 
+   context to include any new information needed to support the feature. True or False?
+Ans: True
+
+
+
+
+
+
+
+
+
+
+
+
+SLIDE 2
+
+
+
+1a. Modern operating systems are multiprogramming operating systems. True or False?
+Ans: True
+
+b. What is a Multiprogramming OS?
+Ans: A multiprogramming OS is one that allows more than one process to share the 
+     executable memory and CPU at the same time.
+
+c. Process scheduling is an essential part of a multiprogramming operating systems. True or False?
+Ans: True
+
+d. What is Process Scheduling?
+Ans: Process scheduling is the action of the process manager that handles the 
+     removal of a running process from the CPU and the selection of another 
+     process on the basis of a particular strategy.
+
+e. What are the two categories of Scheduling?
+Ans: - Pre-emptive Scheduling
+     - Non-Pre-emptive Scheduling
+
+f.Explain the two(2) main categories of Scheduling?
+Ans: Pre-emptive Scheduling
+      - Here the OS allocates the resources to a process for a fixed amount of time. 
+      - During resource allocation, the process switches from running state or 
+        waiting state to ready state
+      - This switching occurs as the CPU may give priority to other processes 
+        and replace the process with higher priority with the running process.
+
+     Non-Pre-emptive Scheduling
+      - Here the resource can’t be taken from a process until the process completes
+        execution
+      - The switching of resources occurs when the running process terminates 
+        and moves to a waiting state.
+
+g. When does the switching of resources occur in both categories of Scheduling
+Ans: In pre-emptive 
+      - The switching occurs when the CPU gives priority to other processes and 
+        then the process with higher priority replaces the running process
+
+     Non-Pre-emtive Scheduling
+      - The switching occurs when the running process terminates and moves to a 
+        waiting state
+
+h. How does the OS maintain the Process Control Block?
+Ans: It maintains it in the Process Queue
+
+i. How does the Process Scheduling Queue actually work?
+Ans: - The OS keeps a seperate Queue for each of the process states and PCB's 
+       in the same execution states are placed in the same queue
+     - When a process state changes, it's PCB is unlinked from it's current Queue
+       and moved to a new state Queue
+     
+j. The OS maintains 3 important Scheduling Queues?
+Ans: Job Queue
+     Ready Queue
+     Device Queue
+
+k. Draw the Diagram of the these 3 important Scheduling Queues?
+Ans: (Slide 2 page 6)
+
+l. Explain the 3 important scheduling Queues?
+Ans: - Job Queue
+         maintains all processes in the system
+     - Ready Queue
+         maintains the set of all processes in the main memory, wiating and ready 
+         to execute
+     - Device Queue
+         Processes which are blocked (due to unavailability of an I/O device) are
+         contained here
+
+l. What are Schedulers?
+Ans: This are special system softwares that handle scheduling
+
+m. What is the task of a scheduler?
+Ans: It is to select jobs(processes) to be submitted to the system and 
+     to decide which of them to run
+
+n. What are the 3 types of Schedulers?
+Ans: Long-Term Scheduler
+     Short-Term Scheduler
+     Medium-Term Scheduler
+
+o. Discuss all 3 types of Scheduler
+Ans: Long-Term Scheduler
+     - determines with jobs are submitted for processing
+     - selects jobs from the queue and loads them into memory for execution
+     - On some systems, long-term scheduler may not be available
+     - it changes a process state from `new` to `ready`
+     
+     Short-Term Scheduler
+     - also known as `CPU Scheduler`
+     - used to increase a system
+     - it changes a process state from `ready` to `running`
+     - it selects a process ready for execution and allocates CPU to it
+     - decides which process to execute next
+     - faster than Long-Term and Short-Term Scheduler
+
+     Medium-Term Scheduler
+     - used for swapping of processes
+     - reduces the degree of multiprogramming (by removing processes from memory)
+     - it handles swapped out-processes
+
+p. Draw a Table Comparing Schedulers?
+Ans: (Slide 2 Page 11)
+
+q. What does the CPU scheduler do?
+Ans: it selects a process ready for execution and allocates CPU to it
+
+r. List the 4 occasions when we can/must choose a new process to run?
+Ans: i.   A running process blocked (running ! blocked)
+     ii.  A timer expires (running ! ready)
+     iii. A waiting process unblocked (blocked ! ready)
+     iv.  A process terminates (running ! exit)
+
+s. List the Criteria involved in Scheduling?
+Ans: CPU utilization: the fraction of time the CPU is in use
+     Throughput:      number of process completed per time unit
+     Turnaround Time: amount of time to execute a particular process
+     Waiting Time:    amount of time a process has been waiting in the Ready Queue
+     Response Time:   amount of time frm when request was submitted until the first 
+                      response
+
+t. What are some Scheduling strategies?
+Ans: - Maximizing throughput or CPU utilization
+     - Minimizing average Turnaround, Waiting Time, Response Time
+
+
+
+
+
+2. A process Scheduler shedules different processes to be assigned to the CPU 
+   based on particular ________?
+Ans: Scheduling Algorithms
+
+b. List the 6 popular Process Scheduling Alogrithms?
+Ans: Firt-Come, First-Served (FCFS) Scheduling
+     Shortest-Job Next (SJC) Scheduling
+     Priority Scheduling
+     Shortest Remainig Time 
+     Round Robin Scheduling
+     Multiple-Level Queue Scheduling
+
+
+First-Come, First-Served (FCFS)
+c. Discuss Firt-Come, First-Served Scheduling?
+Ans: - Jobs are executed on first-come, first-serve basis
+     - it is a non-pre-emptive and pre-emptive scheduling algorithm
+     - Easy to understand and implement
+     - its implementation is based on FIFO queue
+     - Poor in performance (it's average wait time is high)
+
+d. Given three processes P1, P2 and P3. If they arrive in the order P1,P2 and P3 
+   with burst time of p1=25, p2=4, p3=7.
+   i.  What will be thier waiting time
+   ii. What will be the Average Waiting time
+   iii. If processes arrived in reverse order P3,P2,P1. Answer i & ii
+Ans:   ________________________________
+      |        p1        | p2 |   p3   |
+      0¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯25¯¯¯29¯¯¯¯¯¯¯¯36
+
+   i.  Waiting time: P1=0; p2=25; p3=29
+   ii. Average Waiting Time: (P1+P2+P3) / 3
+                             (0 +25+29) / 3
+                             = 18
+       ________________________________
+      |   p3   | p2 |        p1        |
+      0¯¯¯¯¯¯¯¯7¯¯¯11¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯36
+
+   i.  Waiting time: P1=11; P2=7; P3=0;
+   ii. Average Waiting Time: (P1+P2+P3) / 3
+                             (11 + 7+0) / 3
+                             = 6
+
+
+Shortest-Job-Next (SJN)
+e. Discuss Shortest-Job Next Scheduling
+Ans: - it is a non-pre-emptive and pre-emptive scheduling algorithm
+     - it has the best approaches to minimizing waiting time
+     - easy to implement in batch systems (where required CPU time is known in advance)
+     - impossible to implement in interactive systems (where required CPU time is unknown)
+     - process needs to know in advance how much time process will take
+
+f. SJN scheduling is a product of the intuitions from the ____________?
+Ans: FCFS scheduling algorithms
+
+g. How does the calculation for Shortest-Job-Next (SJN)?
+Ans: - Associate with each process the length of its next CPU burst.
+     - Use these lengths to schedule the process with the shortest 
+       time (FCFS can be used to break ties).
+
+
+Priority Scheduling
+h. Discuss Priority Scheduling?
+Ans: - it is a non-pre-emptive scheduling algorithm
+     - it is one of the most common scheduling algorithms for batch systems
+     - each process is assigned a priority and the one with the highest is executed first
+     - processes with the same priority is executed on a First-Come, First-Served basis
+     - the parameters that determine priority are: 
+       - memory
+       - time,
+       - e.t.c
+ 
+i. What are the two types of Priority Scheduling?
+Ans: Static and;
+     Dynamic
+
+j. Discuss the Static Priority Scheduling?
+Ans: Static Priority Scheduling
+     - This algorithm associates an integer priority with each process e.g
+
+     Priority | Type                    | | Priority | Type
+     -----------------------------------------------------------------
+         0    | System internal process | |     2    | Interactive processes
+         1    | Interactive processes   | |     3    | Batch processes
+
+     - allocates the CPU to the process with highest priority
+     - the process with the smaller number is considered the  highest priority
+
+Shortest Remaining Time First (SRTF)
+k. Discuss Shortest Remaining Time First?
+Ans: - SRTF is the pre-emptive version of SJN
+     - In SRTF, if new process arrives with a CPU burst length less than the  
+       remaining time of the current executing process, preempt.
+       - For example:
+
+		Process		Arrival Time		Burst Time	
+					𝑃1			0				7
+					𝑃2			2				4
+					𝑃3			4				1
+					𝑃4			5				4
+
+
+Round Robin(RR) Scheduling
+l. Discuss Round Robin?
+Ans: - RR defines a small fixed unit of time called a quantum (or time-slice), 
+       typically 10-100 milliseconds. Then:
+       - Process at head of the ready queue is allocated the CPU for (up to) 
+         one quantum.
+       - When the time has elapsed, the process is preempted and added to the 
+         tail of theready queue.
+
+m. What are the two nice properties that Round Robin have?
+Ans: Fair: if there are n processes in the ready queue and the time quantum 
+           is q, then each process gets 1/nth of the CPU.
+     Live: no process waits more than (n − 1)q time units before receiving a 
+           CPU allocation.
+
+n. RR typically gets higher average turnaround time than SRTF, but better average 
+   response time.  True or False 
+Ans: True
+
+o. It is quite tricky choosing the correct size of the quantum, therefore we use _________?
+Ans: if q too large ) FCFS/FIFO
+            if q too small ) context switch overhead too high.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SLIDE 3 
+
+1a. The terms process and task are often used ___________?
+Ans: interchangeably
+
+b. What is a Thread?
+Ans: its a Lightweight Process that shares memory space with other processes
+
+c. List all Thread - Process Similarities?
+Ans: - they have their own private register set and stack
+     - have thier own logical control flow
+     - can run concurrently
+     - are context switched
+     - have a state(ready, running, etc.)
+     - can create child threads/processes.
+
+d. List all Thread - Process differences?
+Ans: - A single process can have multiple threads (per thread)
+     - Threads of a process are much like child processes of the process, 
+       but sharing memory space with parent process.
+     - Peer threads share code, data, file descriptors and process priority, 
+       while processes (typically) do not.
+     - All threads can access all address in the process memory space.
+     - A thread can access another (peer) thread’s stack.
+     - Threads are somewhat less expensive than processes.
+
+e. What are the usual terminologies of Process, Task, Threads?
+Ans: - Process is always something big
+     - Task
+       - Same with process in big systems
+       - Same with thread in small or embedded systems
+
+f. In Embedded Systems their is one process?
+Ans: The Kernel
+
+g. Tasks are also called ______ in embedded systems?
+Ans: Threads
+
+h. When two threads run concurrently. What does it mean?
+Ans: It means that their logical flow overlaps otherwise they are sequential
+
+i. Draw a diagram show me concurrent threads and sequential threads?
+Ans: Check Slide 3 page 6
+
+j. Why do we need multiple processes?
+Ans: - Processes help us mangage timing complexity
+       - Multiple rates
+       - Asynchronous Input
+     - Life without processes: Code turns into a mess:
+       - interruptions of one task for another
+       - spaghetti code
+
+k. Draw a diagram of Multiple Process?
+Ans: Check Slide 3 page 8
+
+
+
+
+
+2. What is Context Switching?
+Ans: It is an OS process management mechanism that allows multiple processes to 
+     use a single CPU
+
+b. Context Switching stores the status of the executing process. Why is this?
+Ans: So that it can be reloaded from the same point where it was stopped
+   
+c. Multiple Processes => CPU's replacement of the currently running process is 
+   called __________?
+Ans: Context Switching
+
+d. What are the steps involved in Context Switching?
+Ans: 1. Process is interupted
+     2. Registers for that particular processor are stored in the PCB
+     3. The process is placed in a "read" queue to wait for the next time it gets 
+        the CPU
+     4. PCB stores priority and memory usage
+     5. New Process's registers and status are loaded into the processor
+     6. Process starts running
+
+e. What are the 3 PCs involved in a context switch?
+Ans: a) Batch System:
+            An OS technique where 1 job completes before another starts
+     b) Multitasking: 
+            An OS technique, for sharing 1 processor amongst multiple processes
+     c) Multiprocessing:
+            processes executed in parrallel, in multiple CPU's
+
+f. What are the features provided to the 0s to facilitate multiple processes running
+   on the same CPU?
+Ans: a) Context Switching:
+             alternating between different processes or tasks
+     b) Scheduling:
+             deciding which process to run
+             Types of Scheduling Algoritms
+             - FCFS, SJN, Priority, Round Robin, SRT, Multiple-Level Queues
+     c) Critical Sections:
+             provides adequate memory protection for the concurrent processes
+
+g. What aret the 2 types of Multitasking?
+Ans: Cooperative multitasking
+     Preemptive  multitasking
+
+h. How does Cooperative Multitasking work?
+Ans: The running process decides when to yield to the CPU and then the scheduler 
+     decides the process to run next
+
+i. What are the Problems to Cooperative Multitasking?
+Ans: - Programming errors can keep other processes out
+     - Process never gives up CPU
+     - Process waits too long to switch, missing input
+
+j. Preemptive multitasking is the most powerful form of Multitasking. True or Yes?             
+Ans: True
+
+k. How does Preemptive Multitasking work?
+Ans: - OS controls when context switches Occur
+     - The Scheduler picks which process to run next
+
+l. Premptive multitasking uses ______ to call the OS to switch context
+Ans: timer
+
+m. What is the Preemptive OS Kernel?
+Ans: It's a kernel that can take a process out of the processor
+
+n. In both cooperative and preemptive multitasking cases, Hardware interrupts might cause 
+         a process to yield the CPU prematurely. True or False?
+Ans: True
+
+o. It is during a clock interrupt that the kernel (scheduler) can determine if another 
+         process than the currently executed should run. True or False?
+Ans: True
+
+
+
+Triggers of Context Switch
+p. What are the three main triggers of Context Switching?
+Ans: - Multitasking
+     - Interrupt Handler
+     - User and Kernel Switching mode
+
+q. Discuss all 3 Triggers of Context Switch?
+Ans: Multitasking
+     - In the multitasking environment, when one process is utilizing CPU, and there is a 
+                    need for CPU by another process, Context Switching triggers. 
+     - Context Switching saves the state of the old process and passes the control of the 
+                   CPU to the new process.
+
+              Interrupt Handling
+     - When an interrupt takes place, the CPU needs to handle the interrupt.
+     - Before handling the interrupt, the Context Switching gets triggered, 
+                   which saves the state of the process before handling the interrupt.
+
+     User and Kernel Switching mode
+     - The user mode is the normal mode in which the user application can execute with 
+                   limited access, whereas kernel mode is the mode in which the process can carry out the system-level operations that are not available in the user mode. 
+     - Whenever the switching takes from user mode to kernel mode, mode switching triggers 
+                   the Context Switching, which stores the state on an ongoing process.
+
+r. How does Time-Slicing work?
+Ans: - Time-slice (or quantum): period of time a task can run before a context-switch 
+                    can replace it
+     - Driven by periodic hardware interrupts from the system timer
+     - During a clock interrupt, the kernel’s scheduler can determine if another process
+        should run and perform a context-switch 
+     - Of course, this doesn’t mean that there is a context-switch at every time-slice
+     - Preemption
+       - Currently running task can be halted and switched out by a higher-priority 
+                        active task
+       - No need to wait until the end of the time-slice
+
+r1. Draw a diagram of Time-Slicing in action?
+Ans: Slide 3 page 22
+
+s. How often do context switches occur in practice?
+Ans: It depends on how often users interact, how many processes need attention, etc.
+
+t. What is the difference between System Context-Switch and Processor Context-Switch?
+Ans: - Processor context switch
+                         amount of time for the CPU to save the current process’s context and restore the 
+                         next process’s context
+     - System context switch:
+         amount of time from the point that the process was ready for context-switching 
+                         to when it was actually swapped in
+
+u. System context-switch time is a measure of __________?
+Ans: responsiveness
+
+v. How long does a system context-switch take? 
+Ans: - Time-slicing : time-slice period (at least one) + processor context-switch time
+     - Preemptive :      a processor context-switch time 
+     - Preemption:      is mostly preferred because it is more responsive  
+                                                        (system context-switch = processor context-switch)
+
+w. Non-zero context switch time can push limits of a ______________.
+Ans: Tight Schedule
+
+x. In practice, OS context switch overhead is small. True or False?
+Ans: True
+
+
+
+
+
+
+3. List 3 Advantages of Context-Switching?
+Ans: - Context switching is used to achieve multitasking i.e. multiprogramming with
+                   time-sharing. 
+     - Multitasking gives an illusion to the users that more than one process are being 
+                   executed at the same time. But in reality, only one task is being executed at a 
+                   particular instant of time by a processor. 
+     - Context switching occurs very fast that the user feels that the CPU is executing 
+                   more than one task at the same time.
+
+b. List 3 Disadvantages of Context-Switching?
+Ans: - The disadvantage of context switching is that it requires some time for context 
+                   switching i.e. the context switching time. 
+     - Time is required to save the context of one process that is in the running state and 
+                   then getting the context of another process that is about to come in the running 
+                   state. 
+     - During that time, there is no useful work done by the CPU from the user perspective 
+                   therefore, context switching is pure overhead in this condition.
+
+c. What is the Dispatcher?
+Ans: The dispatcher is an OS module that gives control of the CPU to the process selected 
+              by the short term scheduler.
+
+d. Draw a dispatch diagram?
+Ans: Slide 3 page 29
+
+e. What are the roles of a Dispatcher?
+Ans: - Switch context.
+     - Switching to user mode.
+     - Jumping to the proper location in the user program to restart that program.
+
+f. What is Dispatch Latency?
+Ans: is the time it takes for the dispatcher to stop one process and put another in the 
+              running state from the ready queue.
+
+g. Draw a diagram of Dispatch Latency?
+Ans: Slide 3 page 31
+
+h. Draw a table showing the difference between a Dispatcher and a Scheduler?
+Ans: Slide 3 page 32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COMPLETED ✅
+
+
+
+
+
+
+
+
+
+
+
+
+
+

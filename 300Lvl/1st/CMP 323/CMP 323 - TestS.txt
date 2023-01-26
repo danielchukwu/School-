@@ -1,0 +1,39 @@
+1st TEST 
+1. How do declarative paradigms work?
+Ans: Its a method to abstract away the control flow for logic required for software to perform an action
+     or
+     declarative programming consists of instructing a program on what needs to be done, instead of telling it how to do it.
+
+2. Why do we use identifiers in procedural programming?
+Ans: Identifiers or variables are help store data in memory locations to be used in the program
+
+Extra: What is procedural programming?
+     Procedural programming is a programming paradigm built around the idea that programs are sequences of instructions to be executed.
+     OR
+     Procedural programming is a programming paradigm that uses a linear or top-down approach.
+
+3. What are composite data types?
+Ans: Composite data types (or compound data types) is any data type which can be constructed in a program using the programming language's primitive data types and other composite types
+     OR
+     Composite data types are a combination of primitives and other data types.
+
+4. What are Compound Statements?
+Ans: A combination of two or more simple statements
+
+5. What three control statements are strongly recommended by structured programming?
+Ans: Sequential control structure.
+     Selection control structure.
+     Iteration control structure.
+
+
+
+
+
+
+
+
+
+
+
+
+
