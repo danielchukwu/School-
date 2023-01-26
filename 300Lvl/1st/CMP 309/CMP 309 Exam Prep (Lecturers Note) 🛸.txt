@@ -1187,11 +1187,67 @@ G. Joint Requirements Planning
 Lecture 6
 
 
-1. 
+1. What is Feasibility Study?
+Ans: it is the measure of how beneficial or practical the development of an 
+     information system will be to an organisation
+
+b. What is Feasibility Analysis?
+Ans: It is the process by which feasibility is measured
+
+c. In analysis we Identify candidate solutions and make decisions. True or False?
+Ans: True
+
+d. What are the Four Test for Feasibility?
+Ans: - operational 
+     - technical 
+     - schedule and 
+     - economic feasibility
+
+e. Discuss the Four test of Feasibility?
+Ans: 1. Operational feasibility
+        - is the problem worth solving? or will the solution to the problem work?
+        - is the solution compliant with the laws and regulations?
+        - will the solution fulfill the users requirement?
+        - how will the solution change the users work environment
+        - ow do users feel about the proposed solution?
+
+     2. Technical Feasibility
+        - is the proposed technology or solution practical?
+        - do we currently posses the necessary technology?
+        - do we posses the necessary technical expertise
+        - does the staff have the technical expertise to design and build this solution?
+
+     3. Schedule Feasibility
+        - Given our technical expertise are the project deadlines reasonable?
+        or
+        - can the solution be designed and implimented within the given timeframe?
+
+     4. Economic Feasibility
+        - How much will the systems cost?
+        - What benefits will the system provide?
+          - tangible benefits
+          - intangible benefits
+        - Is the proposed system cost-effective?
 
 
+f. List some cost-benefit analysis techniques
+Ans: - Break-even analysis
+     - Cashflow analysis
+     - Return on Investment analysis
+     - Net present value (NPV)
 
  
+
+
+
+
+
+
+
+
+
+
+DONE ✅
 
 
 
