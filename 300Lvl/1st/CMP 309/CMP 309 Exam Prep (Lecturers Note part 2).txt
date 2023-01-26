@@ -1,0 +1,148 @@
+CMP 309 Exam Prep 
+
+
+Lecture 7 (Lecturers Last Note)
+
+
+System Design Phase
+
+1a. What is the Information System Design Phase?
+Ans: Information System design are those tasks that focus on the specification of a
+     detailed computer-based solution - (Physical design)
+
+b. What is Application architecture?
+Ans: it describes the pattern and techniques used to design ... an application
+
+Tasks 5.1
+
+c. List all the tasks involved involved in Tasks 5.1
+Ans: 5.1 Application Architecture (defines the technologies to be used)
+     5.2 Design the Systems Database
+     5.3 Design the systems interface (Input Screen)
+     5.4 Package design specification (to guide the programmer in implementation)
+     5.5 Update project plan
+
+
+System Construction / Implementation
+
+d. What is System Construction?
+Ans: It is the development, installation and testing of system components
+
+e. What is System Implementation?
+Ans: It is the delivery of that system into production (meaning day-to-day operations)
+
+f. What is the purpose of this phase?
+Ans: it is to develop and test a functional system that fulfils business and design
+     requirements and to also implement the interfaces between the new system and 
+     the existing production systems
+
+g. ________ is generally the major aspect of this phase?
+Ans: Programming
+
+h. Discuss the Tasks involved?
+Ans: 6.1 Build and test network (if necessary)
+         - in many cases new systems are built around existing networks - if so 
+           skip this task else you must implement the network architecture
+         - the task is performed by - network administrator; or a network designer
+     6.2 Build and Test Databases
+         - this is done by a database specialist
+         - the input to this task are the database schemas specified during the design
+         - final product, should be the populated database
+     6.3 Install and Test New Software packages (if necessary)
+         - this involves all the stakeholders
+           There are 3 levels of testing
+           a) Stub testing: 
+                is the test perfomed on events or modules of the program. In other 
+              words it is the testing of an isolated subset of the program.
+           b) Unit or Program testing:
+                is the testing of an entire program. In other words its a test where
+              by all the events or modules that have been coded and stub tested for 
+              a program are tested as an integrated unit
+           c) Systems testing:
+                Ensures that application programs written and tested in isolation
+              work properly when they are integrated into the total program
+
+
+i. Once the system test is completed and successful. What is next?
+Ans: We can proceed to the implementation of the System
+
+
+
+
+
+
+The Implementation Phase
+
+2. What happens in the implementation phase?
+Ans: here the new system is delivered into operations
+
+b. What are the Tasks involved in this phase?
+Ans: 7.1 Conduct System Test:
+         - the input to this phase is the new system with observation from the 
+           previous phase (if any)
+     7.2 Prepare a Conversion Plan
+         - once a successful system test has been completed, we can begin 
+           preparations to place the new system into operation
+         - the plan include => databases to be installed
+         - end user to any and documentation
+         - strategy for converting from the old system to the new system
+
+         This is mostly done by the project manager
+
+C. Types of Conversion plan may include the following. List all?
+Ans: i) Abrupt cut-over
+           the old system is terminated and the new system is placed into operations
+           - this is a high-risk approach because their may still be major problems
+             that won't be uncoverd until the system has been in operations for at 
+             least one business period
+
+     ii) Parallel Conversion
+           both the old and the new systems are operated for sometime period. This 
+           ensures that all major problems in the new System gets solved before the
+           old system is discarded. The cut-over may be abrupt, or gradual as 
+           portions of the new systems are deemed adequate
+           Advantage and disadvantage
+           - This strategy minimizes the risk of major flaws in the new system 
+           - Sadly, the cost of running the two systems concurrently may be high
+           
+     iii) Location Conversion
+           when the same system would be used in numerous geo locations, it is 
+           converted in one location first, when it is tested and trusted then it
+           will be deployed to the other locations
+
+     iv) Staged Conversion
+           this is based on the version concept introduced earlier. Each version of
+         the new system is converted as it is developed
+
+d. 
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

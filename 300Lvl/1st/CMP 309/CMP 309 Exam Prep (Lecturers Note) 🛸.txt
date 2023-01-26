@@ -1,9 +1,14 @@
-aCMP 309 EXAM PREP
+CMP 309 EXAM PREP
 
 
 Tip on how to study
 This course is like a story. You don't need to know word for word what everything 
-is, just try to understand it and tell it in your own understanding
+is, just try to understand what it's talking about and tell it in your own 
+understanding
+
+Also don't just read it. Gey a book or paper with a pen and answer the questions
+repeatedly so you know it. Glancing through the questions and seeing the answers
+may not be sufficient but answering them yourselve repeatedly just might
 
 
 Lecture 1
@@ -15,7 +20,7 @@ Ans: A system is a group of interelated components working together toward a com
      process.
 
 b. The term system was derived from the greek word 'systema' which means?
-Ans: Organized relationship among functioning units or components
+Ans: Organized relationship among functioning components
 
 
 c. Draw a diagram of the Environment?
@@ -100,7 +105,7 @@ Ans: Data endowed with relevance and purpose, useful to human beings in processe
 c. What is Knowledge?
 Ans: Information from the human mind which guides human behaviour in correct ways
      - Hard to structure
-     - Difficultto capture on machine
+     - Difficult to capture on machine
      - Hard to transfer
 
 
