@@ -1,17 +1,20 @@
 CMP 309 EXAM PREP
 
+How To Study the Material
 
-Tip on how to study
-This course is like a story. You don't need to know word for word what everything 
-is, just try to understand what it's talking about and tell it in your own 
-understanding
+Tips: 
+- Best to study using the github repo link
+- Use a laptop or device with a relatively big screen to study
+- Glancing through the questions and answers may not cement the knowledge. 
+  But answering them as you go through them on some book or paper repeatedly 
+  definitely will
 
-Also don't just read it. Gey a book or paper with a pen and answer the questions
-repeatedly so you know it. Glancing through the questions and seeing the answers
-may not be sufficient but answering them yourselve repeatedly just might
+
+
 
 
 Lecture 1
+
 CONCEPT OF INFORMATION SYSTEM
 
 1. What is a system?

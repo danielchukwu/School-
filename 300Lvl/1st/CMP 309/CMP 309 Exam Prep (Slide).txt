@@ -1,5 +1,18 @@
 CMP 309 EXAM PREP
 
+
+How To Study the Material
+
+Tips: 
+- Best to study using the github repo link
+- Use a laptop or device with a relatively big screen to study
+- Glancing through the questions and answers may not cement the knowledge. 
+  But answering them as you go through them on some book or paper repeatedly 
+  definitely will
+
+
+
+
 1a. What are Process Models?
 Ans: It's a framework that describes the activities perormed at each stage of a software 
      development project
