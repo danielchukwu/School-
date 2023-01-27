@@ -1,0 +1,258 @@
+3RD LECTURE (Practical Begins)
+
+1. If you are using wamp paste the extracted wordpres folder in
+C:/wamp/www
+
+If you re using xampp
+C:/xampp/htdocs
+
+2. Once that is done we should have the below look
+C:/wamp/www/wordpress
+C:/xampp/htdocs/wordpress
+
+3. Rename the wordpress folder to your desired business name
+C:/wamp/www/handy
+C:/xampp/htdocs/handy
+
+4. Open your browser and visit localhost
+http://localhost/phpmyadmin (or localhost:8080)
+
+Enter username: root
+Enter password:          # leave blank
+
+click on 'Go
+
+
+SPIN-OFF QUESTION
+Lecturer Asks: Who can tell me why we are using root?
+This is because the super user is always found in the root
+
+
+7. Click on the user account and if you do so you should see some users
+
+Click on Edit root botton in the root row and if you do so you should see that almost all the check boxes are ticked
+and it is not advised to create a project using the roo therefore we would need to create a new user
+
+
+8. Go back
+9. Add new user
+10 Enter details
+   Enter Username: daniel
+   Host  name:                // skip this field
+   Enter Password: 12345
+   Re-type:        12345
+
+11. Scroll down to the Global Priviledges
+
+12. Click on Check all on Global Priviledges (Note: In a real world scenario we wouldn't do this but for class purposes let's check all)
+
+13. Click on go to create user
+
+14. Now Open another tab on the browser and visit
+localhost/handy
+
+15. Open another tab and visit the below link in order to create a database
+localhost:phpmyadmin
+
+16. Click on new (left tab) and then create a database with the name handy
+name: Handy
+click create
+
+17. Go back to 
+localhost/handy
+
+click Let's go! button
+
+18. Fill out the form
+Database Name: handy
+Username: daniel
+password: 12345
+skip the rest!
+
+Click Submit
+
+Click Run the installation
+
+19. Fill out the form
+Site Title: handy
+Username: daniel
+Password: 12345  
+confirm password: ✅
+Your Email: 00chukwudaniel@gmail.com
+
+
+Click Install WordPress
+
+Page loads >> Success!
+
+20. Click on Log In
+    Enter Username: daniel
+    Enter Password: 12345
+    Remember Me: ✅
+    click on Log In
+
+21. On the header, hover over handy(your site name) and you should see a drop down that says visit Site, Click on that
+
+
+Click on the W (wordpress) Logo to go back to the admin page
+
+Hover on the Appearance and then click on Themes and just like that we can select any theme of our choice
+
+
+ANY QUESTIONS
+
+NEXT CLASS:
+We are going to be setting up a theme in the website
+
+
+
+
+
+
+
+
+
+4TH LECTURE
+
+1. Run your wamp or xamp server
+
+2. visit the below link after wamp or xamp server is running
+localhost/handy
+
+2. Visit our dashboard
+http://localhost/handy/wp-admin/
+
+2. Hover over plugins and select add new (requires internet)
+
+3. Search for yoast SEO, INSTALL AND ACTIVATE IT
+
+4. Click 'Start first time configuration'
+
+5. If youve done that lets add one more plugin
+
+6. Hover over plugins and select add new and then search for woocommerce and then install it
+This is a plugin that allows you to have a card system on your website - It enables card payment for short
+(Not Required though but I would advise u to play with it)
+
+7. Install and activate It
+
+8. Click on pages on the left panel.. You should see Privacy Policy by default because every website should have this by
+default
+
+9. Hover over handy and click on visit site (To visit your website)
+
+10. Go back to pages and click on Add New
+
+11. Give it a title of About Us
+
+Click preview to select what screen size you would like to see the website displayed on
+
+12. Beneath 'About Us' click on the + (We can add whatever element we want)
+
+13. Click add Image. (Click upload, or media library if u've uploaded images before)
+
+14. Add new image and caption
+
+15. Scroll down to our SEO plugin section and see a live preview of how our website would be displayed on a google search
+
+16. Scroll back up and clik on the + (We want to now add a paragraph)
+
+17. Add a paragraph 'Write whatever you want in here. But should preferably be about your website'
+
+18. Scroll down to the Yoast SEO section and then click on 🙂Readability
+
+Whenever you are writing something about your website make sure that it has keywords. e.g pastry (or whatever u are focused on)
+You should have 
+
+19. Click on pages on the right panel
+
+20. You can select a featured image
+
+20. Under discussions you can allow comments
+
+22. When u are done you can click publish on the top panel and then have our created page added to our website
+
+22.5 In response to publishing we get back the published pages URL. We can use that to visit the page
+
+23. Go back to dashboard > Click on post (on the left panel) and then click on add New post
+
+24. Note: If we publish a post it is going to be added to the home of our website
+
+The post isn't like the about us where we write about the company and we maybe would instead write about a new product or so
+
+26. Go back to the dashboard > hover on Appearance and then select Themes > Click on Add New or use the 3 free themes you see
+
+Spin-off: You can also visit themeforest.net to get specific themes that you could not find in our appearance 
+
+27. Appearance > customize > site identity (This is where you can edite the Sites Title and Sites Logo) 
+
+28. Select site icon and pick and pick an icon for our handy website
+
+
+Assignment
+Go to canva and then create your buisness logo and then use that to replace the current site icon for your project
+On the About page write out why we should be patronized as a business
+Have atleast One post on a product
+Note: Delegate these tasks to group members
+
+
+29. Go back on the left panel > On the left panel click on the HomePage Setting > It should be set to latest post
+
+30. On the left panel click on Additional CSS just incase you want to add some additional CSS
+
+31. Go back to our dashboard and then click on Users on the left panel and you should see that 1 user you created
+
+32. Click Add New User and then you should see a list of fields for a new user. Most important thing is where you see : Role
+ 
+Note: An administrator has access to the entire website
+
+33. Select An Editor or an Author to limit the users access (Note: The subscriber has the least amount of priviledges on the website)
+
+34. Click on Users > Profiole > Select any theme you would like for your interface
+
+35. Scroll down to the bottom to add social media info
+
+36. Click on Settings > General (This allows you to customize important things about the website like the websites URL)
+
+37. Go back to ur website and then click on the Hello World! post > Scroll down to the comments
+
+Leave an actual comment 'This is Awesome' (or whatever u'd like)
+
+38. Once u've left a comment go back to the admin > Click on comments and you should see the comment you just added
+
+
+
+
+
+
+
+
+
+
+
+
+5TH LECTURE (I missed this class -> Lotta's Note down below)
+
+WHAT WE'VE COVERED ABOUT TODAY'S CLASS
+
+Mr. Barka introduced us to 2 new websites that would help us on our website creation
+
+The first was:
+https://smallseotools.com/keywords-suggestions-tool/
+
+Here he talked about how to use the keyword checker, this helps to create content for our webpage by suggesting trending topic ideas with the keyword we type into the search box.
+
+Also, he introduced us to the Plagiarism checker. This helps us confirm if our content is original or stolen, in order to avoid copyright issues.
+
+
+Next was: https://www.reduceimages.com/
+
+This website helps us to properly size any image we decide to use on our website, and also adjust the image quality in order for the image to look visually appealing
+
+
+
+
+
+
+
+
