@@ -1,3 +1,20 @@
+CMP 313 Exam Prep
+
+
+How To Study the Material
+
+Tips: 
+- Best to study using the github repo link
+  https://github.com/danielchukwu/School-/tree/master/300Lvl/1st
+
+- Use a laptop or device with a relatively big screen to study
+- Glancing through the questions and answers may not cement the knowledge. 
+  But answering them as you go through them on some book or paper repeatedly 
+  definitely will
+
+
+
+
 1a. What is the Theory of Computation?
 Theory of Computation is a branch of computer science that deals with how efficiently
 a problem can be solved on a model of computation using an algorithm

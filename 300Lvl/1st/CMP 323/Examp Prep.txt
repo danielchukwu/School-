@@ -1,3 +1,16 @@
+
+How To Study the Material
+
+Tips: 
+- Best to study using the github repo link
+- Use a laptop or device with a relatively big screen to study
+- Glancing through the questions and answers may not cement the knowledge. 
+  But answering them as you go through them on some book or paper repeatedly 
+  definitely will
+
+
+
+
 What is an Object?
 In computer science an object can be a variable, data structure, function, 
 or a method of a class.

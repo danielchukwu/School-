@@ -2,8 +2,22 @@ CMP 327: DATA MANAGEMENT
 
 EXAM PREP
 
-TIP: Best to study using the github repo link or using a laptop or device with
-     big relatively big screen device
+
+
+How To Study the Material
+
+Tips: 
+- Best to study using the github repo link
+  https://github.com/danielchukwu/School-/tree/master/300Lvl/1st
+
+- Use a laptop or device with a relatively big screen to study
+- Glancing through the questions and answers may not cement the knowledge. 
+  But answering them as you go through them on some book or paper repeatedly 
+  definitely will
+
+
+
+
 
 
 
@@ -978,7 +992,7 @@ Ans: Discretionary security mechanisms:
 
 
 
-
+DONE ✅
 
 
 
