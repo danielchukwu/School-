@@ -1,0 +1,992 @@
+CMP 327: DATA MANAGEMENT 
+
+EXAM PREP
+
+TIP: Best to study using the github repo link or using a laptop or device with
+     big relatively big screen device
+
+
+
+LECTURE `1
+
+
+1a. What is Data Management?
+Ans: Data management is the practice of collecting, keeping, and using data securely, 
+     efficiently, and cost-effectively.
+
+b. The goal of Data Management is to ______________?
+Ans: help people, organizations, and connected things optimize the use of data within the bounds of 
+     policy and regulation so that they can make decisions and take actions that 
+     maximize the benefit to the organization. 
+
+c. A robust data management strategy is becoming more important than ever as 
+   organizations increasingly rely on data to _____________.
+Ans: create value
+
+d. Efficient data management can be vital to success of any business. Tools or 
+   applications such as databases can make these tasks easier and more efficient. True or False?
+Ans: True
+
+e. The database is one of the cornerstones of information technology, it has 
+   capacity to ________________________________?
+Ans: organize, process and manage information in a structured and controlled manner
+
+f. What is a Database?
+Ans: it is a comprehensive collection of data organized for easy access
+     or
+     it is a collection of logically related records
+     or 
+     it is a repository for data and the engine for managing access to data
+
+g. You can use business databases to help organize and manage your customers, your 
+   business inventory and employees. True or False?
+Ans: True
+
+h. What are some uses of Databases in a business?
+Ans: - customer management processes
+     - inventory tracking
+     - employee database
+     - productivity reporting
+     - financial reporting
+     - data analysis
+     -  Supply chain management
+
+i. What is the secrete the a successful use of database tools and technology?
+Ans: it is the way in which information is structured
+
+j. List at least 5 motivations for Database implementation
+Ans: - Lack of data integration
+     - Lack of standard
+     - Lack of central control
+     - Inconsistency
+     - Redundancy
+     - Lack of multiple view
+
+k. List at least 10 advantages of databases?
+Ans: - Reduced data redundancy
+     - Reduced updating errors and increased consistency
+     - Greater data integrity and independence from applications programs
+     - Improved data access to users through use of host and query languages
+     - Improved data security
+     - Reduced data entry, storage, and retrieval costs
+     - Facilitated development of new applications program
+     - Centralized control of data
+     - Data can be viewed in multiple ways
+     - Standard can be easily enforced.
+
+l. List at least 10 disadvantages of databases?
+Ans: - Database systems are complex, difficult, and time-consuming to design
+     - Substantial hardware and software start-up costs
+     - Damage to database affects virtually all applications programs
+     - Extensive conversion costs in moving form a file-based system to a database 
+       system
+     - Initial training required for all programmers and users
+
+
+Database Management System (DBMS)
+
+2. What are Database Management Systems (DBMS)?
+Ans: Database management system is a software used to manage the database. 
+
+b. Give me some examples of DBMS?
+Ans: MySQL, Oracle, SQL Server, IBM DB2, PostgreSQL, Amazon SimpleDB (cloud based) , etc.
+
+c. DBMS provides an interface to perform various operations like database creation, 
+   storing data in it, updating data, creating a table in the database and a lot 
+   more. True or False?
+Ans: True
+
+d. What are the tasks DBMS allows users to perform?
+Ans: - Data Definition
+           creation, modification, and removal of database and database objects
+     - Data Manipulation
+           insertion, modification, and deletion of the actual data in the database
+     - Data Retrieval
+           retrieves data from the database to be used by applications
+     - User Administration
+           registering and monitoring users, maintain data integrity, enforcing 
+       data security, dealing with concurrency control, monitoring performance and 
+       recovering information corrupted by unexpected failure
+          
+e. List and Explain all 7 characteristics of DBMS?
+Ans: 1. Data stored into Tables:
+          Data is never directly stored into the database. Data is stored into 
+          tables, created inside the database. DBMS also allows to have 
+          relationships between tables which makes the data more meaningful and 
+          connected. You can easily understand what type of data is stored where by 
+          looking at all the tables created in a database
+     2. Reduced Redundancy:
+          In the modern world hard drives are very cheap, but earlier when hard 
+          drives were too expensive, unnecessary repetition of data in database was 
+          a big problem. But DBMS follows Normalization which divides the data in 
+          such a way that repetition is minimum.
+     3. Data Consistency:
+          On Live data, i.e. data that is being continuously updated and added, 
+          maintaining the consistency of data can become a challenge. But DBMS 
+          handles it all by itself.
+     4. Support Multiple user and Concurrent Access:
+          DBMS allows multiple users to work on it(update, insert, delete data) 
+          at the same time and still manages to maintain the data consistency.
+     5. Query Language:
+          DBMS provides users with a simple Query language, using which data can 
+          be easily fetched, inserted, deleted and updated in a database.
+     6. Security:
+          The DBMS also takes care of the security of data, protecting the data 
+          from un-authorised access. In a typical DBMS, we can create user accounts 
+          with different access permissions, using which we can easily secure our 
+          data by restricting user access.
+     7. DBMS supports transactions, which allows us to better handle and manage 
+        data integrity in real world applications where multi-threading is 
+        extensively used.
+        
+
+f. List at least 5 Advantages of DBMS?
+Ans: - Segregation of application program.
+     - Minimal data duplication or data redundancy.
+     - Easy retrieval of data using the Query Language.
+     - Reduced development time and maintenance need.
+     - With Cloud Datacenters, we now have Database Management Systems capable 
+       of storing almost infinite data.
+     - Seamless integration into the application programming languages which makes 
+     - it very easier to add a database to almost any application or website.  
+
+g. List 3 disadvantages of DBMS
+Ans: - It's Complexity
+     - Except MySQL which is open source, licensed DBMSs are generally costly
+     - They are large in size
+
+h. What are the Functions of a DBMS?
+Ans: - organizes your files to give you more control over your data
+     - makes it possible for users to create, edit and update data in our db files
+     - it provides the following
+       - Concurrency: 
+             means multiple users can access data in db at the same time
+       - Security: 
+             security rules to determine access rights of users data
+       - Backup and recovery: 
+             offers proccesses to backup data regularly and enables data recovery 
+             if any problem occurs
+       - Integrity: 
+             db structure and rules improve the integrity of the data
+       - Data descriptions: 
+             a data dictionary provides a description of the data
+     
+i. Administering the database is the responsibility of the __________?
+Ans: Database Administrator (DBA)
+     
+j. What are the roles of a DBA?
+Ans: - Selecting the server hardware on which the database software will run
+     - Installing and configuring the Oracle 10g software on the server hardware
+     - Creating the database itself
+     - Creating and managing the tables and other objects used to manage the 
+       application data
+     - Creating and managing database users
+     - Establishing reliable backup and recovery processes for the database
+     - Monitoring and tuning database performance
+
+
+Data Abstraction
+k. One of the major puposes of a database system is to provide users with an 
+   abstract view of the system. The system hides certain details of how data 
+   is stored and maintained.True or False?
+Ans: True
+
+l. Should Complexities also be hidden from database users?
+Ans: Yes
+
+m. There are several levels of abstraction. List them?
+Ans: 1. Internal Level
+     2. Conceptual Level
+     3. External View Level
+
+n. Explain all 3 levels of abstraction?
+Ans: Internal Level
+        Shows the physical representation of database on the computer, how the 
+        data are stored. e.g. index, B-tree, hashing.
+     Conceptual Level
+        Defines logical structure of a database, describes all entities, their 
+        attributes, and their relationship. Describes the constraints on the data, 
+        semantic information about the data and security and integrity information
+     External Level
+        Describes part of the database for a particular group of users, how users 
+        see the data. e.g. tellers in a bank get a view of customer accounts, but 
+        not of payroll data.
+
+o. Draw a diagram show all 3 levels of Data Abstraction?
+Ans: Draw it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LECTURE 2
+
+Database Models
+
+1. What is a Database Model?
+Ans: A database model is a type of data model that determines the logical structure
+    of a database and fundamentally determines in which manner data can be stored, 
+    organized and manipulate
+
+b. A database model shows the logical structure of a database, including the 
+   relationships and constraints that determine how data can be stored and 
+   accessed. True or False?
+Ans: True
+
+c. List 4 types of Data Models you know?
+Ans: - Hierarchical database model
+     - Relational model
+     - Network model
+     - Object-oriented database model
+
+d. Which of the 4 database model is the most popularly used?
+Ans: Relation Database Model
+
+e. Who founded this model and when?
+Ans: It was E.F Codd in 1970
+
+f. List 3 databases that use the relational database(or db) model?
+Ans: Oracle,
+     MySQL,
+     SQL SERVER
+
+g. List and briefly explain all the database model terminologies?
+Ans: Relation: is a table with columns and rows
+        Extra:
+         - Only applies to logical structure of the database, not the physical 
+           structure.
+         - A relation corresponds to an entity set, or collection of entities. 
+     Entity:    is a person, place, event, or thing about which data is collected
+     Attribute: is a named column of a relation. 
+         - It corresponds to a characteristic of an entity. 
+         - They are also called fields
+     Tuple:     is a row of a relation
+     Degree:    is the number of attributes in a relation
+     Cardinality:is the number of tuples in a relation
+     Domain:    is the set of allowable values for one or more attributes
+     Relational Database: is a collection of normalized relations with distinct 
+                          relation names
+     Relation Schema:     is named relation defined by a set of attribute and 
+                          domain name pairs
+
+     Relational database schema: is a set of relation schemas, each with a 
+                                 distinct name
+
+
+h. Draw an example of two tables having a relationship?
+Ans: Draw it
+
+i. List at least 5 properties of Relations
+Ans: - Relation name is distinct from all other relation names in relational schema.
+     - Each cell of relation contains exactly one atomic (single) value.
+     - Each attribute has a distinct name.
+     - Values of an attribute are all from the same domain.
+     - Each tuple is distinct; there are no duplicate tuples.
+     - Order of attributes has no significance.
+     - Order of tuples has no significance, theoretically
+
+j. What is Data Modeling?
+Ans: Data modeling is the process of creating a data model for the data to be 
+     stored in a Database.
+
+k. This data model is a conceptual representation of  _____, ________ and _______?
+Ans: Data objects, the associations between different data objects, the rules
+
+l. A Data Model is used to document, define, organize, and show how the data 
+   structures within a given database, architecture, application, or platform are 
+   connected, stored, accessed, and processed within the given system and between 
+   other systems. True or Yes?
+Ans: True
+
+m. Data modeling helps in the visual representation of data and enforces business 
+   rules, regulatory compliances, and government policies on the data. True or Yes?
+Ans: True
+
+n. Data Models ensure consistency in naming conventions, default values, semantics, 
+   and security while ensuring quality of the data. True or Yes?
+Ans: True
+
+o. Data model emphasizes on what data is needed and how it should be organized 
+   instead of what operations need to be performed on the data. True or Yes?
+Ans: True
+
+p. What are the uses/primary goal of using Data Models?
+Ans: - Ensures that all data objects required by the database are accurately 
+       represented
+     - A data model helps design the database at the conceptual, physical and 
+       logical levels
+     - Data Model structure helps to define the relational tables, primary and 
+       foreign keys and stored procedures.
+     - It provides a clear picture of the base data and can be used by database 
+       developers to create a physical database.
+     - It is also helpful to identify missing and redundant data.
+     - Though its creation is time consuming at the initial sage, in the long run
+       it makes you IT infrastructure upgrade and maintenance cheaper and faster
+
+
+q. List all 3 types of Data Models?
+Ans: - Conceptual
+     - Logical
+     - Physical 
+
+r. Discus all 3 types of Data Model?
+Ans: Conceptual Model:
+        This Data Model defines WHAT the system contains. 
+        - It is typically created by Buisness stakeholders and Data Architects. 
+     Logical Model:
+        Defines HOW the system should be implemented regardless of the DBMS
+        - It is typically created by Data Architects and Business Analysts.
+     Physical Model:
+        Describes HOW the system will be implemented using a specific DBMS system
+        - It is typically created by DBA and developers
+
+s. The main aim of The Conceptual Model is to ____________?
+Ans: Establish the entities, their attributes, and their relationships
+
+v. What are the 3 basic elements of the Conceptual model?
+Ans: - Entity, 
+     - Attribute, 
+     - Relationship
+
+
+ER MODEL - BASIC CONCEPTS
+2a. What does the ER MODEL define?
+Ans: The ER model defines the conceptual view of a database
+
+b. Discuss Entities?
+Ans: An entity can be a real-world object, either animate or inanimate, that can be 
+     easily identifiable. E.g, in a `school database`, students, teachers, classes, 
+     and courses offered can be considered as entities. All these entities have 
+     some attributes or properties that give them their identity. 
+
+b1. Discuss Entity sets?
+Ans: An entity set is a collection of similar types of entities. An entity set may 
+     contain entities with attribute sharing similar values. For example, a 
+     Students set may contain all the students of a school; likewise a Teachers 
+     set may contain all the teachers of a school from all faculties. Entity 
+     sets need not be disjoint. 
+
+
+c. Discuss Attributes?
+Ans: Attributes are the properties of entities.For example, a student entity may 
+    have name, class, and age as attributes.
+
+d. Give 2 examples of Domains in attributes?
+Ans: - a student's name attribute cannot be a numeric value
+     -  A student's age cannot be negative
+
+e. List the Types of Attributes?
+Ans: Simple    attributes
+     Composite attributes
+     Derived   attributes
+     Single-value attribute
+     Multi-value  attribute
+
+f. Explain the 3 types of attributes?
+Ans: Simple attributes: 
+        this are atomic values/attributes that cannot be further divided
+        e.g a students phone number
+     Composite attributes:
+        attributes that can be further divided into simple attributes.
+        e.g student's full name may be dividen into - first_name, and last_name
+     Derived attributes:
+        attributes that do not exist in the physical database, but their values are
+        derived from other attributes present in the database
+        e.g age can be derived from date_of_birth
+     Single-value attribute:
+        Single-value attributes contain single value
+        e.g: Social_Security_Number.
+     Multi-value attribute:
+        Multi-value attributes may contain more than one values. 
+        e.g a person can have more than one phone number, email_address, etc.
+
+Set and Keys
+g. What are Set and Keys?
+Ans: Key is an attribute or collection of attributes that uniquely identifies an 
+     entity among entity set
+     e.g matric_number of a student makes him/her identifiable amongst other students
+
+h. What are the 3 types of Keys?
+Ans: - Super key
+     - Candidate Key
+     - Primary Key
+
+i. Explain the above types of keys
+Ans: Super key:     A set of attributes (1 or more) that collectively identifies 
+                    an entity in an entity set
+     Candidate Key: A minimal super key is called a candidate key. An entity 
+                    set may have more than one candidate key
+     Primary Key:   A  primary key is one of the candidate keys chosen by the 
+                    database designer to uniquely identify the entity set. 
+ 
+J. The association among entities is called a __________?
+Ans: Relationship
+
+k. Give me 2 examples of relationship?
+Ans: An employee works_at Omega
+     A  student enrolls in a course
+     - In the above, works_at and enrolls are the relationships
+
+l. What is a Relationship Set?
+Ans: it is a set of relationships of similar type
+
+m. Like entities, a relationship too can have attributes. True or False?
+Ans: True
+
+n. Attributes of Relationships are called ____________?
+Ans: Descriptive attributes
+
+o. What is the Degree of a Relationship?
+Ans: The number of participating entities in a relationship defines the degree of 
+     the relationship.
+     - Binary  = degree 2
+     - Ternary = degree 3
+     - n-ary   = degree
+
+
+Mapping Cardinalities
+p. What is cardinality?
+Ans: it is the number of entities in one entity set, which can be associated with 
+     the number of entities of other set via relationship set
+
+q. What are the 4 types of Relationship?
+Ans: One-to-one
+     One-to-many
+     Many-to-one
+     Many-to-Many
+
+r. Explain all of the 4 types of Relationship and also use diagrams?
+Ans: One-to-one:
+        One entity from entity set A can be associated with at most one entity 
+        of entity set B and vice versa
+     One-to-many:
+        One entity from entity set A can be associated with more than one entities of entity set B, however an entity from entity set B can be 
+        associated with at most one entity. 
+     Many-to-one:
+        More than one entities from entity set A can be associated with at most 
+        one entity of entity set B, however an entity from entity set B can be 
+        associated with more than one entity from entity set A.
+     Many-to-many:
+        One entity from A can be associated with more than one entity from B and 
+        vice versa. 
+
+s. List 3 characteristics of a conceptual data model
+Ans: - Offers Organization-wide coverage of the business concepts.
+     - This type of Data Models are designed and developed for a business audience.
+     - The conceptual model is developed independently of hardware specifications 
+       like data storage capacity, location or software specifications like DBMS 
+       vendor and technology. 
+       - The focus is to represent data as a user will see it in the "real world."
+
+Logical Data Model
+3. What is Logical Data Model?
+Ans: they are models that add further information to the conceptual model elements. 
+     or
+     It defines the structure of the data elements and set the relationships 
+     between them.
+     e.g 
+     - Firstname (string)
+     - Age (number)
+
+
+b. What is the advantage of the Logical Data Model?
+Ans: it is to provide a foundation to form the base for the Physical Model.
+
+c. At this Data Modeling level, no primary or secondary key is defined. At this 
+   Data modeling level, you need to verify and adjust the connector details that 
+   were set earlier for relationships. True or False?
+Ans: True
+
+d. What are the Characteristics of a Logical Data Model?
+Ans: - Describes data needs for a single project but could integrate with other 
+       logical data models based on the scope of the project.
+     - Designed and developed independently from the DBMS.
+     - Data attributes will have data types with exact precisions and length.
+     - Normalization processes to the model is applied typically till 3NF.
+
+
+Physical Data Model
+4. What is the Physical Data Model?
+Ans: it is the database specific implementation of the data model
+     e.g
+     Firstname (Varchar)
+     Age (integer)
+     Empno (Varchar) Primary key
+
+b. It offers an abstraction of the database and helps generate schema. This is 
+   because of the richness of meta-data offered by a Physical Data Model.True or False?
+Ans: True
+
+c. The Physical Data Model also helps to _________________________?
+Ans: visualize database structure. It helps to model database columns keys, 
+     constraints, indexes, triggers, and other RDBMS features
+
+d. What are the Characteristics of the Physical Data Model?
+Ans: - It describes data need for a single project or application though it may be 
+       integrated with other physical data models based on project scope.
+     - it contains relationships between tables that which addresses cardinality 
+       and nullability of the relationships.
+     - Developed for a specific version of a DBMS, location, data storage or 
+       technology to be used in the project.
+     - Columns should have exact data types, lengths assigned and default values.
+     - Primary and Foreign keys, views, indexes, access profiles, and authorizations,
+       etc. are defined.
+
+
+Advantages and Disadvantages of Data Model
+e. What are the Advantages of Data Model?
+Ans: - The main goal of designing data model is to make certain that data 
+       objects offered by the functional team are represented accurately.
+     - The data model should be detailed enough to be used for building the 
+       physical database.
+     - The information in the data model can be used for defining the relationship 
+       between tables, primary and foreign keys, and stored procedures.
+     - Data Model helps business's to communicate within and across organizations.
+     - Data model helps to documents data mappings in ETL process
+     - Help to recognize correct sources of data to populate the model
+
+f. What are the Disadvantages of Data Model?
+Ans: - To develop Data model one should know physical data stored characteristics.
+     - This is a navigational system which produces complex application 
+       development, management. 
+     - Even smaller change made in structure require modification in the entire 
+       application.
+     - There is no set data manipulation language in DBMS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LECTURE 3
+
+Database Query Language (Structured Query Language)
+
+1a. What is the Structured Query Language (SQL)?
+Ans: Structured query language (SQL) is:
+      • The ANSI standard language for operating relational databases
+      • Efficient, easy to learn, and use
+      • Functionally complete (With SQL, you can define, retrieve, and manipulate data)
+
+b. Draw a table containing the differenct categories of SQL Commands?
+Ans: Draw it
+
+c. Are the below statements/characteristics all true about SQL statements?
+   - SQL statements are not case-sensitive.
+   - SQL statements can be entered on one or more lines.
+   - Keywords cannot be abbreviated or split across lines.
+   - Clauses are usually placed on separate lines.
+   - Indents are used to enhance readability.
+   - In SQL Developer, SQL statements can optionally be terminated by a semicolon 
+   - (;). Semicolons are required when you execute multiple SQL statements.
+   - In SQL*Plus, you are required to end each SQL statement with a semicolon (;).
+Ans: They are all true
+
+d. What does the SELECT command do?
+Ans: it is used to query the database. Meaning retrieve records from the database
+     tables
+     or
+     it identifies the columns to be displayed
+
+e. What does the FROM command do?
+Ans: it identifies the table containing those SELECT columns 
+
+f. What does the WHERE command do?
+Ans: it filters our result down to the records that meet the specified criteria
+     It uses 
+     - Comparison conditions such as =, <=, BETWEEN, IN, LIKE, and NULL
+     - Logical conditions such as AND, OR, and NOT
+
+
+
+Excercise
+________________________________________________
+|                departments                   |
+------------------------------------------------
+|DEPARTMENT_ID |DEPARTMENT_NAME|LOCATION_ID    |
+------------------------------------------------
+| 10           |Comp Science   | 1700          |
+| 20           |Architecture   | 1800          |
+| 50           |Med Lab        | 1500          |
+| 60           |Pol Science    | 1400          |
+------------------------------------------------
+
+
+
+Using the table above. Write some SQL to 
+
+f. Select all the columns?
+Ans: SELECT *               // means SELECT (all columns)
+     FROM departments;      // means FROM the table `departments`
+
+     OR (same as)
+     
+     SELECT * FROM departments;
+
+     // Result
+     |DEPARTMENT_ID |DEPARTMENT_NAME|LOCATION_ID    |
+     ------------------------------------------------
+     | 10           |Comp Science   | 1700          |
+     | 20           |Architecture   | 1800          |
+     | 50           |Med Lab        | 1500          |
+     | 60           |Pol Science    | 1400          |    ✅
+     ------------------------------------------------
+
+g. Select the column department_id and location_id?
+Ans: SELECT department_id, location_id     // means SELECT (dep.. & loc...) columns
+     FROM departments;                     // means FROM the table `departments`
+
+     OR (same as)
+
+     SELECT department_id, location_id FROM departments;
+
+     // Result
+     |DEPARTMENT_NAME|LOCATION_ID    |
+      -------------------------------
+     |Comp Science   | 1700          |
+     |Architecture   | 1800          |
+     |Med Lab        | 1500          |
+     |Pol Science    | 1400          |                   ✅
+     ---------------------------------
+     
+
+h. Select columns where location_id is greater than 1600?
+Ans: SELECT *                    // means SELECT (all columns)
+     FROM departments            // means FROM the table `departments`
+     WHERE location_id > 1600;   // means WHERE location_id is greater than 1600                
+
+     OR (same as)
+
+     SELECT * FROM departments WHERE location_id > 1600;
+ 
+     // Result
+     |DEPARTMENT_ID |DEPARTMENT_NAME|LOCATION_ID    |
+     ------------------------------------------------
+     | 10           |Comp Science   | 1700          |
+     | 20           |Architecture   | 1800          |    ✅
+     ------------------------------------------------
+
+
+i. Select columns where department_id between 10 and 60?
+Ans: SELECT *                                 // means SELECT (all columns)
+     FROM departments                         // means FROM the table `departments`
+     WHERE department_id BETWEEN 12 AND 55;   // means WHERE department_id is between 12 and 55
+
+     OR (same as)
+
+     SELECT * FROM departments WHERE department_id BETWEEN 12 AND 55;
+
+     // Result
+     |DEPARTMENT_ID |DEPARTMENT_NAME|LOCATION_ID    |
+     ------------------------------------------------
+     | 20           |Architecture   | 1800          |
+     | 50           |Med Lab        | 1500          |    ✅
+     ------------------------------------------------
+
+J. Update the `department_name` of the column with department_id = 20 
+   from "Architecture" to "Pharmacy"
+Ans: UPDATE departments
+     SET department_name = "Pharmacy"
+     WHERE department_id = 20;
+
+     SELECT * FROM departments WHERE department_id = 20;
+     
+     // Result
+     |DEPARTMENT_ID |DEPARTMENT_NAME|LOCATION_ID    |
+     ------------------------------------------------
+     | 20           |Pharmarcy      | 1800          |    ✅ updated
+     ------------------------------------------------
+
+
+k. Update the `location_id` of the column with  department_name = "Architecture" 
+   from 1800 to 2000
+Ans: UPDATE departments
+     SET location_id = 2000
+     WHERE department_name = "Architecture";
+
+     SELECT * FROM departments WHERE department_name = "Architecture";
+
+     // Result
+     |DEPARTMENT_ID |DEPARTMENT_NAME|LOCATION_ID    |
+     ------------------------------------------------
+     | 20           |Architecture   | 2000          |    ✅ updated
+     ------------------------------------------------
+
+
+l. if the WHERE clause wasn't used in our above code to update. What would be the 
+   result?
+Ans: All records in our departments table will be updated to a location_id of 2000
+
+m. Delete rows(or records) where department_name = "pol science"
+Ans: DELETE FROM departments
+     WERE department_name = "pol science";
+
+     SELECT * FROM departments;
+
+     // Result
+     |DEPARTMENT_ID |DEPARTMENT_NAME|LOCATION_ID    |
+     ------------------------------------------------
+     | 10           |Comp Science   | 1700          |
+     | 20           |Architecture   | 1800          |
+     | 50           |Med Lab        | 1500          |    ✅
+     ------------------------------------------------
+
+     
+
+
+n. Delete rows(or records) where department_id = 10
+Ans: DELETE FROM departments
+     WERE department_id = 10;
+
+     SELECT * FROM departments;
+
+     // Result
+     |DEPARTMENT_ID |DEPARTMENT_NAME|LOCATION_ID    |
+     ------------------------------------------------
+     | 20           |Architecture   | 1800          |
+     | 50           |Med Lab        | 1500          |    ✅
+     ------------------------------------------------
+
+
+
+
+Constraints
+2. What are constraints?
+Ans: Constraint is the way DBMS prevents the entry of illegal data. It is the rules 
+     about how tables are related and how data are stored in the table.
+
+b. What are the Types of Table Constraints
+Ans: Constraint Type      Description
+     - Not null           A value must be supplied for this column, but values do 
+                          not have to be unique
+     - Unique Key         Every value in this column must be unique, but null 
+                          values are allowed
+     - Primary Key        Every value in the column must be unique and cannot be 
+                          null
+     - Foreign Key        Every value in the column must match a value in another 
+                          column in this table or some other table; otherwise, 
+                          the value is null.
+     - Check              The value entered in the table must match one of the 
+                          specified values for this column.
+
+Database Auditing
+c. What is Auditing?
+Ans: The value entered in the table must match one of the specified values for 
+     this column.
+
+d. It can be based on individual actions, such as the type of SQL statement 
+   executed, or on combinations of factors that can include user name, application, 
+   time, and so on. True or False?
+Ans: True
+
+e. Security policies can trigger auditing when specified elements in an Oracle 
+   database are accessed or altered, including the contents within a specified
+   object. True or False?
+Ans: True
+
+f. What is Auditing typically used for?
+Ans: - Enable future accountability for current actions taken in a particular 
+       schema, table, or row, or affecting specific content
+     - Deter users (or others) from inappropriate actions based on that accountability
+     - Investigate suspicious activity
+     - Notify an auditor that an unauthorized user is manipulating or deleting data 
+       and that the user has more privileges than expected which can lead to 
+       reassessing user authorizations
+     - Monitor and gather data about specific database activities
+     - Detect problems with an authorization or access control implementation
+     
+g. What are the Auditing Types and descriptions?
+Ans: Statement
+     Privilege
+     Fine-Grained
+     Schema Object
+
+
+Database Security
+h. What is Security?
+Ans: Security refers to the protection of database against unauthorised access, 
+     either intentional or accidental
+
+i. _____________ is the mechanisms that protect the database against 
+   intentional or accidental threats
+Ans: Database security
+
+j. Database security encompasses _______, ______, _____ and ____?
+Ans: hardware, software, people and data
+
+k. List some components of the Database that Database Security helps us protect?
+Ans: - Data stored in database
+     - Database server
+     - Database management system (DBMS)
+     - Other database workflow applications
+
+l. Database security aims to minimize losses caused by anticipated events in a 
+   cost effective manner without unduly constraining the users. True or False?
+Ans: True
+
+m. The complete solution to data security must meet the three main requirements of 
+   ________, ________ and _________?
+Ans: Confidentiality, Integrity and Availability
+
+n. Explain the 3 main requirements to Data Security?
+Ans: Confidentiality:
+        protecting information from being disclosed to unauthorised parties
+     Integrity:
+        protecting information from being changed by unauthorised parties
+     Availability:
+        availability of information to authorised parties only when requested
+
+o. Database security is generally ______, _______ and _________ by a 
+   database administrator and or other information security professionals. True or False?
+Ans: planned, implemented and maintained
+
+p. Some of the ways database security is analyzed and implemented include. List 4?
+Ans: - Restricting unauthorized access and use by implementing strong and 
+       multifactor access and data management controls
+     - Load/stress testing and capacity testing of a database to ensure it does not 
+       crash in a distributed denial of service (DDoS) attack or user overload
+     - Physical security of the database server and backup equipment from theft and 
+       natural disasters
+     - Reviewing existing system for any known or unknown vulnerabilities and 
+       defining and implementing a road map/plan to mitigate them
+
+
+q. What is Authentication?
+Ans: it is a process in which the credentials provided are compared to those on 
+     file in a database of authorized users' information on a local OS or within an
+     authentication server. If the credentials match, the process is completed 
+     and the user is granted authorization for access.
+
+     Or
+ 
+     It is the process of determining whether someone or something is, in fact, who 
+     or what it is declared to be.
+
+s. What is an Authentication Factor?
+Ans: it is a category of credential used for identity verification
+
+u. What are the 3 main Authentication Factor categories?
+Ans: - Knowledge  factors
+     - Possession factors
+     - Inherence  factors
+
+v. Explain the 3 main Authentication factors categories?
+Ans: Knowledge factors:
+        a category of authentication credentials consisting of information that 
+        the user possesses, such as a personal identification number (PIN), a user 
+        name, a password or the answer to a secret question.
+     Possession factors:
+        a category of credentials based on items that the user has with them, 
+        typically a hardware device such as a security token or a mobile phone 
+        used in conjunction with a software token.
+     Inherence factors:
+        a category of user authentication credentials consisting of elements that 
+        are integral to the individual in question, in the form of biometric data.
+
+
+w. What is Authorization?
+Ans: it is the process of giving someone permission to do or have something.
+
+x. What is Access control
+Ans: Access controls for a database system is based on the granting and revoking
+     privileges. 
+
+y. What are Privileges? 
+Ans: privilege allows a user to create or access some database object or to run 
+     certain DBMS utilities.
+
+
+z. Discuss the below topics
+   a. Discretionary security mechanism
+   b. Mandatory security mechanism
+   c. Backup and Recovery
+Ans: Discretionary security mechanisms:
+     - Privilege grants allow specific users to perform specific operations on 
+       specific data
+     - Initial grants start with DBA
+     - Grants may be passed on between users
+     Mandatory security mechanisms
+     - Enforce multi-level security
+     - Data and users are classified into security classes
+     - Typically, user can only see data which has a lower (or same) classification 
+       as themselves
+     - Role-based security is similar
+     Backup and Recovery
+     - Backup is the process of periodically taking a copy of the database and log 
+       file (and possibly programs) on to offline storage media.
+     - A DBMS should provide facilities to assist with the recovery of database 
+       following failure.
+     - Journaling is the process of keeping and maintaining a log file (or journal) 
+       of all changes made to the database to enable recovery to be 
+     - undertaken effectively in the event of failure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
