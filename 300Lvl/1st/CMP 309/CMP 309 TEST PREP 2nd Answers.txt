@@ -1,0 +1,403 @@
+1a. A client has requested for an ATM simulator desktop application that uses the
+    fingerprint of users for authentication. (Since each individual has a unique one),
+    this method of using fingerprint as a means of authentication to access your
+    ATM is safer  and more secure than using an ATM card. Users need not carry 
+    their ATM cards with them at all times - they can use their fingerprint to
+    access ATM services
+    To use the fingerprint-based ATM system, users have to log in to their account
+    using their fingerprint. After logging in, once they provide their unique pin,
+    they can conduct all kinds of banking transactions, from withdrawing cash to 
+    money transfer, and even viewing their account balance. Furthermore, users can
+    also check the last five transactions from their account
+
+
+b. i. List the functional and Non functional Requirements of the proposed system
+Ans:  Functional requirements:
+      - Fingerprint authentication for logging into the ATM simulator
+      - Ability to conduct various banking transactions such as cash withdrawal, 
+        money transfer, and viewing account balance
+      - Check last five transactions from the account
+      
+      Non-functional requirements:
+      - Security and protection of user's personal and financial information
+      - User-friendly interface
+      - Reliability of the system and minimal downtime
+      - Compatibility with different types of fingerprint scanners
+      - Compliance with industry standards and regulations for banking systems.
+
+ii. Draw the Context/Level 1 diagram of the System?
+Ans: draw context(or level 0) diagram
+     draw level 1
+     Tip: The images are in the CMP 309 folder on github
+
+iii. List the entities in the proposed system and their attributes?
+Ans: 1. User:
+        - Fingerprint (unique identifier)
+        - PIN (unique identifier)
+        - Account balance
+        - Transaction history
+     2. ATM:
+        - Fingerprint scanner
+        - Cash dispenser
+        - Display screen
+        - Keyboard for inputting PIN
+     3. Account:
+        - Account number (unique identifier)
+        - Account balance
+        - Transaction history
+     4. Transactions:
+        - Type (withdrawal, deposit, money transfer, etc.)
+        - Amount
+        - Date and time
+        - Account information (from/to account)
+
+     Note: The only external entity here is the user
+
+b. Define the following terms
+ i. System
+Ans: A system is a group of interrelated components working together toward a 
+     common goal by accepting inputs and producing outputs in an organized 
+     transformation process
+
+ii. Systems analysis and design?
+Ans: it refers to the process of analyzing a business situation with an intent
+     of improving it through better procedures and methods
+
+iii. Information System?
+Ans: it can be any organized continuation of people, hardware, software, 
+     communications network and data resources, that collects, transform and 
+     distributes information in an organization
+
+c.
+i. Explain two fact finding techniques and highlight two advantages and 
+   disadvantages of the techniques?
+Ans: - Sampling of existing documents, forms and databases
+     - Research and site visits
+     - Observation of the Work Environment
+     - Questionnaires
+     - Interviews
+     - Prototyping
+     - Joint requirements planning
+
+    Explanation
+    - Observation
+        Observation is a fact-finding technique wherein the systems analyst either
+        participates in or watches a person perform activities to learn about the 
+        system
+        
+        Advantages
+        - Data gathered using Observation are highly reliable
+        - Observation is not expensive compared to other fact-finding techniques
+        - It allows the systems analyst to do work measurement
+
+        Disadvantages
+        - people are uncomfortable when watched
+        - people may let you see what they want you to see
+        - The tasks being observed are subject to interrupt
+
+   - Questionnaire
+       These are special-purpose documents that allow the analyst to collect 
+       information and opinions from respondents
+       
+       Advantages
+       - They can be answered quickly
+       - They are not expensive
+       - They allow respondents to remain anonymous
+
+       Disadvantages
+       - Number of respondents are often low
+       - No guarantee an individual will answer and expand on all the questions
+       - Impossible to analyze respondents body language
+       - Good questionnaires are difficult to prepare
+
+ii. List three(3) fact finding ethics in information systems development
+Ans: - Confidentiality
+     - Objectivity
+     - Respect for privacy
+     - Honesty
+     - Accuracy
+     - Inclusiveness
+     - Responsiveness
+
+
+     Explanation
+      Confidentiality: 
+        Ensuring that sensitive or private information is protected and not 4
+        disclosed without proper authorization.
+      Objectivity: 
+        Avoiding personal biases, opinions, and prejudices and approaching the 
+        investigation with impartiality.
+      Respect for privacy: 
+        Recognizing the right of individuals to control access to information 
+        about themselves and to limit the use of personal data.
+      Honesty: 
+        Being transparent and truthful in all interactions, including reporting and 
+        representation of facts.
+      Accuracy: 
+        Ensuring that information is reliable and verifiable, and that any data 
+        collected is up-to-date and relevant to the investigation.
+      Inclusiveness: 
+        Involving all relevant stakeholders, including individuals, organizations, 
+        and communities, in the fact-finding process.
+      Responsiveness: 
+        Responding promptly to questions, concerns, and complaints and ensuring 
+        that relevant parties have access to accurate information in a timely 
+        manner.
+
+
+
+
+2. Mr. Jovan is a System Analyst by profession in TMR health care facility, he is
+   saddled with the responsibility of computerizing the out-patient-department of 
+   the OREXX health care facility. Mr. Anato a very close friend of Mr. Jovan has a 
+   brother Mr. Val who is an admission with the OREXX health care facility
+
+   One faithful day, Mr. Anato complained to Mr. Jovan about his brothers (Mr. Val)
+   health condition, in response, Mr. Jovan said "aah Mr. val has cancer and may 
+   not survive it, I saw the lab test and results in his file"
+
+   Mr. Anato was shocked about this discovery because the doctors have not 
+   officially disclose Mr. Val's health situation.
+
+a. Comment on the behaviour of Mr. Jovan (the analyst) with regards to ethics of a
+   System Analyst
+Ans: The behavior of Mr. Jovan in this scenario is highly unethical as a 
+     System Analyst. By accessing and sharing confidential medical information 
+     about a patient without authorization, Mr. Jovan has violated the patient's 
+     privacy and trust. Additionally, his actions have potentially put the 
+     patient's health and well-being at risk by sharing sensitive information 
+     without the patient's consent or without it being officially disclosed by 
+     the doctors. As a System Analyst, it is his responsibility to respect and 
+     protect the privacy and confidentiality of the information he has access 
+     to and to always act in the best interest of the patient. This behavior is 
+     unacceptable and should be reported to the appropriate authorities.
+
+b. What are the work ethics of Systems Analyst?
+Ans: - maintaining confidentiality
+     - acting in the best interest of the organization and its stakeholders
+     - being unbiased and objective
+     - maintaining professional conduct
+     - adhering to industry standards and regulations
+     - avoiding conflicts of interest
+
+c. Differentiate between Verification and Validation Methods?
+Ans: Verification testing 
+       runs the system on simulated environment using simulated data
+       - the simulated test is primarily looking for errors and omissions
+         in the design and end-user specifications specified in earlier phases
+         but not fulfiled during construction
+     Validation   testing
+       runs the system in a live environment using real data. It is sometimes called
+       beta testing
+       - typically performed by the end-user or a validation team
+       - checks system performance
+
+
+3a. List the phases of Software Development Life Cycle and explain?
+Ans: 1. Preliminary Study
+     2. Feasibility Study
+     3. Detailed System Study
+     4. System Analysis
+     5. System Designing
+     6. Coding
+     7. Testing
+     8. Implementaion
+     9. Maintenance
+
+    Explanation 
+    1. Preliminary Study
+         - This is also called `Trust phase`, `Initial study`, `planning phase` 
+           and it answers the question "Is the project worth looking at"?.
+           Extra: The things it must define to answer this question is
+           - A scope of the project
+           - Perceived problem
+           - Opportunities
+           - Directives that triggered the project
+     2. Feasibility Study
+         - it is the measure of how beneficial or practical the development of an 
+           information system will be to an organization
+           Extra: The 4 test fo feasibility are
+           - operational 
+           - technical
+           - schedule
+           - economic
+     3. Detailed System Study
+         - Studying the system and drafting out the important components that would
+           be crutial in the development of the system
+     4. System Analysis
+         - it is a problem-solving technique that decomposes the System into 
+           componenent pieces for the purpose of studying how well those components
+           work and interact to accomplish their purpose
+     5. System Design
+         - it is a complementary problem-solving technique that reassembles a Systems
+           component pieces back into a complete system. Hopefully an improved one.
+     6. Coding
+         - this part is where developers actually write code and build the application
+           according to the earlier design documents and outlined specifications.
+     7. Testing
+         - Building software is not the end.
+           Now it must be tested to make sure that there aren’t any bugs and that 
+           the end-user experience will not negatively be affected at any point.
+     8. Implementaion
+         - this is the process of configuring the software for certain conditions 
+           of use, as well as training customers to work with the product. 
+           At the time, a program is installed to support the intended business 
+           functions. The system performance is compared with the targets set at 
+           the planning phase(1st 3 phases).
+           Tip: This stage begins after the system has been tested and accepted 
+                by the company. 
+     9. Maintenance
+         - This is the process of maintaining the software system after it has been
+           deployed. This includes monitoring the system for errors, making updates,
+           and addressing any issues that arise.
+
+
+b. What is the Purpose of Systems Construction and Implementation?
+Ans: it is to develop and test functional systems that fulfils business and 
+     design requirements and to also implement the interfaces between the 
+     new System and the existing production systems
+
+c. List the three(3) levels of testing and explain two(2)?
+Ans: 1. Stub testing
+     2. Unit testing
+     3. System testing
+
+    Explanation
+    - Stub testing:
+        is the test performed on events or modules of the program. In other words
+        it is a test performed on the subset of the program
+    - Unit or Program testing:
+        it is the testing of an entire application. In other words its a test where
+        by all the events and all the modules are tested as an integrated unit
+    - System testing:
+        Ensures the programs written and tested in isolation work properly when 
+        they are integrated into the total program
+
+d. List four principles of Software Development?
+Ans: 1. Let the users be involved
+     2. Use the problem solvin approach
+     3. establish phases and activities
+     4. Establish standards
+     5. Justify System as Capital Investments
+     6. Don't be afraid to Cancel or Revise Scope
+     7. Divide and Conquer
+     8. Design a System for Growth and Change
+
+✅
+
+
+
+
+4a
+ i. Project Initiation is the first phase of Software Development Method 
+    (Project Initiation). it involves identifying projects for information System 
+    Development. How are these projects initiated? Discuss.
+Ans: Projects can be initiated in a number of ways, including:
+     - Business need: A business need or opportunity is identified and a project 
+                      is proposed to address it.
+     - Strategic alignment: A project is proposed that aligns with the 
+                            organization's strategic goals and objectives.
+     - Compliance: A project is proposed to meet regulatory or legal requirements.
+     - Market demand: A project is proposed to meet a perceived market demand.
+     - Problem solving: A problem is identified and a project is proposed to 
+                        solve it.
+
+ii. "Sure the system works, and is technically impressive but it just doesn't 
+    do what is expected to do", Describes which phase in Software Development 
+    Life cycle? List 2 tasks associated with the phase in question.
+Ans: This statement describes the testing phase in the Software Development 
+     Life cycle. Tasks associated with this phase include:
+
+     1. Conducting system testing to ensure the software meets the requirements 
+        and specifications.
+     2. Identifying and fixing bugs or issues found during testing.
+
+iii. List 4 Principles of Software Development?
+Ans: 1. Let the  users be involved
+     2. Use the problem solving approach
+     3. Establish phases and activities
+     4. Establish standards
+     5. Justify system as capital Investments
+     6. Don't be afraid to Cancel or Revise Scope
+     7. Divide and Conquer
+     8. Design a system for Growth and Change
+
+
+b.
+i. Functional Requirements and Non-Functional Requirements (Give Examples)
+Ans: Functional requirements 
+       are specific capabilities or features that a system must have in order to 
+       meet the needs of the end user. They describe what the system should do.
+       E.g 
+       - The system should allow users to create an account
+       - The system should allow users to make online payments
+       - The system should be able to generate reports
+
+     Non-functional requirements 
+       are characteristics of a system that do not specify a specific behavior 
+       but rather impose constraints on the design or implementation. 
+       These requirements describe how the system should work and perform
+       E.g
+       - The system should have a response time of less than 2 seconds
+       - The system should be able to handle at least 1000 concurrent users
+       - The system should have a high availability of 99.99%
+       - The system should be secure and protect user data
+       - The system should be compatible with other systems or platforms.
+
+ii. Why is correctly identifying requirements important?
+Ans: Requirements provide the basis for project scope, design, development, 
+     testing, and maintenance.
+
+
+iii. What are the consequencies of not getting the Requirements right?
+Ans: - it can lead to project delays, 
+     - cost overruns, 
+     - project failure. 
+     - a system that doesn't meet the needs of the users, 
+     - a system that doesn't perform as expected
+     - is not able to be integrated with other systems 
+     
+     Therefore, correctly identifying requirements is crucial for the success of 
+     a project.
+
+
+iv. Discuss the System Conversion Methods?
+Ans: - Abrupt cut-over
+     - parallel Conversion
+     - Location Conversion
+     - Staged   Conversion
+
+    Discussion
+     - Abrupt cut-over
+         the old system is terminated and the new system is placed into operation
+         - this is a high-risk approach because their may still be major problems 
+           that won't be uncovered until the system has been in operations for at 
+           least one business period
+     - parallel Conversion
+         both the old and the new systems are operated for sometime period. This 
+         ensures that all major problems in the new System gets solved before the
+         old system is discarded
+     - Location Conversion
+         when the same system would be used in numerous geo locations, it is 
+         converted in one location first, when it is tested and trusted then it
+         will be deployed to the other locations
+     - Staged   Conversion
+         this is based on the version concept introduced earlier. Each version of
+         the new system is converted as it is developed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
