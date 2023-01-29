@@ -1,0 +1,368 @@
+CMP 309 Exam Prep 
+
+How To Study the Material
+
+Tips: 
+- Best to study using the github repo link
+  https://github.com/danielchukwu/School-/tree/master/300Lvl/1st
+
+- Use a laptop or device with a relatively big screen to study
+- Glancing through the questions and answers may not cement the knowledge. 
+  But answering them as you go through them on some book or paper repeatedly 
+  definitely will
+
+
+
+
+
+Lecture 7
+
+
+System Design Phase
+
+1a. What is the Information System Design Phase?
+Ans: Information System design are those tasks that focus on the specification of a
+     detailed computer-based solution - (Physical design)
+
+b. What is Application architecture?
+Ans: it describes the pattern and techniques used to design ... an application
+
+Tasks 5.1
+
+c. List all the tasks involved in Information System Design
+Ans: 5.1 Application Architecture (defines the technologies to be used)
+     5.2 Design the Systems Database
+     5.3 Design the systems interface (Input Screen)
+     5.4 Package design specification (to guide the programmer in implementation)
+     5.5 Update project plan
+
+
+System Construction / Implementation
+
+d. What is System Construction?
+Ans: It is the development, installation and testing of system components
+
+e. What is System Implementation?
+Ans: It is the delivery of that system into production (meaning day-to-day operations)
+
+f. What is the purpose of this System Construction phase?
+Ans: it is to develop and test a functional systems that fulfils business and design
+     requirements and to also implement the interfaces between the new system and 
+     the existing production systems
+
+g. ________ is generally the major aspect of this phase?
+Ans: Programming
+
+h. Discuss the Tasks involved?
+Ans: 6.1 Build and test network (if necessary)
+         - in many cases new systems are built around existing networks - if so 
+           skip this task else you must implement the network architecture
+         - the task is performed by - network administrator; or a network designer
+     6.2 Build and Test Databases
+         - this is done by a database specialist
+         - the input to this task are the database schemas specified during the design
+         - final product, should be the populated database
+     6.3 Install and Test New Software packages (if necessary)
+         - this involves all the stakeholders
+           There are 3 levels of testing
+           a) Stub testing: 
+                is the test performed on events or modules of the program. In other 
+              words it is the testing of an isolated subset of the program.
+           b) Unit or Program testing:
+                is the testing of an entire program. In other words its a test where
+              by all the events or modules that have been coded and stub tested for 
+              a program are tested as an integrated unit
+           c) Systems testing:
+                Ensures that application programs written and tested in isolation
+              work properly when they are integrated into the total program
+
+
+i. Once the system test is completed and successful. What is next?
+Ans: We can proceed to the implementation of the System
+
+
+
+
+
+
+The Implementation Phase
+
+2. What happens in the implementation phase?
+Ans: here the new system is delivered into operations
+
+b. What are the Tasks involved in this phase?
+Ans: 7.1 Conduct System Test:
+         - the input to this phase is the new system with observation from the 
+           previous phase (if any)
+     7.2 Prepare a Conversion Plan
+         - once a successful system test has been completed, we can begin 
+           preparations to place the new system into operation
+         - the plan include => databases to be installed
+         - end user to any and documentation
+         - strategy for converting from the old system to the new system
+
+         This is mostly done by the project manager
+
+C. Methods of System Conversion plan may include the following. List all?
+Ans: i) Abrupt cut-over
+           the old system is terminated and the new system is placed into operations
+           - this is a high-risk approach because their may still be major problems
+             that won't be uncovered until the system has been in operations for at 
+             least one business period
+
+     ii) Parallel Conversion
+           both the old and the new systems are operated for sometime period. This 
+           ensures that all major problems in the new System gets solved before the
+           old system is discarded.
+           Advantage and disadvantage
+           - This strategy minimizes the risk of major flaws in the new system 
+           - Sadly, the cost of running the two systems concurrently may be high
+           
+     iii) Location Conversion
+           when the same system would be used in numerous geo locations, it is 
+           converted in one location first, when it is tested and trusted then it
+           will be deployed to the other locations
+
+     iv) Staged Conversion
+           in this system conversion he new system is implemented in stages, 
+           rather than all at once. Each version of the new system is converted as it is developed
+
+d. The conversion plan includes the ___________?
+Ans: System acceptance test plan
+      
+e. What is the System acceptance test plan?
+Ans: it is the final opportunity for end users, management, and other stakeholders
+     to accept or reject the system - this is done using real data
+
+     Or 
+
+     it is the final test performed by end users using real data. 
+
+f. System acceptance plan addresses three levels of acceptance testing. Name them?
+Ans: Verification testing
+     Validation   testing
+     Audit        testing
+
+g. Explain the 3 levels of a acceptance testing?
+Ans: Verification testing:
+         runs the system on simulated environment using simulated data. 
+         - The simulated test is primarily looking for errors and omissions 
+           regarding end-user and design specifications that were specified in the 
+           earlier phase but not fulfilled during construction
+     Validation testing:
+         runs the system in a live environment using real data. It is sometimes
+         called beta testing
+         - during this testing, a number of items are tested including
+            - system performance (response time)
+            - back up and recovery. etc.
+     Audit testing
+         it certifies that the system is free of errors and is ready to be placed
+         into operation.
+         
+
+
+
+
+
+
+
+
+Lecture 8 (Lecturers Last Note)
+
+
+Project Lifecycle (Software Development Method)
+
+1. Each Project has a lifetime and during this lifetime it passes through different
+   phases, these phases are called ______________?
+Ans:  Project Life Cycle
+
+b. What is Project Life Cycle?
+Ans: it is a framework to manage any type of project, it provides guideline to 
+     project managers for successful completion of projects
+
+c. A Project Life Cycle consists of 4 phases. Name them?
+Ans: Initiation
+     Planning
+     Execution
+     Monitoring and control (used in some methodologies)
+     Closing
+
+d. What are the 2 approaches to Project Management LifeCycle?
+Ans: 1. Predictive or Plan driven approach
+          defined at the start of the project
+     2. Adaptive or change driven approach
+          developed over multiple iterations
+
+e. The starting phase of a project is the __________?
+Ans: Initiation Phase
+
+Initiation Phase
+e1. What are the questions that need to be answered in this phase?
+ans: - Is this project possible?
+     - Is this project feasible?
+     - What resources will be required?
+     - How much time will this project take?
+
+e2. Wha are the main activities of this phase?
+Ans: - Create business case
+     - Create a feasibility study of the project
+     - Create a project charter
+
+e3. Explain the above terminologies?
+Ans: A Business case:
+       - provides justification for taking up the project
+       - its a well structured document containing costs, risks and benefit
+     Feasibility sudy:
+       - it is the measure of how benefical and practical the development of a
+         project would be to an organization
+     Project Charter:
+       - it is a document that contains all the necessary information about a
+         project
+         Informations such as:
+         - Business vision & Mission
+         - Project Goals & Benefits
+         - List of Stakeholders
+         - Project Scope
+         - Project Deliverables
+         - Project Budget & Resources
+     Project Brief:
+       - it contains all the information about the project
+
+
+Planning Phase
+f. Every project requires a detailed plan for its exectuion. True or False?
+Ans: True
+
+f1. What is a project plan?
+Ans:  is a set of documents that will guide the entire project
+
+f2. A Planning Phase includes?
+Ans: - Statement of Work
+     - Work breakdown structure
+     - Scope Management
+     - Schedule Management
+     - Cost Management
+     - Quality Management
+     - Resource Management
+     - Communication Management 
+     - Risk Management
+     - Stakeholder Management
+
+    Explanation
+     - Statement of Work: 
+         its a document containing work agreement between two parties
+     - Work breakdown structure:
+         its the breaking down the total work into smaller componenets
+     - Scope Management:
+         it is the work included in the project. It makes sure everyone knows 
+         what the aim of the project and what it includes
+     - Schedule Management: 
+         it is a process that refers to how the project manager manages his 
+         schedule for a particular project. It includes the time allocated to the
+         completion of each tasks
+     - Cost Management:
+         it is the process that is concerned with planning and controlling the 
+         budget of the project
+     - Quality Management:
+         making sure the quality or value of the project meets the need of the '
+         stakeholders
+     - Resource Management
+         focuses on how the project manager runs the project team. He needs to 
+         understand what resources (people, equipment, facilities, funding) are 
+         required to complete the project at hand
+     - Communication Management
+         it is what keeps all the team member on the same boat and it needs to 
+         take hold between the project manager, team members and the stakeholders 
+     - Risk Management
+         the pm should conduct risk management and analyze & identify risks to later
+         develop risk response plan
+     - Stakeholder Management
+         it is important to get the stakeholders invovled from the on set of the 
+         project. Because they decide what changes are to be made to meet their
+         requirements
+
+
+
+Execution Phase
+g. This is the most important phase in the Project Management Life cycle. 
+   True or False?
+Ans: True
+
+g1. What happens in the execution phase?
+Ans: it is when the project team begins to implement the plan and carry out the 
+     tasks outlined in the planning phase. This is the phase where the project 
+     team turns the project plan into action and work towards achieving the 
+     project's objectives and deliverables.
+
+g2. The Execution Phase includes?
+Ans: - Project Deliverables
+     - Status Review
+     - Problem solving
+
+    Explanation
+     - Project Deliverables
+         the pm makes sure all the deliverables are delivered without compromise in 
+         the quality of the deliverables
+     - Status Review
+         daily stand up meeting the pm holds with the project team all to monitor 
+         the projects progress
+     - Problem solving
+         managing the teams during shortcomings and solving their problems with 
+         ease
+
+
+
+Control & Monitoring Phase
+h. What happens in the Control & Monitoring Phase?
+Ans: it is the phase where the project manager and the project team actively 
+     monitor the project's progress and performance. The goal of this phase is to 
+     ensure that the project stays on track, and that any issues or problems that 
+     arise are identified and addressed in a timely manner.
+
+h1. The Control & Monitoring Phase includes?
+Ans: - Quality Assurance
+     - Cost Tracking
+     - Project Performance
+     - Projects Objectives and requirements
+
+    Explanation
+     - Quality Assurance
+         teams are required to maintain certain quality standards with the 
+         deliverables after elaborate meetings with the stakeholders
+     - Cost Tracking
+         the process of monitoring and measuring the costs incurred during the 
+         project against the budgeted costs
+     - Project Performance
+         It includes monitoring and measuring of the project's progress in terms of 
+         schedule, budget, quality, and scope. We can use SCRUM tools for this
+     - Projects Objectives and requirements
+         this are monitored to make sure that the project deliverables are up to 
+         the mark and fulfil all the requirements set by the client
+
+
+
+Closing Phase
+i. What happens in the Closing Phase?
+Ans: during this phase, the project manager ensures that all project objectives 
+     have been met, that all project deliverables have been handed over to the 
+     client, and that all project documentation has been completed. The project 
+     manager also conducts a formal project closeout meeting, where all project 
+     team members review the project's performance, document any lessons learned, 
+     and identify areas for improvement for future projects.
+
+i1. The Closing Phase includes?
+Ans: - Project Performance
+         the teams submit their deliverables and review it to see if they met the
+         requirements. it is the most important phase
+     - Retrospective Analysis
+         the teams review their performance and look at the positives and negatives
+         they had during the whole project. And discuss how to maximize the positives
+         and how to minimize the negatives
+
+
+
+
+
+
+
+
