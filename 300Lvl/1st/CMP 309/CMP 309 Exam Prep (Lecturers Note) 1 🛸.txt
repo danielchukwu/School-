@@ -20,7 +20,7 @@ Lecture 1
 CONCEPT OF INFORMATION SYSTEM
 
 1. What is a system?
-Ans: A system is a group of interelated components working together toward a common
+Ans: A system is a group of interrelated components working together toward a common
      goal by accepting inputs and producing outputs in an organized transformation
      process.
 
@@ -165,7 +165,7 @@ Ans: "I shall not use knowledge of a confidential nature to further my personal
       interests, nor shall i violate the privacy and confidentiality of information
       entrusted to me or to which I may gain access: 
       That I have an obligation to my employer whose trust i hold therefore, I
-      shall endevour to discharge this obligation to the best of my ability, to 
+      shall endeavour to discharge this obligation to the best of my ability, to 
       guard my employers interests and to advice him or her wisely and honestly"
 
 
@@ -241,7 +241,7 @@ Ans: 1. System Owners:
         system to be built. (Client)
     
      3. System Designers: 
-           Design the System to meet the users requiremeent. In many cases these 
+           Design the System to meet the users requirement. In many cases these 
         technical specialists may also be System Builders, database programmers
         and Software Specialists.
 
@@ -257,10 +257,10 @@ Ans: 1. System Owners:
            Sell hardware, software, Services to businesses for incorporation into
         their Information System
 
-c. What is Systems Analysis?
-Ans: A problem solving approach (or technique) that decomposes a system into 
-     component pieces for the purpose of studying how well those component parts
-     work and interact to accomplish their purpose.
+c. What is System Analysis?
+Ans: its a problem solving technique that decomposes a system into component pieces 
+     for the purpose of studying how well those component parts work and interact
+     to accomplish their purpose.
 
 d. What is System Design?
 Ans: its a complementary problem-solving technique (to system analysis) that 
@@ -268,7 +268,7 @@ Ans: its a complementary problem-solving technique (to system analysis) that
    an improved system.
 
 
-f. What then is System Analysis & Design (SAD)?
+f. What then is Systems Analysis & Design (SAD)?
 Ans: it refers to the process of examining a business situation with the intent of
      improving it through better procedures and methods.
 
@@ -284,7 +284,7 @@ Ans: it is an organizational process of developing and maintaining systems.
      * Its a framework that describes the activities performed at each stage in the
        Software development project
 
-i. What are the Phases involved in SDLC?
+i. What are the Phases involved in Software Development Life Cycle (SDLC)?
 Ans: 1. Preliminary Study
      2. Feasibility Study
      3. Detailed System Study
@@ -377,9 +377,9 @@ Ans: - Problems:
 PRELIMINARY INVESTIGATION PHASE
 c. In a classic System Development process, the Preliminary Investigation phase 
    forms the ____________?
-Ans: Trust Phase (alse called the `initial study`, `derivery phase` or `planning phase`)
+Ans: Trust Phase (also called the `initial study`, `delivery phase` or `planning phase`)
 
-d. The Preliminary Investigations assures the following question. Which is?
+d. The Preliminary Investigations answers the following question. Which is?
 Ans: "Is the project worth looking at?"
 
 e. What are the things the Preliminary Investigation must define to answer the 
@@ -811,7 +811,7 @@ Ans: - Sampling of existing documentation, forms and databases
 A. Sampling of existing documentation, forms and databases
 
 e. What is Requirements Validation?
-Ans: It is the checkin of the requirements definition document for accuracy, 
+Ans: It is the checking of the requirements definition document for accuracy, 
      completeness, consistency, and conformance to standards
 
 f. When is the Requirements validation done?
@@ -821,7 +821,7 @@ a
 g. Why is Requirements Validation needed?
 Ans: It's for the systems analyst to ensure the requirements are written correctly
 
-h. List some errors the system analyst migh find?
+h. List some errors the system analyst might find?
 Ans: - System models that contain errors
      - Grammar errors
      - Requirements that conflict with each other
@@ -835,7 +835,7 @@ Ans: True
 j. ___________ is the process of managing change to requirements?
 Ans: Requirements Management
 
-k. Requirements management encompases the policies procedures and processes that
+k. Requirements management encompasses the policies procedures and processes that
    govern how change to requirements are handled?
 Ans: True
 
@@ -882,7 +882,7 @@ Ans: - Computer trade journals
 
 
 
-C. Research and site visits
+C. Observation
 
 3. Observation is an effective data-collection technique for obtaining an 
    understanding of a system. True or False?
@@ -906,7 +906,7 @@ Ans: - Data gathered using Observation are highly reliable
        Observation systems analyst can identify tasks that have been missed or 
        inaccurately described
      - Observation is not expensive compared to other fact-finding techniques
-     - it allows the systems analyst to do work mesurements
+     - it allows the systems analyst to do work measurements
 
 f. What are the Disadvantages?
 Ans: - people are uncomfortable when watched
@@ -952,7 +952,7 @@ b. The use of questionnaires has been heavily criticized and is often avoided by
    systems analysts. True or False?
 Ans: True
 
-c. The reason for the critisim is that people using questionnaries don't understand
+c. The reason for the criticism is that people using questionnaires don't understand
    the pros and cons?
 Ans: True
 
@@ -1023,7 +1023,7 @@ Ans: Structured and Unstructured Interviews
 g. Explain both types of Interviews?
 Ans: Unstructured Interviews
         these are conducted with only a general goal or subject in mind and with
-     very few, if any, specific questions. They depend on the interviewee to directe
+     very few, if any, specific questions. They depend on the interviewee to directed
      the conversation. This type of interview frequently gets off track
    
      Structured Interviews
@@ -1163,7 +1163,8 @@ F. Prototyping
 
 6. What is Discovery prototyping?
 Ans: it is the act of building a small-scale, representative (or working model) of
-     the users' requirements to discover or verify those requirements
+     the users' requirements to discover or 
+     y those requirements
 
 b. What are some Advantages?
 Ans: - Allows users and developers to experiment with the software and develop an 
@@ -1199,7 +1200,7 @@ Lecture 6
 
 1. What is Feasibility Study?
 Ans: it is the measure of how beneficial or practical the development of an 
-     information system will be to an organisation
+     information system will be to an organization
 
 b. What is Feasibility Analysis?
 Ans: It is the process by which feasibility is measured
