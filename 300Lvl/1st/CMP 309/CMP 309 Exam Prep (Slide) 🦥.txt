@@ -1,0 +1,482 @@
+CMP 309 EXAM PREP
+
+
+How To Study the Material
+
+Tips: 
+- Best to study using the github repo link
+  https://github.com/danielchukwu/School-/tree/master/300Lvl/1st
+
+- Use a laptop or device with a relatively big screen to study
+- Glancing through the questions and answers may not cement the knowledge. 
+  But answering them as you go through them on some book or paper repeatedly 
+  definitely will
+
+
+
+
+1a. What are Process Models?
+Ans: It's a framework that describes the activities performed at each stage of a software 
+     development project
+
+b. List the types of Process Models?
+Ans: 1. Workflow  Model
+     2. Waterfall Model   (Our focus)
+     3. Dataflow  Model
+     4. Evolutionary Development Model 
+     5. Role / Action Model
+
+c. What are the steps involved in the Waterfall Model?
+Ans: - Requirements (needed information, function, behavior, performance and interfaces)
+     - Design (data structures, software architecture, interface representations, algorithmic details)
+     - Implementation (source code, database, user documentation, testing)
+     - Test
+     - Installation 
+     - Maintenance
+
+c1. Draw a diagram of the Waterfall Model?
+Ans: go ahead(slide 4)
+
+d. What are the Strengths?
+Ans: - Easy to understand, easy to use
+     - Provides structure to inexperienced staff
+     - Milestones are well understood
+     - Sets requirements stability
+     - Good for management control (plan, staff, track)
+     - Works well when quality is more important than cost or schedule
+
+
+e. What are the deficiencies in this?
+Ans: - All requirements must be known upfront
+     - Deliverables created for each phase are considered frozen – inhibits flexibility
+     - Can give a false impression of progress
+     - Does not reflect problem-solving nature of software development – iterations of phases
+     - Integration is one big bang at the end 
+     - Little opportunity for customer to preview the system (until it may be too late)
+
+f. In what cases would you use the Waterfall Model?
+Ans: - Requirements are very well known
+     - Product definition is stable
+     - Technology is understood
+     - New version of an existing product
+     - Porting an existing product to a new platform.
+
+
+
+V-Shaped Process Model
+
+2a. What is the V-Shaped Prcess Model?
+Ans: It is an extension of the waterfall model that emphasizes the verification and validation
+     of the product
+
+b. Draw a diagram of the V-Shaped Process Model?
+Ans: Go Ahead(slide 9)
+
+
+c. Explain each step involved in the V-Shaped Steps?
+Ans: - Project and Requiremnts           - Production, operation and maintenance:
+       Planning: allocate resources        provide for enhancement and corrections
+
+     - Product Requirements and          - System and acceptance testing: 
+       Specification Analysis:             check the entire software system in its
+       Complete specification of the       environment
+       software system
+
+     - Architecture orHigh-Level Design: - Integration and Testing: 
+       defines how software functions      check that modules interconnect correctly
+       fullfil the design                  
+
+     - Detailed Design:                  - Unit Testing:
+       develop algorithms for each         check that each module acts as expected
+       architectural component
+
+                    - Coding: transform algorithms into software
+
+d. What are the strengths?
+Ans: - Emphasize planning for verification and validation of the product in early stages of product development
+     - Each deliverable must be testable
+     - Project management can track progress by milestones
+     - Easy to use
+
+e. What are the Weaknesses?
+Ans: - Does not easily handle concurrent events
+     - Does not handle iterations or phases
+     - Does not easily handle dynamic changes in requirements
+     - Does not contain risk analysis activities
+
+f. In what cases would you use the V-Shaped Model?
+Ans: - Excellent choice for systems requiring high reliability – hospital patient control applications
+     - All requirements are known up-front
+     - When it can be modified to handle changing requirements beyond analysis phase 
+     - Solution and technology are known
+
+
+
+
+Structured Evolutionary Prototyping Model
+
+3a. Discuss the Structured Evolutionary Prototyping Model?
+Ans: - Developers build a prototype during the requirements phase
+     - Prototype is evaluated by end users
+     - Users give corrective feedback 
+     - Developers further refine the prototype
+     - When the user is satisfied, the prototype code is brought up to the standards 
+       needed for a final product.
+
+b. What are the steps involved?
+Ans: - A preliminary project plan is developed
+     - An partial high-level paper model is created
+     - The model is source for a partial requirements specification
+     - A  prototype is built with basic and critical attributes
+     - The designer builds 
+        - the database 
+        - user interface 
+        - algorithmic functions
+     - The designer demonstrates the prototype, the user evaluates for problems and 
+       suggests improvements.
+     - This loop continues until the user is satisfied
+
+
+c. What are the strengths?
+Ans: - Customers can “see” the system requirements as they are being gathered
+     - Developers learn from customers 
+     - A more accurate end product
+     - Unexpected requirements accommodated
+     - Allows for flexible design and development
+     - Steady, visible signs of progress produced
+     - Interaction with the prototype stimulates awareness of additional needed functionality
+
+d. What are the weaknesses?
+Ans: - Tendency to abandon structured program development for “code-and-fix” development
+     - Bad reputation for “quick-and-dirty” methods
+     - Overall maintainability may be overlooked
+     - The customer may want the prototype delivered.
+     - Process may continue forever (scope creep)
+
+e. In what cases would you use the Structured Evolutionary Prototyping?
+Ans: - Requirements are unstable or have to be clarified 
+     - As the requirements clarification stage of a waterfall model
+     - Develop user interfaces
+     - Short-lived demonstrations 
+     - New, original development
+     - With the analysis and design portions of object-oriented development.
+
+
+
+
+Rapid Application Model (RAD)
+
+4a. What are the phases or steps involved in this?
+Ans: - Requirements planning phase - a workshop utilizing structured discussion of 
+                                     business problems
+     - User description phase – automated tools capture information from users
+     - Construction phase     – productivity tools, such as code generators, screen 
+                                generators, etc. inside a time-box. (“Do until done”)
+     - Cutover phase          - installation of the system, user acceptance testing 
+                                and user training
+
+b. What are the Strengths?
+Ans: - Reduced cycle time and improved productivity with fewer people means lower costs
+     - Time-box approach mitigates cost and schedule risk
+     - Customer involved throughout the complete cycle minimizes risk of not achieving 
+       customer satisfaction and business needs
+     - Focus moves from documentation to code (WYSIWYG).
+     - Uses modeling concepts to capture information about business, data, and processes.
+
+c. What are the Weaknesses?
+Ans: - Accelerated development process must give quick responses to the user
+     - Risk of never achieving closure 
+     - Hard to use with legacy systems
+     - Requires a system that can be modularized
+     - Developers and customers must be committed to rapid-fire activities in an abbreviated time frame. 
+
+d. When does use the RAD?
+Ans: - Reasonably well-known requirements
+     - User involved throughout the life cycle
+     - Project can be time-boxed 
+     - Functionality delivered in increments
+     - High performance not required
+     - Low technical risks 
+     - System can be modularized
+
+
+
+Incremental SDLC Model
+
+5a. Discuss the Incremental SDLC Model?
+Ans: - Construct a partial implementation of a total system 
+     - Then slowly add increased functionality
+     - The incremental model prioritizes requirements of the system and then implements 
+       them in groups.
+     - Each subsequent release of the system adds function to the previous release, until 
+       all designed functionality has been implemented.
+
+b. Draw a the diagram for this?
+Ans: Go Ahead(slide 22)
+
+c. What are the Strengths?
+Ans: - Develop high-risk or major functions first
+     - Each release delivers an operational product 
+     - Customer can respond to each build
+     - Uses  “divide and conquer” breakdown of tasks
+     - Lowers initial delivery cost 
+     - Initial product delivery is faster
+     - Customers get important functionality early
+     - Risk of changing requirements is reduced
+
+d. What are the Weaknesses?
+Ans: - Requires good planning and design
+     - Requires early definition of a complete and fully functional system to allow for the definition of increments
+     - Well-defined module interfaces are required (some will be developed long before others)
+     - Total cost of the complete system is not lower
+
+e. When does one use this?
+Ans: - Risk, funding, schedule, program complexity, or need for early realization of benefits.
+     - Most of the requirements are known up-front but are expected to evolve over time
+     - A need to get basic functionality to the market early
+     - On projects which have lengthy development schedules
+     - On a project with new technology
+
+
+
+
+Spiral Process Model
+
+6a. Discuss the Spiral Process Model?
+Ans: - Adds risk analysis, and 4gl RAD prototyping to the waterfall model
+     - Each cycle involves the same sequence of steps as the waterfall process model 
+
+b. Draw the diagram?
+
+c. What are the 4 Spiral Suadrants with explanation?
+Ans: 1. Determine objectives, alternatives and constraints
+     2. Evaluate alternatives,  identify and resolve risks 
+     3. Develop next-level product
+     4. Plan next phase
+
+d. Explain the 1st Quadrant?
+Ans: - Objectives:   functionality, performance, hardware/software interface, 
+                     critical success factors, etc.
+     - Alternatives: build, reuse, buy, sub-contract, etc.
+     - Constraints:  cost, schedule, interface, etc.
+
+e. Explain the 2nd Quadrant?
+Ans: - Study alternatives: relative to objectives and constraints
+     - Identify risks: (lack of experience, new technology, tight schedules, poor process, etc.
+     - Resolve risks: (evaluate if money could be lost by continuing system development
+
+f. Explain the 3rd Quadrant?
+Ans: - Typical activites:
+       - Create a design
+       - Review design
+       - Develop code
+       - Inspect code
+       - Test product
+
+g. Explain the 4th Quadrant?
+Ans:  - Typical activites:
+       - Develop project plan
+       - Develop configuration management plan
+       - Develop a test plan
+       - Develop an installation plan
+
+h. What are the Strenghts of the Spiral Model?
+Ans: - Provides early indication of insurmountable risks, without much cost
+     - Users see the system early because of rapid prototyping tools
+     - Critical high-risk functions are developed first
+     - The design does not have to be perfect 
+     - Users can be closely tied to all lifecycle steps
+     - Early and frequent feedback from users
+     - Cumulative costs assessed frequently 
+
+i. What are the Weaknesses?
+Ans: - Time spent for evaluating risks too large for small or low-risk projects
+     - Time spent planning, resetting objectives, doing risk analysis and prototyping may  be excessive
+     - The model is complex 
+     - Risk assessment expertise is required
+     - Spiral may continue indefinitely
+     - Developers must be reassigned during non-development phase activities
+     - May be hard to define objective, verifiable milestones that indicate readiness to proceed through the next iteration
+
+j. When do you use this?
+Ans: - When creation of a prototype is appropriate
+     - When costs and risk evaluation is important
+     - For medium to high-risk projects
+     - Long-term project commitment unwise because of potential changes to economic priorities
+     - Users are unsure of their needs
+     - Requirements are complex
+     - New product line 
+     - Significant changes are expected (research and exploration)
+
+
+
+
+Agile Models's
+
+7a. Discuss the Agile Model?
+Ans: - Speeds up or bypasses one or more life cycle phases 
+     - Usually less formal and reduced scope
+     - Used for time-critical applications
+     - Used in organizations that employ disciplined methods
+
+b. What are some Agile Methods?
+Ans: - Adaptive Software Development (ASD) 
+     - Feature Driven Development (FDD) 
+     - Crystal Clear 
+     - Dynamic Software Development Method (DSDM) 
+     - Rapid Application Development (RAD)
+     - Scrum (Note: More popular than others)
+     - Extreme Programming (XP) 
+     - Rational Unify Process (RUP)
+
+
+
+
+Extreme Programming - XP
+
+8a. Discuss Extreme Programing (XP)?
+Ans: - For small-to-medium-sized teams developing software with vague or rapidly changing requirements
+     - Coding is the key activity throughout a software project
+     - Communication among teammates is done with code
+     - Life cycle and behavior of complex objects defined in test cases – again in code
+
+b. List Extreme Programming (XP) Practices?
+Ans: 1 Planning game: determine scope of the next release by combining business priorities 
+                      and technical estimates
+     2 Small releases: put a simple system into production, then release new versions in 
+                       very short cycle
+     3 Metaphor:      all development is guided by a simple shared story of how the whole
+                      system works
+     4 Simple design: system is designed as simply as possible (extra complexity removed 
+                      as soon as found)
+     5 Testing:       programmers continuously write unit tests; customers write tests 
+                      for features
+     6 Refactoring:   programmers continuously restructure the system without changing  
+                      its behavior to remove duplication and simplify
+     7 Pair-programming:       all production code is written with two programmers at one 
+                               machine
+     8 Collective ownership:   anyone can change any code anywhere in the system at any time.
+     9 Continuous integration: integrate and build the system many times a day – every 
+                               time a task is completed.
+    10 40-hour week:           work no more than 40 hours a week as a rule
+    11 On-site customer:       a user is on the team and available full-time to answer
+                               questions
+    12 Coding standards:       programmers write all code in accordance with rules 
+                               emphasizing communication through the code
+
+c. Why are XP considered "extreme"?
+Ans: Because commonsense practices are taken to extreme levels
+     - If code reviews are good, review code all the time (pair programming)
+     - If testing is good, everybody will test all the time
+     - If simplicity is good, keep the system in the simplest design that supports its 
+       current functionality. (simplest thing that works)
+     - If design is good, everybody will design daily (refactoring)
+     - If architecture is important, everybody will work at defining and refining the 
+       architecture (metaphor)
+     - If integration testing is important, build and integrate test several times a day 
+       (continuous integration)
+     - If short iterations are good, make iterations really, really short 
+       (hours rather than weeks)
+
+
+
+
+
+Dynamic Systems Development Method (DSDM)
+
+9a. What are the 5 Feature Driven Design (FDD)?
+Ans: 1 Develop an overall model: Produce class and sequence diagrams from chief architect meeting with domain experts and developers. 
+     2 Build a features list:    Identify all the features that support requirements.  
+                                 The features are functionally decomposed into Business 
+                                 Activities steps within Subject Areas.  
+            Features are functions that can be developed in two weeks and expressed in 
+            client terms with the template:  <action> <result> <object>                                   
+            i.e. Calculate the total of a sale
+     3 Plan by feature:  the development staff plans the development sequence of features
+     4 Design by feature: the team produces sequence diagrams for the selected features
+     5 Build by feature: the team writes and tests the code  
+
+
+b. What is the Dynamic Systems Development Method (DSDM)?
+Ans: It is a system that applies a framework for RAD and short time frames
+
+c. What are the Principles of DSDM?
+Ans: 1 Active user involvement imperative (Ambassador users)
+     2 DSDM teams empowered to make decisions
+     3 Focus on frequent product delivery
+     4 Product acceptance is fitness for business purpose
+     5 Iterative and incremental development - to converge on a solution
+     6 Requirements initially agreed at a high level
+     7 All changes made during development are reversible
+     8 Testing is integrated throughout the life cycle
+     9 Collaborative and co-operative approach among all stakeholders essential
+
+d. What is the DSDM Lifecycle?
+Ans: - Feasibility study
+     - Business study – prioritized requirements
+     - Functional model iteration	
+         - risk analysis
+         - Time-box plan
+     - Design and build iteration
+     - Implementation
+
+
+
+
+
+Adaptive Process Models
+
+10. What is the Adaptive Process Models?
+Ans: it is a Model that Combines RAD with software engineering best practices 
+     - Project initiation
+     - Adaptive cycle planning
+     - Concurrent component engineering
+     - Quality review
+     - Final QA and release
+
+b. What are the steps involved?
+Ans: 1 Project initialization – determine intent of project
+     2 Determine the project time-box (estimation duration of the project)
+     3 Determine the optimal number of cycles and the time-box for each
+     4 Write an objective statement for each cycle
+     5 Assign primary components to each cycle
+     6 Develop a project task list
+     7 Review the success of a cycle
+     8 Plan the next cycle
+
+
+
+
+Tailored Process Models
+
+11. Discuss the Tailored Process Models?
+Ans: - Any one model does not fit all projects
+     - If there is nothing that fits a particular project, pick a model that comes close 
+       and modify it for your needs.
+     - Project should consider risk but complete spiral too much – start with spiral & 
+       pare it done
+     - Project delivered in increments but there are serious reliability issues – 
+       combine incremental model with the V-shaped model
+     - Each team must pick or customize a SDLC model to fit its project
+
+
+
+LASTLY
+Study:
+  There are so many process models categorized under the Agile Methodology, 
+  Study Scrum and Kanban methodology and other Agile methodologies as well
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DONE ✅
