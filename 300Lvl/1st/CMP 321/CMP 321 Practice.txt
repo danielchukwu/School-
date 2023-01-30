@@ -1,5 +1,9 @@
 EXAM TEST PREP
 
+
+
+SLIDE 1
+
 1. Concurrency is the execution of multiple instructions at the same time
 
 b. Concurrency occurs when there are several process threads running in parallel. True
@@ -25,6 +29,260 @@ h. Problems with Concurrency
    - locking the channel could be inefficient for the OS to do
    - optimal allocation of resources is challenging for the OS to handle
 
+i. - Non-atomic
+   - Deadlock
+   - Blocking
+   - Race Conditions
+   - Starvation
+
+
+k. - Better performance
+   - Better resource utilisation
+   - Running multiple applications
+
+l. - it is necessary to protect different applications from each other
+   - it is necessary to use several technique to coordinate the several applications
+   - Additional performance overhead and complexities are required in the OS to enable
+     switching of applications
+
+m. Processors
+   Memory management
+   Information Protection and Security
+   Scheduling and Resource Management
+
+
+
+
+
+2. A Process is a program in execution
+
+b. Operations performed on the process are:
+   - Creation
+   - Scheduling
+   - Execution
+   - Deletion/Killing
+
+c. Components of a process
+   - An executable program
+   - The data needed by the program:
+     - variables
+     - workspace
+     - buffers, etc.
+   - An execution context of the program
+
+d. The execution context of a process is the internal data that the os uses to 
+   control and supervise the process
+   - it includes the contents of the various process registers
+   - it includes information such as the priority of the process and whether the
+     process is waiting for the completion of some I/O event
+
+
+e. - Program Code
+   - A set of data associated with the code
+
+f. The Process
+
+h. done
+
+i. Process Elemens
+
+j. Operating System
+
+k. The PCB makes it possible to interrupt a running Process and resume it later
+
+l. State
+
+m. The state of a process is determined by the current activity of the process
+
+n. The minimum number of states is 5
+
+o. done
+
+p. New, Ready, run, termination, suspend ready, wait or block, suspend wait
+
+q. context
+
+r. New features can be designed and implemented into the OS by expanding the context
+   to include new information to support the feature. True
+
+
+
+
+
+
+
+SLIDE 2
+
+
+
+
+1a. True
+
+b. Multiprogramming OS is one that allows more than one process to share the 
+executable memory and the CPU at the same time
+
+c. Process scheduling is really important in Multiprogramming Operating Systems
+
+d. Process Scheduling is a process carried out by the Process manager it handles
+   the removal of a running process and the selection of another process on the
+   basis of some strategy
+
+e. Categories of Scheduling
+   - Pre-emptive Scheduling and
+   - Non-pre-emptive Scheduling
+
+f. Pre-emptive scheduling: here the OS gives a process a resource for a fixed amount 
+   of time as it switches the process state from running or waiting to ready state.
+   During this switching the process gives priority to other process and then the 
+   process with higher priority replaces the current running process
+
+   Non-pre-emptive scheduling: here a resource cannot be taken from a process until
+   the process completes execution. The switching of process occurs when the 
+   running process terminates and moves to a waiting state
+
+g. Pre-emptive scheduling switching occurs when the CPU gives priority to other 
+   processes then the processes with higher priority replaces the running process
+
+   Non-pre-emptive Scheduling switching occurs when the program terminates and moves
+   into the wait state
+
+h. The OS maintains the PCB in Process Queue
+
+i. The OS keeps a seperate Queue for each process state and PCB's in the same execution state all in the same queue
+   and when the process state changes the PCB is unlinked and moved to the new process
+   state queue
+
+j. The OS maintains 3 important Process Scheduling Queue. Name them:
+   - Job Queue
+   - Ready Queue
+   - Device Queue
+
+k. Job Queue
+     maintains all the processes in the system
+   Ready Queue
+     maintains all the set of processes in the main memory, waiting and ready to execute
+   Device Queue
+     maintains all the process which are blocked (due to unavailability of I/O devices)
+
+
+l. Schedulers are special system softwares that handle scheduling
+
+m. The job of the scheduler is to first of select jobs(processes) to be submitted to
+   the system and then decide which one runs first
+
+n. The 3 types of schedulers
+   - Long-term
+   - Short-term 
+   - Medium-term
+
+o. Long-term
+     - selects which jobs are submitted for processing
+     - selects jobs from the queue and loads them into memory for execution
+     - on some systems the long-term scheduler may not be available
+     - it changes a process state from `new` to `ready`
+
+   Short-Term Scheduler
+     - also known as CPU scheduler
+     - used to increase a system
+     - it changes a process state from `ready` to `running`
+     - it selects a job ready for execution and then it allocates CPU to it
+     - it decides which process to execute next
+     - it is the fastest type of scheduler
+
+   Medium-Term Scheduler
+     - used for swapping of processes
+     - reduces the degree of multiprogramming
+     - it handles swapped out processes
+
+p. done
+
+q. It selects a job ready for execution and allocates CPU to it and also selects
+   next job to be executed
+
+r. Occasisons when we can/must choose a new process to run
+   - A running program blocked (running ! blocked)
+   - A timer expires (running ! ready)
+   - A waiting process unblocked (blocked ! ready)
+   - A process terminates (running ! exit)
+
+s. CPU utilization
+   Throughput
+   Turnaround Time
+   Waiting Time
+   Response Time
+
+t. - maximize CPU utilization and throughput
+   - minimize Turnaround Time, Waiting Time, Response Time
+
+
+
+
+2a. A process scheduler schedules different processes to be allocated to the cpu 
+    based on a particular Scheduling Algorithm
+
+b. First Come First Served
+   Shortest Job Next
+   Sortest Remaining Time
+   Priority Scheduling
+   Round Robin
+   Multiple-Level Queue Scheduling
+
+c. Discuss First Come, First Served
+   - It is a pre-emptive and non-pre-emptive scheduling algorithm
+   - It is easy to understand
+   - Jobs are executed on the first come first serve basis
+   - Its implementation is based on the FIFO queue
+   - It is poor in performance
+
+d. Done
+
+e. SJN
+   - it is non-pre-emptive scheduling and pre-emptive scheduling algorithm
+   - it has best approach to minimizing waiting time
+   - easy to implement in batch systems
+   - impossible to implement in interactive systems
+   - it needs to know in advance the burst time of the processes
+
+f. FCFS
+
+g. Associate each process with the lenght of its next CPU burst
+   use the lengths to schedule the process with the shortest time
+
+h. Discuss Priority Scheduling?
+   - it is a non-pre-emptive scheduling algorithm
+   - it is one of the most common scheduling 
+   - each process is given a priority and the one with the highest is executed first
+   - process with same priority are executed on FCFS basis
+   - the parameters that determine priority are:
+     - memory and
+     - time
+     - e.t.c.
+
+i. Two types of Priority Scheduling Algorithm
+   - Static
+   - Dynamic
+
+j. Discuss the Static Priority
+   - This priority associates an integer priority with every process
+    priority | type
+       0     | interactive processes
+       1     | system internal processes
+   - process with the lowest integer priority is allocated to the CPU first off
+
+
+k. SRTF
+   - is a pre-emptive version of SJN
+   - if a new process arrives with a burst lenght shorter than the current remaining
+     time , preempt
+
+l. it is a small fixed-unit of time called a quantum(or time-slice). 
+    - The process at the head of the ready queue is allocated the cpu for a quantum
+    - When the quantum has elapsed the process is preempted and added to the tail 
+      of the ready queue 
+    
+m. Fair: if there are n processes in the ready queue then they all each get
+         1/nth of the CPU
+   Live: no process waits more than (n-1)q times to get CPU allocation
 
 
 
@@ -39,11 +297,164 @@ h. Problems with Concurrency
 
 
 
+SLIDE 3
+1. The term process, task, job are often used interchangeably
+
+b. Threads are lightweight process that share memory space with other processes
+
+c. Similarities between Threads and Processes 
+- they have their own private register set and stack
+- have their own logical control flow
+- can run concurrently
+- are context switched
+- have a state(ready, running)
+- can create child threads/processes
+
+
+d. Differences between Threads and Processes
+- A single process can have multiple threads
+- Threads are child processes which share memory space with parent processes
+- Peer thread code shares code, data, file descriptor, priority while processes dont
+- All threads can access the parent processes memory space
+- A thread can access another threads stack
+- somewhat less expensive than processes
+
+e. 
+
+f. In embedded systems their is only 1 process - The kernel
+
+g. Threads
+
+h. When 2 threads run concurrently, it means that their logical flow overlaps
+
+i. Done 
+
+j. Processes help us manage timing complexities
+   - Multiple rates
+   - Asynchronous Input
+   
+   Code turns into a mess
+   - interruptions of one task for another
+   - spaghetti code
+
+k. Done.
 
 
 
 
 
+
+
+
+
+2. Context Switching is an OS Process Management Mechanism that allows multiple 
+   processes to use a single CPU
+
+b. Context Switching stores the status of the executing process so when next it reloads it the 
+   execution of the process continues from where it left of
+
+c. Context Switching
+
+d. Steps involved in Context Switching
+   1. Process is interrupted
+   2. Registers for that particular process is stored in the PCB
+   3. The process is placed in the ready queue to wait for the next time it gets
+      the CPU
+   4. PCB stores priority and memory usage
+   5. New process's registers and status is then loaded into the CPU
+   6. Process starts running
+
+e. 3 PC'S involved in Context Switching
+   Batch System
+      An Os technique where one job completes before another starts
+   Multitasking
+      An OS technique, for sharing 1 processor amongst multiple processes
+   Multiprocessing
+      An OS technique, for executing multiple processes in parallel on multiple
+      processors(CPU)
+
+f. Context Switching
+        alternating between several processes or tasks or jobs
+   Scheduling
+        deciding which process to run
+        Algorithms - FCFS, SJN, Priority, SRTF, Round Robin, Multiple-Level Queues
+   Critical Sections
+        provides adequate memory protection for the concurrent processes
+
+g. Types of Multitasking
+   - Cooperative 
+   - Preemptive
+
+Cooperative Multitasking
+h. The running process decides when to yeild to the CPU then the Scheduler decides
+   the process to run next
+
+Problems
+i. programming errors can keep processes out
+   process never gives up the CPU
+   process waits too long to switch, missing input
+
+
+Preemptive Multitasking
+j. True. This is the most powerful Multitasking
+
+k. - OS controls when context switches occur
+   - The Scheduler decides which process to run next
+
+l. timer
+
+m. it is an Kernel that can remove a process from the processor
+
+n. True
+
+o. True
+
+p. The 3 main triggers are
+   - Multitasking  
+   - Interrupt handlers
+   - user and kernel switching mode
+     
+q. 
+   Multitasking
+   Interrupt handler
+   user and kernel switching mode
+   
+r. 
+
+s. it depends on how much the user is interacting with the system and how much 
+   processes need attention
+
+t. Processor context switch
+      is the amount of time it takes the CPU to save the current process's context
+      and restore the next process's context
+   System context switch
+      is the amount of time it takes from when the running process was ready for
+      context switch to the time when the swap took place
+
+u. System context switch time is a measure of responsiveness
+   
+
+
+
+
+
+
+3a. Nailed it
+
+b.  Nailed it
+
+c. The Dispatcher is an OS module that gives control of the CPU to the process that
+   was selected by the CPU scheduler (or the Short term scheduler)
+
+d. done
+
+e. switch context
+   switch to the user mode
+   jumping to the proper section or location in the user mode where you can restart
+   that program
+
+f. Dispatch latency is the ammount of time it takes to stop a running process and 
+   put another in the running state from the ready Queue
 
 
 
