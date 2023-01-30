@@ -243,7 +243,7 @@ Ans: True
 d. What is Process Scheduling?
 Ans: Process scheduling is the action of the process manager that handles the 
      removal of a running process from the CPU and the selection of another 
-     process on the basis of a particular strategy.
+     process on the basis of a particular strategy (or special algorithm).
 
 e. What are the two categories of Scheduling?
 Ans: - Pre-emptive Scheduling
@@ -251,7 +251,7 @@ Ans: - Pre-emptive Scheduling
 
 f.Explain the two(2) main categories of Scheduling?
 Ans: Pre-emptive Scheduling
-      - Here the OS allocates the resources to a process for a fixed amount of time. 
+      - Here the OS allocates the resources to a process for a fixed amount of time.
       - During resource allocation, the process switches from running state or 
         waiting state to ready state
       - This switching occurs as the CPU may give priority to other processes 
@@ -362,17 +362,17 @@ Ans: - Maximizing throughput or CPU utilization
    based on particular ________?
 Ans: Scheduling Algorithms
 
-b. List the 6 popular Process Scheduling Alogrithms?
+b. List the 6 popular Process Scheduling Algorithms?
 Ans: First-Come, First-Served (FCFS) Scheduling
-     Shortest-Job Next (SJC) Scheduling
+     Shortest-Job Next (SJN) Scheduling
      Priority Scheduling
-     Shortest Remainig Time 
+     Shortest Remaining Time  (SRT)
      Round Robin Scheduling
      Multiple-Level Queue Scheduling
 
 
-First-Come, First-Served (FCFS)
-c. Discuss Firt-Come, First-Served Scheduling?
+A. First-Come, First-Served (FCFS)
+c. Discuss First-Come, First-Served Scheduling?
 Ans: - Jobs are executed on first-come, first-serve basis
      - it is a non-pre-emptive and pre-emptive scheduling algorithm
      - Easy to understand and implement
@@ -381,7 +381,7 @@ Ans: - Jobs are executed on first-come, first-serve basis
 
 d. Given three processes P1, P2 and P3. If they arrive in the order P1,P2 and P3 
    with burst time of p1=25, p2=4, p3=7.
-   i.  What will be thier waiting time
+   i.  What will be their waiting time
    ii. What will be the Average Waiting time
    iii. If processes arrived in reverse order P3,P2,P1. Answer i & ii
 Ans:   ________________________________
@@ -402,7 +402,7 @@ Ans:   ________________________________
                              = 6
 
 
-Shortest-Job-Next (SJN)
+B. Shortest-Job-Next (SJN)
 e. Discuss Shortest-Job Next Scheduling
 Ans: - it is a non-pre-emptive and pre-emptive scheduling algorithm
      - it has the best approaches to minimizing waiting time
@@ -419,7 +419,7 @@ Ans: - Associate with each process the length of its next CPU burst.
        time (FCFS can be used to break ties).
 
 
-Priority Scheduling
+C. Priority Scheduling
 h. Discuss Priority Scheduling?
 Ans: - it is a non-pre-emptive scheduling algorithm
      - it is one of the most common scheduling algorithms for batch systems
@@ -446,7 +446,8 @@ Ans: Static Priority Scheduling
      - allocates the CPU to the process with highest priority
      - the process with the smaller number is considered the  highest priority
 
-Shortest Remaining Time First (SRTF)
+
+D. Shortest Remaining Time First (SRTF)
 k. Discuss Shortest Remaining Time First?
 Ans: - SRTF is the pre-emptive version of SJN
      - In SRTF, if new process arrives with a CPU burst length less than the  
@@ -460,14 +461,14 @@ Ans: - SRTF is the pre-emptive version of SJN
 					𝑃4			5				4
 
 
-Round Robin(RR) Scheduling
+E. Round Robin(RR) Scheduling
 l. Discuss Round Robin?
 Ans: - RR defines a small fixed unit of time called a quantum (or time-slice), 
        typically 10-100 milliseconds. Then:
        - Process at head of the ready queue is allocated the CPU for (up to) 
          one quantum.
        - When the time has elapsed, the process is preempted and added to the 
-         tail of theready queue.
+         tail of the ready queue.
 
 m. What are the two nice properties that Round Robin have?
 Ans: Fair: if there are n processes in the ready queue and the time quantum 
@@ -481,7 +482,7 @@ Ans: True
 
 o. It is quite tricky choosing the correct size of the quantum, therefore we use _________?
 Ans: if q too large ) FCFS/FIFO
-            if q too small ) context switch overhead too high.
+     if q too small ) context switch overhead too high.
 
 
 
@@ -509,7 +510,7 @@ Ans: its a Lightweight Process that shares memory space with other processes
 
 c. List all Thread - Process Similarities?
 Ans: - they have their own private register set and stack
-     - have thier own logical control flow
+     - have their own logical control flow
      - can run concurrently
      - are context switched
      - have a state(ready, running, etc.)
@@ -540,11 +541,11 @@ Ans: Threads
 h. When two threads run concurrently. What does it mean?
 Ans: It means that their logical flow overlaps otherwise they are sequential
 
-i. Draw a diagram show me concurrent threads and sequential threads?
+i. Draw a diagram showing concurrent threads and sequential threads?
 Ans: Check Slide 3 page 6
 
 j. Why do we need multiple processes?
-Ans: - Processes help us mangage timing complexity
+Ans: - Processes help us manage timing complexity
        - Multiple rates
        - Asynchronous Input
      - Life without processes: Code turns into a mess:
@@ -571,8 +572,8 @@ Ans: Context Switching
 
 d. What are the steps involved in Context Switching?
 Ans: 1. Process is interrupted
-     2. Registers for that particular processor are stored in the PCB
-     3. The process is placed in a "read" queue to wait for the next time it gets 
+     2. Registers for that particular process are stored in the PCB
+     3. The process is placed in a "ready" queue to wait for the next time it gets 
         the CPU
      4. PCB stores priority and memory usage
      5. New Process's registers and status are loaded into the processor
@@ -584,9 +585,10 @@ Ans: a) Batch System:
      b) Multitasking: 
             An OS technique, for sharing 1 processor amongst multiple processes
      c) Multiprocessing:
-            processes executed in parallel, in multiple CPU's
+            An OS technique, for executing multiple processes in parallel on multiple
+            processors(CPU)
 
-f. What are the features provided to the 0s to facilitate multiple processes running
+f. What are the features provided to the OS to facilitate multiple processes running
    on the same CPU?
 Ans: a) Context Switching:
              alternating between different processes or tasks
@@ -597,10 +599,11 @@ Ans: a) Context Switching:
      c) Critical Sections:
              provides adequate memory protection for the concurrent processes
 
-g. What aret the 2 types of Multitasking?
+g. What are the 2 types of Multitasking?
 Ans: Cooperative multitasking
      Preemptive  multitasking
 
+Cooperative multitasking
 h. How does Cooperative Multitasking work?
 Ans: The running process decides when to yield to the CPU and then the scheduler 
      decides the process to run next
@@ -610,6 +613,7 @@ Ans: - Programming errors can keep other processes out
      - Process never gives up CPU
      - Process waits too long to switch, missing input
 
+Preemptive  multitasking
 j. Preemptive multitasking is the most powerful form of Multitasking. True or Yes?             
 Ans: True
 
@@ -617,7 +621,7 @@ k. How does Preemptive Multitasking work?
 Ans: - OS controls when context switches Occur
      - The Scheduler picks which process to run next
 
-l. Premptive multitasking uses ______ to call the OS to switch context
+l. Preemptive multitasking uses ______ to call the OS to switch context
 Ans: timer
 
 m. What is the Preemptive OS Kernel?
@@ -641,21 +645,22 @@ Ans: - Multitasking
 
 q. Discuss all 3 Triggers of Context Switch?
 Ans: Multitasking
-     - In the multitasking environment, when one process is utilizing CPU, and there is a 
-                    need for CPU by another process, Context Switching triggers. 
-     - Context Switching saves the state of the old process and passes the control of the 
-                   CPU to the new process.
+     - In the multitasking environment, when one process is utilizing CPU, and 
+       there is a need for CPU by another process, Context Switching triggers. 
+     - Context Switching saves the state of the old process and passes the control 
+       of the CPU to the new process.
 
-              Interrupt Handling
+     Interrupt Handling
      - When an interrupt takes place, the CPU needs to handle the interrupt.
      - Before handling the interrupt, the Context Switching gets triggered, 
-                   which saves the state of the process before handling the interrupt.
+       which saves the state of the process before handling the interrupt.
 
      User and Kernel Switching mode
      - The user mode is the normal mode in which the user application can execute with 
-                   limited access, whereas kernel mode is the mode in which the process can carry out the system-level operations that are not available in the user mode. 
+       limited access, whereas kernel mode is the mode in which the process can carry 
+       out the system-level operations that are not available in the user mode. 
      - Whenever the switching takes from user mode to kernel mode, mode switching triggers 
-                   the Context Switching, which stores the state on an ongoing process.
+       the Context Switching, which stores the state on an ongoing process.
 
 r. How does Time-Slicing work?
 Ans: - Time-slice (or quantum): period of time a task can run before a context-switch 
@@ -677,11 +682,11 @@ Ans: It depends on how often users interact, how many processes need attention, 
 
 t. What is the difference between System Context-Switch and Processor Context-Switch?
 Ans: - Processor context switch
-                         amount of time for the CPU to save the current process’s context and restore the 
-                         next process’s context
+          amount of time it takes for the CPU to save the current process’s context and restore the 
+          next process’s context
      - System context switch:
          amount of time from the point that the process was ready for context-switching 
-                         to when it was actually swapped in
+         to when it was actually swapped in
 
 u. System context-switch time is a measure of __________?
 Ans: responsiveness
@@ -704,13 +709,12 @@ Ans: True
 
 
 3. List 3 Advantages of Context-Switching?
-Ans: - Context switching is used to achieve multitasking i.e. multiprogramming with
-                   time-sharing. 
-     - Multitasking gives an illusion to the users that more than one process are being 
-                   executed at the same time. But in reality, only one task is being executed at a 
-                   particular instant of time by a processor. 
+Ans: - used to achieve multitasking i.e. multiprogramming with time-sharing. 
+     - Multitasking gives an illusion to the users that more than one processes are being 
+       executed at the same time. But in reality, only one task is being executed at a 
+       particular instant of time by a processor. 
      - Context switching occurs very fast that the user feels that the CPU is executing 
-                   more than one task at the same time.
+       more than one task at the same time.
 
 b. List 3 Disadvantages of Context-Switching?
 Ans: - The disadvantage of context switching is that it requires some time for context 
@@ -723,9 +727,9 @@ Ans: - The disadvantage of context switching is that it requires some time for c
 
 c. What is the Dispatcher?
 Ans: The dispatcher is an OS module that gives control of the CPU to the process selected 
-              by the short term scheduler.
+     by the short term scheduler.
 
-d. Draw a dispatch diagram?
+d. Draw a diagram containing the dispatcher?
 Ans: Slide 3 page 29
 
 e. What are the roles of a Dispatcher?
