@@ -160,7 +160,7 @@ f. When the processor begins to execute the program code, the executing entity
    is referred to as ________?
 Ans: The process
 
-g. While a program is executing, the process can be uniquely characterised by a 
+g. While a program is executing, the process can be uniquely characterized by a 
    number of elements. Draw a diagram showing all this elements
 Ans: 
                  _____________
@@ -173,7 +173,7 @@ Ans:
   | Pointer |  Data   | Information | Information |
    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 
-h. Draw the Process Control Block?
+h. Draw the Process Control Block (PCB)?
 Ans: (Slide 23)
 
 
@@ -187,7 +187,7 @@ K. The Process Block makes it possible to interrupt a running process and
    later resume execution. True or False?
 Ans: True
 
-l. When a process is executed, it changes the _____?
+l. When a process is executed(from its creation to completion), it changes the _____?
 Ans: State
 
 m. How is the State of a Process determined?
@@ -268,15 +268,15 @@ Ans: In pre-emptive
       - The switching occurs when the CPU gives priority to other processes and 
         then the process with higher priority replaces the running process
 
-     Non-Pre-emtive Scheduling
+     Non-Pre-emptive Scheduling
       - The switching occurs when the running process terminates and moves to a 
         waiting state
 
 h. How does the OS maintain the Process Control Block?
-Ans: It maintains it in the Process Queue
+Ans: It maintains it in the `Process Scheduling Queue`
 
 i. How does the Process Scheduling Queue actually work?
-Ans: - The OS keeps a seperate Queue for each of the process states and PCB's 
+Ans: - The OS keeps a separate Queue for each of the process states and PCB's 
        in the same execution states are placed in the same queue
      - When a process state changes, it's PCB is unlinked from it's current Queue
        and moved to a new state Queue
@@ -296,8 +296,7 @@ Ans: - Job Queue
          maintains the set of all processes in the main memory, wiating and ready 
          to execute
      - Device Queue
-         Processes which are blocked (due to unavailability of an I/O device) are
-         contained here
+         maintains all the processes which are blocked (due to unavailability of an I/O device)
 
 l. What are Schedulers?
 Ans: This are special system softwares that handle scheduling
@@ -323,7 +322,7 @@ Ans: Long-Term Scheduler
      - used to increase a system
      - it changes a process state from `ready` to `running`
      - it selects a process ready for execution and allocates CPU to it
-     - decides which process to execute next
+     - it decides which process to execute next
      - faster than Long-Term and Short-Term Scheduler
 
      Medium-Term Scheduler
@@ -348,7 +347,7 @@ Ans: CPU utilization: the fraction of time the CPU is in use
      Throughput:      number of process completed per time unit
      Turnaround Time: amount of time to execute a particular process
      Waiting Time:    amount of time a process has been waiting in the Ready Queue
-     Response Time:   amount of time frm when request was submitted until the first 
+     Response Time:   amount of time from when request was submitted until the first 
                       response
 
 t. What are some Scheduling strategies?
@@ -359,12 +358,12 @@ Ans: - Maximizing throughput or CPU utilization
 
 
 
-2. A process Scheduler shedules different processes to be assigned to the CPU 
+2. A process Scheduler schedules different processes to be assigned to the CPU 
    based on particular ________?
 Ans: Scheduling Algorithms
 
 b. List the 6 popular Process Scheduling Alogrithms?
-Ans: Firt-Come, First-Served (FCFS) Scheduling
+Ans: First-Come, First-Served (FCFS) Scheduling
      Shortest-Job Next (SJC) Scheduling
      Priority Scheduling
      Shortest Remainig Time 
@@ -571,7 +570,7 @@ c. Multiple Processes => CPU's replacement of the currently running process is
 Ans: Context Switching
 
 d. What are the steps involved in Context Switching?
-Ans: 1. Process is interupted
+Ans: 1. Process is interrupted
      2. Registers for that particular processor are stored in the PCB
      3. The process is placed in a "read" queue to wait for the next time it gets 
         the CPU
@@ -585,7 +584,7 @@ Ans: a) Batch System:
      b) Multitasking: 
             An OS technique, for sharing 1 processor amongst multiple processes
      c) Multiprocessing:
-            processes executed in parrallel, in multiple CPU's
+            processes executed in parallel, in multiple CPU's
 
 f. What are the features provided to the 0s to facilitate multiple processes running
    on the same CPU?
@@ -593,7 +592,7 @@ Ans: a) Context Switching:
              alternating between different processes or tasks
      b) Scheduling:
              deciding which process to run
-             Types of Scheduling Algoritms
+             Types of Scheduling Algorithms
              - FCFS, SJN, Priority, Round Robin, SRT, Multiple-Level Queues
      c) Critical Sections:
              provides adequate memory protection for the concurrent processes
