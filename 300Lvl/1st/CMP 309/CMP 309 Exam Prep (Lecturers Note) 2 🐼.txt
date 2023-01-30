@@ -45,8 +45,8 @@ Ans: It is the development, installation and testing of system components
 e. What is System Implementation?
 Ans: It is the delivery of that system into production (meaning day-to-day operations)
 
-f. What is the purpose of this System Construction phase?
-Ans: it is to develop and test a functional systems that fulfils business and design
+f. What is the purpose of this System Construction/Implementation?
+Ans: it is to develop and test functional systems that fulfils business and design
      requirements and to also implement the interfaces between the new system and 
      the existing production systems
 
