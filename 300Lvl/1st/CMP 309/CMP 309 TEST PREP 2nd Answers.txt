@@ -122,7 +122,7 @@ Ans: - Confidentiality
 
      Explanation
       Confidentiality: 
-        Ensuring that sensitive or private information is protected and not 4
+        Ensuring that sensitive or private information is protected and not
         disclosed without proper authorization.
       Objectivity: 
         Avoiding personal biases, opinions, and prejudices and approaching the 
@@ -159,7 +159,7 @@ Ans: - Confidentiality
    Mr. Anato was shocked about this discovery because the doctors have not 
    officially disclose Mr. Val's health situation.
 
-a. Comment on the behaviour of Mr. Jovan (the analyst) with regards to ethics of a
+a. Comment on the behavior of Mr. Jovan (the analyst) with regards to ethics of a
    System Analyst
 Ans: The behavior of Mr. Jovan in this scenario is highly unethical as a 
      System Analyst. By accessing and sharing confidential medical information 
@@ -201,13 +201,13 @@ Ans: 1. Preliminary Study
      5. System Designing
      6. Coding
      7. Testing
-     8. Implementaion
+     8. Implementation
      9. Maintenance
 
     Explanation 
     1. Preliminary Study
          - This is also called `Trust phase`, `Initial study`, `planning phase` 
-           and it answers the question "Is the project worth looking at"?.
+           and it answers the question "Is the project worth looking at".
            Extra: The things it must define to answer this question is
            - A scope of the project
            - Perceived problem
@@ -222,11 +222,10 @@ Ans: 1. Preliminary Study
            - schedule
            - economic
      3. Detailed System Study
-         - Studying the system and drafting out the important components that would
-           be crutial in the development of the system
+         - Studying the system and understanding how it works
      4. System Analysis
          - it is a problem-solving technique that decomposes the System into 
-           componenent pieces for the purpose of studying how well those components
+           component pieces for the purpose of studying how well those components
            work and interact to accomplish their purpose
      5. System Design
          - it is a complementary problem-solving technique that reassembles a Systems
@@ -238,14 +237,12 @@ Ans: 1. Preliminary Study
          - Building software is not the end.
            Now it must be tested to make sure that there aren’t any bugs and that 
            the end-user experience will not negatively be affected at any point.
-     8. Implementaion
-         - this is the process of configuring the software for certain conditions 
-           of use, as well as training customers to work with the product. 
-           At the time, a program is installed to support the intended business 
-           functions. The system performance is compared with the targets set at 
-           the planning phase(1st 3 phases).
-           Tip: This stage begins after the system has been tested and accepted 
-                by the company. 
+     8. Implementation
+         - This phase is initiated after the system has been tested and accepted by 
+           the user. In this phase, the system is installed to support the intended 
+           business functions. System performance is compared to performance 
+           objectives established during the planning phase.
+           Then the system is delivered into production
      9. Maintenance
          - This is the process of maintaining the software system after it has been
            deployed. This includes monitoring the system for errors, making updates,
@@ -265,7 +262,7 @@ Ans: 1. Stub testing
     Explanation
     - Stub testing:
         is the test performed on events or modules of the program. In other words
-        it is a test performed on the subset of the program
+        it is a test performed on a subset of the program
     - Unit or Program testing:
         it is the testing of an entire application. In other words its a test where
         by all the events and all the modules are tested as an integrated unit
@@ -275,7 +272,7 @@ Ans: 1. Stub testing
 
 d. List four principles of Software Development?
 Ans: 1. Let the users be involved
-     2. Use the problem solvin approach
+     2. Use the problem solving approach
      3. establish phases and activities
      4. Establish standards
      5. Justify System as Capital Investments
@@ -297,8 +294,9 @@ Ans: Projects can be initiated in a number of ways, including:
                       is proposed to address it.
      - Strategic alignment: A project is proposed that aligns with the 
                             organization's strategic goals and objectives.
-     - Compliance: A project is proposed to meet regulatory or legal requirements.
-     - Market demand: A project is proposed to meet a perceived market demand.
+     - Compliance:      A project is proposed to meet regulatory or legal 
+                        requirements.
+     - Market demand:   A project is proposed to meet a perceived market demand.
      - Problem solving: A problem is identified and a project is proposed to 
                         solve it.
 
@@ -336,7 +334,7 @@ Ans: Functional requirements
      Non-functional requirements 
        are characteristics of a system that do not specify a specific behavior 
        but rather impose constraints on the design or implementation. 
-       These requirements describe how the system should work and perform
+       They describe how the system should work and perform
        E.g
        - The system should have a response time of less than 2 seconds
        - The system should be able to handle at least 1000 concurrent users
@@ -349,7 +347,7 @@ Ans: Requirements provide the basis for project scope, design, development,
      testing, and maintenance.
 
 
-iii. What are the consequencies of not getting the Requirements right?
+iii. What are the consequences of not getting the Requirements right?
 Ans: - it can lead to project delays, 
      - cost overruns, 
      - project failure. 
