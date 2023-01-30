@@ -1,0 +1,182 @@
+STUDY CMP 309
+
+1. A system is a group of interrelated components working together toward a common
+   goal by taking input and producing outputs in an organized transformation process
+
+c. A system structure is the relationship between components
+
+d. A subsystem is a subset of the system
+
+e. An Environment is the domain of the system
+
+f. 
+
+g.
+
+h. An information system is any continuation of people, hardware, software, 
+   communication networks and data resources that collects, transforms and 
+   distributes information in an organization
+
+i.
+
+k. The Information System diagram implies that one cannot do with out the other
+
+j. Activities of an Information System:
+   Input data
+   Processing of data into information
+   Output of information
+   Storage of data resources
+   Central of Systems Performance
+
+
+
+
+
+2a. Data is a stream of raw facts representing events such as business transactions,
+    simple observations e.t.c..
+    - easily structured
+    - easily captured on machines
+    - easily transfered, often quantified
+
+b. Information is data endowed with relevance, useful to humans in decision making
+   - requires analysis/processing
+   - it helps in processes such as decision making
+
+c. Knowledge is information from the human mind which guides the human behavior in
+   correct ways
+   - hard to structure
+   - difficult to capture on machine
+   - hard to transfer
+
+
+
+
+Lecture 2
+
+1a. Stakeholders 
+
+b. These is any person who has interest in an existing or new information system
+   They can be technical or non-technical
+
+c. System owners
+   System users
+   System Designers
+   System builders
+   System Analyst
+   IT vendors
+
+
+Character &  Ethics of a System Analyst
+
+d. What is Ethics?
+Ans: it is a personal character trait that helps an individual understand the
+     difference beween right and wrong and acts accordingly
+
+e. Let the users be involved
+   Establish phases and activities
+   Establish standards
+   Justify system as capital investment
+   don't be afraid to cancel or revise scope
+   design a system for growth and chnage
+   divide and conquer
+   use the problem solving aproach
+
+f. 
+
+f. The 10 Commandments
+1. Thou shalt not use a computer to harm other people
+2. ..   ..    ..  interfere with other peoples compter work
+3. ..   ..    ..  snoop around in other peoples computer files
+4. ..   ..    ..  use Computers to steal
+5. ..   ..    ..  use Computers to bear false witness
+6. ..   ..    ..  copy softwares for which you haven't paid for
+7. ..   ..    ..  use other peoples computer resources without authorization or proper compensation
+8. ..   ..    ..  appropriate other peoples intellectual output
+9. Thou shalt think about social consequences of the program you are writing or the
+   system you are designing
+10. Thou shalt use a computer in ways to ensure consideration and respect for other people
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lecture 3
+
+1. 
+
+
+b. System Owners
+   System Users
+   System Designers
+   System Builders
+   System Analysts
+   IT vendors and consultants
+
+c. System Analysis is a problem solving technique where a system is decomposed into
+   component pieces for the purpose of studying how well they work and interact to 
+   accomplishing their purpose
+
+d. System Design is a complementary problem solving technique that reassembles
+   a systems component pieces back into a complete system
+
+e. System Analysis and Design(SAD) is the process of examining a business situation with
+   the intent of improving it through better procedures and methods
+
+g. SDLC is an organizational process for developing and maintaining systems
+
+h. Preliminary study
+   Feasibility study
+   Detailed system study
+   System Analysis
+   System Design
+   Coding or developing
+   Testing
+   Implementation
+   Maintenance
+
+i
+
+j
+
+k. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
