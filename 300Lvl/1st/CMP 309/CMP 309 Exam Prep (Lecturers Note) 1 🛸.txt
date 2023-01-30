@@ -24,42 +24,30 @@ Ans: A system is a group of interrelated components working together toward a co
      goal by accepting inputs and producing outputs in an organized transformation
      process.
 
-b. The term system was derived from the greek word 'systema' which means?
-Ans: Organized relationship among functioning components
-
-
-c. Draw a diagram of the Environment?
+b. Draw a diagram of the Environment?
 Ans: Lecturers Note page 2
 
-d. What is a system structure?
+c What is a system structure?
 Ans: its the relationship between components
 
-e. What is a Subsystem?
+d. What is a Subsystem?
 Ans: subset of the system
 
-f. What is Environment/boundary?
+e. What is Environment/boundary?
 Ans: its the domain of the system
-
-g. What is input and output?
-Ans: Input:  what goes into the system
-     Output: what goes out of the system
-
-h. What is boundary?
-Ans: A line which marks the limits of an area
-
 
 
 
 ABSTRACT CONCEPT OF A SYSTEM
 
-i. Draw an the diagram of the Abstract concept of a system?
+f. Draw an the diagram of the Abstract concept of a system?
 Ans: Lecturers Note page 3
 
 
-j. Draw a diagram of a Manufacturing System?
+g. Draw a diagram of a Manufacturing System?
 Ans: Lecturers Note page 4
 
-k. What is Information System?
+h. What is Information System?
 Ans: An Information System can be any organized continuation of people, hardware,
      software, communications network, and data resources that collects, transforms,
      and distributes information in an organization
@@ -71,13 +59,13 @@ Ans: An Information System can be any organized continuation of people, hardware
      operations in a business as well as support the problem - solving and 
      decision-making needs of management and users
 
-l. Draw a diagram of the components of an Information System?
+i. Draw a diagram of the components of an Information System?
 Ans: Lecturers Note page 5
 
-m. The Information System diagram implies that?
+k. The Information System diagram implies that?
 Ans: One cannot work without the other
 
-n. What are the activities of the Information System?
+l. What are the activities of the Information System?
 Ans: - Input Data: 
            manual input by key, scanning etc
      - Processing of data into information: 
@@ -99,7 +87,7 @@ Ans: Streams of raw facts representing events such as business transactions, sim
      observations etc
      - easily structured
      - easily captured on machines
-     - easily transfered, often quantified
+     - easily transferred, often quantified
 
 b. What is Information?
 Ans: Data endowed with relevance and purpose, useful to human beings in processes
@@ -108,7 +96,7 @@ Ans: Data endowed with relevance and purpose, useful to human beings in processe
      - it helps in decision making
 
 c. What is Knowledge?
-Ans: Information from the human mind which guides human behaviour in correct ways
+Ans: Information from the human mind which guides human behavior in correct ways
      - Hard to structure
      - Difficult to capture on machine
      - Hard to transfer
@@ -249,9 +237,9 @@ Ans: 1. System Owners:
            Construct, test and deliver the System into operation.
 
      5. System Analysts:
-           Facilitate the development & Information Systems and Computer applications
-        by bridging the communications gap that exists between non-technical System
-        Owners and Users and Technical System Designers and Builders.
+           Facilitate the development of Information Systems and Computer applications
+           by bridging the communications gap that exists between non-technical System
+           Owners and Users and Technical System Designers and Builders.
      
      6. IT Vendors and Consultants:
            Sell hardware, software, Services to businesses for incorporation into
@@ -277,7 +265,7 @@ Ans: Systems Analysis and Design
 
 h. What is Systems Development Life Cycle (SDLC)?
 Ans: it is an organizational process of developing and maintaining systems.
-     - it helps in establishing a asystem project plan
+     - it helps in establishing a system project plan
 
      OR
 
@@ -297,32 +285,29 @@ Ans: 1. Preliminary Study
 
 j. 
 
-k. What is Systems Analysis? 
-Ans: refers to the process of examining a business situation with the intent of 
-     improving it through better procedures
+k.
 
-l. Systems Analysis can also defined as?
-Ans: The study of a business problem domain to recommend improvements and specify 
-     the business requirements for the solution.
+l. What is Systems Analysis? 
+Ans: its a problem solving technique that decomposes a system into component pieces 
+     for the purpose of studying how well those component parts work and interact
+     to accomplish their purpose.
 
 m. What is Systems Design?
-Ans: is the specification or construction of a technical, computer-based solution 
-     for the business requirements identified in a systems analysis
-     (Note: The design takes the form of a working prototype)
+Ans: its a complementary problem-solving technique (to system analysis) that 
+     re-assembles a System's component pieces back into a complete system. Hopefully
+     an improved system.
 
 n. Who is a Systems Analyst?
-Ans: a person who facilitates the development of information systems and computer
-     applications
+Ans: its a person who facilitate the development of Information Systems and 
+     Computer applications by bridging the communications gap that exists 
+     between non-technical System Owners and Users and Technical System Designers and Builders.
 
-o. What does the Systems Analyst acutally do?
-Ans: They study the problems and needs of our organization to determine how people,
+o. What does the Systems Analyst actually do?
+Ans: They study the problems and needs of an organization to determine how people,
      data, processes, communications, dnd information technology can best accomplish
      improvements for the business.
 
-p. iS the system analyst a problem solver?
-Ans: Yes
-
-q. Systems analysts use some variation of probem-solving approach, which usually
+p. Systems analysts use some variation of problem-solving approach, which usually
    incorporates the following general steps. List them?
 Ans: 1. Identify the problem
      2. Analyze and Understand the problem
@@ -348,7 +333,7 @@ Ans: True
 
 b. What are the 3 ways Projects can be Initiated?
 Ans: - Problems: 
-          are underrstable situations that prevent the organization from fully 
+          are understandable situations that prevent the organization from fully 
           achieving its purpose goals and objectives
           e.g 
            A business might identify that it is taking too long to fulfill customer 
