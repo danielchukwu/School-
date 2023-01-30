@@ -1,0 +1,73 @@
+EXAM TEST PREP
+
+1. Concurrency is the execution of multiple instructions at the same time
+
+b. Concurrency occurs when there are several process threads running in parallel. True
+
+c. Process Threads maintain communication through shared memory or message passing
+
+d. Deadlocks and resource starvation
+
+e. Concurrency helps to 
+   - coordinate process executions
+   - Memory allocation
+   - Execution Scheduling for maximizing output
+
+f. Interleaved and Overlapping
+
+g. the way the OS handles interrupts
+   other processes activities
+   the OS scheduling policies
+
+h. Problems with Concurrency
+   - locating the programmin errors are difficult
+   - Sharing global resources are difficult
+   - locking the channel could be inefficient for the OS to do
+   - optimal allocation of resources is challenging for the OS to handle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
