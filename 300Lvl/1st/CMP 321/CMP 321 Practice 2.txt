@@ -1,0 +1,464 @@
+CMP 321 PRACTICE
+
+1a. Concurrency is the execution of multiple instruction sequences at the same
+    time
+b.  True
+c. The process Threads maintain communication through shared memory and message
+   passing
+d. locking channels
+   optimal allocation of resources
+   sharing global resources
+   locating programing errors
+
+e. - Memory allocation
+   - Execution scheduling
+   - Coordinating execution of process
+
+f. interleaved and overlapping
+
+g. The way the OS handles Interrupts
+   Other processes activities
+   The OS scheduling policies
+
+
+h. locating programming errors is difficult
+   sharing global resources is difficult
+   Locking the channel could be inefficient for the OS to do
+   Optimal Allocation of resources is challenging for the OS to handle
+
+i. Non-atomic
+   Deadlock
+   Starvation 
+   Race Condition
+   Blocking
+
+j. done
+
+k. - Improved performance
+   - running multiple applications
+   - Resource utilisation
+   
+l. It is necessary to protect multiple applications
+   perfomance overheads and increased cpu complexity to support concurrency
+   implenting new technique for the coordination of the concurrent applications
+   
+m. processes
+   Memory management
+   Information Security and Privacy
+   Scheduling and Resource Management
+
+
+
+2a. A process is a program in execution
+b. Creation
+   Scheduling
+   Execution
+   Deletion/Killing
+
+c. An executable program
+   The associated data of the program
+   The process state(or context)
+
+
+
+
+
+
+
+
+
+
+
+
+
+SLIDE 2
+
+1a. True
+
+b. A multiprogramming OS is one that allows multiple process to share it's executable
+   memory and CPU at the same time
+
+c. True
+
+d. Proccess Scheduling is carried out by the Process manager where it handles the 
+   removal of runnig processes and selects a new process from the ready queue to run using a special Algorithm
+
+e. Pre-emptive and
+   Non-pre-emptive
+
+f. Pre-emptive category
+      here the OS allocates resources to a process for a fixed amount of time
+      - during this allocation the process changes from 'running' or 'waiting' state
+      to ready state
+      - this switching occurs as the CPU may give priority to other process and 
+        replace the running process with a process with higher priority
+
+   Non-pre-emptive
+      a resource cannot be taken from a process until that process has completed its
+      execution
+
+g. It maintains it in the Process Scheduling Queue
+
+
+h. Job Queue
+   Ready Queue
+   Device Queue
+
+k. done
+
+l. done
+
+m. Schedulers are special system softwares that handle Scheduling
+
+n. - Long-term Scheduler
+     Short-term Scheduler
+     Medium-term Scheduler
+
+o. done
+
+p. done
+
+q. selects a process in memory ready for execution and then it allocates the CPU to it
+
+r. A running process blocked (running ! blocked)
+   A timer expires (running ! ready)
+   A waiting process unblocked (blocked ! ready)
+   A process terminates (running ! exit)
+
+s. CPU utilization
+   Throughput
+   Turnaround time
+   Waiting time
+   Response time
+
+t. Maximizing throughput and CPU utillization
+   Minimizing Turnaround time, waiting time, response time
+
+
+
+
+
+
+
+2. particuler scheduling Algorithm
+
+
+b. FCFS
+   SJN
+   Priority
+   SRTF
+   Round Robin
+   Multiple-Level Queue
+
+c. FCFS
+   - it is poor in performance
+   - easy to understand and implement
+   - Jobs are executed on a first come first serve basis
+   - it is non-preemptive and pre-emptive
+   - its implementation is based on the FIFO queue
+
+d. Done
+
+
+e. SJN
+   - it is non-preemptive and pre-emptive
+   - it has the best approaches to minimizing wait time
+   - easy to implement in batch systems
+   - impossible to implement in interactive systems
+   - Process needs to know in advance the amount of time it is going to take
+
+f. True
+
+g. - Associate each process with the lenght of its next CPU burst
+   - use that lenght to schedule the process with the shortest burst time
+
+
+h. Priority Scheduling
+   - it is a non-preemptive scheduling algorithm
+   - it is one of the most common scheduling algorithms for batch systems
+   - each process is assigned priority and the one with the highest is executed first
+   - process with same priority is scheduled on a FCFS
+   - parameters that determine priority
+     - memory and time
+
+i. Static and Dynamic
+
+j. Static
+   - this algorithm associates an integer priority with the processes
+   - allocates the CPU to the process with the highest
+   - the highest p is the p with the smallest priority integer number
+   - 
+
+
+k. Shortest Remaining Time First
+   - it is the pre-emptive version of the SJN
+   - if a new process arrives with a burst time less than the current processes
+     remaining time, preempt
+
+
+l. Round Robin
+   done.
+
+m. Fair: Each process gets 1/nth of the processor
+   Live: no process waits more than (n-1)q before getting CPU allocation
+
+n. True
+
+o. done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SLIDE 3
+
+
+1. Interchangeably
+
+b. a thread is a light weight process which shares memory with other processes
+
+c. Similarities
+   - have their own set of registers and stacks
+   - can run concurrently
+   - are context-switched
+   - can create  child threads/processes
+   - have states 
+   - have their own logical control flow
+
+d. Differences
+   - A process can have multiple threads
+   - threads of a process are much like child processes of a process but sharing
+     the same memory space with parent processes
+   - a thread can access all address in the process memory space
+   - a thread can access another threads stack
+   - they are less expensive
+   - Peer threads share code, data, file descriptor and process priority while processes
+     do not
+
+e. Process is something big
+   Task (depends)
+   - Same with process in big systems
+   - Same with threads in small or embedded systems
+
+f. The kernel
+
+g. Threads
+
+h. it means that their logical flow overlaps
+
+i. Done
+
+j. done
+
+
+
+
+
+
+
+
+
+
+2. It is an OS process management mechanism that allows multiple processes use a
+   single CPU
+
+b. so that the next time that process is allocated the CPU it continues from where 
+   it left off
+
+c. Context Switching
+
+d. Steps involved
+   - process is interrupted
+   - Registers for that process are stored in the PCB
+   - process is moved to the Ready queue 
+   - PCB stores priority and memory usage
+   - The new process's registers and state are loaded into the processor
+   - Process starts running
+ 
+e. Batch System 
+   Multitasking 
+   Multiprocessing
+
+f. Context-Switching
+   Scheduling
+   Crititcal Sections
+
+g. Cooperative and preemptive
+
+h. The running process decides when to yield to the CPU
+
+i. Programming errors can keep other processes out
+   Process never gives up CPU
+   Process waits too long to switch
+
+
+j. True
+
+k. OS controls when context switches
+   the scheduler picks the process to run next fromthe ready queue
+
+l. timer
+
+m. OS Kernel is a kernel that can take a process out of a processor
+
+n. True
+
+o. True
+
+
+
+p. Multitasking 
+   Interrupt handling
+   User and Kernel Switching Mode
+
+q. switch context
+   switch to user mode
+   jumping to a particular location in a user program to restart it
+
+f. Dispatch Latency is the amount of time it takes to stop one process and put another
+   in the running state
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Restart
+
+SLIDE 1
+
+1a. Concurrency is the execution of multiple instruction sequences at the same time
+b. True
+
+c. Through shared memory and message passing
+
+d. locking the channel could be inefficient for the OS to do
+   Optimal Allocation of resources can be difficult for the OS to do
+   Sharing Global resources is difficult
+   Programming errors are hard to locate
+
+e. Coordinating execution of processes
+   Memory Allocation
+   Execution scheduling
+
+f. Interleaved and Overlapping
+
+g. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
