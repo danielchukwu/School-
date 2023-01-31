@@ -34,7 +34,7 @@ Ans: Deadlocks and Resources starvation
 e. How does Concurrency help?
 Ans: - Coordinating execution of processes
      - Memory Allocation and
-     - Execution Scheduling for maximizing output
+     - Execution Scheduling for maximizing throughput
 
 f. _______ and _______ processes are two types of concurrent processes with 
 the same problems. 
@@ -100,7 +100,7 @@ Ans: Non-atomic
 
 k. List the Advantages of Concurrency?
 Ans: - Better Performance.
-     - Better Resource Utilisation
+     - Better Resource Utilization
      - Running Multiple Applications
 
 l. List the Disadvantages of Concurrency?
@@ -125,7 +125,7 @@ Ans: Its a program in execution
      or
      The entity that can be assigned to, and executed on a processor
      or
-     A unit of activity characterised by a single sequential thread of execution, 
+     A unit of activity characterized by a single sequential thread of execution, 
      a current state, and an associated set of system resources.
 
 b. What are the Operations performed on the Process?
@@ -143,7 +143,7 @@ Ans: - An executable program.
      - The execution context (or process state) of the program.
 
 d. What is the Execution Context of a Process?
-Ans: it's the internal data by which the OS is able to supervise and 
+Ans: it's the internal data by which the OS uses to supervise and 
      control the process.
 
      Extra: 
@@ -203,10 +203,10 @@ p. List the states the Process may be in during execution?
 Ans: New
      Ready
      Running
-     Block or Wall
+     Block or Wait
      Completion or termination
      Suspend ready
-     Suspend wall
+     Suspend wait
 
 q. The entire state of the process at any instance is contained in its ________?
 Ans: Context
@@ -293,8 +293,7 @@ l. Explain the 3 important scheduling Queues?
 Ans: - Job Queue
          maintains all processes in the system
      - Ready Queue
-         maintains the set of all processes in the main memory, wiating and ready 
-         to execute
+         maintains the all processes in the main memory, waiting and ready to execute
      - Device Queue
          maintains all the processes which are blocked (due to unavailability of an I/O device)
 
