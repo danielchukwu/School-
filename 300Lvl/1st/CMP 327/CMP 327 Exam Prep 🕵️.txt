@@ -21,7 +21,7 @@ Tips:
 
 
 
-LECTURE `1
+LECTURE 1
 
 
 1a. What is Data Management?
@@ -31,7 +31,7 @@ Ans: Data management is the practice of collecting, keeping, and using data secu
 b. The goal of Data Management is to ______________?
 Ans: help people, organizations, and connected things optimize the use of data within the bounds of 
      policy and regulation so that they can make decisions and take actions that 
-     maximize the benefit to the organization. 
+     maximize the benefit of the organization. 
 
 c. A robust data management strategy is becoming more important than ever as 
    organizations increasingly rely on data to _____________.
@@ -63,9 +63,9 @@ Ans: - customer management processes
      - productivity reporting
      - financial reporting
      - data analysis
-     -  Supply chain management
+     - Supply chain management
 
-i. What is the secrete the a successful use of database tools and technology?
+i. What is the secrete to a successful use of database tools and technology?
 Ans: it is the way in which information is structured
 
 j. List at least 5 motivations for Database implementation
@@ -74,9 +74,9 @@ Ans: - Lack of data integration
      - Lack of central control
      - Inconsistency
      - Redundancy
-     - Lack of multiple view
+     - Lack of multiple views
 
-k. List at least 10 advantages of databases?
+k. List at least 7 advantages of databases?
 Ans: - Reduced data redundancy
      - Reduced updating errors and increased consistency
      - Greater data integrity and independence from applications programs
@@ -88,7 +88,7 @@ Ans: - Reduced data redundancy
      - Data can be viewed in multiple ways
      - Standard can be easily enforced.
 
-l. List at least 10 disadvantages of databases?
+l. List at least 3 disadvantages of databases?
 Ans: - Database systems are complex, difficult, and time-consuming to design
      - Substantial hardware and software start-up costs
      - Damage to database affects virtually all applications programs
@@ -105,10 +105,11 @@ Ans: Database management system is a software used to manage the database.
 b. Give me some examples of DBMS?
 Ans: MySQL, Oracle, SQL Server, IBM DB2, PostgreSQL, Amazon SimpleDB (cloud based) , etc.
 
-c. DBMS provides an interface to perform various operations like database creation, 
-   storing data in it, updating data, creating a table in the database and a lot 
-   more. True or False?
-Ans: True
+c. DBMS provides an interface to perform various operations such as 
+Ans: - database creation, 
+     - storing data, 
+     - updating data
+     - creating a Tables
 
 d. What are the tasks DBMS allows users to perform?
 Ans: - Data Definition
@@ -119,8 +120,8 @@ Ans: - Data Definition
            retrieves data from the database to be used by applications
      - User Administration
            registering and monitoring users, maintain data integrity, enforcing 
-       data security, dealing with concurrency control, monitoring performance and 
-       recovering information corrupted by unexpected failure
+           data security, dealing with concurrency control, monitoring performance 
+           and recovering information corrupted by unexpected failure
           
 e. List and Explain all 7 characteristics of DBMS?
 Ans: 1. Data stored into Tables:
@@ -133,7 +134,7 @@ Ans: 1. Data stored into Tables:
           In the modern world hard drives are very cheap, but earlier when hard 
           drives were too expensive, unnecessary repetition of data in database was 
           a big problem. But DBMS follows Normalization which divides the data in 
-          such a way that repetition is minimum.
+          such a way that repetition is minimal.
      3. Data Consistency:
           On Live data, i.e. data that is being continuously updated and added, 
           maintaining the consistency of data can become a challenge. But DBMS 
@@ -142,27 +143,27 @@ Ans: 1. Data stored into Tables:
           DBMS allows multiple users to work on it(update, insert, delete data) 
           at the same time and still manages to maintain the data consistency.
      5. Query Language:
-          DBMS provides users with a simple Query language, using which data can 
-          be easily fetched, inserted, deleted and updated in a database.
+          DBMS provides users with a simple Query language, using it allows us 
+          fetch, insert, delete and update the data in the database.
      6. Security:
           The DBMS also takes care of the security of data, protecting the data 
-          from un-authorised access. In a typical DBMS, we can create user accounts 
-          with different access permissions, using which we can easily secure our 
+          from un-authorized access. In a typical DBMS, we can create user accounts 
+          with different access permissions, by which we can easily secure our 
           data by restricting user access.
      7. DBMS supports transactions, which allows us to better handle and manage 
         data integrity in real world applications where multi-threading is 
         extensively used.
         
 
-f. List at least 5 Advantages of DBMS?
+f. List 5 Advantages of DBMS?
 Ans: - Segregation of application program.
      - Minimal data duplication or data redundancy.
      - Easy retrieval of data using the Query Language.
      - Reduced development time and maintenance need.
-     - With Cloud Datacenters, we now have Database Management Systems capable 
+     - With Cloud Data centers, we now have Database Management Systems capable 
        of storing almost infinite data.
      - Seamless integration into the application programming languages which makes 
-     - it very easier to add a database to almost any application or website.  
+       it very easy to add a database to almost any application or website.  
 
 g. List 3 disadvantages of DBMS
 Ans: - It's Complexity
@@ -178,7 +179,7 @@ Ans: - organizes your files to give you more control over your data
        - Security: 
              security rules to determine access rights of users data
        - Backup and recovery: 
-             offers proccesses to backup data regularly and enables data recovery 
+             offers processes to backup data regularly and enables data recovery 
              if any problem occurs
        - Integrity: 
              db structure and rules improve the integrity of the data
@@ -200,7 +201,7 @@ Ans: - Selecting the server hardware on which the database software will run
 
 
 Data Abstraction
-k. One of the major puposes of a database system is to provide users with an 
+k. One of the major purposes of a database system is to provide users with an 
    abstract view of the system. The system hides certain details of how data 
    is stored and maintained.True or False?
 Ans: True
@@ -264,7 +265,7 @@ b. A database model shows the logical structure of a database, including the
    accessed. True or False?
 Ans: True
 
-c. List 4 types of Data Models you know?
+c. List 4 kinds of Database Models you know?
 Ans: - Hierarchical database model
      - Relational model
      - Network model
@@ -297,7 +298,7 @@ Ans: Relation: is a table with columns and rows
      Domain:    is the set of allowable values for one or more attributes
      Relational Database: is a collection of normalized relations with distinct 
                           relation names
-     Relation Schema:     is named relation defined by a set of attribute and 
+     Relation Schema:     is a named relation defined by a set of attribute and 
                           domain name pairs
 
      Relational database schema: is a set of relation schemas, each with a 
@@ -351,8 +352,8 @@ Ans: - Ensures that all data objects required by the database are accurately
      - It provides a clear picture of the base data and can be used by database 
        developers to create a physical database.
      - It is also helpful to identify missing and redundant data.
-     - Though its creation is time consuming at the initial sage, in the long run
-       it makes you IT infrastructure upgrade and maintenance cheaper and faster
+     - Though its creation is time consuming at the initial stage, in the long run
+       it makes your IT infrastructure upgrade and maintenance cheaper and faster
 
 
 q. List all 3 types of Data Models?
@@ -363,7 +364,7 @@ Ans: - Conceptual
 r. Discus all 3 types of Data Model?
 Ans: Conceptual Model:
         This Data Model defines WHAT the system contains. 
-        - It is typically created by Buisness stakeholders and Data Architects. 
+        - It is typically created by Business stakeholders and Data Architects. 
      Logical Model:
         Defines HOW the system should be implemented regardless of the DBMS
         - It is typically created by Data Architects and Business Analysts.
@@ -378,6 +379,7 @@ v. What are the 3 basic elements of the Conceptual model?
 Ans: - Entity, 
      - Attribute, 
      - Relationship
+
 
 
 ER MODEL - BASIC CONCEPTS
@@ -615,7 +617,7 @@ Ans: Structured query language (SQL) is:
       • Efficient, easy to learn, and use
       • Functionally complete (With SQL, you can define, retrieve, and manipulate data)
 
-b. Draw a table containing the differenct categories of SQL Commands?
+b. Draw a table containing the different categories of SQL Commands?
 Ans: Draw it
 
 c. Are the below statements/characteristics all true about SQL statements?
@@ -877,11 +879,11 @@ Ans: Confidentiality, Integrity and Availability
 
 n. Explain the 3 main requirements to Data Security?
 Ans: Confidentiality:
-        protecting information from being disclosed to unauthorised parties
+        protecting information from being disclosed to unauthorized parties
      Integrity:
-        protecting information from being changed by unauthorised parties
+        protecting information from being changed by unauthorized parties
      Availability:
-        availability of information to authorised parties only when requested
+        availability of information to authorized parties only when requested
 
 o. Database security is generally ______, _______ and _________ by a 
    database administrator and or other information security professionals. True or False?
