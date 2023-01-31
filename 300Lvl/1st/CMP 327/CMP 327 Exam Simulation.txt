@@ -1,0 +1,39 @@
+LECTURE 1
+
+1a. i. What is Data Management?
+   ii. What is the Goal of Data Management?
+
+  b i. What is Database?
+   ii. List at least 5 uses of Databases in a business
+  iii. List 5 motivations for Database Implementation
+   iv. List 4 advantages and disadvantages of Databases
+
+
+2a. i. What are Database Management Systems and give some 5 examples? (DBMS)
+   ii. List 4 tasks that DBMS allow us perform?
+  iii. List 7 and explain 5 characteristics of DBMS?
+   iv. List 4 advantages and disadvantages of DBMS?
+    v. What are the Functions of a Database Management System?
+
+ b. i. Who is a Database Administrator?
+   ii. List the roles of a DBA?
+  iii. Discuss Data Abstraction
+   iv. List and Explain the 3 Levels of Data Abstraction
+    v. Draw a Diagram showing Data Abstraction
+
+
+LECTURE 2
+
+1a. i. What is a Database Model?
+   ii. List 4 types of Database Models?
+  iii. List 3 DBMS that uses the Relational Database Models?
+   iv. List 5 database terminology and explain?
+    v. List 5 properties of relations?
+
+ b. i. What is Data Modeling?
+   ii. List 5 uses(or primary goals) of Data Models?
+  iii. List and Explain the 3 types of Data Models and explain?
+   iv. List the 3 basic elements of Conceptual Data Models
+
+2a. i. 
+
