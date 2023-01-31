@@ -1,0 +1,226 @@
+CMP 327 exam prep
+
+1. Data management is the practice of collecting, keeping and using data securely,
+   efficiently and cost-effectively
+
+b. it is to help people, organizations and connected things optimize the use of data
+   within the bounds of policy and regulations so that they can make decisions and
+   take actions that maximize the benefits of the organization
+
+c. create value
+
+d. True
+
+e. collect, organize, process, and manage informations in a structured and 
+   controlled manner
+
+f. It is a comprehensive collection of data organized for easy access
+
+g. True
+
+h. - Customer management processes
+   - Inventory tracking
+   - employee database
+   - productivity reporting
+   - financial    reporting
+   - data analysis
+   - supply chain management
+
+i. it is the way in which the informations are structured
+
+j. - Lack of data integration
+   - Lack of standards
+   - Lack of central control
+   - Inconsistency
+   - Redundancy
+   - Lack of multiple views
+
+k. - Reduced data redundancy
+   - Reduced updating errors and increased consistency
+   - Greater data integrity
+   - Improved data access to users through the use of a host and query languages
+   - Improved data security
+   - Reduced data entry, storage, and retrieval cost
+   - Facilitated development of new application programs
+   - centralized control of data
+   - can be viewed in multiple ways
+   - standard can be easily enforced
+
+l. - they are complex, time-consuming and difficult to design
+   - substantial hardware and software start-up costs
+   - damage to database affects virually all the applications using it
+   - Extensive conversion cost from moving from a file system to a database
+   - Initial training required for all programmers and users
+
+
+
+
+
+
+
+
+
+2. Database Management Systems are softwares used in managing databases
+b. examples
+   - MySQL
+   - Oracle
+   - SQL SERVER
+   - PostgreSQL
+   - Amazon SimpleDB (cloud based)
+   - IBM DB2
+
+c. creation of databases
+   creation of tables
+   updating data
+   storing data 
+   e.t.c
+
+d. Data Definition 
+   Data Manipulation
+   Data Retrieval
+   User Administration
+
+e. 
+   - Data stored into tables
+   - Reduced Redundancy
+   - Data Consistency
+   - Support multiple users and concurrent Access
+   - Query Languages
+   - DBMS supports transactions
+   
+f. Segregation of application program
+   With cloud data centers we now have a DBMS that can store almost infinite data
+   Easy retrieval of data using the Query language
+   Reduced development time and maintenance need
+   minimal data duplication or repeatition
+   seamless integration into the application programmin language which makes it 
+   very easy to add a database to any application or website
+
+g. It's Complexity
+   Excepty MySQL, Licensed DBMS are generally costly
+   They are large in size
+   
+h. organizes your files to give you more control over your data
+   allows you create, update, retrieve, and even remove data in our db files
+   it provides:
+       Concurrency
+       Security
+       Backup and recovery
+       Integrity
+       Data descriptions
+
+i. Database Administrator (DBA)
+
+j. 
+
+k. True
+
+l. Yes they should
+
+m. Internal Level
+   Conceptual Level
+   External Level
+
+n. Internal Level - Shows the physical representation of database on the computer,
+                    how the data are stored
+   Conceptual Lvl - Defines the logical structure of the database, all the entities,
+                    attributes, and their relationship.
+   External Level - Describes part of the database for a particular group of users,
+                    how users see the data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LECTURE 2
+
+1. A database model is a type of data model that determines the logical structure
+   of the database and fundamentally determine how data is stored, organized and
+   manipulated
+
+b. True
+
+c. done
+
+d. done
+
+e. E.F codd in 1970
+
+f. PostgreSQL
+   Oracle
+   MySQL
+   SQL SERVER
+
+g. done
+
+h. done
+
+i. done
+
+j. Data modeling is the process of creating a data model for the data to be stored
+   in a Database
+
+k. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
