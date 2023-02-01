@@ -1,0 +1,66 @@
+LECTURE 1
+
+1a. i. What is a System?
+   ii. What is an information System
+  iii. What are the Activities of an Information System?
+
+2a. i. Define a) Data  b) Information c) Knowledge 
+   
+
+LECTURE 2
+
+1a. i. Who are Stakeholders. List all types?
+   ii. What is Ethics?
+  iii. List 5 principles of successful development?
+   iv. List the 10 COMMANDMENTS
+    
+
+LECTURE 3
+
+- What is the question answered for the 
+  - Preliminary Investigation Phase
+  - Problem Analysis Phase
+
+- What are the below phases also known as
+  - Preliminary Investigation Phase
+  - Problem Analysis Phase
+ 
+
+1a. i. Briefly Explain all 6 types of Stakeholders?
+   ii. Define i) System Analysis  ii) System Design  iii) System Analysis & Design (SAD)  
+  iii. What is Software Development Lifecycle (SDLC) and List all the Phases (SDLC)?
+   iv. Who is a System Analyst and what do they do?
+    v. List all the Problem-solving approaches used by System Analysts
+
+2a. i. List and Explain the 3 ways projects can be initiated?
+   ii. Discuss the Preliminary Investigation Phase and state the delivery of this phase?
+  iii. What does the Project Charter define?
+
+ b. i. List the Tasks involved in the Preliminary Investigation Phase?
+   ii. Briefly Discuss all the Tasks Involved in Preliminary Investigation Phase?
+
+  
+
+LECTURE 4
+
+1a. i. Discuss the Problem Analysis Phase 
+       a) This phase is also known as?
+       b) What questions does this phase answer
+   ii. List the Tasks involved in this Phase?
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
