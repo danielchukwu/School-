@@ -173,6 +173,15 @@ e. Project scope
    Opportunities
    Directives that triggered the project
 
+...
+
+l. List problems, opportunities, directives that triggered the project
+   Negotiate scope
+   Access project worth
+   Plan the Project
+   Present the project and plan
+   
+m. 
 
 
 
@@ -186,14 +195,52 @@ e. Project scope
 
 
 
+Lecture 4
+
+1. Don't try to fix it unless you understand it
+
+b. This phase provides the analyst with more understanding of the problem, opportunity,
+   and directives that triggered the project
+
+c. - Is the problem really worth solving
+   - Is the new System worth BUILDING
+
+d. The Problem Phase is also known as the Study Phase
+
+e. done
+
+f. Study the problem domain
+   Analyze problems and opportunities
+   (Optioal) Analyze business process
+   Establish System empowerment objectives
+   Update project plan
+   Present findings and recommendations
+
+
+g. 
 
 
 
 
 
+Lecture 5
 
 
+1. These are specific methods for finding information on a system
 
+b. Protect the Security & Privacy of any fact or data
+   Do not discuss sensitive issues in public
+   Do not be careless. Your notes and documents should be kept safe
+
+c. An employees profile showing personal informations about them e.g salaries, 
+   performance history, medical history
+
+d. - Sampling Existing documentation, forms and databases
+   - Research and Site Visits
+   - Observation of the Work environment
+   - Questionnaires
+   - Interviews
+   - Prototyping
 
 
 
