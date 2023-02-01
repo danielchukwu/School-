@@ -433,7 +433,7 @@ B. Negotiate preliminary scope
 - Scope is defined in form of Data, Business process, Interface
   Data:
     What type of data are we talking about? School info system may require data about
-    studenst, staff, etc.
+    students, staff, etc.
   Business process: 
     What business process are included - Order entry, etc
   Interface:
@@ -516,7 +516,7 @@ Ans: 2.1. Study the problem domain
 
 2.1. Study The Problem Domain
 
-g. Discuss the Study of the Problem Domain?
+g. Discuss the the First Task (Study the Problem domain)?
 Ans: During the problem analysis phase, the team initially attempts to learn about 
      the Current System.
      Each System owner, user and analyst brings a different level of understanding 
@@ -546,7 +546,7 @@ Ans: Data:
        e.g variation report
    
      Process:
-       Define each business event fro which a business response(process) is 
+       Define each business event for which a business response(process) is 
        currently implemented. 
        e.g
        "A customer places a new order" or
@@ -586,14 +586,14 @@ Ans: these are useful techniques used in finding about casting system/joint
 
 Task 2.2 Analyze Problem and opportunities
 
-m. Discuss the "Analyze Problem and opportunities" task?
+m. How do we go about the "Analyze Problem and opportunities" task?
 Ans: we use the cause-and-effect analysis technique to study and determine these 
      causes and effects on the System
 
 
 Task 2.3 Analyze Business Process
 
-n. Discuss the "Analyze Business Process" task?
+n. How do we "Analyze Business Process" task?
 Ans: - Keep focus on the process and not the people, because the owners of the 
        System and users can become dependencies about their existing business
        processes
@@ -656,7 +656,7 @@ Ans: these are specific methods for finding information of the system
 
 b. During your Fact-finding exercise. You will usually come across or analyze
    sensitive information. How do you handle those when it happens?
-Ans: - Protect security & Privacy of any facts or data
+Ans: - Protect Security & Privacy of any facts or data
      - Do not discuss sensitive issues in public
      - Do not be careless. Your notes, documents should be kept safe
 
@@ -679,61 +679,32 @@ Ans: - Sampling of existing documentation, forms and databases
 
 A. Sampling of existing documentation, forms and databases
 
-e. What is Requirements Validation?
-Ans: It is the checking of the requirements definition document for accuracy, 
-     completeness, consistency, and conformance to standards
-
-f. When is the Requirements validation done?
-Ans: When the final draft of the requirements definition of the document after all
-     input have been solicited from the system owners and users.
-a
-g. Why is Requirements Validation needed?
-Ans: It's for the systems analyst to ensure the requirements are written correctly
-
-h. List some errors the system analyst might find?
-Ans: - System models that contain errors
-     - Grammar errors
-     - Requirements that conflict with each other
-     - poorly worded requirements
-     - lack of agreement to quality standards required for the document
-
-i. Studies show that as much as 50% or more of the time requirements will change
-   before the system is put into production?
-Ans: True
-
-j. ___________ is the process of managing change to requirements?
-Ans: Requirements Management
-
-k. Requirements management encompasses the policies procedures and processes that
-   govern how change to requirements are handled?
-Ans: True
-
-l. A good analysts always gets facts first form _______________ rather than _____?
+a1. A good analysts always gets facts first form _______________ rather than _____?
 Ans: Existing documentations rather than from people
 
-m. An analyst also wants to study the Business Function. Such as?
+a2. An analyst also wants to study the Business Function. Such as?
 Ans: - Company's mission
      - Formal Objectives
      - Policy manuals
      - Standard Operation Procedures (SOP)
      - e.t.c
 
-n. Because it would be impractical to study every occurrence of every form or 
+a3. Because it would be impractical to study every occurrence of every form or 
    record in a file or database, systems analyst normally use _____________?
 Ans: Sampling Techniques
 
-o. What is Sampling?
+a4. What is Sampling?
 Ans: its the process of collecting a representative sample of documents, forms, and
      records
 
-p. But what does representative mean?
+a5. But what does representative mean?
 Ans: basically the systems analyst wants to sample enough forms to cover up for the
      full nature and complexity of the rest of the form
 
 
 B. Research and site visits
 
-2. Discuss the "Research and site visits" fact-finding technique?
+b1. Discuss the "Research and site visits" fact-finding technique?
 Ans: In this technique, we thoroughly research the problem domain. Most problems 
      are not unique and have been solved before. Organizations often contact or
      perform site visits at companies they know have experienced similar problems.
@@ -744,7 +715,7 @@ Ans: In this technique, we thoroughly research the problem domain. Most problems
      to produce 24 Hours of light everyday. Most problems are not unique and have
      been solved before
 
-b. What are some other ways we can find solved similar problems?
+b2. What are some other ways we can find solved similar problems?
 Ans: - Computer trade journals
      - Reference books are also good
      - Software packages may already exist to solve your problem
@@ -757,19 +728,19 @@ C. Observation
    understanding of a system. True or False?
 Ans: True
 
-b. What is Observation?
+c2. What is Observation?
 Ans: Observation is a fact-finding technique wherein the systems analyst either
      participates in or watches a person perform activities to learn about the 
      system.
 
-c. This technique is often used when?
+c3. This technique is often used when?
 Ans: Validity of data collected through other methods is in question ? or when it's
      too complex
 
-d. Observation can be a very useful technique if you have the ability to?
+c4. Observation can be a very useful technique if you have the ability to?
 Ans: Observe thoroughly and accurately
 
-e. What are the Advantages?
+c5. What are the Advantages?
 Ans: - Data gathered using Observation are highly reliable
      - Complex tasks are sometimes difficult to clearly explain. Through 
        Observation systems analyst can identify tasks that have been missed or 
@@ -777,7 +748,7 @@ Ans: - Data gathered using Observation are highly reliable
      - Observation is not expensive compared to other fact-finding techniques
      - it allows the systems analyst to do work measurements
 
-f. What are the Disadvantages?
+c6. What are the Disadvantages?
 Ans: - people are uncomfortable when watched
      - time of observation might not involve the level of difficulty or volume 
        normally experienced
@@ -786,15 +757,15 @@ Ans: - people are uncomfortable when watched
      - The tasks being observed are subject to interrupt
      - People may let you see what they want you to see
 
-g. What are the times most appropriate to make observations?
+c7. What are the times most appropriate to make observations?
 Ans: Low, Normal and Peak periods of operations
 
 
-h. What is Work Sampling?
+c8. What is Work Sampling?
 Ans: it is a fact-finding technique that involves a large number of observations 
      taken at random intervals
 
-i. List some guideline for Sampling?
+c9. List some guideline for Sampling?
 Ans: - Keep a low profile
      - take notes during observation or immediately after
      - review observation notes with appropriate individuals
@@ -802,10 +773,10 @@ Ans: - Keep a low profile
      - don't focus heavily on trivial activities
      - don't make assumptions
 
-j. Wha is the most effective way to perform observation?
+c10. Wha is the most effective way to perform observation?
 Ans: Living the System
 
-k. What happens in Living the System Observation?
+c11. What happens in Living the System Observation?
 Ans: System analyst actively performs the role of the user being observed for a 
      short time
 
@@ -817,21 +788,21 @@ D. Questionnaires
 Ans: These are special-purpose documents that allow the analyst to collect 
      information and opinions from respondents
 
-b. The use of questionnaires has been heavily criticized and is often avoided by
+d1. The use of questionnaires has been heavily criticized and is often avoided by
    systems analysts. True or False?
 Ans: True
 
-c. The reason for the criticism is that people using questionnaires don't understand
+d2. The reason for the criticism is that people using questionnaires don't understand
    the pros and cons?
 Ans: True
 
-d. What are the Advantages?
+d3. What are the Advantages?
 Ans: - They can be answered quickly
      - They are not expensive
      - They allow respondents to remain anonymous
      - Responses can be tabulated and analyzed quickly
 
-e. What are the Disadvantages?
+d4. What are the Disadvantages?
 Ans: - Number of respondents are often low
      - No guarantee an individual will answer or expand on all the questions
      - Questionnaires tend to be inflexible
@@ -839,11 +810,11 @@ Ans: - Number of respondents are often low
      - Unable to clarify an incomplete answer to any question
      - Good questionnaires are difficult to prepare
 
-f. What are the 2 types of Questionnaires?
+d5. What are the 2 types of Questionnaires?
 Ans: 1. Free-format  questionnaires
      2. Fixed-format questionnaires
 
-g. Explain the 2 types of Questionnaires?
+d6. Explain the 2 types of Questionnaires?
 Ans: Free-format questionnaires:
         Offers the respondent greater latitiude in the answer. A question is asked,
      and the respondent records the answer in the space provided after the question
@@ -866,30 +837,30 @@ E. Interviews
    most often used fact-finding technique. True or Yes?
 Ans: True
 
-b. What are Interviews?
+e1. What are Interviews?
 Ans: these are fact-finding techniques whereby the systems analysts collects 
      information from individuals through face-to-face interaction
 
-c. An interviewer must have good human relation skills. True or False?
+e2. An interviewer must have good human relation skills. True or False?
 Ans: True
 
-d. What are the Advantages?
+e3. What are the Advantages?
 Ans: - Opportunity of the interviewer (or systems analyst) to motivate the 
        interviewee to respond freely and openly to questions.
      - allows the interviewer probe for more feedback from the interviewee
      - allows interviewer the opportunity to adapt or reword questions foreach individuals
      - allows the interviewer to observe the interviewee's body language
 
-e. What are the Disadvantages?
+e4. What are the Disadvantages?
 Ans: - Time consuming and costly
      - Success of interviews is highly dependent on the system analysts human 
        relation skills
      - may be impossible due to location of interviewee
 
-f. What are the 2 types of Interviews?
+e5. What are the 2 types of Interviews?
 Ans: Structured and Unstructured Interviews
 
-g. Explain both types of Interviews?
+e6. Explain both types of Interviews?
 Ans: Unstructured Interviews
         these are conducted with only a general goal or subject in mind and with
      very few, if any, specific questions. They depend on the interviewee to directed
@@ -898,7 +869,7 @@ Ans: Unstructured Interviews
      Structured Interviews
         the interviewer usually has a specific set of questions to ask the interviewee.
  
-h. How does one Conduct a Successful Interview?
+e7. How does one Conduct a Successful Interview?
 Ans: I.   Selecting appropriate individuals to interview
      II.  Preparing extensively
      III. Conducting the interview properly
@@ -906,35 +877,35 @@ Ans: I.   Selecting appropriate individuals to interview
 
 
 I. Selecting appropriate individuals to interview
-i. How does one select an Interviewee?
+e8. How does one select an Interviewee?
 Ans: - Use organizational chart
      - Make appointments
      - Get supervisors permission
      - Make sure a location is available
 
 II. Preparing Extensively
-j. How does one prepare for the Interview?
+e9. How does one prepare for the Interview?
 Ans: - The interviewee is able to detect an unprepared interviewer and may resent 
        the lack of preparations. Therefore the interview should prepare properly
      - The interviewee should be notified about the subject of the interview
      - The systems analyst should prepare an interview guide
 
-k. What is an Interview Guide?
+e10. What is an Interview Guide?
 Ans: A list of specific questions the interviewer will ask the interviewee
 
-l. Questions should be carefully chosen. Standard ones begin with?
+e11. Questions should be carefully chosen. Standard ones begin with?
 Ans: Who, What, When, Where, Why and how much
 
-m. What are the types of questions to avoid?
+e12. What are the types of questions to avoid?
 Ans: Loaded  questions
      Leading questions
      Biased  questions
 
 III. Conduct the Interview
-n. An acutal interview can be characterized into 3 phases. Name them?
+e13. An acutal interview can be characterized into 3 phases. Name them?
 Ans: The Openning, Body and Conclusion
 
-o. Explain these 3 phases?
+e14. Explain these 3 phases?
 Ans: 1. The Openning:
            used to influence and motivate the interviewee to participate and 
         communicate by establishing an ideal environment
@@ -946,7 +917,7 @@ Ans: 1. The Openning:
         answers to any questions posed by the interviewee. This phase is important
         to maintain trust with the interviewee
 
-p. State the Do's and Don'ts in an interview
+e15. State the Do's and Don'ts in an interview
 Ans: Do
      - Be courteous
      - Listen carefully
@@ -968,30 +939,30 @@ Ans: Do
      - Tape recording - a sign of poor listening skills
 
 IV. Follow Up on the Interview
-q. How does an interview follow up on the interview?
+e16. How does an interview follow up on the interview?
 Ans: The interviewer should send the interviewee a memo that summarizes the interview.
      This memo should remind the interviewees of their contributions to the project
      and allow them to clarify any misinterpretations
 
-r. To conduct a successful interview you must distinguish between hearing & 
+e17. To conduct a successful interview you must distinguish between hearing & 
    listening. True or False?
 Ans: True
 
-s. What is Body Language?
+e18. What is Body Language?
 Ans: it is all the nonverbal information that we all communicate and are usually 
      unaware of.
 
-t. Research has determined a startling fact-- of a person's total feelings, only 7%
+e19. Research has determined a startling fact-- of a person's total feelings, only 7%
    are communicated verbally(in words), 38% are communicated by the tone of the 
    voice used, and 55% are communicated by facial and body expressions. If you 
    listen only to someone's words, you are missing the most of what that person is
    saying. True or False?
 Ans: True
 
-u. What are the 3 aspects of the body language do we want to focus on?
+e20. What are the 3 aspects of the body language do we want to focus on?
 Ans: facial disclosure, eye contact and posture
 
-v. Talk about these 3 aspects of body language?
+e21. Talk about these 3 aspects of body language?
 Ans: 1. Facial Disclosure:
            You can sometimes understand how people feel by watching the expressions 
         on their faces. Many common emotions have easily recognizable facial 
@@ -1010,13 +981,13 @@ Ans: 1. Facial Disclosure:
         audience for changes in posture that could indicate anxiety, disagreement, 
         or boredom.
 
-w. Complete the statement. If eyese are "the window to the soul" _____________?
+e22. Complete the statement. If eyese are "the window to the soul" _____________?
 Ans: be sure to search for any informations they may provide
 
-x. What are Proxemics?
+e24. What are Proxemics?
 Ans: it is the relationship between people and the space around them.
 
-y. People are very territorial about their space. Observe where your classmates sit
+e25. People are very territorial about their space. Observe where your classmates sit
    in a course that does not have assigned seats for example. A good analyst is 
    aware of four spatial zones. Name them?
 Ans: Intimate Zone - closer than 1.5 feet
@@ -1035,7 +1006,7 @@ Ans: it is the act of building a small-scale, representative (or working model) 
      the users' requirements to discover or 
      y those requirements
 
-b. What are some Advantages?
+f2. What are some Advantages?
 Ans: - Allows users and developers to experiment with the software and develop an 
        understanding of how the system might work
      - Aids in determining the feasibility and usefulness of the System before high
