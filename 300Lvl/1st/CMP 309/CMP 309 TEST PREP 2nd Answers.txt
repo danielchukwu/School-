@@ -111,39 +111,9 @@ Ans: - Sampling of existing documents, forms and databases
        - Good questionnaires are difficult to prepare
 
 ii. List three(3) fact finding ethics in information systems development
-Ans: - Confidentiality
-     - Objectivity
-     - Respect for privacy
-     - Honesty
-     - Accuracy
-     - Inclusiveness
-     - Responsiveness
-
-
-     Explanation
-      Confidentiality: 
-        Ensuring that sensitive or private information is protected and not
-        disclosed without proper authorization.
-      Objectivity: 
-        Avoiding personal biases, opinions, and prejudices and approaching the 
-        investigation with impartiality.
-      Respect for privacy: 
-        Recognizing the right of individuals to control access to information 
-        about themselves and to limit the use of personal data.
-      Honesty: 
-        Being transparent and truthful in all interactions, including reporting and 
-        representation of facts.
-      Accuracy: 
-        Ensuring that information is reliable and verifiable, and that any data 
-        collected is up-to-date and relevant to the investigation.
-      Inclusiveness: 
-        Involving all relevant stakeholders, including individuals, organizations, 
-        and communities, in the fact-finding process.
-      Responsiveness: 
-        Responding promptly to questions, concerns, and complaints and ensuring 
-        that relevant parties have access to accurate information in a timely 
-        manner.
-
+Ans: - Protect the Security & Privacy of any fact or data
+     - Do not discuss sensitive issues in public
+     - Do not be careless. Your notes and documents should be kept safe
 
 
 
@@ -185,7 +155,7 @@ Ans: Verification testing
        runs the system on simulated environment using simulated data
        - the simulated test is primarily looking for errors and omissions
          in the design and end-user specifications specified in earlier phases
-         but not fulfiled during construction
+         but not fulfilled during construction
      Validation   testing
        runs the system in a live environment using real data. It is sometimes called
        beta testing
