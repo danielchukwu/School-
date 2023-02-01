@@ -230,8 +230,8 @@ Ans: 1. System Owners:
     
      3. System Designers: 
            Design the System to meet the users requirement. In many cases these 
-        technical specialists may also be System Builders, database programmers
-        and Software Specialists.
+           technical specialists may also be System Builders, database programmers
+           and Software Specialists.
 
      4. System Builders:
            Construct, test and deliver the System into operation.
@@ -243,7 +243,7 @@ Ans: 1. System Owners:
      
      6. IT Vendors and Consultants:
            Sell hardware, software, Services to businesses for incorporation into
-        their Information System
+           their Information System
 
 c. What is System Analysis?
 Ans: its a problem solving technique that decomposes a system into component pieces 
@@ -264,7 +264,7 @@ g. What does SAD stand for comrade?
 Ans: Systems Analysis and Design
 
 h. What is Systems Development Life Cycle (SDLC)?
-Ans: it is an organizational process of developing and maintaining systems.
+Ans: it is an organizational process for developing and maintaining systems.
      - it helps in establishing a system project plan
 
      OR
@@ -328,7 +328,7 @@ A System Development Methodology(SDLC Activities)
 
 Project Identification
 
-1. Projects are basically initiated by users and owners of the system. True or False?
+2. Projects are basically initiated by users and owners of the system. True or False?
 Ans: True
 
 b. What are the 3 ways Projects can be Initiated?
@@ -338,14 +338,14 @@ Ans: - Problems:
           e.g 
            A business might identify that it is taking too long to fulfill customer 
           orders. A project would be initiated to achieve more responsible and 
-          timely order fulfilment. *Problem might be real,csuspected or anticipated
+          timely order fulfilment. *Problem might be real, suspected or anticipated
 
      - Opportunity: 
           is a chance to improve the organization even in the absence of specific
           problem
           e.g
           Management is usually receptive of cost cutting ideas, even when costs 
-          are not currenty considered a problem. Opportunistic improvement is the
+          are not currently considered a problem. Opportunistic improvement is the
           source of many of today's most interesting projects.
          
      - Directive:
@@ -356,7 +356,7 @@ Ans: - Problems:
           produced each quarter.
         
           Some directives may be technical
-          e.g. Converting inputs from key input through keyboard to using barcodes
+          e.g. Converting inputs from key input through keyboard to using bar codes
 
 
 PRELIMINARY INVESTIGATION PHASE
@@ -382,9 +382,9 @@ Ans: A project plan,
      budget
 
 g. This phase is concerned with the System Owners. They tend to be concerned with?
-Ans: The big picture, not details. They also determin whether resources will be
-     commited to the project
-
+Ans: The big picture, not details. They also determine whether resources will be
+     committed to the project
+8
 h. The deliverable of this phase is ____________?
 Ans: A Project Charter
 
@@ -399,127 +399,10 @@ Ans: 2 or 3
 
 l. What are the Tasks involved?
 Ans: 1.1 List problems, opportunities and directives
-     1.2 Negotiate preliminary scope
+     1.2 Negotiate scope
      1.3 Access project worth
      1.4 Plan the project
      1.5 Present the Project and Plan
-
-
-1.1 List problems, opportunities and directives
-
-m. Discuss the 1st task?
-Ans: 1. List problems, opportunities and directives
-           The important tasks of PI (preliminary investigation), is to establish
-     an initial baseline of the problems, opportunities or directives that triggered
-     the project. Also to consider the percieved constraints (budget, deadlines, 
-     and technology)
-     The task is headed by senior systems analyst. The deliverable to this task is
-     the `Problem Statement`.
-
-     Result
-     Output       |  Problem Statement   |  Poblem Opportunity
-                  |                      |
-
-m1. A sample document of the Problem Statement is expressed in the following term. 
-    List and explain?
-Ans: 1. Urgency:    time frame for the problem to be solved
-     2. Visibility: to what degree would the solution or new system be visible to 
-                    customers or management
-     3. Benefits:   how much would the solution increase in annual revenue or 
-                    reduce in annual costs.
-     4. Priority:   Based on what is provided what are the priorities for each 
-                    problem opportunity or directive.
-                    If budget schedule becomes a problem, these priorities will
-                    help to adjust the project scope
-     5. Possible Solutions: At this stage possible solutions are best expressed in
-        a) leave well enough alone
-        b) A quick fix
-        c) A simple-to-moderate enhancement of the existing System
-        d) Redesign the existing Sstem
-        e) Design a new System
-
-
-1.2 Negotiate Scope
-
-n. What is Scope?
-Ans: Scope defines the boundary of a project. Those aspects of the business that 
-     will not be included.
-
-n1. Scope can change during the project. True or False?
-Ans: 	True
-
-n2. The initial Project Plan must establish the Preliminary Scope. True or False?
-Ans: True
-
-n3. Who leads the task?
-Ans: A System Analyst or the Project Manager
-
-n4. The Scope can be defined easily in the forms of. List?
-Ans: Data: 
-       What type of DATA describes the System being sudied 
-       e.g 
-       Sales Information system may require data about things such as Customers, 
-       orders, products and sales representations
-
-     Business Process:
-       What business processes are included in the System being studied
-       e.g. Order entry, Order Management, Custormer relationship management
-
-     Interface:
-       How must the interface look with users, locations and other Systems
-       e.g Customers, Sales representative, Sales Clerks, regional Sales offers etc.
-
-
-
-1.3 Access Project Worth
-
-o. This is where we answer the question?
-Ans: "Is this project worth Looking at?"
-
-o1. Give me any type of question that you think is relevant to ask in order to 
-    decide if the project is worth looking at?
-Ans: Will solving the problem, exploiting opportunities or fulfilling directives
-     return enough value to offset the costs that we will incure to develop this
-     System? - At this point the project can be approved or cancelled and project 
-     Scope can be negotiated. e.g Payroll System
-
-
-
-1.4 Plan the Project
-
-p. If the project has been approved and deemed worthy to continue, we can then ___?
-Ans: Plan the project in depth
-
-p1. What plan do we perfom next to schedule and assign resources for the entire 
-   project?
-Ans: A Preliminary Master Plan (or Baseline plan)
-
-
-
-1.5 Present The Project Plan
-
-q. How does "Presenting the Project Plan" work?
-Ans: In most organizations, there are more potential projects than resources to 
-     staff and fund those projects.
-     Most times, the project in question must be presented and defended to the 
-     steering committee for approval.
-
-q1. Who are the Steering Committee?
-Ans: A Steering body is a committee of executive business and systems managers that
-     studies and prioritizes competing project proposals to determine which project
-     will return the most value to the organization and thus should be approved for
-     continued System Development.
-
-q2. With or without steering commitee, there is always the need to present for the
-    launch of the project and communicate the project goals, and schedule to the 
-    entire buisness community. True or False?
-Ans: True
-
-q3. The project may be terminated if not endorsed. But if it recieves the blessing
-    of the system owners and the steering comittee. What happens?
-Ans: The Project can then proceed to the problem Analysis State
-
-
 
 
 
@@ -527,6 +410,7 @@ SUMMARY
 
 Preliminary Investigation
 
+Tasks of the Preliminary Investigation
 A. List problems, opportunities and directives
 B. Negotiate preliminary scope
 C. Access project worth
@@ -569,7 +453,7 @@ D. Plan the Project
 
 
 E. Present the Project Plan
-- The project must be presented and defended to the steering comittee.
+- The project must be presented and defended to the steering committee.
 
 A Steering body is a committee of executive business and systems managers that 
 studies and prioritizes competing project proposals to determine which project will 
@@ -577,7 +461,7 @@ return the most value to the organization
 
 => Presentation is Important
 Project may be terminated if not endorsed - But if it secures the blessing of the 
-System owners and Steering Comittee, the project can then proceed
+System owners and Steering Committee, the project can then proceed
 
 
 
@@ -603,11 +487,11 @@ Lecture 4
 
 THE PROBLEM ANALYSIS PHASE
 
-1. What is the statement that descibes the Problem Analysis phase?
+1. What is the statement that describes the Problem Analysis phase?
 Ans: "Don't try to fix it unless you understand it"
 
 b. What is this phase about?
-Ans: This phase provides the analyst with a more thorouht understanding of the 
+Ans: This phase provides the analyst with a more thorough understanding of the 
      problem, opportunity and or directives that triggered the project
 
 c. What are the kinda questions answered by this phase?
@@ -619,15 +503,15 @@ Ans: Study
 
 e. What is the Goal of the Problem Analysis Phase?
 Ans: The goal of this phase is to study and understand the problem domain well 
-     enough to thouroghly analyze the problem, opportunities and constraints
+     enough to thoroughly analyze the problem, opportunities and constraints
 
-f. Problem Analysis Tasks?
+f. List the Tasks of Problem Analysis?
 Ans: 2.1. Study the problem domain
-     2.2. Analye problems and opportunities
+     2.2. Analyze problems and opportunities
      2.3. (Optional) Analyze business process
      2.4. Establish System empowerment objective
      2.5. Update project plan
-     2.6. Present findings and recomendations
+     2.6. Present findings and recommendations
 
 
 2.1. Study The Problem Domain
@@ -677,7 +561,7 @@ Ans: Data:
        Africa and South Africa.
        - Each regional sales office has a sales manager, assistant sales manager, & 
          Administrative assistant
-       - To Sales representatives whao upload orders and other transactions online
+       - To Sales representatives who upload orders and other transactions online
 
        Extra:
        Another facet of interface is System Interfaces - this are interfaces that
@@ -691,7 +575,7 @@ Documentation
 - Process: A 1 or 2 page functional decomposition diagram should prove sufficient
            to get a feel of the current system
 - Interface: A 1 page or use-case diagrams are very useful for illustrating the 
-             System's inputs and outpust with other business units and systems
+             System's inputs and outputs with other business units and systems
 
 
 l. Define the Fact-Finding Technique?
@@ -707,9 +591,9 @@ Ans: we use the cause-and-effect analysis technique to study and determine these
      causes and effects on the System
 
 
-Task 2.3 Analyse Buisiness Process
+Task 2.3 Analyze Business Process
 
-n. Discuss the "Analyse Buisiness Process" task?
+n. Discuss the "Analyze Business Process" task?
 Ans: - Keep focus on the process and not the people, because the owners of the 
        System and users can become dependencies about their existing business
        processes
@@ -776,8 +660,8 @@ Ans: - Protect security & Privacy of any facts or data
      - Do not discuss sensitive issues in public
      - Do not be careless. Your notes, documents should be kept safe
 
-c. Give me an example of sensitive inforamtion?
-Ans: Employee profile showing his/her salaries, permance history, medical history 
+c. Give me an example of sensitive information?
+Ans: Employee profile showing his/her salaries, performance history, medical history 
      or even career plans 
 
 d. What Fact-Finding Methods are available?
@@ -844,7 +728,7 @@ Ans: its the process of collecting a representative sample of documents, forms, 
 
 p. But what does representative mean?
 Ans: basically the systems analyst wants to sample enough forms to cover up for the
-     full nature and complexitiy of the rest of the form
+     full nature and complexity of the rest of the form
 
 
 B. Research and site visits
@@ -910,7 +794,7 @@ h. What is Work Sampling?
 Ans: it is a fact-finding technique that involves a large number of observations 
      taken at random intervals
 
-i. List some guidelins for Sampling?
+i. List some guideline for Sampling?
 Ans: - Keep a low profile
      - take notes during observation or immediately after
      - review observation notes with appropriate individuals
@@ -1021,7 +905,7 @@ Ans: I.   Selecting appropriate individuals to interview
      IV.  Following up on the interview
 
 
-I. Selecting approriate individuals to interview
+I. Selecting appropriate individuals to interview
 i. How does one select an Interviewee?
 Ans: - Use organizational chart
      - Make appointments
@@ -1038,13 +922,13 @@ Ans: - The interviewee is able to detect an unprepared interviewer and may resen
 k. What is an Interview Guide?
 Ans: A list of specific questions the interviewer will ask the interviewee
 
-l. Questions should be carefully choosen. Standard ones begin with?
+l. Questions should be carefully chosen. Standard ones begin with?
 Ans: Who, What, When, Where, Why and how much
 
 m. What are the types of questions to avoid?
 Ans: Loaded  questions
      Leading questions
-     Baised  questions
+     Biased  questions
 
 III. Conduct the Interview
 n. An acutal interview can be characterized into 3 phases. Name them?
@@ -1084,7 +968,7 @@ Ans: Do
      - Tape recording - a sign of poor listening skills
 
 IV. Follow Up on the Interview
-q. How does an interwer follow up on the interview?
+q. How does an interview follow up on the interview?
 Ans: The interviewer should send the interviewee a memo that summarizes the interview.
      This memo should remind the interviewees of their contributions to the project
      and allow them to clarify any misinterpretations
@@ -1094,7 +978,7 @@ r. To conduct a successful interview you must distinguish between hearing &
 Ans: True
 
 s. What is Body Language?
-Ans: it is all the nonverbal information thta we all communicate and are usually 
+Ans: it is all the nonverbal information that we all communicate and are usually 
      unaware of.
 
 t. Research has determined a startling fact-- of a person's total feelings, only 7%
@@ -1132,7 +1016,7 @@ Ans: be sure to search for any informations they may provide
 x. What are Proxemics?
 Ans: it is the relationship between people and the space around them.
 
-y. People are very teritorial about their space. Observe where your classmates sit
+y. People are very territorial about their space. Observe where your classmates sit
    in a course that does not have assigned seats for example. A good analyst is 
    aware of four spatial zones. Name them?
 Ans: Intimate Zone - closer than 1.5 feet
@@ -1154,7 +1038,7 @@ Ans: it is the act of building a small-scale, representative (or working model) 
 b. What are some Advantages?
 Ans: - Allows users and developers to experiment with the software and develop an 
        understanding of how the system might work
-     - Aids in deterining the feasibility and usefulness of the System before high
+     - Aids in determining the feasibility and usefulness of the System before high
        development costs are incurred.
      - Serves as a training mechanism for users
 
