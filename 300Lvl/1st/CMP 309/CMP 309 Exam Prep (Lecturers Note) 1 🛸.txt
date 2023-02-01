@@ -773,7 +773,7 @@ Ans: - Keep a low profile
      - don't focus heavily on trivial activities
      - don't make assumptions
 
-c10. Wha is the most effective way to perform observation?
+c10. What is the most effective way to perform observation?
 Ans: Living the System
 
 c11. What happens in Living the System Observation?
@@ -788,7 +788,7 @@ D. Questionnaires
 Ans: These are special-purpose documents that allow the analyst to collect 
      information and opinions from respondents
 
-d1. The use of questionnaires has been heavily criticized and is often avoided by
+d1. The use of questionnaires have been heavily criticized and is often avoided by
    systems analysts. True or False?
 Ans: True
 
@@ -823,7 +823,7 @@ Ans: Free-format questionnaires:
         Offers the respondent questions that require selection of predefined 
      responses
      e.g 
-     What is your favourite sport?
+     What is your favorite sport?
      a) Football
      b) Basketball
      c) Ufc
@@ -886,7 +886,7 @@ Ans: - Use organizational chart
 II. Preparing Extensively
 e9. How does one prepare for the Interview?
 Ans: - The interviewee is able to detect an unprepared interviewer and may resent 
-       the lack of preparations. Therefore the interview should prepare properly
+       the lack of preparations. Therefore the interviewer should prepare properly
      - The interviewee should be notified about the subject of the interview
      - The systems analyst should prepare an interview guide
 
@@ -902,11 +902,11 @@ Ans: Loaded  questions
      Biased  questions
 
 III. Conduct the Interview
-e13. An acutal interview can be characterized into 3 phases. Name them?
-Ans: The Openning, Body and Conclusion
+e13. An actual interview can be characterized into 3 phases. Name them?
+Ans: The Opening, Body and Conclusion
 
 e14. Explain these 3 phases?
-Ans: 1. The Openning:
+Ans: 1. The Opening:
            used to influence and motivate the interviewee to participate and 
         communicate by establishing an ideal environment
      2. The Body:
@@ -1071,7 +1071,7 @@ Ans: 1. Operational feasibility
      3. Schedule Feasibility
         - Given our technical expertise are the project deadlines reasonable?
         or
-        - can the solution be designed and implimented within the given timeframe?
+        - can the solution be designed and implemented within the given time frame?
 
      4. Economic Feasibility
         - How much will the systems cost?
