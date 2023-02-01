@@ -47,7 +47,26 @@ LECTURE 4
        a) This phase is also known as?
        b) What questions does this phase answer
    ii. List the Tasks involved in this Phase?
-   
+
+ b. i. Discuss the first task(Study the Problem Domain)
+       a) Who leads this and who facilitates it
+       b) What are the deliverables of this task
+       c) What should the document gotten in this task include
+   ii. Discuss any other 2 tasks of the Problem Analysis Phase
+
+
+
+LECTURE 5
+
+1a. What is Fact-Finding?
+ b. How would you handle sensitive information if found during fact-finding?
+ c. List 5 fact-finding technique?
+ d. Discuss 2 fact-finding techniques?
+    
+
+
+
+
 
 
 
