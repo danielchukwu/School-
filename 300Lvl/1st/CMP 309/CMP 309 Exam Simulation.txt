@@ -19,15 +19,6 @@ LECTURE 2
 
 LECTURE 3
 
-- What is the question answered for the 
-  - Preliminary Investigation Phase
-  - Problem Analysis Phase
-
-- What are the below phases also known as
-  - Preliminary Investigation Phase
-  - Problem Analysis Phase
- 
-
 1a. i. Briefly Explain all 6 types of Stakeholders?
    ii. Define i) System Analysis  ii) System Design  iii) System Analysis & Design (SAD)  
   iii. What is Software Development Lifecycle (SDLC) and List all the Phases (SDLC)?
@@ -55,6 +46,15 @@ LECTURE 4
        b) What are the deliverables of this task
        c) What should the document gotten in this task include
    ii. Discuss any other 2 tasks of the Problem Analysis Phase
+
+   
+- What is the question answered for the 
+  - Preliminary Investigation Phase
+  - Problem Analysis Phase
+
+- What are the below phases also known as
+  - Preliminary Investigation Phase
+  - Problem Analysis Phase
 
 
 
@@ -107,13 +107,15 @@ LECTURE 7
 
  b. i. Define a) System Construction
               b) System Implementation
-   ii. What is the Purpose of Systems Construction and Implementation Phases?
+   ii. What is the Purpose of Systems Construction/Implementation Phases?
   iii. List the Tasks involved in the Systems Construction Phase?
    iv. List the Tasks involved in the Systems Implementation Phase?
+    v. Discuss the 3 types of testing?
 
- c. i. List and discuss the methods of System Conversion Plan?
-   ii. What is System Acceptance Test?
-  iii. List and Explain all the 3 Levels of Acceptance Test? 
+ c. i. What is a Conversion Plan
+   ii. List and discuss the methods of System Conversion Plan?
+  iii. What is System Acceptance Test?
+   iv. List and Explain all the 3 Levels of Acceptance Test? 
 
 
 
