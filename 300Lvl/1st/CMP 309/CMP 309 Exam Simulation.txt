@@ -1,3 +1,5 @@
+LECTURERS NOTE 1 ---------------------------------------------------------------
+
 LECTURE 1
 
 1a. i. What is a System?
@@ -90,6 +92,62 @@ LECTURE 6
    ii. What is Feasibility Analysis?
   iii. List and Discuss the Four Test for Feasibility? 
    iv. List some cost-benefit analysis technique?
+
+
+
+LECTURERS NOTE 2 ---------------------------------------------------------------
+
+
+
+LECTURE 7
+
+1a. i. Define a) Information System Design Phase  
+              b) Application Architecture
+   ii. List the Tasks involved in the System Design Phase?
+
+ b. i. Define a) System Construction
+              b) System Implementation
+   ii. What is the Purpose of Systems Construction and Implementation Phases?
+  iii. List the Tasks involved in the Systems Construction Phase?
+   iv. List the Tasks involved in the Systems Implementation Phase?
+
+ c. i. List and discuss the methods of System Conversion Plan?
+   ii. What is System Acceptance Test?
+  iii. List and Explain all the 3 Levels of Acceptance Test? 
+
+
+
+
+LECTURERS SLIDE ---------------------------------------------------------------
+Note: We will be covering only 2 models (Waterfall Model & V-shaped model)
+
+
+
+SLIDE
+
+1a. What are Process Models?
+ b. List 5 types of Process Models?
+
+2a. What are the steps involved in the Waterfall Model?
+ b. Draw a diagram of the Waterfall Model?
+ c. List 4 strengths of the Waterfall Model?
+ d. List 4 deficiencies(or weaknesses) of the Waterfall Model?
+ e. List 4 uses of the Waterfall Model?
+
+2a. What is the V-Shape Model?
+ b. Draw a diagram of the V-Shape Model?
+ c. List 3 strengths of the V-Shape Model?
+ d. List 3 deficiencies(or weaknesses) of the V-Shape Model?
+ e. List 3 uses of the V-Shape Model?
+
+
+
+
+
+
+
+
+
 
 
 
