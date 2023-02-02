@@ -15,7 +15,7 @@ Tips:
 
 
 
-1a. What are Process Models?
+0a. What are Process Models?
 Ans: It's a framework that describes the activities performed at each stage of a software 
      development project
 
@@ -26,7 +26,10 @@ Ans: 1. Workflow  Model
      4. Evolutionary Development Model 
      5. Role / Action Model
 
-c. What are the steps involved in the Waterfall Model?
+
+Waterfall
+
+1a. What are the steps involved in the Waterfall Model?
 Ans: - Requirements (needed information, function, behavior, performance and interfaces)
      - Design (data structures, software architecture, interface representations, algorithmic details)
      - Implementation (source code, database, user documentation, testing)
@@ -34,10 +37,10 @@ Ans: - Requirements (needed information, function, behavior, performance and int
      - Installation 
      - Maintenance
 
-c1. Draw a diagram of the Waterfall Model?
+b. Draw a diagram of the Waterfall Model?
 Ans: go ahead(slide 4)
 
-d. What are the Strengths?
+c. What are the Strengths?
 Ans: - Easy to understand, easy to use
      - Provides structure to inexperienced staff
      - Milestones are well understood
@@ -46,7 +49,7 @@ Ans: - Easy to understand, easy to use
      - Works well when quality is more important than cost or schedule
 
 
-e. What are the deficiencies in this?
+d. What are the deficiencies (or weaknesses) in this?
 Ans: - All requirements must be known upfront
      - Deliverables created for each phase are considered frozen – inhibits flexibility
      - Can give a false impression of progress
@@ -54,7 +57,7 @@ Ans: - All requirements must be known upfront
      - Integration is one big bang at the end 
      - Little opportunity for customer to preview the system (until it may be too late)
 
-f. In what cases would you use the Waterfall Model?
+e. In what cases would you use the Waterfall Model?
 Ans: - Requirements are very well known
      - Product definition is stable
      - Technology is understood
@@ -63,9 +66,10 @@ Ans: - Requirements are very well known
 
 
 
+
 V-Shaped Process Model
 
-2a. What is the V-Shaped Prcess Model?
+2a. What is the V-Shaped Process Model?
 Ans: It is an extension of the waterfall model that emphasizes the verification and validation
      of the product
 
@@ -74,7 +78,7 @@ Ans: Go Ahead(slide 9)
 
 
 c. Explain each step involved in the V-Shaped Steps?
-Ans: - Project and Requiremnts           - Production, operation and maintenance:
+Ans: - Project and Requirements           - Production, operation and maintenance:
        Planning: allocate resources        provide for enhancement and corrections
 
      - Product Requirements and          - System and acceptance testing: 
@@ -93,7 +97,8 @@ Ans: - Project and Requiremnts           - Production, operation and maintenance
                     - Coding: transform algorithms into software
 
 d. What are the strengths?
-Ans: - Emphasize planning for verification and validation of the product in early stages of product development
+Ans: - Emphasize planning for verification and validation of the 
+       product in early stages of product development
      - Each deliverable must be testable
      - Project management can track progress by milestones
      - Easy to use
