@@ -262,11 +262,11 @@ Ans: 1. Let the users be involved
 Ans: Projects can be initiated in a number of ways, including:
      - Problems: 
           are understandable situations that prevent the organization from fully 
-          achieving its purpose goals and objectives
+          achieving its purpose, goals and objectives
           e.g 
            A business might identify that it is taking too long to fulfill customer 
           orders. A project would be initiated to achieve more responsible and 
-          timely order fulfilment. *Problem might be real, suspected or anticipated
+          timely order fulfillment. *Problem might be real, suspected or anticipated
 
      - Opportunity: 
           is a chance to improve the organization even in the absence of specific
@@ -277,7 +277,7 @@ Ans: Projects can be initiated in a number of ways, including:
           source of many of today's most interesting projects.
          
      - Directive:
-          is a new requirement that's imposed by management, government on some
+          is a new requirement that's imposed by management, government or some
           external influence.
           e.g
           In a government agency, they may mandate that a new set of reports be 
@@ -287,11 +287,12 @@ Ans: Projects can be initiated in a number of ways, including:
           e.g. Converting inputs from key input through keyboard to using bar codes
 
 ii. "Sure the system works, and is technically impressive but it just doesn't 
-    do what is expected to do", Describes which phase in Software Development 
+    do what is expected to do", Describe which phase in Software Development 
     Life cycle? List 2 tasks associated with the phase in question.
 Ans: This statement describes the testing phase in the Software Development 
-     Life cycle. Tasks associated with this phase include:
-
+     Life cycle. 
+     
+     Tasks associated with this phase include:
      1. Conducting system testing to ensure the software meets the requirements 
         and specifications.
      2. Identifying and fixing bugs or issues found during testing.
@@ -310,17 +311,14 @@ Ans: 1. Let the  users be involved
 b.
 i. Functional Requirements and Non-Functional Requirements (Give Examples)
 Ans: Functional requirements 
-       are specific capabilities or features that a system must have in order to 
-       meet the needs of the end user. They describe what the system should do.
+       What the system should do (features)
        E.g 
        - The system should allow users to create an account
        - The system should allow users to make online payments
        - The system should be able to generate reports
 
      Non-functional requirements 
-       are characteristics of a system that do not specify a specific behavior 
-       but rather impose constraints on the design or implementation. 
-       They describe how the system should work and perform
+       Constraints on how the System should do it (Quality)
        E.g
        - The system should have a response time of less than 2 seconds
        - The system should be able to handle at least 1000 concurrent users
