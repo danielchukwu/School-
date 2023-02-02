@@ -338,7 +338,7 @@ Ans: - Problems:
           e.g 
            A business might identify that it is taking too long to fulfill customer 
           orders. A project would be initiated to achieve more responsible and 
-          timely order fulfilment. *Problem might be real, suspected or anticipated
+          timely order fulfillment. *Problem might be real, suspected or anticipated
 
      - Opportunity: 
           is a chance to improve the organization even in the absence of specific
@@ -349,7 +349,7 @@ Ans: - Problems:
           source of many of today's most interesting projects.
          
      - Directive:
-          is a new requirement that's imposed by management, government on some
+          is a new requirement that's imposed by management, government or some
           external influence.
           e.g
           In a government agency, they may mandate that a new set of reports be 
