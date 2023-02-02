@@ -260,15 +260,31 @@ Ans: 1. Let the users be involved
     (Project Initiation). it involves identifying projects for information System 
     Development. How are these projects initiated? Discuss.
 Ans: Projects can be initiated in a number of ways, including:
-     - Business need: A business need or opportunity is identified and a project 
-                      is proposed to address it.
-     - Strategic alignment: A project is proposed that aligns with the 
-                            organization's strategic goals and objectives.
-     - Compliance:      A project is proposed to meet regulatory or legal 
-                        requirements.
-     - Market demand:   A project is proposed to meet a perceived market demand.
-     - Problem solving: A problem is identified and a project is proposed to 
-                        solve it.
+     - Problems: 
+          are understandable situations that prevent the organization from fully 
+          achieving its purpose goals and objectives
+          e.g 
+           A business might identify that it is taking too long to fulfill customer 
+          orders. A project would be initiated to achieve more responsible and 
+          timely order fulfilment. *Problem might be real, suspected or anticipated
+
+     - Opportunity: 
+          is a chance to improve the organization even in the absence of specific
+          problem
+          e.g
+          Management is usually receptive of cost cutting ideas, even when costs 
+          are not currently considered a problem. Opportunistic improvement is the
+          source of many of today's most interesting projects.
+         
+     - Directive:
+          is a new requirement that's imposed by management, government on some
+          external influence.
+          e.g
+          In a government agency, they may mandate that a new set of reports be 
+          produced each quarter.
+        
+          Some directives may be technical
+          e.g. Converting inputs from key input through keyboard to using bar codes
 
 ii. "Sure the system works, and is technically impressive but it just doesn't 
     do what is expected to do", Describes which phase in Software Development 
