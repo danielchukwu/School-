@@ -1,0 +1,350 @@
+EXAMP PREP [Week 4 - 6 (both endpoints inclusive)]
+
+How To Study the Material
+
+Tips: 
+- Best to study using the github repo link
+  https://github.com/danielchukwu/School-/tree/master/300Lvl/1st
+
+- Use a laptop or device with a relatively big screen to study
+- Glancing through the questions and answers may not cement the knowledge. 
+  But answering them as you go through them on some book or paper repeatedly 
+  definitely will
+
+
+
+
+
+EVOLUTION
+
+
+1. To write a program for a computer, we must use a ___________?
+Ans: computer language (programming language)
+
+b. What is a computer language?
+Ans: A computer language is a set of predefined words that are combined into a program according 
+     to predefined rules (syntax). 
+
+c. Over the years, computer languages have evolved from _____________ to _______________?
+Ans: Machine language to High-level languages
+
+d. In the earliest days of computers, the only programming languages available were ______________?
+Ans: Machine languages
+
+e. Each computer had its own machine language, which was made of streams of 0s and 1s. True or False?
+Ans: True
+
+
+Assembly Languages (The Next Evolution)
+a. The next evolution in programming came with the idea of replacing binary code with instruction and addresses 
+   with ________ or __________?
+Ans: symbols or mnemonics
+
+b. Because Assembly languages used symbols, they were first known as _______________?
+Ans: symbolic languages
+
+c. List atleast 3 Codes in Assembly Language and show their descriptions?
+Ans:     CODE                               DESCRIPTION
+    LOAD RF Keyboard    -    Load from keyboard controller to register F
+    STORE Number1 RF    -    Store register F into Number1
+    LOAD R0 Number1     -    Load Number1 into register 0
+
+
+High Level Languages 
+
+a. Although assembly languages greatly improved programming efficiency, they still required programmers to 
+   concentrate on the hardware they were using. True or False?
+Ans: True
+
+b. Working with symbolic languages was also very tedious, because each machine instruction had to be individually 
+   coded. True or False?
+Ans: True
+
+c. The desire to improve programmer efficiency and to change the focus from the computer to the problem being solved 
+   led to the development of ________________?
+Ans: high-level languages
+
+
+Translation
+a. Programs today are normally written in one of the Low-Level languages. True or False?
+Ans: False (No time)
+
+b. To run a high-level language program on a computer, the program needs to be translated into the ________________
+   of the computer on which it will run?
+Ans: Machine language (Because this is the only language a computer understands 0s and 1s)
+
+c. The program in a high-level language is called the ___________?
+Ans: Source program
+
+d. The translated program in machine language is called the ____________?
+Ans: Object program
+
+SPIN-OFF [source program is sometimes called source code and object program is sometimes called object code]
+
+e. Two methods are used for translation: ___________ and ____________?
+Ans: compilation (or compiler) and interpretation (or interpreter)
+
+f. How does the Compiler work?
+Ans: A compiler normally translates the whole source program into the object program.
+
+g. How does Interpreter work?
+Ans: An Interpreter translates the source program one line at a time into the corresponding object program 
+     and executing the line
+
+h. How does Compilation and Interpretation differ?
+Ans: Compilation and interpretation differ in that the first translates the whole source code before executing it, 
+     while the second translates and executes the source code a line at a time. 
+
+i. Both Translation methods, however, follow the same translation process. True or False?
+Ans: True
+
+j. Draw a diagram of the Translation Process?
+Ans: Tip(Slide 12 - Wk 4)
+
+
+Programming Paradigms
+a. Today, computer languages are categorized according to the approach they use to solve a problem. True or False?
+Ans: True
+
+b. What is a Paradigm?
+Ans: A paradigm is a way in which a computer language looks at the problem to be solved
+
+c. We divide computer languages into four paradigms. Name them?
+Ans: Procedural
+     Object-Oriented
+     functional
+     declarative
+
+d. Draw the Diagram containing the Computer Language Paradigms and the languages in each category?
+Ans: Tip(Slide 14 - Wk 4)
+
+e. In the procedural paradigm (or imperative paradigm) we can think of a program as an active agent that 
+   manipulates _____________?
+Ans: passive objects
+
+f. We encounter many passive objects in our daily life: a stone, a book, a lamp, and so on. A passive object cannot 
+   initiate an action by itself, but it can receive actions from active agents?
+Ans: True
+
+g. A program in a procedural paradigm is an active agent that uses passive objects that we refer to as ____?
+Ans: data
+
+h. To manipulate a piece of data, the active agent (program) issues an action, referred to as a _________?
+Ans: procedure
+
+i. The file is a passive object. To print the file, the program uses a _________, which we call print.
+Ans: procedure
+
+j. Draw a diagram of how the procedural paradigm works?
+Ans: Tip(Slide 16 - Wk 4)
+
+K. A program in the procedural paradigm is made up of three parts. Name them?
+Ans: Creation of Objects (declaration)
+     A set of procedure calls (commands)
+     A set of code for each procedure
+
+l. Some procedures have already been defined in the language itself. True or False?
+Ans: True
+
+m. List at least 5 procedural languages?
+Ans: FORTRAN
+     COBOL
+     Pascal
+     C
+     Ada
+
+
+The object-oriented paradigm
+
+a. The object-oriented paradigm deals with active objects instead of passive objects. True or False?
+Ans: True
+
+b. Give me at least 3 active objects in our current day and age?
+Ans: Vehicle
+     Automatic doors
+     Dishwasher
+     Air plane
+     Laptop
+
+c. The action to be performed on these objects are included in the objects: the objects need only to receive the 
+   appropriate stimulus from outside to perform one of the actions. True or False?
+Ans: True
+
+d. A file in an object-oriented paradigm can be packed with all the procedures—called methods in the object-oriented 
+   paradigm—to be performed by the file: printing, copying, deleting and so on. True or False?
+Ans: True
+
+e. Draw a diagram of how the object-oriented paradigm works?
+Ans: Tip(Slide 20 - Wk 4)
+
+f. Objects of the same type (e.g files) need a set of methods that show how an object of this type reacts to 
+   stimuli from outside the object’s “territories”. True or False?
+Ans: True
+
+g. In general, the format of methods are very similar to the functions used in some procedural languages. 
+   True or False?
+Ans: True
+
+h. In the object-oriented paradigm, as in nature, an object can inherit from another object. This concept is 
+   called ___________?
+Ans: Inheritance 
+
+i. When a general class is defined, we can define a more specific class that inherits some of the characteristics 
+   of the general class, but also has some new characteristics. True or False?
+Ans: True
+
+j. What is the meaning of Polymorphism?
+Ans: Polymorphism means “many forms”.
+
+k. Polymorphism in the object-oriented paradigm means that we can define several operations with the same name 
+   that can do different things in related classes. True or False?
+Ans: True
+
+l. List 2 object-oriented languages you know?
+Ans: C++
+     Java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SECTION 5 - WEEK 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Functional Paradigm
+
+1. What is the Functional Paradigm about?
+Ans: It's a programming paradigm where programs are constructed by applying and composing functions.
+
+b. List 2 Functional Programming Languages?
+Ans: LISP (List Programming)
+     Scheme
+
+c. What is the Declarative Paradigm?
+Ans: It's a programming paradigm where a programmer defines what needs to be accomplished by the program without 
+     defining how it needs to be implemented
+
+d. Name one Declarative language?
+Ans: Prolog (PROgramming LOGic)
+
+e. What is an Identifier?
+Ans: It's the name of an object in the program
+
+f. If there were no identifiers to represent data locations symbolically, we would have to know and use 
+   ____________ to manipulate them
+Ans: data addresses
+
+g. What is a data type?
+Ans: Its a type of data that defines a set of values and a set of operations that can be applied to those values
+
+h. The set of values for each type is known as the ________ for the type
+Ans: domain
+
+i. Data types are broken into 2 categories. Name them?
+Ans: Simple Types and
+     Composite types.
+
+j. What is a simple type?
+Ans: A simple type is a data type that cannot be broken into smaller data types
+
+k. What is a Composite type?
+Ans: A composite type is a set of elements in which each element is a simple type or a composite type.
+     E.g. A students full name.
+
+l. What are variables?
+Ans: Variables are names for memory locations
+
+m. What are Literals?
+Ans: A literal is a predetermined value used in a program.
+     OR
+     It is a notation used for representing a fixed value in the source program (or source code)
+
+n. Is it true that most programming languages use a predefined function for input and output
+Ans: Yes it is
+
+o. What predefined function does c use for input and output?
+Ans: Scanf for input
+     printf for output
+
+p. What is an Expression?
+Ans: It's a sequence of operands and operators that reduces to a single value. e.g 2*5+3
+
+q. What are the 3 types of Operators?
+Ans: Arithmetic
+     Relational
+     Logical
+
+r. Give me some examples of Arithmetic Operators?
+Ans: +, -, *, /, %, ++, --
+
+s. Give me all examples of Relational Operators?
+Ans: <, <=, >, >=, ==, !=
+
+t. Give me all 3 examples of Logical Operators?
+Ans: !, &&, ||
+
+u. What is a Statement?
+Ans: A statement is a single line of code that performs a specific task
+
+v. An assignment statement assigns a value to a variable. True or False?
+Ans: True
+
+w. What is a Compound Statement?
+Ans: A compound statement is a unit of code consisting of zero or more statements
+
+x. A compound statement allows a group of statements to be treated as a single entity. True or False?
+Ans: True
+
+y. Structured programming strongly recommends the use of the three types of control statements: Name them?
+Ans: Sequence
+     Selection
+     Repetition
+
+z. 
+
+
+
+....
+
+
+
+
+
+
+
+
+
+
