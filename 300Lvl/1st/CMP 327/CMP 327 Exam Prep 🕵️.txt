@@ -369,7 +369,7 @@ Ans: Conceptual Model:
         Defines HOW the system should be implemented regardless of the DBMS
         - It is typically created by Data Architects and Business Analysts.
      Physical Model:
-        Describes HOW the system will be implemented using a specific DBMS system
+        Describes HOW the system will be implemented using a specific DBMS
         - It is typically created by DBA and developers
 
 s. The main aim of The Conceptual Model is to ____________?
@@ -387,10 +387,10 @@ ER MODEL - BASIC CONCEPTS
 Ans: The ER model defines the conceptual view of a database
 
 b. Discuss Entities?
-Ans: An entity can be a real-world object, either animate or inanimate, that can be 
+Ans: An entity can be a real-world object, either animate or inanimate, they are  
      easily identifiable. E.g, in a `school database`, students, teachers, classes, 
-     and courses offered can be considered as entities. All these entities have 
-     some attributes or properties that give them their identity. 
+     and courses offered can be considered entities. All these entities have 
+     some attributes or properties that give them their identity.
 
 b1. Discuss Entity sets?
 Ans: An entity set is a collection of similar types of entities. An entity set may 
@@ -400,13 +400,13 @@ Ans: An entity set is a collection of similar types of entities. An entity set m
      sets need not be disjoint. 
 
 
-c. Discuss Attributes?
+c. What are Attributes?
 Ans: Attributes are the properties of entities.For example, a student entity may 
     have name, class, and age as attributes.
 
 d. Give 2 examples of Domains in attributes?
 Ans: - a student's name attribute cannot be a numeric value
-     -  A student's age cannot be negative
+     -  A student's age cannot be a negative number 
 
 e. List the Types of Attributes?
 Ans: Simple    attributes
@@ -421,7 +421,7 @@ Ans: Simple attributes:
         e.g a students phone number
      Composite attributes:
         attributes that can be further divided into simple attributes.
-        e.g student's full name may be dividen into - first_name, and last_name
+        e.g student's full name may be divided into - first_name, and last_name
      Derived attributes:
         attributes that do not exist in the physical database, but their values are
         derived from other attributes present in the database
@@ -434,15 +434,15 @@ Ans: Simple attributes:
         e.g a person can have more than one phone number, email_address, etc.
 
 Set and Keys
-g. What are Set and Keys?
+g. What are Keys?
 Ans: Key is an attribute or collection of attributes that uniquely identifies an 
-     entity among entity set
+     entity in an entity set
      e.g matric_number of a student makes him/her identifiable amongst other students
 
 h. What are the 3 types of Keys?
-Ans: - Super key
+Ans: - Super     key
      - Candidate Key
-     - Primary Key
+     - Primary   Key
 
 i. Explain the above types of keys
 Ans: Super key:     A set of attributes (1 or more) that collectively identifies 
@@ -511,6 +511,7 @@ Ans: - Offers Organization-wide coverage of the business concepts.
        vendor and technology. 
        - The focus is to represent data as a user will see it in the "real world."
 
+
 Logical Data Model
 3. What is Logical Data Model?
 Ans: they are models that add further information to the conceptual model elements. 
@@ -531,7 +532,7 @@ c. At this Data Modeling level, no primary or secondary key is defined. At this
 Ans: True
 
 d. What are the Characteristics of a Logical Data Model?
-Ans: - Describes data needs for a single project but could integrate with other 
+Ans: - Describes data needed for a single project but could integrate with other 
        logical data models based on the scope of the project.
      - Designed and developed independently from the DBMS.
      - Data attributes will have data types with exact precisions and length.
@@ -648,9 +649,9 @@ Ans: it filters our result down to the records that meet the specified criteria
 
 
 
-Excercise
+Exercise
 ________________________________________________
-|                departments                   |
+|                 departments                  |
 ------------------------------------------------
 |DEPARTMENT_ID |DEPARTMENT_NAME|LOCATION_ID    |
 ------------------------------------------------
@@ -738,7 +739,7 @@ Ans: UPDATE departments
      SET department_name = "Pharmacy"
      WHERE department_id = 20;
 
-     SELECT * FROM departments WHERE department_id = 20;
+     SELECT * FROM departments WHERE department_id = 20;    // SELECT prints result
      
      // Result
      |DEPARTMENT_ID |DEPARTMENT_NAME|LOCATION_ID    |
@@ -753,7 +754,7 @@ Ans: UPDATE departments
      SET location_id = 2000
      WHERE department_name = "Architecture";
 
-     SELECT * FROM departments WHERE department_name = "Architecture";
+     SELECT * FROM departments WHERE department_name = "Architecture";    // SELECT prints result
 
      // Result
      |DEPARTMENT_ID |DEPARTMENT_NAME|LOCATION_ID    |
@@ -770,7 +771,7 @@ m. Delete rows(or records) where department_name = "pol science"
 Ans: DELETE FROM departments
      WERE department_name = "pol science";
 
-     SELECT * FROM departments;
+     SELECT * FROM departments;    // SELECT prints result
 
      // Result
      |DEPARTMENT_ID |DEPARTMENT_NAME|LOCATION_ID    |
@@ -787,7 +788,7 @@ n. Delete rows(or records) where department_id = 10
 Ans: DELETE FROM departments
      WERE department_id = 10;
 
-     SELECT * FROM departments;
+     SELECT * FROM departments;                 // SELECT prints result
 
      // Result
      |DEPARTMENT_ID |DEPARTMENT_NAME|LOCATION_ID    |
