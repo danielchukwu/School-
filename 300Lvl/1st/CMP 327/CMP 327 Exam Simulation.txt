@@ -22,6 +22,7 @@ LECTURE 1
     v. Draw a Diagram showing Data Abstraction
 
 
+
 LECTURE 2
 
 1a. i. What is a Database Model?
@@ -35,5 +36,44 @@ LECTURE 2
   iii. List and Explain the 3 types of Data Models and explain?
    iv. List the 3 basic elements of Conceptual Data Models
 
-2a. i. 
+
+2a. i. What is the ER Model?
+   ii. Discuss a) Entities  b) Entity sets  c) Attributes with examples
+  iii. List the 5 types of attributes and explain all
+   iv. What is a key?
+    v. List the types of keys and explain? 
+
+ b. i. What is a Relationship. Give Examples?
+   ii. Define  a) Relationship set  b) Descriptive Attributes  
+               c) Degree of a Relationship  d)
+
+ c. i. What is Cardinality?
+   ii. List the 4 types of relationship and explain using a diagram
+  iii. List 3 characteristic of a Conceptual Data Model 
+
+ 
+3a. i. What is the Logical Data Model. Give Examples?
+   ii. What is the advantage of the logical Data Model?
+  iii. What are the characteristics of a Logical Data Model?
+
+4a. i. What is the Physical Data Model?
+   ii. The Physical Data Model helps us do what? 
+  iii. List 4 characteristic of the Physical Data Model?
+
+ b. i. List 4 advantages and disadvantages of Data Models?
+ 
+
+
+LECTURE 3
+
+1a. 
+
+
+
+
+
+
+
+
+
 
