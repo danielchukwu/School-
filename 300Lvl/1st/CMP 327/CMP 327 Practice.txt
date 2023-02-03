@@ -172,7 +172,6 @@ i. done
 j. Data modeling is the process of creating a data model for the data to be stored
    in a Database
 
-k. 
 
 
 
@@ -182,6 +181,33 @@ k.
 
 
 
+2a. ER Model defines the conceptual view of a database
+
+b. DONE
+
+c. Attributes are the propertise of entities 
+
+d. - 
+   - 
+   
+e. Simple       attribute
+   Composite    attribute
+   Derived      attribute
+   Single-value attribute
+   Multi-value  attribute
+
+g. A key is an attribute or a collection of attributes that are used to identify
+   an entity in an entity set
+
+h. Super key
+   Candidate key
+   Primary Key
+
+i. Relationship
+
+j. Relationship set is a set of relationship of similar type
+
+. Descriptive attribute
 
 
 
