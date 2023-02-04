@@ -37,7 +37,7 @@ c. A robust data management strategy is becoming more important than ever as
    organizations increasingly rely on data to _____________.
 Ans: create value
 
-d. Efficient data management can be vital to success of any business. Tools or 
+d. Efficient data management can be vital to the success of any business. Tools or 
    applications such as databases can make these tasks easier and more efficient. True or False?
 Ans: True
 
@@ -157,7 +157,7 @@ Ans: 1. Data stored into Tables:
 
 f. List 5 Advantages of DBMS?
 Ans: - Segregation of application program.
-     - Minimal data duplication or data redundancy.
+     - Minimal data duplication or data redundancy (or reduced redundancy).
      - Easy retrieval of data using the Query Language.
      - Reduced development time and maintenance need.
      - With Cloud Data centers, we now have Database Management Systems capable 
@@ -258,7 +258,7 @@ Database Models
 1. What is a Database Model?
 Ans: A database model is a type of data model that determines the logical structure
     of a database and fundamentally determines in which manner data can be stored, 
-    organized and manipulate
+    organized and manipulated
 
 b. A database model shows the logical structure of a database, including the 
    relationships and constraints that determine how data can be stored and 
@@ -298,8 +298,8 @@ Ans: Relation: is a table with columns and rows
      Domain:    is the set of allowable values for one or more attributes
      Relational Database: is a collection of normalized relations with distinct 
                           relation names
-     Relation Schema:     is a named relation defined by a set of attribute and 
-                          domain name pairs
+     Relational Schema:   is a set of relational tables and associated items that 
+                          are related to one another. 
 
      Relational database schema: is a set of relation schemas, each with a 
                                  distinct name
@@ -321,7 +321,7 @@ j. What is Data Modeling?
 Ans: Data modeling is the process of creating a data model for the data to be 
      stored in a Database.
 
-k. This data model is a conceptual representation of  _____, ________ and _______?
+k. Data model is a conceptual representation of  _____, ________ and _______?
 Ans: Data objects, the associations between different data objects, the rules
 
 l. A Data Model is used to document, define, organize, and show how the data 
@@ -363,27 +363,30 @@ Ans: - Conceptual
 
 r. Discus all 3 types of Data Model?
 Ans: Conceptual Model:
-        This Data Model defines WHAT the system contains. 
+        defines WHAT the system contains. 
         - It is typically created by Business stakeholders and Data Architects. 
      Logical Model:
-        Defines HOW the system should be implemented regardless of the DBMS
+        defines HOW the system should be implemented regardless of the DBMS
         - It is typically created by Data Architects and Business Analysts.
      Physical Model:
         Describes HOW the system will be implemented using a specific DBMS
         - It is typically created by DBA and developers
 
-s. The main aim of The Conceptual Model is to ____________?
-Ans: Establish the entities, their attributes, and their relationships
 
-v. What are the 3 basic elements of the Conceptual model?
+
+
+
+Concept Data Model
+2. What is the Conceptual Model?
+Ans: it's a data model whose main aim is to establish the entities, their attributes, 
+     and their relationships
+
+aa. What are the 3 basic elements of the Conceptual model?
 Ans: - Entity, 
      - Attribute, 
      - Relationship
 
-
-
-ER MODEL - BASIC CONCEPTS
-2a. What does the ER MODEL define?
+aaaa. What does the ER MODEL define?
 Ans: The ER model defines the conceptual view of a database
 
 b. Discuss Entities?
@@ -420,7 +423,7 @@ Ans: Simple attributes:
         this are atomic values/attributes that cannot be further divided
         e.g a students phone number
      Composite attributes:
-        attributes that can be further divided into simple attributes.
+        are attributes that can be further divided into simple attributes.
         e.g student's full name may be divided into - first_name, and last_name
      Derived attributes:
         attributes that do not exist in the physical database, but their values are
@@ -450,7 +453,7 @@ Ans: Super key:     A set of attributes (1 or more) that collectively identifies
      Candidate Key: A minimal super key is called a candidate key. An entity 
                     set may have more than one candidate key
      Primary Key:   A  primary key is one of the candidate keys chosen by the 
-                    database designer to uniquely identify the entity set. 
+                    database designer to uniquely identify an entity in an entity set. 
  
 J. The association among entities is called a __________?
 Ans: Relationship
@@ -514,7 +517,7 @@ Ans: - Offers Organization-wide coverage of the business concepts.
 
 Logical Data Model
 3. What is Logical Data Model?
-Ans: they are models that add further information to the conceptual model elements. 
+Ans: it adds further information to the conceptual model elements. 
      or
      It defines the structure of the data elements and set the relationships 
      between them.
@@ -821,8 +824,7 @@ Ans: Constraint Type      Description
 
 Database Auditing
 c. What is Auditing?
-Ans: The value entered in the table must match one of the specified values for 
-     this column.
+Ans: Auditing is the monitoring and recording of selected user database actions
 
 d. It can be based on individual actions, such as the type of SQL statement 
    executed, or on combinations of factors that can include user name, application, 
@@ -835,7 +837,7 @@ e. Security policies can trigger auditing when specified elements in an Oracle
 Ans: True
 
 f. What is Auditing typically used for?
-Ans: - Enable future accountability for current actions taken in a particular 
+Ans: - Enabling future accountability for current actions taken in a particular 
        schema, table, or row, or affecting specific content
      - Deter users (or others) from inappropriate actions based on that accountability
      - Investigate suspicious activity
@@ -886,13 +888,13 @@ Ans: Confidentiality:
      Availability:
         availability of information to authorized parties only when requested
 
-o. Database security is generally ______, _______ and _________ by a 
-   database administrator and or other information security professionals. True or False?
+o. Database security is generally ______, _______ and _________ by a DBA and/or 
+   other information security professionals?
 Ans: planned, implemented and maintained
 
 p. Some of the ways database security is analyzed and implemented include. List 4?
 Ans: - Restricting unauthorized access and use by implementing strong and 
-       multifactor access and data management controls
+       multi-factor access and data management controls
      - Load/stress testing and capacity testing of a database to ensure it does not 
        crash in a distributed denial of service (DDoS) attack or user overload
      - Physical security of the database server and backup equipment from theft and 
@@ -901,7 +903,8 @@ Ans: - Restricting unauthorized access and use by implementing strong and
        defining and implementing a road map/plan to mitigate them
 
 
-q. What is Authentication?
+
+3. What is Authentication?
 Ans: it is a process in which the credentials provided are compared to those on 
      file in a database of authorized users' information on a local OS or within an
      authentication server. If the credentials match, the process is completed 
@@ -912,15 +915,15 @@ Ans: it is a process in which the credentials provided are compared to those on
      It is the process of determining whether someone or something is, in fact, who 
      or what it is declared to be.
 
-s. What is an Authentication Factor?
-Ans: it is a category of credential used for identity verification
+b. What is an Authentication Factor?
+Ans: it is a category of credential used for identifying verification
 
-u. What are the 3 main Authentication Factor categories?
+c. What are the 3 main Authentication Factor categories?
 Ans: - Knowledge  factors
      - Possession factors
      - Inherence  factors
 
-v. Explain the 3 main Authentication factors categories?
+d. Explain the 3 main Authentication factors categories?
 Ans: Knowledge factors:
         a category of authentication credentials consisting of information that 
         the user possesses, such as a personal identification number (PIN), a user 
@@ -934,19 +937,19 @@ Ans: Knowledge factors:
         are integral to the individual in question, in the form of biometric data.
 
 
-w. What is Authorization?
+e. What is Authorization?
 Ans: it is the process of giving someone permission to do or have something.
 
-x. What is Access control
+f. What is Access control
 Ans: Access controls for a database system is based on the granting and revoking
      privileges. 
 
-y. What are Privileges? 
+g. What are Privileges? 
 Ans: privilege allows a user to create or access some database object or to run 
      certain DBMS utilities.
 
 
-z. Discuss the below topics
+h. Discuss the below topics
    a. Discretionary security mechanism
    b. Mandatory security mechanism
    c. Backup and Recovery
