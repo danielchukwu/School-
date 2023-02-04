@@ -1,3 +1,0 @@
-Visit pg-sql.com
-- This will help you to create a table 
-- and perform database operations on the table
