@@ -1,0 +1,309 @@
+Visit pg-sql.com
+-- SQL TUTORIAL
+-- - We will be learning how to write SQL to perform the below
+--   below database operations 
+-- 
+-- 1. Creating  Tables
+-- 2. Inserting data in Tables
+-- 3. Selecting data in Tables
+-- 4. Updating  data in Tables 
+-- 5. Deleting  data in Tables
+-- 6. Dropping  (deleting) Tables
+-- 
+-- Lets Go 😁
+
+-- 1.
+-- a.
+-- Creating Table
+CREATE TABLE departments (
+	id SERIAL PRIMARY KEY,
+  first_name VARCHAR(50),
+  last_name VARCHAR(50),
+  age INTEGER
+);
+
+-- Run to Create departments Table...
+-- Click Run button Top Left ↖️
+
+
+-- b.
+-- Creating Table(students)
+CREATE TABLE students (
+	id SERIAL PRIMARY KEY,
+  first_name VARCHAR(50),
+  last_name  VARCHAR(50),
+  age INTEGER
+);
+
+-- Run to Create departments Table...
+-- Click Run button Top Left ↖️
+
+
+-- c.
+-- Select table 
+-- - we want to see the data in our tables. should be empty
+
+-- select departments
+SELECT * FROM students;
+
+-- Click Run button Top Left ↖️
+
+
+-- 2. 
+-- a.
+-- Insert data into our tables (departments, students)
+INSERT INTO departments (name, location)
+VALUES
+ 	('computer science', 'Opposite the football field'),
+  ('pharmacy', 'Opposite the nursing dept'),
+  ('Law', 'Close to chapel'),
+  ('Architecture', 'Next to Computer Science');
+  
+-- Click Run button Top Left ↖️
+
+ 
+-- b.
+-- To see data we just inserted use SELECT
+-- - Select all columns in departments
+-- - * means `all columns`
+
+SELECT * FROM departments;
+
+-- Click Run button Top Left ↖️
+-- SUCCESSFUL ✅
+
+ 
+-- c.
+-- Insert data into our students table
+INSERT INTO students (first_name, last_name, age)
+VALUES
+	('Gabriel', 'Iyang', 25),
+  ('Anointing', 'Dauda', 27),
+  ('Peter', 'Odama', 23),
+  ('Essien', 'Micheal', 20);
+  
+-- Click Run button Top Left ↖️
+
+ 
+-- d.
+-- To see data we just inserted use SELECT
+-- - Select all columns in students
+-- - * means `all columns`
+
+SELECT * FROM students;
+
+-- Click Run button Top Left ↖️
+-- SUCCESSFUL ✅
+
+
+ 
+-- e.
+-- Assignment
+-- - Create 3 Tables
+--   - staffs (attributes - id, name, position, work_place, age)
+--   - cars   (attributes - id, name, model, year, tires_count)
+-- 
+-- - Insert 3 rows of data into staffs
+--   - staffs e.g (name='Tony', 'cleaner', 'omega', 29)
+-- 
+-- - Insert 4 rows of data into cars
+--   - cars   e.g (name='Mercedes', 'SClass', 2019, 4)
+-- 
+-- NOTE: Try to do this yourself. Goodluck 👍 
+
+
+
+-- 3.  
+-- a.
+-- SELECT
+-- - how to select all the columns in a table
+-- - how to select specific columns
+-- - how to select specific rows column (Using WHERE)
+
+ 
+-- b.
+-- SELECT
+-- - how to select all the columns in a table
+
+SELECT * FROM departments;
+
+-- Click Run button Top Left ↖️
+
+ 
+-- c.
+-- SELECT
+-- - how to select specific columns
+
+SELECT last_name FROM students;
+
+-- Click Run button Top Left ↖️
+
+ 
+-- d.
+-- SELECT
+-- - how to select multiple columns in a table 
+
+SELECT first_name, last_name FROM students
+WHERE id = 4;
+
+-- Click Run button Top Left ↖️
+
+ 
+-- e.
+-- SELECT
+-- - how to select multiple columns in a table 
+
+SELECT first_name, id, last_name FROM students
+WHERE id = 1;
+
+-- Click Run button Top Left ↖️
+
+ 
+-- f.
+-- ASSIGNMENT
+-- - Practice the below on the cars table and staffs table
+--   - Select all the columns of the cars and staffs table
+--   - Select just one column in the cars column
+--   - Select just one rows column in the staffs table (WHERE needed)
+-- 
+-- NOTE: Try to do this yourself. Goodluck 👍 
+
+
+
+-- 4.
+-- a.
+-- UPDATE
+-- - how to update all the columns data in a table
+-- - how to update a single rows column data
+
+ 
+-- b.
+-- UPDATE
+-- - how to update all the columns data in a table
+
+UPDATE departments
+SET location = 'outside class';
+
+-- Click Run button Top Left ↖️
+
+ 
+-- c.
+-- SELECT
+-- - display all the columns of departments table
+
+SELECT * FROM departments;
+
+-- Click Run button Top Left ↖️
+
+ 
+-- d.
+-- UPDATE
+-- - how to update a single rows column data
+ 
+UPDATE departments 
+SET location = 'chapel'
+WHERE id = 3;
+
+-- Click Run button Top Left ↖️
+
+ 
+-- e.
+-- SELECT
+-- - display all the columns of departments table
+
+SELECT * FROM departments;
+
+-- UPDATED SUCCESSFULLY ✅
+
+
+ 
+-- f.
+-- ASSIGNMENT (using staffs and cars table)
+-- - update all the position in the staffs table
+-- - update all the year in the cars table
+-- - update 2 rows model in the cars table
+-- - update 1 rows name in the staffs table
+-- - update 2 rows age in the staffs table
+--
+-- NOTE: Try to do this yourself. Goodluck 👍
+
+
+
+
+-- 5.
+-- a.
+-- DELETE 
+-- - how to delete all the data in a table
+-- - how to delete a particular row from a table
+
+ 
+-- b.
+-- DELETE 
+-- - how to delete all the data in a table
+
+DELETE FROM departments;
+
+-- Click Run button Top Left ↖️
+
+ 
+-- c.
+-- SELECT
+-- - display all the columns of departments table to see if it worked
+
+SELECT * FROM departments;
+
+-- DELETE SUCCESSFUL ✅
+-- all rows have been deleted
+
+ 
+-- d.
+-- DELETE 
+-- - how to delete a particular row from a table (WHERE needed)
+
+DELETE FROM students
+WHERE id = 3;
+
+-- Click Run button Top Left ↖️
+
+ 
+-- e.
+-- SELECT
+-- - display all the columns of students table to see result
+
+SELECT * FROM students;
+
+-- DELETE SUCCESSFUL ✅
+
+ 
+-- f.
+-- ASSIGNMENT (using staffs and cars table)
+-- - delete all the rows in the cars table
+-- - delete the row with an id=1 in the staffs table
+-- 
+-- NOTE: Try to do this yourself. Goodluck 👍
+
+
+
+6.
+-- a.
+-- DROP (used to delete tables)
+-- - how to drop a table using DROP
+
+DROP TABLE departments;
+
+-- Click Run button Top Left ↖️
+
+ 
+-- b.
+-- SELECT
+-- - check if departments table still exists
+
+SELECT * FROM departments;
+
+-- DROP SUCCESSFUL ✅
+-- table has been deleted
+
+
+-- c.
+-- ASSIGNMENT (using staffs and cars table)
+-- - drop both tables
