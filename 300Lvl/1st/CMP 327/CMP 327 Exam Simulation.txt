@@ -12,7 +12,7 @@ LECTURE 1
 2a. i. What are Database Management Systems and give some 5 examples? (DBMS)
    ii. List 4 tasks that DBMS allow us perform?
   iii. List 7 and explain 5 characteristics of DBMS?
-   iv. List 4 advantages and disadvantages of DBMS?
+   iv. List 4 advantages and 2 disadvantages of DBMS?
     v. What are the Functions of a Database Management System?
 
  b. i. Who is a Database Administrator?
@@ -34,14 +34,15 @@ LECTURE 2
  b. i. What is Data Modeling?
    ii. List 5 uses(or primary goals) of Data Models?
   iii. List and Explain the 3 types of Data Models and explain?
-   iv. List the 3 basic elements of Conceptual Data Models
 
 
-2a. i. What is the ER Model?
-   ii. Discuss a) Entities  b) Entity sets  c) Attributes with examples
-  iii. List the 5 types of attributes and explain all
-   iv. What is a key?
-    v. List the types of keys and explain? 
+2a. i. What is the Conceptual Data Model?
+   ii. List the 3 basic elements of Conceptual Data Models
+  iii. What is the ER Model?
+   iv. Discuss a) Entities  b) Entity sets  c) Attributes with examples
+    v. List the 5 types of attributes and explain all
+   vi. What is a key?
+  vii. List the types of keys and explain? 
 
  b. i. What is a Relationship. Give Examples?
    ii. Define  a) Relationship set  b) Descriptive Attributes  
@@ -60,13 +61,33 @@ LECTURE 2
    ii. The Physical Data Model helps us do what? 
   iii. List 4 characteristic of the Physical Data Model?
 
- b. i. List 4 advantages and disadvantages of Data Models?
+5. List 4 advantages and disadvantages of Data Models?
  
 
 
 LECTURE 3
 
-1a. 
+1a. i. What is SQL?
+   ii. Draw a table containing the different categories of SQL Commands?
+  iii. List 5 characteristics of SQL commands?
+
+2a. i. What are Constraints?
+   ii. List 5 constraints and explain 3
+
+ b. i. What is Database Auditing?
+   ii. List 4 uses of Auditing?
+  iii. List the 4 Types of Auditing?
+
+ c. i. What is Security and Database Security?
+   ii. List the 4 things Database Security encompasses?  
+  iii. List 4 components that Database Security helps us protect? 
+   iv. List the 3 requirements for a complete solution to data security and Explain?
+    v. List 3 ways database security is planned and implemented?
+
+3a. i. What is Authentication and Authorization?
+   ii. What are Authentication Factors?
+  iii. List the 3 main Authentication Factors and Explain 2?
+   iv. Define  a) Access control  b) Privileges
 
 
 
