@@ -1,0 +1,177 @@
+1. Data Management is the practice of collecting, keeping, and using data securely,
+   efficiently and cost-effectively
+
+b. help people, organizations and connected things to optimize the use of data 
+   within the bounds of policy and regulations so as to make decisions and take 
+   actions that maximize the benefit of the organization
+
+c. Create value
+
+d. True
+
+e. organize, process and manage information in a structured and controlled manner
+
+f. A database is a comprehensive collection of data organized for easy access
+
+g. True
+
+h. Custommer Management Process
+   Inventory tracking
+   Employee db
+   Productivity reporting
+   Financial    reporting
+   Data Analysis
+   Supply Chain Management
+
+i. it is the way the information is structured
+
+j. Lack of data integration
+   Lack of standard
+   Lack of central control
+   Inconsistency
+   Redundancy
+   Lack of multiple views
+
+Advantages
+k. Data can be viewed in multiple ways
+   Reduced data redundancy
+   Reduced updating errors and increased inconsistency
+   greater data integrity
+   improved data access to users through host and query languages
+   improved data security
+   Reduced data entry, retrieval, and storage cost
+   Facilitated development of new application programs
+   Centralized control of data
+   Standard can be easily enforced
+
+l. DB systems are complex, difficult and time-consuming to design
+   Substantial software and hardware start up costs
+   Damage to db affects virtually all application programs
+   Extensive conversion cost when moving from a file system to a database system
+   Initial training required for all programmers and users
+
+
+
+Exam Simulation
+1a. Data Management is the practice of collecting,keeping, using data securely, 
+    effeciently and cost-effectively
+
+ ii. is to help people, organizaations and connected things to optimize the use
+     of data within the bounds of policy and regulations so as to make decisions
+     and take actions that maximizes the benefit of the organization
+
+ b. Database is a comprehensive collection of data organized for easy access
+
+ ii. Employee database
+     Customer Management Process
+     Inventory Tracking
+     Productivity Reporting
+     Financial Reporting
+     Supply chain management
+
+ iii. Lack of data integrity
+      Lack of central control
+      Lack of standard
+      Lack of multiple views
+      Redundancy
+      Data inconsistency
+
+
+     ADVANTAGES: 
+ iv. - Provides multiple views of data
+     - Reduced Redundancy
+     - Reduced updating errors and increased consistency
+     - greater data integrity
+     - standards can be enforced
+     - centralized control of data
+     
+     DISADVANTAGES:
+     - substantial hardware and software start-up cost
+     - intial training required for programmers and users
+     - database systems are complex, difficult and time-consuming to design
+     - damage to db affects virtually all the application programs
+     - extensive conversion cost when moving from a file system to a database system
+
+
+
+
+
+2. DBMS are softwares used to manage the database
+
+b. MySQL,
+   ORACLE,
+   SQL SERVER,
+   PostgreSQL
+   Amazon SimpleDB
+   IBM DB2
+
+c. database creation
+   storing data
+   updating data
+   creating tables
+
+d. Data Definition
+   Data Manipulation
+   Data Retrieval
+   User Administration
+
+e. Data stored into tables
+   Reduced Redundancy
+   Data Consistency
+   Security
+   Supports multiple users and Concurrent Access
+   Query Language
+   Supports transaction
+
+f. - Segregation of application program
+   - reduced redundancy
+   - easy retrieval
+   - reduced development time and maintenance need
+   - with cloud dbms we can store almost an infinite amount of data
+   - seamless integration into appliccations
+
+g. its complexity
+   except MySQL which is open source, licensed DBMS are costly
+   They are large in size
+
+h. organizes our files to give us more control over our data
+   allows us to create, retrieve, update, and delete data in our files
+   provides: concurrency, data integrity, data description, backup and recovery
+
+i. Database Administrator (DBA)
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
