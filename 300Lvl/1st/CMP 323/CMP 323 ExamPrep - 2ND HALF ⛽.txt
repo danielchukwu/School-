@@ -43,7 +43,7 @@ Ans: symbols or mnemonics
 b. Because Assembly languages used symbols, they were first known as _______________?
 Ans: symbolic languages
 
-c. List atleast 3 Codes in Assembly Language and show their descriptions?
+c. List at least 3 Codes in Assembly Language and show their descriptions?
 Ans:     CODE                               DESCRIPTION
     LOAD RF Keyboard    -    Load from keyboard controller to register F
     STORE Number1 RF    -    Store register F into Number1
@@ -93,7 +93,7 @@ Ans: An Interpreter translates the source program one line at a time into the co
 
 h. How does Compilation and Interpretation differ?
 Ans: Compilation and interpretation differ in that the first translates the whole source code before executing it, 
-     while the second translates and executes the source code a line at a time. 
+     while the second translates and executes the source code one line at a time. 
 
 i. Both Translation methods, however, follow the same translation process. True or False?
 Ans: True
@@ -128,7 +128,6 @@ Ans: True
 
 g. A program in a procedural paradigm is an active agent that uses passive objects that we refer to as ____?
 Ans: data
-
 h. To manipulate a piece of data, the active agent (program) issues an action, referred to as a _________?
 Ans: procedure
 
