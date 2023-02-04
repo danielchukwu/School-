@@ -186,8 +186,8 @@ Ans: 1950s
 d. Fortran was developed for?
 Ans: Scientific and Engineering applications on the IBM704 (introduced in 1954)
 
-e. Fortran is a General-purpose, procedural, imperative programming language?
-Ans: True
+e. Fortran is a ________, __________, __________ programming language?
+Ans: General-purpose, procedural, imperative
 
 f. Why was Fortran Originally designed?
 Ans: To improve on the economics of programming
@@ -195,8 +195,8 @@ Ans: To improve on the economics of programming
 g. Fortran is the first widely accepted high-level computer programming language?
 Ans: True
 
-h. Fortran was used by scientists to write programs using a ____________?
-Ans: Mathematical notation/language 
+h. Fortran was used by __________ to write programs using a ____________?
+Ans: scientists, Mathematical notation/language 
 
 i. Great emphasis was put on the efficiency of the translated machine code, which is still the case today, 
    explaining why Fortran programs are still considered as a benchmark for _____________?
@@ -226,7 +226,7 @@ k. The below are some of the reasons why Fortran was a success.
 Ans: True
 
 l. In the area of high performance Fortran is __________?
-Ans: The most popular programming language
+Ans: the most popular programming language
 
 m. Fortran is used to write programs that benchmark and rank the world's fastest supercomputers. True or False?
 Ans: True
@@ -260,29 +260,29 @@ Ans: True
 f. By December 1959, a first version for Cobol was defined, which was later refined in _____ and _____. 
 Ans: 1961 and 1962
 
-h. A standard version was defined in ______, Further standardized evolutions were defined in _____________________? 
+g. A standard version was defined in ______, Further standardized evolutions were defined in _____________________? 
 Ans: 1968,
      1974, 1985 and 2002. 
 
-g. _________ was the First programming language advocated by the United States Department of Defense?
+h. _________ was the First programming language advocated by the United States Department of Defense?
 Ans: Cobol
 
-h. The development of Cobol paralleled that of Fortran. 
+i. The development of Cobol paralleled that of Fortran. 
 Ans: True
 
-i. What makes Cobol different from Fortran and Algol?
+j. What makes Cobol different from Fortran and Algol?
 Ans: It is a data processing language
 
-j. Cobol Puts explicit emphasis on the description of the manipulated data at two levels. Name them?
+k. Cobol Puts explicit emphasis on the description of the manipulated data at two levels. Name them?
 Ans: - Machine Dependent
      - Machine-independent
 
-h. Difference between Machine dependent and Machine-independent?
+l. Difference between Machine dependent and Machine-independent?
 Ans: Machine-dependent:   description providing a connection between the Cobol program 
                           and the data files as stored on a specific media.
      Machine-independent: logical description of data as manipulated by procedures.
 
-i. What are some of the Pros and Cons of Cobol?
+m. What are some of the Pros and Cons of Cobol?
 Ans: 
 Positive
    Macros
@@ -297,10 +297,10 @@ Negative
    Restricted to business data applications
 
 
-j. Cobol was much more standardized compared to ______ and ______?
+n. Cobol was much more standardized compared to ______ and ______?
 Ans: Fortran and Algol
 
-h. Newest standard (1990s) includes _____________ and _______________.
+o. Newest standard (1990s) includes _____________ and _______________.
 Ans: Object-orientation and Garbage collection
 
 
@@ -356,8 +356,8 @@ Ans: True
 k. The above question is referred to as ___________?
 Ans: Reflective Programming
 
-l. Lisp has been used extensively for artificial intelligence. True or False?
-Ans: True
+l. Lisp has been used extensively for _________________?
+Ans: artificial intelligence
 
 m. Lisp pioneered the notion of ______________ programming language
 Ans: functional
@@ -489,6 +489,7 @@ f. Algol had more syntax features than Fortran, with the following consequences.
    - Compilers were much more complex to develop. Advanced compiler design methods and tools were not 
      available at the time.  
    - Complexity led to less efficient generated machine code.
+Ans: True
 
 g. Fortran was seen as more _______, ________ and __________
 Ans: stable, practical and efficient 
@@ -497,11 +498,12 @@ Ans: stable, practical and efficient
 h. These are Some reasons why Algol was more influential than Fortran
    - Algol was a landmark in the development of programming language theory and implementation, including the 
      Backus-Naur form, syntax-directed translation, and dynamic memory allocation. 
-   - Algol was a direct descendent of Pascal, which soon became one of the main language used to teach 
+   - Pascal was a direct descendent of Algol, which soon became one of the main language used to teach 
      programming all over the world.
    - Another direct descendent of Algol was Ada, which was adopted as mandatory language by the United States 
-     Department of Defence.  
+     Department of Defense.  
    - Algol was used for more than 30 years in scientific publications for the expression of algorithms.
+Ans: True
 
 i. What are 5 of the most influential original contributions of Algol that is currently being used in 
    modern programming languages?
@@ -538,7 +540,7 @@ Ans: - Provide features of Fortran, augmented with the capacities of Cobol.
      - Improve programming productivity - transferring effort from programmer to compiler. 
      - Machine and operating system independence. 
 
-e. List atleast 8 features of the PL/I language?
+e. List at least 8 features of the PL/I language?
 Ans: - Reference data types 
      - User-defined data types
      - Concurrency
@@ -555,7 +557,7 @@ Ans: - Reference data types
 f. The first attempts at meeting these goals of PL/I was mostly based on an evolution of Fortran (name Fortran VI). 
 Ans: True
 
-g. It was quickly realised to be infeasible, and a new language was designed and named __________?
+g. It was quickly realized to be infeasible, and a new language was designed and named __________?
 Ans: NPL (New Programming Language)
 
 h. NPL was defined in ____, implemented in the UK IBM Hursley Laboratory, then renamed PL/I in ______.  
@@ -625,7 +627,7 @@ c. Simula 67 introduced?
 Ans: - objects
      - classes
      - subclasses
-     - virtual methods
+     - virtual methods  
      - coroutines
      - discrete event simulation
      - and featured garbage collection.
@@ -870,7 +872,7 @@ Ans: To solve the problems of too many different programming languages being use
 i. The result of the HOLWG was ____?
 Ans: Ada
 
-j. The first Ada compiler where released when?
+j. The first Ada compiler where released in ______?
 Ans: 1985
 
 
@@ -998,7 +1000,7 @@ Ans: True
 p. Due to interpretation, Java programs were initially 10 times slower than their C++ counterparts. 
    However, Java programs' execution speed improved significantly with the introduction of 
    'Just-in-time' compilation in 1997/1998?
-Ans: 1997/1998 
+Ans: True 
 
 
 
