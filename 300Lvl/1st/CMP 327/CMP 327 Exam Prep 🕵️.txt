@@ -570,6 +570,8 @@ Ans: - It describes data need for a single project or application though it may 
        etc. are defined.
 
 
+
+
 Advantages and Disadvantages of Data Model
 e. What are the Advantages of Data Model?
 Ans: - The main goal of designing data model is to make certain that data 
@@ -888,9 +890,9 @@ Ans: Confidentiality:
      Availability:
         availability of information to authorized parties only when requested
 
-o. Database security is generally ______, _______ and _________ by a DBA and/or 
+o. Database security is generally ______, _______ and _________ by a ___ and/or 
    other information security professionals?
-Ans: planned, implemented and maintained
+Ans: planned, implemented and maintained by a DBA
 
 p. Some of the ways database security is analyzed and implemented include. List 4?
 Ans: - Restricting unauthorized access and use by implementing strong and 
@@ -905,7 +907,7 @@ Ans: - Restricting unauthorized access and use by implementing strong and
 
 
 3. What is Authentication?
-Ans: it is a process in which the credentials provided are compared to those on 
+Ans: it is a process in which the credentials provided are compared to those on a
      file in a database of authorized users' information on a local OS or within an
      authentication server. If the credentials match, the process is completed 
      and the user is granted authorization for access.
@@ -947,6 +949,10 @@ Ans: Access controls for a database system is based on the granting and revoking
 g. What are Privileges? 
 Ans: privilege allows a user to create or access some database object or to run 
      certain DBMS utilities.
+
+     or
+
+     Privileges are rights that allows users perform specific actions to the database
 
 
 h. Discuss the below topics
