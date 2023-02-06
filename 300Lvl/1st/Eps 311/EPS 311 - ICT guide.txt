@@ -1,0 +1,102 @@
+ICT Revision
+
+This process can be either carried out on a PC or a Laptop
+
+
+
+
+SECTION 1: Setup
+
+
+STEP 1:
+In other to create an web application e.g A Blog and a News website. 
+We need to download `wordpress` and a `server` that helps us develop this
+
+we can download either:
+- wamp  server or  (I will be going with wamp for this explanation)
+- xampp server
+
+- and then download wordpress
+
+
+STEP 2: 
+- Extract the wordpress and wamp files and setup the below structure in the 
+  root of your computers C drive
+
+> C:/wamp/www/wordpress
+
+- Rename the wordpress file to the websites name of your choice.
+  In my case, I will be going with `handy`
+
+> C:/wamp/www/handy
+
+
+STEP 3:
+- We want create an account that will allow us develop our websites. 
+- Run the Wamp server by clicking on the app icon.
+- Visit - http://localhost/phpmyadmin
+- Fill form up
+    Enter username: root
+    Enter password:          # leave password blank
+    | go |                   # click the go button    
+
+- click 'User Account' (top navbar)
+- click 'Add User Account'
+- Fill form up
+    Enter Username: daniel
+    Enter Password: 12345
+    Re-type:        12345
+
+- Scroll down to priviledges and click 'select all'
+  | go |                   # click the go button   
+
+
+STEP 4:
+- create database for web apps (Blog Db or News Db)
+- visit - http://localhost/phymyadmin
+- click 'new' (on the left panel) 
+- enter database name(e.g handy) 
+- click create
+
+
+STEP 5:
+- visit - http://localhost/handy
+- enter 'login details'
+- | go |                   # click the go button   
+
+- you will be prompted to run wordpress installation. do so
+
+- fill form up
+- click 'submit'
+
+- # we should be redirected to our wordpress development environment where we 
+  can start developing both of our apps
+
+
+STEP 6
+- We can now start developing our web application
+- Run wamp server
+- visit - http://localhost/handy/wp-admin
+- We can now start developing either one of our apps (either Blog or News)
+- On the left navbar click
+  - Pages 
+    - to see all the pages in our website
+    - to modifying or redesign our existing pages
+    - to create a new page
+  - Posts
+    - to see all the posts we've added to our website
+    - to modify or redesign those posts
+    - to create a new post
+  - Appearance
+    - to see all the available themes we could use (free and paid)
+    - to change the theme of our website
+  - Plugins
+    - to add any helper package that contributes to our website development
+
+- The above are the key functions that we can use to build a website from the 
+  ground up (in our case a Blog or a News website)
+
+
+STEP 7
+- Lastly, pay for a hosting service with one of the web hosting companies and just
+  like that you websites will be live and accessible on the web
