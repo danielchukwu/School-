@@ -1,6 +1,6 @@
 3RD LECTURE (Practical Begins)
 
-1. If you are using wamp paste the extracted wordpres folder in
+1. If you are using wamp paste the extracted wordpress folder in
 C:/wamp/www
 
 If you re using xampp
@@ -30,14 +30,14 @@ This is because the super user is always found in the root
 
 7. Click on the user account and if you do so you should see some users
 
-Click on Edit root botton in the root row and if you do so you should see that almost all the check boxes are ticked
+Click on Edit root bottom in the root row and if you do so you should see that almost all the check boxes are ticked
 and it is not advised to create a project using the roo therefore we would need to create a new user
 
 
 8. Go back
 9. Add new user
 10 Enter details
-   Enter Username: daniel
+   Enter Username: daniel 
    Host  name:                // skip this field
    Enter Password: 12345
    Re-type:        12345
@@ -128,7 +128,7 @@ http://localhost/handy/wp-admin/
 
 4. Click 'Start first time configuration'
 
-5. If youve done that lets add one more plugin
+5. If you've done that lets add one more plugin
 
 6. Hover over plugins and select add new and then search for woocommerce and then install it
 This is a plugin that allows you to have a card system on your website - It enables card payment for short
@@ -149,13 +149,13 @@ Click preview to select what screen size you would like to see the website displ
 
 12. Beneath 'About Us' click on the + (We can add whatever element we want)
 
-13. Click add Image. (Click upload, or media library if u've uploaded images before)
+13. Click add Image. (Click upload, or media library if you've uploaded images before)
 
 14. Add new image and caption
 
 15. Scroll down to our SEO plugin section and see a live preview of how our website would be displayed on a google search
 
-16. Scroll back up and clik on the + (We want to now add a paragraph)
+16. Scroll back up and click on the + (We want to now add a paragraph)
 
 17. Add a paragraph 'Write whatever you want in here. But should preferably be about your website'
 
