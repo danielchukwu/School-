@@ -173,8 +173,7 @@ FORMAL LANGUAGES
 Ans: An alphabet is a finite set of symbols(or letters or characters)
      Extra: It can be a character or digit in computer. 0 and 1 are alphabets
 
-b. What is another name for alphabets is ________?
-Ans: String
+b. 
 
 c. A String (word) is a finite ______________?
 Ans: Sequence of symbols
@@ -271,12 +270,16 @@ m. Given the Production Rule below. Use the Canonical Parse tree to check if the
    <Number>         => <Digit> | <Number>
    <Digit>          => 0|1|2|3|4|5|6|7|8|9 
    <Point>          => .
-Ans: 3.142
-     <Number>    .142
-     <Number><Point>      142
-     <Number><Point><Number>    42                  
-     <Number><Point><Number><Number>    2    
-     <Number><Point><Number><Number><Number>            CANONICAL PARSE TREE (Not our usual parse tree)
+Ans: 
+     <Decimal Number> => <Number><Point><Number>
+                      => <Number><Point><Number><Number>           # <Number> => <Number>
+                      => <Number><Point><Number><Number><Number>   # <Number> => <Number>
+                      =>    3    <Point><Number><Number><Number>   # Perform LMD
+                      =>    3       .   <Number><Number><Number>
+                      =>    3       .      1    <Number><Number>
+                      =>    3       .      1       4    <Number>
+                      =>    3       .      1       4       2
+                      
 
      Therefore the sentence (3.142) is valid ✅
 
