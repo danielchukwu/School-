@@ -390,7 +390,7 @@ Preamble
  Ans: This are thoughts that when implemented can lead to income generalization
 
  d. List all eleven(11) Techniques and Skills for generating Business Idea?
- Ans: 1. Your skills, tallent, passion
+ Ans: 1. Your skills, talent, passion
       2. Keeping up with current events
       3. Invent a new product or service
       4. Add value to an already existing product
@@ -422,12 +422,14 @@ NEW VENTURE CREATION
 
 4a. What is Feasibility study?
  Ans: Feasibility study is an evaluation or analysis of the potential impact of a proposed project
+      OR
+      Feasibility study is the scientific investigation and analysis of a proposed project to determine its viability
 
  b. Feasibility study is divided into four(4) parts. Name and briefly explain them?
  Ans: 1. Market Environment: is there potential for your product or service to make you money
-      2. Technical and Operational requirements: what equipments and human resources (workers) will the buisness need
+      2. Technical and Operational requirements: what equipments and human resources (workers) will the business need
       3. Financial Projection: what are the expenses and incomes of the business. How long will it take to break even(or become profitable)
-      4. Economic Contribution: your buisness contribution to the community, society or economy
+      4. Economic Contribution: your business contribution to the community, society or economy
 
  c. Discuss how to write Business Plan?
  Ans: The Feasibility Report is the foundation for writing a business plan. It is difficult to write a Business plan without it. 
@@ -447,7 +449,7 @@ NEW VENTURE CREATION
 
  Participation in the Nigerian Business Environment: Regulatory and Legal Framework
  -----------
- e. People who run buisnesses without registering, the law allows a window period of ________ after which you are required to register?
+ e. People who run businesses without registering, the law allows a window period of ________ after which you are required to register?
  Ans: 28days
 
  f. Full or partial ownership of business by a foreign investor is permitted now in Nigeria. why is this?
@@ -502,7 +504,7 @@ NEW VENTURE CREATION
     1. The process of registration is generally uncomplicated
     2. It gives the entrepreneur the opportunity to own the name of the business as an intellectual property
     3. provides competitive leverage (because he now operates within a legal framework)
-    4. Are the sole owners of the business (You don't split gains with anyperson)
+    4. Are the sole owners of the business (You don't split gains with any body)
 
     Disadvantages:
     1. Responsible for all the debts and losses
@@ -520,7 +522,7 @@ NEW VENTURE CREATION
  Ans: General Partnership
       Limited Partnership
 
- ii. what are the three(3) essential elements to General Partnership?
+ ii. What are the three(3) essential elements to General Partnership?
  Ans: 1. Joint ownership of the Business
       2. Sharing of profits and losses, and
       3. Equal right in managing the business
@@ -549,7 +551,7 @@ NEW VENTURE CREATION
 
  p. How many members are allowed to be in a Private Company?
  Ans: It must have nothing less than 2 members and nothing more than 50 members
-
+aa
  q. What is a Public Company?
  Ans: Any company that is not a private company
 
@@ -716,7 +718,7 @@ NEW VENTURE CREATION
  h3. What are some items eligible for trademark. Nothing less than 5?
  Ans: Device, brand, heading, label, ticket, name, signature, word, letter, numeral, or any combination thereof;
 
- h4. Eligibility for Trademark Registration. it must contain atleast one of the below. List all 4?
+ h4. Eligibility for Trademark Registration. it must contain at least one of the below. List all 4?
  Ans: 1. The name of a company, individual, or firm, represented in a special or particular manner;
       2. The signature of the applicant for registration or some predecessor in his business
       3. An invented word or invented words;
@@ -762,12 +764,12 @@ NEW VENTURE CREATION
       4. Must not be against public policy or morality
 
  j4. Why is it important to Register a Patent?
- Ans: In order to be able to exclusively commercially exploit an invention. The right of a patent is vested int he first person to 
+ Ans: In order to be able to exclusively commercially exploit an invention. The right of a patent is vested into the first person to 
       file and register the patent regardless of whether he or she is the true inventor
 
  Process for registering a patent
  j5. How do you register a Patent?
- Ans: 1. A request for a petent signed by the applicant or his agent containing applicants full name and address
+ Ans: 1. A request for a patent signed by the applicant or his agent containing applicants full name and address
       2. A specification, including a claim or claims in duplicate; plans and drawings if any in duplicate
       3. A declaration signed by the true inventor requesting that he is mentioned
       4. A signed authorization of attorney or agent if made by one
@@ -789,7 +791,7 @@ FINANCING
  Ans: Entrepreneurial Finance is the study of value and resource allocation, applied to new ventures
 
  c. List 5 financial limitations in Entrepreneurship
- Ans: 1. Uncrertainty about the future
+ Ans: 1. Uncertainty about the future
       2. Information Gaps
       3. Soft Assets
       4. Volatility of current market conditions
