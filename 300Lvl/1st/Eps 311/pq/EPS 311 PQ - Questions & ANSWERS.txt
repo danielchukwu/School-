@@ -8,7 +8,7 @@ SECTION A
 ans: Managerial
 
 2. _______ viewed entrepreneur as a specialist in taking risk.
-ans: Peter Drucker
+ans: Richard Cantillon
 
 3. Who argued that religion has an inclination towards encouraging or discouraging
    individual into wealth accumulation?
@@ -84,10 +84,10 @@ Ans: a
 Ans: a
 
 18. One of these forms the economic consideration of a project?
-    (a) employement generation in the society
+    (a) employment generation in the society
     (b) projected revenue and cost
     (c) break even analysis
-Ans: b
+Ans: a
 
 19. The agency of government charged with the regulation and supervision of the 
     formation, incorporation, registration and management of companies, business
@@ -171,21 +171,23 @@ SECTION B: Attempt all questions from this section
    project without first conducting feasibility reasearch.
 ANSWER
 
-A feasibility study is an examination of a proposed project or business idea to 
-gauge its likelihood of success. This analysis looks at the practicality and 
-viability of the concept by evaluating market demand, competition, costs, 
-potential revenue, and available resources.
+A feasibility study is an analysis of a proposed project or business idea to 
+determine its potential for success. It involves evaluating the practicality and 
+viability of the idea, considering factors such as market demand, competition, 
+costs, revenue potential, and available resources.
 
-For Mrs. Eze, conducting a feasibility study before investing in a project is 
-essential to make informed decisions. Through this study, Mrs. Eze can identify 
-any potential obstacles and dangers, as well as assess the potential benefits and 
-returns of the project. With this information, she can make an informed choice 
-about investing her resources, time, and money into the project, and plan and 
-prepare accordingly for its execution.
+It is important for Mrs. Eze to conduct a feasibility study before investing in 
+any project because it helps her to make an informed decision about whether to 
+proceed with the project. By conducting a thorough and comprehensive feasibility 
+study, Mrs. Eze can identify potential challenges and risks, as well as assess 
+the potential benefits and rewards of the project. This will allow her to make an 
+informed decision about whether to invest her time, money, and resources into the 
+project, and to plan and prepare effectively for its implementation.
 
-In conclusion, conducting a feasibility study before starting a new business is a 
-wise and necessary step for entrepreneurs. This helps reduce the risks involved 
-and increases the chances of success for the project.
+In short, conducting a feasibility study before investing in a project is a smart 
+and necessary step for entrepreneurs to take, as it helps to minimize the risks 
+associated with starting a new business and increase the chances of success.
+
 
 
 
