@@ -128,6 +128,38 @@ Ans:
         The sentence is not valid❌
 
 
+t. List the 3 types of a nodes in a Syntax Tree. Draw a Syntax tree to show them in action?
+Ans: - Start Node:    The root node with no parents and has children  
+                        e.g <S>
+     - Internal Node: The nodes that have a parent node and children nodes 
+                        e.g <T>, <K> e.t.c
+     - Leaf Node:     The nodes that have a parent node but no children nodes 
+                        e.g a, s, p, y
+
+     Syntax Tree
+                 <S>                 
+            ______|______            
+           |             |           
+          <T>           <K>          
+        ___|___       ___|___        
+       |       |     |       |       
+       a       s     p       y 
+
+     
+
+u. List 4 properties of Syntax Trees
+Ans: - Roots are labelled by a start symbol: "S"
+     - Each leaf is labelled by a terminal symbol 
+       (means lower case letter without <> {corner brackets} )
+     - Each Internal node is labelled by a non-terminal symbol
+     - It consists of 1 or more nodes
+
+
+v. Elements of a syntax tree are known as __________?
+Ans: Syntax Entities
+
+
+
 
 
 
