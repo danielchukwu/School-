@@ -15,7 +15,7 @@ Tips:
 
 
 1ST LECTURE
-AUTOMATA THEORY OF COMPTABILITY & FORMAL LANGUAGES
+AUTOMATA THEORY OF COMPUTABILITY & FORMAL LANGUAGES
 
 1a. What is a Language?
 Ans: A language is any notation used for communication of ideas and information. 
@@ -37,7 +37,8 @@ Ans: Subject = "Trinity", "Esther"
      Predicate = "Eats", "Talks"
 
 f. What is Lexicon?
-Ans: It's the complete set of meaningful units in a language e.g The list of verbal words in a particular language
+Ans: It's the complete set of meaningful units in a language e.g The list of verbal words in a 
+     particular language
 
 g. What is Syntax?
 Ans: The rules that govern the combination of valid words in a language
@@ -46,7 +47,8 @@ h. What is Semantics?
 Ans: It is the meaning associated with a particular syntatic entity
 
 i. What is Syntax Tree?
-Ans: A tree like diagram that describes the structure of a sentence by breaking it down into it's constituent parts.
+Ans: A tree like diagram that describes the structure of a sentence by breaking it down into it's 
+     constituent parts.
 
 j. What is a Meta Language?
 Ans: A language used to describe the structure of other languages
@@ -76,19 +78,19 @@ Ans: An alphabet is a finite set of symbols(or letters or characters). It is den
          Σ = {a, b, ..., z}  e.t.c
 
 o. What is a String?
-Ans: A string or a word is a finite sequence of symbols choosen from an alphabet
+Ans: A string or a word is a finite sequence of symbols chosen from an alphabet
      e.g 011100110 is a string from binary alphabet Σ={0, 1}
          aabbaacab is a string from lowercase alphabet Σ={a, b, c }
 
 p. What is an Empty String?
-Ans: A string with zero occurences of symbols (no symbol). It is denoted by epsilon (ε)
+Ans: A string with zero occurrences of symbols (no symbol). It is denoted by epsilon (ε)
 
 q. What is used to denote the Length of a String?
 Ans: It is denoted with 2 pipes => |w|
      e.g: a = 010110101 from binary alphabet Σ={0,1}
           The length of string |a| = 9
 
-r. Contatenate the below Strings?
+r. Concatenate the below Strings?
    a = a1a2a3 ... an
    b = b1b2b3 ... bn
 Ans: ab = a1a2a3 ... anb1b2b3 ... bn
@@ -97,7 +99,7 @@ Ans: ab = a1a2a3 ... anb1b2b3 ... bn
 s. digit => 0|1 means?
 Ans: digit can either be 0 or 1
 
-t. Given the Grammer below
+t. Given the Grammar below
    exp   => A + A
    A     => digit | A * A
    digit => 0 | 1
@@ -151,7 +153,7 @@ e. ___ are used to specify non-terminal symbols?
 Ans: <>
 
 f. What is the difference of terminal and non-terminal symbols. Show using a Parse Tree 
-   with the Grammer S==>AB, A==>ab, B==>bb?
+   with the Grammar S==>AB, A==>ab, B==>bb?
 Ans:             
                  <S>                 ⌉  Non-terminal Symbol
             ______|______            |  - capital letters
@@ -270,11 +272,11 @@ Ans: 3.142
 
 
 3RD LECTURE
-FORMAL GRAMMER
-3a. What is Grammer?
-Ans: Grammer is a set of rules by which valid sentences in a language are constructed
+FORMAL GRAMMaR
+3a. What is Grammar?
+Ans: Grammar is a set of rules by which valid sentences in a language are constructed
 
-b. What is Formal Grammer G (FGG)?
+b. What is Formal Grammar G (FGG)?
 Ans: it is defined to be a quadruple (V,T,S,P) where 
      - V is a set of Non-terminal symbols
      - T is a set of terminal symbols
@@ -305,13 +307,13 @@ Ans: α => +β     "1 or more" production
 
 4TH LECTURE
 
-1a. What are the 4 Types of Grammers according to Chomsky?
-Ans: Type 0 Grammars (free grammers)
-     Type 1 Grammars (context-sensitive grammers)
-     Type 2 Grammars (context-free grammers)
-     Type 3 Grammars (regular grammers)
+1a. What are the 4 Types of Grammars according to Chomsky?
+Ans: Type 0 Grammars (free grammars)
+     Type 1 Grammars (context-sensitive grammars)
+     Type 2 Grammars (context-free grammars)
+     Type 3 Grammars (regular grammars)
 
-b. What are the machines that identify the above 4 types of grammers?
+b. What are the machines that identify the above 4 types of grammars?
 Ans: Type 0 Grammars - Turing Machine
      Type 1 Grammars - Linear Binding Machine
      Type 2 Grammars - Pushdown Device or Pushdown Automaton
@@ -319,7 +321,7 @@ Ans: Type 0 Grammars - Turing Machine
 
 Note: 
 LHS means Left-Hand Side   &   RHS means Right-Hand Side
-c. What are the restrictions of the 4 types of grammers?
+c. What are the restrictions of the 4 types of grammars?
 Ans: Type 0 Grammars - only restriction is RHS must not be £ (empty)
                        e.g aAB==>abAB ✅| S==>QNS ✅| QN==>QRS ✅| Q==>£ (empty) ❌
      Type 1 Grammars - has 2 Restrictions
@@ -366,8 +368,8 @@ Ans: 1. A==>Aw|y|Ax          2. A==>yB, B==>xB|y
     y                                      y
 
 
-c. What is an Ambiguous Grammer?
-Ans: This is a Grammer with more than 1 parse tree
+c. What is an Ambiguous Grammar?
+Ans: This is a Grammar with more than 1 parse tree
 
 d. Parse the sentence x*x*x using the Grammar S==>AA, A==>x|xx. Check if it is ambiguous
 Ans:        S                              S
@@ -475,7 +477,7 @@ Ans: LMD
 
 3. What is Parsing?
 Ans: Parsing is the process of recognizing a string in a language by breaking it down to 
-     a set of symbols and analyzing each of them against the grammer of the language
+     a set of symbols and analyzing each of them against the grammar of the language
 
 b. What are the 2 approaches to parsing?
 Ans: Top-Down  Parsing
@@ -598,4 +600,4 @@ Ans: 0010 - it is recognizable
 
 
 
-GOODLUCK ✅
+GOODLUCK ✅AAAAA
