@@ -28,7 +28,7 @@ c. Discuss Automata Theory
 Ans: Automata Theory covers the definitions and properties of plenty mathematical models of
      computation
      E.g   Finite Automata
-           Context Free Grammer
+           Context Free Grammar
            Turing Machine
 
 d. Discuss Computability Theory
@@ -53,19 +53,19 @@ Ans: An alphabet is a finite, non empty set of symbols. It is denoted by sigma(�
          Σ = {a, b, ..., z}  e.t.c
 
 g. What is a String?
-Ans: A string or a word is a finite sequence of symbols choosen from an alphabet
+Ans: A string or a word is a finite sequence of symbols chosen from an alphabet
      e.g 011100110 is a string from binary alphabet Σ={0, 1}
          aabbaacab is a string from lowercase alphabet Σ={a, b, c }
 
 h. What is an Empty String?
-Ans: A string with zero occurences of symbols (no symbol). It is denoted by epsilon (ε)
+Ans: A string with zero occurrences of symbols (no symbol). It is denoted by epsilon (ε)
 
 i. What is used to denote the Length of a String?
 Ans: It is denoted with 2 pipes => |w|
      e.g: a = 010110101 from binary alphabet Σ={0,1}
           The length of string |a| = 9
 
-j. Contatenate the below Strings?
+j. Concatenate the below Strings?
    a = a1a2a3 ... an
    b = b1b2b3 ... bn
 Ans: ab = a1a2a3 ... anb1b2b3 ... bn
@@ -73,14 +73,14 @@ Ans: ab = a1a2a3 ... anb1b2b3 ... bn
 
 -------------------------------------------------------------------
 
-FORMAL GRAMMERS
+FORMAL GRAMMARS
 
 2. What are languages?
 Ans: A language can be formally defined as any system of formalized symbols, signs, e.t.c
      used for communication
 
 b. What are Grammars?
-Ans: A grammer can be defined as a set of structural rules that govern sentences, words, 
+Ans: A grammar can be defined as a set of structural rules that govern sentences, words, 
      e.t.c. in a natural language
 
 c. What language does the computer understand?
@@ -104,19 +104,19 @@ Ans: It starts with the symbols in your sentence and tries to match them with va
 
 g. Draw a top-down parse tree example?
 Ans: 
-Sentence                           (Top-down parsing tree)
-|
----------------------
-|         |         |
-|         |         |
-Subject   |        object
-|         |         |____________________
-|         |         |         |         |
+       Sentence                           (Top-down parsing tree)
+          |
+------------------------------
+|         |                  |
+|         |                  |
+Subject   |                 object
+|         |        __________|___________
+|         |        |         |         |
 Noun     verb     article  adjective   noun
-|         |         |         |         |
-|         |         |         |         |
-|         |         |         |         |
-I        am         a        good    programmer
+|         |         |        |         |
+|         |         |        |         |
+|         |         |        |         |
+I        am         a       good    programmer
 
 
 h. Top-down is usually easy to make, but bottom-up usually works better (especially with 
@@ -126,7 +126,7 @@ Ans: True
 i. digit => 0 | 1 means?
 Ans: digit can either be 0 or 1
 
-j. Given the Grammer below
+j. Given the Grammar below
    exp   => A + A
    A     => digit | A * A
    digit => 0 | 1
@@ -144,15 +144,15 @@ Ans:
         => 1 * 0 + digit
         => 1 * 0 + 1
 
-        result = this sentence is valid
+        result = this sentence is valid ✅
 
     b.     
     Exp => A + A
         => A * A + A
         => A * A * A + A
-        => 1 * 1 * 1 + 11
+        => 1 * 1 * 1 + 11 
 
-        result = this sentence is not valid
+        result = this sentence is not valid ❌
 
 k. What are Ambiguous Grammars?
 Ans: This is a context-free grammar for which there exists a string that can have more than
@@ -167,4 +167,4 @@ Ans: Production Rules
 
 
 
-
+NEEXXXTTTTT...
