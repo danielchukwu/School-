@@ -20,6 +20,7 @@ Note: Advisable to go through this after you've covered
    b. String
    c. Symbol
    d. Empty String
+   e. Formal Grammar G
 
 
 3. Define the following:
@@ -38,8 +39,9 @@ d. Sentential form
 
 
 5. Define the following
-a. Final State Automata/Machine
+a. Automata Theory
 b. Dead State 
+c. Finite State Automata
 
 
 
@@ -77,6 +79,7 @@ ANSWERS
         specify the syntax of programming languages 
 
 
+
 2. Define the following:
    a. Symbol
    Ans: A symbol is a single character. eg   a, b, c, 0, 1, 2 e.t.c 
@@ -89,6 +92,15 @@ ANSWERS
 
    d. Empty String
    Ans: An Empty String is one with 0 occurrences of symbols. No Symbol.
+
+   e. Formal Grammar G
+   Ans: Formal Grammar G can be defined as a quadruple (V,T,S,P) where
+        V - set of non-terminals
+        T - set of terminals
+        S - start symbol
+        P - production rules
+        
+
 
 
 3. Define the following:
@@ -131,9 +143,13 @@ ANSWERS
    b. Dead State 
    Ans: Is a state that doesn't lead to the final state
 
-
-
-
+   c. Finite State Automata
+   Ans: it can be defined as a 5 tuple (Q) where
+        Q - set of all the states
+        Σ - the input symbols
+        q0- Initial State
+        F - Final state
+        ∫ - Transition Function
 
 
 
