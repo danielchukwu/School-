@@ -376,7 +376,11 @@ Ans: A==>aA is called "Right Linear Production"
      A==>Aa is called "Left  Linear Production"
 
 e. List all the Properties of Grammars?
-Ans: a
+Ans: - Equivalent Grammars
+     - Ambiguous Grammars
+     - Recursive Grammars
+     - Left-Factoring
+     - Left-Most Derivation (LMD) and Right-Most Derivation (RMD)
 
 
 
