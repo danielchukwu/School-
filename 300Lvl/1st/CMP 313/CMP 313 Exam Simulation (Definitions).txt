@@ -64,6 +64,9 @@ ANSWERS
    d. Syntax
    Ans: Syntax are the rules that govern the combination of valid words
 
+   d1. What is Grammar?
+   Ans: Grammar is a set of rules by which valid sentences in a language are constructed
+
    e. Semantics
    Ans: Semantics is the meaning associated with a particular syntactic entity
 
