@@ -279,7 +279,7 @@ Ans:
                       =>    3       .      1    <Number><Number>
                       =>    3       .      1       4    <Number>
                       =>    3       .      1       4       2
-                      
+
 
      Therefore the sentence (3.142) is valid ✅
 
@@ -307,7 +307,7 @@ Ans:
 
 
 3RD LECTURE
-FORMAL GRAMMaR
+FORMAL GRAMMAR
 3a. What is Grammar?
 Ans: Grammar is a set of rules by which valid sentences in a language are constructed
 
@@ -364,7 +364,7 @@ Ans: Type 0 Grammars - only restriction is RHS must not be £ (empty)
                        e.g s==>b ✅| S==>Ab ✅| aAa==>aaB ✅| aA==>B ❌
                        - LHS must have just 1 single non-terminal symbol(capital letter) and multiple terminal symbols (small letter)
                        e.g bB==>aBaa ✅| Da==>BBc ✅| Bacc => AbbA ✅| AAb==>ABaa ❌
-     Type 2 Grammars - LHS lenght must be 1 and it should be a non-terminal symbol(Capital Letter) only and RHS can be £ (empty)
+     Type 2 Grammars - LHS length must be 1 and it should be a non-terminal symbol(Capital Letter) only and RHS can be £ (empty)
                        e.g S==>Ba | A==>Bc ✅| A==>a ✅| S==>£ (empty) ✅| Sa==>aB ❌
      Type 3 Grammars - LHS length must be 1 and it should be a non-terminal symbol and RHS must contain atleast 1 non-terminal symbol
                        e.g A==>aA ✅| A==>Aa ✅| A==>£ (empty) ❌| A==>ab ❌
@@ -375,11 +375,7 @@ Ans: A==>aA is called "Right Linear Production"
      A==>Aa is called "Left  Linear Production"
 
 e. List all the Properties of Grammars?
-Ans: 1. Equivalent Grammars
-     2. Ambiguous Grammar
-     3. Recursive Grammar
-     4. Left-Factoring Grammar
-     5. Left Most Derivation and Right Most Derivation (LMD & RMD)
+Ans: a
 
 
 
@@ -388,10 +384,13 @@ Ans: 1. Equivalent Grammars
 
 5TH LECTURE
 
+A. Equivalent
 1a. What are Equivalent Grammars?
 Ans: This is when two grammars have the exact same parse tree
 
-b. Given the Grammars 1. A==>Aw|y|Ax   2. A==>yB, B==>xB|y
+b. Given the Grammars below
+   1. A==>Aw|y|Ax   
+   2. A==>yB, B==>xB|y
    show that they are equivalent?
 Ans: 1. A==>Aw|y|Ax          2. A==>yB, B==>xB|y
           A                          A
@@ -403,10 +402,14 @@ Ans: 1. A==>Aw|y|Ax          2. A==>yB, B==>xB|y
     y                                      y
 
 
+B. Ambiguous
 c. What is an Ambiguous Grammar?
-Ans: This is a Grammar with more than 1 parse tree
+Ans: This is a Grammar with more than 1 parse tree for a sentence
 
-d. Parse the sentence x*x*x using the Grammar S==>AA, A==>x|xx. Check if it is ambiguous
+d. Parse the sentence x*x*x using the Grammar 
+    S==>AA, 
+    A==>x|xx. 
+   Check if it the sentence is ambiguous
 Ans:        S                              S
        _____|_____                    _____|_____
       |           |                  |           |
@@ -417,15 +420,20 @@ Ans:        S                              S
  
 Left-Handed Parse Tree            Right-Handed Parse Tree
 
+Therefore the sentence x*x*x is said to be Ambiguous
 
-e.What is Recursive Grammars?
-Ans: This are Productions that are often defined in terms of themselves
 
-f. Give me examples of the 2 types of the Recursive Parse Tree?
+C. Recursive Grammar
+e. What are Recursive Grammars?
+Ans: This are Grammars(or Productions) that are often defined in terms of themselves
+
+f. What are the 2 types of Recursive Parse Trees?
 Ans: 1. Left Recursive  (L.R)
         Right Recursive (R.R)
 
-g. Draw a Recursive parse tree for the following Grammars   1. A==>Av|u    2. A==>vA|u
+g. Draw a Recursive parse tree for the following Grammars   
+   1. A==>Av|u    
+   2. A==>vA|u
 Ans:        A                              A
        _____|_____                    _____|_____
       |           |                  |           |
@@ -439,7 +447,7 @@ Ans:        A                              A
 Left-Recursive (L.R)               Right-Recursive (R.R)
 
 
-
+D. Left-Factoring
 h. What is Left-Facrtoring?
 Ans: it is the process of transforming the grammar with common prefixes of alternatives.
 
@@ -451,10 +459,15 @@ Ans: Grammar   A==>VW|VZ
               |       |             |       |
               V       W             V       Z
 
+
+E. Left-Most Derivation (LMD) & Right-Most Derivation (RMD) 
 j. What is Left-Most Derivation (LMD) & Right-Most Derivation (RMD) with examples?
 Ans: LMD is a scenario where we replace the LHS of the production to the RHS
      RMD is a scenario where we replace the RHS of the production to the LHS
-     e.g Using the Production/Grammar:   S==>AB, A==>y, B==z
+     e.g Using the Production/Grammar:   
+         S==>AB, 
+         A==>y, 
+         B==z
 
      LMD (start from left to right)
          S                 S                 S
@@ -462,19 +475,21 @@ Ans: LMD is a scenario where we replace the LHS of the production to the RHS
      |       | ------> |       | ------> |       |
      A       B         A       B         A       B
                        |                 |       |
-                       y                 y       z
+                       y                 y       z      ✅
 
      RMD (start from right to left)
          S                 S                 S
       ___|___           ___|___           ___|___
      |       | ------> |       | ------> |       |
      A       B         A       B         A       B
-                               |         |       |
-                               z         y       z
-    
+                               |         |       | 
+                               z         y       z      ✅
+
+
+
 
 2. What is Derivation?
-Ans: Derivation is a sequence of production rules inorder to get an input string
+Ans: Derivation is a sequence of production rules in order to get an input string
 
 b. What are the two decisions to be made during derivation?
 Ans: 1. We decide the Non-terminal to be replaced
@@ -549,7 +564,7 @@ Ans: Precedence    (apply BODMAS)
      Associativity (use Brackets)
 
 h. What is a sentential form?
-Ans: 
+Ans: A sentential form is any string derivable from the start symbol
 
 i. Use the below Production Rule to generate a Sentential form and draw the parse tree 
    for the sentence - "The man ate the fruit".
@@ -592,11 +607,13 @@ Ans:  Parse Tree
        <S> ==> The   man ate the  fruit
 
 
+
+
 6TH LECTURE
 
 1. Define Automata Theory?
-Ans: It is the study of abstract computing devices on computational model.
-
+Ans: It is the study of abstract computing devices on computational model. 
+     
 b. What are they used for?
 Ans: They are used to solve language recognition problem
 
