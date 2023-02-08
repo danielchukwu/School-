@@ -448,7 +448,7 @@ Left-Recursive (L.R)               Right-Recursive (R.R)
 
 
 D. Left-Factoring
-h. What is Left-Facrtoring?
+h. What is Left-Factoring?
 Ans: it is the process of transforming the grammar with common prefixes of alternatives.
 
 i. Give us an example grammar of this and draw it's parse tree
@@ -652,4 +652,4 @@ Ans: 0010 - it is recognizable
 
 
 
-GOODLUCK ✅AAAAA
+GOODLUCK ✅
