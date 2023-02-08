@@ -1,0 +1,142 @@
+QUESTIONS
+
+Note: Advisable to go through this after you've covered 
+      - Exam Prep(intro)
+      - Exam Prep(class note)
+
+1. Define the following:
+   a. Language
+   b. Programming language
+   c. Lexicon
+   d. Syntax
+   e. Semantics
+   f. Syntax Tree
+   g. Meta Language
+   h. BNF
+
+
+2. Define the following:
+   a. Alphabet
+   b. String
+   c. Symbol
+   d. Empty String
+
+
+3. Define the following:
+   a. Equivalent Grammars
+   b. Ambiguous Grammar
+   c. Recursive Grammar
+   d. Left-Factoring
+   e. Left Most Derivation and Right Most Derivation (LMD & RMD)
+
+
+4. Define the following:
+a. Derivation
+b. Parsing
+c. Parse Tree
+d. Sentential form
+
+
+5. Define the following
+a. Final State Automata/Machine
+b. Dead State 
+
+
+
+
+
+
+
+ANSWERS
+
+1. Define the following:
+   a. Language
+   Ans: A language is any notation used for communication of ideas and information
+
+   b. Programming language
+   Ans: A programming language is a special notation used for communicating with computer systems
+
+   c. Lexicon
+   Ans: Lexicon is the complete set of meaningful units in a language 
+
+   d. Syntax
+   Ans: Syntax are the rules that govern the combination of valid words
+
+   e. Semantics
+   Ans: Semantics is the meaning associated with a particular syntactic entity
+
+   f. Syntax Tree
+   Ans: Syntax Tree is a tree-like diagram that shows the structure of a sentence by breaking 
+        it down into its constituent parts
+
+   g. Meta Language
+   Ans: Meta Language are languages used in describing the structure of other languages
+
+   h. BNF
+   Ans: BNF is a notation in computing used in writing grammar that are commonly used to 
+        specify the syntax of programming languages 
+
+
+2. Define the following:
+   a. Symbol
+   Ans: A symbol is a single character. eg   a, b, c, 0, 1, 2 e.t.c 
+
+   b. Alphabet
+   Ans: An Alphabet is a finite set of symbols. Denoted by Σ. e.g Σ = {a, b, c}
+
+   c. String
+   Ans: A String is a finite sequence of characters. e.g a, b, c, aa, bb, ab, bc e.tc
+
+   d. Empty String
+   Ans: An Empty String is one with 0 occurrences of symbols. No Symbol.
+
+
+3. Define the following:
+   a. Equivalent Grammars
+   Ans: Equivalent grammars are grammars with the exact same parse tree
+
+   b. Ambiguous Grammar
+   Ans: Ambiguous Grammar is a grammar with more than 1 parse tree
+
+   c. Recursive Grammar
+   Ans: Recursive Grammars are grammars who are often defined in terms of themselves 
+
+   d. Left-Factoring
+   Ans: Left-Factoring is the process of transforming the grammar with common prefixes of alternatives
+
+   e. Left Most Derivation and Right Most Derivation (LMD & RMD)
+   Ans: LMD is the process of replacing the LHS of the derivation to the RHS
+        RMD is the process of replacing the RHS of the derivation to the LHS
+
+
+4. Define the following:
+   a. Derivation
+   Ans: Derivation is the sequence of production rules in order to get an input string
+
+   b. Parsing
+   Ans: is the process of recognizing a string in a language by breaking it down to
+        a set of symbols and analyzing each of them against the grammar of the language
+
+   c. Parse Tree
+   Ans: it is a graphical depiction of a derivation
+
+   d. Sentential form
+   Ans: It is any string derivable form the start symbol of a production rule
+
+
+5. Define the following
+   a. Automata Theory 
+   Ans: is the study of abstract computing devices on computational models
+
+   b. Dead State 
+   Ans: Is a state that doesn't lead to the final state
+
+
+
+
+
+
+
+
+
+
