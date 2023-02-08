@@ -358,15 +358,16 @@ Note:
 LHS means Left-Hand Side   &   RHS means Right-Hand Side
 c. What are the restrictions of the 4 types of grammars?
 Ans: Type 0 Grammars - only restriction is LHS must not be £ (empty or null)
-                       e.g aAB==>abAB ✅| S==>QNS ✅| QN==>QRS ✅| Q==>£ (empty) ❌
+                       e.g aAB==>abAB ✅| S==>QNS ✅| QN==>QRS ✅| £ (empty) ==> aBc  ❌
      Type 1 Grammars - has 2 Restrictions
                        - Length of elements in LHS (must be less than or equal to) RHS
                        e.g s==>b ✅| S==>Ab ✅| aAa==>aaB ✅| aA==>B ❌
-                       - LHS must have just 1 single non-terminal symbol(capital letter) and multiple terminal symbols (small letter)
+                       - LHS must have just 1 single non-terminal symbol(capital letter) and multiple terminal symbols
                        e.g bB==>aBaa ✅| Da==>BBc ✅| Bacc => AbbA ✅| AAb==>ABaa ❌
-     Type 2 Grammars - LHS length must be 1 and it should be a non-terminal symbol(Capital Letter) only and RHS can be £ (empty)
+     Type 2 Grammars - LHS length must be 1 and it should be a non-terminal symbol(Capital Letter)
                        e.g S==>Ba | A==>Bc ✅| A==>a ✅| S==>£ (empty) ✅| Sa==>aB ❌
-     Type 3 Grammars - LHS length must be 1 and it should be a non-terminal symbol and RHS must contain atleast 1 non-terminal symbol
+     Type 3 Grammars - LHS length must be 1 and it should be a non-terminal symbol(Capital Letter)
+                     - RHS must contain at least 1 non-terminal symbol
                        e.g A==>aA ✅| A==>Aa ✅| A==>£ (empty) ❌| A==>ab ❌
 
 d. What are the below types of productions called?
