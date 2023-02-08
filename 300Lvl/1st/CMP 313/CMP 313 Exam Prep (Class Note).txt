@@ -183,7 +183,7 @@ d. Write the kleen star symbol that denotes the set of all finite and infinite s
 e. ___ are used to specify non-terminal symbols?
 Ans: <>
 
-f. What is the difference of terminal and non-terminal symbols. Show using a Parse Tree 
+f. What is the difference between terminal and non-terminal symbols. Show using a Syntax Tree
    with the Grammar S==>AB, A==>ab, B==>bb?
 Ans:             
                  <S>                 ⌉  Non-terminal Symbol
@@ -195,9 +195,9 @@ Ans:
        a       b     b       b       ⌋   - Small letters
                                          - No <>
                                          - No child elements
-                                         - they are at the bottom of the parse tree
+                                         - they are at the bottom of the Syntax Tree
 
-g. What does "|" mean in a Grammar e.g   1. S==>AB|BC  2. B==>AC
+g. What does "|" mean in a Grammar e.g   1. S==>AB|BC
 Ans: it means
      S==>AB or
      S==>BC
@@ -357,7 +357,7 @@ Ans: Type 0 Grammars - Turing Machine
 Note: 
 LHS means Left-Hand Side   &   RHS means Right-Hand Side
 c. What are the restrictions of the 4 types of grammars?
-Ans: Type 0 Grammars - only restriction is RHS must not be £ (empty)
+Ans: Type 0 Grammars - only restriction is LHS must not be £ (empty or null)
                        e.g aAB==>abAB ✅| S==>QNS ✅| QN==>QRS ✅| Q==>£ (empty) ❌
      Type 1 Grammars - has 2 Restrictions
                        - Length of elements in LHS (must be less than or equal to) RHS
