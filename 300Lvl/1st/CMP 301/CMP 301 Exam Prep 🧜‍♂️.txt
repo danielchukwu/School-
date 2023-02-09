@@ -101,12 +101,12 @@ Ans: Logic Gate are the basic building block of any digital system
  m. What are the Types of Computer Buses?
  Ans: Address, Data, Control
 
- i. Explain the 3 Types Buses?
+ mi. Explain the 3 Types Buses?
  Ans: Address Bus
          It holds the address of the location where a particular data is stored
       Data Bus
-         It holds the data and transports it into the address location(in & out 
-         of the processor/memory)
+         It holds the data and transports it into the address location and retrieves 
+         data from address locations to deliver to the Processor
       Control Bus
          It holds the instructions of what is to be done with data (in & out of 
          the memory)
@@ -128,8 +128,8 @@ Ans: Logic Gate are the basic building block of any digital system
 LECTURE 2 & 3
 
 LOGIC GATES
-a. __________ are the basic building block of any digital system that performs a 
-  logical operation (such as AND, OR, NOT, etc.)
+a. __________ are the basic building block of any digital system that performs 
+  logical operations (such as AND, OR, NOT, etc.)
  Ans: Logic gate
 
 b. How many inputs does a logic gate take?
@@ -138,11 +138,11 @@ Ans: 1 and above
 c. Explain The AND Gate, The OR GATE and The NOT GATE?
 Ans: 
      AND GATE: The output is 1 only when both inputs are 1
-     OR GATE:  The output is 1 if atleast 1 of the input is 1
+     OR GATE:  The output is 1 if at least 1 of the input is 1
      NOT GATE: The output is 1 if the input is 0. This takes only one input and 
                the result is always the opposite of the input
          
-   i. Draw the above GATES and thier TT(Truth Table)
+   i. Draw the above GATES and their TT(Truth Table)
    Ans: 
 
 d. Explain The NAND Gate, The NOR GATE and The EX-OR GATE?
@@ -155,14 +155,16 @@ d. Explain The NAND Gate, The NOR GATE and The EX-OR GATE?
    Ans: 
 
                        
-NOTE:                  
-- A¯ is the same as A  _
-                       _
-- A¯¯ is the same as   A
+NOTE:               _   
+- A¯ is the same as A       : They both mean A Compliment
+                       =
+- A¯¯ is the same as   A    : They both mean A Compliment Compliment
+
+- A¯¯ = A                   : Compliment Compliment always cancel each other out 
 
 
 
-f. List all 10 of the Boolean Laws (Rules)
+f. List all 10 of the Boolean Laws (Rules)   # Must Know
 Ans:
      1. Idempotency Law    A+A = A   | A.A = A
      2. Null Law           A+1 = 1   | A.0 = 0
@@ -195,8 +197,8 @@ g. Using the Above Boolean Laws Solve the below Expressions
                          _   ___
    vi.  Simplify   F = ( A + AB¯ )
 
-   vii. Draw the Logic Circut of all the problems solution below
-        Tip:  Get the note and learn how to create logic circuts. Use link below
+   vii. Draw the Logic Circuit of all the problems solution below
+        Tip:  Get the note and learn how to create logic circuits. Use link below
         Link: https://github.com/danielchukwu/School-/tree/master/SchoolNotes/300Lvl/1
 
 
