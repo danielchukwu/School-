@@ -1,0 +1,45 @@
+QUESTIONS
+
+
+1. Define the following:
+   a. Computer Architecture (CA)
+   b. Logic Circuit
+   c. Truth Table (TT)
+   d. Logic Gate?
+   e. Computer Buses (types and explain)
+   
+
+2. Define the following:
+   a. K-map (and also add 4 rules and the advantages and disadvantages)
+   b. Fetch-Decode-Execute process
+   c. Mention Benefits to studying Computer Architecture
+
+
+
+
+ANSWERS
+
+
+1. Define the following:
+   a. Computer Architecture (CA)
+   ans: Computer Architecture is the science & art of selecting and interconnecting 
+        hardware components to create computers that meet function, performance and cost goals 
+
+   b. Logic Circuit
+   ans: Logic Circuit is an electronic circuit that performs logical operations 
+        by taking one or more input and producing a desired output
+
+   c. Truth Table (TT)
+   ans: TT is a mathematical table used to define a logic function by specifying 
+        the outputs for every possible input combination
+
+   d. Logic Gate?
+   ans: Logic Gate are the basic building block of any digital system. 
+        They help perform operations such as AND, OR, NOT e.t.c
+
+   e. Computer Buses (types and explain)
+
+2. Define the following:
+   a. K-map (and also add 4 rules and the advantages and disadvantages)
+   b. Fetch-Decode-Execute process
+   c. Mention Benefits to studying Computer Architecture
