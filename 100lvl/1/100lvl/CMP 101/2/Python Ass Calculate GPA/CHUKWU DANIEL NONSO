@@ -1,0 +1,76 @@
+# Name: Chukwu Daniel Nonso
+# Department: Computer Science
+# Matric No: BHU/20/04/05/0010
+# Apology: Sir i am sorry for submitting late i was finding difficulties with the course unit resulting to incorrect gpa
+
+
+score = 0
+cr = 0
+cu1 = 0
+cu2 = 0
+cu3 = 0
+cu4 = 0
+cu5 = 0
+cu6 = 0
+e1 = 0
+e2 = 0
+e3 = 0
+e4 = 0
+e5 = 0
+e6 = 0
+te = 0
+tcu = 0
+k = 0
+gpa1 = 0
+gpa2 = 0
+cgpa = 0
+grade = ""
+
+print("YOUR BINGHAM RESULT")
+cr = int(input("Enter Number of Course Registered: "))
+for i in range(cr):
+    score = int(input("Enter Your Score: "))
+
+    if score >= 70 and score <= 100:
+        cu1 = int(input("Enter the Credit Unit for this Course: "))
+        grade = "A"
+        k = 5
+        e1 = k * cu1
+        print(grade)
+    if score >= 60 and score <= 69:
+        cu2 = int(input("Enter the Credit Unit for this Course: "))
+        grade = "B"
+        k = 4
+        e2 = k * cu2
+        print(grade)
+    if score >= 50 and score <= 59:
+        cu3 = int(input("Enter the Credit Unit for this Course: "))
+        grade = "C"
+        k = 3
+        e3 = k * cu3
+        print(grade)
+    if score >= 45 and score <= 49:
+        cu4 = int(input("Enter the Credit Unit for this Course: "))
+        grade = "D"
+        k = 2
+        e4 = k * cu4
+        print(grade)
+    if score >= 40 and score <= 44:
+        cu5 = int(input("Enter the Credit Unit for this Course: "))
+        grade = "E"
+        k = 1
+        e5 = k * cu5
+        print(grade)
+    if score >= 0 and score <= 39:
+        cu6 = int(input("Enter the Credit Unit for this Course: "))
+        grade = "F"
+        k = 0
+        e6 = k * cu6
+        print(grade)
+
+te = e1 + e2 + e3 + e4 + e5 + e6
+tcu = cu1 + cu2 + cu3 + cu4 + cu5 + cu6
+gpa1 = te / tcu
+
+print("Your GPA is", gpa1)
+
