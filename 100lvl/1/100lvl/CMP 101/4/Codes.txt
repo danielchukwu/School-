@@ -1,0 +1,429 @@
+# 1
+print("Write a python program to compute the following programs")
+
+x = 3
+y = 4
+
+a = x**2 + y**2
+print(a)
+
+b = a**2 + x
+print(b)
+
+c1 = (a+b)
+c = c1**2
+print(c)
+
+# 2
+# print("2. Area of a Triangle")
+#
+# a = 0
+# h = 3
+# b = 2
+#
+# a = h * b / 2
+#
+# print (a)
+#
+# print("Circumference of a triangle")
+# circum = 0
+# a = 5
+# b = 9
+# c = 8
+#
+# circum = a + b + c
+#
+# print(circum)
+#
+# print("3. The horizontal component and vertical component from x-axis")
+# f = 70
+# cos = 45
+# x = cos * 2 * f
+# print(x)
+#
+# # 4
+#
+# print("4. The real roots of a equation AX2 +BX+C=0.")
+# a=int(input("Input a value of a quadratic equatiuon: "))
+# b=int(input("Input b value of a quadratic equatiuon: "))
+# c=int(input("Input c value of a quadratic equatiuon: "))
+#
+# x1=-b+((b*b-4*a*b))**(1/2)/(2*a)
+#
+# print(x1)
+#
+# 5
+# print("5. The area of circle")
+# pie = 3.1416
+# r = float(input("Enter the radius of the circle: "))
+# r2 = r ** 2
+# a = pie * r2
+#
+# print(a)
+#
+# print("The Circumference of circle")
+# pie = 3.1416
+# r = float(input("Enter the radius of the circle: "))
+# c = 2 * pie * r
+#
+# print(c)
+#
+# 6
+# print("6. The name and age of 6 student and compute the average of their age")
+# john = 18
+# tobi = 21
+# ahmed = 20
+# ebube = 17
+# samuel = 24
+# callistus = 59
+#
+# avg = (john + tobi + ahmed + ebube + samuel + callistus)/6
+#
+# print(avg)
+#
+# # 7
+# import math
+# print("7. Using 4 variables A, B, C and D then compute arithmetic mean and geometric mean")
+# a = 5
+# b = 3
+# c = 7
+# d = 9
+#
+# arith = (a + b + c + d)/4
+#
+# print(arith)
+# print("Geometric mean")
+#
+# geom = math.sqrt(a * b * c * d)
+#
+# print(geom)
+#
+# # 8
+# print("A program to compute the Summation (S) of values from 1 to 100")
+#
+# s = 0
+# sum = 0
+# total = 100
+#
+# for i in range(total):
+#     if s <= 100:
+#         s = s + 1
+#     sum = sum + s
+#     print(sum)
+#
+# # 9
+# print("the Summation (S) of values from 1 to 100 ^ 2")
+#
+# s = 0
+# sum = 0
+# total = 100
+#
+# for i in range(total):
+#     if s <= 100:
+#         s = s + 1
+#     sum = sum + s**2
+#     print(sum)
+#
+# # 10
+#
+# print("the Summation (S) of values from 1 to 100 ^ 3")
+#
+# s = 0
+# sum = 0
+# total = 100
+#
+# for i in range(total):
+#     if s <= 100:
+#         s = s + 1
+#     sum = sum + s**3
+#     print(sum)
+#
+# # 11
+# print(" the multiplication (S) of values from 1 to 100 ^ 2")
+#
+# s = 0
+# sum = 1
+# total = 100
+#
+# for i in range(total):
+#     if s <= 100:
+#         s = s + 1
+#     sum = sum * s**2
+#     print(sum)
+#
+# # 12
+# print(" the multiplication (S) of values from 1 to 100 ^ 3")
+#
+# s = 0
+# sum = 1
+# total = 100
+#
+# for i in range(total):
+#     if s <= 100:
+#         s = s + 1
+#     sum = sum * s**3
+#     print(sum)
+#
+#
+# # 13
+# print("A python program to compute the number of even numbers between 3 and 35")
+# total = 16
+# even = 2
+#
+# for i in range(total):
+#     if even <= 35:
+#         even = even + 2
+#         print(even)
+#
+# # 14
+# print("A python program to compute the number of even numbers between 3 and n")
+#
+# even = 2
+# n = int(input("Enter total even number you want to see: "))
+#
+# for i in range(n):
+#     even = even + 2
+#     print(even)
+#
+# # 15
+# print("A python program to compute the number of odd numbers between 3 and 35")
+#
+# total = 17
+# odd = 1
+#
+# for i in range(total):
+#     if odd <= 35:
+#         odd = odd + 2
+#         print(odd)
+#
+# # 16
+# print("A python program to compute the number of odd numbers between 3 and n")
+#
+# n = int(input("Enter total odd number you want to see: "))
+# odd = 1
+#
+# for i in range(n):
+#     if odd <= 35:
+#         odd = odd + 2
+#         print(odd)
+#
+# # 17
+#
+# print("A python program to compute the number of Prime numbers between 3 and 38")
+#
+# # 18
+#
+# print("A python program to compute the number of Prime numbers between 3 and n")
+#
+# # 19
+# print("A program to compute S value where")
+#
+# n = int(input("Enter any number: "))
+# s = 1 + 1/2 + 1/5 + 1/7 + 1/9 + 1/11 + 1/n
+#
+# print(s)
+#
+# # 20
+# print("A program to compute S value where")
+#
+# n = int(input("Enter any number: "))
+# s = 1 + 1/2 + 1/3 + 1/4 + 1/5 + 1/6 + 1/n
+#
+# print(s)
+#
+# # 21
+# print("A program to compute S value where")
+#
+# n = int(input("Enter any number: "))
+# s = 1 + 1/2 + 1/4 + 1/6 + 1/8 + 1/10 + 1/n
+#
+# print(s)
+
+# 22
+# print("Accept input of any number then determine if the number is integer or not.")
+#
+# rand_num = float(input("Enter any number from 1 to 10: "))
+#
+# if rand_num == 1 or rand_num == 2 or rand_num == 3 or rand_num == 4 or rand_num == 5 or rand_num == 6 or rand_num == 7 or rand_num == 8 or rand_num == 9 or rand_num == 10:
+#     print("This is not an integer")
+# else:
+#     print("This is an integer")
+#
+# print(rand_num)
+#
+# # 23
+# print("A program accept input of any number then determine if the number is prime or not from 1 - 30")
+#
+# rand_num = float(input("Enter any prime number from 1 to 30: "))
+#
+# if rand_num == 2 or rand_num == 3 or rand_num == 5 or rand_num == 7 or rand_num == 11 or rand_num == 13 or rand_num == 17 or rand_num == 19 or rand_num == 23 or rand_num == 29:
+#     print("This is a prime number")
+# else:
+#     print("This is not a prime number")
+#
+# # 24
+# print("A program accept input of any number then determine if the number is a float data type or not.")
+#
+# # 25
+# print("Write a program to compute a value")
+
+# 29
+# print("A python program to input 3 numbers then find the maximum number.")
+#
+# first_num = int(input("Enter First number: "))
+# second_num = int(input("Enter Second number: "))
+# third_num = int(input("Enter Third number: "))
+#
+# def greatest():
+#     if first_num > second_num & first_num > third_num:
+#         return print(first_num)
+#     elif second_num > first_num & second_num > third_num:
+#         return print(second_num)
+#     elif third_num > second_num & third_num > first_num:
+#         return print(third_num)
+#
+# print(greatest())
+#
+# # 30 Needs to be worked on
+# print("A python program to input 3 numbers then find the minimum number.")
+#
+# first_num = int(input("Enter First number: "))
+# second_num = int(input("Enter Second number: "))
+# third_num = int(input("Enter Third number: "))
+#
+# def lowest():
+#     if first_num < second_num & first_num < third_num:
+#         return print(first_num)
+#     elif second_num < first_num & second_num < third_num:
+#         return print(second_num)
+#     elif third_num < second_num & third_num < first_num:
+#         return print(third_num)
+#
+# print(lowest())
+#
+# # 31
+# print("A python program to print the summation and multiplication of the numbers from 1 to 50. ")
+#
+# total = 50
+# count = 0
+# summ = 0
+#
+# for i in range(total):
+#     count = count + 1
+#     if count <= 50:
+#         summ = summ + count * count
+#     print(summ)
+#
+
+# 34
+# ast = ""
+#
+# for i in range(5):
+#     ast = ast + "*"
+#     print(ast)
+
+# 35 Not Done
+# num = 0
+# count = 0
+# for i in range(5):
+#     count = count + 1
+#     if count <= 5:
+#        num = num + str(count)
+#     print(num)
+
+# 36
+num = ""
+count = 0
+for i in range(5):
+    count = count + 1
+    if count <= 5:
+       num = num + str(count)
+    print(num)
+
+# 43
+
+# ast = "**"
+# my_name = "My" +ast+ "name" +ast+ "is" +ast+ "Tony"
+#
+# print(my_name)
+#
+# # 45
+# num1 = float(input("Enter First Number: "))
+# num2 = float(input("Enter First Number: "))
+# num3 = float(input("Enter First Number: "))
+# num4 = float(input("Enter First Number: "))
+# num5 = float(input("Enter First Number: "))
+#
+# sum = num1 + num2 + num3 + num4 + num5
+#
+# print(sum)
+
+# 46
+# mult_num = int(input("Enter number to see it's multiplication Table from 1-20: "))
+# total = 20
+# count = 0
+#
+# for i in range(total):
+#     count = count + 1
+#     print(mult_num * count)
+
+# 47
+# any_num = int(input("Enter number to see it in descending order: "))
+# max = 20
+#
+# for i in range(max):
+#     any_num = any_num - 1
+#     print(any_num)
+
+# 48
+# any_num = int(input("Enter number to see it in ascending order: "))
+#
+# for i in range(max):
+#     if any_num <= 50:
+#        any_num = any_num + 1
+#     print(any_num)
+
+# 49
+# just_num = ["Joe", "Daniel", "Thompson", "Abraham"]
+#
+# print(just_num.index("joe"))
+
+# 50
+# word = ["2", "j", "j", "2", "n", "&", "3", "3", "4", "n", "n", "n", "G", "G", "H", "E", ")", "(", "n","S","l","k","/", "8", "H", "E","n","n","n","n"]
+#   `1
+# print("\nFor the total of 2: ")
+# print(word.count("2"))
+# print("\nFor the total of j: ")
+# print(word.count("j"))
+# print("\nFor the total of n: ")
+# print(word.count("n"))
+# print("\nFor the total of &: ")
+# print(word.count("&"))
+# print("\nFor the total of 3: ")
+# print(word.count("3"))
+# print("\nFor the total of 4: ")
+# print(word.count("4"))
+# print("\nFor the total of G: ")
+# print(word.count("G"))
+# print("\nFor the total of H: ")
+# print(word.count("H"))
+# print("\nFor the total of E: ")
+# print(word.count("E"))
+# print("\nFor the total of ): ")
+# print(word.count(")"))
+# print("\nFor the total of (: ")
+# print(word.count("("))
+# print("\nFor the total of S: ")
+# print(word.count("S"))
+# print("\nFor the total of l: ")
+# print(word.count("l"))
+# print("\nFor the total of K: ")
+# print(word.count("k"))
+-# print("\nFor the total of /: ")
+# print(word.count("/"))
+# print("\nFor the total of 8: ")
+# print(word.count("8"))
+
+
+
+
