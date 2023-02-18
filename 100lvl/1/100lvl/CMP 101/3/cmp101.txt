@@ -1,0 +1,496 @@
+ab# NUMBER 1
+x=5
+y=3
+a=x**2
+b=y**2
+a1= a + b
+print(a1)
+ 
+a = 8
+x = 6
+y = 5
+r =a**2
+k = x * y
+z=a**2 + k
+print(z)
+ 
+a = 7
+b = 1
+c = (a+b)**2
+print(c)
+
+
+ 
+# NUMBER 2
+x=4
+y=3
+z=5
+perimeter=x+y+z
+print(int(perimeter))
+
+s=(perimeter)/2
+area=(s*(s-x)*(s-y)*(s-z))**(1/2)
+print(int(area))
+
+# number 3
+F = 70
+cos = 45
+x = cos * 2 * 70
+print(x)
+
+
+ 
+# NUMBER 4
+a=int(input("please enter a value of a quadratic equatiuon: "))
+b=int(input("please enter b value of a quadratic equatiuon: "))
+c=int(input("please enter c value of a quadratic equatiuon: "))
+
+x1=-b+((b*b-4*a*b))**(1/2)/(2*a)
+
+
+# Python Program to find Area Of Circle using Radius
+
+PI = 3.14
+radius = float(input(' Please Enter the radius of a circle: '))
+area = PI * radius * radius
+circumference = 2 * PI * radius
+
+print(" Area Of a Circle = %.2f" %area)
+print(" Circumference Of a Circle = %.2f" %circumference)
+
+# NUMBER 6
+S=0
+num=eval(input("number:"))
+for i in range(num):
+  name=input("enter name:")
+  age= eval(input("enter age"))
+  s = s + age
+  average= int(s/num)
+print("the average of their age is:",average)
+
++
++.name = 0
+age = 0
+a1 = 0
+a2 = 0
+a3 = 0
+a4 = 0
+a5 = 0
+a6 = 0
+ta = 0
+
+for i in range(name , age):
+  name = str(input("enter your full name: "))
+  age = str(input("enter your real number: "))
+ta = a1+a2+a3+a4+a5+a6/6
+average = ta
+print(average)
+
+
+# number 7
+a=eval(input("a="))
+b=eval(input("b="))
+c=eval(input("c="))
+d=eval(input("d="))
+x=a+b+c+d
+arithemtic_mean= y**(1/4)
+y=a*b*c*d
+geometric_mean=y**(1/4)
+print("the arithemetic mean is:",a,b,c,d)
+print("the geometric mean is:",a,b,c,d)
+
+
+# number 8
+sum=0
+a = 0
+for i in range(1,101):
+     sum += a**2
+print("the sumation of value from 1-100 is:",sum)
+
+# number 9
+sum=0
+for a in range(1,101):
+    sum += a**2
+print("the sumation of squard value from 10-100 is:",sum)
+
+# number 10
+sum = 0
+for b in range(1,101):
+     sum +=  b**3
+print("the sumation of cube value from 1-100 is:",sum)
+
+# number 11
+m = 3
+for i in range(1,101):
+    m = m * (i**3)
+print(m)
+
+# number 12
+mul=1
+m = 0
+for n in range(1,101):
+  mul = mul * (n**3)
+print("the multiplication of cubed value from 1-100 is:",m)
+
+# number 13
+maximum = int(input(" Please Enter the Maximum Value : "))
+total = 0
+
+for number in range(1, maximum+1):
+    if(number % 2 == 0):
+        print("{0}".format(number))
+        total = total + number
+
+print("The Sum of Even Numbers from 1 to {0} = {1}".format(number, total))
+
+# number 14
+count=0
+n=0
+n=int(input("enter number"))
+for n in range(3,n+1):
+  if (n % 2==0):
+    count = count + 1
+    print("the number of even numbers between 3 and n is:",count)
+
+# number 15
+count = 0
+for i in range(3,36):
+  if (i%2 !=0):
+       count = count + 1
+print("the number of odd numbers between 3 and 35 is:",count)
+
+
+# number 16
+count = 0
+num=-eval(input("enter number:"))
+for i in range(3,num):
+   if (i%2)!=0:
+   count=(count + 1):
+   print("the number of odd numbers between 3 and",num,"is:",count)
+
+#number 17(not complete)
+count=0
+for num in range(3,38+1):
+  if num>1:
+    for i in range(2,num):
+      if (num%i)==0:
+        count=count+1
+        print("number of prime numbers between 3 and 38 is...",count)
+
+
+#number 18
+count = 0
+n=eval(input("n="))
+for num in range(3,n+1):
+  if num >1:
+    for i in range(2,num):
+      if (num%i)==0
+      brake
+      else:
+        count=count+1
+        print("the number of prime numbers between 3 and",num,"is",count)
+        
+
+# number 19(not complete)
+s  0
+n=eval(input("num=1"))
+
+
+#number 20
+
+#number 21
+
+#number 22
+num=eval(input("enter number:"))
+if type(num) is int:
+  print(num,"is an integer")
+if type(num) is float:
+  print(num,"is not an integer but a real number")
+    
+
+#number 23
+pri=eval(input("enter number:"))
+if pri>1:
+  for i in range(2,pri):
+    if (pri%i)==0:
+      print(pri,"is not a prime number")
+      print(i,"times",pri//i,"is",pri)
+print(pri,"is a prime number")
+        
+
+
+# number 24
+somenumber = int(input())
+inNumber = somenumber
+inNumberint = int(inNumber)
+if inNumber == inNumberint:
+  print ("this number is an int")
+else:
+    print ("this number is a float")
+
+#number 25
+x=0
+cos=0
+x1 = 10
+x2 = x1**2
+x3 = x*2 - 3*x1
+x4 = 1
+y = x1 + cos**3*x1
+print(y)
+
+
+# number 26
+def main():
+    i = int( input ("Enter an interger, the input ends if it is 0: "))
+    count_pos = 0
+    count_neg = 0
+    total = 0
+    if (i != 0):
+        while (i != 0):
+            if (i > 0):
+                count_pos += 1
+            elif (i < 0):
+                count_neg += 1
+            total += i
+            i = int( input ("Enter an interger, the input ends if it is 0: "))
+            count = count_pos + count_neg
+            average = total /5
+            ("positives is", count_pos)
+        print ("The number of negatives is", count_neg)
+        print ("The total is", total)
+        print ("The average is", float(average))
+    else:
+        print ("You didn't enter any number.")
+
+main()
+python
+
+# number 28
+maximum = int(input(" Please Enter the Maximum Value : "))
+Oddtotal = 0
+
+for number in range(1, maximum+1):
+    if(number % 2 != 0):
+        print("{0}".format(number))
+        Oddtotal = Oddtotal + number
+
+print("The Sum of Odd Numbers from 1 to {0} = {1}".format(number, Oddtotal)) 
+
+
+# number 29
+def maximum(a, b, c): 
+  
+    if (a >= b) and (a >= c): 
+        largest = a 
+  
+    elif (b >= a) and (b >= c): 
+        largest = b 
+    else: 
+        largest = c 
+          
+    return largest 
+  
+  
+# Driven code  
+a = int(input('enter a: '))
+b = int(input('enter b: '))
+c = int(input('enter c: '))
+print(maximum(a, b, c)) 
+
+
+# number 30
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+
+smallest = num1
+if (num2 < num1) and (num2 < num3):
+    smallest = num2
+elif (num3 < num1):
+    smallest = num3
+
+print("The smallest number is", int(smallest))
+
+# number 31
+num = int(input("Enter the number: "))
+
+print("Multiplication Table of", num)
+for i in range(1, 50):
+   print(num,"X",i,"=",num * i)
+
+# number 32
+#1
+my_list = []
+
+#2
+count = int(input("How many numbers you want to add : "))
+
+#3
+for i in range(1,count+1):
+  my_list.append(int(input("Enter number {} : ".format(i))))
+
+#4
+print("Input Numbers : ")
+print(my_list)
+
+#5
+min = my_list[0]
+max = my_list[0]
+
+#6
+for no in my_list:
+  if no < min : min = no if no > max
+    max = no
+
+#7
+print("Minimum number : {}, Maximum number : {}".format(min,max))
+
+# number 33
+n=int(input("Enter the number of terms: "))
+sum1=0
+for i in range(1,n+1):
+    sum1=sum1+(1/i)
+print("The sum of series is",round(sum1,2))
+
+# number 34
+ 
+for Number in range (1, 101):
+    count = 0
+    for i in range(2, (Number//2 + 1)):
+        if(Number % i == 0):
+            count = count + 1
+            break
+
+    if (count == 0 and Number != 1):
+        print(" %d" %Number, end = '  ')
+
+# number 35
+for i in range(1, 11):
+    print(i)
+
+# number 36
+for i in range(1, 5):
+    print(i)
+
+# number 37
+
+
+# number 38
+
+# number 39
+
+# number 40
+
+# number 41
+
+# number 42
+
+# number 43
+filename = input("Input the Filename: ")
+f_extns = filename.split("** ")
+print ("The extension of the file is : " + repr(f_extns[-1]))
+
+
+# number 44
+print("Enter the Decimal Number: ")
+decnum = int(input())
+
+i = 0
+octnum = []
+while decnum!=0:
+    rem = decnum%8
+    octnum.insert(i, rem)
+    i = i+1
+    decnum = int(decnum/8)
+
+print("\nEquivalent Octal Value is: ")
+i = i-1
+while i>=0:
+    print(octnum[i], end="")
+    i = i-1
+print()
+
+# number 45
+input_float =int (input('Enter elements of a list separated by space ')
+("\n")
+print (n) = input(float.split())
+# print list
+print('list: ', user_list)
+
+# convert each item to int type
+for i in range(len(user_list)):
+    # convert each item to int type
+    user_list[i] = int(user_list[i])
+
+# Calculating the sum of list elements
+print("Sum = ", sum(user_list))
+
+user1 = float(input("enter decimal number"))
+user2 = float(input("enter decimal number"))
+user3 = float(input("enter decimal number"))
+user4 = float(input("enter decimal number"))
+user5 = float(input("enter decimal number"))
+f = float
+print(sum(user1 + user2 + user3 + user4 + user5))num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+
+
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+num4 = float(input("Enter fourth number: "))
+num5 = float(input("Enter fifth number: "))
+sum= float(num1)+float(num2)+float(num3)+float(num4)+float(num5)
+#display sum
+print(sum)
+
+
+
+
+
+# number 46
+num = int(input("Enter the number: "))
+
+print("Multiplication Table of", num)
+for i in range(1, 11):
+   print(num,"X",i,"=",num * i)
+
+# number 47
+#Entered by user
+num=int(input("Enter the integer: "))
+#input() function used to read a single line or text as a String
+print("You entered",num < 10)
+#print() function used to display output in Python
+
+# number 48
+
+
+
+
+# number 49
+txt = "Hello, welcome to my world."
+
+x =("welcome")
+
+print(x)
+
+
+# number 50
+def count_chars(str):
+     upper_ctr, lower_ctr, number_ctr, special_ctr = 0, 0, 0, 0
+     for i in range(len(str)):
+          if str[i] >= 'A' and str[i] <= 'Z': upper_ctr += 1
+          elif str[i] >= 'a' and str[i] <= 'z': lower_ctr += 1
+          elif str[i] >= '0' and str[i] <= '9': number_ctr += 1
+          else: special_ctr += 1
+     return upper_ctr, lower_ctr, number_ctr, special_ctr
+           
+str = "@W3Resource.Com"
+print("Original Substrings:",str)
+u, l, n, s = count_chars(str)
+print('\nUpper case characters: ',u)
+print('Lower case characters: ',l)
+print('Number case: ',n)
+print('Special case characters: ',s)
