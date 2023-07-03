@@ -1,0 +1,147 @@
+CMP 212 EXAM PREP
+
+ATTENTION: There are two topics to this Course for which this material covers the first
+
+
+
+
+INTRODUCTION & REPRESENTATION OF NUMBERS
+
+
+
+Data Type Classification:
+1a. What are the 4 major data types?
+ Ans: a) Integers
+      b) Real Numbers
+      c) Characters
+      d) Booleans
+
+ b. Explain the following: Integers, Real Numbers(or real), Characters, Booleans?
+ Ans: Integers: are simple numbers that do not contain fractional parts such as 5 -52, and 3,422
+      Real: numbers are numbers that include fractional parts such as 2.5, 3.667, -5.0, .00034
+      Characters: All of the symbols that can be produced by pressing keys on a keyboard. Characters are used to generate human readable text such as English sentences. 
+                  The data type Char is used to represent Characters
+      Booleans: The values false and true
+
+ 
+ Primitive Data Types
+ c. What are Primitive Data Types?
+ Ans: Primitive Data Types are the native data types that every computer language support. 
+      Extra: 
+      These types may be native(meaning built-in) either to the machine on which the programs are running or to the compiler or interpreter that is translating these programs
+ 
+ d. What are Fixed-Point Representation of Real Numbers
+ Ans: This is the usual way of representing real nmbers with the decimal point fixed in its correct position between the two appropriate digits, e.g 13.75 or 3862.4 . 
+      However this becomes cumbersome(difficult to handle) when dealing with several large or very small numbers e.g. 137500000000, or 0.000000001375
+
+ The Answer for Fixed-Point Representation of Real Numbers when dealing with very large or very small numbers is to use the -> Floating-Pont Notation
+
+ 
+2a. What is the concept of Floating-Point Notation?
+ Ans: The key concept is that a real number is represented by a number, called a MANTISSA, times a BASE raised to an integer power called an EXPONENT. 
+
+      Extra: The BASE is usually fixed(10) and the MANTISSA and Exponent vary to represent different real numbers(that are too large(e.g 380000000000000) 
+              or too small(e.g 0.0000000000000038))
+
+
+Explanation of Floating-Point Notation of Numbers
+ 
+ Floating-Point Notation for large numbers
+ For decimals
+ A. 387.53
+ Methods: positive, negative(whichever you want)
+ - To get the floating-point representation(
+   a. count numbers after dot (.53) --> which is 2
+   b. add 2 to BASE 10 (negatively) --> 10¯²
+   c. 38753 * 10¯² = 387.53
+   d. Therefore: floating-point notation for 387.53 is = 38753 * 10¯²
+   e. MANTISSA is 38753 and BASE is 10¯²
+
+ - Positive
+   a. count numbers before dot except the first number 3 (87.) --> which is 2
+   b. add 3 to BASE 10 (positively) --> 10³
+   c. 3.8753 * 10² = 387.53
+   d. Therefore: floating-point notation for 387.53 is = 3.8753 * 10²
+   e. MANTISSA is 3.8753 and BASE is 10²
+
+ B. 1.399
+ Only 1 way: 10⁰
+ Steps:
+ - 1.399 * 10⁰ = 1.399
+
+ For Whole Numbers
+ C. 640,000
+ Only 1 way: positive
+ Steps:
+ - To get the floating-point representation(
+   a. count numbers after the first number 6 (40,000) --> which is 5
+   b. add 5 to BASE 10 (positively) --> 10⁵
+   c. 6.4 * 10⁵ = 640,000
+   d. Therefore: floating-point notation for 640,000 is = 6.4 * 10⁵
+   e. MANTISSA is 6.4 and BASE is 10⁵
+
+
+ Practice Questions
+ Show the floating-point notation of the following numbers:
+ a. 4899.0023
+ b. 21.563367
+ c. 1.339
+ d. 45.7
+
+ f. 59
+ g. 6,000
+ h. 017,000
+ i. 970000000
+S
+
+
+
+
+
+SCIENTIFIC NOTATION
+3a. What is Scientific Notation?
+ Ans: The scientific notation is a floating-point method of representing a number, especially a very large number or very small one, in which numbers are expressed as products 
+      consisting of a number between 1 and 10 multiplied by a power of 10
+
+ b Scientific Notation commonly uses the letter ______ in place of times 10(e.g 6.4 * 10⁵ --> 6.4E5 or 6.4E+05)
+ Ans: E
+ 
+ c. List all the 3 number representation forms?
+ Ans: Fixed Point Representation
+      Floating-point Representation
+      Scientific Notation Representationn
+
+ 
+4a. Fill in the Missing spots in the below table?
+    Fixed Point Representation        Floating-Point Representation           Scientific Notation Representation
+    13.75                             1.375 * 10¹                             1.375E+01
+    137.5                             1.375 * 10²                             1.375E+02
+    1375.(same as 1375)               1.375 * 10³
+    1375000000                        1.375 * 10⁹                             1.375E+09
+    1.375                             
+    0.1375                                                                    1.375E-01
+    0.01375
+    0.001375                          1.375 * 10¯³
+    3862.4
+    386240000.                                                                3.8624E+08
+    .00000038624
+
+    
+ b. Which Representation form are the below numbers in?
+    6.0 * 10³
+    6000
+    6.0E+03
+
+ c. Which is the MANTISSA and the BASE in the below floating-point representation of numbers?
+    6.0 * 10³
+    210.0 * 10⁹
+    .89 * 10¯³
+
+
+ Tip - If you are finding it hard to answer question number 4a,b,c. Go over 1, 2, and 3
+
+
+
+
+
+ DONE - 1ST HALF COMPLETED ✅

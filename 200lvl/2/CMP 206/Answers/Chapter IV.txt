@@ -1,0 +1,181 @@
+EXAM PREP 
+
+LECTURE IV
+
+Data Link Layer
+1a. Discuss the data link layer?
+ Ans: The data link layer is the 2nd layer of the OSI model
+      It carries out complicated and complex functionalities and aids data communication
+      It abstracts underlying hardware and presents itself as a medium to communicate with
+
+ b. The data link layer functions between two connected devices, connected in which ________ or __________ for?
+ Ans: Point to Point
+      Broadcast
+
+ c. How does the data link layer aid communication?
+ Ans: it converts the data stream into signals and sends them over the underlying hardware/media
+
+ d. How does the reciever handle data in the form of electrical signal?
+ Ans: The reciever recieves the signals and organizes them into a recognizable format and sends it to the upper layer
+
+ e. Data link layer has two(2) sub layers. name them?
+ Ans: logical link control: handles protocols, flow control, error control
+      media access control: handles the actual media control
+ 
+ f. List all(6) things task that the data link layer performs for the upper layer?
+ Ans: Framing
+      Addressing
+      Synchronisation
+      flow control
+      error control
+      multi-access
+
+ g. Discuss the following tasks:
+ - Framing and what it consists of?
+ Ans: Data link layer takes packets from the network layer and encapsulates them into frames
+      it sends the frame bit by bit over the underlying hardware
+      On the recieving end the data link layer takes the signals and organizes it back int frames and sends it to the upper layers
+      These frames are also known as Ethernet frames
+   
+      it consists of:
+      - header: carries the source and destination MAC addresses and the type of frame in transit
+      - data: the data in the frame carries the layer 3 data packet
+      - trailer: necessary for error detection and correction
+
+ - Addressing and Mac Address
+ Ans: Data link layer uses layer 2 hardware addressing mechanism
+      Hardware address is assumed to be unique and is encoded on the network adapter during manifacture
+      These address is known as MAC Address
+      It contains 48 bits consisting of 12 hexadecimal characters with 6 groupings seperated by a hyphen e.g
+      4d-9c-b8-ef-a3-46
+
+ - Synchronisation
+ Ans: The data link layer makes sure that both devices synchronize in order for data transfer to take place
+
+ - Error Control
+ Ans: Sometimes signals are lost during transmission as bits are flipped, the data link layer provides a reporting mechanism to the sender
+
+ - Flow control
+ Ans: Devices on the same link may have different speed and capacity
+      The flow control enables two devices on a link to exchange data in same speed
+ 
+ - Multi-Access
+ Ans: When multiple hosts on a link try to transmit data there is a high probability that there is going to be collision
+      The data link layer provides a mechanism CSMA/CD that helps prevent this collisions from taking place
+
+
+ Error Correction and Detection
+ g. Discuss Error correction and detection?
+ Ans: The upper layer works with a generalized view of the network unaware of the activities of the underlying hardware
+      The upper layer always expects error free transmission to take place between the systems
+      Some applications won't function appropriately if sent erroroneous data
+      Applications such as videos and voice may not be heavily affected by errorneous data
+
+ h. The upper layers work on a generalized view of the network architecture therefor _________________________?
+ Ans: is unaware of the activities of the hardware
+
+ i. The upper layers expect what kind of transmission between systems?
+ Ans: Error free
+
+ Error Detection (has 2 methods)
+ j. What are the types of error?
+ Ans: single bit error
+      multiple bit error
+      burst error
+
+ k. Errors in the recieved frames are detected using anyone of two(2) methods. Name them?
+ Ans: Parity Check
+      Cyclic Redundancy Check (CRC)
+
+ l. Extra bits are sent with the actual data. why is that?
+ Ans: In both cases few extra bits are sent with the actual data to confirm that bits sent is the same as bits recieved
+      If the counter check fails at the other end then the bits sent is corrupted
+
+ m. Briefly discuss Parity Checks?
+ Ans: In parity check an extra bit is added to the end of the original bits to make number of 1s even(for even parity) or odd(for odd parity)
+
+ n. How is data known to be uncorrupted for even and odd parity?
+ Ans: When the counter on the other end counts the 1s and discovers it to be even when odd parity is used. in such a case the frame is erroneous
+
+ o. Briefly discuss Cyclic Redundancy Checks?
+ Ans: The sender performs a division operation on the bits to be sent and calculates the remainder attaching the end of the bits
+      Actual bits and the remainder is called a codeword
+      The sender sends the bits as codeword
+
+ p. Difference between Parity Check and Cyclic Redundancy Check(CRC)?
+ Ans: In parity check, a counter counts the number of 1s and decides whether to add 1 for even parity or 0 for odd parity and sends the bits to the reciever as the counter on the reciever
+      counts the number of 1s, if even and even parity was used then the data is uncorrupted but if even and odd parity was used then the data is corrupted
+
+ Error Correction (has 2 methods)
+ q. In digital format, what are the two(2) methods errors can be corrected?
+ Ans: Forward error correction
+      Backward error correction
+
+ r. Discuss Both methods of error correction in digital format?
+ Ans: When the reciever detects error with sent frame it executes an error-correction code to auto-recover the missing frame or correct the error
+
+ Flow Control(has 2 mechanisms)
+ a. Discuss Flow Control?
+ Ans: Devices on a link may have different speed and capacity, in order for both devices to communicate the flow mechanism makes sure that both devices use the same speed
+
+ b. State the two(2) kinds of mechanism that can be deployed to control flow?
+ Ans: stop and wait
+      sliding window
+ 
+ - Mechanisms(stop-and-wait, sliding window)
+ c. Discuss the Stop and Wait mechanism and draw a diagram of this?
+ Ans: In the stop and wait mechanism a data frame is sent at a time and waits for ACK from the reciever before sending the next data frame.
+
+ d. State two advantages and disadvantages?
+ Ans: Advantages
+      It ensures accuracy
+      It can be used for noisy channels
+
+      Disadvantages
+      It is very slow
+      Hardware resources are idle most of the time
+
+ e. Discuss the Sliding Window mechanism?
+ Ans: In the sliding window mechanism, both the sender and the reciever agree on a number of data frame to be sent and recieved after which an acknowledgement is sent
+
+ Error Control(has 4 requirements)
+ a. Discuss Error Control?
+ Ans: when the sender sends data frames to the reciever sometimes data frames are lost in transit or corrupted. 
+      In some cases the user does not recieve the correct data frames and the sender does not know
+      Both sender an reciever are built with some protocols that helps the layer 2 know when the sent data is corrupted
+
+ b. List all four(4) defined requirements for error control mechanism?
+ Ans: Error detection: the sender or reciever using protocols must determin if there is an error in transit
+      Positive ACK: when the reciever recieves correct frame, it should Acknowledge it
+      Negative ACK: when the reciever recieves incorrect frame, it must send a NACK to the sender so the sender retransmits the frame
+      Retransmission: Corrupted data should be retransmitted by the sender once the sender recieves a NACK on the corrupted data frame or 
+                      if the set timer period for acknowledgement is exhausted the sender should automatically resend the data frames
+      
+ c. There are three(3) techniques used by the data link layer to control the errors by Automatic Repeat Requests(ARQ). List all?
+ Ans: Stop and wait ARQ
+      Go-Back-N ARQ
+      Selective Repeat ARQ
+
+ d. Discuss the following with diagrams: stop and wait ARQ, Go-Back-N ARQ, Selective Repeat ARQ?
+ Ans: Stop and wait ARQ: When the sender sends a data frame it sets off a timeout counter during which it expects an Positive or Negative acknowledgement
+      in order to decide whether to send the next frame or retransmit the previous one. if no acknowledgment is returned during the countdown then the sender 
+      assumes that the fames or acknowledgment have been lost in transit and retransmits
+
+      Go-Back-N ARQ: both frames maintain a window. The sending-window size enables the sender to send multiple data without acknowledgement and the recieving-window 
+      enables the reciever recieve multiple frames and then acknowledge them
+
+      Selective Repeat ARQ: In the Selective Repeat the reciever keeps track of the sequence number and buffers the frames in the memory, sends NACK for only missing frames
+      
+
+ Data Link Layer Protocols?
+ e. There are two(2) important protocols in data link layer. Name them?
+ Ans: 
+
+ f. Discuss the ARP and draw an ARP packet diagram?
+ Ans: In order for data transmission to occur in the data link layer the source must be aware of the MAC address of the destination
+
+ g. Describe what each layer does in the ARP packet diagram?
+ Ans: slide 38
+
+ h. Discuss ARP Cache?
+ Ans: ARP cache is a table of association for host destination ip addresses and the associating mac addresses

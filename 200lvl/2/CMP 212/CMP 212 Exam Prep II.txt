@@ -1,0 +1,179 @@
+CMP 212 EXAMP PREP II
+
+
+
+
+FUNDAMENTALS OF DATA STRUCTURES
+
+
+
+
+ARRAYS
+1a. What is an Array?
+Ans: An array is a group of objects referenced with the same variable name
+     OR
+     An array is a collection of variables of the same data type and are reffered to through a common name
+   
+     Extra: Array contains elements(or objects)
+            Array elements are also variables 
+            You dimension an array when you use it for the first time
+            Each element in an array is referred to by an array variable
+
+ b. Discuss Arrays?
+ Ans: An array is a set of items, of the same type, which are arranged in a way that an ordered set of integers uniquely defines the positions of each item(element) in the array.
+      Array provides a method of accessing each item directly. 
+      Each individual in the ordered set is called a subscript.
+
+ c. What is the Dimenstion of an Array?
+ Ans: If the number of elements in the ordered set of subscripts is N, then the array is said to be of one-dimension N.
+
+      Extra: When there is only one subscript, the array is said to be one-dimensional
+             When there are two subscripts, the array is said to be two-dimensional
+             When there are three subscripts, the array is said to be three-dimensional
+             But Generally, when there are more than ONE subscripts, the array is said to be multi-dimensional
+
+ d. What is the size of the following Arrays?
+    a = [1;4;17;3;90;79;4;6;81]
+    b = [5;62;34;7;77;41;51]
+    c = [9,2,13]
+ Ans: Array a is of size 9
+      Array b is of size 7
+      Array c is of size 3
+
+ e. Given the array below
+    a = [1;4;17;3;90;79;4;6;81]
+    What will be the result of the below?
+    a[4] = ?
+    a[7] = ?
+    a[3] = ?
+    a[5] = ?
+    a[1] = ?
+
+ Ans: a[4] = 90
+      a[7] = 6
+      a[3] = 3
+      a[5] = 79
+      a[1] = 4
+      a[0] = 1
+
+
+
+2a. What is the format for declaring an Array?
+ Ans: data-type Array-name[Array-Size]
+
+ b. What are the types of array declarations(C/C++) below?
+    int Array1[5];
+    int Array2[2][6];
+    int Arrayy[5][5][5];
+ Ans: int Array1[5];   is a one-dimensional array
+      int Array2[2][6];    is a two-dimensional array
+      int Arrayy[5][5][5];     is a three-dimensional array
+
+ c. The above declarations are sized declarations. Declare an unsized one-dimensional Array and assign it values(or elements)?
+ Ans: int grade[] = {20, 30, 40, 50, 60, 70, 80, 90, 100};   // comment: we can add as much as we want because this is an unsized one-dimensional array
+
+ c1. Declare a sized array with size 5 and assign it elements   
+ Ans: int ratings[5] = {45, 80, 92, 77, 89};  // comment: this is a sized array of a maximum of 5 elements. Adding more would do not work and will result in an error
+
+ d. Declare a sized two-dimensional Array of size 3 and 1 and assign values(elements) to it?
+ Ans: char letter[3] [4] = {
+          'a', 'b', 'c', 'd',
+          'e', 'f', 'g', 'h',
+          'i', 'j', 'l', 'm'};
+
+ d. Declare a two-dimensional Array of the first unsized and the second sized(2) and assign it several characters?
+ Ans: char list5[] [2] = {   // comment: Here we have a a two-dimensional array. the 1st dimension is unsized, while the second is with maximum of 2 elements
+         'a', 'A',
+         'b', 'B',
+         'c', 'C',
+         'd', 'D',
+         'e', 'E',
+         'f', 'F',
+         'g', 'G'};
+ 
+
+
+
+
+ Using C++ and Basic
+ 2a. A programming class has 5 students. Each programming assignment test is graded on a scale of 0 to 100. The grades earned 
+    by the class in a single assignment can be arranged in the form of an array called GRADE1?
+ Ans: // In C++ Programming Language
+      int GRADE1[5] = {34, 68, 73, 88, 55};    // comment: grades not given therefore we can add any grade of our choice
+ 
+      // In BASIC Programming Language
+      GRADE1:
+      _______
+      
+      | 34  |
+
+      ------- 
+      _______
+      
+      | 68  |
+
+      ------- 
+      _______
+      
+      | 73  |
+
+      ------- 
+      _______
+      
+      | 88  |
+
+      ------- 
+      _______
+      
+      | 55  |
+
+      ------- 
+
+ 
+
+ b. In a programming class five students take 4 programming tests and each grade graded on a scale of 0 to 100. Write a BASIC program that shows this?
+ Ans:
+      GRADE2:                         // comment: we use a two-dimensional array = of size 5 rows (for students) and 4 columns (for test grades)
+                    TESTS             // comment: we picked arbitrary(random) grades for student 1, 2, 3, 4 and 5
+      Students    1    2    3    4
+      ----------------------------
+          1       92   75   82   55
+          2       75   60   70   45
+          3       60   17   50   40
+          4       35   80   65   44
+          5       70   75   77   51
+ 
+ c. Using our above GRADE2 two-dimensional array. what will be the result of the subscripts
+    GRADE2(1,1)
+    GRADE2(3,3)
+    GRADE2(4,2)
+    GRADE2(2,4)
+    GRADE2(5,4)
+ Ans: GRADE2(1,1) = 92
+      GRADE2(3,3) = 50
+      GRADE2(4,2) = 80
+      GRADE2(2,4) = 45
+      GRADE2(5,4) = 51
+
+ d. Declare a two-dimensional Array with max row 10, and max column 5 using C++ (array type should be float)?
+ Ans: const int MAX_ROWS = 10;
+      const int MAX_COLUMNS =5;
+
+      float twoDimAry[MAX_ROWS][MAX_COLUMNS];
+
+ d1. Write a code to fill the twoDimAry Array with Zeros
+ Ans: 
+      for (int column = 0; column<MAX_COLUMNS; column++){
+
+          for (int row = 0; row<MAX_ROWS; row++){
+              twoDimAry[row][column] = 0.0;      // comment: this should now assign a float 0 to every position on each loop
+          }
+
+      }
+      
+
+ 
+ 
+
+ 
+

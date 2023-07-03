@@ -1,0 +1,118 @@
+Chapter 1
+
+
+1a. A network is a system of computers and computer peripherals that are connected together or
+    A network is a system of interconnected computers and computer peripherals such as printers
+ 
+ b. Interconnection helps computers share information and resources
+ c. Computers are connected via a wired or wireless medium
+
+ d. Geographical Span
+    Interconnectivity
+    Administration
+    Architecture
+ 
+ e. bluetooth enabled devices can have a network across a table that spans a few meters
+    Network may be spanned across an entire building connecting all floors with intermediate devices
+    Network may span an entire city
+    Network may span the world
+
+ f. The devices can have a point-to-point connection where all the devices are connected to each
+    other. This is called a mesh topology
+
+    The devices on a network can all be connected to a single medium and geographically disconnected. This is
+    a bus-like structure
+
+    The devices on a network can have a point-to-connection where all the devices on a network connect to
+    a central network component. This is called the star topology
+
+    The combination of multiple topologies in a single network is known as a hybrid topology
+
+ g. A network can be private or public
+
+ h. Private: if a network is private it has a single autonomous system that cannot be accessed outside the 
+             physical and logical domain
+    Public: if a network is public it is accessible to every one
+
+ i. Computer Networks can be defined based on different architectures such as e.g
+    client-server
+    point-to-point
+    hybrid
+
+ j. Client-Server:  is one where there is two or more computers with atleast one being the
+                    client and the other being the server. Client request service from the server
+                    and the server responds to the client, providing that service if client is available
+    Point-to-Point: in this architecture systems are connected in a point-to-point fashion. 
+                    They reside on the same level and are called peers
+    Hybrid:         This architecture is the combination of the Client-Server and Point-to-Point 
+                    Architecture
+
+ k. Resource sharing such as printers and storage devices
+    Exchanging Information through emails and FTP
+    Interaction with other users using dynamic web pages
+    IP Phones
+    instant messaging
+    Video Conferencing
+    parallel computing
+
+ l. Personal Area Network (PAN)
+    Local Area Network (LAN)
+    Metropolitan Area Network (MAN)
+    Wide Area Network (WAN)
+
+ m. 
+ i. Personal Area Network
+    This is the smallest network and it is personal to a user
+    Pan includes bluetooth enabled devices or infra-red enabled devices
+    Pan has a connectivity range of up to 10meters
+
+ ii. Local Area Netwok
+     This is a network that spans/covers and entire building and is managed by a single autonomous system
+     LAN covers an organizations offices, colleges or universities
+     The number of systems that can connect to a LAN ranges from 2 users to as much as 16 million users
+     LAN mostly operates on a private IP address and doesn't involve heavy routing
+     LAN uses either the Ethernet or the Token-Ring Technology
+     Ethernet is the most widely used LAN technology
+     LAN can be wired or wireless or in both forms
+
+ iii. Metropolitan Area Network
+      This network covers an entire city such as cable TV
+      MAN can use Ethernet, Token-Ring, Asynchronous Transfer Mode (ATM), Fiber Distributed Data Interface(FDDI)
+      Metro Ethernet is a service provided by the ISP's
+      These service enables users to expand their LANs
+
+ iv. Wide Area Network
+     This network covers a large area such as an entire province or country
+     Telecommunication Networks are WANs
+     WANs provide connectivity to MANs and LANs
+     WANs use technologies such as Asynchronous Transfer Mode(ATM), Frame Relay, Synchronous Optical Network(SONET)
+     WANs are equiped with high speed backbone
+     WANs are managed by multiple administration
+
+ 
+ n. Go ahead and draw them in your book or something
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

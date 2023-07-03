@@ -1,0 +1,61 @@
+EXAM PREP 
+
+LECTURE IV
+
+Data Link Layer
+1a. Discuss the data link layer?
+ a. where is it located in the osi model, what is it's functionality, what does it abstract and for what purpose?
+ b. The data link layer functions between two connected devices, connected in which ________ or __________ for?
+
+ c. How does the data link layer aid communication?
+ d. How does the reciever handle data in the form of electrical signal?
+ e. Data link layer has two(2) sub layers. name them?
+ 
+ f. List all(6) things task that the data link layer performs for the upper layer?
+ g. Discuss the following tasks:
+ - Framing and what it consists of?
+ - Addressing and Mac Address
+ - Synchronisation
+ - Error Control
+ - Flow control
+ - Multi-Access
+
+ Error Correction and Detection
+ g. Discuss Error correction and detection?
+ h. The upper layers work on a generalized view of the network architecture therefor _________________________?
+ i. The upper layers expect what kind of transmission between systems?
+
+ Error Detection
+ j. What are the types of error?
+ k. Errors in the recieved frames are detected using anyone of two(2) methods. Name them?
+ l. Extra bits are sent with the actual data. why is that?
+
+ m. Briefly discuss Parity Checks?
+ n. How can parity check how is data known to be uncorrupted for even and odd parity?
+ o. Briefly discuss Cyclic Redundancy Checks?
+ p. Difference between Parity Check and Cyclic Redundancy Check(CRC)
+
+ Error Correction
+ q. In digital format, what are the two(2) methods errors can be corrected?
+ r. Discuss Both methods of error correction in digital format?
+
+ Flow Control
+ a. Discuss Flow Control?
+ b. State the two(2) kinds of mechanism that can be deployed to control flow?
+ 
+ - Mechanisms(stop-and-wait, sliding window)
+ c. Discuss the Stop and Wait mechanism and draw a diagram of this?
+ d. State two advantages and disadvantages?
+ e. Discuss the Sliding Window mechanism?
+
+ Error Control
+ a. Discuss Error Control?
+ b. List all four(4) defined requirements for error control mechanism?
+ c. There are three(3) techniques used by the data link layer to control the errors by Automatic Repeat Requests(ARQ). List all?
+ d. Discuss the following with diagrams: stop-and-wait ARQ, Go-Back-N ARQ, Selective Repeat ARQ?
+
+ Data Link Layer Protocols?
+ e. There are two(2) important protocols in data link layer. Name them?
+ f. Discuss the ARP and draw an ARP packet diagram?
+ g. Describe what each layer do in the ARP packet diagram?
+ h. Discuss ARP?

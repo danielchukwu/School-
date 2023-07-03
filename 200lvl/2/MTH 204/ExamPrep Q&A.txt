@@ -1,0 +1,184 @@
+Note: meanings of symbols
+an element of = ⋲
+there exist   = ⋺
+for all the values of = A(note: upside down)
+
+
+VECTOR SPACES
+1. What is a Vector Space?
+Ans: Let V be a non-empty set with 2 major operations an operation called Addition an an operation called Multiplication
+
+b The V is called a vector space over the real field ___?
+Ans: K
+
+c. What are Axioms?
+Ans: This checks to see if the elements satisfy the rules of being a Vector Space
+
+e. What are the 2 types of Axioms?
+Ans: Axiom of Addition
+     Axiom of Multiplication
+
+f. Is 0 an element of every set/vector space?
+Ans: True
+
+g. What are the 3 Axioms of Addition?
+Ans: A1: (u+v)+w = u+(v+w)
+     A2: (There Exist) 0 (as an element of) V      - such that 0 + u = u + 0 = u
+     A3: (There Exist) -u (as an element of) V     - such that u + (-u) = (-u) + u = 0 
+     A4: u + v = v + u (commutativity)
+
+h. What are the 6 Axioms of Multiplication?
+Ans: A1: k*(u + v) = ku + kv    for any scaler k (is an element of) K
+     A2: (k₁+k₂)*w = k₁w +k₂w   for any scaler k₁,k₂ (is an element of) K
+     A3: (k₁k₂)*v  = k₁*(k₂v)   for any scaler k₂ (is an element of) K
+
+     A4: 1u = u                 for the unit scaler 1 (is an element of) K
+     A5: (u * v)*k₂ = u*(v*k₂)  
+     A6: u¯¹ * u = 1            (There Exist) u¯¹ (as an element of) V
+
+i. The first form of the Axioms are concerned with the ____________?
+Ans: Additive Structure of V
+
+j. The second form of the Axioms are concerned with the _____________?
+Ans: Action of field K or scalars on the vector space V
+
+
+EXAMPLES OF VECTOR SPACES
+2. What are the 4 examples of Vector Spaces?
+Ans: Space Kⁿ
+     Matrix Space Mⁿ,ⁿ       (1st n is actually an m)
+     Polynomial Space P(t)
+     Function Space F(x)
+
+A. Space Kⁿ
+b. Write a line or two about Space Kⁿ?
+Ans: Let K be an arbitrary field. 
+     The notation Kⁿ is used to denote the set of elements of all n-tuples in K (eg: K = {Kⁿ}; Kⁿ = u, v, w, e.t.c)
+     Here Kⁿ is a vector space over K
+
+b1. Show an example to prove that a Space Kⁿ is a vector space?
+Ans: vector addition
+     = (a₁+a₂+a₃), (b₁+b₂+b₃)
+     = (a₁+b₁, a₂+b₂ a₃+a₃)      Addition Proved✅
+
+     scalar multiplication
+     = k(a₁,a₂, ... an)
+     =  (ka₁, ka₂, ... kan)
+
+     = 0(a₁,a₂, ... an)
+     =  (0, 0, ..., 0)
+     
+     = -(a₁,a₂, ... an) 
+     =  (-a₁,-a₂, ... -an)      Multiplication Proved✅
+
+B. Polynomial Space
+c. Write a line or two about Polynomial P(t)?
+Ans: Let P(t) denote all the sets of polynomials in form.
+     P(t) = (a₀ + a₁ + a₂t² + a₃t³)
+
+c1. Show an example to Prove that a Polynomial Space P(t) is a vector space?
+Ans: vector addition
+     p(t) = (a₀ + a₁t + a₂t² + a₃t³), q(t) = (b₀ + b₁t + b₂t² + b₃t³)
+     = p(t) + q(t) = [(a₀+b₀), (a₁+b₁)t + (a₂+b₂)t² + (a₃)t³]   Addition Proved✅
+
+     scalar multiplication
+     p(t) = (a₀ + a₁t + a₂t² + , ..., +  a₃t³)
+     K*p(t)
+     = k(a₀ + a₁t + a₂t² + ... + a₃t³)
+     = (ka₀ + ka₁t + ka₂t² + ... + ka₃t³)                       Multiplication Proved✅
+
+C. Matrix Space
+d. Write a line or two about Matrix Space Mⁿ,ⁿ?
+Ans: The notation Mⁿ,ⁿ or M is used to denote the set of all m*n matrices with entries in the field K
+
+d1. Show an example to Prove that a Matrix Space Mⁿ,ⁿ is a vector space?
+Ans: vector addition
+     a₁₁ a₁₂   +  b₁₁ b₁₂
+     a₁₂ a₂₂   +  b₁₂ b₂₂
+     = a₁₁+b₁₁  a₁₂+b₁₂
+       a₁₂+b₁₂  a₂₂+b₂₂          Addition Proved✅
+
+     scalar multiplication
+     = k(a₁₁ a₁₂)
+        (a₁₂ a₂₂)
+     =  (ka₁₁ ka₁₂)
+        (ka₁₂ ka₂₂)              Multiplication Proved✅
+
+D. Function Space
+e. Write a line or two about Function Space F(x)?
+Ans: Let x be a non-empty set and let F be an arbitrary value. Then let F(x) denote the set of all function x into k
+     Then F(x) is a vector space over K
+
+e1. Show an example to Prove that a Matrix Space Mⁿ,ⁿ is a vector space?
+Ans: vector addition
+     Let f & g be functions in  F(x)
+     = (f + g) (x)
+     = f(x) + g(x)     (for all the values of) x (is an element of) X    Addition Proved✅
+
+     scalar multiplication 
+     = (k⨍)(x) = k⨍(x)     (for all the values of) x (is an element of) X   Multiplication Proved✅
+
+
+
+
+SUBSPACE
+f. Define a Subspace?
+Ans: Let V be a vector space over the field K, and W be a subspace V if W itself is a vector space with respect to the operations of 
+     vector addition and scalar multiplication
+
+f1. State the Theorem 1?
+Ans: Suppose W is a subset of a vector space V. Then W is a subspace of V if the following two conditions hold
+     1. The Zero vector 0 belongs to W
+     2. (for all the values of) u, v, w (are members of W) |  K (is a member of) K
+         a) The sum of u+v (is a member of) W
+         b) The multiple of ku (is a member of) W
+
+
+
+
+LINEAR DEPENDENCE AND INDEPENDENCE
+g. Define Linear Dependence & Linear Independence?
+Ans: We say that the vectors v1, v2, ... vm in V are Linearly Dependent if there exist scalars a1, a2, ..., am in K, not all of them
+     such that our a1v1, + a2v2, ..., + amvm = 0
+
+     otherwise we say that the vectors are linealy Independent
+
+g1. Solve the following vectors and show that they are linearly dependent or independent?
+    i.   x1 = (1,1,1,3), x2=(-1,0,-5,-6), x3=(1,2,-1,2), x4=(-1,0,2,1), x5=(1,1,-1,1)
+    ii.  (w,1,0),(0,w,0), & (0,0,w+3)
+    
+g2. Show that the following vectors generate R³
+    i.  v1=(1,1,1), v2=(0,1,1), v3=(0,1,-1)   (first step: unlike linear -> do a scalar multiplication)
+
+
+
+
+BASIS
+h. Define Basis?
+Ans: Basis of a vector space is a linearly independent subset which generates or spans the whole space
+
+h1. What are the two(2) conditions to basis?
+Ans: i)  The set generates or spans V
+     ii) The set is linearly independent
+
+h2. Show that in a vecror Space Rⁿ. The following set of vectors is a basis for Rⁿ
+     i) e1 = (1,0,0,...,0), e2=(0,1,0,...,0), en=(0,0,0,...,1)
+
+
+
+T-Operators
+a. Let V be of dimension 2. Then suppose the basis {e1, e2} is a basis for V and T,S linear operator on V. Find the matrices
+b. Verify that K(is a member of)F satisfies the concept of linear operator with respect to scalar multiplication
+c. Consider 2 operations S & T acting on the same vector space over the same scalar field
+   S: V --> V
+   T: V --> V
+
+
+Eigen Values and Eigen Vectors
+a. Given the Systems of Linear Equation below find the Eigen Values and Eigen Vectors
+    x + 2y = 0
+   3x + 2y = 0
+
+b. Solve the following systems of Equation to obtain the Eigen Value and Eigen Vectors
+   2x + 3y = 0
+  -4x - 2y = 0-

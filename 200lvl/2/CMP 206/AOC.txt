@@ -1,0 +1,10 @@
+CMP 206 AOC
+- Detailed description of computer networks(slide 4-9) in the 1st slide
+- Interconnectivity (slide 10-12) in the 1st slide
+- Types of Computer networks
+- Network Topology
+- Data link layer (slide 3-5) in the 4th slide
+- Mac Address
+- IP header
+- IP Addressing
+- Types of IP adressing

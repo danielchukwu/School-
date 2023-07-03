@@ -1,0 +1,268 @@
+ 
+CHAPTER III
+
+PHYSICAL LAYER
+
+3a. Discuss the Physical Layer?
+ Ans: The physical layer is the layer that interfaces the hardware and the signalling mechanism
+      These is the only layer of the OSI Model that handles connectivity
+      The physical layer defines all the hardware equipments
+
+ b. What is a signal?
+ Ans: A signal is an electrical pulse sent through a wire in the form of voltage
+
+ b1. Main difference between data signal and analogue signals
+ Ans: data signals are discrete in nature and represent a sequence of voltages
+      analog signals are in continuous waveforms in nature and represent by continuous electromagnetic waves
+
+ c. Discuss analog and digital data?
+ Ans: In other to send analog data or digital data, they first needs to be converted
+      Analog data such as human voice needs to be converted to analog signals
+      Digital data such as a file on a computer needs to be converted to digital signals
+ 
+ d. When signal travels through a medium it tends to deteriorate. Discuss?
+ Ans: This is due to the following factors:
+      attenuation: When signal travels through a medium it needs to have sufficient strength. If signal is sent over a long medium it grows weaker
+      Dispersion: When signals travel through a medium it tends to spread out. This depends on the frequency being used
+      Delay distortion: Signals are sent on mediums with predefined speed and capacity. If the signals predefined speed does not match there is a chance it reaches the destination in arbitrary format
+      noise: This is the random disturbance or altercation in digital or analog signals
+
+ e. What is Noise and the characteristics of Noise?
+ Ans: This is the random disturbance or altercation in digital or analog signals
+      Characteristics ->
+      Thermal Noise: Heat agitates the conductor which generates noise. to a great extent this is unavoidable
+      intermodulation: When multiple frequencies share a medium, there will be interferrences between the frequencies which causes noise
+      crosstalk: This is when a foreign signal is introduced into a medium. The signal in one medium affects the signal in the other medium
+      Impulse: This occurs due to electricity, lightning, short-circuit, faulty components
+
+ f. What is Transmission Media?
+ Ans: Transmission Media is the physical media through which data/information is exchanged between two connected devices
+
+ g. What are the 2 forms of transmission media?
+ Ans: Guided: In this, the sender and the reciever are directly connected and then information is sent via UTP, Coaxial cables and fiber optics
+      Unguided: In this, the sender spreads the information over the air and anyone can recieve it including the recipient via wireless and open air space
+
+ h. What are the different types of transmission media?
+ Ans: Magnetic Media
+        This is an old fashioned Networking physical media for data transmission
+        Data is stored physically in the media and transported from one station to another
+        It is used to backup data by alot of business communites
+        And helps companies cut cost
+
+      Twisted pair cables(STP, UTP)
+        This cables are made up of two plastic insulated copper wires that are twisted together to reduce noise
+        Only one of the cable carries the actual data while the other is used for ground referencing
+        There are two types: Shielded Twisted Pair Cables and Unshielded Twisted Pair Cables
+
+      Coaxial Cables
+        This cable is made up of two copper wires
+        At the core is a solid conductor copper wire
+        That is then enclosed in a insulating sheath
+        The insulating sheath is then wrapped with the second copper wire
+        Then it is all covered with a plastic cover
+        - Due to it's stength it can carry higher frequency signals than power line communication
+
+      Power Line Communication
+        PLC is a layer-1 technology which uses power cables to transmit data signals
+        sends modulated data
+        The reciever recieves the demodulates the data and interprets it
+        There are two types:
+           - narrow band plc
+           - broad band plc
+      Fiber Optics
+        This cables work on the propertise of light
+        When a light ray hits at a critical angle it tends to refract by 90 degrees
+        Light is emitted on one end and moves through the media and then it is detected on the other using light detector
+        The light identifies the light streams and converts it to electrical data
+     
+          
+ h1. What are the following cables connected with: Unshielded twisted pair cable, Coaxial cable, fiber optics?
+ Ans: UTP: RJ45
+      Coaxial: BNC and BNC-T
+      Fiber Optics: Subscriber Channels(SC) and Straight Tip(ST)
+
+ h2. What are the categories for the following cables: Unshielded twisted pair cable, Coaxial cable?
+ Ans: UTP: has 7 different categories: Cat-5, Cat-5e, Cat-6. This cable is used to provide high speed internet
+      Coaxial Cable: RG-59 - for Television transmission, RG-58 - for Thin Ethernet transmission, RG-11 - for Thick Ethernet transmission
+ 
+ h3. RG stands for?
+ Ans: Radio Government
+
+ Wireless
+ i. What is Wireless transmission?
+ Ans: This is a form of unguided transmission media. There is no physical link between two or more devices. The data is spread over the air and the reciever recieves the data
+      using the appropriate antenna
+
+ j. How are wireless signals transmitted?
+ Ans: In a wireless device the antenna in the electric circuit takes digital data and converts it into electrical signals and then spreads it over the air within its frequency range
+      The reciever recieves this signal and converts it back to digital data
+
+ k. What is the function of the antenna attached to the electrical circuit of the computer or wireless device?
+ Ans: to convert digital data to electrical signal and electrical signal back to digital data
+
+ l. Draw a diagram of the electromagnetic spectrum
+ Ans: slide 23
+
+ m. List all four(4) wireless transmission media?
+ Ans: Radio Transmission
+      Micro Transmission
+      Infrared Transmission
+      Light Transmission
+
+ n. Briefly discuss all four(4) wireless transmission media?
+ Ans: Radio Transmission
+      Micro Transmission
+      Infrared Transmission
+      Light Transmission
+ 
+ Radio Transmission
+ i. Radio frequencies are sub-divided into ____________?
+ Ans: 6 bands
+
+ ii. _________ radio frequency can travel through walls while _______ can travel in a straight line and bounce back?
+ Ans: Lower frequencies, higher frequence
+
+ iii. ___________ frequency have more power?
+ Ans: Higher radio waves 
+
+ iv. Examples of high frequency radio waves and low frequency radio waves?
+ Ans: Higher Frequency: VHF and HF
+      Lower Frequency: VLF, LF, and MF
+
+ v. Draw diagram of Radio Transmission?
+ Ans: slide 25
+ 
+ Microwave Transmission
+ i. How are beams made in Microwave Transmission?
+ Ans: By concentrating the wave making a beam of it
+
+ ii. How can we reach further?
+ Ans: By aligning antennas we can reach further
+
+ iii. ___________ frequencies cannot penetrate wall like obstacles?
+ Ans: Microwave, Infrared wave, Light Transmission
+
+ iv. Microwave transmissions depend highly upon ____________ and ___________?
+ Ans: weather conditions and the frequency
+
+ v. Draw diagram of a Microwave Transmission
+ Ans: Slide 32
+
+ Infrared Transmission
+ i. Infrared wave is used for _______________?
+ Ans: short range communication with a wavelength of 700nm to 1mm. it is used on devices like television remotes
+
+ ii. How does infrared travel?
+ Ans: In a straight line
+
+ iii. Due to ___________, infrared cannot go through wall-like structures?
+ Ans: high frequency
+
+ iv. Where does infrared lie between?
+ Ans: infrared lies between visible light and microwave
+
+ Light Transmission
+ i. How is light transmission realised?
+ Ans: using LASER
+
+ ii. What is the full meaning of LASER?
+ Ans: Light Amplification by the stimulated emission of radiation
+
+ iii. Laser stimulates molecules and atoms to do what?
+ Ans: to emit light at a particular wavelength, and amplifies that light to produce a narrow beam of radiation
+
+ iv. Because of its high frequency, what happens?
+ Ans: it travels in a straight line
+
+ v. Draw diagram of a Microwave Transmission
+ Ans: Slide 36
+
+ n1. How do lower and higher radio frequencies travel?
+ Ans: lower travels through walls while, higher travels in a straight line and bounces back
+
+ o. What is the wavelength range for the following: Radio Transmission, Microwave Transmission, Infrared Transmission?
+ Ans: Radio Transmission - 1mm to 100,000km
+      Microwave Transmission - 1mm to 1m
+      Infrared Transmission - 700nm to 1mm
+
+ p. What is the frequency range for the following: Radio Transmission, Microwave Transmission, Infrared Transmission?
+ Ans: Radio Transmission - 3Hz to 300GHz
+      Microwave Transmission - 300MHz to 300GHz
+      Infrared Transmission - 300GHz to 430THz
+
+ q. Discuss the topic of penetration for the following: Radio Transmission, Microwave Transmission, Infrared Transmission, Light Transmission?
+ Ans: Low frequency radio waves do penetrate walls and structures but due to the high frequency nature of the rest (Microwave Transmission, Infrared Transmission and Light Transmission)
+      they do not penetrate walls
+
+
+ Digital Transmission
+ a. Discuss Digital Transmission?
+ Ans: Data information is stored in two ways: analog or digital form
+      To transmit data it needs to be converted to digital form
+
+ b. What are the two(2) types of digital conversion?
+ Ans: digital to digital conversion
+      analog to digital conversion
+
+ 1. Digital-to-Digital Coversion
+ c. Discus Digital-to-Digital Conversion?
+ Ans: In other for digital data to be transmitted through the hardware it needs to be converted into digital signal
+      The two ways for converting digital data to digital signal is: Line Coding and Block Coding
+      Line Coding is used in all communication systems and Block coding is optional
+
+ d. Name the two(2) ways that digital signals can be converted?
+ Ans: Line coding
+      Block coding
+
+ e. discuss the necessity of line coding and block coding?
+ Ans: Line coding is necessary for all communication whereas Block coding is optional
+ ->
+  A. Line coding
+  f. What is line coding and how are digital data stored in computers?
+  Ans: 
+  f1. Draw a figure showing the use of line coding (digital-to-digital conversion)?
+  f2. what are the three types of line coding schemes?
+
+   unipolar
+   i. Write a line or two about unipolar encoding scheme and draw diagram?
+
+   polar (has types)
+   ii. Write a line or two about polar encoding scheme and draw diagram?
+   ii. List the 4 types of polar encoding?
+   ii. Draw diagram of Polar NRZ, RZ
+   ii. Major difference between manchester and differential manchester(just 1 line)?
+
+   bipolar
+   iii. write a line or two about bipolar encoding and draw diagram?
+  
+ B. Block Coding
+ g. Discuss block coding and the list the three(3) steps involved?
+
+
+ 2. Analog-to-Digital Coversion
+ a. Discuss Analog-to-Digital Conversion?
+ b. Examples of things that use analog data?
+ c. To convert analog wave to digital what is used?
+
+ e. What is the full meaning of PCM?
+ d. What are the three steps used by PCM?
+ f. Draw the diagrams for the steps used in PCM side-by side: Analog, Sampling, Quantisation, Encoding
+
+
+ Transmission Mode
+ a. What is the function of the Transmission Mode?
+ b. Binary data in the form of 1s and 0s can be sent in two different modes: What are they?
+ 
+  Parrallel Transmission & Serial Transmission(has types)
+  i. differentiate between parrallel transmission and serial transmission
+  ii. Draw a side by side diagram of both modes in action?
+  iii. What are the types of serial transmission
+  iv. Difference between the asynchronous transmission and the synchronous transmission
+
+ Analog Transmission
+ a. To send digital data over and analog media, it needs to be converted to _________?
+ b. There are two(2) cases for this conversion. Name them?
+ d. What is the major difference between bandpass and low-pass?
+ e. When digital data is converted into bandpass analog signal, it is called _________?
+ f. When low-pass analog signal is converted into bandpass analog signal, it is called _________?
+ g. Analog signals are characterized by their __________, ____________, and ___________?

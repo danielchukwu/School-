@@ -1,0 +1,158 @@
+Exam Prep
+
+INTRODUCTION TO DATA COMMUNICATIONS
+
+
+CHAPTER 1
+
+
+1a. What is a Network?
+ b. How does interconnection help?
+ c. How are computers connected?
+
+ d. State the 4 classifications of Computer Networks?
+ e. How can a network be viewed Geographically? (Geographical Span)
+ f. How can the components of a network be connected? (Inter-Connectivity)
+ g. Form an administrators poiny of view. A network can be? (Administrator)
+ h. write a line on private and public networks
+ i. how can computer network be defined based on Network Architecture? (Network Architecture)
+ 
+ j. Write atleast two lines each on the below Network Architectures
+ i. Client-Server
+ ii. Point-to-point
+ iii. Hybrid
+
+ k. Computer systems and peripherals are connected to form a network that provide numerous advantages. List 5 of these advantages?
+ 
+ l. List the 4 types of Computer Networks?
+ 
+ m.
+ In 2 to 4 lines. Write about the below types of Computer Networks(e.g talk about what it is, it's connectivity/range, technologies, it's devices, it's backbone)
+ i. Personal Area Network
+ ii. Local Area Network
+ iii. Metropolitan Area Network
+ iv. Wide Area Network
+
+ n.
+ Bonus: Draw a diagram showing the types of Computer Networks
+ i. Personal Area Network
+ ii. Local Area Network
+ iii. Metropolitan Area Network
+ iv. Wide Area Network
+
+ o. What is Internetwork?
+ p. Talk about Internetwork in 3 to 5 lines?
+ q. How do we get internet in every country all over the world?
+ r. List 7 uses of the Internetwork?
+ 
+ s. What is Ethernet?
+ t. In 2 or more lines. Write about Ethernet
+ u. List two(2) types of Ethernet Technology
+ v. In 2 or more lines. Write about Fast-Ethernet and Giga-Ethernet?
+
+
+
+
+ 
+
+
+CHAPTER 2
+
+
+NETWORK TOPOLOGIES
+
+2a. What is a Network Topology?
+ b. What is Topology?
+ c. Out of the 8. List 5 types of Network Topologies?
+ 
+ Point-to-Point
+ d. Talk about Point-to-Point Network Topology(2 to 5 lines)?
+ d1. Draw a diagram of a Point-to-Point Topology
+
+ Bus Topology
+ e. Talk about Bus Topology(2 to 5 lines)?
+ e1. Draw a diagram of the Bus Topology
+
+ Star Topology
+ f. Talk about Star Topology(2 to 5 lines)?
+ f1. Layers of the hub device?
+ f2. Draw a diagram of the Star Topology?
+
+ Ring Topology
+ g. Talk about Ring Topology(2 to 5 lines)?
+ g1. Draw a diagram of the Ring Topology?
+
+ Mesh Topology
+ h. Talk about Mesh Topology(2 to 5 lines)?
+ h1. What are the two(2) types of Mesh Topology?
+ h2. Draw a diagram of the Mesh Topology?
+
+ Tree/Hierarchical Topology
+ i. Talk about Tree/Hierarchical Topology(2 to 5 lines)?
+ i1. In LANs, this topology categorises network devices into three types. List all three(3)?
+ i2. Draw a diagram of the Tree/Hierarchical Topology?
+
+ Daisy Chain Topology
+ j. Talk about Daisy Chain Topology(2 to 5 lines)?
+ j1. Draw a diagram of the Daisy Chain Topology?
+
+ Hybrid Topology
+ k. Talk about Hybrid Topology(2 to 5 lines)?
+ k1. Draw a diagram of the Hybrid Topology?
+
+ Youtube vid - https://www.youtube.com/watch?v=vv4y_uOneC0
+
+ Network Models
+ a. Write 5 lines on Network Engineering
+ b. Write 5 lines on a Layered Communication System
+ c. What is the OSI Model?
+ d. Draw a diagram of the OSI Model? (Acronym to remember each layer is - All People seem to need data physically)
+ 
+ e. Write about the below OSI Layers(In atleast 1 line)
+ i.   Application Layer
+ ii.  Presentation Layer
+ iii. Session Layer
+ iv.  Transport Layer
+ v.   Network Layer
+ vi.  Data Link Layer
+ vii. Physical Layer
+
+ 
+ Internet Model
+ a. Write 2 to 5 lines on Internet Model
+ b. Draw a diagram of the Internet Model
+ c. Write about the below Internet Model Layers(In atleast 1 line)
+ i.   Application Layer
+ ii.  Transport Layer
+ iii. Internet Layer
+ iv.  Link Layer
+
+ 
+
+
+
+
+
+ 
+CHAPTER III
+
+PHYSICAL LAYER
+
+3a. Discuss the Physical Layer?
+ b. What is a signal?
+ c. Discuss analog and digital data?
+ 
+ d. When signal travels through a medium it tends to deteriorate. Discuss?
+ e. What is Noise and the characteristics of Noise?
+ 
+ f. What is Transmission Media?
+ g. What are the 2 forms of transmission media?
+ h. What are the different types of transmission media?
+ i. Briefly explain atleast 5 different types of transmission media you listed?
+ 
+ 
+
+
+
+
+

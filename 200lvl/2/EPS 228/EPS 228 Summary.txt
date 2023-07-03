@@ -1,0 +1,536 @@
+EPS 228
+
+Note: Don't read this trying to cram it. Read it to learn, have fun doing so. it is really interesting.
+
+
+MODULE FOUR
+
+
+NEW VENTURE CREATION
+
+
+Introduction and Definition
+
+What is a Feasibility study?
+A feasibility study is an evaluation or analysis of the potential impact of a proposed project. Feasibility study determines how the 
+challenges are tackled. Buisness feasibility study format can be as simple or complex as you desire. it provides an overview of the 
+primary issues related to a business idea. The purpose is to identify any "make or break" issues that would prevent your buisness from
+being successful in the marketplace.
+
+Simple Definition: Feasibility study is a report showing whether or not to proceed with the project
+
+Feasibility study is divided into four(4) parts:
+1. Market Environment: is there potential for your product or service to make you money
+2. Technical and Operational requirements: what equipments and human resources (workers) will the buisness need
+3. Financial Projection: what are the expenses and incomes of the business. How long will it take to break even(or become profitable)
+4. Economic Contribution: your buisness contribution to the community, society or economy
+
+
+1. Market Report
+A buisness is assessed as feasible, if it can be shown that there is sufficient market demand. That is if you can show that there is enough
+customers who will purchase sufficient product/services to a point where the buisness is profitable.
+
+Steps to determining Market Demand:
+1) Are you selling to individuals, households or businesses?
+2) What is the population of these customers in your target geographical location?
+3) How much, in an average year do customers spend on your product/service?
+4) What are total sales for the region?
+5) How much is currenty purchased in the region?
+6) Is there space in the market for new players(your buisness)?
+
+it is very important to make sure that there is space for you in that market and the market is not saturated or crowded with people offering
+the same product/service as you, that is even if you feel like your product(e.g okpa) tastes different or is just bigger and better. 
+If there is no space due to several similar buisnesses already there, consider looking for a new location.
+
+Other important considerations include:
+- What stage of the product life-cycle is the target population in? Let me explain:
+  Is it a new industry?(e.g instagram influencing)
+  Or mature industry? - a mature industry may mean that the market is already crowded
+- Is the market dominated by a few large players, or is it fragmented(divided) into smaller but hundreds of players(businesses)?
+- Is competition based on price or value? 
+  if it is value then maybe you having a product you feel is better is to your advantage
+  if it is price then maybe the people there are somewhat broke and can't afford your product so doing buisness in that location might not be the best move
+
+
+2. The Technical Report
+A business is considered technically and operationally feasible if it has the necessary expertise, infrastructure and capital to develop,
+install, operate and maintain the proposed system, and that by estblishing such a system, the business will be able to deliver godds or 
+services at a profit
+
+The technical report will cover: (optional)
+- Equipment: 
+  Type of equipment and technology needed for the buisness and there costs
+- Suppliers:
+  suppliers for these equipments and there location
+  Are there any waranties on this supplies and how long does it take for the supplys(equipments) to get to you
+- Materials:
+  How much raw material is needed and which quality?
+- Raw Materials:
+  suppliers for the raw materials and there location
+  Are there any waranties on this supplies and how long does it take for the supplys(raw materials) to get to you
+- Layout of Facilities:
+  location for facilities, and size(space) needed
+  cost to build facility and does the location have adequate access to infrastructures (e.g highways, railways etc.)
+- Management
+  organisation structure best for the business and key staff positions to be filled
+  qualifications needed to manage operations and what experience does management need to have?
+
+
+3. Financing Report
+When considering a new business, it is important to consider if there is sufficient access to resources. The primary reason new businesses
+fail is under-capitalisation - not enough money to keep the business from going from startup until it is profitable.
+
+Before the financing plan, you have to know the total initial costs which is analysed as follows:
+a. What is the total start-up cost needed to start operations?(e.g cost of land, plant, equipments)
+b. What are the day-to-day operating costs?(e.g wages, rent, utilities, interest payment on debts)
+c. Based on sales what is the business's projected income?
+d. How will you determine your pricing arrangements?
+e. What are the possible sources of financing? Who are potential lenders? What will their terms and limitations be?
+f. Based on estimated revenues and costs, what is the projected profit/loss of the business over the first five years?
+g. When does the business break even? (Aim for no longer than 18 months)
+
+if a buisness passes all the above criteria, then it has potential to succeed
+
+
+4. The Economic Report
+One of the feasibility factors that need to be assessed is economic feasibility. Economic feasibility can be assessed by doing the
+cost-benefit analysis. A business or project is regarded as economically feasible if it is able to produce goods/services and 
+distribute them to the marketplace and still return a profit to the owners.
+
+There are several economic evaluation methods available to assess an investment(cost-benefit method):
+1. Net Present Value (NPV)
+2. Internal Rate of Return (IRR)
+
+The most popular economic evaluation method is the IRR which is used by two-thirds of industrial companies(Chen 1996), this is because
+managers prefer a percentage rate of return more thatn the naira amout from NPV
+
+Before calculating NPV and IRR, one should have an understanding of basic finance concept called ___________________.
+Ans: "Time value of money".
+
+
+Business Plan
+Feasibility Report is the foundation for writing a Business Plan. It is difficult to write a Business Plan without first preparing a Feasibility 
+Report. The business plan which is like the icing on the cake focuses on how the events stated in the Feasibility Report will take place
+given a timeframe
+
+A Business Plan is made up of the below major components?
+i.    Executive summary
+ii.   Company description
+iii.  Objective statement or business goals
+iv.   Business and management structure
+v.    Products and Services
+vi.   Marketing and sales plan
+vii.  Business financial analysis
+viii. Financial Projections
+ix.   Appendix
+
+
+Participation in the Nigerian Business Environment: Regulatory and Legal Framework
+
+Introduction
+In Nigeria, there are quite a number of legislation that governs the Nigerian Business environment. People run buisnesses without registering.
+The law allows a window period of 28days after which any business in operation is required to register or else an action will be enforced 
+against the business man. 
+The governments agenda in the economy is to subdue inflation, deflation, provide comprehensive fiscal and monetary framework, stabilise the 
+exchange rate, improve balance of trade and drive economic growth and development through whatever means legally possible. That is why
+governments scout for foreign investment to boast her economy. Therefor Full or partial ownership of business by foreign investor is now
+permitted
+
+Relevant Laws Governing Corporate Business Operation in Nigeria
+- The Companies and Allied Matters Act, Laws of the Federation of Nigeria (LFN) 2004
+- The National Office of Technology Acquisition and Promotion Act (NOTAP aCT)
+- The Companies Income (Amendment) Tax Act 2007
+- Capital Gains Tax Act
+
+Regulatory Bodies
+For companies who wish to operate in certain sectors. The below agencies set out the requirements to operate in those sectors
+1. Central Bank of Nigeria
+2. Securities and Exchange Commision
+3. National Agency for Food Drug and Cosmetics
+4. Nigerian Communications Commission
+5. National Office for Technology Acquisition and Promotion
+6. Standards Organization of Nigeria
+7. Consumer Protection Council
+
+
+Role of the Corporate Affairs Commission (CAC)
+
+CAC was established under the Companies and Allied Matters Act (CAMA), 1990.
+The commission is the Agency of Government charged with regulation and supervision of the formation, incorporation, registration and 
+management of Companies, Business Names and Incorporated Trustees.
+
+The services offered by the Commission include:
+a. Regulation and supervision of the formation, incorporation, registration and management of Companies, Business Names and 
+   Incorporated Trustees
+b. Registration of changes, amendments and alterations in particulars of Companies, Business Names and Incorporated Trustees
+c. Repository for statutory records of Companies, Business Names and Incorporated Trustees.
+d. Searches
+f. Issuance of certified true copies of certificates
+g. Enforcement of compliance of Companies, Business Names and Incorporated Trustees
+e.t.c.
+
+Forms of Business Investment Platforms in Nigeria
+Businesses in Nigeria are conducted using several platforms. such as
+1. Sole proprietorship
+2. Partnership business
+3. Company
+4. Free Trade Zones (FTZ)
+
+
+Sole Proprietorship
+This is a kind of business owned exclusively by one individual, in this form of business platform; there is no legal distinction between the
+owner and the business. The owner is entitled to all profits and responsible for all business debt, loses and liability.
+
+Advantages of sole proprietorship
+1. The process of registration is generally uncomplicated
+2. It allows the business man the opportunity to own the name of the business as an intellectual property
+3. It provides competitive leverage for the business man
+4. Sole propretors are the sole owners of their business and do not split profits with other owners
+
+Disadvantages
+1. The owner carries the financial responsibility for everything (debts, losses etc)
+2. Due to the owner carring all the responsibility, they are susceptible to wearing out (they are the manager, accountant e.t.c)
+3. Raising capital from outside sources is a difficult task
+4. In charge of every aspect despite having limited knowledge or experience in alot of other areas
+5. The success of most sole proprietorships is closely tied to the owner, the business is unable to survive if the owner falls sick or dies.
+
+
+Partnership Business
+
+The partnership law of each state provides direction for the operation of operation of partnership business. The draft partnership law was
+prepared by the Law Reform Commission in 1990. The operation of this form of business is still dictated by each state of the federation
+
+Forms of Patnership
+There are two(2) types
+- General Partnership
+- Limited Partnership
+
+General Partnership
+Three(3) essential elements to a general partnership:
+1. Joint ownership of the Business
+2. Sharing of profits and losses, and
+3. Equal right in managing the business
+
+Limited Partnership
+In a limited partnership there is one general partner and then one or more limited partners. The general partner is responsible for manageing
+the business while the limited partner contributes only assets
+
+--------------
+Advantages of General Partnership:
+1. Partnership Buisness do not have to pay income tax
+2. Easy to establish.
+3. Increased ability to raise funds
+4. More Knowledge, skills, and contacts (from owners)
+5. Improved management with more than one owner
+
+Disadvantages of a General Partnership:
+1. Partners are jointly and severally liable for the actions of other partnership obligations including contracts, torts, breaches of trust. Read more.
+2. Each partner is individually responsible for the debts and obligations of the business
+3. A partner cannot transfer interest in the business without the unanimous consent of other partners
+4. Partnership can potentially be unstable, in a case where a partner wants to withdraw from the business or dies
+
+--------------
+Advantages of a Limited Partnership:
+1. The limited partner is only responsible for the amount of capital he/she contributes to the business
+2. Easier to attract investors
+3. Profits and losses pass through the business to the partners, who are taxed on their own personal income tax returns
+4. Limited partners get to share in the profits and losses without having to prticipate in managing the buisness
+
+Disadvantages of a Limited Partnership:
+1. General partner is personally responsible for the debts
+2. if the limited partner becomes active in the business, they may have general-partner personal responsibilities
+
+--------------
+
+Registered Companies
+The Companies and Allied Matters Act provides the entrepreneurs with the opportunity to register three broad category of companies for the
+purpose of carrying out profitable business
+1. A company limited by shares
+2. A company limited by guarantee
+3. An unlimited company
+
+Private Companies (LTD)
+A private company is a company which is stated in its memorandum and articles of association to be a private company. It must by its article
+restrict the transfer of shares. It must have nothing less than 2 members and nothing more than 50 members. Any company other than a private
+company can be a public company
+The Different types of Companys that are identified under the Act:
+a. Public Company Limited by shares
+b. Private Company Limited by shares
+c. Public Company Limited by guarantee
+d. Private Company Limited by guarantee
+e. Public Unlimited Company
+f. Private Unlimited Company
+
+Requirements for registration of a company shall include the following:
+1. Evidence of approval of name
+2. Duly completed set of incorporation forms
+3. Duly stamped Memorandum and Articles of Association
+4. Evidence of consent letter (where applicable)
+5. Proficiency certificate (where applicable)
+6. Residence permit in case of resident foreigners
+e.t.c.
+
+Formation of Companies
+Right to Form a Company
+
+Persons who are not allowed to form a company
+1. A person who is less than 18 years of age
+2. A person who is of unsound mind
+3. An undercharged bankrupt
+4. A person disqualified under S.254 of the Act from being a director of a company (i.e fraudulent persons)
+5. A corporate body in liquidation
+
+Choice of Name
+
+Once two or more persons have agreed to form a company, the first step for them is to choose a name for the company. Normally two(2) names 
+are chosen. The preferred name and the alternative name. The name may be the individuals' personal names or a combination of names of the 
+promoters or any name of there choice. 
+It is advisable to first search for availability of the name using the directory of registered companies published by the ________________?
+Ans: Corporate Affairs Commission (CAC),
+
+Prohibited and Restricted Names
+Promoters of a company are free to choose any names for their companies, BUT there are some certain names that are prohibited from using
+
+No company shall be registered by a name which:
+i. That already exists or is identical to an existing company
+ii. Contains the word "chambers of commerce" unless it is a company limited by guarantee
+iii. Is capable of misleading as to the true nature or extent of its activities
+iv. Is offensive, undesirable or not supported by public policy
+v. Would violate any existing trademark or business name unless granted consent from the owner of the trademark or business
+
+Restricted Names
+1. Federal,
+   National, 
+   Regional or State Government
+2. Municipal or Chartered
+3. Co-operative or Building Society
+4. Group or Holding
+5. Any word suggesting temporary business arrangement
+
+
+
+Free Trade Zones (FTZ)
+The Free Trade Zones are designed to attract foreign direct investment(FDI). There are presently 31 FTZs with 14 operational and 17 under
+construction as at April 2015.
+Some Available FTZs are:
+Calabar Free Zone
+kANO Free Zone
+Lekki Free Zone
+Tinapa Free Zone
+Oloka Free Zone
+Onne Oil and Gas Export Free Zone
+
+Foreign investors can setup buisness directly in FTZ without necessarily incorporating the company. Registered companies can also register
+seperately for a FTZ entity in order to enjoy the benefits of 100% capital and profit, exemption from all taxes
+
+
+Compliance Requirements for Business operation
+1. Companies and Allied Matter Act
+2. The Company and Income Tax Act
+3. Capital Gains Tax
+4. Value-Added Tax Act
+5. Labour Law
+6. Trade Disputes
+7. Intellectual Property (IP) Protection
+
+EXAM QUESTION TIP: Discuss all 7 requirements for business operation
+
+
+1. Companies and Allied Matter Act
+The submission of Annual report for both private and public company is mandatory and compulsory. This is to be submitted after the first
+12 months of operation. There are provisions for 3 months extension after the end of your 12 months period. Failure to file annual returns
+attracts penalty. If a business fails to file annual returns for over 3 consecutive years the company is removed from the register of
+companies
+
+spin-off: Annual report is basically sending a document of all the activities of the company in the past 12 months
+
+2. The Company and Income Tax Act
+This Act allows companies to be taxed each year of assessment at a specific rate on the companies profits. Companies Income Tax is chargeable
+at a rate of 30% of a company's profits. But Newly registered companies on the other hand have up to 18 months after registration, no later
+than 6months after the end of the first accounting period, to file tax returns. The rate of withholding taxes to be deducted at sources are
+between 5% and 10%
+
+3. Capital Gains Tax
+The capital Gains Tax Act regulates capital gains tax in Nigeria.
+
+What is Capital Gain: the amount by which the selling price of an asset exceeds the purchase price; the gain realized when the asset is sold 
+is the capital gain(** Read the whole line again to grab)
+e.g i bought a nike shoe 40k and sold it 50k. my capital gain here is 10k
+
+Capital Gain tax is chargeble on all forms of property, whether in Nigeria or outside Nigeria. The rate of capital gains tax is 10%. But
+capital gains tax is not chargeable on gains gotten from acquiring the shares of a company that increases
+
+Organizations exempted from paying capital gains:
+- Ecclesiastical(means associated with a church), charitable or educational institutions;
+- Any statutory or registered friendly society;
+- Any cooperative society under the cooperative societies law of any state;
+- Any trade union registered under the Trade Unions Act; and 
+- Local government councils
+
+4. Value-Added Tax Act
+This Act requires companies to pay taxes on goods and services which are consumed by individuals, corporate organizations and others.
+Value added tax is charged at 5% for all except a select few
+
+5. Labour Law
+This Act governs the labour sector in Nigeria. This act is limited to workers only - not administrators, executives or professionals But 
+instead to junior level workers performing manual labour or clerical duties (religious duties)
+...
+
+6. Trade Disputes
+This Act is in charge of regulating the settlement of trade disputes and makes it unlawful for any person to commence an action that brings
+about a trade dispute.
+
+Employees safety in the workplace: The Factories Act and the Employees' Compensation Act (ECA) seeks to protect employees working in potentially
+harzadous conditions and to regulate the payment of compensations to employees who are injured in the course of their employment.
+
+The Factories Act requires factories whose employees are exposed to occupational hazards to be registered and also provides regulations for
+the safety of workers, as well as imposing penalties for any breaches of the regulations.
+
+what is ECA?
+Ans: Employees Compensation Act
+
+7. Intellectual Property (IP) Protection
+Note: This IP does not mean Internet Protocol 😜
+
+The Nigerial legal system affords protection to Intellectual Property rights in the following categories
+1. Copyright
+2. Trademark and
+3. Patents
+
+
+1. Copyright
+A copyright is a legal right that grants the creator of an original work exclusive right to its use and distribution, usually for a limited
+time(before you are demanded to renew the copyright).
+Who is the body charged with the enforcement and protection of copyright in Nigeria?
+Ans: Nigerian Copyright Commission (NCC)
+
+The ownership of copyright is vested in the creator of a copyright work, usually referred to as the ________ of the work.
+Ans: "author"
+
+A person can obtain the right by transfer or other legal means and become the owner of the copyright. Yes or No?
+Ans: Yes
+
+The Scope of Copyright Protection
+1. Literary works
+2. Musical works
+3. Artistic works
+4. Cinematograph works
+5. Sound recording and
+6. Broadcasts
+
+For it to be eligible for coppyright protection, the work must be sufficiently original and must be in a form which is expressed e.g. in 
+writing, a painting, a musical recording etc. You can't have copyright protection over something in your head which has not been expressed
+
+Process for registering a copyright
+You can register a copyright with the _______?
+Ans: NCC
+by submitting a completed registration form, along with two (2) copies of the work, and evidence of payment of the prescribed fee. Registration
+can be done online or physically at the NCC office
+
+
+2. Trademark
+A trademark is a word, phrase, symbol or design, or a combination of words, phrases, symbols or designs, that identifies and distinguishes the
+source of the goods of one party from those of others.
+Once a trademark is registered, it enables the trademark owner to amongst other things- take legal action against anyone who uses the 
+registered mark without permission, sell or give license to the registered trademark(to make money), and allows owners to legally put the
+® symbol next to the brand to show ownership and warn others against using it
+
+which legislation, governs the registration of trademarks?
+Ans: The Trade Marks Act
+
+which government agencies are in charge of the registration?
+Ans: Trademarks
+     Patents and Designs Registry
+     Commercial Law Department
+     Federal Ministry of Industry
+     Trade and Investment
+
+Eligible item for trademark registration
+1. Device, brand, heading, label, ticket, name, signature, word, letter, numeral, or any combination thereof;
+
+For it to be eligible for registration it must contain atleast one(1) of the below
+1. The name of a company, individual, or firm, represented in a special or particular manner;
+2. The signature of the applicant for registration or some predecessor in his business
+3. An invented word or invented words;
+4. Any other distinctive mark
+
+Importance of Registering a Trademark
+In order to have exclusive use of your trademark, it is important u register it. Unlike copyright, with trademark you don't have
+automatic protection given to the owner. Not registering a trademark would mean someone else could use it without permission from you
+
+Process of Registering a Trademark
+1. Availability Search: You conduct a search to see if there are registered marks that are similar to yours
+2. Trademark Application: If there is no similar mark, you may apply for registration. if your mark is deemed registerable the 
+   registry issues a Letter of Acceptance as an approval. After that the mark is advertised in the Trademarks journal published by
+   a Trademarks Office
+3. Application for Certificate: Once the proposed mark has been advertised, an interested party may oppose the registration within
+   2 months of the advertised journal. If the mark is not opposed within 2 months you may then apply to the Registrar for a 
+   Trademark Certificate
+
+A trademark is valid for an initial period of 7 years and then for further renewable in 14-year periods
+
+
+Patent
+
+What is a Patent: A patent is an exclusive right granted for an invention, which is a product or a process that provides a new way
+of doing something, or offers a new technical solution to a problem
+A patent basically grants the inventor a temporary but exclusive monopoly of the commercial exploitation of that invention. It gives
+the inventor the right to exclude others from making, using, or selling that particular invention
+
+The legislation that governs the grant of patents is the ________________?
+Ans: Patents and Designs Act
+
+The Government agencies that grants patents are:
+1. Trademarks,
+2. Patents and Designs Registry,
+3. Commercial Law Department,
+4. Federal Ministry Of Industry,
+5. Trade And Investment
+
+Eligibility for Patent Registration
+1. Must be new
+2. Must have an inventive step that is not obvious to anyone
+3. Must be capable of being made and used
+4. Must not be against public policy or morality
+
+Need to register a Patent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
