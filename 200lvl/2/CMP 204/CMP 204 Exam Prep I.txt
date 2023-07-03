@@ -1,0 +1,501 @@
+EXAM PREP
+
+
+
+
+
+FILES
+
+1a. What is a File?
+ Ans: A file is a named collection of related information that is recorded on secondary storage such as magnetic disks, magnetic tapes and optical disks
+
+ b. Is it safe to say that generally "a file is a sequence of bits, bytes, lines or records whose meaning is defined by the files creator and user"?
+ Ans: Ya it is
+
+ File Structure
+ c. _______ has a certain defined structure according to its type?
+ Ans: A file
+
+ d. A File Structure should be according to a required format that the operating system can understand?
+ Ans: true
+
+ e. ______ kind of file is a sequence of characters organized into lines?
+ Ans: A Text file
+
+ f. ______ kind of file is a sequence of procedures and functions?
+ Ans: A Source file
+
+ g. _________ kind of file is a sequence of bytes organized into blocks that are understandable by the machine?
+ Ans: An Object file
+
+ h. When an operating system defines different file structures, it also contains the ______ to support these file structure?
+ Ans: Code
+ 
+ 
+ Types of Files
+ a. What are the three(3) basic types of files?
+ Ans: Regular: Stores data(text, binary, and executable)
+      Directory: Contains information used to access other files
+      Special: Defines a FIFO (first-in, first-out), pipe file or a physical device
+
+ b. Which of the three basic type of files store data?
+ c. Which of the three basic type of files defines a FIFO (first-in, first-out), pipe file or a physical device?
+ d. Which of the three basic type of files contains information used to access other files?
+
+ e. All file types recognized by the system(computer) fall into one of these categories. However, the operating system uses many variations of these basic types. true or false?
+ Ans: true
+
+ f. Which of the basic files are the most common file type?
+ Ans: regular (also known as ordinary files)
+
+ Text Files
+ g. What are text files?
+ Ans: Regular files(or Ordinary files) that contain information readable by the user
+
+ h. The information in the text file is stored in ______?
+ Ans: ASCII
+
+ i. Can the lines of a text file contain NUL characters?
+ Ans: No
+
+ j. The lines of a text file cannot exceed {LINE_MAX} bytes in length, including the new-line character. true or false?
+ Ans: true
+
+ k. Text files can contain other nonprintable characters(other than NUL). true or false?
+ Ans: true
+
+
+ Binary Files
+ l. Binary files are regular files that contain information readable by _________?
+ Ans: the computer
+
+ m. Binary files may be executable files that instruct the system to accomplish a job. true or false?
+ Ans: true
+
+ n. Commands and programs are stored in executable __________?
+ Ans: binary files
+
+ o. Special compiling programs translate _______ text into _________?
+ Ans: ASCII, binary code
+
+ p. What is the difference between text and binary files?
+ Ans: The only difference between text and binary files is that text files have lines of less than {LINE_MAX} bytes, with no NUL characters, each terminated by a new-line character.
+
+ 
+ Directory Files
+ a. What are directory files?
+ Ans: files that contain information the system needs to access all types of files, but they do not contain the actual file data
+
+ b. Which occupy less space. regular files of directory files?
+ Ans: directory files
+
+ c. Each directory entry represents either a file or a subdirectory. true or false?
+ Ans: true
+
+ d. Are the following statements true or false:
+    Each entry contains the name of the file and the file's index node reference number (i-node). 
+    The i-node points to the unique index node assigned to the file. 
+    The i-node describes the location of the data associated with the file?
+ Ans: true
+
+ e. Directories are created and controlled by?
+ Ans: seperate sets of commands
+
+ 
+
+ Special Files
+ a. Special files define devices for the system or temporary files created by processes. true or false?
+ Ans: true
+
+ b. What are the 3 basic types of special files?
+ Ans: FIFO
+      block and
+      Character
+
+ c. What does FIFO mean?
+ Ans: first-in, first-out
+
+ d. FIFO files are also called _______?
+ Ans: pipes
+
+ e. How are pipes created?
+ Ans: Pipes are created by one process to temporarily allow communication with another process
+
+ f. Pipe files cease to exist at what point?
+ Ans: When the first process finishes
+
+ g. Which type of Special files define devices?
+ Ans: block and
+      character files
+
+ h. Every file has a set of permissions (called access modes) that determine who can read, modify, or execute the file. true or false?
+ Ans: true
+
+
+
+
+
+
+FUNDAMENTAL FILE PROCESSING OPERATIONS
+2a. The fundamental file processing operations are?
+ Ans: _ Physical _les and logical _les
+      _ Opening and closing _les
+      _ Reading from _les and writing into _les
+      _ How these operations are done in C and C++
+      _ Standard input/output and redirection
+      _ Sample programs for _le manipulation
+
+ 
+ Physical Files and Logical Files
+ b. _______ is a collection of bytes stored on a disk or tape?
+ Ans: Physical Files
+
+ c. _______ is a "channel" (like a telephone line) that connects the program to a physical file?
+ Ans: Logical Files
+
+ d. The program (or application) sends (or receives) bytes to (or from) a file through the logical file. true?
+ Ans: true
+
+ e. ____________ is responsible for associating a logical file in a program to a physical file in disk or tape?
+ Ans: The operating system
+
+ e1. Writing to or reading from a file in a program is done through the operating system. true or false?
+ Ans: true
+
+ f. From the program point of view, How are input devices (keyboard) and output devices (console, printer, etc) treated?
+ Ans: As files (places where bytes come from or are sent to)
+
+ g. There may be thousands of physical files on a disk, but a program only have about ___ logical files open at the same time?
+ Ans: 20
+
+ h. The logical file has a logical name used for referring to __________?
+ Ans: the file inside the program
+
+ i. This logical name is a variable inside the program, for instance outfile In C, C++ and Python can be decleared as follow?
+ Ans: FILE * outfile;              // C
+      fstream outfile;             // C++
+      fhand = open('mytext.txt')   // Python
+
+
+ Opening Files
+ a. Opening a file makes it ready for use by _________?
+ Ans: the program
+
+ b. What are the two options for opening a file?
+ Ans: Open an existing file
+      Create a new file
+
+ A. In C Programming Language
+ i. FILE * outfile;
+    outfile = fopen("myfile.txt", "w");
+
+    What does the 1st argument("myfile.txt") mean, and the 2nd argument("w") mean?
+ Ans: The first argument:  indicates the physical name of the file
+      The second argument: the mode to open the file in
+
+ ii. What does the 3 major modes mean: "r", "w", "a"?
+ Ans: "r" = open for reading,
+      "w" = open for writing (file need not to exist),
+      "a" = open for appending (file need not to exist),
+
+
+
+ B. In C++ Programming Language
+ i. fstream outfile;
+    outfile.open("myfile.txt",ios::out);
+
+    What does the 1st argument("myfile.txt") mean, and the 2nd argument(ios::out) mean?
+ Ans: The first argument:  indicates the physical name of the file
+      The second argument: an integer indicating the mode to open the file in
+
+
+ C. In Python Programming Language
+ d. fhand = open('myfile.txt',’w’)
+
+    What does the 1st argument("myfile.txt") mean, and the 2nd argument('w') mean?
+ Ans: The first argument:  indicates the physical name of the file
+      The second argument: the mode to open the file in
+
+ 
+
+ Closing Files
+ a. Closing Files is like \hanging up" the line connected to a file. true or false?
+ Ans: true
+
+ b. After closing a file. what happens?
+ Ans: The logical name is free to be associated to another physical file
+
+ c. Closing a file used for output guarantees that everything has been written to the physical file. true or false?
+ Ans: true
+
+ d. Bytes are not sent directly to the physical file one by one; they are first stored in a buffer to be written later as __________?
+ Ans: a block of data
+
+ e. When the file is closed the leftover from the buffer is pushed to the _______?
+ Ans: file
+
+ f. Files are usually closed automatically by the operating system at the end of program's execution. But it's better to close the file to prevent data loss in case the program does not terminate normally. I agree or I disagree?
+ Ans: I agree
+
+ g. Are the below ways of closing files correct in the various programming languages?
+     In C :
+     fclose(outfile);
+
+     In C++ :
+     outfile.close();
+
+     In python:
+     >>> fhand.close()
+
+ Ans: true
+
+
+
+ Reading
+ a. Data can be read from a file and placed on a variable inside a program. true or false?
+ Ans: true
+
+ b. Generic Read Function:
+    Read(Source_file, Destination_addr, Size)
+    Source file = logical name of a file which has been opened
+    Destination addr = first address of the memory block were data should be stored
+    Size = number of bytes to be read
+
+    is the above pseudo syntax and explanations correct?
+ Ans: Yes, they are
+
+ c. In C (or in C++ using C streams) :
+    char c;
+    FILE * infile;
+    ...
+    infile = fopen("myfile,"r");
+    fread(&c,1,1,infile);
+ 
+    Is the above code the correct way of reading from a file(in C Programming Language)?
+ Ans: Yes
+
+ d. What does the 4th line mean: fread(&c,1,1,infile)?
+ Ans: 1st argument: destination address (address of variable c)
+      2nd argument: element size in bytes (a char occupies 1 byte)
+      3rd argument: number of elements
+      4th argument: logical file name
+
+ e. In C++ :
+    char c;
+    fstream infile;
+    infile.open("myfile.txt", ios::in);
+    infile >> c;
+
+    Is the above code the correct way of reading from a file(in C++ Programming Language)?
+ Ans: Yes
+
+ e1. Note that in the C++ version, the operator >> communicates the same info at a higher, level Since c is a char variable, it's implicit that only 1 byte is to be transferred. true or false?
+ Ans: true
+
+ f. In Python;
+    fhand = open('data.txt')
+    count = 0 
+    for line in fhand:
+        count = count + 1
+
+    Is the above code the correct way of reading from a file(in Python Programming Language)?
+ Ans: Yes (we are looping through each line of the opened file "data.txt")
+
+ 
+
+
+ Writing
+ g. Data can be writen from a variable inside a program into a file?
+ Ans: Generic Read Function:
+      Write (Destination_File, Source_addr, Size)
+      Destination file = logical file name of a file which has been opened
+      Source addr = first address of the memory block where data is stored
+      Size = number of bytes to be written
+
+ g1. In C++ :
+     char c;
+     FILE * outfile;
+     outfile = fopen("mynew.txt","w");
+     fwrite(&c,1,1,outfile);
+
+     Is the above code the correct way of writing to a file(in C Programming Language)?
+ Ans: Yes
+
+ g2. In C++ :
+     char c;
+     fstream outfile;
+     outfile.open("mynew.txt",ios::out);
+     outfile << c;
+
+     Is the above code the correct way of writing to a file(in C++ Programming Language)?
+ Ans: Yes
+
+
+ g3. In Python;
+     fout = open('output.txt', 'w')
+     line1 = 'This here's thewattle,\n' 
+     fout.write(line1)
+
+     Is the above code the correct way of writing to a file(in Python Programming Language)?
+ Ans: Yes (we are looping through each line of the opened file "data.txt")
+
+
+
+ Detecting End-of-File
+ a. Whe we try to read a file and the file has ended, what happens?
+ Ans: The read is unsuccessful
+
+ b. Are the following codes the correct way to check if a file has ended in the various languages?
+ Codes:
+    In C : Check whether fread returned value 0
+    int i;
+    i = fread(&c,1,1,infile);
+    if (i==0) // file has ended
+    
+    in C++: Check whether infile.fail() returns true
+    infile >> c;
+    if (infile.fail()) // file has ended
+    
+    In python: check if the file read call returns an empty string 
+    open_file = open("file.txt", "r")
+    text = open_file.read()
+    eof = open_file.read()
+    if eof == '':
+	print('EOF')
+
+ b. Is the below table showing: Logical file names associated to standard I/O devices and re-direction. correct?
+    Logical file names associated to standard I/O devices and re-direction.
+    purpose	     |default meaning   |logical name
+                     |                  |in C	|in C++
+    Standard Output  |Console/Screen    |stdout |cout
+    Standard Input   |Keyboard	        |stdin 	|cin
+    Standard Error   |Console/Screen	|stderr |cerr
+ Ans: It is correct
+
+ c. What is the default meaning of standard Input, Standard Output and Standard Error?
+ Ans: Standard Input = Keyboard
+      Standard Output = Console/Screen
+      Standard Output = Console/Screen
+
+ d. What are the logical names for standard Input, Standard Output and Standard Error(In C++)?
+ Ans: Standard Input = cin
+      Standard Output = cout
+      Standard Output = cerr
+
+ e. What are the logical names for standard Input, Standard Output and Standard Error(In C)?
+ Ans: Standard Input = stdin
+      Standard Output = stdout
+      Standard Output = stderr
+
+ f. Do these streams need to be open or closed in the program?
+ Ans: No they don't
+
+ g. Note that some operating systems allow this default meanings to be changed via a mechanism called _____________?
+ Ans: redirection
+
+ h. What are the two types of redirection?
+ Ans Input redirection
+     Output redirection
+
+ g. In Unix and Dos:(suppose that prog is the executable program). Show both types of redirections in code?
+ Ans: Input redirection (standard input becomes file in.txt)
+      prog < in.txt
+
+      Output redirection (standard output becomes file out.txt. Note that standarderror remains being console)
+      prog > out.txt
+
+      You can also do : prog < in.txt > out.txt
+
+ 
+
+
+
+ Sample Programs for File Manipulation
+ 1. show programs in C++ to display the contents of a file in the screen
+    Algorithm:
+    - Open file for input (reading)
+    - While there are characters to read from the input file :
+    - Read a character from the file
+    - Write the character to the screen
+    - Close the input file
+
+ Code:
+    // listc.cpp
+    #include <stdio.h>
+    main() {
+       char ch;
+       FILE * infile;
+       infile = fopen("A.txt","r");
+       while (fread(&ch,1,1,infile) != 0)
+       fwrite(&ch,1,1,stdout);
+       fclose(infile);
+    }
+
+ Executable file for this Code:
+ listc.exe > copy.txt
+ // listcpp.cpp
+    #include <fstream.h>
+    main() {
+       char ch;
+       fstream infile;
+       infile.open("A.txt",ios:in);
+       infile.unsetf(ios::skipws); // include white space in read
+       infile >> ch;
+       while (! infile.fail()) {
+           cout << ch ;
+           infile >> ch ;
+       }
+    infile.close();
+    }
+
+
+
+
+ File-System Structure
+ a. Hard disks have two important properties that make them suitable for secondary storage of files in file systems. Name them?
+ Ans: 1) Blocks of data can be rewritten in place, and 
+      2) they are direct access, allowing any block of data to be accessed with only (relatively) minor movements of the disk heads and rotational latency.
+
+ b. How are discs usually accessed?
+ Ans: physical blocks
+
+ c. Block sizes range from _______ to ___ or larger?
+ Ans: 512 bytes, 4k
+
+ d. File systems organize storage on disk drives, and can be viewed as a layered design. true or false?
+ Ans: true
+
+ e. At the lowest layer are the physical devices, consisting of the magnetic media, motors & controls, and the electronics connected to them and controlling them. true or false?
+ Ans: true
+
+ f. Modern disk put more and more of the electronic controls directly on the disk drive itself, leaving relatively little work for the disk controller card to perform. true or false?
+ Ans: true
+
+ g. I/O Control consists of device drivers, special software programs ( often written in assembly ) which communicate with the devices by reading and writing special codes directly to 
+    and from memory addresses corresponding to the controller card's registers. Each controller card ( device ) on a system has a different set of addresses ( registers, a.k.a. ports ) 
+    that it listens to, and a unique set of command codes and results codes that it understands. true or false?
+ Ans: true
+
+ h. The basic file system level works directly with the device drivers in terms of retrieving and storing raw blocks of data, without any consideration for what is in each block. 
+    Depending on the system, blocks may be referred to with a single block number, ( e.g. block # 234234 ), or with head-sector-cylinder combinations. true or false?
+ Ans: true
+
+ i. The file organization module knows about files and their logical blocks, and how they map to physical blocks on the disk. In addition to translating from logical to physical blocks, 
+    the file organization module also maintains the list of free blocks, and allocates free blocks to files as needed. true or false?
+
+ j. The logical file system deals with all of the meta data associated with a file ( UID, GID, mode, dates, etc ), i.e. everything about the file except the data itself. 
+    This level manages the directory structure and the mapping of file names to file control blocks, FCBs, which contain all of the meta data as well as block number information for
+    finding the data on the disk. true or false?
+
+ k. The layered approach to file systems means that much of the code can be used uniformly for a wide variety of different file systems, and only certain layers need to be filesystem specific. true or false?
+    
+ l. Common file systems in use include?
+ Ans: The UNIX file system,
+      UFS,
+      The Berkeley Fast File System,
+      FFS,
+      Windows systems FAT,
+      FAT32, 
+      NTFS, 
+      CD-ROM systems ISO 9660, and 
+      Linux the extended file systems ext2 and ext3 ( among 40 others supported )

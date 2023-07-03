@@ -1,0 +1,42 @@
+1. SVG file
+Description: Scalable Vector Graphics (SVG) is an XML-based vector image format 
+for two-dimensional graphics with support for interactivity and animation.
+
+What does it store: svg files store XML based vector language that can be learnt and written but is 
+preferably gotten using a tool like adobe illustrator.
+
+What is it used for: it is used to describe the graphic or image(how it should look), an SVG file can be scaled to different sizes 
+without losing quality(unlike jpeg and png) making it resolution-independent.
+
+
+
+2. PDF file
+Descrition: The PDF is an Abbreviation that stands for Portable Document Format
+
+What does it store: it stores vector graphics, text, and bitmap graphics
+
+What is it used for: The PDF file  file maintains the original document layout, which makes it helpful for signing paperwork and sharing plans. Y
+ou can email, print and scan using this file format. And it is also great for sending and uploading your resume
+
+
+
+3. TXT file
+Description: The TXT file is a standard text based document that contains only text
+
+What does it store: it stores plain text which can be opened and edited in any text-editing or word-processing program
+
+what is it used for: it is used to write notes, instructions or just plain text only, anything else could result in 
+symbols or display an error
+
+
+
+4. HTML
+Description: The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
+
+What does it store: The HTML file stores tags, symbols, texts that define the page layout and content of the webpage, including the text, 
+tables, images, and hyperlinks displayed on the webpage
+
+what is the structure: The HTML5 document is composed of 3 parts which are: the html tag, header tag and body tag
+
+what is it used for: it is the fundamental building block for any webpage out on the web today. Just like in the building of a house(website), 
+HTML is the foundation of that house and the blocks that make up the shape and size of that house.

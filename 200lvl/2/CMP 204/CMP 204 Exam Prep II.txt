@@ -1,0 +1,148 @@
+EXAM PREP II
+
+
+
+
+
+
+FILE ORGANIZATION
+
+
+1a. What is a database?
+ Ans: A database is a stored as a collection of files
+
+ b. Each file is a sequence of records and a record is a sequence of fields. true or false? Ans: true
+ 
+ c. What are the approaches to organizing records in files?
+ Ans: – Assume the record size is fixed
+      – Each file has records of one particular type only
+      – Different files are (typically) used for different relations
+
+ Fixed-Length Records
+ d. What are the simple approach to Fixed-Length Records?
+ Ans: –	Store record i starting at byte n∗(i−1), where n is the size of each record.
+      – Record access is simple but records may span blocks.
+
+ e. Approaches to deletion of record i(alternatives to avoid fragmentation)
+ Ans: –	move records i +1,...,n to i,...,n −1
+      –	move record n to i
+      –	Link all free records in a free list
+
+ Free List
+ a. Maintained in the blocks that contains _____________?
+ Ans: deleted records
+
+ b. Store the address of the first record whose content is deleted in the file header
+    Use this first record to store the address of the second available record, and so on. One can think of these stored 
+    addresses as pointers, because they “point” to the location of a record. (linked list)
+
+ c. More space efficient representation: reuse space for normal attributes of free records to _________?
+ Ans: store pointers
+
+ d. Requires careful programming: Dangling pointers occur if a record is moved or deleted and another record contains a pointer 
+    to this record; that pointer then doesn’t point any longer to the desired record. true or false?
+ Ans: true
+
+ 
+ Variable-Length Records
+ a. Variable-length records arise in database systems in several ways. Name them?
+ Ans: –	Storage of multiple record types in a file.
+      –	Record types that allow variable length for one or more fields (e.g., varchar)
+
+ b. Approaches to store variable length?
+ Ans: 1. End-of-Record marker
+         – difficult to reuse space of deleted records (fragmentation)
+         – no space for a record to grow (e.g., due to an update); requires moving
+      2. Field delimiters (e.g., a $)
+          – requires scan of record to get to n-th field value
+          – requires a field for a null value
+
+      3. Each record has an array of field offsets
+          + For the overhead of the offset, we get direct access to any field
+          + Null values: begin/end pointer of a field point to the same address
+
+ c. Variable length records typically cause problems in case of (record) attribute modifications. List 3?
+ Ans: - Growth of a field requires shifting all other fields
+      - A modified record may no longer fit into the block (leave forwarding address at the old location)
+      - A record can span multiple blocks
+
+
+
+ Block formats for variable length records
+ d. Each record is identified by a ____________?
+ Ans: Record Identifier(rid) (or tuple identifier (tid))
+
+ e. The rid/tid contains ____________ and ____________?
+ Ans: Number of block and position in block
+
+ f. __________ simplifies shifting a record from one position/block to another position/block?
+ Ans: rid/tid
+
+ g. Allocation of records in a block is based on ____________?
+ Ans: slotted block structure
+
+ h. Block header contains ______________, _______________, and _______________?
+ Ans: number of record entries, 
+      end of the free space in the block, and 
+      location and size of each record
+
+ i. How are records inserted into a block. The start of the block or the end of the block?
+ Ans: the end of the block
+
+ j. Can records be moved around in block and why?
+ Ans: Yes they can, to keep them contiguous(side-by-side)
+
+ h. What is the full meaning of rid?
+ Ans: Record Identifier
+
+ 
+
+ Organization of Records in Files
+ a. A file must efficiently support three(3) things?
+ Ans: -	insert/delete/update of a record
+      -	access to a record (typically using rid)
+      - scan of all records
+ 
+ b. List the ways to organize blocks (pages) in a file?
+ Ans: Heap File (unsorted file): simplest file structure; contains records in no particular order; record can be placed anywhere in the file where there is space
+      Sequential File: records are stored in sequential order, based on the value of the search key of each record
+      Clustered Index: related to sequential files
+
+ c. Which of the following stores record in no particular order: Heap File, Sequential File, Clustered Index?
+ Ans: Heap File
+
+ 
+ 1. Heap File Organization
+ d. At DB run-time, pages/blocks are allocated and ___________?
+ Ans: deallocated
+
+ c. Information to be maintained for a heap file includes. List 3?
+ Ans: Pages, free space on pages, records on a page
+
+ f. Typical implementation of a heap file is based on two ____________?
+ Ans: doubly linked list of pages; starting with header block
+
+ g. Two lists can be associated with header block including
+ Ans: 1) full page list, and 
+      2) list of pages having free space
+
+ 
+
+ 2. Sequential File Organization
+ h. Sequential File are suitable for applications that require sequential(ordered) processing of the entire file. true or false?
+ Ans: true
+
+ i. The records in the file are ordered by a __________?
+ Ans: search-key
+
+ j. Deletions of records are managed using __________?
+ Ans: pointer chains
+
+ k. How are Insertions done in Seqeuential Files?
+ Ans: Must locate the position in the file where the record is to be inserted
+      –	if there is free space, insert the record there
+      – if no free space, insert the record in an overflow block
+      – in either case, pointer chain must be updated
+
+ l. If many record modifications (in particular insertions and deletions). Correspondence between search key order and physical order can be totally lost. This is called?
+ Ans: File reorganization

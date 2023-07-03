@@ -1,0 +1,6 @@
+NIN DATA
+
+Name: nathan
+Age: 39
+Gender: mal
+
