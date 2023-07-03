@@ -38,8 +38,12 @@ ANSWERS
         They help perform operations such as AND, OR, NOT e.t.c
 
    e. Computer Buses (types and explain)
+   ans: These are sets of wires that aid communication and help in transferring of data in 
+        and out of the computer system 
 
 2. Define the following:
    a. K-map (and also add 4 rules and the advantages and disadvantages)
+   ans: A K-Map also known as Karnaugh Map, is a graphical method used in 
+        simplifying boolean algebra expressions
    b. Fetch-Decode-Execute process
    c. Mention Benefits to studying Computer Architecture
