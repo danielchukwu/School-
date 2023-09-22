@@ -1,9 +1,9 @@
 CMP 411 EXAM PREP
 Best Practice: Study using a big screen device. Be it a laptop or a tablet. It won't be best to use phones (even though y'all ain't with your phones 😉)
 
-- There are a lot of words in this course that may come of new to you, try 
-  googling them to see their meaning, that should help you in your overall 
-  understanding of the questions being asked and the answers given
+- There are a lot of words in this course that may come off new, try   
+  googling them to see their meaning, that should help you in your 
+  overall understanding of the questions being asked and the answers given
 
 
 
@@ -29,16 +29,16 @@ ans: A model in general is a pattern, plan, miniaturized representation,
      object, system, or concept. Is this a valid definition of a model
 
 d. In science, Models are often ______________________?
-ans: theoretical constructs (that represent any particular thing with a set 
-     of variables and a set of logical and or quantitative relationships 
-     between them)
+ans: theoretical constructs (that represent any particular thing with a 
+     set of variables and a set of logical or quantitative 
+     relationships between them)
 
 e. Models in science are constructed to enable ________________?
 ans: reasoning within an idealized logical framework
 
 f. What is Modelling?
-ans: Modelling is the process of generating abstract, conceptual, graphical 
-     and/or mathematical models.
+ans: Modelling is the process of generating abstract, conceptual, 
+     graphical and/or mathematical models.
 
      or 
 
@@ -79,16 +79,18 @@ j. The model is open to manipulation which would be impossible, too
    expensive, or too impractical to perform on the system which it portrays
 ans: true
 
-k. The operation of the model can be studied, and from this _________________________________?
-ans: properties concerning the behavior of the actual system can be inferred
+k. The operation of the model can be studied, and from this 
+   _________________________________?
+ans: properties concerning the behavior of the actual system can be 
+     inferred
 
-l. What is a Computer Simulation (or Computer Model)?
+l. What is Computer Simulation (or Computer Model)?
 ans: it is a computer program that attempts to simulate an abstract model 
      of a particular system
 
 m. Computer simulations have become a useful part of mathematical  
-   modelling  of  many  natural  systems  in physics,  chemistry  and  
-   biology,  human  systems  in economics, psychology, and social science 
+   modelling of many natural systems in physics, chemistry and 
+   biology, human systems in economics, psychology, and social science 
    and in the process of engineering new technology, to gain insight into 
    the operation of those systems
 ans: Big facts
@@ -104,8 +106,8 @@ ans: Mathematical Model
 p. Computer Simulations are a useful adjunct to purely ___________________?
 ans: mathematical models in science, technology and entertainment
 
-q. The reliability and the trust people put in computer simulations depends 
-   on ________________?
+q. The reliability and the trust people put in computer simulations 
+   depends on ________________?
 ans: the validity of the simulation model
 
 r. List the 2 types of Computer Simulations?
@@ -136,11 +138,11 @@ ans: - particle-based
 
 t3. Explain particle-based and field-based?
 ans: 1. particle-based:
-        - where  there are n many discrete bodies and a set of differential 
+        - where there are n many discrete bodies and a set of differential 
           equations governing their interaction
      2. field-based:
-        - where there is a set of equations governing the time evolution of 
-          a continuous medium or field
+        - where there is a set of equations governing the time evolution 
+          of a continuous medium or field
 
 t4. An example of the former is a simulation of __________________________?
 ans: Galaxy formation (where the gravitational interaction between a finite 
@@ -388,26 +390,32 @@ ans: modeling > Computation > Implementation > Virtualization > Validation > Emb
 b. Draw the Modeling Process diagram?
 ans: Slide (page 24)
 
-c. What takes place at the Modeling stage?
-ans: A simplified formal description of a suitable extract from the item 
-     of interest, which will then serve as the basis for the subsequent computations
+Modeling
 
-c1. Modeling involves examining the real world, extraction of essential 
-    features from the real world and construction of the model using the 
-    extracted essential features.
-ans: true
+c. What takes place at the Modeling stage?
+ans: A simplified formal description (of a suitable extract) from the item 
+     of interest, which will then serve as the basis for the subsequent computations. 
+     It Involves 
+     - examining the real world
+     - extraction of essential features (from the real world) and 
+     - construction of the model (using the extracted essential features)
+
+Computation
 
 d. What takes place at the Computation stage?
 ans: The model will be preprocessed (e.g. discretized) so that it is 
      compatible with a computer platform. The solution of this 
      preprocessed model requires the identification of efficient algorithms
 
+Implementation
+
 e. What takes place at the Implementation stage?
-ans: The computational algorithms previously determined must be implemented 
-     efficiently (with respect to computational time and storage 
-     complexities, parallelization issues, etc.) on the target architecture 
+ans: The computational algorithms previously determined must be 
+     implemented efficiently on the target architecture 
      or architectures. This is essentially translating the algorithms at 
      the computation/simulation level into a software system
+
+Virtualization
 
 f. What takes place at the Visualization (data exploration) stage?
 ans: The data resulting from a simulation run must be interpreted. In 
@@ -415,6 +423,8 @@ ans: The data resulting from a simulation run must be interpreted. In
      in aero dynamics—this will be easy, in others—e.g., for high 
      dimensional data sets—extracting the relevant information from the 
      flood of numbers is a science of its own
+
+Validation
 
 g. What takes place at the Validation stage?
 ans: How reliable are the results? Sources for errors lurk in the model, 
@@ -424,6 +434,8 @@ ans: How reliable are the results? Sources for errors lurk in the model,
      manual experiments. Depending on the source of the error, the process 
      has to be restarted at the respective step and the pipeline has to be 
      traversed once more starting from this point.
+
+Embedding
 
 h. What takes place at the Embedding stage?
 ans: Simulations take place in a context—e.g., a development or production 
@@ -645,8 +657,8 @@ ans: - Pseudorandom Numbers
 e. Discuss Pseudorandom numbers?
 ans: - These numbers are generated by algorithms and are not truly random 
        but appear random.
-     - They are deterministic and based on an initial value called a seed. 
-     - If you use the same seed, you will get the same sequence of numbers. 
+     - They are deterministic and based on an initial value called a seed 
+     - If you use the same seed, you will get the same sequence of numbers 
      - Pseudorandom number generators are widely used in computer programs 
        and applications because they are computationally efficient and sufficient for many purposes
 
@@ -658,8 +670,8 @@ ans: - These numbers are generated from a source of true randomness
      - They are used in applications that require a high degree of 
        unpredictability and security, such as cryptographic systems.
 
-e2. __________ numbers are generated by algorithms and are not truly random 
-    but appear random
+e2. __________ numbers are generated by algorithms and are not truly 
+    random but appear random
 ans: Pseudorandom
 
 e3. __________ numbers are generated from a source of true randomness
@@ -709,9 +721,8 @@ ans: - Uniform Distribution: The RNG should produce numbers that are
        one random number should not provide any information about the next 
        number.
 
-     -  Periodicity: A good RNG should have a long period, meaning it takes 
-        a very long time for the sequence of numbers to repeat. Short 
-        periods can lead to predictable and non-random behavior.
+     -  Periodicity: A good RNG should have a long period, meaning it 
+        takes a very long time for the sequence of numbers to repeat. Short periods can lead to predictable and non-random behavior.
 
      - Reproducibility: While random numbers should be unpredictable, it 
        should be possible to reproduce the same sequence of random numbers 
@@ -939,7 +950,7 @@ f. A significant number of arrivals makes each customer wait in line
 ans: yes it does
 
 g. What are Queuing Models?
-ans: The are objects constructed to analyze the performance of a dynamic 
+ans: These are objects constructed to analyze the performance of a dynamic 
      system where waiting can occur
 
 h. List some of the goals of a queuing model?
@@ -1042,7 +1053,7 @@ ans: FIFO
 q4. In a priority queue discipline, each arrival has its ________?
 ans: priority
 
-q5. The arrival that has the highest priority is enters the ______ from 
+q5. The arrival that has the highest priority enters the ______ from 
     queue among waiting ________
 ans: Server,
      Customers
@@ -1069,8 +1080,9 @@ ans: - Balking
      - Jockeying
      
 r1. Explain each customer decision?
-ans: - Balking: when an arriving customer does not enter the queue due to 
-       the limited queue capacity. 
+ans: - Balking: 
+         when an arriving customer does not enter the queue due to the 
+         limited queue capacity. 
      - Reneging: 
          customer leaves the queue after waiting in a queue upon arrival. Without being served
      - Jockeying: 
