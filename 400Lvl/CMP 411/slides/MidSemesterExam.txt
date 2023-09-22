@@ -1,0 +1,9 @@
+CMP 411
+
+ANSWER ALL questions
+
+1a. With the aid of a sketched diagram, explain the phases in the modelling process. 10 marks
+ b. Differentiate between a discrete and continuous model. 5 marks
+
+2a. Using diagram, explain the operations of a single queue - multi-server model. 10 marks
+ b. List and explain the possible decisions customers may take on a queue. 5 marks
