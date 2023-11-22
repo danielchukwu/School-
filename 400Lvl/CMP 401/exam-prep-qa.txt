@@ -1,0 +1,492 @@
+Best Practice
+Study using a big screen device. Be it a laptop or a tablet. It won't be best to use phones (even though y'all ain't with your phones)
+
+Problem of Describing Syntax
+
+1. What is a language?
+Ans: A language is a set of strings of characters from some alphabets.
+
+b. How are sentences or statements formed?
+Ans: By combining strings of a language
+
+c. What does the syntax rules of a language specify?
+Ans: They specify which characters from the language's alphabet are in the language
+
+d. The formal description of the syntax of programming languages often do not include ____________________
+Ans: descriptions of the lowest-level syntactic units
+
+e. These lowest-level syntactic units are called ___________?
+Ans: Lexemes
+
+f. The lexemes of a programming language include its ____________, ____________, and ____________ among others
+Ans: numeric literals, operators, and special words
+
+g. The description of lexemes can be given by ____________________
+Ans: A lexical specification (usually separate from the syntactic description of the language)
+
+h. It is best to think of programs as _________, rather than of ______________?
+Ans: Strings of lexemes, characters
+
+i. Lexemes are partitioned into groups such as:
+Ans: variable names
+     Methods (functions)
+     Etc
+
+j. These groups are called ___________?
+Ans: identifiers
+
+k. Each group is represented by a ________ or ___________?
+Ans: name, token
+
+l. A token of a language is a category of its ___________?
+Ans: lexemes
+
+m. An identifier is a token that can have ________________?
+Ans: lexemes or instances (such as sum or total)
+
+n. In some cases, a token has only a single possible lexeme. true or false?
+Ans: true
+
+o Consider the below simple statement (code)
+
+index = 2*count+17;
+
+The above statement can be described into the following form
+
+Lexemes      token
+index        identifier
+=            equal_sign
+2            int_literal
+*            mult_op
+count        identifier
++            plus_op
+17           int_literal
+;            semicolon
+
+With the above example, describe the form of the below statement
+
+username = name+age*3
+
+Ans: ?
+
+
+--------------------------------------
+
+2. Languages are formally defined in two distinct ways. Name them?
+Ans: Language Recognition
+     Language Generation
+
+b. What is a Language Recogniser?
+Ans: A recogniser is a device that reads the input strings of a language and decides whether the input strings belong to the language
+
+c. The recogniser only determines whether given programs are in the language. true or false?
+Ans: true
+
+d. The syntax analyzer part of a compiler is a recognition device. true or false?
+Ans: true
+
+e. The syntax analyser is also known as ___________?
+Ans: A Parser
+
+f. What is a Language Generator?
+Ans: It is a device that generates sentences of a language
+
+g. How can one determine if the syntax of a particular sentence is correct?
+Ans: One can determine if the syntax of a particular sentence is correct by comparing it to the structure of the generator
+
+h. The formal language generation mechanisms are usually called ___________
+Ans: Grammars
+
+i. _________ are commonly used to describe the syntax of programming languages
+Ans: Grammars
+
+j. What are the most widely used method for syntax description?
+Ans: - Backus-Naur Form
+     - Context Free Grammar
+
+k. When was Backus-Naur Form (BNF) invented?
+Ans: 1959
+
+l. Who invented Backus-Naur Form (BNF)?
+Ans: John Backus
+
+m. Why was Backus-Naur Form (BNF) invented?
+Ans: To describe ALGOL 58 syntax
+
+n. What is MetaLanguage?
+Ans: A metalanguage is a language used to describe another language
+
+o. Is BNF a metalanguage for programming languages?
+Ans: Yes
+
+p. In BNF, __________ are used to represent classes of syntactic structures?.
+Ans: Abstractions
+
+q. BNF actS like syntactic variables also called _____________.
+Ans: Non-terminal symbols
+
+r. A simple "assignment statement" can be represented by the abstraction 
+Ans: <assign>
+
+s. The definition of <assign> is given as: 
+<assign>→<variable> = <expression>         (part 1) 
+which could represent the below statement:
+index = 5 + count                          (part 2)
+
+In conclusion (part 1) describes the structure of the coding statement in (part 2). true or false?
+Ans: true
+
+t. A rule has a left hand side (LHS) and the right hand side (RHS). true or false?
+Ans: true
+
+u. LHS is the abstraction being defined. true or false?
+Ans: true
+
+v. RHS consists of ___________, __________, and _____________
+Ans: mixtures of tokens, 
+     lexemes and 
+     references to other abstractions
+
+w. The abstractions in a BNF description, or grammar, are often called _____________
+Ans: Nonterminal symbols (or simply nonterminals)
+
+x. The _________ and ____________ of the rules are called terminal symbols (or simply terminals)
+Ans: lexemes, tokens
+
+y. Note that the BNF description, or grammar is simply a collection of rules. true or false?
+Ans: true
+
+z. Nonterminal symbols can have two or more distinct definitions, representing two or more possible syntactic forms in the language. True or false?
+Ans: true
+
+a1. Multiple definitions can be written as a single rule, with the different definitions separated by the symbol ______________?
+Ans: | (meaning logical OR)
+
+a2. A simple if statement can be described with the rules:
+
+<if_stmt> → if ( <logic_expr> ) <stmt>
+<if_stmt> → if ( <logic_expr> ) <stmt> else <stmt>
+
+
+OR
+
+<if_stmt> → if ( <logic_expr> ) <stmt> | if ( <logic_expr> ) <stmt> else <stmt>
+
+Whichever one you go with works. Is this true or false?
+Ans: This is true
+
+a3. In the above example <stmt> represents either a single statement or a compound statement. true or false?
+Ans: true
+
+a4. Although BNF is simple, it is sufficiently powerful to describe nearly all of the syntax of programming languages. true or false?
+Ans: true
+
+a5. BNF can describe lists of similar constructs, the order in which different constructs must appear, and nested structures to any depth, and even simply operator precedence and operator associativity. true or false?
+Ans: true
+
+a6. Variable-length lists in mathematics are often written using ________________?
+Ans: An ellipsis (. . .) (something like: 1,2, ...)
+
+a7. Does BNF include ellipsis?
+Ans: No it doesn't
+
+a8. Since BNF does not include ellipsis, an alternative method for describing lists of syntactic elements in programming languages (for example, a list of identifiers appearing ona data declaration statement) would be using?
+Ans: recursion
+
+a9. How is a rule recursive?
+Ans: A rule is recursive if its LHS appears in its RHS
+
+SPIN-OFF: The following rules illustrate how recursion is used to describe lists
+
+<ident_list> → identifier | identifier, <ident_list>
+
+a10. Recursion is used to describe lists. true or false?
+Ans: true
+
+b1. A grammar is a generative device for defining ________?
+Ans: Languages
+
+b2. The sentences of a language are generated through a sequence of applications of the rules, beginning with a special nonterminal of the grammar called the ___________.
+Ans: Start symbol
+
+b3. The above sequence of rule applications is called __________
+Ans: A derivation
+
+b4. In a grammar for a complete programming language, the start symbol represents a complete program and is often named ___________
+Ans: <program>
+
+b5. Listing 1: A grammar for a small language
+
+<program> → begin <stmt_list> end
+<stmt_list> → <stmt> | <stmt> ; <stmt_list>
+<stmt> → <var> = <expression>
+<var> → A | B | C
+<expression> → <var> + <var> | <var> – <var> | <var>
+
+The language described by the grammar of Listing 1 has only one statement form: assignment. true or false?
+Ans: true
+
+b6. A program consists of the special word _____, followed by ___________ separated by semicolons, followed by the special word ___?
+Ans: begin, a list of statements, end
+
+b7. What is an Expression?
+Ans: An expression is either a single variable or two variables separated by either a + or - operator
+
+b8. What are the only variable names in our Listing 1 program?
+Ans: A, B and c
+
+b9. Listing 2:
+<program> => begin <stmt_list> end
+     => begin <stmt> ; <stmt_list> end
+          => begin <var> = <expression> ; <stmt_list> end
+          => begin A = <expression> ; <stmt_list> end
+          => begin A = <var> + <var> ; <stmt_list> end
+     => begin A = B + <var> ; <stmt_list> end
+     => begin A = B + C ; <stmt_list> end
+          => begin A = B + ; <stmt> end
+          => begin A = B + C ; <var> = <expression> end
+     => begin A = B + C ; B = <expression> end
+          => begin A = B + C ; B = <var> end
+          => begin A = B + C ; B = C end
+
+Go over the above derivation
+
+In Listing 2:
+b10. The above derivation, like all derivations, begins with the start symbol, in our case _________
+Ans: <program>
+
+c1. The symbol => means “________”
+Ans: derives
+
+c2. Each successive string in the sequence is derived from the previous string by replacing one of the nonterminals with one of that nonterminal’s definitions. true or false?
+Ans: true
+
+c3. Each of the strings in the derivation, including <program>, is called a sentential form.
+Ans: true
+
+c4. The replaced nonterminal is always the leftmost nonterminal in the previous sentential form.
+Ans: true
+
+c5. Derivations that use this order of replacement are called __________________.
+Ans: leftmost derivations
+
+c6. The derivation continues until the sentential form contains _____________
+Ans: No nonterminals
+
+c7. The sentential form, consisting of only terminals, or lexemes, is the ____________
+Ans: generated sentence
+
+c8 Consider the statement
+
+A = B * (A + C)
+
+Listing 3:
+<assign> => <id> = <expr>
+     => A = <expr>
+     => A = <id> * <expr>
+     => A = B * <expr>
+     => A = B * ( <expr>)
+     => A = B * ( <id> + <expr>)
+     => A = B * ( A + <expr>)
+     => A = B * ( A + <id>)
+     => A = B * ( A + C )
+
+
+--------------------------------------
+
+
+Parse Tree
+
+3. Grammars naturally describe the hierarchical syntactic structure of the sentences of the
+languages they define. true or false?
+Ans: true
+
+b. These hierarchical structures are called ___________
+Ans: parse trees
+
+c. Draw a parse tree listing 3
+Ans: 
+   <assign>
+   /  |  \
+  /   |   \
+<id>  =    <expr>
+ |        /  |   \
+ |       /   |    \
+ A     <id>  +    <expr>
+        |        /   |   \
+        |       /    |    \
+        |      /     |     \
+        B     (    <expr>   )
+                  /  |   \
+                 /   |    \
+               <id>  +    <expr>
+                |           |
+                |           |
+                A          <id>
+                            |
+                            |
+                            C
+
+d. What is ambiguity?
+Ans: It is when a grammar has 2 or more distinct parse trees
+
+d. When is a grammar ambiguous?
+Ans: A grammar is ambiguous if and only if it generates a sentential form that has two or more distinct parse trees
+
+Consider Listing 1:
+<assign> → <id> = <expr>
+     <id> → A | B | C
+     <expr> → <expr> + <expr> | <expr> * <expr> | ( <expr>) | <id>
+
+e. Using the sentence
+
+A = B + C * A
+
+is the grammar in Listing 1 ambiguous?
+Ans: Yes it is, because we can have 2 parse trees
+
+PARSE TREE 1
+
+   <assign>
+   /  |  \
+  /   |   \
+<id>  =    <expr>
+ |        /  |   \
+ |       /   |    \
+ A   <expr>  +     <expr>
+        |        /   |   \
+        |       /    |    \
+        |      /     |     \
+       <id>  <expr>  *    <expr>
+        |       |           |
+        |       |           |
+        B      <id>        <id>
+                |           |
+                |           |
+                C           A
+
+PARSE TREE 2
+
+   <assign>
+   /  |  \
+  /   |   \
+<id>  =    <expr>
+ |        /  |    \
+ |       /   |     \
+ A    <expr> *     
+     /  |   \
+    /   |    \
+   /    |     \
+<expr>  *    <expr>
+  |           |
+  |           |
+ <id>        <id>
+  |           |
+  |           |
+  B           C
+
+
+f. Characteristically, a grammar is also ambiguous if?
+ans: - If the grammar generates a sentence with more than one leftmost derivation and
+     - If the grammar generates a sentence with more than one rightmost derivation
+
+g. Syntactic ambiguity of language structures is a problem because?
+ans: - compilers often base the semantics of those structures on their syntactic form
+
+h. The compiler chooses the code to be generated for a statement by examining its parse tree.
+   true or false?
+ans: true
+
+i. If a language structure has more than one parse tree, then the meaning of the structure cannot be determined uniquely. true or false?
+ans: true
+
+j. There are some characteristics of programming languages that are difficult to describe with BNF, and _______________________?
+ans: some that are impossible
+
+k. In Java a floating-point value cannot be assigned to an integer type variable, although the opposite is legal. true or false?
+ans: true
+
+l. (Question k) this restriction can be specified in BNF, it requires additional nonterminal symbols and rules?
+ans: true
+
+m. If all of the typing rules of Java were specified in BNF, the grammar would _______________, because _____________________?
+ans: become too large to be useful,
+     the size of the grammar determines the size of the syntax analyze
+     
+n. As an example of a syntax rule that cannot be specified in BNF, consider the common rule that all variables must be declared before they are referenced. true or false?
+ans: true
+
+o. It has been proven that (Question n) rule cannot be specified in BNF. true or false
+ans: true
+
+p. What is static semantics?
+ans: The static semantics of a language supposes that the semantic is not only indirectly related to the meaning of programs during execution; rather, it has to do with the legal forms of programs (syntax rather than semantics).
+
+q. Many static semantic rules of a language state its ____________?
+ans: type constraints
+
+r. Static semantics is so named because the analysis required to check these specifications can be done at compile time. true or false?
+ans: true
+
+s. Because of the problems of describing static semantics with BNF, a variety of more powerful mechanisms has been devised for that task. true or false?
+ans: true
+
+t. What are Attribute Grammars?
+ans: Attribute grammars are a formal approach both to describing and checking the correctness of the static semantics rules of a program.
+
+u. Although Attribute Grammars are not always used in a formal way in compiler
+design, the basic concepts of attribute grammars are at least ____________________?
+ans: informally used in every compiler
+
+v. An attribute grammar is a device used to describe more of the structure of a programming language than can be described with a context-free grammar. true or false?
+ans: true
+
+w. An attribute grammar is an extension to a _______________?
+ans: context-free grammar
+
+w1. The extension allows certain language rules to be conveniently described, such as ____________?
+ans: type compatibility
+
+x. Attribute grammars can also be defined as? 
+ans: context-free grammars to which have been added attributes, attribute computation functions, and predicate functions.
+
+x1. Attributes, which are associated with grammar symbols (the terminal and nonterminal symbols), are similar to variables in the sense that they can have values assigned to them. true or false?
+ans: true
+
+x2. Attribute computation functions are sometimes called 
+ans: semantic functions
+
+x3. Attribute computation (semantic functions) are associated with grammar rules. They are used to _________________?
+ans: specify how attribute values are computed
+
+x4. Predicate functions, which state the static semantic rules of the language, are ____________________?
+ans: associated with grammar rules
+
+y. Intrinsic attributes are synthesized attributes of leaf nodes whose values are determined _______________?
+ans: outside the parse tree
+
+y1. For example, the type of an instance of a variable in a program could come from the ___________, which is used to _______________________?
+ans: symbol table
+     store variable names and their types
+
+y2. The contents of the symbol table are set based on earlier ____________________?
+ans: declaration statements
+
+y3. Assuming that an unattributed parse tree has been constructed and that attribute values are needed, the only attributes with values are going to be the __________________?
+ans: intrinsic attributes of the leaf nodes
+
+y4. Given the intrinsic attribute values on a parse tree, the semantic functions can be used to ____________________?
+ans: compute the remaining attribute values
+
+
+
+
+
+
+
+
+
+
+
+
+
