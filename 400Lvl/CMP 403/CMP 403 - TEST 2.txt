@@ -1,0 +1,9 @@
+1. Draw the below diagram for each of those systems from TEST 1.
+
+Usecases
+Class Diagrams
+Entity Relationship Diagrams
+Activity Diagram
+Sequence Diagram
+
+b. What is the purpose of System Modeling
