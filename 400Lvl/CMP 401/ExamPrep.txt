@@ -1,6 +1,9 @@
 EXAM PREP
-Best Practice: Study using a big screen device. Be it a laptop or a tablet. It won't be best to use phones (even though y'all ain't with your phones)
+Best Practice: Study using a big screen device. Be it a laptop or a tablet. It won't be best to use phones (even though y'all ain't with your phones 😉)
 
+----------------------------------------------------------------
+
+SLIDE II
 Problem of Describing Syntax
 
 1. What is a language?
@@ -479,11 +482,11 @@ y4. Given the intrinsic attribute values on a parse tree, the semantic functions
 ans: compute the remaining attribute values
 
 
+----------------------------------------------------------------
 
+SLIDE I
 
-
-
-
+..... Loading
 
 
 
