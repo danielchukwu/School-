@@ -227,8 +227,6 @@ ans: - Disagreement in principle with the policies of senior management.
      - Your employer acts in an unethical way and releases a safety-critical system without finishing the testing of the system.
      - Participation in the development of military weapons systems or nuclear systems.
 
-
-
 e. Study slide Ch1.pdf from page 34 - 49 to complete this module
 
 
