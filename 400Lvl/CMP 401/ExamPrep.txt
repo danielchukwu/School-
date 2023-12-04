@@ -482,11 +482,261 @@ y4. Given the intrinsic attribute values on a parse tree, the semantic functions
 ans: compute the remaining attribute values
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ----------------------------------------------------------------
+
+
 
 SLIDE I
 
-..... Loading
+INTRODUCTION
+
+1a. Computers have been applied in many different areas from controlling power plants to video games in mobile phones. true or false?
+ans: true
+
+b. The great diversity in the use of computers have ________________________________
+ans: necessitated the development of programming languages with different goals
+
+c. List 4 areas of computer applications?
+ans: - Scientific Applications
+     - Business Applications
+     - Artificial Intelligence
+     - Web Software
+
+d. What is Natural Language?
+ans: The natural language is a structured system of communication used by humans through speech, signs, gestures and writing
+
+e. Where is the structure of a language?
+ans: in its grammar and vocabulary
+
+f. List 7 examples of Natural Language?
+ans: - Igbo
+     - Igala
+     - English
+     - Yoruba
+     - Hausa
+     - French
+     - Spanish
+
+g. What is Programming Language?
+ans: it is the vocabulary and a set of grammatical rules used to instruct computers
+
+h. List 8 programming languages?
+ans: - Java
+     - Javascript
+     - Typescript
+     - Dart
+     - Python
+     - C/C++
+     - COBOL
+     - Prolog
+
+i. List the 3 categories of Programming Languages?
+ans: - Procedural Programming Languages
+     - Functional Programming Languages
+     - Object-oriented Programming Languages
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Procedural Programming Languages
+i1. How do Procedural programming languages work?
+ans: They execute statements (lines of code) in a sequence (from top to bottom)
+
+i2. Procedural languages focuses ________________________________________?
+ans: on using multiple variables and heavy loops to execute their problems
+
+i3. In procedural languages, functions may control variables other than return values. For example, printing to the terminal. true or false?
+ans: true
+
+i4. List 5 Examples of procedural languages?
+ans: - Basic
+     - C/C++
+     - Java
+     - FORTRAN
+     - Pascal
+
+Functional Programming Languages
+i5. How do Functional programming languages work?
+ans: These languages use stored data and frequently avoid loops in favour of recursive functions to execute their problems
+
+i6. Function languages focuses ________________________________________?
+ans: primarily on the return values of functions.
+
+i7. Functional languages are easier and allow programmers to easily focus on abstract issues. true or false?
+ans: true
+
+i8. List 3 Examples of functional languages?
+ans: - Python
+     - Lisp
+     - Erlang
+
+Object-oriented Programming Language
+i9. How do Object-oriented programming (OOP) languages work?
+ans: OOP languages view the world as a group of objects that have internal data and parts of the data that can be accessed externally
+
+i10. OOP languages focuses ________________________________________?
+ans: thinking about a collection of objects and services that can be offered in specific problems
+
+i11. The major principle here is encapsulation which puts everything an object would need into the object. true or false?
+ans: true
+
+i13. OOP languages thrive on ______________ and _____________?
+ans: reusability and inheritance
+
+i14. List 5 examples of OOP languages?
+ans: - Java
+     - Python
+     - C++
+     - Lisp
+     - Perl
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+j. List 6 reasons why we should study programming languages?
+ans: - To improve our ability to develop effective Algorithms
+     - To improve our use of your existing Programming Languages
+     - To increase our vocabulary of useful programming constructs
+     - To allow a better choice of programming language
+     - To make it easier to learn a new language
+     - To make it easier to design a new language
+
+k. Who defines and standardises a language?
+ans: Languages can be defined/designed by any individual/group
+
+l. Who define language standards?
+ans: National standard bodies
+
+m. List the 3 national standard bodies that define languages?
+ans: - ISO
+     - IEEE
+     - ANSI
+     
+n. What do the acronyms stand for (ISO, IEEE, ANSI)? 
+ans: ISO - International Standards organization
+     IEEE - Institute of Electrical and Electronics Engineers
+     ANSI - American National Standards Institute
+
+o. List the ways these National standard bodies define language standards?
+ans: - Working group of volunteers set up to define standard
+     - Agree on features for new standard
+     - Vote on standard
+     - If approved by working group, submitted to parent organization for approval.
+
+p. Why are standards important?
+ans: - Standards ensure language conformity with rules and laws.
+     - Standards define behavior/constructs of language - one that meets the rules of the language standard.
+
+q. In general (except for Ada), behavior of non-conforming program is not specified, so any extensions to a standards conforming compiler may still be standards conforming, even though the program is not standards conforming. true or false?
+ans: true
+
+r. How often are standards reviewed?
+ans: once every 5 YEARS
+
+s. When should one standardize a language?
+ans: A. If too late - many incompatible versions (FORTRAN in 1960s was already a de facto standard, but no two were the same)
+     B. If too early - no experience with language (Ada in 1983 had no running compilers)
+     C. Just right – Java, 1995 (28 years ago) stable version is now Java SE 17 as of September, 2021
+
+
+
+LANGUAGE DEFINITION
+2a. How are languages defined?
+ans: Languages are defined on the basis of characters and symbols which are strung up to form words or signs.
+
+b. The input/output of any algorithm must be presented as a finite string of symbols. true or false?
+ans: true
+
+c. The arbitrary set Σ is called ____________.
+ans: alphabet
+
+d. The elements of Σ are called ________________
+ans: symbols (or characters)
+
+e. What is a string (or word) over Σ?
+ans: it is a finite sequence of zeros or more symbols from Σ
+
+f. Formally, a string w over Σ is defined (recursively) as either?
+ans: - The empty string, denoted by ԑ(epsilon), or
+     - An ordered pair (a,x), where a is a symbol in Σ and x is a string over Σ
+
+g. Normally, either a·x or simply ax is used to denote _____
+ans: (a,x)
+
+h. Explicit strings are simply written as a sequence of symbols instead of __________
+ans: nested ordered pair
+
+h1. For example, STRING is a convenient shorthand for the formal expression _______________
+ans: (S,(T,(R,(I,(N,(G,ԑ))))))
+
+i. The set of strings over Σ is denoted by ___________
+ans: Σ* (sigma star)
+
+j. All the elements in Σ* is a set of finite string, although Σ* is an infinite set containing strings of every possible finite length. true or false?
+ans: true
+
+k. The length |w| of a string is formally defined as
+ans:           0    if w = ԑ
+      |w| := {
+               1    if w = ax
+
+l. The string SEVEN has length = __.
+ans: 5
+
+m. ....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
