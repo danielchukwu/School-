@@ -15,10 +15,144 @@ COMPUTER GRAPHICS AND MULTIMEDIA
 
 
 
-1a. ...
+1a. Computer graphics is a rapidly evolving field. true or false?
+ans: true
+
+b. Until the past two decades graphics was mainly a realm of artist. now, computer graphics has touched the lives of not only artist and Engineers but also the common man in various ways. true or false?
+ans: true
+
+c. By graphics we will refer to any sketch, drawing,  special artwork or other materials  to pictorially depict an object or process or otherwise convey information, as a supplement to or instead of written description.
+ans: true
+
+d. In computer graphics, pictures or graphic objects are represented as _______________________?
+ans: a collection of discrete picture elements called pixels (picture element)
+
+e. What is the Pixel?
+ans: The pixel is the smallest addressable screen element
+     OR
+     it is the smallest piece of display screen which we can control
+
+f. How is the control of a Pixel achieved?
+ans: by setting the intensity and color of the pixel (which compose the screen).
+
+g. List 6 advantages of Computer Graphics?
+ans: 
+    - It provides tools for producing pictures not only of concrete real-world object but also of abstract,  synthetic object such as mathematical surfaces in 4D and of data that have no inherent geometry such as Survey results.
+
+    - It has the ability to show moving pictures and thus it is possible to produce animation with computer graphics. 
+
+    - With computer graphics users can also control the animation speed, portion of the view and goniometer relationship of the object in the scene to one another and the amount of detail shown.
+
+    - Computer graphics provide tools called motion dynamics. With this, the user can move and tumble object with respect to stationary observer, or he can make an object stationary and the viewer moves around them. A typical example is walk through made by builders to show flat interior and building surroundings. in many cases it is possible to move both objects and viewer.
+    
+    - Computer graphics also provides facility called update dynamics. With update dynamics it is possible to change the shape color or other properties of the objects being viewed.
+    
+    - With the recent development of digital signal processing and audio synthesis chip the interactive graphics can now provide audio feedback  along with the graphical feedback to make the simulated environment even more realistic
+
+h. Today, computer graphics is used in a variety of Fields ranging from routine everyday activities to very specialized area in widely different fields, including business, engineering,  medicine, government, education,  training,  advertising research,  art and entertainment and communication in general.
+ans: true
+
+i. A major use of computer graphics is in _____________, particularly for _______________ such as building and other structural design, mechanical and industrial design as well as design of manufacturing processes, including that of automobiles and aircraft, ships and spacecrafts and many other products
+ans: design process,
+     engineering applications,
+
+J. For some design applications, objects are first displayed in a ________________ form that shows the overall shape and the internal features of the objects.
+ans: wireframe outline
+
+k. Wireframe display also allows designers to quickly ______________________________________?
+ans: see the effect of interactive adjustment to design shapes
+
+l. Current computer aided design (CAD) software packages range from ____________________ to ___________________
+ans: 2D vector based drafting systems,
+     3D solid and surface modellers
+
+m. Modern CAD applications can also frequently allow rotation in 3D allowing viewing of designed objects from a desired angle, even from the inside looking out. true or false?
+ans: true
+
+n. Some CAD software is capable of dynamic mathematical modelling in which case it may be marketed as ____________________?
+ans: CADD (Computer Aided Design and Drafting)
+
+
+Presentation Graphics
+
+o. What is presentation?
+ans: Presentation refers to the act of presenting important points of a topic to either
+     a. the audience for a lecture
+     b. potential customers for a new product or service
+
+p. The presentation of data in a condensed, visual, convenient form has always been an aid to understanding and promoting any idea
+ans: true
+
+q. Graphics becomes a vital part of presenting ideas and promoting organizations even in non business endeavors such as at academic seminars or for proposing a new construction and so on.
+ans: true
+
+r. Computer graphics has raised such presentations to an art by making visuals more appealing, colorful by incorporating animations, sound effects, videos in presentations.
+ans: true
+
+s. Computer graphics methods are used in making music videos games cartoon movies television shows. Is this true?
+ans: true
+
+t. Several developers have used graphics sound animation of multimedia to create variety of games. true or false?
+ans: true
+
+u. Computer graphics tools like MS Power Point are used heavily in teaching, seminars and conference presentations on almost every subject at every level. true or false?
+ans: true
 
 
 
+
+2a. Computer graphics can be classified into two main categories, name them?
+ans: - Passive and
+     - interactive
+
+b. Discuss both classifications of computer graphics?
+ans: - Passive (off-line) computer graphics: The most common example of passive computer graphics is a static website, where users have no control over the contents on the monitor.
+     - Interactive computer graphics: This is called interactive graphics. Displays are controlled by mouse, trackball, joystick etc. Video Games, dynamic websites, special effects in movies and cartoons are all making use of interactive computer graphics.
+
+c. List the 3 components that make up an interactive computer?
+ans: 1. Digital Memory buffer
+     2. Monitor
+     3. Display controller
+     
+     Using these components, we are able to see the output on the screen in the form of pixels
+
+Digital Memory Buffer
+d. What is the Digital Memory Buffer?
+ans: This is a place where images and pictures are stored as an array (matrix of 0 & 1, 0 represents darkness and 1 represents image or picture)
+
+e. What is the Frame buffer?
+ans: it is the video RAM (V-RAM) that is used to hold or map the images displayed on the screen
+
+f. What is the formula for Memory in MB
+ans: Memory in MB = ( X-resolution x Y-resolution x Bits per pixel )        
+                    ------------------------------------------------
+                                    8 x 1024 x 1024
+
+Monitor
+g. What is the Monitor?
+ans: It's a device that helps us view the display (they make use of CRT technology (Cathode ray Tube))
+
+Display Controller
+h. What is the Display Controller?
+ans: It is an interface between Memory Buffer and Monitor.
+
+i. What is the job of the Display Controller?
+ans: its job is to pass the contents of frame buffer to the monitor. The image must be passed repeatedly to the monitor to maintain a steady picture on the screen
+
+j. How exactly does the Display Controller do it's job?
+ans: The display controller reads each successive byte of data from FB Memory and converts 0's and 1's into corresponding video signals. This signal is then feed to the monitor to produce a black and white picture on screen
+
+k. In today's term, display controller is recognized as a _____________?
+ans: Display Card
+
+l. An example of Display Card (Display Controller) we can buy in the market today would be?
+ans: VGA card (640x480 resolution) etc.
+
+Computer Vision
+m. What is Computer Vision?
+ans: Computer vision is the field of computer science that focuses on creating digital systems that can process, analyze, and make sense of visual data (images or videos) in the same way that humans do.
+
+n. 
 
 
 
