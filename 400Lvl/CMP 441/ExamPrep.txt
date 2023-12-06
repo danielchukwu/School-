@@ -1,0 +1,619 @@
+CMP 441 EXAM PREP
+Best Practice: Study using a big screen devic   e. Be it a laptop or a tablet. It won't be best to use phones (even though y'all ain't with your phones 😉)
+
+
+
+----------------------------------------------------------------
+
+
+
+Human Computer Interaction (HCI)
+
+
+
+Introduction
+
+1a. What is HCI?
+ans: it's a field of computer science concerned with studying how people relate with computers and 
+how to make that interaction better (more natural)
+
+    or 
+
+    Its a field of computer science that deals with the design, execution and assessment of 
+    computer systems and related phenomenon that are for human use
+
+b. A central concern of interaction design is to ____________________________?
+ans: develop interactive products that are usable
+
+c. Why are we studying HCI?
+ans: - It contributes to and over laps with many disciplines (IS, SE, Graphics, Industrial Design etc)
+     - Many people are involved in it
+          Interaction design is ideally carried out by multidisciplinary teams, where the 
+          skill sets of engineers, designers, programmers, psychologists, anthropologists, 
+          sociologists, marketing people, artists, toy makers, product managers, and others
+     - It's a viable career path (UI/UX Designers, Researchers)
+
+d. Products should be designed to support the activities of _____?
+ans: users
+
+e. Designing interactive products requires?
+ans: - Considering who is going to be using them, how they are going to be used, and where 
+       they are going to be used.
+     - Understanding the kind of activities people are doing when interacting with these products.
+
+f. What is the process of Interaction design?
+ans: - Interaction design has specific activities focused on discovering requirements for 
+       the product, designing something to fulfil those requirements, and producing 
+       prototypes that are then evaluated.
+     - Interaction design focuses attention on users and their goals.
+
+g. List the 4 Activities in Interaction Design?
+ans: 1. Discovering requirements for the interactive product.
+     2. Designing alternatives that meet those requirements.
+     3. Prototyping the alternative designs so that they can be communicated and assessed.
+     4. Evaluating the product and the user experience it offers throughout the process.
+
+h. Draw the User-Centered Design diagram?
+ans: Slide (page 10)
+
+i. Draw a diagram showing the Interaction Design Life Cycle?
+ans: Slide (page 11)
+
+............................................
+
+Activity
+Imagine that you want to design a product that helps you organize a trip. This might before a business 
+or vacation trip, to visit relatives halfway around the world, or for a bike ride on the weekend—whatever 
+kind of trip you like. In addition to planning the route or booking tickets, the product may help to 
+check visa requirements, arrange guided tours, investigate the facilities at a location, and so on.
+- 1. Using the first three phases of the double diamond of design, produce
+an initial design using a sketch or two, showing its main functionality and its
+general look and feel. This activity omits the fourth phase, as you are not
+expected to deliver a working solution.
+- 2. Now reflect on how your activities fell into these phases. What did you
+do first? What was your instinct to do first? Did you have any particular
+artifacts or experiences upon which to base your design?
+
+............................................
+
+Discover (understand the problem)
+
+j. How does one go about Discovery?
+- The artifact’s use and target domain are investigated by taking a user-centered approach 
+to development, users’ opinions and reactions to early designs are sought, and users are involved 
+appropriately in the development process itself.
+- Understand what is currently the user experience or the product, why a change is needed, and 
+how this change will improve the user experience
+
+
+Understanding the Problem
+k. What are some of the questions you should ask?
+ans: - Are there problems with an existing product? If so, what are they? Why do you think there are problems?
+     - Why do you think your proposed ideas might be useful? 
+       How do you envision people integrating your proposed design with how they currently do things in their 
+       everyday or working lives?
+     - How will your proposed design support people in their activities? In what way does it address an       
+       identified problem or extend current ways of doing things? Will it really help?
+
+Understanding the Users
+l. What is cognition?
+ans: mental action or process of acquiring knowledge through - thinking, learning, remembering, daydreaming, 
+     understanding etc
+
+m. List a number of things that goes on in the mind?
+ans: - attention
+     - perception and recognition
+     - memory
+     - learning
+     - reading, speaking, and listening
+     - problem solving, planning, reasoning, decision making
+
+n. List the different User classes?
+ans: - Direct Users
+     - Indirect Users
+     - Remote Users
+     - Support Users
+     - Mandatory Users
+     - Discretionary users
+
+o. List the levels of expertise?
+ans: - Novice User
+     - Intermittent User
+     - Expert User
+
+p. How does one gather information from users?
+ans: - Informal and formal discussion
+     - Observations
+     - Use of expert
+     - Questionnaire
+     - interview
+
+q. List the 3 types of cognition?
+ans: - Experiential cognition:
+          is a state of mind where people perceive
+     - Reflective cognition:
+          involves mental effort, attention, judgment, and decision-making, which can lead to new ideas and creativity
+     - External cognition: 
+          explaining the cognitive processes involved when we interact with different external representations
+          1. externalizing to reduce memory load
+          2. computational offloading
+          3. annotating and cognitive tracing
+
+r. List the Cognitive processes?
+ans: - Attention
+     - Perception 
+     - Memory
+     - Learning 
+     - Reading, Listening, Speaking 
+     - Problem Solving, Planning, Reasoning, and decision-making
+
+     Explained
+     - Attention: What to concentrate on. Clear goals, Information Presentation, Multitasking
+     - Perception: Acquiring information form the environment. 
+     - Memory: Recalling knowledge. Personal Information Management, memory Load,
+     - Learning: Accumulation of skills and knowledge. Incidental and Intentional learning. 
+     - Reading, Listening, Speaking: Forms of language processing. 
+     - Problem Solving, Planning, Reasoning, and decision-making: Thinking about what to do.
+
+s. List the 3 Conceptual frameworks for understanding cognition
+ans: - Mental models
+     - Information processing
+     - External cognition
+
+     - Mental models: 
+          develop knowledge of how to use the system and, to a lesser extent, 
+          how the system works. Mental models have been postulated as internal constructions of some aspect of the external world that are manipulated enabling predictions and inferences to be made
+     - Information processing: 
+          Information is thought to enter and exit the mind through a series of ordered 
+          processing stages. Within these stages, various processes are assumed to act upon mental representations
+     - External cognition: 
+          explaining the cognitive processes involved when we interact with different external representations
+          1. externalizing to reduce memory load
+          2. computational offloading
+          3. annotating and cognitive tracing
+
+
+
+Data Gathering
+2a. Data can be numbers, words, measurements, descriptions, comments, photos, sketches, films, videos, 
+    or almost anything that is useful for understanding a particular design, user needs, and user behavior,
+ans: true
+
+b. Data can be _____________ or _______________?
+ans: quantitative, qualitative
+
+c. The time it takes a user to find information on a web page and the number of clicks to get to the information are forms of __________________
+ans: quantitative data
+
+d. List the 5 important issues with Data Gathering?
+ans: - Goal setting,
+     - Identifying participants
+     - the relationship between the data collector and the data provider,
+     - Triangulation, and 
+     - Pilot studies.
+
+e. Data Recording includes?
+ans: - Notes Plus Photographs
+     - Audio Plus Photographs
+     - Video
+
+f. DATA RECORDING – Activity
+Imagine that you are a consultant who is employed to help develop a new augmented reality garden 
+planning tool to be used by amateur and professional garden designers. The goal is to find out 
+how garden designers use an early prototype as they walk around their clients’ gardens sketching 
+design ideas, taking notes, and asking the clients about what they like and how they and their 
+families use the garden. What are the advantages and disadvantages of the three approaches (note-taking, 
+audio recording with photographs, and video) for data recording in this environment?
+ans: 
+
+g. What are the methods of Data Gathering?
+ans: - Interviews – structured, unstructured, semi structured, focus groups, remote interviews/focus groups.
+     - Questionnaires – structure, question and response format, administering questionnaires.
+     - Observations – direct (field or controlled), indirect (diaries, logbooks, blogs, web analytics.
+
+h. What is Data Analysis?
+ans: Making sense of data collected
+
+Data Analysis senario
+Scenario: A global company ran a survey of it’s customer service department. The results show that the average 
+time to respond to a customer request is much higher in the London office than in the New York office. What does this result say about the London office customer service department?
+
+i. List the methods of Data Analysis?
+ans: - Quantitative: uses numerical methods to ascertain the magnitude, amount, or size of something
+     - Qualitative: focuses on the nature of something and can be represented by themes, patterns, and stories
+
+j. What are the steps involved in Data Analysis?
+ans: - Initial Steps: Data immersion, Data Cleaning, Data Entry, Transcription
+     - Basic Quantitative Analysis: Using statistical summaries – averages, percentages, standard deviation
+     - A theme represents a pattern of some kind, perhaps a particular topic or feature found in the 
+     data set, which is considered to be important, relevant, and even unexpected with respect to the 
+     goals driving the study.
+     - Affinity Diagrams are used to collate themes
+     - Categories can be derived deductively or inductively
+     - Critical Incidents: identify specific incidents that are significant and then to focus on these 
+     and analyze them in detail, using the rest of the data collected as context to inform interpretation
+
+k. List some Data Interpretation and Presentation?
+ans: - Charts and graphs: Bar chart, Pie Chart, Scatter plot, box plot
+     - Structured notations: UML, Flowchart, Mind Maps
+     - Stories : Using narratives
+     - Summarizing: combining the presentations to form a summary of the findings
+
+l. Careful interpretation and presentation of the study results is just as important as choosing the 
+right analysis technique so that findings are not over-emphasized, and evidence is not misrepresented
+ans: true
+
+m. Why is involving users in the development process important?
+ans: because it’s the best way to ensure that the end product is usable and that it indeed will be used
+
+n. The best way to ensure that developers gain a good understanding of users’ goals, leading to a 
+more appropriate, more usable product, is to involve target users throughout development. true or false?
+ans: true
+
+
+
+
+Identify needs and establishing requirements
+
+o. What, how, why?
+ans: - Understand users, their work and context
+     - Gather data, interpret, extract requirement
+     - Requirements can make or break your product
+
+
+p. Establishing requirements is not simply writing a wish list of features. true or false
+ans: true
+
+q. What is a requirement?
+ans: A requirement is a statement about an intended product that specifies what it should 
+do or how it should perform
+
+r. List the Types of requirements?
+ans: - Functional: what the system should do
+     - Non-Functional: constraints on the system and its development
+     - Data, Environment (social, org, tech, physical), User, usability, 
+
+s. List some Data Gathering techniques?
+ans: - questionnaires,
+     - interviews,
+     - focus groups and workshops, 
+     - natural observations, 
+     - studying documentation
+
+t. What are the guidelines for Data Gathering?
+ans: - Focus on your stakeholders
+     - Involve representative number of stakeholders
+     - Combine data gathering techniques
+     - Run pilots
+
+u. Data Analysis?
+ans: - Scenarios - stories
+     - Use cases –focuses on user goals
+     - Essential use cases - represent abstractions from scenarios
+
+NOTE:
+
+- Data analysis
+  - Scenarios - stories
+  - Use cases –focuses on user goals
+  - Essential use cases - represent abstractions from scenarios
+- Task analysis
+  - techniques for investigating cognitive processes and physical actions, at a high level of abstraction and in minute detail.
+  - HTA: It involves breaking a task down into subtasks and then into sub-subtasks and so on
+
+  DIAGRAM on a food ordering application
+
+v. Designing usable interactive products thus requires considering?
+ans: - who is going to be using them and where they are going to be used
+     - What activities will they be doing while interacting with the system
+
+
+
+
+Conceptualizing Design
+3a. When coming up with new ideas as part of a design project, it is important to 
+conceptualize them in terms of what the proposed product will do. true or false?
+ans: true
+
+b. One reason for needing to do this is as a reality check where fuzzy ideas and assumptions 
+about the benefits of the proposed product are scrutinized in terms of their feasibility
+ans: true
+
+c.Another reason is to enable designers to begin articulating what the basic building blocks 
+will be when developing the product. true or false
+ans: true
+
+d. We can ask why? What problem would this address? It is important to be clear about the underlying assumptions and claims. true or false?
+ans: true
+
+Conceptual models
+e. What is a Model?
+ans: A model is a simplified description of a system or process that helps describe how it works
+
+f. What is a Conceptual Model?
+ans: a conceptual model provides a working strategy and a framework of general concepts and their interrelations
+     or
+     a high-level description of how a system is organized and operates
+     or
+     a description of the proposed system in terms of a set of integrated ideas and concepts about what it should do, behave and look like, that will be understandable by the users in the manner intended
+
+g. Conceptual Model Based on Activities include?
+ans: - instructing
+     - conversing
+     - manipulating and navigating
+     - exploring and browsing
+
+h. Conceptual Model Based on Objects include?
+ans: Spreadsheet
+     mobile phone
+
+i. Conceptual Models consists of?
+ans: - Metaphors and analogies
+     - Concepts users are exposed to (e.g. domain objects, the attributes and operations)
+     - Relationships between concepts
+     - Mappings between concepts and user experience
+
+
+Interface Metaphors
+Interface Metaphors are developed to be similar in some way to aspects of a physical entity
+(or entities) but that also has its own behaviors and properties (using familiar knowledge 
+with new concepts). Look alikes e.g. recycle bin, system message symbols
+
+
+j. What is the issue with interface metaphors?
+ans: Breaks rules
+
+k. Interface Metaphors provide a structure that is similar in some way to aspects of a familiar 
+entity (or entities), but they also have their own behaviors and properties.
+ans: true
+
+l. More specifically, an interface metaphor is one that is instantiated in some way as part of the user interface, such as the desktop metaphor
+ans: true
+
+m. Interface metaphors are intended to provide familiar entities that enable people readily to
+   understand the underlying conceptual model and know what to do at the interface
+ans: true
+
+n. What are the ways people interact with a product (or application) based on activities?
+ans: - instructing
+     - conversing
+     - manipulating and navigating
+     - exploring and browsing
+     - responding
+
+o. List the Interaction Paradigms?
+ans: - ubiquitous computing (technology embedded in the environment)
+     - pervasive computing (seamless integration of technologies)
+     - wearable computing (or wearables)
+     - tangible bits, augmented reality, and physical-virtual integration
+     - attentive environments (computers attend to user's needs)
+     - the Workaday World (social aspects of technology use)
+
+p. What is User Experience (UX)
+ans: it refers to how a product behaves and is used by people in the real world
+
+q. _______________ and ______________  define UX as encompassing “all aspects of the end-
+   user's interaction with the company, its services, and its products.”
+ans: Jakob Nielsen, Don Norman (2014)
+
+r. It is important for a product to be accessible and inclusive. But what does this mean?
+ans: - Accessibility refers to the extent to which an interactive product is accessible by 
+       as many people as possible.
+     - Catering to different abilities (disabilities)
+
+s. What is Usability?
+ans: Usability is ensuring that interactive products are easy to learn, effective to use, and enjoyable from the user’s perspective
+
+t. List ideas on usability?
+ans: - easy to learn, 
+     - effective to use, 
+     - provide an enjoyable user experience (UX).
+     - usability of a design depends on: where it is going to be used and who is going to use it.
+
+u. List Usability Goals?
+ans: - effective to use (effectiveness)
+     - efficient to use (efficiency)
+     - safe to use (safety)
+     - have good utility (utility)
+     - easy to learn (learnability)
+     - easy to remember how to use (memorability)
+
+v. List User Experience Goals?
+ans: - range of emotions and felt experiences.
+     - Could be positive or negative
+
+w. List the Usability Principles?
+ans: - Visibility of system status
+     - Match between system and the real world
+     - User control and freedom
+     - Consistency and standards
+     - Help users recognize, diagnose, and recover from errors
+     - error prevention
+     - Recognition rather than recall
+     - Flexibility and efficiency of use
+     - Aesthetic and minimalist design
+     - Help and documentation
+
+Design Principles
+x. What are Design Principles?
+ans: They are generalizable abstractions intended to orient designers toward thinking about different 
+aspects of their designs. They aid designer’s thinking when designing for the user experience (UX).
+
+y. List the Types of Design Principles?
+ans: - Feedback
+     - Visibility
+     - constraints
+     - Mapping
+     - Consistency
+     - Affordance
+
+y. List some other design concepts?
+ans: - Paradigms
+     - Visions
+     - Theories
+     - Models
+     - Frameworks
+
+     Explained
+     - Paradigms: a general approach that has been adopted by a community of researchers and 
+     designers for carrying out their work in terms of shared assumptions, concepts, values, and practices
+     - Visions: a future scenario that frames research and development in interaction design—often 
+     depicted in the form of a film or a narrative
+     - Theories: a well-substantiated explanation of some aspect of a phenomenon;
+     - Models: a simplification of some aspect of human-computer interaction intended to make it easier 
+     for designers to predict and evaluate alternative designs
+     - Frameworks: a set of interrelated concepts and/or a set of specific questions that are intended to 
+     inform a particular domain area
+
+
+
+
+
+Develop
+
+4a. What are prototypes?
+ans: Prototypes provide concrete manifestation of concepts allowing users to interact with it and explore 
+its suitability
+
+b. List the 2 aspects of design?
+ans: - Conceptual aspect: the idea – what the product will do and how it will behave
+     - Concrete aspect: the details – actual implementation of features and behaviour
+
+c. How does one prototype?
+ans: - Paper prototypes
+     - Wireframes
+     - Physical mockup
+     - Software
+     - Graphics software – simulation,video
+     - HTML/CSS
+
+d. Why are prototypes important?
+ans: - Helps user figure out what they need
+     - Helps designers choose between alternatives and determine feasibility
+
+e. What are the 2 types of prototypes?
+ans: 1. Low-Fidelity: simple, cheap, quick to make and modify e.g storyboards, sketching, using Index cards, Wizard of Oz
+     2. High-Fidelity: look more like the final product
+
+f. What is the question to ask while creating a prototype?
+ans: What will the prototype contain?
+
+g. Issues with prototyping?
+ans: - Conceptual Model
+     - Interface metaphors
+     - Interaction Types
+     - Interface Types: sharable, tangible, virtual reality
+
+h. What is Interaction Design?
+ans: it's the investigating of artifact's use and target domain by taking a user-centered approach to development
+
+i. Design is also about trade-offs. true or false?
+ans: true
+
+j. List the 4 basic activities of Interaction Design?
+ans: - Identifying needs and establishing requirements
+     - Developing alternative designs
+     - Building interactive versions of the designs
+     - Evaluating designs
+
+k. List the 3 key characteristics of Interaction Design process?
+ans: - focus on users
+     - Specific usability and user experience goals
+     - Iteration
+
+l. What are some practical issues?
+ans: - Who are the users?
+     - What do we mean by needs?
+     - How do you generate alternative designs?
+     - How do you choose among alternatives?
+
+m. Lifecycle models in HCI Include?
+ans: - The Star Lifecycle Model
+     - The Usability Engineering Lifecycle
+
+NOTE:
+
+- Conversational mechanisms
+  - HOW IS CONVERSING BY SMS AND WHATSAPP DIFFERENT?
+- Coordination mechanisms: a group of people act or interact together to achieve something
+- Awareness mechanisms: involves knowing who is around, what is happening, and who is talking with whom
+- Ethnographic studies of collaboration and communication: Observations of the setting, be it home, work,
+  school, public place, or other setting, are made, examining the current work and other collaborative 
+  practices people engage in
+
+n. An affective interface is one that produces a certain desired emotional response from the user. true or false
+ans: true
+
+o. User frustration is usually caused by?
+ans: 1. Gimmicks
+     2. Error Messages
+     3. Overburdening the user
+     4. Appearance
+
+p. How would you find out whether it would appeal to them and whether they will use it?
+ans: - Why: To certify user satisfaction and product appropriateness
+     - What: What part(s) of the product to evaluate? Feature or whole?
+     - Where: Where should the evaluation take place? Lab or natural?
+     - When: At what phase of the design and development? Formative or summative?
+
+q. What are the types of Evaluation?
+ans: - Controlled setting with users
+     - Natural setting with users
+     - Any setting without users (inspections, cognitive walkthroughs etc)
+
+q1. Explain all 3 types of Evaluation?
+ans: - Controlled setting with users
+       - Usability Testing – conducted in labs with the aim of testing specific features or behaviours of the product.
+       - The primary goal is to determine whether an interface is usable by the intended user population to carry out the tasks for which it was designed. This involves investigating how typical users perform on typical tasks
+
+     - Natural setting with users
+       - Help identify opportunities for new technology
+       - Establish the requirements for a new design
+       - Facilitate the introduction of technology or inform deployment of existing technology in new contexts
+       - Methods: observation, interviews, interaction logging
+
+     - Any setting without users (inspections, cognitive walkthroughs etc)
+       - Carried out by researchers: using modelling, heuristic evaluation, analytics etc.
+
+
+STOPPED AT PAGE 81
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
