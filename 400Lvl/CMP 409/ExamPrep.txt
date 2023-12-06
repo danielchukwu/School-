@@ -1,0 +1,241 @@
+CMP 409 EXAM PREP
+Best Practice: Study using a big screen devic   e. Be it a laptop or a tablet. It won't be best to use phones (even though y'all ain't with your phones 😉)
+
+
+
+----------------------------------------------------------------
+
+
+
+SLIDE 1
+
+1a. What is Intelligence?
+ans: the ability to learn or understand or to deal with new or trying situations 
+     or 
+     the skilled use of reason the ability to apply knowledge to manipulate one's environment or 
+     to think abstractly as measured by objective criteria (such as tests)
+
+b. What is Artificial Intelligence?
+ans: Systems that think like humans?
+     Systems that act like humans?
+     Systems that think rationally?
+     Systems that act rationally?
+
+c. "The exciting new effort to make computers think...machines with minds, in the full and literal sense"
+   who said this and when?
+ans: (Haugeland, 1985)
+
+d. "[The automation of] activities that we associate with human thinking, activities such as decision-making, 
+   problem solving, learning...” who said this and when?
+ans: (Bellman, 1978)
+
+Turing Test
+e. Who designed the Turing Test and in what year?
+ans: Alan Turing in 1950
+
+f. What is a Turing Test?
+ans: it's a test performed to determine a machine’s ability to exhibit intelligent behavior
+
+g. Explain how this test works?
+ans: The basic concept behind the test is that if a human judge is engaged in a natural language conversation 
+     with a computer where he cannot reliably distinguish machine from human, the machine passes the test
+
+     Note that the Responses from both participants in the conversation are received in the form of a 
+     text-only channel.
+
+     During the Turing test, the human questioner asks a series of questions to both respondents. After the 
+     specified time, the questioner tries to decide which terminal is operated by the human respondent and which terminal is operated by the computer
+
+h. Draw the Turing test diagram
+ans: Slide 1 (page 10)
+
+i. Are the below statements true about the Turing Test? 
+- The Turing test is used to measure a machine's ability to think and it's an important concept in the
+  philosophy of artificial intelligence
+- A machine’s success at thinking can be quantified by the likelihood that a human will misidentify it 
+  as a human subject.
+
+ans: Yes they are true
+
+Turing Test (Imitation Game)
+j. A  computer's ability to think can also be determined through an imitation game. true or false?
+ans: true
+
+k. Explain the Imitation Game?
+ans: In this game, there are three players A, B and C. Player A is a man, B a woman and C is of either sex. 
+     C cannot see A and B, and communicates with the others through written notes.
+
+     Player C determines which of the others is a man and which is a woman by asking a series of questions. 
+     Player A tricks the interrogator into making the wrong decision, while B attempts to guide C toward 
+     the right path. 
+
+l. Draw a diagram of the Imitation Game?
+ans: Slide 1 (page 14)
+
+m. Explain how the original Imitation game test was?
+ans: In the original imitation game test, Turing proposes A to be a computer. The computer pretends to be a 
+     woman and tricks the interrogator into making an incorrect evaluation. The machine's success is 
+     determined by comparing the outcome of the game when A is a computer against when A is a man. If the 
+     interrogator goes wrong when playing the game between man and woman, the computer is assessed to be intelligent
+
+Note: 
+There are some variations on the interpretation of how a Turing test should be performed but the basic 
+premise is whether a human judge can determine whether he is talking to a machine or another human.
+
+
+
+
+
+----------------------------------------------------------------
+
+
+
+SLIDE 2
+
+2a. Artificial intelligence centered automation enables voice technology, like Siri, 
+    Cortana, Alexa and Google’s Assistant, to deduce what you actually mean, regardless of the 
+    way you express it or your intonation. true or false
+ans: true
+
+b. This technology is being improve everyday into more languages on the part of the humans and 
+   taking into account wider ranges of intonations
+ans: true
+
+c. What is NLU (Natural Language Understanding)?
+ans: it's the comprehension by computers of the structure and meaning of human language 
+     (e.g., English, Spanish, Japanese, hausa), allowing users to interact with the computer 
+     using natural sentences”.
+     or
+     In other words, NLU is Artificial Intelligence that uses computer software to interpret text and any type of unstructured data
+
+d. NLU can digest a text, translate it into computer language and produce an output in a language that 
+   humans can understand.
+ans: true
+
+NLU vs NLP
+e. NLU and natural language processing (NLP) are often confused
+ans: true (they are different parts of the same process of natural language elaboration)
+
+f. NLU is a component of ____?
+ans: NLP (natural language processing)
+
+g. More precisely, NLU is a subset of the __________________________
+ans: understanding and comprehension part of NLP (natural language processing)
+
+h. Draw the NLU vs NLP vs ASR diagram?
+ans: Slide 1 (page 16)
+
+i. NLU interprets the meaning that the user communicates and classifies it into proper intents.
+ans: true
+
+j. NLU is responsible for the task of distinguishing what is meant by applying a range of processes such as 
+ans: - text categorization, 
+     - content analysis and 
+     - sentiment analysis, which enables the machine to handle different inputs.
+
+k. What is Natural Language Processing (NLU)?
+ans: it is an umbrella term to explain the whole process of turning unstructured data into structured data
+
+l. NLP helps technology to engage in communication using natural human language. As a result, we now have 
+   the opportunity to establish a conversation with virtual technology in order to accomplish tasks and answer 
+   questions.
+ans: true
+
+m. NLU began on the year ________?
+ans: 1950
+
+n. Linguist began on the year ________?
+ans: 1970-80s
+
+o. Linguistics experts started to contribute to NLU, by ___________ all grammar and semantic rules.
+ans: “coding”
+
+p. What happened during 1990 - 2015?
+ans: Statistical revolution in Natural Language Processing
+       The majority of the models in NLP now include what is called today “Machine Learning”. It is a 
+       probability model. The more you give data, the more efficient the model is.
+
+
+
+
+
+
+----------------------------------------------------------------
+
+
+
+SLIDE 3
+
+3a. Computers are great at working with structured data like ___________________>
+ans: spreadsheets and database tables
+
+b. But on the other hand humans usually communicate in words (unstructured data), not in tables. true or false?
+ans: true
+
+c. A lot of information in the world is ___________________ 
+ans: unstructured (e.g Raw text in English or another human language)
+
+c. NLP is a sub-field of __?
+ans: AI
+
+d. NLP is focused on enabling computers to understand and process human languages. true or false?
+ans: true
+
+Note: We will discuss how NLP works and learn how to write programs using Python that can extract information 
+out of raw text and unstructured data
+
+e. Is it possible for computers to grab human-language?
+ans: Yes, but not like humans
+
+f. NLP are easily accessible through open source Python Libraries. Such as
+ans: spaCy,
+     textacy,
+     neuralcoref and more
+
+g. Stopped at Slide 3 (page 10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
