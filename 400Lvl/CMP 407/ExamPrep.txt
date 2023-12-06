@@ -201,8 +201,34 @@ u. Intermediate code representations should have 2 important properties. Name th
 ans: 1. It should be simple and easy to produce   
      2. It should be easy to translate into the target machine
 
+Using the `position = initial + rate * 60` example (if rate was a floating-point value)
 v. What would the intermediate representation of our assignment statement be?
+ans: t1 = inttofloat(60)
+     t2 = id3 * t1
+     t3 = id2 + t2
+     id1 = t3
 
+
+Code Optimization
+w. Explain this phase?
+ans: The machine-independent code-optimization phase attempts to improve the intermediate code 
+so that better target code will result. The objectives for performing optimization are: faster 
+execution, shorter code, or target code that consumes less power. In our example, the optimized 
+code is
+
+x. What would the optimized code look like?
+ans: t1 = id3 * 60.0
+    id1 = id2 + t1
+
+
+Code Generation
+y. Explain this phase?
+ans: The code generator takes as input an intermediate representation of the source program and 
+maps it into the target language. If the target language is machine code, registers or memory 
+locations  are  selected  for  each  of  the  variables  used  by  the  program.  Then,  the 
+intermediate  instructions  are  translated  into  sequences  of  machine  instructions  that 
+perform the same task. A crucial aspect of code generation is the judicious assignment of 
+registers to hold variables. 
 
 
 
