@@ -217,18 +217,20 @@ execution, shorter code, or target code that consumes less power. In our example
 code is
 
 x. What would the optimized code look like?
-ans: t1 = id3 * 60.0
-    id1 = id2 + t1
+ans:  t1 = id3 * 60.0
+     id1 = id2 + t1
 
 
 Code Generation
 y. Explain this phase?
-ans: The code generator takes as input an intermediate representation of the source program and 
-maps it into the target language. If the target language is machine code, registers or memory 
-locations  are  selected  for  each  of  the  variables  used  by  the  program.  Then,  the 
-intermediate  instructions  are  translated  into  sequences  of  machine  instructions  that 
-perform the same task. A crucial aspect of code generation is the judicious assignment of 
-registers to hold variables. 
+ans: The code generator takes as input an intermediate representation of the source 
+     program and maps it into the target language. If the target language is machine 
+     code, registers or memory locations  are  selected  for  each  of  the  variables 
+     used  by  the  program. Then, the intermediate  instructions  are  translated  into 
+     sequences  of  machine  instructions  that perform the same task. A crucial aspect 
+     of code generation is the judicious assignment of registers to hold variables. 
+
+
 
 
 
