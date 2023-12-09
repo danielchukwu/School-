@@ -1,0 +1,1311 @@
+CMP 411 EXAM PREP
+Best Practice: Study using a big screen device. Be it a laptop or a tablet. It won't be best to use phones (even though y'all ain't with your phones 😉)
+
+- There are a lot of words in this course that may come of new to you, try 
+  googling them to see their meaning, that should help you in your overall 
+  understanding of the questions being asked and the answers given
+
+
+
+
+
+----------------------------------------------------------------
+
+
+
+SLIDE
+
+
+1a. What is a Model?
+ans: A Model is a human construct that helps us understand the real world 
+    systems
+
+b. A Model is usually made up of _______, _______ and _______ sub-systems?
+ans: Input, processing, output
+
+c. Another definition for Model is?
+ans: A model in general is a pattern, plan, miniaturized representation, 
+     or description designed to show the main object or workings of an 
+     object, system, or concept. Is this a valid definition of a model
+
+d. In science, Models are often ______________________?
+ans: theoretical constructs (that represent any particular thing with a set 
+     of variables and a set of logical and or quantitative relationships 
+     between them)
+
+e. Models in science are constructed to enable ________________?
+ans: reasoning within an idealized logical framework
+
+f. What is Modelling?
+ans: Modelling is the process of generating abstract, conceptual, graphical 
+     and/or mathematical models.
+
+     or 
+
+     The process of finding relations between systems and models
+
+g. What is Simulation?
+ans: it is the manipulation of a model in such a way that it operates on 
+     time or space to compress it, thus enabling one to perceive the 
+     interactions that would not otherwise be apparent because of their 
+     separation in time or space
+
+h. Why Modelling and Simulations?
+ans: - When there is significant uncertainty regarding the outcome or 
+       consequences of a particular alternative under consideration. 
+       It allows you to deal with uncertainty and imprecision in a 
+       quantifiable way
+
+     - When the system under consideration involves complex interactions 
+       and requires input from multiple disciplines. In this case, it is 
+       difficult for any one person to easily understand the system. A 
+       simulation of the model can in such situations act as the framework 
+       to integrate the various components in order to better understand 
+       their interactions.
+       As such, it becomes a management tool that keeps you focused on the 
+       "big picture" without getting lost in unimportant details
+
+     - when the consequences of a proposed action, plan or design cannot 
+       be directly and immediately observed (i.e., the consequences are 
+       delayed in time and/or dispersed in space) and/or it is simply 
+       impractical or prohibitively expensive to test the alternatives 
+       directly  
+
+i. What is another definition for Simulation?
+ans: A Simulation of a system is the operation of a model, which is a 
+     representation of that system
+
+j. The model is open to manipulation which would be impossible, too 
+   expensive, or too impractical to perform on the system which it portrays
+ans: true
+
+k. The operation of the model can be studied, and from this _________________________________?
+ans: properties concerning the behavior of the actual system can be inferred
+
+l. What is a Computer Simulation (or Computer Model)?
+ans: it is a computer program that attempts to simulate an abstract model 
+     of a particular system
+
+m. Computer simulations have become a useful part of mathematical  
+   modelling  of  many  natural  systems  in physics,  chemistry  and  
+   biology,  human  systems  in economics, psychology, and social science 
+   and in the process of engineering new technology, to gain insight into 
+   the operation of those systems
+ans: Big facts
+
+n. Traditionally, the formal modeling of systems has been via __________?
+ans: a mathematical model (which attempts to find analytical solutions to 
+   problems which enables the prediction of the behavior of the system 
+   from a set of parameters and initial conditions)
+
+o. Computer simulations build on ___________?
+ans: Mathematical Model
+
+p. Computer Simulations are a useful adjunct to purely ___________________?
+ans: mathematical models in science, technology and entertainment
+
+q. The reliability and the trust people put in computer simulations depends 
+   on ________________?
+ans: the validity of the simulation model
+
+r. List the 2 types of Computer Simulations?
+ans: - equation-based simulations and 
+     - agent-based (or individual-based) simulations
+
+s. Computer Simulations of both types are used for three different general 
+   sorts of purposes. Name them?
+ans: - prediction (both pointwise and global/quantitative)
+     - understanding
+     - exploratory or heuristic purposes
+
+
+Equation-based Simulations
+
+t. Equation-based simulations are most commonly used in ________________?
+ans: physical sciences and other sciences where there is governing theory 
+     that can guide the construction of mathematical models based on 
+     differential equations
+
+t1. The term “equation based” here refers to ____________________?
+ans: simulations based on the kinds of global equations associated with 
+     physical theories—as opposed to “rules of evolution”
+
+t2. Equation based simulations can either be __________ or ____________?
+ans: - particle-based 
+     - field-based
+
+t3. Explain particle-based and field-based?
+ans: 1. particle-based:
+        - where  there are n many discrete bodies and a set of differential 
+          equations governing their interaction
+     2. field-based:
+        - where there is a set of equations governing the time evolution of 
+          a continuous medium or field
+
+t4. An example of the former is a simulation of __________________________?
+ans: Galaxy formation (where the gravitational interaction between a finite 
+     collection of discrete bodies is discretized in time and space)
+
+t5. An example of the latter is the simulation of _________________________?
+ans: a fluid (such as a meteorological system like a severe storm)
+
+t6. Here the system is treated as a ____________?
+ans: continuous medium (a fluid and a field representing its distribution 
+     of the relevant variables in space is discritized in space and then
+     updated in discrete intervals of time)
+
+
+Agent-based Simulation
+
+t7. Agent-based simulations are most common in ___________?
+ans: social and behavioral sciences (though we also find them in disciplines such as artificial life, epidemiology, ecology, and any discipline in which the networked interaction of many individuals is being studied)
+
+t8. Agent-based simulations are similar to ___________?
+ans: particle-based 
+
+t9. In what way is the Agent-based simulation similar to the particle-based 
+    simulation 
+ans: they both represent the behavior of n-many discrete individuals
+
+t10. Unlike Equation-particle-based simulations, in Agent-based simulation  
+     there are no ___________?
+ans: global differential equations that govern the motions of the individuals
+
+t11. In Agent-based simulations, the behavior of the individuals is ______?
+ans: dictated by their own local rules
+
+t13. A famous and groundbreaking agent-based simulation was created by ________ in 1971 called the model of “segregation.”
+ans: Thomas Schelling's
+
+t14. What year did Thomas Schelling's create the model of “segregation.”
+ans: 1971
+
+t15. What were the agents in his simulation?
+ans: The agents were individuals who “lived” on a chessboard
+
+t16. The individuals were divided into _________________?
+ans: two groups in the society (e.g. two different races, boys 
+and girls, smokers and non-smokers, etc.)
+
+t17. “
+- Each square on the board represented a house, with at most one person per
+  house.
+- An individual is happy if he/she has a certain percent of neighbors of 
+  his/her own group. 
+- Happy agents stay where they are, unhappy agents move to free locations
+”
+Schelling found that the board quickly evolved into a strongly segregated 
+location pattern if the agents' “happiness rules” were specified so that 
+segregation was heavily favored.
+
+Surprisingly, however, he also found that initially integrated boards 
+tipped into full segregation even if the agents' happiness rules expressed 
+only a mild preference for having neighbors of their own type
+ans: Noted
+
+
+
+
+
+
+
+
+
+
+
+
+
+Multiscale Simulation
+
+2a. Some simulation models are hybrids of different kinds of modeling methods. ___________ happens to be one of them?
+ans: Multiscale
+
+b. What is Multiscale Simulation models?
+ans: it's a simulation model that couples together modeling elements from 
+     different scales of description.
+
+c. Give a good example of this?
+ans: A good example of this would be a model that simulates the dynamics 
+     of bulk matter by treating the material as a field undergoing stress 
+     and strain at a relatively coarse level of description, but which 
+     zooms into particular regions of the material where important small 
+     scale effects are taking place, and models those smaller regions with 
+     relatively more fine-grained modeling methods (Such methods might rely 
+     on molecular dynamics, or quantum mechanics, or both—each of which is 
+     a more fine-grained description of matter than is offered by treating 
+     the material as a field)
+
+d. Multiscale Simulation can be broken down into __________ and ___________?
+ans: - Serial multiscale methods and 
+     - Parrallel multiscale methods
+
+e. Which amongst both is the more traditional method?
+ans: serial multi-scale modeling
+
+f. How does serial multi-scale modeling work?
+ans: it chooses a region, simulate it at the lower level of description, 
+     summarize the results into a set of parameters digestible by the 
+     higher level model, and pass them up to into the part of the algorithm 
+     calculating at the higher level
+
+g. When are Serial multiscale methods not effective?
+ans: When the different scales are strongly coupled together
+
+h. When the different scales interact strongly to produce the observed 
+   behavior, what is required is an approach that simulates each region 
+   simultaneously. This is called ________________?
+ans: parallel multiscale modeling
+
+i. Parallel multiscale modeling is the foundation of a nearly ubiquitous 
+   simulation method called ________________?
+ans: sub-grid modeling
+
+j. What is Sub-grid modeling?
+ans: it refers to the representation of important small-scale physical 
+     processes that occur at length-scales that cannot be adequately 
+     resolved on the grid size of a particular simulation
+
+k. Remember that many simulations discretize continuous equations, so they 
+   have a relatively arbitrary finite “grid size.”
+ans: true
+
+l. In the study of turbulence in fluids, for example, a common practical 
+   strategy for calculation is to account for the missing small-scale 
+   vortices (or eddies) that fall inside the __________
+ans: grid cells
+
+l1. How is the above calculated?
+ans: This is done by adding to the large-scale motion an eddy viscosity 
+     that characterizes the transport and dissipation of energy in the 
+     smaller-scale flow—or any such feature that occurs at too small a scale to be captured by the grid. 
+
+m. In climate science and kindred disciplines, sub-grid modeling is called ________________
+ans: parameterization
+
+n. What is Parameterization?
+ans: This refers to the method of replacing processes (ones that are 
+     too small-scale or complex to be physically represented in the model 
+     by a more simple mathematical description)
+
+Note: 
+This is as opposed to other processes—e.g., large-scale flow of the 
+atmosphere—that are calculated at the grid level in accordance with the 
+basic theory. It is called “parameterization” because various non-physical 
+parameters are needed to drive the highly approximative algorithms that 
+compute the sub-grid values.
+
+o. List some examples of parameterization in climate simulations?
+ans: the descent rate of raindrops, 
+     the rate of atmospheric radiative transfer, and 
+     the rate of cloud formation
+
+
+Note:
+
+• For example, the average cloudiness over a 100 km2 grid box is not 
+  cleanly related to the average humidity over the box. 
+• Nonetheless, as the average humidity increases, average cloudiness will 
+  also increase—hence there could be a parameter linking average cloudiness to average humidity inside a grid box. 
+• Even though modern-day parameterizations of cloud formation are more 
+  sophisticated than this, the basic idea is well illustrated by the 
+  example.
+
+p. __________ has argued that the use of sub-grid modeling methods in 
+  simulation has important consequences for understanding the structure of 
+  the epistemology of simulation
+ans: Winsberg (2001)
+
+q. ______________ is a powerful way to understand complex systems and 
+   uncertainties?
+ans: Monte Carlo Simulations
+
+q1. Imagine playing a game with dice – we roll the dice many times to 
+    predict the outcome. Monte Carlo simulations work in a similar way, but 
+    with ______________?
+ans: Mathematical models
+
+q2. Instead of dice, in Monte Carlo Simulations we use ________________?
+ans: random numbers - to represent uncertain factors in a system
+
+q3. The random numbers represent _______________________?
+ans: uncertain factors in a system
+
+Note: By running these simulations repeatedly, we can explore different 'what-if' scenarios, helping us see how a system behaves under various conditions
+
+This approach is incredibly useful across various fields, like finance, engineering, and
+science, where we need to make informed decisions and deal with uncertain
+situations
+
+Monte Carlo Simulations
+
+r. In the scientific literature, there is another large class of computer 
+   simulations called ____________________
+ans: Monte Carlo (MC) Simulations
+
+s. What are MC Simulations?
+ans: MC simulations are computer algorithms that use randomness to 
+     calculate the properties of a mathematical model (and where the 
+     randomness of the algorithm is not a feature of the target model)
+
+t. Give an example of MC Simulations in use?
+ans: using a random algorithm to calculate the value of π
+
+u. If you draw a unit square on a piece of paper and inscribe a circle in 
+   it, and then randomly drop a collection of objects inside the square, 
+   the proportion of objects that land in the circle would be roughly 
+   equal to π/4. 
+   A computer simulation that simulated a procedure like that would be 
+   called a ___________________? 
+ans: MC simulation for calculating π.
+
+v. List some of the Types of Data/Information needed to develop a 
+   simulation model?
+ans: - The overall process flow and its associated resources
+     - What is being produced, served, or acted upon by the process
+       (entities) 
+     - Frequency at which the entities arrive in the process
+     - How long do individual steps in the process take 
+     - Probability distributions that characterize real life uncertainties 
+       and variations in the process
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Modeling Process
+
+3a. What are the steps involved in the Modeling process?
+ans: modeling > Computation > Implementation > Virtualization > Validation > Embedding
+
+b. Draw the Modeling Process diagram?
+ans: Slide (page 24)
+
+c. What takes place at the Modeling stage?
+ans: A simplified formal description of a suitable extract from the item 
+     of interest, which will then serve as the basis for the subsequent computations
+
+c1. Modeling involves examining the real world, extraction of essential 
+    features from the real world and construction of the model using the 
+    extracted essential features.
+ans: true
+
+d. What takes place at the Computation stage?
+ans: The model will be preprocessed (e.g. discretized) so that it is 
+     compatible with a computer platform. The solution of this 
+     preprocessed model requires the identification of efficient algorithms
+
+e. What takes place at the Implementation stage?
+ans: The computational algorithms previously determined must be implemented 
+     efficiently (with respect to computational time and storage 
+     complexities, parallelization issues, etc.) on the target architecture 
+     or architectures. This is essentially translating the algorithms at 
+     the computation/simulation level into a software system
+
+f. What takes place at the Visualization (data exploration) stage?
+ans: The data resulting from a simulation run must be interpreted. In 
+     some cases—e.g., for scalar quantities such as the drag coefficient 
+     in aero dynamics—this will be easy, in others—e.g., for high 
+     dimensional data sets—extracting the relevant information from the 
+     flood of numbers is a science of its own
+
+g. What takes place at the Validation stage?
+ans: How reliable are the results? Sources for errors lurk in the model, 
+     in the algorithm, in the code or in the interpretation of the results. 
+     Therefore, it is important to compare different models, different 
+     algorithms, and different codes, as well as simulation results with 
+     manual experiments. Depending on the source of the error, the process 
+     has to be restarted at the respective step and the pipeline has to be 
+     traversed once more starting from this point.
+
+h. What takes place at the Embedding stage?
+ans: Simulations take place in a context—e.g., a development or production 
+     process—and should be integrated accordingly. This requires the 
+     definition of interfaces, a reasonable software engineering, simple 
+     testing environments, etc 
+
+
+Applications of Modelling
+
+Note:
+Modelling finds applications in many industries – some are mathematical 
+formula heavy and some more descriptive
+
+i. List the applications of modelling?
+ans: - Geophysics
+     - Drug design
+     - Medicine
+     - Climate research
+     - Weather forecasting
+     - Automobile industry
+     - Semiconductor industry
+
+SYSTEMS AND COMPONENTS
+
+j. What are Systems and Components?
+ans: Systems and components refer to the fundamental building blocks of
+     complex systems that are studied and analysed
+
+k. Systems are overarching entities composed of ______________?
+ans: interconnected components or elements (each of which plays a distinct 
+     role in achieving system's objectives)
+
+Note:
+- Understanding systems and components is crucial in the context of
+  modelling and simulation as it involves identifying, defining, and 
+  characterizing the relationships, behaviors, and interactions among these 
+  elements
+
+- This knowledge serves as the foundation for creating accurate
+  mathematical models and simulations, allowing for the exploration,
+  analysis, and optimization of real-world systems in various domains, from
+  engineering and economics to healthcare and logistics.
+
+EXAMPLES OF SYSTEMS AND COMPONENTS
+
+m. Draw a table that shows an example of Systems and Components?
+ans: Slide (page 28)
+
+n. List the 2 types of Models?
+ans: - Discrete Models and
+     - Continuous Models
+
+Discrete Models
+
+o. Discuss the below relating to Discrete Models?
+- Discrete Values
+- Time steps
+- Applications
+
+ans: Discrete Values: Variables take on discrete and separate values 
+     representing integers and countable sets. i.e they exploit discrete or 
+     combinatorial descriptions (binary or integer quantities, state 
+     transitions in graphs or automata)
+     They deal with data that is countable  with finite values that have 
+     nothing in-between. E.g count of items, number of students in a class.
+
+     Time steps: Discrete models advance in time through discrete time 
+     steps. Events occur at specific time points, and the system's state 
+     changes instantaneously at these time steps. This is often represented 
+     by a sequence of events or a timeline
+
+     Applications: Discrete models are used computer science (e.g., 
+     discrete-event simulation), discrete mathematics, and combinatorics. 
+     They are well-suited for systems with distinct states, events, or 
+     decisions, such as queuing systems, network protocols, and digital 
+     circuits.
+
+p. Discuss the below relating to Continuous Models?
+- Continuous Values
+- Continuous Time
+- Applications
+
+ans: Continuous Values: are based on real-valued or continuous descriptions 
+     (real numbers, physical quantities, algebraic equations, differential 
+     equations). Deals with data that is measurable containing fractions 
+     with decimal values. i.e. variables can take on a wide range of values 
+     within a continuous range. These values are often represented by real 
+     numbers, e.g. temperature, distance, and time measured in fractions of 
+     a second.
+
+     Continuous Time: Continuous models describe systems where time is 
+     continuous and flows smoothly, rather than progressing in discrete 
+     steps. Changes in the system's state happen smoothly and continuously 
+     over time.
+     
+     Applications: Continuous models are used in physics (e.g., modeling 
+     motion and fluid dynamics), engineering (e.g., control systems and structural analysis), and mathematical calculus
+
+q. Draw a Graphical example of Discrete vs Continuous models?
+ans: Slide (page 31)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Types of Models
+
+4a. What are the 2 types of models?
+ans: - Deterministic models are
+     - Stochastic models
+
+Deterministic
+
+b. Discuss Deterministic models?
+ans: - Deterministic models assume that all input parameters and initial 
+       conditions are known with certainty without the involvement of 
+       randomness.
+     - They are characterized by fixed, well-defined relationships between 
+       variables, where the outcome is entirely determined by the inputs 
+       and the model structure.
+     - Typically represented by equations, and they produce a single, 
+       specific output for a given set of inputs
+
+b1. Deterministic models assume that all input parameters and initial conditions are _______________________________?
+ans: known with certainty (without the involvement of randomness)
+
+b2. Deterministic models are characterized by ______________________?
+ans: fixed, well-defined relationships between variables (where the outcome 
+     is entirely determined by the inputs and the model structure)
+
+b3. Deterministic models are typically represented by ___________, and they produce a ______________ output for a given set of inputs
+ans: equations, single & specific
+
+b4. Give me an example of a Deterministic model in use?
+ans: a simple linear regression model that predicts a person's weight based 
+     on their height (In this model, each height value corresponds to a 
+     single, specific weight prediction, assuming no measurement errors or 
+     variability)
+
+Stochastic Model 
+
+c. Discuss Stochastic Model?
+ans: - Incorporate randomness and uncertainty explicitly into the 
+       modeling process.
+     - They assume that certain aspects of the system are inherently     
+       random, and they account for this randomness using probability 
+       distributions.
+     - the same set of parameter values and initial conditions will lead to 
+       an ensemble of different outputs, (i.e. generate a range of possible 
+       outcomes, each with a probability associated with it.)
+
+c1. Stochastic model incorporates ____________ and ____________ explicitly 
+    into the modeling process?
+ans: randomness, uncertainty 
+
+c2. Stochastic model assumes that certain aspects of the system are 
+    ____________ and they account for this randomness using _______________?
+ans: inherently random, probability distribution
+
+c3. In a Stochastic model, the same set of parameter values and initial 
+    conditions will lead to _______________?
+ans: a group of different outputs
+
+c4. Give an example of the Stochastic model in use?
+ans: a stock price model that incorporates random fluctuations to account 
+     for market volatility 
+
+     extra:
+     In this model, the future stock price is not determined with certainty 
+     but follows a probability distribution, reflecting the inherent 
+     uncertainty in financial markets
+
+
+
+
+
+
+
+
+
+
+
+
+
+Random Numbers
+
+5a. What are Random numbers?
+ans: Random numbers are numbers that show no consistent pattern with each 
+     number in a series and are neither affected in any way by the 
+     preceding number, nor predictable from it
+
+     or 
+
+     Random numbers are numbers that are generated unpredictably or by chance, without any specific pattern or order.
+
+b. Application areas of Random numbers include. List 4?
+ans: - Statistics
+     - Cryptography
+     - Simulations
+     - Gaming
+
+c. What is an RNG (Random Number Generator)?
+ans: it is a hardware device or software algorithm that generates a number 
+     that is taken from a limited or unlimited distribution and outputs it
+
+d. What are the 2 types of Random Numbers?
+ans: - Pseudorandom Numbers
+     - True Random Numbers
+
+e. Discuss Pseudorandom numbers?
+ans: - These numbers are generated by algorithms and are not truly random 
+       but appear random.
+     - They are deterministic and based on an initial value called a seed. 
+     - If you use the same seed, you will get the same sequence of numbers. 
+     - Pseudorandom number generators are widely used in computer programs 
+       and applications because they are computationally efficient and sufficient for many purposes
+
+e1. Discuss True Random numbers?
+ans: - These numbers are generated from a source of true randomness 
+       (such as atmospheric noise or radioactive decay). 
+     - True random numbers are not predictable and are not generated by 
+       algorithms. 
+     - They are used in applications that require a high degree of 
+       unpredictability and security, such as cryptographic systems.
+
+e2. __________ numbers are generated by algorithms and are not truly random 
+    but appear random
+ans: Pseudorandom
+
+e3. __________ numbers are generated from a source of true randomness
+ans: True Random
+
+e4. __________ are not predictable and ae not generated by algorithms?
+ans: True Random
+
+e5. __________ numbers are deterministic and based on an initial value      
+    called a seed
+ans: Pseudorandom
+
+e6. In ___________ numbers if you use the same seed, you'll get the same 
+    sequence of numbers
+ans: Pseudorandom 
+
+e7. __________ numbers are used in applications that require a high degree 
+    of unpredictability and security, such as cryptographic systems
+ans: True Random
+
+e8. __________ number generators are widely used in computer programs and 
+    applications. And why?
+ans: - Pseudorandom,
+     - Because they are computationally efficient and sufficient for many 
+       purposes
+
+f. List all the properties of a Good Random Number Generator?
+ans: - Uniform distribution
+     - Independence
+     - Periodicity
+     - Reproducibility
+     - Statistically Unpredictable
+     - Low Bias
+     - Speed and Efficiency
+     - Seed Initialization
+     - Resistance to Predictive Attacks
+     - Periodic Checks
+
+f1. Discuss 5 Good RNG property (from the ones listed above)?
+ans: - Uniform Distribution: The RNG should produce numbers that are 
+       uniformly distributed across the entire range of possible values. 
+       This means that every number within the range has an equal 
+       probability of being generated.
+
+     - Independence: Each generated number should be statistically 
+       independent of the previous numbers. In other words, the outcome of 
+       one random number should not provide any information about the next 
+       number.
+
+     -  Periodicity: A good RNG should have a long period, meaning it takes 
+        a very long time for the sequence of numbers to repeat. Short 
+        periods can lead to predictable and non-random behavior.
+
+     - Reproducibility: While random numbers should be unpredictable, it 
+       should be possible to reproduce the same sequence of random numbers 
+       when needed by using the same seed value. This is crucial for 
+       debugging and reproducibility in simulations.
+
+     - Statistically Unpredictable: The generated numbers should pass 
+       various statistical tests for randomness, such as the Chi-squared 
+       test, Kolmogorov-Smirnov test, or spectral test. Passing these tests 
+       indicates that the RNG produces numbers that behave like truly 
+       random values
+
+g. Draw the Diagram explaining Pseudorandom number generation?
+ans: Slide (page 38)
+
+h. Draw the Diagram explaining Congruential Generator
+ans: Slide (page 39)
+
+h1. Seed numbers can be generated from __________ and ____________?
+ans: - Computer system clock,
+     - Intervals between keystrokes (in milliseconds)
+
+
+Congruential Generator
+
+i. The Congruential Method is a widely used algorithm for generating     
+    ___________?
+ans: pseudo-random numbers
+
+i1. Note that Pseudo-random numbers are not truly random but are generated 
+    using a ______________________________?
+ans: deterministic process (that appears random for most practical purposes)
+
+i2. The basic idea of the Congruential Method involves ____________________?
+ans: iterating through a sequence of numbers, each of which depends on the 
+     previous number
+
+i3. The algorithm uses the following recurrence relation?
+ans: Xn+1​=(aXn​+c) mod m
+     Where:
+     - Xn is the current pseudo-random number in the sequence.
+     - Xn+1 is the next pseudo-random number in the sequence.
+     - a, c, and m are constants chosen to control the properties of the 
+       generated sequence
+
+i4. How doe the method work?
+ans: - Initialization: You start with an initial seed value, X0. This seed 
+       is the starting point for generating the sequence.
+
+     - Iteration: To generate subsequent pseudo-random numbers, you apply 
+       the recurrence relation above. Each new number depends on the 
+       previous one, and the operation mod m ensures that the result stays 
+       within the range [0, m−1].
+
+     - Repeat: You continue this process, generating a sequence of 
+       numbers as long as needed. The sequence appears random but  is 
+       entirely determined by the choice of constants and the initial seed 
+       value.
+
+i5. What are some of the key considerations when using the Congruential Method?
+ans: - Choice of constraints
+     - Seed value
+     - Period length
+     - Statistical properties
+
+i6. Explain all the key considerations?
+ans: - Choice of constraints
+       a: The multiplier, which should be a large prime number or a number 
+          with good properties in terms of randomness.
+       c: The increment, which is typically a small constant.
+       m: The modulus, which determines the range of the generated numbers. 
+          It should be a large prime number or a power of two for efficient computation
+     
+     - Seed value:
+       The quality of the pseudo-random sequence depends on the choice of 
+       the initial seed value. Different seed values will result in 
+       different sequences. A poor choice of the seed can lead to patterns 
+       in the generated numbers.
+
+     - Period length:
+       The period of the sequence is the number of values it generates 
+       before it starts repeating. The choice of constants and the seed 
+       value determine the period length. Ideally, you want a long period 
+       to avoid quickly repeating sequences
+
+     - Statistical properties
+       It's essential to test the generated sequence for statistical 
+       properties, such as uniformity and independence, to ensure it is 
+       suitable for the intended application
+
+j. What does RANECU stand for?
+ans: Random Number ECUniform
+
+k. What is RANECU?
+ans: it is a type of random number generator algorithm
+     or
+     it's a pseudorandom number generator (PRNG) that produces a sequence of seemingly random numbers
+
+l. The RANECU algorithm is a particular PRNG that was developed by 
+   __________ and ___________?
+ans: James Gentle, Jean-Hugues Réty
+
+m. RABECU is known for it's ______________________?
+ans: simplicity and ease of implementation (this makes it suitable of 
+     various applications)
+
+n. RANECU algorithm typically involves ___________________________?
+ans: a series of mathematical operations on the current seed to generate 
+     a new pseudorandom number
+
+o. RANECU is classified as what type of generator?
+ans: Lehmer-style generator (which is a type of linear congruential generator (LCG))
+
+p. What are the key features of RANECU. List them?
+ans: - Initialization
+     - Periodicity
+     - Uniformity
+     - Efficiency
+
+q. Discuss each key feature of RANECU?
+ans: - Initialization: It requires an initial seed value to start 
+       generating the random sequence. If the same seed is used, the same 
+       sequence of numbers will be generated, making it useful for 
+       reproducible results in simulations and testing.
+     
+     - Periodicity: Like other PRNGs, RANECU has a finite period. This 
+       means that after a certain number of iterations, the sequence 
+       will repeat itself. The length of the period is an important 
+       characteristic of a PRNG.
+
+     - Uniformity: The generated numbers should have good statistical 
+       properties and be uniformly distributed, meaning each number in the 
+       range of possible outcomes is equally likely.
+
+     - Efficiency: RANECU is often designed to be computationally 
+       efficient, making it suitable for use in resource-constrained 
+       environments.
+
+       It is important to note that RANECU is just one of many algorithms, 
+       and the choice of PRNG depends on the specific requirements of the 
+       application, including considerations of randomness, speed, and 
+       security.
+
+
+The Quadratic congruential method
+
+r. What is the Quadratic Congruential Method (QCM)?
+ans: is a type of pseudorandom number generator (PRNG) that is used to 
+     generate sequences of seemingly random numbers
+
+s. QCM is a variation of the more common ___________________?
+ans: Linear Congruential Generator (LCG) method
+
+t. LCG generates pseudorandom numbers using _________________?
+ans: a linear recurrence equation
+
+u. QCM generates pseudorandom numbers using ________________?
+ans: a quadratic recurrence equation
+
+v. Write out the QCM equation?
+ans: Xn+1​=(aXn2​+bXn​+c) mod m
+     Where:
+     - Xn is the current random number.
+     - Xn+1 is the next random number in the sequence.
+     - a, b, c are coefficients that determine the behavior of the QCM.
+     - m is the modulus, which defines the range of possible values
+
+Note:
+Just like in linear congruential generators, the values of a, b, c, and m 
+are crucial to the quality and statistical properties of the random numbers 
+generated by the QCM. Properly chosen values are required to ensure a long 
+period (the number of values before the sequence repeats) and good 
+randomness properties
+
+w. What are some of the advantages that the QCM have over the LCG?
+ans: - Potentially longer periods
+     - Better statistical properties (for certain parameter choices)
+
+x. QCM can also be more complex to set up due to the _______________, 
+   and not all parameter combinations will produce __________________
+ans: - quadratic equation,
+     - good random sequences
+
+In Conclussion:
+
+The choice of which PRNG to use depends on the specific requirements of 
+the application. Some applications may require higher-quality random 
+numbers and might prefer more advanced PRNGs or even true random 
+number generators (TRNGs) for cryptographic or security-critical purposes. 
+Others may use simpler PRNGs like QCM for non-cryptographic tasks where 
+the statistical properties of the generated numbers are less critical
+
+
+
+
+
+
+
+
+
+
+
+
+
+Queue Modelling and Simulation
+
+6a. What is a Queuing System?
+ans: it is any system where the customer requests a service from a 
+     finite - capacity resource
+
+b. Queues are found where there exist one or ____________?
+ans: more shared resources
+
+c. During the execution of a Queuing System, a ____________ is formed in 
+   the system because the __________ of each customer _____________
+ans: waiting line,
+     arrival time,
+     is not predictable
+
+d. Also the service time often exceeds customer ______________?
+ans: inter - arrival times
+
+f. A significant number of arrivals makes each customer wait in line 
+   longer than usual.
+ans: yes it does
+
+g. What are Queuing Models?
+ans: The are objects constructed to analyze the performance of a dynamic 
+     system where waiting can occur
+
+h. List some of the goals of a queuing model?
+ans: - To minimize the average number of waiting customers in a queue 
+     - Predict the estimated number of facilities in a queuing system. 
+     - The performance results of queuing model simulation are produced at 
+       the end of a simulation in the form of aggregate statistics
+
+i. What are the 2 approaches to performance and analysis of Queuing Systems?
+ans: - Analytical Modeling and 
+     - Simulation
+
+i1. What is an Analytical Model?
+ans: it is an abstraction of a system based on probability theory
+     extra:
+     it represents the description of a formal system consisting of 
+     equations used to estimate the performance of the system
+
+Analytical Model
+j. Supposing we have a single - server queuing model, and assuming that 
+   the queue discipline is first - in first - out (FIFO), the customer who 
+   comes in first ____________?
+ans: is served first
+
+k. A queuing system can be modeled based on a _________, which consists 
+   of __________________________________________________________
+ans: Markov chain,
+     discrete state spaces with the property that the next state depends 
+     only on the current state, and is independent of the previous state
+
+l. Draw a diagram that shows the "first five states of a Markov chain" 
+   representing the states of a single-server queue are presented in 
+   diagram above?
+ans: Slide (page 48)
+
+m. Each state is defined by ________________________________________
+ans: the number of customers in the system
+
+n. The number of customers in the system increases based on ___________ 
+   and decreases based on _____________
+ans: the arrival rate (λ),
+     the service rate  (μ)
+
+o. Si denotes the ith state of a Markov chain, and the number i is 
+   ____________________
+ans: the number of customers in the system
+
+p. Traffic intensity or utilization (ρ) is defined by __________?
+ans: ρ = λ/μ
+
+     where λ and μ refer to the arrival and service rates respectively
+
+q. Queuing models are described by there attributes. List the attributes 
+   of a Queuing Model?
+ans: - Call population
+     - Arrival and Service pattern
+     - Queue discipline
+     - Queue capacity
+     - Number of Servers
+    
+q1. Explain each attribute?
+ans: - Call Population- can be finite or infinite, it is the pool of 
+       customers who possibly can request the service in the near future
+
+     - Arrival and Service Pattern - are the two most important factors 
+       determining behaviors of queuing models. A queuing model may be 
+       deterministic or stochastic. If stochastic, new arrivals occur in a 
+       random pattern and their service time is obtained by probability 
+       distribution
+
+     - Queue Discipline- Is the strategy for selecting the next customers 
+       from queue. Queue discipline is a scheduling algorithm to select 
+       the next customer from the queue
+
+       ----------------------------------------------------
+        The common algorithms of queue discipline are:
+          ▪ First - In First - Out (FIFO), 
+          ▪ Last - In First - Out (LIFO), 
+          ▪ Service In Random Order (SIRO), 
+          ▪ And Priority Queue
+       ----------------------------------------------------
+
+     - Queue Capacity - The limits of the system as per the number of 
+       customers in line
+     
+     - Number Of Servers - Refers to the total number of servers or 
+       service points attending to the customers on the queue  
+
+q2. List the common algorithms of queue discipline?
+ans:  - First - In First - Out (FIFO), 
+      - Last - In First - Out (LIFO), 
+      - Service In Random Order (SIRO), 
+      - And Priority Queue
+
+q3. In real world settings, the earlier arrived customer is usually 
+    selected from a queue in the real world, thus the most common queue 
+    discipline is _____?
+ans: FIFO
+
+q4. In a priority queue discipline, each arrival has its ________?
+ans: priority
+
+q5. The arrival that has the highest priority is enters the ______ from 
+    queue among waiting ________
+ans: Server,
+     Customers
+
+q6. What is arrival rate?
+ans: it is the mean number of customers per unit time
+
+q7. What is service rate?
+ans: it is defined by the capacity of the server in the queuing model
+
+q8. If the service rate is less than the arrival rate. What happens?
+ans: the size of the queue will grow infinitely
+
+q9. The arrival rate must be less than the service rate in order to 
+    maintain a ____________?
+ans: stable queuing system
+
+q10. The randomness of arrival and service patterns causes _______________?
+ans: the length of waiting lines in the queue to vary
+
+r. What are the 3 decisions customers take on a queue?
+ans: - Balking
+     - Reneging
+     - Jockeying
+     
+r1. Explain each customer decision?
+ans: - Balking: when an arriving customer does not enter the queue due to 
+       the limited queue capacity. 
+     - Reneging: 
+         customer leaves the queue after waiting in a queue upon arrival. Without being served
+     - Jockeying: 
+         customer decides to switch to a different queue for earlier 
+         service (especially in a parallel queue – multi-server queuing 
+         model). similar to what we do when on a queue at the atm, we switch/Jockey between lines to get access to an atm earlier
+
+r2. The decision of balking is _____________, and those of reneging 
+    and jockeying are considered as ____________ 
+ans: - deterministic,
+     - probabilistic
+
+
+Single Server Queuing Model
+     
+s. Draw a diagram of the Single Server Queuing Model?
+ans: Slide (page 54)
+
+s1. Explain the processes of the Single Server Queuing Model?
+ans: - A new customer from the calling population enters into the queuing 
+       model and waits for service in the queue 
+     - If the queue is empty and the server is idle, the new customer is 
+       immediately sent to the server for service 
+     - Otherwise, the customer remains in the queue joining the waiting 
+       line until the queue is empty and the server becomes idle. 
+     - When a customer enters into the server, the status of the server 
+       becomes busy, not allowing any more arrivals to gain access to the 
+       server. 
+     - After being served, a customer exits the system
+
+s2. What first happens in the Single Server Queuing Model?
+ans: A new customer from the calling population enters into the queuing 
+     model and waits for service in the queue
+
+s3. What happens after a new customer enters into the queue?
+ans: If the queue is empty and the server is idle, the new customer is 
+     immediately sent to the server for service
+
+s4. What happens if the queue is not empty and the server is not idle?
+ans: the customer remains in the queue joining the waiting line until the 
+     queue is empty and the server becomes idle
+
+s5. What happens when a customer enters the server?
+ans: When a customer enters into the server, the status of the server 
+     becomes busy, not allowing any more arrivals to gain access to the 
+     server
+
+s6. What happens after the Customer is served?
+ans: The customer exits the system
+
+
+Single queue – multi-server model
+
+t. Draw a diagram of the Single Queue – multi-server model?
+ans: Slide (page 55)
+
+t1. Explain the processes of the Single queue – multi-server model?
+ans: - A new customer from the calling population enters into the queuing 
+       model and waits  for service in the queue. 
+     - If the queue is empty and any of the servers is idle, the new 
+       customer is immediately sent to a server for service, 
+     - Otherwise, the customer remains in the queue joining the waiting 
+       line until the queue is empty and the server becomes idle 
+     - When a customer enters into any of the server, that server’s status 
+       becomes busy, not allowing any more arrivals to gain access to the 
+       server. 
+     - After being served, a customer exits the system
+
+t2. What first happens in the Single Queue – multi-server model?
+ans: A new customer from the calling population enters into the queuing 
+     model and waits for service in the queue
+
+t3. What happens after a new customer enters into the queue?
+ans: If the queue is empty and any of the servers is idle, the new 
+     customer is immediately sent to a server for service
+
+t4. What happens if the queue is not empty and no servers are idle?
+ans: the customer remains in the queue joining the waiting line until the 
+     queue is empty and a server becomes idle
+
+t5. What happens when a customer enters the server?
+ans: that server’s status becomes busy, not allowing any more arrivals 
+     to gain access to the server
+
+t6. What happens after the Customer is served?
+ans: it exists the system
+
+
+Parallel Queues – Multi-Server Model
+
+u. Draw a diagram of the Parallel Queues – Multi-Server Model?
+ans: Slide (page 56)
+
+u1. Explain the processes of the Single queue – multi-server model?
+ans: - A new customer from the calling population enters into any of the 
+       queues and waits  for service in the queue. 
+     - If the queue is empty and any of the servers is idle, the new 
+       customer is immediately sent to a server for service 
+     - Otherwise, the customer remains in the queue joining the waiting 
+       line until the queue is empty and the server becomes idle. 
+     - When a customer enters into the server, that server’s status  
+       becomes busy, not allowing any more arrivals to gain access to the server. 
+     - After being served, a customer exits the system. NB: Customers can 
+       Jokey in this model
+
+
+u2. What first happens in the Single Queue – multi-server model?
+ans: A new customer from the calling population enters into any of the 
+     queues and waits  for service in the queue
+
+u3. What happens after a new customer enters into the queue?
+ans: If the queue is empty and any of the servers is idle, the new 
+     customer is immediately sent to a server for service
+
+u4. What happens if the queue is not empty and no servers are idle?
+ans: the customer remains in the queue joining the waiting 
+     line until the queue is empty and a server becomes idle
+
+u5. What happens when a customer enters the server?
+ans: that server’s status becomes busy, not allowing any more arrivals to 
+     gain access to the server
+
+u6. What happens after the Customer is served?
+ans: the customer exits the system
+
+u7. Can customers jokey in this model?
+ans: Yes they can
+
+
+Notations - Kendal's Notation
+
+v. A/B/c/N/K, is used to concisely define ____________________?
+ans: a queue and its parameters
+
+v1. A and B represents?
+ans: the inter - arrival and service distribution
+
+v2. c represents?
+ans: the number of servers
+
+v3. N represents?
+ans: the queue capacity
+
+v4. K represents?
+ans: the size of the calling population
+
+v5. D means?
+ans: Deterministic
+
+v6. M means?
+ans: Poisson
+
+v7. G means?
+ans: general
+
+v8. EK (Erlang) represents?
+ans: A and b
+
+v9. Usually the A/B/c notation is used when ________________?
+ans: N and K are infinite
+
+v10. For example, M/M/1 represents a single server queuing model, and the 
+     inter - arrival and service time are exponentially distributed
+ans: 
+
+v11. The queue discipline is often added to ________ the system
+ans: describe
+
+
+NOTE:
+Study the Slide page 58 - 60. (it contains tables with formulas and 
+descriptions)
+
+
+Queuing Rules - Little's Law
+
+w. State the Little's Law?
+ans: The average number of customers (L) is equal to the arrival rate (λ) 
+     multiplied by the average time (w) the customer spends in the system
+
+w1. What is the formula?
+ans: L = λw
+
+w2. Little’s law is meaningful in that the law holds regardless of 
+    _____________________________________?
+ans: any kind of the arrival and service distribution
+
+w3. Little’s law does not require restricted assumptions for the 
+    types of __________ and ___________?
+ans: arrival and service patterns
+
+
+Queuing network
+
+x. What is a Queuing Network?
+ans: models where customers (service requests) arrive at service stations 
+     (servers) to be served
+
+x1. Queuing networks are classified into types. Name them?
+ans: Open and Closed
+
+x2. A token denotes ______________________________________?
+ans: any type of customer that requests service at the service facility
+
+x3. What happens in an Open Queuing Network?
+ans: each token arrives at the system, based on the arrival rate, and 
+     leaves the system after being served
+
+x4. What happens in an Open Queuing Network?
+ans: In the closed queuing network, the finite number of tokens is 
+     assigned, and each token moves between queues without leaving the 
+     system
+
+x5. What is the main difference between these 2 types of Networks?
+ans: - The open queuing network has new arrivals during simulation, 
+       whereas the closed queuing network does not have new arrivals
+     - The number of tokens in the open queuing network at an instant of 
+       time is always different due to the arrival and departure rates, 
+       but the number of tokens in the system is always constant during 
+       the simulation of a closed queuing network 
+
+
+
+DONE ✅. GOOD LUCK 🫡✨
+
+
+
+
+
+
+
+
+
+
+
+
+
+
