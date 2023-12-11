@@ -61,11 +61,12 @@ Procedural Programming Languages
 i1. How do Procedural programming languages work?
 ans: They execute statements (lines of code) in a sequence (from top to bottom)
 
-i2. Procedural languages focuses ________________________________________?
-ans: on using multiple variables and heavy loops to execute their problems
+i2. Procedural languages uses ___________ and __________ to execute 
+    problems?
+ans: multiple variables, heavy loops
 
-i3. In procedural languages, functions may control variables other than return values. For example, printing to the terminal. true or false?
-ans: true
+i3. In procedural languages, functions may control variables rather than ____________. For example, printing to the terminal
+ans: return values
 
 i4. List 5 Examples of procedural languages?
 ans: - Basic
@@ -78,7 +79,7 @@ Functional Programming Languages
 i5. How do Functional programming languages work?
 ans: These languages use stored data and frequently avoid loops in favour of recursive functions to execute their problems
 
-i6. Function languages focuses ________________________________________?
+i6. Functional languages focuses ________________________________________?
 ans: primarily on the return values of functions.
 
 i7. Functional languages are easier and allow programmers to easily focus on abstract issues. true or false?
@@ -93,11 +94,12 @@ Object-oriented Programming Language
 i9. How do Object-oriented programming (OOP) languages work?
 ans: OOP languages view the world as a group of objects that have internal data and parts of the data that can be accessed externally
 
-i10. OOP languages focuses ________________________________________?
+i10. OOP languages focuses on ________________________________________?
 ans: thinking about a collection of objects and services that can be offered in specific problems
 
-i11. The major principle here is encapsulation which puts everything an object would need into the object. true or false?
-ans: true
+i11. The major principle in OOP is ______________ ?
+ans: encapsulation (which means - everything an object would need is put 
+     into the object)
 
 i13. OOP languages thrive on ______________ and _____________?
 ans: reusability and inheritance
@@ -113,16 +115,16 @@ ans: - Java
 
 j. List 6 reasons why we should study programming languages?
 ans: - To improve our ability to develop effective Algorithms
-     - To improve our use of your existing Programming Languages
+     - To improve our use of existing Programming Languages
      - To increase our vocabulary of useful programming constructs
      - To allow a better choice of programming language
      - To make it easier to learn a new language
      - To make it easier to design a new language
 
-k. Who defines and standardises a language?
-ans: Languages can be defined/designed by any individual/group
+k. Who defines a language?
+ans: any individual or group
 
-l. Who define language standards?
+l. Who defines language standards?
 ans: National standard bodies
 
 m. List the 3 national standard bodies that define languages?
@@ -160,10 +162,11 @@ ans: A. If too late - many incompatible versions (FORTRAN in 1960s was already a
 
 LANGUAGE DEFINITION
 2a. How are languages defined?
-ans: Languages are defined on the basis of characters and symbols which are strung up to form words or signs.
+ans: Languages are defined on the basis of characters and symbols which 
+     are strung up to form words or signs
 
-b. The input/output of any algorithm must be presented as a finite string of symbols. true or false?
-ans: true
+b. The input/output of any algorithm must be presented as a ___________?
+ans: finite string of symbols
 
 c. The arbitrary set Σ is called ____________.
 ans: alphabet
@@ -201,8 +204,8 @@ ans:           0    if w = ԑ
 l. The string SEVEN has length = __.
 ans: 5
 
-m. The Concatenation of two strings x and y, denoted either x·y or simply xy, is the unique string containing the characters of x in order followed by the characters in y in order. true or false?
-ans: true
+m. The Concatenation of two strings x and y, denoted either x·y or simply xy, is the unique string containing the characters of x in order followed by the characters in y in order?
+ans: Facts
 
 m1. For example, the string NOWHERE is the concatenation of the strings NO and WHERE. That is NO·WHERE = __________
 ans: NOWHERE
@@ -212,8 +215,10 @@ ans:           z          if w = ԑ
       |w| := {
                a·(x·z)    if w = ax 
 
-m3. When describing concatenation of more that two strings, dots andparentheses are normally omitted. This is done by simply writing wxyz instead of (w·(x·y)·z). true or false?
-ans: true
+m3. When describing concatenation of more than two strings, dots and 
+    parentheses are normally omitted. This is done by simply writing wxyz 
+    instead of ______?
+ans: (w·(x·y)·z)
 
 n. What is a Formal Language?
 ans: a formal language is a set of finite alphabet Σ, or equivalently, an arbitrary subset of Σ*
@@ -228,13 +233,17 @@ ans: yes they are
 n2. Formal languages are not languages in the same sense that English, Python and Klingon are languages. true or false?
 ans: true
 
-n3. Strings in a formal language do not necessarily carry any meaning nor are they assembled into larger units. true or false?
+n3. Strings in a formal language do not necessarily carry any meaning nor 
+    are they assembled into larger units. true or false?
 ans: true
 
+b4. When it comes to computing, except they are standardized, not many 
+    concepts are agreed upon. For programmers, it is important they understand the underlying concepts of the various constructs and capabilities of the language
+ans: Facts
+
 o. List some Language Evaluation Criteria
-ans: - When it comes to computing, except they are standardized, not many concepts are agreed upon. 
-     - For programmers, it is important they understand the underlying concepts of the various constructs and capabilities of the language
-     - Some of the commonly used criteria for evaluating a programming language are:
+ans: - Some of the commonly used criteria for evaluating a programming 
+       language are:
        - Readability
        - Writability
        - Reliability and
@@ -280,12 +289,14 @@ ans: - When it comes to computing, except they are standardized, not many concep
            - A simple trade off can be made between compilation cost and execution speed of the compiled code using optimization.
            - Optimization is a collection of techniques that compilers use decrease the size and/or increase the execution speed of the code they produce.
 
-p. Apart from the language evaluation criteria, there are other factors that influence the basic design of programming languages. The most important of these factors are _____________ and ___________?
+p. Apart from the language evaluation criteria, there are other factors 
+   that influence the basic design of programming languages. The most 
+   important of these factors are _____________ and ___________?
 ans: - computer architecture and
-     - programming design methodologies.
+     - programming design methodologies
 
-p1. The basic architecture of computers has had a profound effect on language design. true or false?
-ans: true
+p1. The basic architecture of computers has had a profound effect on __________?
+ans: language design
 
 p2. Most of the popular languages of the past 60 years have been designed around the prevalent computer architecture, called the _________________?
 ans: von Neumann architecture
@@ -296,31 +307,36 @@ ans: John von Neumann
 p4. In a von Neumann computer, both the data and programs are stored in ________________
 ans: the same memory
 
-p5. In a von Neumann computer, the central processing unit (CPU) which executes the instruction is separate from ___________?
+p5. In a von Neumann computer, the CPU (which executes the instruction) is separate from ___________?
 ans: the memory
 
-p6. In a von Neumann computer, instructions and data must be transmitted, or piped from ________ to __________?
+p6. In a von Neumann computer, instructions and data must be transmitted 
+    (or piped) from ________ to __________?
 ans: memory to the CPU
 
-p7. In a von Neumann computer, results of operations in the CPU are moved back to ___________?
+p7. In a von Neumann computer, results of operations in the CPU are moved 
+    back to ___________?
 ans: the memory
 
-p8. Nearly all the digital computers built since the 1940s are based on von Neumann architecture. true or false?
-ans: true
+p8. Nearly all the digital computers built since the 1940s are based on 
+    ________________?
+ans: von Neumann architecture
 
 p9. Draw a diagram of the Von Neumann architecture
 ans: Slide I (page 30)
 
-p10. The execution of a machine code program on a von Neumann architecture occurs in a process called the __________________
+p10. The execution of a machine code program on a von Neumann architecture 
+     occurs in a process called the __________________
 ans: fetch-execute cycle
 
-p11. The program resides in the memory but are executed by the CPU.
-ans: true
+p11. The program resides in the memory but are executed by the ___
+ans: CPU
 
-p12. Each instruction to be executed must be moved from memory to the processor
-ans: true
+p12. Each instruction to be executed must be moved from ______ to the _____
+ans: memory, processor
 
-p13. The address of the next instruction to be executed is maintained in a _____________________?
+p13. The address of the next instruction to be executed is maintained in a 
+     _____________________?
 ans: register (called the program counter)
 
 p14. The fetch-execute cycle is as follows:
@@ -332,7 +348,8 @@ ans: - initialize the program counter
      - execute the instruction
      - endrepeat
 
-p15. From the von Neumann Architecture, two of the primary components of a digital computer are the ____________ and ______________?
+p15. In the von Neumann Architecture, two of the primary components of a 
+     digital computer are the ____________ and ______________?
 ans: - Processor and; 
      - Internal memory
 
@@ -340,16 +357,25 @@ p16. The internal memory stores ___________ and ____________?
 ans: program and data
 
 p17. What is the Processor?
-ans: The processor is a collection of circuits that provides a realization of a set of primitive operations or machine instructions (such as arithmetic and logic operations)
+ans: The processor is a collection of circuits that provides a realization 
+     of a set of primitive operations or machine instructions (such as 
+     arithmetic and logic operations)
+
+     or 
+
+     The process is a collection of circuits that executes the instructions of a computer program
 
 p18. Some of these machine instructions are sometimes called _____________?
 ans: microinstructions (they are defined at lower levels)
 
-p19. Language implementation methods provide the facilities through which high level programming languages get to speak the language of the machine. true or false?
-ans: true
+p19. Language implementation methods provide the facilities through which 
+     high level programming languages get to speak ___________________?
+ans: the language of the machine
 
-p20. Implementation methods require a large collection of programs (operating system) which supplies higher-level primitives than those of the machine language. true or false?
-ans: true
+p20. Implementation methods require a large collection of programs 
+     (operating system) which supplies higher-level primitives than those 
+     of the machine language?
+ans: Facts
 
 p21. These primitives provide?
 ans: - System resource management
@@ -358,17 +384,22 @@ ans: - System resource management
      - Text and/or program editors
      - And a host of other functionalities.
 
-p22. Because language implementation systems need many of the operating system facilities, they interface with the __ rather than directly with the _____________?
+p22. Because language implementation systems need many of the operating 
+     system facilities, they interface with the __ rather than directly 
+     with the _____________?
 ans: OS, processor
 
-p23. The OS and language implementations are layered over the machine language interface of the computer. These layers can be thought of as virtual computers, providing interface to the user at higher levels
-ans: true
+p23. The OS and language implementations are layered over the machine 
+     language interface of the computer. These layers can be thought of as 
+     __________
+ans: virtual computers, (providing interface to the user at higher levels)
 
-p24. Most computer systems provide several different virtual computer. true or false?
-ans: true
+p24. Most computer systems provide several different virtual computer?
+ans: Facts
 
-p25. The user programs form another layer over the top of the layer of virtual computers. true or false?
-ans: true
+p25. The user programs form another layer over the top of the layer of 
+     _____________?
+ans: virtual computers
 
 
 
@@ -385,15 +416,19 @@ ans: - Compilation
      - Pure Interpretation
      - Hybrid Implementation
 
+
 A. COMPILATION
+
 b. How does the compilation method work?
-ans: This method uses compilers to translate programs into machine languages which are
-directly executed on the computer
+ans: This method uses compilers to translate programs into machine 
+     languages which are directly executed on the computer
 
-c. Languages that use the compilation method have the advantage of being very fast, once the translation process is complete. true or false
-ans: true
+c. Languages that use the compilation method have the advantage of being 
+   _________?
+ans: very fast (once the translation process is complete)
 
-d. List 2 Example of languages that are implemented using the Compilation method?
+d. List 2 Example of languages that are implemented using the Compilation 
+   method?
 ans: C
      C++
      COBOL
