@@ -82,7 +82,9 @@ ans: These languages use stored data and frequently avoid loops in favour of rec
 i6. Functional languages focuses ________________________________________?
 ans: primarily on the return values of functions.
 
-i7. Functional languages are easier and allow programmers to easily focus on abstract issues. true or false?
+i7. Functional languages are easier and allow programmers to easily focus 
+    
+    n abstract issues. true or false?
 ans: true
 
 i8. List 3 Examples of functional languages?
@@ -425,7 +427,7 @@ ans: This method uses compilers to translate programs into machine
 
 c. Languages that use the compilation method have the advantage of being 
    _________?
-ans: very fast (once the translation process is complete)
+ans: very fast (once the transl ation process is complete)
 
 d. List 2 Example of languages that are implemented using the Compilation 
    method?
