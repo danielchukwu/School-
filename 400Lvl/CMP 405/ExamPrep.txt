@@ -18,96 +18,170 @@ COMPUTER GRAPHICS AND MULTIMEDIA
 1a. Computer graphics is a rapidly evolving field. true or false?
 ans: true
 
-b. Until the past two decades graphics was mainly a realm of artist. now, computer graphics has touched the lives of not only artist and Engineers but also the common man in various ways. true or false?
+b. Until the past two decades graphics was mainly a realm of artist. now, 
+   computer graphics has touched the lives of not only artist and Engineers 
+   but also the common man in various ways
+ans: Big facts
+
+c. By graphics we will refer to any sketch, drawing, special artwork or 
+   other materials to pictorially depict an object or process or otherwise 
+   convey information, as a supplement to or instead of written description
 ans: true
 
-c. By graphics we will refer to any sketch, drawing,  special artwork or other materials  to pictorially depict an object or process or otherwise convey information, as a supplement to or instead of written description.
-ans: true
+d. How are pictures or graphic objects represented?
+ans: Pictures (or graphic objects) are represented as a collection of 
+     discrete picture elements called pixels (picture element)
 
-d. In computer graphics, pictures or graphic objects are represented as _______________________?
-ans: a collection of discrete picture elements called pixels (picture element)
-
-e. What is the Pixel?
-ans: The pixel is the smallest addressable screen element
+e. What is a Pixel?
+ans: A pixel is the smallest addressable screen element
      OR
      it is the smallest piece of display screen which we can control
 
 f. How is the control of a Pixel achieved?
-ans: by setting the intensity and color of the pixel (which compose the screen).
+ans: By setting the intensity and color of the pixel (which composes the 
+     screen)
 
 g. List 6 advantages of Computer Graphics?
-ans: 
-    - It provides tools for producing pictures not only of concrete real-world object but also of abstract,  synthetic object such as mathematical surfaces in 4D and of data that have no inherent geometry such as Survey results.
+ans:
+    - It provides tools for producing pictures not only of concrete 
+      real-world object but also of abstract, synthetic object such as 
+      mathematical surfaces in 4D and of data that have no inherent 
+      geometry such as Survey results.
 
-    - It has the ability to show moving pictures and thus it is possible to produce animation with computer graphics. 
+    - It has the ability to show moving pictures and thus it is possible to 
+      produce animation with computer graphics. 
 
-    - With computer graphics users can also control the animation speed, portion of the view and goniometer relationship of the object in the scene to one another and the amount of detail shown.
+    - With computer graphics users can also control the animation speed, 
+      portion of the view and goniometer relationship of the object in the 
+      scene to one another and the amount of detail shown.
 
-    - Computer graphics provide tools called motion dynamics. With this, the user can move and tumble object with respect to stationary observer, or he can make an object stationary and the viewer moves around them. A typical example is walk through made by builders to show flat interior and building surroundings. in many cases it is possible to move both objects and viewer.
-    
-    - Computer graphics also provides facility called update dynamics. With update dynamics it is possible to change the shape color or other properties of the objects being viewed.
-    
-    - With the recent development of digital signal processing and audio synthesis chip the interactive graphics can now provide audio feedback  along with the graphical feedback to make the simulated environment even more realistic
+    - Computer graphics provide tools called motion dynamics. With this, 
+      the user can move and tumble object with respect to stationary 
+      observer, or he can make an object stationary and the viewer moves 
+      around them. A typical example is walk through made by builders to 
+      show flat interior and building surroundings. in many cases it is 
+      possible to move both objects and viewer.
 
-h. Today, computer graphics is used in a variety of Fields ranging from routine everyday activities to very specialized area in widely different fields, including business, engineering,  medicine, government, education,  training,  advertising research,  art and entertainment and communication in general.
-ans: true
+    - Computer graphics also provides facilities called update dynamics. 
+      With update dynamics it is possible to change the shape color or other properties of the objects being viewed.
 
-i. A major use of computer graphics is in _____________, particularly for _______________ such as building and other structural design, mechanical and industrial design as well as design of manufacturing processes, including that of automobiles and aircraft, ships and spacecrafts and many other products
-ans: design process,
-     engineering applications,
+    - With the recent development of digital signal processing and audio 
+      synthesis chip the interactive graphics can now provide audio 
+      feedback along with the graphical feedback to make the simulated 
+      environment even more realistic.
 
-J. For some design applications, objects are first displayed in a ________________ form that shows the overall shape and the internal features of the objects.
-ans: wireframe outline
+h. List 9 fields Computer graphics is used in?
+ans: - business
+     - engineering
+     - medicine
+     - government
+     - education
+     - training
+     - advertising research
+     - art and entertainment and 
+     - communication in general
 
-k. Wireframe display also allows designers to quickly ______________________________________?
+i. A major use of computer graphics is in _____________, particularly for 
+   _______________
+ans: design processes, engineering applications
+
+i1. List examples of the engineering applications where computer graphics 
+    is used?
+ans: - building (or any structural) design
+     - mechanical and industrial design
+     - automobiles and aircraft design
+     - ships design
+     - spacecrafts design
+     - design of manufacturing processes
+     - many other products (feel free to get creative)
+
+J. For some design applications, objects are first displayed in a 
+   ________________
+ans: wireframe outline form
+
+j1. Why are objects first displayed in a wireframe?
+ans: because it shows the overall shape and the internal features of the 
+     objects
+
+k. Wireframe display also allows designers to quickly ____________________
 ans: see the effect of interactive adjustment to design shapes
 
-l. Current computer aided design (CAD) software packages range from ____________________ to ___________________
-ans: 2D vector based drafting systems,
+l. Computer Aided Design (CAD) software packages range from 
+   ____________________ to _____________________
+ans: 2D vector-based drafting systems,
      3D solid and surface modellers
 
-m. Modern CAD applications can also frequently allow rotation in 3D allowing viewing of designed objects from a desired angle, even from the inside looking out. true or false?
-ans: true
+m. Modern CAD applications can also frequently allow rotation in 3D, 
+   allowing us to _______________________________?
+ans: View designed objects from a desired angle, even from the inside 
+     looking out
 
-n. Some CAD software is capable of dynamic mathematical modelling in which case it may be marketed as ____________________?
+n. Some CAD softwares are capable of dynamic mathematical modelling in 
+   which case can be marketed as ____________________?
 ans: CADD (Computer Aided Design and Drafting)
 
 
 Presentation Graphics
 
 o. What is presentation?
-ans: Presentation refers to the act of presenting important points of a topic to either
+ans: Presentation refers to the act of presenting important points of a 
+     topic to either
      a. the audience for a lecture
      b. potential customers for a new product or service
 
-p. The presentation of data in a condensed, visual, convenient form has always been an aid to understanding and promoting any idea
-ans: true
+p. The presentation of data in a condensed, visual, convenient form has 
+   always been an aid to ________________
+ans: understanding and promoting any ideas
 
-q. Graphics becomes a vital part of presenting ideas and promoting organizations even in non business endeavors such as at academic seminars or for proposing a new construction and so on.
-ans: true
+q. Graphics becomes a vital part of presenting ideas and promoting 
+   organizations even in non business endeavors such as?
+ans: - at academic seminars or 
+     - for proposing a new construction 
+     - and so on
 
-r. Computer graphics has raised such presentations to an art by making visuals more appealing, colorful by incorporating animations, sound effects, videos in presentations.
-ans: true
+r. Computer graphics has raised such presentations to an art by making 
+   visuals more?.
+ans: - appealing, 
+     - colorful (by incorporating animations, sound effects, videos in 
+       presentations)
 
-s. Computer graphics methods are used in making music videos games cartoon movies television shows. Is this true?
-ans: true
+s. Computer graphics methods are used in making?
+ans: - music 
+     - videos 
+     - games 
+     - cartoon 
+     - movies 
+     - television shows
+     - etc
 
-t. Several developers have used graphics sound animation of multimedia to create variety of games. true or false?
-ans: true
+t. Several developers have used graphics sound animation of multimedia to 
+   create variety of games?
+ans: very true
 
-u. Computer graphics tools like MS Power Point are used heavily in teaching, seminars and conference presentations on almost every subject at every level. true or false?
-ans: true
+u. Computer graphics tools like MS Power Point are used heavily in 
+   ________, ___________ and _____________ on almost ________________?
+ans: teaching, seminars, conference presentations, every subject 
+     at every level
 
 
 
 
-2a. Computer graphics can be classified into two main categories, name them?
+
+
+
+
+
+2a. Computer Graphics can be classified into two main categories, name them?
 ans: - Passive and
      - interactive
 
 b. Discuss both classifications of computer graphics?
-ans: - Passive (off-line) computer graphics: The most common example of passive computer graphics is a static website, where users have no control over the contents on the monitor.
-     - Interactive computer graphics: This is called interactive graphics. Displays are controlled by mouse, trackball, joystick etc. Video Games, dynamic websites, special effects in movies and cartoons are all making use of interactive computer graphics.
+ans: - Passive (off-line) computer graphics: 
+          The most common example of passive computer graphics is a static 
+          website, where users have no control over the contents on the 
+          monitor.
+     - Interactive computer graphics: 
+          This is called interactive graphics. Displays are controlled by mouse, trackball, joystick etc. Video Games, dynamic websites, special effects in movies and cartoons are all making use of interactive computer graphics.
 
 c. List the 3 components that make up an interactive computer?
 ans: 1. Digital Memory buffer
@@ -118,10 +192,13 @@ ans: 1. Digital Memory buffer
 
 Digital Memory Buffer
 d. What is the Digital Memory Buffer?
-ans: This is a place where images and pictures are stored as an array (matrix of 0 & 1, 0 represents darkness and 1 represents image or picture)
+ans: This is a place where images and pictures are stored as an array 
+     (matrix of 0 & 1, 0 represents darkness and 1 represents image or 
+     picture)
 
 e. What is the Frame buffer?
-ans: it is the video RAM (V-RAM) that is used to hold or map the images displayed on the screen
+ans: it is the video RAM (V-RAM) that is used to hold or map the images 
+     displayed on the screen
 
 f. What is the formula for Memory in MB
 ans: Memory in MB = ( X-resolution x Y-resolution x Bits per pixel )        
@@ -130,36 +207,48 @@ ans: Memory in MB = ( X-resolution x Y-resolution x Bits per pixel )
 
 Monitor
 g. What is the Monitor?
-ans: It's a device that helps us view the display (they make use of CRT technology (Cathode ray Tube))
+ans: It's a device that helps us view the display (they make use of CRT 
+     technology (Cathode ray Tube))
 
 Display Controller
 h. What is the Display Controller?
 ans: It is an interface between Memory Buffer and Monitor.
 
 i. What is the job of the Display Controller?
-ans: its job is to pass the contents of frame buffer to the monitor. The image must be passed repeatedly to the monitor to maintain a steady picture on the screen
+ans: its job is to pass the contents of frame buffer to the monitor. The 
+     image must be passed repeatedly to the monitor to maintain a steady 
+     picture on the screen
 
 j. How exactly does the Display Controller do it's job?
-ans: The display controller reads each successive byte of data from FB Memory and converts 0's and 1's into corresponding video signals. This signal is then feed to the monitor to produce a black and white picture on screen
+ans: The display controller reads each successive byte of data from FB 
+     Memory and converts 0's and 1's into corresponding video signals. This 
+     signal is then feed to the monitor to produce a black and white 
+     picture on screen
 
 k. In today's term, display controller is recognized as a _____________?
 ans: Display Card
 
-l. An example of Display Card (Display Controller) we can buy in the market today would be?
+l. An example of Display Card (Display Controller) we can buy in the market 
+   today would be?
 ans: VGA card (640x480 resolution) etc.
 
 Computer Vision
 m. What is Computer Vision?
-ans: Computer vision is the field of computer science that focuses on creating digital systems that can process, analyze, and make sense of visual data (images or videos) in the same way that humans do.
+ans: Computer vision is the field of computer science that focuses on 
+     creating digital systems that can process, analyze, and make sense of 
+     visual data (images or videos) in the same way that humans do.
 
-n. The concept of computer vision is based on teaching computers to _________________________?
+n. The concept of computer vision is based on teaching computers to 
+   ________________________?
 ans: process images at a pixel level and understand them
 
-o. In Computer Vision, machines attempt to retrieve visual information, handle it, and interpret results. true or false?
+o. In Computer Vision, machines attempt to retrieve visual information, 
+   handle it, and interpret results. true or false?
 ans: true
 
 p. What are the 3 primary goals of computer vision?
-ans: 1. Detection, segmentation, location and recognition of certain objects in an image.
+ans: 1. Detection, segmentation, location and recognition of certain 
+        objects in an image.
      2. Tracking an object through image sequence.
      3. Mapping a scene to a 3D model of the scene.
 
@@ -173,7 +262,8 @@ ans: - pattern recognition,
 p2. Cognitive computer vision is strongly related to _______________ and _______________?
 ans: cognitive psychology, biological computation
 
-q. One interesting application of computer vision, commonly used in creation of visual effects for cinema and broadcast, is ___________________
+q. One interesting application of computer vision, commonly used in 
+   creation of visual effects for cinema and broadcast, is _______________
 ans: camera tracking
 
 r. What are some different fields where Computer Vision is applied?
@@ -187,33 +277,47 @@ ans: medicine,
 
 Image processing
 s. What is Image Processing?
-ans: Image processing is a method to perform some operations on an image, in order to get an enhanced image or to extract some useful information from it.
-     OR
-     It is a type of signal processing in which input is an image and output may be image or characteristics/features associated with that image
+ans: Image processing is a method to perform some operations on an image, 
+     in order to get an enhanced image or to extract some useful 
+     information from it.
 
-t. Nowadays, image processing is among rapidly growing technologies. true or false?
-ans: true
+     OR
+
+     It is a type of signal processing in which input is an image and 
+     output may be image or characteristics/features associated with that 
+     image
+
+t. Nowadays, image processing is among ________________ technologies?
+ans: rapidly growing
 
 u. Image Processing includes 3 steps. List them?
 ans: 1. Importing the image via image acquisition tools
      2. Analyzing and manipulating the image
-     3. Output (in which result can be altered image or report that is based on image analysis)
+     3. Output (in which result can be altered image or report that is 
+        based on image analysis)
 
 Graphics Primitives
-v. The interactive devices are the devices that give input to the graphics system and provides necessary feedback to the user about the accepted input. true or false?
-ans: true
+v. The interactive devices are the devices that give input to the graphics 
+   system and provides necessary feedback to the user about the accepted 
+   input?
+ans: facts
 
 
 
 
 Keyboard
 3a. What is a Computer Keyboard?
-ans: it is an input device used to enter characters and functions into the computer system by pressing buttons, or keys.
+ans: it is an input device used to enter characters and functions into the 
+     computer system by pressing buttons, or keys.
 
-b. It is the primary device used to enter text. A keyboard typically contains keys for individual letters, numbers and special characters, as well as keys for specific functions, it is connected to a computer system using a cable or a wireless connection.
-ans: true
+b. It is the primary device used to enter text. A keyboard typically 
+   contains keys for individual letters, numbers and special characters, as 
+   well as keys for specific functions, it is connected to a computer 
+   system using a cable or a wireless connection.
+ans: facts
 
-c. The number of keys on a keyboard varies from the original standard of ___ keys to the ___ key windows keyboard.
+c. The number of keys on a keyboard varies from the original standard of 
+   ___ keys to the ___ key windows keyboard.
 ans: 101, 104
 
 d. There are five parts of a standard keyboard. Name them?
@@ -227,9 +331,18 @@ e. Draw a diagram of a keyboard and label the 5 parts listed above?
 ans: Slide (page 24)
 
 f. Explain how Computer accepts inputs from the keyboard?
-ans: When we press a key, a tiny chip in the keyboard called keyboard controller notes that a key has been pressed. The keyboard controller places a code (Key Scan) in the buffer of the keyboard to indicate which key was pressed (Keyboard buffer is a temporary memory of the keyboard controller). The keyboard controller sends a signal to the system software notifying that something happened at the keyboard.
+ans: When we press a key, a tiny chip in the keyboard called keyboard 
+     controller notes that a key has been pressed. The keyboard controller 
+     places a code (Key Scan) in the buffer of the keyboard to indicate 
+     which key was pressed (Keyboard buffer is a temporary memory of the 
+     keyboard controller). The keyboard controller sends a signal to the 
+     system software notifying that something happened at the keyboard.
 
-When the system receives the signal it determines the appropriate response. When a keystroke has occurred, the system reads the memory location in the keyboard buffer that contains the code of the key which was pressed. The system software then passes that code to the CPU.
+     When the system receives the signal it determines the appropriate 
+     response. When a keystroke has occurred, the system reads the memory 
+     location in the keyboard buffer that contains the code of the key 
+     which was pressed. The system software then passes that code to the 
+     CPU.
 
 f1. Draw a diagram of this?
 ans: Slide (page 27)
@@ -237,7 +350,9 @@ ans: Slide (page 27)
 
 The Mouse
 g. What is a computer mouse?
-ans: A computer mouse is a handheld hardware input device that controls a cursor in a GUI (graphical user interface) for pointing, moving and selecting text, icons, files, and folders on your computer.
+ans: A computer mouse is a handheld hardware input device that controls a 
+     cursor in a GUI (graphical user interface) for pointing, moving and 
+     selecting text, icons, files, and folders on your computer.
 
 h. What are the 2 types of mouse?
 ans: Mechanical mouse and
@@ -246,9 +361,11 @@ ans: Mechanical mouse and
 
 Touch-screen
 i. What is a touch-screen?
-ans: A touch screen is a display device that allows the user to interact with a computer using their finger or stylus
+ans: A touch screen is a display device that allows the user to interact 
+     with a computer using their finger or stylus
 
-j. Touch screens are a useful alternative to a mouse or keyboard for navigating a GUI (graphical user interface)
+j. Touch screens are a useful alternative to a mouse or keyboard for 
+   navigating a GUI (graphical user interface)
 ans: true
 
 k. Touch screens are used on a variety of devices, such as 
@@ -264,27 +381,40 @@ ans: Slide (page 32)
 
 Digitizers and Graphic Tablets
 m. What is a Graphic Tablet?
-ans: A graphics tablet ( digitizer, digital graphic tablet, pen tablet, or digital art board) is an input device that enables a user to hand-draw images, animations and graphics, with a special pen-like stylus, similar to the way a person draws images with a pencil and paper.
+ans: A graphics tablet ( digitizer, digital graphic tablet, pen tablet, or 
+     digital art board) is an input device that enables a user to hand-draw 
+     images, animations and graphics, with a special pen-like stylus, 
+     similar to the way a person draws images with a pencil and paper.
 ans: true
 
-n. These tablets may also be used to capture data or handwritten signatures. It can also be used to trace an image from a piece of paper that is taped or otherwise secured to the tablet surface. Capturing data in this way, by tracing or entering the corners of linear polylines or shapes, is called digitizing
+n. These tablets may also be used to capture data or handwritten 
+   signatures. It can also be used to trace an image from a piece of paper 
+   that is taped or otherwise secured to the tablet surface. Capturing data 
+   in this way, by tracing or entering the corners of linear polylines or 
+   shapes, is called digitizing
 ans: true
 
 Printer
 o. What is a printer?
-ans: A printer is a device that accepts text and graphic output from a computer and transfers the information to paper, usually to standard-size, 8.5" by 11" sheets of paper.
+ans: A printer is a device that accepts text and graphic output from a 
+     computer and transfers the information to paper, usually to 
+     standard-size, 8.5" by 11" sheets of paper.
 
-p. Printers vary in size, speed, sophistication and cost. In general, more expensive printers are used for more frequent printing or high-resolution color printing.
+p. Printers vary in size, speed, sophistication and cost. In general, more 
+   expensive printers are used for more frequent printing or 
+   high-resolution color printing.
 ans: true
 
-q. The major printer technologies can be broken down into two main categories?
+q. The major printer technologies can be broken down into two main 
+   categories?
 ans: Impact and Non-impact
 
 r. What is the most important part of a PC?
 ans: The Display System
 
 s. What is the Display System?
-ans: The display systems is where the graphics are rendered in the screen of the computer. It is responsible for graphic display
+ans: The display systems is where the graphics are rendered in the screen 
+     of the computer. It is responsible for graphic display
 
 t. List some of the common types of display systems?
 ans: 1. Random Scan display
@@ -307,15 +437,27 @@ Random Scan display
 ans: Vector display
 
 b. How does Random Scan Display work?
-ans: the electron beam is directed only to the areas of screen where a picture has to be drawn. As it draws picture one line at a time. It can draw and refresh component lines of a picture in any specified sequence. Pen plotter is an example of random-scan displays. The number of lines regulates refresh rate on random-scan displays. An area of memory called refresh display files stores picture definition as a set of line drawing commands
+ans: the electron beam is directed only to the areas of screen where a 
+     picture has to be drawn. As it draws picture one line at a time. It 
+     can draw and refresh component lines of a picture in any specified 
+     sequence. Pen plotter is an example of random-scan displays. The 
+     number of lines regulates refresh rate on random-scan displays. An 
+     area of memory called refresh display files stores picture definition 
+     as a set of line drawing commands
 
-The system returns back to first-line command in the list, after all the drawing commands have been processed. High-quality vector systems can handle around 100, 00 short lines at this refresh rate. Faster refreshing can burn phosphor. To avoid this every refresh cycle is delayed to prevent refresh rate greater than 60 frames per second.
+
+     The system returns back to first-line command in the list, after all 
+     the drawing commands have been processed. High-quality vector systems 
+     can handle around 100, 00 short lines at this refresh rate. Faster 
+     refreshing can burn phosphor. To avoid this every refresh cycle is 
+     delayed to prevent refresh rate greater than 60 frames per second.
 
 c. Draw a diagram of the Random Scan Display?
 ans: Slide (page 42)
 
 d. What is refresh rate?
-ans: Refresh rate refers to the frequency that a display updates the onscreen image
+ans: Refresh rate refers to the frequency that a display updates the 
+     onscreen image
 
 d1. The time between these updates is measured in ______________?
 ans: milliseconds (ms)
@@ -326,7 +468,9 @@ ans: hertz (Hz)
 d3. What does it mean for your display to have a refresh rate of 144Hz?
 ans: That means it is refreshing the image 144 times per second
 
-d4. When paired with the high frame rates produced by a GPU and CPU working together, this can result in a smoother experience and potentially higher FPS
+d4. When paired with the high frame rates produced by a GPU and CPU working 
+    together, this can result in a smoother experience and potentially 
+    higher FPS
 ans: true
 
 d5. Draw a diagram show the difference of 120hz, 60hz and 30hz?
@@ -334,7 +478,7 @@ ans: Slide (46)
 
 
 Raster Scan Display
-e. Raster Scan Displays are most common type of graphics monitor. true or false?
+e. Raster Scan Displays are most common type of graphics monitor?
 ans: true
 
 f. Raster Scan Displays employs ___?
@@ -344,21 +488,35 @@ g. CRT is based on television technology. true or false?
 ans: true
 
 h. How does Raster Scan Display work?
-ans: In raster scan system electron beam sweeps across the screen, from top to bottom covering one row at a time. 
+ans: In raster scan system electron beam sweeps across the screen, from top 
+     to bottom covering one row at a time. 
 
-A pattern of illuminated pattern of spots is created by turning beam intensity on and off as it moves across each row. A memory area called refresh buffer or frame buffer stores picture definition. This memory area holds intensity values for all screen points. Stored intensity values are restored from frame buffer and painted on screen taking one row at a time. Each screen point is referred to as pixels.
 
-i. The memory are that stores picture definition is called the ___________________?
+     A pattern of illuminated pattern of spots is created by turning beam 
+     intensity on and off as it moves across each row. A memory area called 
+     refresh buffer or frame buffer stores picture definition. This memory 
+     area holds intensity values for all screen points. Stored intensity 
+     values are restored from frame buffer and painted on screen taking one 
+     row at a time. Each screen point is referred to as pixels.
+
+i. The memory are that stores picture definition is called the 
+   ___________________?
 ans: Refresh buffer (or frame buffer)
 
 j. Draw a diagram of the Raster Scan Display?
 ans: Slide(page 48)
 
-k. Both in the raster scan and random scan system, the screen images are ___________________________?
-ans: Maintained (flicker free) by redrawing or refreshing the screen many times per second (by cycling through the picture data stored in the refresh buffer)
+k. Both in the raster scan and random scan system, the screen images are 
+   ___________________________?
+ans: Maintained (flicker free) by redrawing or refreshing the screen many 
+     times per second (by cycling through the picture data stored in the 
+     refresh buffer)
 
 l. What is a DVST?
-ans: DVST (Direct-View Storage Tube) is an alternative method of maintaining the screen image, it uses the storage grid which stores the picture information as a charge distribution just behind the phosphor-coated screen
+ans: DVST (Direct-View Storage Tube) is an alternative method of 
+     maintaining the screen image, it uses the storage grid which stores 
+     the picture information as a charge distribution just behind the 
+     phosphor-coated screen
 
 m. DVST consists of 2 electron guns?
 ans: 1. Primary gun
@@ -370,7 +528,8 @@ ans: it stores the picture pattern
 o. What does the Flood Gun do?
 ans: it maintains the picture display. 
 
-p. DVST resembles CRT as it uses electron gun to draw picture and phosphor coated screen to display it. true or false?
+p. DVST resembles CRT as it uses electron gun to draw picture and phosphor 
+   coated screen to display it. true or false?
 ans: true
 
 q. The phosphor used in this is of __________________. 
@@ -382,19 +541,24 @@ ans: refresh buffer or frame buffer
 s. How is Picture definition stored in DVST?
 ans: it is stored inside CRT in form positive charged distribution. 
 
-s1. Because of how Picture definition are stored in DVST, DVST is known as ____________________?
+s1. Because of how Picture definition are stored in DVST, DVST is known as 
+    ____________________?
 ans: Storage Type CRT
 
-t. In DVST no refreshing is required as the result picture drawn on DVST will be seen for several minutes before fading. true or false
+t. In DVST no refreshing is required as the result picture drawn on DVST 
+   will be seen for several minutes before fading. true or false
 ans: true
 
 u. Draw a diagram of the DVST?
 ans: Slide(page 52)
 
 v. What is a Flat Panel Display?
-ans: It is a television, monitor or other display device that uses a thin panel design instead of a traditional cathode ray tube (CRT) design
+ans: It is a television, monitor or other display device that uses a thin 
+     panel design instead of a traditional cathode ray tube (CRT) design
 
-v1. Flat Panel Displays are much lighter and thinner, and can be much more portable than traditional televisions and monitors. They also have higher resolution than older models. true or false?
+v1. Flat Panel Displays are much lighter and thinner, and can be much more 
+    portable than traditional televisions and monitors. They also have 
+    higher resolution than older models. true or false?
 ans: true
 
 v2. List some examples of Flat Panel Displays?
@@ -423,27 +587,35 @@ ans: y = mx + b
 
 Vector Generation
 e. What are Vector Images?
-ans: They are graphical representations of mathematical objects such as lines, curves, and polygons.
+ans: They are graphical representations of mathematical objects such as 
+     lines, curves, and polygons.
 
-f. Vector graphics are generated by computer and they follow x and y axis as their reference definition. true or false?
+f. Vector graphics are generated by computer and they follow x and y axis 
+   as their reference definition. true or false?
 ans: true
 
-g. The process of “turning on” the pixels for a line segment is called _______________?
+g. The process of “turning on” the pixels for a line segment is called 
+   _______________?
 ans: Vector Generation
 
 h. What is Vector Generation?
 ans: It's the process of “turning on” the pixels for a line segment
 
 i. List some characteristics of a line?
-ans: 1. The line should appear as a straight line and it should start and end accurately.
+ans: 1. The line should appear as a straight line and it should start and 
+        end accurately.
      2. The line should have equal brightness throughout their length 
      3. The line should be drawn rapidly.
  
 Digital Differential Analyzer (DDA) Algorithm
-j. In any 2-Dimensional plane if we connect two points (x0, y0) and (x1, y1), we get a __________ 
+j. In any 2-Dimensional plane if we connect two points (x0, y0) and (x1, 
+   y1), we get a __________ 
 ans: line segment
 
-k. In the case of computer graphics, we can not directly join any two coordinate points, for that we must calculate intermediate points coordinates and put a pixel for each intermediate point, of the desired color with help of functions
+k. In the case of computer graphics, we can not directly join any two 
+   coordinate points, for that we must calculate intermediate points 
+   coordinates and put a pixel for each intermediate point, of the desired 
+   color with help of functions
 ans: true
 
 l. List the 5 steps involved in Calculating DDA?
@@ -451,7 +623,9 @@ ans: Step 1 − Get the input of two endpoints (X0,Y0) and (X1,Y1).
      Step 2 − Calculate the difference between two endpoints.
        dx = X1 - X0
        dy = Y1 - Y0
-     Step3 - Based on the calculated difference in step-2, you need to identify the number of steps to put pixel. If dx > dy, then you need more steps in x coordinate; otherwise in y coordinate.
+     Step3 - Based on the calculated difference in step-2, you need to 
+             identify the number of steps to put pixel. If dx > dy, then 
+             you need more steps in x coordinate; otherwise in y coordinate.
          if (absolute(dx) > absolute(dy))
              Steps = absolute(dx);
          else
@@ -468,13 +642,18 @@ ans: Step 1 − Get the input of two endpoints (X0,Y0) and (X1,Y1).
 
 m. List the advantages of DDA Algorithm?
 ans: 1. It is simple and easy to implement algorithm.
-     2. It avoid using multiple operations which have high time complexities.
-     3. It is faster than the direct use of the line equation because it does not use any floating point multiplication and it calculates points on the line
+     2. It avoid using multiple operations which have high time 
+        complexities.
+     3. It is faster than the direct use of the line equation because it 
+        does not use any floating point multiplication and it calculates 
+        points on the line
 
 n. List the disadvantages of DDA Algorithm?
-ans: 1. It deals with the rounding off operation and floating point arithmetic so it has high time complexity.
+ans: 1. It deals with the rounding off operation and floating point 
+        arithmetic so it has high time complexity.
      2. As it is orientation dependent, so it has poor endpoint accuracy.
-     3. Due to the limited precision in the floating point representation it produces cumulative error.
+     3. Due to the limited precision in the floating point representation 
+        it produces cumulative error.
  
 
 
