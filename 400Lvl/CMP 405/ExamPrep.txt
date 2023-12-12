@@ -180,8 +180,10 @@ ans: - Passive (off-line) computer graphics:
           The most common example of passive computer graphics is a static 
           website, where users have no control over the contents on the 
           monitor.
-     - Interactive computer graphics: 
-          This is called interactive graphics. Displays are controlled by mouse, trackball, joystick etc. Video Games, dynamic websites, special effects in movies and cartoons are all making use of interactive computer graphics.
+     - Interactive computer graphics (or interactive graphics): 
+          Displays are controlled by mouse, trackball, joystick etc. Video 
+          Games, dynamic websites, special effects in movies and cartoons 
+          (these are all making use of interactive computer graphics)
 
 c. List the 3 components that make up an interactive computer?
 ans: 1. Digital Memory buffer
@@ -192,7 +194,7 @@ ans: 1. Digital Memory buffer
 
 Digital Memory Buffer
 d. What is the Digital Memory Buffer?
-ans: This is a place where images and pictures are stored as an array 
+ans: This is a place where images (or pictures) are stored as an array 
      (matrix of 0 & 1, 0 represents darkness and 1 represents image or 
      picture)
 
@@ -200,32 +202,37 @@ e. What is the Frame buffer?
 ans: it is the video RAM (V-RAM) that is used to hold or map the images 
      displayed on the screen
 
+     or 
+
+     it is an area of memory used to store information related to the pixels 
+     of a display
+
 f. What is the formula for Memory in MB
-ans: Memory in MB = ( X-resolution x Y-resolution x Bits per pixel )        
+ans: Memory in MB = ( X-resolution * Y-resolution * Bits per pixel )        
                     ------------------------------------------------
-                                    8 x 1024 x 1024
+                                    8 * 1024 * 1024
 
 Monitor
 g. What is the Monitor?
-ans: It's a device that helps us view the display (they make use of CRT 
-     technology (Cathode ray Tube))
+ans: It's a device that helps us view the display and they make use of CRT 
+     technology (Cathode ray Tube)
 
 Display Controller
 h. What is the Display Controller?
 ans: It is an interface between Memory Buffer and Monitor.
 
 i. What is the job of the Display Controller?
-ans: its job is to pass the contents of frame buffer to the monitor. The 
-     image must be passed repeatedly to the monitor to maintain a steady 
+ans: it's job is to pass the contents from the frame buffer to the monitor. 
+     The image must be passed repeatedly to the monitor to maintain a steady 
      picture on the screen
 
 j. How exactly does the Display Controller do it's job?
 ans: The display controller reads each successive byte of data from FB 
-     Memory and converts 0's and 1's into corresponding video signals. This 
-     signal is then feed to the monitor to produce a black and white 
+     and converts 0's and 1's into corresponding video signals. This 
+     signal is then fed to the monitor to produce a black and white 
      picture on screen
 
-k. In today's term, display controller is recognized as a _____________?
+k. In today's term, display controller is recognized as _____________?
 ans: Display Card
 
 l. An example of Display Card (Display Controller) we can buy in the market 
@@ -236,30 +243,31 @@ Computer Vision
 m. What is Computer Vision?
 ans: Computer vision is the field of computer science that focuses on 
      creating digital systems that can process, analyze, and make sense of 
-     visual data (images or videos) in the same way that humans do.
+     visual data (images or videos) in the same way that humans do
 
 n. The concept of computer vision is based on teaching computers to 
    ________________________?
 ans: process images at a pixel level and understand them
 
 o. In Computer Vision, machines attempt to retrieve visual information, 
-   handle it, and interpret results. true or false?
-ans: true
+   handle it, and interpret results?
+ans: true that
 
 p. What are the 3 primary goals of computer vision?
 ans: 1. Detection, segmentation, location and recognition of certain 
         objects in an image.
-     2. Tracking an object through image sequence.
-     3. Mapping a scene to a 3D model of the scene.
+     2. Tracking an object through image sequence
+     3. Mapping a scene to a 3D model of the scene
 
 p1. The above goals are achieved by means of?
-ans: - pattern recognition, 
-     - statistical learning, 
-     - image processing, 
-     - graph theory and 
+ans: - pattern recognition
+     - statistical learning
+     - image processing
+     - graph theory and
      - other related fields
 
-p2. Cognitive computer vision is strongly related to _______________ and _______________?
+p2. Cognitive computer vision is strongly related to _______________ and 
+    _______________?
 ans: cognitive psychology, biological computation
 
 q. One interesting application of computer vision, commonly used in 
@@ -273,11 +281,11 @@ ans: medicine,
      security, 
      quality inspection, 
      robotics, 
-     and many other Fields
+     etc
 
 Image processing
 s. What is Image Processing?
-ans: Image processing is a method to perform some operations on an image, 
+ans: Image processing is a method of performing some operations on an image, 
      in order to get an enhanced image or to extract some useful 
      information from it.
 
@@ -297,10 +305,14 @@ ans: 1. Importing the image via image acquisition tools
         based on image analysis)
 
 Graphics Primitives
-v. The interactive devices are the devices that give input to the graphics 
-   system and provides necessary feedback to the user about the accepted 
-   input?
-ans: facts
+v. What are interactive devices?
+ans: this are devices that give input to the graphics system and 
+     provides necessary feedback to the user about the accepted input
+
+
+
+
+
 
 
 
@@ -310,11 +322,17 @@ Keyboard
 ans: it is an input device used to enter characters and functions into the 
      computer system by pressing buttons, or keys.
 
-b. It is the primary device used to enter text. A keyboard typically 
-   contains keys for individual letters, numbers and special characters, as 
-   well as keys for specific functions, it is connected to a computer 
-   system using a cable or a wireless connection.
-ans: facts
+a1. ____________ is the primary device used to enter text into the computer?
+ans: keyboard
+
+b. A keyboard typically contains keys for. List 4?
+ans: - individual letters 
+     - individual numbers
+     - special characters
+     - specific functions
+
+b1. A keyboard can be connected to a computer system using?
+ans: a cable or a wireless connection
 
 c. The number of keys on a keyboard varies from the original standard of 
    ___ keys to the ___ key windows keyboard.
@@ -336,13 +354,13 @@ ans: When we press a key, a tiny chip in the keyboard called keyboard
      places a code (Key Scan) in the buffer of the keyboard to indicate 
      which key was pressed (Keyboard buffer is a temporary memory of the 
      keyboard controller). The keyboard controller sends a signal to the 
-     system software notifying that something happened at the keyboard.
+     system software notifying that something happened at the keyboard
 
      When the system receives the signal it determines the appropriate 
      response. When a keystroke has occurred, the system reads the memory 
      location in the keyboard buffer that contains the code of the key 
      which was pressed. The system software then passes that code to the 
-     CPU.
+     CPU
 
 f1. Draw a diagram of this?
 ans: Slide (page 27)
@@ -366,7 +384,7 @@ ans: A touch screen is a display device that allows the user to interact
 
 j. Touch screens are a useful alternative to a mouse or keyboard for 
    navigating a GUI (graphical user interface)
-ans: true
+ans: facts
 
 k. Touch screens are used on a variety of devices, such as 
 ans: computers and laptop displays,
@@ -385,14 +403,13 @@ ans: A graphics tablet ( digitizer, digital graphic tablet, pen tablet, or
      digital art board) is an input device that enables a user to hand-draw 
      images, animations and graphics, with a special pen-like stylus, 
      similar to the way a person draws images with a pencil and paper.
-ans: true
 
 n. These tablets may also be used to capture data or handwritten 
    signatures. It can also be used to trace an image from a piece of paper 
    that is taped or otherwise secured to the tablet surface. Capturing data 
    in this way, by tracing or entering the corners of linear polylines or 
-   shapes, is called digitizing
-ans: true
+   shapes, is called _____________
+ans: digitizing
 
 Printer
 o. What is a printer?
@@ -401,9 +418,8 @@ ans: A printer is a device that accepts text and graphic output from a
      standard-size, 8.5" by 11" sheets of paper.
 
 p. Printers vary in size, speed, sophistication and cost. In general, more 
-   expensive printers are used for more frequent printing or 
-   high-resolution color printing.
-ans: true
+   expensive printers are used for ________________ or ________________
+ans: more frequent printing, high-resolution color printing
 
 q. The major printer technologies can be broken down into two main 
    categories?
@@ -445,12 +461,17 @@ ans: the electron beam is directed only to the areas of screen where a
      area of memory called refresh display files stores picture definition 
      as a set of line drawing commands
 
-
      The system returns back to first-line command in the list, after all 
      the drawing commands have been processed. High-quality vector systems 
      can handle around 100, 00 short lines at this refresh rate. Faster 
      refreshing can burn phosphor. To avoid this every refresh cycle is 
      delayed to prevent refresh rate greater than 60 frames per second.
+
+b1. Give me an example of a random scan display?
+ans: Pen plotter
+
+b2. ____________ regulates the refresh rate on a random-scan display?
+ans: number of lines
 
 c. Draw a diagram of the Random Scan Display?
 ans: Slide (page 42)
@@ -473,24 +494,23 @@ d4. When paired with the high frame rates produced by a GPU and CPU working
     higher FPS
 ans: true
 
-d5. Draw a diagram show the difference of 120hz, 60hz and 30hz?
+d5. Draw a diagram to show the difference of 120hz, 60hz and 30hz?
 ans: Slide (46)
 
 
 Raster Scan Display
-e. Raster Scan Displays are most common type of graphics monitor?
-ans: true
+e. Are Raster Scan Displays the most common type of graphic monitors?
+ans: yes they are
 
 f. Raster Scan Displays employs ___?
 ans: CRT
 
-g. CRT is based on television technology. true or false?
-ans: true
+g. CRT is based on ____________ technology?
+ans: television
 
 h. How does Raster Scan Display work?
 ans: In raster scan system electron beam sweeps across the screen, from top 
      to bottom covering one row at a time. 
-
 
      A pattern of illuminated pattern of spots is created by turning beam 
      intensity on and off as it moves across each row. A memory area called 
@@ -499,8 +519,7 @@ ans: In raster scan system electron beam sweeps across the screen, from top
      values are restored from frame buffer and painted on screen taking one 
      row at a time. Each screen point is referred to as pixels.
 
-i. The memory are that stores picture definition is called the 
-   ___________________?
+i. _____________ stores picture definition in Raster scan displays?
 ans: Refresh buffer (or frame buffer)
 
 j. Draw a diagram of the Raster Scan Display?
@@ -511,7 +530,10 @@ k. Both in the raster scan and random scan system, the screen images are
 ans: Maintained (flicker free) by redrawing or refreshing the screen many 
      times per second (by cycling through the picture data stored in the 
      refresh buffer)
+ 
 
+ Direct-View Storage Tube
+ 
 l. What is a DVST?
 ans: DVST (Direct-View Storage Tube) is an alternative method of 
      maintaining the screen image, it uses the storage grid which stores 
@@ -528,9 +550,9 @@ ans: it stores the picture pattern
 o. What does the Flood Gun do?
 ans: it maintains the picture display. 
 
-p. DVST resembles CRT as it uses electron gun to draw picture and phosphor 
-   coated screen to display it. true or false?
-ans: true
+p. DVST resembles CRT as it uses electron gun to __________ and phosphor 
+   coated screen to ________?
+ans: draw picture, display it
 
 q. The phosphor used in this is of __________________. 
 ans: high persistence
@@ -539,15 +561,15 @@ r. DVST does not use ____________________ to store picture definition.
 ans: refresh buffer or frame buffer
 
 s. How is Picture definition stored in DVST?
-ans: it is stored inside CRT in form positive charged distribution. 
+ans: it is stored inside CRT in form of positive charged distribution. 
 
 s1. Because of how Picture definition are stored in DVST, DVST is known as 
     ____________________?
 ans: Storage Type CRT
 
-t. In DVST no refreshing is required as the result picture drawn on DVST 
-   will be seen for several minutes before fading. true or false
-ans: true
+t. In the DVST why is no refreshing required as
+ans: the result picture drawn on DVST will be seen for several minutes before 
+     fading
 
 u. Draw a diagram of the DVST?
 ans: Slide(page 52)
@@ -590,9 +612,8 @@ e. What are Vector Images?
 ans: They are graphical representations of mathematical objects such as 
      lines, curves, and polygons.
 
-f. Vector graphics are generated by computer and they follow x and y axis 
-   as their reference definition. true or false?
-ans: true
+f. Vector graphics are generated by computer and they follow ______________?
+ans: x and y axis as their reference definition
 
 g. The process of “turning on” the pixels for a line segment is called 
    _______________?
