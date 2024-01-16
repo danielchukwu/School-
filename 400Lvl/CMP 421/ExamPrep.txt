@@ -13,8 +13,8 @@ NET-CENTRIC COMPUTING
 
 Introduction
 
-1a. Earlier computer systems functioned in isolation from one another. true or false?
-ans: true
+1a. Earlier computer systems functioned in _________ from one another?
+ans: isolation
 
 b. Today it is almost impossible to conceive of a computer system that is not networked in
    some way to other systems. true or false?
