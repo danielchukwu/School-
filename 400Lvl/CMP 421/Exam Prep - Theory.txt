@@ -1,0 +1,54 @@
+FROM page 1 - 35 (Will be updated to cover the entire slides before exams)
+
+1a. What is Net-Centric Computing?
+ b. What is Computing?
+ c. What is the CPU?
+    i. What are the operations performed by the CPU and Explain them?
+2a. What is a Multiprocessor System?
+ b. List the 2 types of multiprocessor systems 
+    - Explain both
+
+3a. Draw a diagram of a Loosely coupled system and a Tightly coupled system
+ b. In a tabular format. List 4 key differences between the Loosely coupled and the 
+    tightly coupled system?
+
+4a. What is Centralised Computing?
+ b. Explain the architecture used by Centralised Computing
+ c. List the 3 characteristics of Centralised Computing
+ d. Draw a diagram of Centralised Computing
+ e. List 4 advantages of Centralised Computing and 3 disadvantages
+
+5a. What is Decentralised Computing?
+ b. Explain the architecture used by Decentralised Computing?
+ c. List the 3 characteristics of Decentralised Computing?
+ d. Draw a diagram of Decentralised Computing
+ e. List 4 advantages of Deentralised Computing and 3 disadvantages
+ 
+6a. What is Parallel Computing?
+ b. Explain the technique used in Parallel Computing?
+ c. List 4 reasons why one should pick parallel computing?
+ d. Draw a diagram of Parallel Computing
+ 
+7a. What is Distributed Computing?
+ b. Draw a diagram of a distributed database system?
+ c. List the 2 characteristics of distributed computing
+ d. In a tabular format. List 5 differences between Parallel Computing vs Distributed Computing?
+ e. List 4 advantages of Distributed Computing and 3 disadvantages
+
+8a. List all 5 Distributed Computing models?
+ b. Discuss the Minicomputer Model and draw it's diagram?
+ b. Discuss the Workstation Model and draw it's diagram?
+ b. Discuss the Workstation-Server Model and draw it's diagram?
+ b. Discuss the Processor-pool Model and draw it's diagram?
+ b. Discuss the Hybrid Model?
+
+
+
+
+
+
+
+
+
+
+
