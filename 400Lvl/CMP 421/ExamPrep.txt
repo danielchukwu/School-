@@ -6,6 +6,7 @@ Best Practice: Study using a big screen device. Be it a laptop or a tablet. It w
 ----------------------------------------------------------------
 
 
+TODO: for upcoming test (due 18th february 2024) study from line 10 - 435
 
 NET-CENTRIC COMPUTING
 
@@ -16,9 +17,8 @@ Introduction
 1a. Earlier computer systems functioned in _________ from one another?
 ans: isolation
 
-b. Today it is almost impossible to conceive of a computer system that is not networked in
-   some way to other systems. true or false?
-ans: true
+b. Today it is almost impossible to conceive of a computer system that is not __________________?
+ans: networked in some way to other systems
 
 c. There are a wide variety of devices connected to the Internet.true or false?
 ans: true
@@ -29,9 +29,9 @@ ans: It is a computing where network plays the central or larger role
 e. What is computing?
 ans: it is the process of using computer technology to complete a given–oriented task.
 
-f. Computing may encompass the design and development of software and hardware systems for 
-   a broad range of purpose.
-ans: true
+f. Computing may encompass the _____ and _______ of software and hardware systems for 
+   _________________
+ans: design, development, a broad range of purpose
 
 g. Computing is fundamentally about ________________?
 ans: information process
@@ -43,8 +43,8 @@ ans: it is a piece of hardware that carries out the instructions of a computer p
 i. The CPU performs the basic __________________________________ of a computer system?
 ans: arithmetic, logical and input/output operations
 
-j. The Central Processing Unit (CPU) is also the processor. Both refer to the same thing. true or false
-ans: true
+j. The Central Processing Unit (CPU) is also called the _________?
+ans: processor
 
 k. What is a Multiprocessor System?
 ans: it is a system which has more than 2 processors in the system
@@ -148,8 +148,8 @@ c. A decentralised computing generally has multiple authoritative nodes, each of
 ans: serves a subset of the total end users
 
 d. In decentralised computing, these are different CPU connected on the network and each 
-   processor can do its job independent of each other. true or false
-ans: true
+   processor can do its job _________ of each other
+ans: independent
 
 e. List the characteristics of Decentralised Computing?
 ans: - multiple Central Units –there is more than one central unit which can listen for 
@@ -210,7 +210,7 @@ ans: it refers to multiple computer systems working on a single problem
 g. In distributed system every node make its __________?
 ans: own decision
 
-h. In a distributed computing, every node on the network ______________________________?
+h. In distributed computing, every node on the network ______________________________?
 ans: communicates with every other node and are working together as a single system
 
 i. In distributed computing, a single problem (or task) is ________________________________?
@@ -226,7 +226,7 @@ ans: Network
 l. Each computer in a distributed system is known as a _______
 ans: Node
 
-m. A set of nodes in a __________
+m. A set of nodes is known as a __________
 ans: cluster
 
 n. Name 2 big companies that use distributed computing?
@@ -236,14 +236,13 @@ ans: Facebook and
 o. Draw a diagram of a distributed database system?
 ans: Slide (page 22)
 
-p. List the characteristics of distributing computing?
-ans: - Concurrency of components –node apply consensus protocols to agree on same 
+p. List the characteristics of distributed computing?
+ans: - Concurrency of components – node applies consensus protocols to agree on same 
        values/transactions/command/logs
      - Lack of a global clock: all nodes maintain their own clock Independently without 
        having a significant effect on the  entire system
 
-
-q. In a table, list the at least 5 differences between Parallel vs Distributed Computing?
+q. In a table, list at least 5 differences between Parallel vs Distributed Computing?
 ans: Parallel Computing vs Distributing Computing
 
 P1. Parallel Computing is a computation type in which multiple processors execute multiple 
@@ -252,7 +251,7 @@ D1. Distributing Computing is a computation type in which networked computers co
     and coordinate the work through message passing to achieve a common goal.
 
 P2. Parallel Computing occurs on one computer
-D2. occurs on between multiple computers
+D2. occurs between multiple computers
 
 P3. In Parallel Computing, multiple processors perform Processing
 D3. In Distributing Computing , computer rely on message passing
@@ -266,7 +265,6 @@ D5. In distributing computing , each  computer has their own memory
 P6. Parallel Computing is used to increase performance and for scientific computation
 D6. Distributing Computing is used to share resources and to increase scalability
 
-
 r. List the advantages of Distributed Computing?
 ans: - Low latency than centralised or decentralised system.
      - It has redundancy and resiliency.
@@ -274,11 +272,11 @@ ans: - Low latency than centralised or decentralised system.
      - A distributed computing is scalable and can be designed parallelism
 
 s. List the disadvantages of Distributed Computing?
-ans: - It is difficult to design.
+ans: - It is difficult to design
      - It can be difficult to spot bugs that causes errors
-     - Security and privacy can become an issue with distributed systems.
-     - It can be overkill for some tasks, using more physical resources and engineering time 
-       than is necessary
+     - Security and privacy can become an issue with distributed systems
+     - It can be overkill for some tasks, using more physical resources and 
+       engineering time than is necessary
 
 t. Draw a diagram showing the Centralized, Decentralized, distributed systems?
 ans: Slide (page 26)
@@ -325,10 +323,7 @@ ans: consists of several workstation interconnected by a communication network
 
 u10. An organization may have several workstations located throughout an organisation with 
      infrastructure were each workstation is equipped with its own disk and serves as a 
-     single-user computer
-ans: 
-
-u11. In the Workstation Model environment, at any one time a significant proportion of the workstation are idle which result in ____________________________?
+     single-user computer. In the Workstation Model environment, at any one time a significant proportion of the workstation are idle which result in ____________________________?
 ans: the waste of large amount of CPU time
 
 u12. The idea of the workstation model is to ______________________________________?
