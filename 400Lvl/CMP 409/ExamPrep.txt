@@ -192,7 +192,20 @@ ans: spaCy,
      textacy,
      neuralcoref and more
 
-g. Stopped at Slide 3 (page 10)
+g. Doing anything complicated in machine learning usually means building a _________?
+ans: pipeline (The idea is to break up your problem into very small pieces 
+     and then use machine learning to solve each smaller piece separately.)
+
+h. How does the pipeline work?
+ans: The idea is to break up your problem into very small pieces and then 
+     use machine learning to solve each smaller piece separately. Then by 
+     chaining together several machine learning models that feeds into each 
+     other, you can do very complicated things.
+
+     And that’s exactly the strategy we are going to use for NLP. We’ll break down the process of understanding English into small chunks and see how each one works.
+
+i. 
+
 
 
 
