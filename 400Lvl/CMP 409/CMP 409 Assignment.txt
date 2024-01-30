@@ -1,0 +1,7 @@
+Assignment
+- Submit a report after your presentation ()
+  - In your slides you summarised things, in your report be more detailed assuming you are explaining things to someone with no idea of what Machine Learning is
+- Your code and your slides should be the appendix of that report
+- Spiral bind it
+
+Next meeting continues on Monday by 10am and last one on wednesday same time
