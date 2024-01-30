@@ -1,0 +1,12 @@
+CMP 409 Presentation (1st)
+
+What type of datasets do we have? is it binary or multi-class
+Explain that line of code
+Where is the function or class used there imported from
+Explain the libraries used in your code
+Is this supervised or unsupervised machine learning
+What are the 4 algorithms that your group used
+He asks based on the slides not what you presented on?
+What is the difference between your 
+
+P.S: If you know more of the questions asked, text them to me and I'll update the file
