@@ -683,25 +683,6 @@ ans: - A concise and universally accepted notation is available for syntax descr
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 SLIDE II
 Problem of Describing Syntax
 
@@ -1185,59 +1166,5 @@ ans: compute the remaining attribute values
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+GOOD LUCK 🙏✅✅
 
