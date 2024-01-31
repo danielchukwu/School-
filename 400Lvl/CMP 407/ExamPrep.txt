@@ -498,7 +498,7 @@ S4. Syntax trees are comparatively more dense than parse trees
 f. Why are Syntax Trees called Abstract Syntax Trees?
 ans: - They are abstract representation of the parse trees 
      - They do not provide every characteristic information from the real 
-       syntax.  
+       syntax.
      - For example- no rule nodes, no parenthesis etc.  
        
 
