@@ -1,6 +1,7 @@
 1. What is a translator stating it's relevance to the field of computer programming. (2 marks)
    a. Discuss in details the difference between a compiler and interpreter using python and java as case studies (10 marks)
-   b. What are the 2 main parts of a compiler and discuss how they work together to produce a programming (3 marks)
+   b. What are the 2 main parts of a compiler and discuss how they work together to produce a program (3 marks)
 
 2. With the aid of a diagram discuss the phases of a compiler using the following code assuming all variables were previously declared; v = u + a * t. (5 marks)
    a. Using the diagram in 2, state the first 3 phases of the compiler and what can cause errors in each of those stages (use java code to make your case) (10 marks)
+
