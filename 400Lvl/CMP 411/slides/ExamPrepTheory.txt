@@ -1,0 +1,69 @@
+1a. Definition
+ i. What is a model and what is it made up of
+ ii. What is modelling
+ iii. What is Simulation
+ iv. What is Computer Simulation
+
+ b. Discuss why Modelling and Simulations is important
+ c. What is Computer Simulation or Computer model
+    i. List the 2 types of Computer Simulations and state the 3 general purposes they are used for
+    ii. Discuss Equation-based Simulations
+    iii. Discuss Agent-based simulations
+
+ d. Discuss Multiscale Simulations
+    i. What are the 2 types of Multiscale Simulations
+    ii. Discuss serial multiscale and parallel multiscale Simulations
+
+
+2a. Define Monte Carlo Simulations and further discuss
+ b. List the Types of Data/Information Needed to Develop a Simulation Model
+ c. Draw a diagram of the Modeling process and discuss each phase in the process
+ d. List 5 different applications of modelling in todays industries
+
+3a. What is Systems and Components and further discuss
+ b. List 1 example of systems and components in a tabular format
+
+4a. List the 4 types of Models
+ b. Discuss Discrete Models?
+ c. Discuss Continuous Models?
+ d. Draw a graphical example of Discrete and continuous models?
+
+ e. Discuss Deterministic Models
+ f. Discuss Stochastic Models
+
+5a. What are Random Numbers?
+    i. List 4 application areas of random numbers?
+ b. What are RNG (Random Number Generators)?
+    i. List the 2 types of Random Numbers and Random Numbers Generators
+    ii. Explain the below
+        - Pseudorandom Numbers
+        - True Random Numbers
+ c. List 8 properties of a good Random Number Generator and discuss 4
+ d. Draw a diagram showing Pseudorandom Number Generators work
+
+6a. Discuss the Congruential method?
+ b. What are the key considerations when using the congruential method
+ c. Discuss the below:
+    - Seed value
+    - Period length
+    - Statistical properties
+ d. What is RANECU and briefly discuss?
+ e. List and explain the key features of RANECU?
+ f. Discuss the Quadrature congruential method?
+
+7a. What is a Queuing system?
+ b. What is a Queuing model?
+ c. List the 3 goals of a Queuing model?
+ d. Name the 2 available approaches to performance analysis of a queuing system?
+ e. Discuss Analytical model solution?
+
+8a. List 5 attributes of a Queuing Model and explain 3
+ b. List and explain the 3 customer decisions on a queue?
+ c. List all 3 types of Queuing models?
+    i. Draw the diagram of all 3 types of Queuing models
+    ii. Under each queuing model diagram explain what takes place
+
+9a. Discuss Little's Law?
+ b. Queuing Network are classified into 2 types. Name them?
+ c. What happens in an open and a closed queuing network?
+ d. What is the main difference between the open and the closed queuing network?
