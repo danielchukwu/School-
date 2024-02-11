@@ -2,7 +2,6 @@
  i. What is a model and what is it made up of
  ii. What is modelling
  iii. What is Simulation
- iv. What is Computer Simulation
 
  b. Discuss why Modelling and Simulations is important
  c. What is Computer Simulation or Computer model
