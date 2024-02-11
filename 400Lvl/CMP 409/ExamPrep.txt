@@ -450,6 +450,173 @@ ans: knowledge representation
 
 
 
+----------------------------------------------------------------
+
+
+
+SLIDE 6
+
+
+6a. Who is an expert?
+ans: An expert is a person with extensive knowledge or ability based on 
+     research, experience, or occupation and in a particular area of study
+
+ b. What is an Expert System? 
+ ans: It is a computer program that tries to replicate knowledge and skills 
+      of human experts in some area, and then solve problems in this area 
+      (the way human experts would)
+
+ c. Why is an Expert System needed? 
+ ans: It is designed to solve real problems in a particular domain that 
+      normally would require a human expert
+
+ d. What does it take to develop an Expert System?
+ ans: it involves extracting relevant knowledge from human experts in the
+      area of problem, called Domain Experts
+
+e. Expert Systems take their roots in ____________?
+ans: Cognitive Science
+
+f. What is Cognitive Science? 
+ans: it's the study of human mind using combination of AI and psychology
+
+g. In business, Expert System allows many companies to save millions of 
+   dollars
+ans: true
+
+h. List 4 characteristics of Expert Systems?
+ans: - High performance
+     - Understandable
+     - Reliable
+     - Highly responsive
+
+i. List atleast 10 capabilities of Expert Systems?
+ans:  - Advising
+      - Instructing and assisting human in decision 
+      - making
+      - Demonstrating
+      - Deriving a solution
+      - Diagnosing
+      - Explaining 
+      - Interpreting input
+      - Predicting results
+      - Justifying the conclusion
+      - Suggesting alternative options to a problem
+      - Substituting human decision makers
+      - Possessing human capabilities
+      - Producing accurate output for 
+      - inadequate knowledge base
+      - Refining their own knowledge
+
+j. List the 3 components of Expert Systems?
+ans: - Knowledge Base
+     - Inference Engine
+     - User Interface
+
+k. Draw a diagram showing the 3 components of Expert Systems
+ans: SLIDE 6 Page 15
+
+l. _________ is required to exhibit intelligence?
+ans: knowledge
+
+l1. The success of any Expert System depends quality, completeness, and 
+     accuracy of the information stored in the knowledge base.
+ans: true
+
+
+m. What is Data?
+ans: It is a collection of facts
+
+n. What is Knowledge?
+ans: It is the combination of data, information, and past experience
+
+o. The knowledge base of an ES is a store of both _________ and __________?
+ans: factual and heuristic
+
+p. Explain Factual and Heuristic knowledge?
+ans: - Factual Knowledge: It is the information widely accepted by the 
+       Knowledge Engineers and scholars in the task domain.
+     - Heuristic Knowledge: It is about practice, accurate judgment, one’s 
+       ability of evaluation, and guessing.
+
+q. What is knowledge representation?
+ans: - It is the method used to organize and formalize the knowledge in 
+       the knowledge base. 
+     - It is in the form of IF-THEN-ELSE rules.
+
+r. How is the knowledge base formed?
+ans: The knowledge base is formed by readings from various experts, 
+     scholars, and the Knowledge Engineers. The knowledge engineer is a 
+     person with the qualities of empathy, quick learning, and case 
+     analyzing skills.
+
+s. How do knowledge engineers acquire information?
+ans: They acquire information from subject expert by recording, 
+     interviewing, and observing subject experts at work, etc.
+     
+     The Knowledge engineer then categorizes and organizes the information 
+     in a meaningful way, in the form of IF-THEN-ELSE rules, to be used by 
+     interference machine
+
+t. ____________ monitors the development of the Expert System.
+ans: The Knowledge engineer
+
+u. _________ and __________ help the Inference Engine in deducting correct 
+   and flawless solutions
+ans: Use of efficient procedures and rules
+
+v. The Inference Engine acquires and manipulates knowledge from the 
+   ___________ to arrive at a particular solution.
+ans: knowledge base
+
+w. Inference Engine uses 2 strategies. Name them?
+ans: Forward chaining
+     Backward chaining
+
+x. Explain forward chaining?
+ans: - It is a strategy of an expert system to answer the question, “What 
+       can happen next?”
+
+     - Here, the Inference Engine follows the chain of conditions and 
+       derivations and finally deduces the outcome. It considers all the 
+       facts and rules, and sorts them before concluding to a solution.
+
+     - This strategy is followed for working on conclusion, result, or 
+       effect. For example, prediction of share market status as an effect 
+       of changes in interest rates.
+
+
+x1. Explain backward chaining?
+ans: - With this strategy, an expert system finds out the answer to the 
+       question, “Why this happened?”
+
+     - On the basis of what has already happened, the Inference Engine 
+       tries to find out which conditions could have happened in the past 
+       for this result. 
+
+     - This strategy is followed for finding out cause or reason. For 
+       example, diagnosis of blood cancer in humans.
+
+y. Why are User Interfaces important in Expert Systems
+ans: User interface provides interaction between user of the Expert System 
+     and the Expert System itself.
+
+     It explains how the Expert System has arrived at a particular recommendation. The explanation may appear in the following forms:
+     - Natural language displayed on screen.
+     - Verbal narrations in natural language.
+     - Listing of rule numbers displayed on the screen.
+
+     The user interface makes it easy to trace the credibility of the 
+     deductions.
+
+z. List 4 requirements of Expert Systems user interfaces?
+ans: - It should help users to accomplish their goals in shortest possible 
+       way.
+     - It should be designed to work for user’s existing or desired work 
+       practices.
+     - Its technology should be adaptable to user’s requirements; not the 
+       other way round.
+     - It should make efficient use of user input.
 
 
 
@@ -457,13 +624,244 @@ ans: knowledge representation
 
 
 
+6B.
 
 
 
 
 
 
+6Ba. List 4 limitations of Expert Systems (ES)?
+ans: - Limitations of the technology
+     - Difficult knowledge acquisition
+     - ES are difficult to maintain
+     - High development costs
 
+b. List 5 application fields for Expert Systems?
+ans: - Design Domain: Camera lens design, automobile design.
+     - Medical Domain: Diagnosis Systems to deduce cause of disease from 
+       observed data, conduction medical operations on humans.
+     - Monitoring Systems: Comparing data continuously with observed system 
+       or with prescribed behavior such as leakage monitoring in long 
+       petroleum pipeline.
+     - Process Control Systems: Controlling a physical process based on 
+       monitoring.
+     - Knowledge Domain Finding out faults in vehicles, computers.
+     - Finance/Commerce: Detection of possible fraud, suspicious 
+       transactions, stock market trading, Airline scheduling, cargo 
+       scheduling.
+
+c. The process of developing an Expert System(ES) is _________?
+ans: Iterative
+
+d. List some of the steps involved in developing an Expert System or ES?
+ans: 1. Identify Problem Domain
+       - The problem must be suitable for an expert system to solve it.
+       - Find the experts in task domain for the ES project.
+       - Establish cost-effectiveness of the system.
+     2. Design the System
+       - Identify the ES Technology Know and establish the degree of 
+         integration with the other systems and databases.
+       - Realize how the concepts can represent the domain knowledge best.
+     3. Develop the Prototype
+       - From Knowledge Base: The knowledge engineer works to −
+       - Acquire domain knowledge from the expert.
+       - Represent it in the form of If-THEN-ELSE rules.
+     4. Test and Refine the Prototype
+       - The knowledge engineer uses sample cases to test the prototype for 
+         any deficiencies in performance.
+       - End users test the prototypes of the ES  
+     5. Develop and Complete the ES
+       - Test and ensure the interaction of the ES with all elements of its 
+         environment, including end users, databases, and other information 
+         systems.
+       - Document the ES project well.
+       - Train the user to use ES.  
+     6. Maintain the System
+       - Keep the knowledge base up-to-date by regular review and update.
+       - Cater for new interfaces with other information systems, as those 
+         systems evolve.
+
+e. List 6 benefits of an Expert System
+ans: - Availability: They are easily available due to mass production of 
+       software.
+     - Less Production Cost: Production cost is reasonable. This makes them 
+       affordable.
+     - Speed: They offer great speed. They reduce the amount of work an 
+       individual puts in.
+     - Less Error Rate: Error rate is low as compared to human errors.
+     - Reducing Risk: They can work in the environment dangerous to humans.
+     - Steady response: They work steadily without getting motional, tensed 
+       or fatigued.
+  
+
+
+
+
+
+
+----------------------------------------------------------------
+
+
+
+SLIDE 7
+
+
+7a. List 9 areas where Machine Learning can be applied?
+ans: - Traffic Alerts
+     - Social Media
+     - Transportation and Commuting 
+     - Products Recommendations
+     - Virtual Personal Assistants
+     - Self Driving Cars 
+     - Dynamic Pricing 
+     - Google Translate 
+     - Online Video Streaming 
+     - Fraud
+
+b. Machine learning (ML) is the subset of __________________?
+ans: artificial intelligence (AI)
+
+c. What is Machine Learning?
+ans: ML focuses on building systems that learn or improve performance based 
+     on the data they consume.
+
+d. ___________ are the engines that power machine learning
+ans: Algorithms
+
+e. There are 2 major types of machine learning algorithms. Name them?
+ans: - Supervised learning and
+     - Unsupervised learning
+
+f. What is the difference between both learning algorithm?
+ans: The difference between them is defined by how each learns about data 
+     to make predictions.
+
+g. Explain supervised learning?
+ans: A supervised learning algorithm learns from labelled training data and 
+     helps you to predict outcomes for unforeseen data. 
+     - It is the training of the machine using data which is well 
+       “labelled.” 
+     - It means the data is already tagged with the correct answer. 
+     - It can be compared to learning which takes place in the presence of 
+       a supervisor or a teacher.
+
+h. Why supervised learning?
+ans: - Supervised learning allows you to collect data or produce a data 
+       output from the previous experience.
+     - Helps you to optimize performance criteria using experience
+     - Supervised machine learning helps you to solve various types of 
+       real-world computation problems.
+
+i. What are the 2 type of Supervised Machine Learning Techniques?
+ans: - Classification:
+       To group the output inside a class.
+     - Regression:
+       Predicts a single output value using training data.
+       Example: You can use regression to predict the house price from 
+       training data. The input variables will be locality, size of a 
+       house, etc.
+
+i1. What is binary classification and muli classification?
+ans: Binary classification: is when the algorithm tries to label input into 
+     two distinct classes 
+     Muliclass classification: is selecting between more than two classes.
+
+j. There are 7 steps involved in supervised learning. List all 7?
+ans: - Step 1 : Defining problem and gathering data for it.
+     - Step 2 : Pre-processing data.
+     - Step 3 : Split data into train and test sets.
+     - Step 4 : Training the model.
+     - Step 5 : Evaluating model.
+     - Step 6 : Improve model.
+     - Step 7 : Deploying model and monitoring.
+
+k. Explain unsupervised learning?
+ans: In Unsupervised learning, the model is not supervised. 
+     - Instead, we allow the model to work on its own to discover 
+       information. 
+     - It mainly deals with the unlabelled data. 
+     - Unsupervised learning algorithms allow you to perform more complex 
+       processing tasks compared to supervised learning.
+
+l. Why unsupervised learning?
+ans: - It finds all kind of unknown patterns in data.
+     - It help you to find features which can be useful for categorization.
+     - It is taken place in real time, so all the input data to be analysed 
+       and labelled in the presence of learners.
+     - It is easier to get unlabelled data from a computer than labelled 
+       data, which needs manual intervention.
+
+m. What are the 2 type of Unsupervised Machine Learning Techniques?
+ans: 1. Clustering:
+       - Mainly deals with finding a structure or pattern in a collection 
+         of uncategorized data. 
+       - Clustering algorithms will process your data and find natural 
+         clusters (groups) if they exist in the data. 
+       - You can also modify how many clusters your algorithms should 
+         identify. It allows you to adjust the granularity of these groups.
+     2. Association: 
+       - Association rules allow you to establish associations amongst data 
+         objects inside large databases.
+       - It is about discovering exciting relationships between variables 
+         in large databases. 
+       - For example, people that buy a new home most likely to buy new 
+         furniture.   
+
+n. List the differences between supervised and unsupervised learning?
+ans: 
+S1. input and output variables will be given.
+U1. only input data will be given
+
+Input Data 
+S2. Algorithms are trained using labeled data.
+U2. Algorithms are used against data which is not labeled
+
+Algorithms Used
+S3. Support vector machine, Neural network, Linear and logistics 
+    regression, random forest, and Classification trees.
+U3. Unsupervised algorithms can be divided into different categories: 
+    like Cluster algorithms, K-means, Hierarchical clustering, etc.
+
+Computational Complexity
+S4. Supervised learning is a simpler method.
+U4. Unsupervised learning is computationally complex
+
+Use of Data
+S5. Supervised learning model uses training data to learn a link between 
+    the input and the outputs.
+U5. Unsupervised learning does not use output data.
+
+Accuracy of Results 
+S6. Highly accurate and trustworthy method.
+U6. Less accurate and trustworthy method.
+
+Real Time Learning 
+S7. Learning method takes place offline.
+U7. Learning method takes place in real time.
+
+Number of Classes 
+S8. Number of classes is known.
+U8. Number of classes is not known.
+
+Main Drawback
+S9. Classifying big data can be a real challenge in Supervised Learning.
+U9. You cannot get precise information regarding data sorting, and the 
+    output as data used in unsupervised learning is labelled and not known.
+  
+
+
+
+
+
+
+----------------------------------------------------------------
+
+
+
+SLIDE 8
+
+SUPERVISED Learning
 
 
 
