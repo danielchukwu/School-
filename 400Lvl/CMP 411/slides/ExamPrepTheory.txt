@@ -13,7 +13,6 @@
     i. What are the 2 types of Multiscale Simulations
     ii. Discuss serial multiscale and parallel multiscale Simulations
 
-
 2a. Define Monte Carlo Simulations and further discuss
  b. List the Types of Data/Information Needed to Develop a Simulation Model
  c. Draw a diagram of the Modeling process and discuss each phase in the process
