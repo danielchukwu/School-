@@ -563,7 +563,7 @@ ans: - Controlled setting with users
 
 q1. Explain all 3 types of Evaluation?
 ans: - Controlled setting with users
-       - Usability Testing – conducted in labs with the aim of testing specific features or behaviours of the product.
+       - Usability Testing – conducted in labs with the aim of testing specific features or behaviors of the product.
        - The primary goal is to determine whether an interface is usable by the intended user population to carry out the tasks for which it was designed. This involves investigating how typical users perform on typical tasks
 
      - Natural setting with users
@@ -575,8 +575,43 @@ ans: - Controlled setting with users
      - Any setting without users (inspections, cognitive walkthroughs etc)
        - Carried out by researchers: using modelling, heuristic evaluation, analytics etc.
 
+q2. What are the 3 types of experiments to conducted
+ans: - Have hypothesis
+     - Experimental Design
+     - Data Analysis – t-test
 
-STOPPED AT PAGE 81
+q3. What are the 3 types of field studies conducted
+ans: - Data collection and Participants
+     - Data Analysis and Presentation
+
+q4. What are some of the other issues encountered?
+ans: - Informing participants about their rights
+     - Making sure you take into account biases and other influences that impact how you 
+       describe your evaluation findings
+
+q5. List 5 of the types of questions asked during Evaluation?
+ans: 1. Describe the tool being evaluated
+     2. What kind of setting was used for the evaluation?
+     3. What was the goal of the evaluation?
+     4. Describe the participants selected for the evaluation
+     5. Describe the research design – the experiment setup ans task given to the 
+        participants
+     6. What data collection methods were used?
+     7. What data analysis methods were used?
+     8. How was data recorded (what methods were used)?
+     9. What was the result of the evaluation
+     10. Outline three things you can do differently to improve the evaluation
+
+q6. List the steps in an Evaluation Framework?
+ans: - Determine Goals
+     - Explore the questions
+     - Choose the evaluation method
+     - Identify the practical issues
+     - Decide how to deal with them
+     - Evaluate, analyse, interpret and present data
+     - Deliver the project to the user
+
+
 
 
 
