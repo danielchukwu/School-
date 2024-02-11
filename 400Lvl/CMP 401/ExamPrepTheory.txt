@@ -1,0 +1,101 @@
+CMP 401 EXAM PREP THEORY
+Best Practice: Study using a big screen device. Be it a laptop or a tablet. It won't be best to use phones (even though y'all ain't with your phones 😉)
+
+
+
+----------------------------------------------------------------
+
+
+
+SLIDE I
+
+
+
+1a. List 5 areas of computer applications?
+ b. What is Natural language?
+    i. What makes up the structure of a language?
+    ii. list 5 examples of natural language?
+
+2a. What is a Programming language?
+    i. List 7 Programming languages?
+ b. List all 3 categories of programming languages?
+    i. Discuss how procedural programming languages work and list 3 procedural languages?
+    ii. Discuss how functional programming languages work and list 3 functional languages?
+    iii. Discuss how Object-oriented programming languages work and list 3 Object-oriented languages?
+ c. List 5 reasons why one should study programming languages?
+
+3a. List the 3 national standards bodies that define Language standards?
+    i. There are 4 ways this organizations work to define Language standards. Name them?
+    ii. How often are standards reviewed?
+ b. why are standards important?
+
+4. SKIPPED: Language definition
+
+5a. List 4 criteria for Evaluating a programming language?
+ b. Discuss the below
+    - Readability
+    - Writability
+    - Reliability
+      i. List 4 characteristic used in measuring Reliability of programming languages
+    - Cost
+      i. List and briefly discuss the 4 characteristics that lead to the total cost of programming languages?
+
+6a. What are the 2 factors that influence Language Design?
+ b. Discuss Computer Architecture?
+    i. What is the von Neumann architecture
+    ii. Who was the main originator of this architecture?
+    iii. Discuss the von Neumann Architecture?
+          a. Draw a diagram of the von Neumann Architecture?
+          b. The execution of machine code on this architecture is called what?
+          c. Where is the address of the next instruction to be executed in this architecture located at?
+          d. List the steps in the fetch-execute cycle?
+          f. What are the 2 primary components of a digital computer that uses the von Neumann Architecture?
+ d. Discuss Language Implementation method and what it requires and its primitives?
+
+7a. List the 3 fundamental methods used for implementing a programming language?
+ b. Discuss the Compilation method?
+    i. List 3 languages that makes use of the compilation method
+    ii. Draw a diagram showing the phases involved in the compilation method?
+    iii. The language which the compiler translates is the ____________?
+    iv. Discuss the below compilation phases?
+        a. Lexical Analyzer
+        b. Syntax Analyzer
+        c. Intermediate code generator
+        d. Semantic Analyzer
+        e. Optimization
+        f. Code Generator
+  c. Discuss the Pure Interpretation method?
+     i. List 2 advantages of the Pure level interpretation method
+     ii. List 3 disadvantages
+     iii. Draw a diagram of a Pure Interpretation program
+  d. Discuss Hybrid Implementation?
+     i. Why is Hybrid Implementation method faster than pure interpretation
+     ii. Draw a diagram showing the phases in the Hybrid Implementation method?
+     iii. Explain Java Hybrid Implementation
+     iv. Systems that translate javas byte code into machine code faster than Java Virtual Machine are known as ______________
+
+Syntax and Semantics
+8a. What is syntax and what is semantics?
+ b. For example, the syntax of a Java while statement is
+    while (boolean_expr) statement
+    Explain the semantics behind the statement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
