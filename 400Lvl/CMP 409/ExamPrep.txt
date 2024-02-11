@@ -21,12 +21,13 @@ ans: Systems that think like humans?
      Systems that think rationally?
      Systems that act rationally?
 
-c. "The exciting new effort to make computers think...machines with minds, in the full and literal sense"
-   who said this and when?
+c. "The exciting new effort to make computers think...machines with minds, 
+   in the full and literal sense". who said this and when?
 ans: (Haugeland, 1985)
 
-d. "[The automation of] activities that we associate with human thinking, activities such as decision-making, 
-   problem solving, learning...” who said this and when?
+d. "[The automation of] activities that we associate with human thinking, 
+   activities such as decision-making, problem solving, learning...” who 
+   said this and when?
 ans: (Bellman, 1978)
 
 Turing Test
@@ -37,11 +38,12 @@ f. What is a Turing Test?
 ans: it's a test performed to determine a machine’s ability to exhibit intelligent behavior
 
 g. Explain how this test works?
-ans: The basic concept behind the test is that if a human judge is engaged in a natural language conversation 
-     with a computer where he cannot reliably distinguish machine from human, the machine passes the test
+ans: The basic concept behind the test is that if a human judge is engaged 
+     in a natural language conversation with a computer where he cannot 
+     reliably distinguish machine from human, the machine passes the test
 
-     Note that the Responses from both participants in the conversation are received in the form of a 
-     text-only channel.
+     Note that the Responses from both participants in the conversation are 
+     received in the form of a text-only channel.
 
      During the Turing test, the human questioner asks a series of questions to both respondents. After the 
      specified time, the questioner tries to decide which terminal is operated by the human respondent and which terminal is operated by the computer
@@ -50,24 +52,26 @@ h. Draw the Turing test diagram
 ans: Slide 1 (page 10)
 
 i. Are the below statements true about the Turing Test? 
-- The Turing test is used to measure a machine's ability to think and it's an important concept in the
-  philosophy of artificial intelligence
-- A machine’s success at thinking can be quantified by the likelihood that a human will misidentify it 
-  as a human subject.
-
-ans: Yes they are true
+- The Turing test is used to measure a machine's ability to think and it's 
+  an important concept in the philosophy of artificial intelligence
+- A machine’s success at thinking can be quantified by the likelihood that 
+  a human will misidentify it as a human subject.
+ans: Yes they are
 
 Turing Test (Imitation Game)
-j. A  computer's ability to think can also be determined through an imitation game. true or false?
+j. A  computer's ability to think can also be determined through an 
+   imitation game. true or false?
 ans: true
 
 k. Explain the Imitation Game?
-ans: In this game, there are three players A, B and C. Player A is a man, B a woman and C is of either sex. 
-     C cannot see A and B, and communicates with the others through written notes.
+ans: In this game, there are three players A, B and C. 
+     Player A is a man, B a woman and C is of either sex. C cannot see A 
+     and B, and communicates with the others through written notes.
 
-     Player C determines which of the others is a man and which is a woman by asking a series of questions. 
-     Player A tricks the interrogator into making the wrong decision, while B attempts to guide C toward 
-     the right path. 
+     Player C determines which of the others is a man and which is a woman 
+     by asking a series of questions. Player A tricks the interrogator into 
+     making the wrong decision, while B attempts to guide C toward the 
+     right path. 
 
 l. Draw a diagram of the Imitation Game?
 ans: Slide 1 (page 14)
@@ -78,9 +82,9 @@ ans: In the original imitation game test, Turing proposes A to be a computer. Th
      determined by comparing the outcome of the game when A is a computer against when A is a man. If the 
      interrogator goes wrong when playing the game between man and woman, the computer is assessed to be intelligent
 
-Note: 
-There are some variations on the interpretation of how a Turing test should be performed but the basic 
-premise is whether a human judge can determine whether he is talking to a machine or another human.
+     Note: 
+     There are some variations on the interpretation of how a Turing test should be performed but the basic 
+     premise is whether a human judge can determine whether he is talking to a machine or another human.
 
 
 
@@ -92,9 +96,10 @@ premise is whether a human judge can determine whether he is talking to a machin
 
 SLIDE 2
 
-2a. Artificial intelligence centered automation enables voice technology, like Siri, 
-    Cortana, Alexa and Google’s Assistant, to deduce what you actually mean, regardless of the 
-    way you express it or your intonation. true or false
+2a. Artificial intelligence centered automation enables voice technology, 
+    like Siri, Cortana, Alexa and Google’s Assistant, to deduce what you 
+    actually mean, regardless of the way you express it or your intonation. 
+    true or false
 ans: true
 
 b. This technology is being improve everyday into more languages on the part of the humans and 
@@ -204,7 +209,17 @@ ans: The idea is to break up your problem into very small pieces and then
 
      And that’s exactly the strategy we are going to use for NLP. We’ll break down the process of understanding English into small chunks and see how each one works.
 
-i. 
+i. What are the steps involved in creating an NLP pipeline?
+ans: 1. Segment sentences
+     2. Tokenization of words
+     3. Predict part of speech per token
+     4. Text lemmatization
+     5. Dependency parsing
+     6. Named Entity Recognition
+     7. Coreference Resolution
+
+j. Discuss all the steps involved in creating an NLP pipeline?
+ans: ...
 
 
 
@@ -212,14 +227,221 @@ i.
 
 
 
+----------------------------------------------------------------
 
 
 
+SLIDE 5
 
+5a. A knowledge representation language is defined by two aspects. 
+    List and explain them?
+ans: - Syntax: The syntax of a language defines which configurations of 
+       the components of the language constitute valid sentences.
+     - Semantics: The semantics defines which facts in the world the 
+       sentences refer to, and hence the statement about the world that 
+       each sentence makes.
 
+b. List and explain 4 properties that a good knowledge representation
+   System should have
+ans: - Representational Adequacy: the ability to represent all the 
+       different kinds of knowledge that might be needed in that domain.
+     - Inferential Adequacy: the ability to manipulate the representational 
+       structures to derive new structures (corresponding to new knowledge) 
+       from existing structures.
+     - Inferential Efficiency: the ability to incorporate additional 
+       information into the knowledge structure which can be used to focus 
+       the attention of the inference mechanisms in the most promising 
+       directions.
+     - Acquisitioned Efficiency: the ability to acquire new information 
+       easily. Ideally the agent should be able to control its own 
+       knowledge acquisition, but direct insertion of information by a 
+       ‘knowledge engineer’ would be acceptable  
 
+c. The theoretical requirements for good knowledge representations can 
+   usually be achieved by dealing appropriately with a number of 
+   practical requirements. List 7?
+ans: - The representations need to be complete
+     - They must be computable
+     - They should make the important objects and relations explicit and
+       accessible
+     - They should suppress irrelevant detail
+     - They should expose any natural constraints
+     - They should be transparent 
+     - The implementation needs to be concise and fast
 
+d. For analysis purposes it is useful to be able to break any knowledge 
+   representation down into their four fundamental components. List all 4 
+   of these components
+ans: - The lexical part
+     - The structural or syntactic part
+     - The semantic part
+     - The procedural part
 
+e. Explain all 4 fundamental components?
+ans: - The lexical part: 
+         it determines which symbols or words are used in the 
+         representation’s vocabulary
+     - The structural or syntactic part: 
+         it describes the constraints on how the symbols can be arranged, 
+         ie. a grammar
+     - The semantic part:
+         it establishes a way of associating real world meanings with the 
+         representations
+     - The procedural part:
+         it specifies the access procedures that enables ways of creating 
+         and modifying representations and answering questions using them, 
+         i.e. how we generate and compute things with the representation
+
+f. Humans usually use ______________ to represent knowledge?
+ans: natural language (English, Spanish, Chinese, etc.)
+
+g. List 2 advantages of Natural Language?
+ans: - It is extremely expressive, we can express virtually everything in 
+       natural language(real world situations, pictures, symbols, ideas, 
+       emotions, reasoning, ...).
+     - Most humans use it most of the time as their knowledge 
+       representation of choice(how many text books are not written in 
+       natural language?).
+
+h. List 3 disadvantages of Natural Language?
+ans: - Both the syntax and semantics are very complex and not fully 
+       understood
+     - There is little uniformity in the structure of sentences
+     - It is often ambiguous – in fact, it is usually ambiguous
+
+i. What are database systems used for?
+ans: They can be used to store and manipulate virtually any kind of 
+     information
+
+j. Name 2 ways the information in a database can be displayed?
+ans: - Record structure
+     - Directed Graph
+
+k. Traditional database systems are clearly very powerful, but for AI 
+   systems they are rather ________
+ans: limited
+
+l. List 2 advantages of Traditional database systems?
+ans: - Databases are well suited for efficiently representing and 
+       processing large amounts of data (and derivation from a database is 
+       virtually independent of its size)
+     - We can build on traditional database systems to process more complex 
+       and more powerful representational devices (e.g. frames)
+
+m. List 3 disadvantages of Traditional database systems?
+ans: - Only simple aspects of the problem domain can be accommodated
+     - We can represent entities, and relationships between entities, but 
+       not much more
+     - Reasoning is very simple – basically the only reasoning possible is 
+       simple lookup, and we usually need more sophisticated processing 
+       than that.
+
+n. We can extend database records to _____ consisting of slots which can be 
+   filled by _________ or __________ for calculating ______ or _______ to 
+   other frames.
+ans: Frames,
+     values, or procedures
+     values, or pointers
+
+o. Generally a whole hierarchy of frames is used to represent the 
+   required domain. It is often helpful to represent the structure of that 
+   hierarchy as a _________
+ans: Semantic Network
+
+p. What do the symbols below mean in First Order Logic
+   ∨: ?
+   ∧: ?
+   =>: ?
+   ⌝: ?
+   ∀: ?
+   ∃: ?
+ans: ∨: or
+     ∧: and
+     =>: implies
+     ⌝: not
+     ∀: for all
+     ∃: there exists
+
+q. Give 3 examples of first order logic being used to compose sentences?
+ans: ⌝man(Chris)
+     ⌝man(x) => woman(x)
+     woman(Chris)
+
+r. List 2 advantages and disadvantages of using First Order Logic for knowledge representation?
+ans: Advantages
+     - Very expressive
+     - Unambiguous syntax and semantics
+     Disadvantage
+     - There is no generally efficient 
+     - procedure for processing knowledge
+
+Rule Based System
+s. What do Rule Based Systems consist of?
+ans: - A database management system for handling the domain specific facts
+     - A rule set for representing the knowledge structure/relations
+     - A rule interpreter to carry out the problem solving.
+
+t. Give an example of a typical Rule set?
+ans: - R1.IF Raining ∧ Outside(x) ∧ HasUmbrella(x) THEN UseUmbrella(x)
+     - R2.IF Raining ∧ Outside(x) ∧ ¬HasUmbrella(x) THEN GetsWet(x)
+     - R3.IF GetsWet(x) THEN CatchCold(x)
+     - R4.IF Sunny ∧ Outside(x) THEN GetSunBurnt(x)
+
+t1. How do we derive knowledge in Rule based systems?
+ans: If we have a knowledge base consisting of facts and rules, and a rule 
+     interpreter to match the rule conditions against the facts, and a 
+     means for extracting the rules, then we can derive new knowledge.
+
+     For example, using the above rule set:
+     - Suppose we have three initial facts: Raining, Outside(John), 
+     ¬HasUmbrella(John)
+     
+     - Then only the rule R2 with ‘x = John’ matches the facts, so we are able to infer
+     
+     - GetsWet(John). This means we now have four facts in our knowledge base: 
+     Raining,Outside(John), ¬HasUmbrella(John), GetsWet(John).
+     
+     - Then R3 with ‘x = John’ matches the facts, so we can also infer 
+     CatchesCold(John),and end up with five facts: the initial three, 
+     GetsWet(John), CatchesCold(John)
+     
+     - Note that there is no way we can end up with GetsSunTan(John)
+
+u. What will be the result of the below 3 facts?
+   Sunny, Outside(John), ¬HasUmbrella(John)
+ans: GetsSunBurnt(John)
+
+v. The process of deriving new facts from given facts is called ______?
+ans: Inference
+
+w. List 3 advantages and 2 disadvantages of using Rule Based Systems for 
+   Knowledge representation?
+ans: Advantages
+     - These systems are very expressive
+     - The rules lead to a degree of modularity
+     - We can easily introduce procedures for handling certainty factors, 
+       and this leads to the possibility of probabilistic reasoning
+     Disadvantages
+     - There is a lack of precise semantics for the rules
+     - The systems are not always efficient
+
+x. So far we've only considered symbolic representation, there also exists
+   ____________?
+ans: non-symbolic (e.g. pictorial)
+
+y. In selecting a representational formalism one needs to consider?
+ans: - Exactly what has to be represented, and how that knowledge needs to
+       be processed 
+     - We should also consider how the system will go about acquiring new 
+       knowledge
+
+z. In practice, there is no single best knowledge representation system 
+   that can be used for everything. true or false?
+ans: true
+
+z1. In building large complex AI systems, one will usually want to employ 
+    many different types of __________________?
+ans: knowledge representation
 
 
 
