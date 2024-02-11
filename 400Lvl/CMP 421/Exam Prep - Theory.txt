@@ -1,6 +1,6 @@
 FROM  
 (TEST 1 - page 1 - 35 (18/01/24) - Question 1a to 8f)
-(TEST 2 - page 36 - 96 (25/01/24) - Question 1a to 8f)
+(TEST 2 - page 36 - 96 (25/01/24) - Question 9a to the world)
 
 Lecturer said - "Whenever I ask you to draw and explain using diagrams, you should know that the diagram carries more marks" 
 
@@ -8,6 +8,7 @@ Lecturer said - "Whenever I ask you to draw and explain using diagrams, you shou
  b. What is Computing?
  c. What is the CPU?
     i. What are the operations performed by the CPU and Explain them?
+
 2a. What is a Multiprocessor System?
  b. List the 2 types of multiprocessor systems 
     - Explain both
@@ -23,14 +24,13 @@ Lecturer said - "Whenever I ask you to draw and explain using diagrams, you shou
  e. List 4 advantages of Centralised Computing and 3 disadvantages
 
 5a. What is Decentralised Computing?
- b. Explain the architecture used by Decentralised Computing?
- c. List the 3 characteristics of Decentralised Computing?
- d. Draw a diagram of Decentralised Computing
- e. List 4 advantages of Decentralized Computing and 3 disadvantages
+ b. List the 3 characteristics of Decentralised Computing?
+ c. Draw a diagram of Decentralised Computing
+ d. List 3 advantages of Decentralized Computing and 4 disadvantages
  
 6a. What is Parallel Computing?
  b. Explain the technique used in Parallel Computing?
- c. List 4 reasons why one should pick parallel computing?
+ c. List 3 reasons why one should pick parallel computing?
  d. Draw a diagram of Parallel Computing
  
 7a. What is Distributed Computing?
