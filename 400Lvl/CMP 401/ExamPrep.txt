@@ -14,8 +14,8 @@ INTRODUCTION
 1a. Computers have been applied in many different areas from controlling power plants to video games in mobile phones. true or false?
 ans: true
 
-b. The great diversity in the use of computers have ________________________________
-ans: necessitated the development of programming languages with different goals
+b. What necessitated the development of programming languages?
+ans: The great diversity in the use of computers have
 
 c. List 4 areas of computer applications?
 ans: - Scientific Applications
