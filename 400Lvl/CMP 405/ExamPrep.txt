@@ -23,10 +23,10 @@ b. Until the past two decades graphics was mainly a realm of artist. now,
    but also the common man in various ways
 ans: Big facts
 
-c. By graphics we will refer to any sketch, drawing, special artwork or 
+c. By graphics we will refer to any _______, _______, _______ or 
    other materials to pictorially depict an object or process or otherwise 
    convey information, as a supplement to or instead of written description
-ans: true
+ans: sketch, drawing, special artwork
 
 d. How are pictures or graphic objects represented?
 ans: Pictures (or graphic objects) are represented as a collection of 
@@ -63,7 +63,7 @@ ans:
       possible to move both objects and viewer.
 
     - Computer graphics also provides facilities called update dynamics. 
-      With update dynamics it is possible to change the shape color or other properties of the objects being viewed.
+      With update dynamics it is possible to change the shape, color or other properties of the objects being viewed.
 
     - With the recent development of digital signal processing and audio 
       synthesis chip the interactive graphics can now provide audio 
