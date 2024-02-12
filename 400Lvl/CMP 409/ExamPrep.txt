@@ -810,6 +810,7 @@ ans: 1. Clustering:
 
 n. List the differences between supervised and unsupervised learning?
 ans: 
+Process
 S1. input and output variables will be given.
 U1. only input data will be given
 
@@ -864,11 +865,134 @@ SLIDE 8
 SUPERVISED Learning
 
 
+8a. Supervised Machine Learning algorithm can be broadly classified into 
+    ___________ and ___________ Algorithms. 
+ans: Classification, Regression
 
+b. In Regression algorithms, we can predict the output for ___________
+   In Classification algorithms, we can predict the __________. 
+ans:  continuous values, categorical values
 
+c. In regression analysis what are Dependent variables?
+ans: They are the Main factor to predict or understand
 
+c1. Dependent variables are also called?
+ans: target variables
 
+c2. In regression analysis what are Independent variables?
+ans: Factor(s) which affect or which are used to predict the values of the 
+     dependent variables.
 
+c3. Independent variables are also called?
+ans: predictor variables
 
+c4. What are outliers?
+ans: They are observations which contains either very low value or very 
+     high value in comparison to other observed values. May hamper final 
+     results and should be avoided
 
+c5. What is Overfitting?
+ans: It is when our algorithm works well with the training dataset but not well with test dataset
 
+c6. What is Underfitting?
+ans: It is when our algorithm doesn't work well with the training dataset
+
+d. Unlike regression, the output variable of Classification is a _______, 
+   not a _____?
+ans: category, value
+
+e. List the 2 types of ML (Machine Learning) classification algorithm?
+ans: Linear models
+     - Logistic Regression
+     - SVM (Support vector machines)
+     Non-linear models
+     - K-Nearest Neighbours
+     - Kernel SVM
+     - Naïve Bayes
+     - Decision Tree Classification
+     - Random Forest Classification
+
+f. Once a model is completed, it is necessary to evaluate its performance. 
+   List the 3 ways for evaluating a Classification model?
+ans: Log Loss or Cross-Entropy Loss
+     Confusion Matrix
+     AUC - ROC
+
+g. What is Log Loss (or Cross-Entropy Loss)
+ans: It is used for evaluating the performance of a classifier, whose 
+     output is a probability value between 0 and 1
+
+h. For a good binary Classification model, the value of log loss should be 
+   near to _?
+ans: 0
+
+i. The value of log loss increases if __________________________?
+ans: the predicted value deviates from the actual value.
+
+j. The lower log loss represents the ___________________?
+ans: higher accuracy of the model
+
+k. The confusion matrix provides us a _________ as output and describes the 
+   ____________
+ans: matrix/table, performance of the model
+
+l. Confusion matrix is also known as ___________?
+ans: Error matrix
+
+m. The matrix consists of predictions result in a summarized form, which 
+   has a total number of ________ and _____________. 
+ans: correct predictions, incorrect predictions
+
+n. What does ROC and AUC stand for?
+ans: ROC - Receiver Operating Characteristics Curve
+     AUC - Area Under the Curve
+
+o. What does ROC and AUC do?
+ans: They are graphs that shows the performance of the classification model
+     at different thresholds
+
+p. To visualize the performance of the multi-class classification model, we 
+   use ______________?
+ans: The AUC-ROC Curve
+
+q. The ROC curve is plotted with TPR and FPR, where TPR means _________  
+   and FPR means ______________?
+ans: - True Positive Rate (on Y-axis)
+     - False Positive Rate (on X-axis)
+
+r. List 5 application of Classification Models?
+ans: - Email Spam Detection
+     - Speech Recognition
+     - Identifications of Cancer tumor cells. 
+     - Drugs Classification
+     - Biometric Identification  
+     - and more
+
+KNN
+s. What is KNN?
+ans: It's a simple conventional nonparametric (no assumption about the 
+     underlying distribution) technique for classification of datasets
+
+t. How does it work?
+ans: This algorithm uses the assumption that similar things have close 
+     proximity to each other.
+
+u. KNN uses a ______ to present distances between points generated from the 
+   dataset.
+ans: graph
+
+v. The most popular method for calculating distance between points is the 
+   __________
+ans: Euclidean distance function
+     Others are
+     - Minkwoski function equation
+     - Manhattan distance equation
+
+w. What is k?
+ans: K is a parameter used in forming the groups. It is an important 
+     parameter in the success of the classification process
+
+x. The value K is provided during _______?
+ans: the training process
+
+y. 
