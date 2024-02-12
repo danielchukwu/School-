@@ -372,8 +372,7 @@ ans: Advantages
      - Very expressive
      - Unambiguous syntax and semantics
      Disadvantage
-     - There is no generally efficient 
-     - procedure for processing knowledge
+     - There is no generally efficient procedure for processing knowledge
 
 Rule Based System
 s. What do Rule Based Systems consist of?
