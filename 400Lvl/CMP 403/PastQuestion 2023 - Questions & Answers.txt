@@ -1,0 +1,101 @@
+Past Questions
+1a. What is evolution?
+ans: It is the gradual development of something
+
+i. What is the difference between Software evolution and Software maintenance?
+ans: 
+  Software Evolution:
+  - Refers to the ongoing improvement and enhancement of software.
+  - Includes adding new features, improving performance, fixing bugs, and enhancing architecture.
+  - Responds to changing user needs, technology, market trends, or organizational requirements.
+  - Involves iterative updates or versions to add functionality or enhance existing features.
+  - Aims to keep software relevant, efficient, and effective for users over time.
+
+  Software Maintenance:
+  - Ongoing management of software post-deployment.
+  - Includes bug fixing, security patching, performance optimization, and ensuring compatibility.
+  - Types: Corrective (bug fixing), Adaptive (adapting to new environments), Perfective (improving performance), Preventive (addressing potential issues).
+  - Reactive nature compared to proactive software evolution.
+  - Can dominate software lifecycle for long-lived or critical systems.
+
+b. List and explain different types of testing done during the testing phase
+ans: 1. Unit Testing: Testing individual units or components of the 
+        software in isolation.
+     2. Integration Testing: Testing the interaction between integrated 
+        units/modules.
+     3. System Testing: Testing the entire system as a whole to ensure it 
+        meets specified requirements.
+     4. Acceptance Testing: Testing performed to determine whether the 
+        system meets user/customer requirements.
+     5. Regression Testing: Testing to ensure that previously developed and 
+        tested software still performs after a change.
+     6. Performance Testing: Testing to assess the performance 
+        characteristics of the system under various conditions.
+     7. Load Testing: Testing to evaluate system performance under 
+        anticipated load conditions.
+     8. Stress Testing: Testing to evaluate system behavior under extreme 
+        conditions beyond normal operation.
+     9. Usability Testing: Testing to assess how user-friendly and 
+        intuitive the software is.
+     10. Security Testing: Testing to identify vulnerabilities and ensure 
+        the security of the software.
+
+c. What is User Acceptance Testing? 
+ans: User Acceptance Testing (UAT) is the final phase of testing before 
+     releasing a software product to the end-users. It involves validating 
+     that the system meets the business requirements and functions 
+     correctly from the user's perspective. UAT is typically conducted by 
+     the end-users or stakeholders who will ultimately use the software in 
+     real-world scenarios.
+
+c1. Explain different testing in user acceptance testing. 
+ans: - Alpha Testing: This type of testing is performed by a select group 
+       of end-users or stakeholders within the organization, usually in a 
+       controlled environment. It aims to uncover any issues or defects 
+       before the software is released for beta testing or to a wider 
+       audience.
+
+     - Beta Testing: Beta testing involves releasing the software to a 
+       limited number of external users or customers for testing in a 
+       real-world environment. Feedback from beta testers is collected to 
+       identify any remaining issues or usability concerns before the final 
+       release.
+
+     - Contract Acceptance Testing: In this type of testing, the software 
+       is tested against the contract or agreement between the client and 
+       the vendor. It ensures that all agreed-upon requirements and 
+       functionalities have been implemented correctly.  
+
+c2. Why is it necessary?
+ans: - Validation of Requirements: UAT ensures that the software meets the 
+       specified business requirements and performs as expected in 
+       real-world scenarios.
+
+     - Quality Assurance: It helps identify any defects or issues that may 
+       have been overlooked during earlier testing phases, ensuring a 
+       higher level of quality before the software is released.
+
+     - User Satisfaction: UAT allows end-users or stakeholders to provide 
+       feedback on the software's usability, functionality, and overall 
+       user experience, leading to higher user satisfaction.
+
+     - Risk Mitigation: By identifying and addressing any remaining issues 
+       or concerns before release, UAT helps mitigate the risk of software 
+       failure or dissatisfaction among users.
+
+     - Compliance: UAT ensures that the software complies with relevant 
+       regulatory standards and contractual agreements, reducing the risk 
+       of non-compliance and potential legal issues.
+
+
+2a. Loading...
+
+
+
+
+
+
+
+
+
+
