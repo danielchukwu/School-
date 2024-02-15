@@ -1,4 +1,5 @@
-2a. Monte carlo (MC) simulations are computer algorithms that use 
+2a. Define Monte Carlo Simulations and further discuss
+ans: Monte carlo (MC) simulations are computer algorithms that use 
     randomness to calculate the properties of a mathematical model, where 
     the randomness of the algorithm is not a feature of the target model.
 
@@ -12,130 +13,146 @@
       finance, engineering, and science, where we need to make informed 
       decisions and deal with uncertain situations  
 
- b. - The overall process flow and its associated resources
-    - What is being produced, served, or acted upon by the entities 
-    - Frequency at which the entities arrive in the process
-    - How long do individual steps in the process take 
-    - Probability distributions that characterize real life uncertainties 
-      and variations in the process
+ b. List the types of Data/Information needed to develop a Simulation Model
+ ans: - The overall process flow and its associated resources
+      - What is being produced, served, or acted upon by the entities 
+      - Frequency at which the entities arrive in the process
+      - How long do individual steps in the process take 
+      - Probability distributions that characterize real life uncertainties 
+        and variations in the process
 
- c. (SLIDE page 24)
+ c. Draw a diagram of the Modeling process and discuss each phase in the 
+    process 
+ ans: (SLIDE page 24)
 
-   - Modeling: uses a simplified description of key aspects from real-world data to create 
-     a model and passes the model down.
+      - Modeling: uses a simplified description of key aspects from 
+        real-world data to create a model and passes the model down.
 
-   - Computation or Simulation: adapts the model for computer processing,
-     (it preprocesses it and selects efficient algorithms)
+      - Computation or Simulation: adapts the model for computer processing,
+        (it preprocesses it and selects efficient algorithms)
 
-   - Implementation: efficiently translates algorithms (selected in the 
-     computation phase) into software for the target platform (considering 
-     computational time, storage, and parallelization)
+      - Implementation: efficiently translates algorithms (selected in the 
+        computation phase) into software for the target architecture 
+        (considering computational time, storage, and parallelization)
 
-   - Visualization (Data Exploration): interprets simulation results, which 
-     can be straightforward for some data (but challenging for complex, 
-     high-dimensional datasets)
+      - Visualization (Data Exploration): interprets simulation results, 
+        which can be straightforward for some data (but challenging for 
+        complex, high-dimensional datasets)
 
-   - Validation: ensures the reliability of results by comparing different 
-     models, algorithms, codes, and simulation outcomes with manual 
-     experiments to identify and address errors.
+      - Validation: ensures the reliability of results by comparing 
+        different models, algorithms, codes, and simulation outcomes with 
+        manual experiments to identify and address errors.
 
-   - Embedding: Integrating simulations into relevant contexts, such as 
-     development or production processes, by defining interfaces and 
-     implementing suitable software engineering practices
+      - Embedding: Integrating simulations into relevant contexts, such as 
+        development or production processes, by defining interfaces and 
+        implementing suitable software engineering practices
 
- d. - Geophysics
-    - Drug design
-    - Medicine
-    - weather forecasting
-    - Automobile industry
-    - Semiconductor industry
+ d. List 5 different applications of modelling in todays industries
+ ans: - Geophysics
+      - Drug design
+      - Medicine
+      - weather forecasting
+      - Automobile industry
+      - Semiconductor industry
 
 
-
-3a. Systems and components refer to the fundamental building blocks of 
-    complex systems that are studied and analysed
+3a. What is Systems and Components?
+ans: Systems and components refer to the fundamental building blocks of 
+     complex systems that are studied and analysed
  
- b. Systems are comprehensive entities composed of interconnected
-    components (or elements) each of which plays a distinct role in 
-    achieving the system's objectives.
+ b. What are systems?
+ ans: Systems are comprehensive entities composed of interconnected
+      components (or elements) each of which plays a distinct role in 
+      achieving the system's objectives.
 
 
+4a. List the 4 types of Models
+ans: - Discrete models
+     - Continuous models
+     - Deterministic models
+     - Stochastic models
 
-4a. - Discrete models
-    - Continuous models
-    - Deterministic models
-    - Stochastic models
+ b. Discuss Discrete Models?
+ ans: Discrete Models
+      - Discrete Values: Variables are described by discrete values like 
+        integers or countable sets. They are used for data that can be 
+        counted and has no values in between (like item counts)
 
- b. Discrete Models
-    - Discrete Values: Variables are described by discrete values like 
-      integers or countable sets. They are used for data that can be 
-      counted and has no values in between (like item counts)
+      - Time Steps: Discrete models move forward in time through discrete 
+        (specific) time steps. Events happen at specific times, and the 
+        system's state changes instantly. This is often shown as a sequence 
+        of events or a timeline.
 
-    - Time Steps: Discrete models move forward in time through discrete 
-      (specific) time steps. Events happen at specific times, and the 
-      system's state changes instantly. This is often shown as a sequence 
-      of events or a timeline.
+      - Applications: Discrete models are used in computer science (e.g. 
+        discrete-event simulation, discrete mathematics, and 
+        combinatorics). They are well-suited for systems with distinct 
+        states, events, or decisions, such as queuing systems, network 
+        protocols, and digital circuits.
 
-    - Applications: Discrete models are used in computer science (e.g. 
-      discrete-event simulation, discrete mathematics, and combinatorics). 
-      They are well-suited for systems with distinct states, events, or 
-      decisions, such as queuing systems, network protocols, and digital 
-      circuits.
+ c. Discuss Continuous Models?
+ ans: Continuous models
+      - Continuous Values: Variables are described by real numbers, 
+        allowing for measurements with fractions and decimal values. They 
+        are used for data that is measurable containing fractions with 
+        decimal values.
 
- c. Continuous models
-    - Continuous Values: Variables are described by real numbers, allowing 
-      for measurements with fractions and decimal values. They are used for 
-      data that is measurable containing fractions with decimal values.
+      - Continuous Time: Continuous models move forward in time without   
+        discrete time steps but instead they flow smoothly in time. Changes 
+        in the system's state occur continuously over time, rather than at 
+        specific points.
 
-    - Continuous Time: Continuous models move forward in time without   
-      discrete time steps but instead they flow smoothly in time. Changes 
-      in the system's state occur continuously over time, rather than at 
-      specific points.
+      - Applications: Continuous models are used in physics (e.g., modeling 
+        motion and fluid dynamics), engineering (e.g., control systems and 
+        structural analysis), and mathematical calculus. They are suitable 
+        for systems where state changes smoothly and continuously.
 
-    - Applications: Continuous models are used in physics (e.g., modeling 
-      motion and fluid dynamics), engineering (e.g., control systems and 
-      structural analysis), and mathematical calculus. They are suitable 
-      for systems where state changes smoothly and continuously.
+ d. Draw a graphical example of Discrete and continuous models?
+ ans: (SLIDE page 31)
 
- d. (SLIDE page 31)
+ e. Discuss Deterministic Models?
+ ans: Deterministic Models
+      - Deterministic models assume that all input parameters and initial 
+        conditions are known with certainty without the involvement of 
+        randomness.
+      - They are characterized by fixed, well-defined relationships between 
+        variables, where the outcome is entirely determined by the inputs 
+        and the model structure.
+      - Typically represented by equations, and they produce a single
+        specific output for a given set of inputs.
 
- e. Deterministic Models
-    - Deterministic models assume that all input parameters and initial 
-      conditions are known with certainty without the involvement of 
-      randomness.
-    - They are characterized by fixed, well-defined relationships between 
-      variables, where the outcome is entirely determined by the inputs and 
-      the model structure.
-    - Typically represented by equations, and they produce a single, 
-      specific output for a given set of inputs.
-
- f. Stochastic Model
-   - Stochastic models incorporate randomness and uncertainty explicitly 
-     into the modeling process.
-   - They assume that certain aspects of the system are inherently random, 
-     and they account for this randomness using probability distributions.
-   - The same set of parameter values and initial conditions will lead to 
-     an ensemble of different outputs, (i.e. generate a range of possible 
-     outcomes, each with a probability associated with it.)
+ f. Discuss Stochastic Models?
+ ans: Stochastic Model
+      - Stochastic models incorporate randomness and uncertainty explicitly 
+        into the modeling process.
+      - They assume that certain aspects of the system are inherently 
+        random, and they account for this randomness using probability 
+        distributions.
+      - The same set of parameter values and initial conditions will lead 
+        to an ensemble of different outputs, (i.e. generate a range of 
+        possible outcomes, each with a probability associated with it.)
 
 
-5a. Random numbers are numbers that show no consistent pattern with each 
-    number in a series and are neither affected in any way by the preceding 
-    number, nor predictable from it.
+5a. What are Random Numbers?
+ans: Random numbers are numbers that show no consistent pattern with each 
+     number in a series and are neither affected in any way by the 
+     preceding number, nor predictable from it.
 
- i. statistics,
-    cryptography
-    Simulation
-    gaming
+ i. List 4 application areas of random numbers?
+ ans: statistics,
+      cryptography
+      Simulation
+      gaming
 
- b. Random Number Generators (RNG) are hardware device or software that 
-    generates a number that is taken from a limited or unlimited 
-    distribution and outputs it.
+ b. What are RNG (Random Number Generators)?
+ ans: Random Number Generators (RNG) are hardware device or software that 
+      generates a number that is taken from a limited or unlimited 
+      distribution and outputs it.
 
- i. Pseudorandom numbers
-    True random numbers
+ i. List the 2 types of Random Numbers and Random Number Generators?
+ ans: - Pseudorandom numbers
+      - True random numbers
  
- ii. 
+ ii. Explain Pseudorandom Numbers and True random numbers?
     Pseudorandom Numbers
     - These numbers are generated by algorithms and are not truly random 
       but appear random.
@@ -153,195 +170,260 @@
     - They are used in applications that require a high degree of 
       unpredictability and security, such as cryptographic systems
  
- c. Properties of  Good Random Number Generators
-    1. Uniform Distribution: The RNG should produce numbers that are 
-       uniformly distributed across the entire range of possible values. 
-       This means that every number within the range has an equal 
-       probability of being generated.
-    2. Independence: Each generated number should be statistically 
-       independent of the previous numbers. In other words, the outcome of 
-       one random number should not provide any information about the next 
-       number.
-    3. Periodicity: A good RNG should have a long period, meaning it 
-       takes a very long time for the sequence of numbers to repeat. 
-       Short periods can lead to predictable and non-random behaviour.
-    4. Reproducibility: While random numbers should be unpredictable, it 
-       should be possible to reproduce the same sequence of random numbers 
-       when needed by using the same seed value. This is crucial for 
-       debugging and reproducibility in simulations.
-    5. Statistically Unpredictable: The generated numbers should pass 
-       various statistical tests for randomness, such as the Chi-squared 
-       test, Kolmogorov-Smirnov test, or spectral test. Passing these tests 
-       indicates that the RNG produces numbers that behave like truly 
-       random values.
-    6. Low Bias: The RNG should not exhibit any noticeable bias, where 
-       certain numbers are generated more frequently than others. Biased 
-       RNGs can lead to incorrect results in statistical analysis or 
-       simulations.
-    7. Speed and Efficiency: RNGs should generate random numbers quickly, 
-       especially in applications where a large number of random values 
-       are needed, such as Monte Carlo simulations.
-    8. Seed Initialization: The RNG should provide a way to initialise 
-       the random sequence by specifying a seed value. This allows for 
-       reproducibility and controlled experimentation.
-    9. Resistance to Predictive Attacks: In cryptographic applications, 
-       good RNGs should be resistant to predictive attacks, meaning that 
-       it should be computationally infeasible to predict future random 
-       values even if an attacker knows a portion of the sequence.
-    10. Periodic Checks: For long-running simulations or applications, the 
-       RNG should be periodically reseeded to ensure that the generated 
-       sequence remains unpredictable and statistically sound
+ c. List 8 properties of a good Random Number Generator and discuss 4?
+ ans: 1. Uniform Distribution: The RNG should produce numbers that are 
+         uniformly distributed across the entire range of possible values. 
+         This means that every number within the range has an equal 
+         probability of being generated.
+      2. Independence: Each generated number should be statistically 
+         independent of the previous numbers. In other words, the outcome 
+         of one random number should not provide any information about the 
+         next number.
+      3. Periodicity: A good RNG should have a long period, meaning it 
+         takes a very long time for the sequence of numbers to repeat. 
+         Short periods can lead to predictable and non-random behaviour.
+      4. Reproducibility: While random numbers should be unpredictable, it 
+         should be possible to reproduce the same sequence of random 
+         numbers when needed by using the same seed value. This is crucial 
+         for debugging and reproducibility in simulations.
+      5. Statistically Unpredictable: The generated numbers should pass 
+         various statistical tests for randomness, such as the Chi-squared 
+         test, Kolmogorov-Smirnov test, or spectral test. Passing these 
+         tests indicates that the RNG produces numbers that behave like 
+         truly random values.
+      6. Low Bias: The RNG should not exhibit any noticeable bias, where 
+         certain numbers are generated more frequently than others. Biased 
+         RNGs can lead to incorrect results in statistical analysis or 
+         simulations.
+      7. Speed and Efficiency: RNGs should generate random numbers quickly, 
+         especially in applications where a large number of random values 
+         are needed, such as Monte Carlo simulations.
+      8. Seed Initialization: The RNG should provide a way to initialise 
+         the random sequence by specifying a seed value. This allows for 
+         reproducibility and controlled experimentation.
+      9. Resistance to Predictive Attacks: In cryptographic applications, 
+         good RNGs should be resistant to predictive attacks, meaning that 
+         it should be computationally infeasible to predict future random 
+         values even if an attacker knows a portion of the sequence.
+      10. Periodic Checks: For long-running simulations or applications,  
+          the RNG should be periodically reseeded to ensure that the 
+          generated sequence remains unpredictable and statistically sound
 
- d. (SLIDE page 38)
+ d. Draw a diagram showing Pseudorandom Number Generators and Congruential 
+    generators at work/
+ ans: (SLIDE page 38)
 
-6a. The Congruential Method is a widely used algorithm for generating 
-    pseudorandom numbers. The basic idea of the Congruential Method 
-    involves iterating through a sequence of numbers, each of which depends 
-    on the previous number
 
- b. Choice of constants
-    Seed Value
-    Period length
-    Statistical Properties
+6a. Discuss the Congruential method?
+ans: The Congruential Method is a widely used algorithm for generating 
+     pseudorandom numbers. The basic idea of the Congruential Method 
+     involves iterating through a sequence of numbers, each of which 
+     depends on the previous number
 
- c. Seed value: The quality of the pseudo-random sequence depends on the 
-    choice of the initial seed value
-    Period length: Is the amount of number that is generated before the 
-    sequence starts repeating
-    Statistical properties: is essential for test the generated sequence 
-    for statistical properties
+ b. What are the key considerations when using the congruential method?
+ ans: - Choice of constants
+      - Seed Value
+      - Period length
+      - Statistical Properties
 
- d. RANECU (short for "RAndom Number ECUniform") is a type of random number 
-    generator algorithm. Specifically, it's a pseudorandom number generator 
-    (PRNG). It's known for its simplicity and ease of implementation. The algorithm typically involves a series of mathematical operations on the current seed to generate a new pseudorandom number.
+ c. Discuss the below:
+    - Seed value
+    - Period length
+    - Statistical properties
+ ans: - Seed value: The quality of the pseudo-random sequence depends on 
+        the choice of the initial seed value
+      - Period length: Is the amount of number that is generated before the 
+        sequence starts repeating
+      - Statistical properties: is essential for test the generated 
+        sequence for statistical properties
+  
+ d. What is RANECU and briefly discuss?
+ ans: RANECU (short for "RAndom Number ECUniform") is a type of 
+      pseudorandom number generator (PRNG). It's known for its simplicity 
+      and ease of implementation. The algorithm typically involves a series 
+      of mathematical operations on the current seed to generate a new 
+      pseudorandom number.
 
- e. - Initialization: It requires an initial seed value to start 
-      generating. If same seed is used, same sequence of numbers will be generated.
-    - Periodicity: Like other PRNGs, RANECU has a finite period. This means 
-      that after a certain number of iterations, the sequence will repeat 
-      itself.
-    - Uniformity: each number in the range of possible outcomes have equal 
-      probability to be generated.
-    - Efficiency: RANECU is often designed to be computationally efficient.
+ e. List and explain the key features of RANECU?
+ ans: - Initialization: It requires an initial seed value to start 
+        generating. If same seed is used, same sequence of numbers will be generated.
+      - Periodicity: Like other PRNGs, RANECU has a finite period. This 
+        means that after a certain number of iterations, the sequence will 
+        repeat itself.
+      - Uniformity: each number in the range of possible outcomes have 
+        equal probability to be generated.
+      - Efficiency: RANECU is often designed to be computationally 
+        efficient.
 
-    It is important to note that RANECU is just one of many PRNG algorithms, and the choice of PRNG depends on the specific 
-    requirements of the application, including considerations of randomness, speed, and security.
+      It is important to note that RANECU is just one of many PRNG algorithms, and the choice of PRNG depends on the specific 
+      requirements of the application, including considerations of randomness, speed, and security.
 
- f. The Quadratic Congruential Method (QCM) is a type of pseudorandom 
-    number generator (PRNG). It ses a quadratic recurrence equation to 
-    generate random numbers
+ f. Discuss the Quadratic congruential method?
+ ans: The Quadratic Congruential Method (QCM) is a type of pseudorandom 
+      number generator (PRNG). It uses a quadratic recurrence equation to 
+      generate random numbers
 
- g. RANECU
-    QCM
+ g. List just 2 types of Pseudorandom Number Generators (PRNG)?
+ ans: RANECU
+      QCM
 
-7a. A queuing system is any system where the customer requests a service 
-    from a finite - capacity resource
 
- b. Queuing models are models constructed to analyze the performance of a 
-    dynamic system where waiting can occur.
+7a. 
+ b. 
+ c. 
+ d. 
+ e. 
 
- c. - To minimize the average number of waiting customers in a queue 
-    - Predict the estimated number of facilities in a queuing system. 
+
+7a. What is a Queuing system?
+ans: A queuing system is any system where the customer requests a service 
+     from a finite - capacity resource
+
+ b. What is a Queuing model?
+ ans: Queuing models are models constructed to analyze the performance of a 
+      dynamic system where waiting can occur.
+
+ c. List 2 goals of a Queuing model?
+ ans: - To minimize the average number of waiting customers in a queue 
+      - Predict the estimated number of facilities in a queuing system. 
     
-    The performance results of queuing model simulation are produced at 
-    the end of a simulation in the form of aggregate statistics.
+      The performance results of queuing model simulation are produced at 
+      the end of a simulation in the form of aggregate statistics.
 
- d. Analytical modeling and 
-    Simulation
+ d. Name the 2 available approaches to performance analysis of a queuing 
+    system?
+ ans: - Analytical modeling and 
+      - Simulation
 
- e. Each state is defined by the number of customers in the system. 
-    The number of customers in the system increases based on the arrival rate (λ) and decreases based on the service rate  (μ).
+ e. Discuss Analytical model solution?
+ ans: Each state is defined by the number of customers in the system. 
+      The number of customers in the system increases based on the arrival 
+      rate (λ) and decreases based on the service rate  (μ).
 
-8a. Call population
-    Arrival and service pattern
-    Queue discipline
-    Queue capacity
-    Number of servers
-    i.   Call population is can be a finite or infinite pool of customers 
+8a. 
+    i. 
+    ii. 
+    iii. 
+    iv.  
+    v.     
+ b. 
+ c. 
+    
+
+8a. List 5 attributes of a Queuing Model?
+ans: - Call population
+     - Arrival and service pattern
+     - Queue discipline
+     - Queue capacity
+     - Number of servers
+
+    i. Explain Call population
+    ans: Call population is can be a finite or infinite pool of customers 
          that may request the service in the near future 
-    ii.  Arrival and Service pattern: are the two most important factors 
+
+    ii. Explain Arrival and Service pattern
+        - What is arrival rate and service rate?
+        - What happens if the arrival rate is less than the service rate
+    ans: Arrival and Service pattern: are the two most important factors 
          determining behaviors of queuing models.
-    iii. Queue discipline: is a scheduling algorithm used for selecting the 
+
+    iii. Explain Queue discipline
+        - List the 4 common queue discipline algorithms
+    ans: Queue discipline: is a scheduling algorithm used for selecting the 
          next customer in the queue     
          The 4 common queue discipline algorithms
          - LIFO (Last in, first out)
          - FIFO (First in, first out)
          - SIRO (Service in random order)
          - Priority queue
-    iv.  Queue capacity: The limits of the system as per the number of 
+         
+    iv. Explain Queue capacity?
+    ans: Queue capacity: The limits of the system as per the number of 
          customers in line.    
-    v.   Number of servers: Refers to the total number of servers or 
+
+    v.  Explain Number of servers?
+    ans: Number of servers: Refers to the total number of servers or 
          service points attending to the customers on the queue
 
- b. - Balking: when an arriving customer does not enter the queue due to 
-      the limited queue capacity.
-    - Reneging: when a customer leaves the queue after waiting in a queue 
-      upon arrival without being served
-    - Jockeying: customer decides to switch the queue for earlier service. 
-      Especially in a parallel queue – multi-server queuing mode
+ b. List and explain the 3 customer decisions on a queue?
+ ans: - Balking: when an arriving customer does not enter the queue due to 
+        the limited queue capacity.
+      - Reneging: when a customer leaves the queue after waiting in a queue 
+        upon arrival without being served
+      - Jockeying: customer decides to switch the queue for earlier 
+        service. Especially in a parallel queue – multi-server queuing mode
 
- c. Single server Queuing Model
-    Single queue – multi-server model
-    parallel queues – multi-server model
+ c. List all 3 types of Queuing models?
+ ans: Single server Queuing Model
+      Single queue – multi-server model
+      parallel queues – multi-server model
 
-    i. Single server Queuing Model
-      (SLIDE page 54)
-      - A new customer from the calling population enters into the queuing 
-        model and waits  for service in the queue. 
-      - If the queue is empty and the server is idle, the new customer is 
-        immediately sent to the server for service, 
-      - Otherwise, the customer remains in the queue joining the waiting 
-        line until the queue is empty and the server becomes idle. 
-      - When a customer enters into the server, the status of the server 
-        becomes busy, not allowing any more arrivals to gain access to the 
-        server. 
-      - After being served, a customer exits the system 
+    i. i. Draw the diagram of all 3 types of Queuing models
+       - Under each queuing model diagram explain what takes place
+    ans: A. Single server Queuing Model
+            (SLIDE page 54)
+            - A new customer from the calling population enters into the   
+              queuing model and waits  for service in the queue. 
+            - If the queue is empty and the server is idle, the new 
+              customer is immediately sent to the server for service, 
+            - Otherwise, the customer remains in the queue joining the   
+              waiting line until the queue is empty and the server becomes 
+              idle. 
+            - When a customer enters into the server, the status of the   
+              server becomes busy, not allowing any more arrivals to gain access to the server. 
+            - After being served, a customer exits the system 
+  
+          B. Single Queue - Multi-Server Queueing Model 
+             (SLIDE page 55)
+             - A new customer from the calling population enters into the 
+               queuing model and waits  for service in the queue. 
+             - If the queue is empty and any of the servers is idle, the 
+               new customer is immediately sent to a server for service, 
+             - Otherwise, the customer remains in the queue joining the 
+               waiting line until the queue is empty and the server becomes 
+               idle. 
+             - When a customer enters into any of the server, that server’s 
+               status becomes busy, not allowing any more arrivals to gain access to the server. 
+             - After being served, a customer exits the system 
+          
+          C. Parallel Queue - Multi-Server Queueing Model 
+             (SLIDE page 56)
+             - A new customer from the calling population enters into any 
+               of the queues and waits for service in the queue. 
+             - If the queue is empty and any of the servers is idle, the 
+               new customer is immediately sent to a server for service, 
+             - Otherwise, the customer remains in the queue joining the  
+               waiting line until the queue is empty and the server becomes 
+               idle. 
+             - When a customer enters into the server, that server’s 
+               status becomes busy, not allowing any more arrivals to gain 
+               access to the server. 
+             - After being served, a customer exits the system. NB:  
+               Customers can Jokey in this model
 
-    i. Single Queue - Multi-Server Queueing Model 
-       (SLIDE page 55)
-      - A new customer from the calling population enters into the queuing 
-        model and waits  for service in the queue. 
-      - If the queue is empty and any of the servers is idle, the new 
-        customer is immediately sent to a server for service, 
-      - Otherwise, the customer remains in the queue joining the waiting 
-        line until the queue is empty and the server becomes idle. 
-      - When a customer enters into any of the server, that server’s 
-        status  becomes busy, not allowing any more arrivals to gain access 
-        to the server. 
-      - After being served, a customer exits the system 
-    
-    i. Parallel Queue - Multi-Server Queueing Model 
-       (SLIDE page 56)
-      - A new customer from the calling population enters into any of the 
-        queues and waits  for service in the queue. 
-      - If the queue is empty and any of the servers is idle, the new 
-        customer is immediately sent to a server for service, 
-      - Otherwise, the customer remains in the queue joining the waiting 
-        line until the queue is empty and the server becomes idle. 
-      - When a customer enters into the server, that server’s status  
-        becomes busy, not allowing any more arrivals to gain access to the 
-        server. 
-      - After being served, a customer exits the system. NB: Customers can 
-        Jokey in this model
-
-
-9a. Littles law states that the average number of customers (L) is equal to 
-    the arrival rate (λ) multiplied by the average time (w) the customer 
-    spends in the system: 
+9a. Discuss Little's Law?
+ans: Littles law states that the average number of customers (L) is equal 
+     to he arrival rate (λ) multiplied by the average time (w) the customer 
+     spends in the system: 
     L = λw. 
-    - Little ’ s law is meaningful in that the law holds regardless of any 
+    - Little’s law is meaningful in that the law holds regardless of any 
       kind of the arrival and service distribution. 
-    - Thus, Little ’ s law does not require restricted assumptions for the 
+    - Thus, Little’s law does not require restricted assumptions for the 
       types of arrival and service patterns
  
- b. Open and Closed 
-    i. A token is a type of customer that requests service at the service 
-       facility
+ b. Queuing Network are classified into 2 types. Name them?
+ ans: Open and Closed 
+    i. What is a token?
+    ans: A token is a type of customer that requests service at the service 
+         facility
 
- c. - In open queuing network, each token arrives at the system, based on 
-      the arrival rate, and leaves the system after being served. 
-    - In closed queuing network, finite number of tokens are assigned, and 
-      each token moves between queues without leaving the system. 
+ c. What happens in an open and a closed queuing network?
+ ans: - In open queuing network, each token arrives at the system, based on 
+        the arrival rate, and leaves the system after being served. 
+      - In closed queuing network, finite number of tokens are assigned, 
+        and each token moves between queues without leaving the system. 
 
-d. The open queuing network has new arrivals during simulation, whereas 
-   The closed queuing network does not have new arrivals. 
+d. What is the main difference between the open and the closed queuing 
+   network?
+ans: - The open queuing network has new arrivals during simulation, whereas 
+     - The closed queuing network does not have new arrivals. 
