@@ -268,13 +268,6 @@ ans: The Congruential Method is a widely used algorithm for generating
       QCM
 
 
-7a. 
- b. 
- c. 
- d. 
- e. 
-
-
 7a. What is a Queuing system?
 ans: A queuing system is any system where the customer requests a service 
      from a finite - capacity resource
@@ -299,15 +292,6 @@ ans: A queuing system is any system where the customer requests a service
  ans: Each state is defined by the number of customers in the system. 
       The number of customers in the system increases based on the arrival 
       rate (λ) and decreases based on the service rate  (μ).
-
-8a. 
-    i. 
-    ii. 
-    iii. 
-    iv.  
-    v.     
- b. 
- c. 
     
 
 8a. List 5 attributes of a Queuing Model?
