@@ -1,6 +1,6 @@
 Exam Prep Questions
 
-Answers can be found at 
+Answers can be found at https://github.com/danielchukwu/School-/blob/master/400Lvl/CMP%20411/slides/ExamPrepTheoryAnswers.txt
 
 1a. Definition
  i. What is a model and what is it made up of
@@ -23,7 +23,7 @@ Answers can be found at
     process
  d. List 5 different applications of modelling in todays industries
 
-3a. What is Systems and Components and further discuss
+3a. What is Systems and Components?
  b. What are systems?
 
 4a. List the 4 types of Models
@@ -51,7 +51,7 @@ Answers can be found at
     - Statistical properties
  d. What is RANECU and briefly discuss?
  e. List and explain the key features of RANECU?
- f. Discuss the Quadrature congruential method?
+ f. Discuss the Quadratic congruential method?
  g. List just 2 types of Pseudorandom Number Generators (PRNG)?
 
 7a. What is a Queuing system?
