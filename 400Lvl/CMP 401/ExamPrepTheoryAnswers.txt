@@ -1,0 +1,227 @@
+CMP 401 EXAM PREP THEORY
+Best Practice: Study using a big screen device. Be it a laptop or a tablet. It won't be best to use phones (even though y'all ain't with your phones 😉)
+
+
+
+----------------------------------------------------------------
+
+
+
+SLIDE I
+
+
+
+1a. List 5 areas of computer applications?
+ans: - Scientific Applications
+     - Business Applications
+     - Artificial Intelligence
+     - Web Software
+     - Medicine
+
+ b. What is Natural language?
+ ans: The Natural Language is a structured system of communication used by 
+      humans through speech, signs, gestures and writing
+
+    i. What makes up the structure of a language?
+    ans: Grammar and vocabulary
+
+    ii. list 5 examples of natural language?
+    ans: - English
+         - Spanish
+         - French
+         - Portuguese
+         - Chinese
+
+
+2a. What is a Programming language?
+ans: Programming language is the vocabulary and a set of grammatical rules 
+     used to instruct computers
+
+    i. List 7 Programming languages?
+    ans: - Java
+         - C/C++
+         - COBOL
+         - Prolog
+         - Python
+         - Javascript
+         - Golang
+         - Rust
+
+ b. List all 3 categories of programming languages?
+ ans: - procedural programming languages
+      - functional programming languages
+      - object oriented programming languages
+
+    i. Discuss how procedural programming languages work and list 3 procedural languages?
+    ans: - These are used to execute a sequence of statements
+         - These languages use multiple variables and heavy loops to 
+           execute their problems.
+         - In procedural languages, functions may control variables other 
+           than return values. For example, printing.
+         - Examples of procedural languages include:
+           - Basic, C/C++, Java, FORTRAN and Pascal
+
+    ii. Discuss how functional programming languages work and list 3 functional languages?
+    ans: - These languages use stored data and frequently avoid loops in 
+           favour of recursive functions to execute their problems.
+         - These languages focus primarily on the return values of 
+           functions.
+         - Functional languages are easier and allow programmers to easily 
+           focus on abstract issues.
+         - Examples include:
+           - Python, Lisp and Erlang
+
+    iii. Discuss how Object-oriented programming languages work and list 3 Object-oriented languages?
+    ans: - These programming languages view the world as a group of objects 
+           that have internal data and parts of the data can be accessed 
+           externally.
+         - The aim is to think about a collection of objects and services 
+           that can be offered in specific problems.
+         - The major principle here is encapsulation which puts everything 
+           an object would need into the object.
+         - These languages thrive on reusability and inheritance.
+         - Examples include:
+           - Java, Python, C++, Lisp, and Perl
+
+ c. List 5 reasons why one should study programming languages?
+ ans: - To improve our ability to develop effective Algorithms
+      - To improve our use of your existing Programming Languages
+      - To increase our vocabulary of useful programming constructs
+      - To allow a better choice of programming language
+      - To make it easier to learn a new language
+      - To make it easier to design a new language
+
+
+3a. List the 3 national standards bodies that define Language standards?
+ans: IS0 - International Standards Organization
+     ANSI - American National Standards Institute
+     IEEE - Institute of Electrical and Electronics Engineering 
+
+    i. There are 4 steps this organizations take to defining Language 
+       standards. Name them?
+    ans: - Working group of volunteers set up to define standard
+         - Agree on features for new standard
+         - Vote on standard
+         - If approved by working group, submitted to parent organization 
+           for approval
+
+    ii. How often are standards reviewed?
+    ans: Once every 5 years
+
+ b. why are standards important?
+ ans: - Standards ensure language conformity with rules and laws.
+      - Standards define behavior/constructs of language - one that
+        meets the rules of language standards.
+
+4a. How are Languages defined?
+ans: They are defined on the basis of characters and symbols which are 
+     strung up to form words or signs
+ b.     
+
+5a. List 4 of the commonly used criteria for Evaluating a programming 
+    language?
+ans: - Readability
+     - Writability
+     - Reliability
+     - Cost 
+
+ b. Discuss the below
+    - Readability
+    - Writability
+    - Reliability
+      i. List 4 characteristic used in measuring Reliability of programming languages
+    - Cost
+      i. List and briefly discuss the 4 characteristics that lead to the total cost of programming languages?
+
+6a. What are the 2 factors that influence Language Design?
+ b. Discuss Computer Architecture?
+    i. What is the von Neumann architecture
+    ii. Who was the main originator of this architecture?
+    iii. Discuss the von Neumann Architecture?
+          a. Draw a diagram of the von Neumann Architecture?
+          b. The execution of machine code on this architecture is called what?
+          c. Where is the address of the next instruction to be executed in this architecture located at?
+          d. List the steps in the fetch-execute cycle?
+          f. What are the 2 primary components of a digital computer that uses the von Neumann Architecture?
+ d. Discuss Language Implementation method and what it requires and its primitives?
+
+7a. List the 3 fundamental methods used for implementing a programming language?
+ b. Discuss the Compilation method?
+    i. List 3 languages that makes use of the compilation method
+    ii. Draw a diagram showing the phases involved in the compilation method?
+    iii. The language which the compiler translates is the ____________?
+    iv. Discuss the below compilation phases?
+        a. Lexical Analyzer
+        b. Syntax Analyzer
+        c. Intermediate code generator
+        d. Semantic Analyzer
+        e. Optimization
+        f. Code Generator
+  c. Discuss the Pure Interpretation method?
+     i. List 2 advantages of the Pure level interpretation method
+     ii. List 3 disadvantages
+     iii. Draw a diagram of a Pure Interpretation program
+  d. Discuss Hybrid Implementation?
+     i. Why is Hybrid Implementation method faster than pure interpretation
+     ii. Draw a diagram showing the phases in the Hybrid Implementation method?
+     iii. Explain Java Hybrid Implementation
+     iv. Systems that translate javas byte code into machine code faster than Java Virtual Machine are known as ______________
+
+Syntax and Semantics
+8a. What is syntax and what is semantics?
+ b. For example, the syntax of a Java while statement is
+    while (boolean_expr) statement
+    Explain the semantics behind the statement
+
+
+
+----------------------------------------------------------------
+
+
+
+SLIDE II
+
+
+1a. Whether it is natural or not, a language is only a __________________
+ b. Lexemes are partitioned into groups. List just 2?
+ c. What is a token?
+ d. State the lexeme and it's equivalent token for the below programming 
+    statement 
+    index = 2*count+17;
+ e. Languages are formally defined in 2 distinct ways. Name them?
+    i. Explain Language Recognition   
+    ii. Explain Language Generation   
+
+2a. What are grammars?
+ b. What are the 2 most widely used syntax description methods?
+
+3a. Discuss Backus-Naur Form (BNF)?
+    i. What is a Meta language?
+ b. What is Grammar?
+ c. What is Derivation?
+ d. How is the sentence for a language derived?
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
