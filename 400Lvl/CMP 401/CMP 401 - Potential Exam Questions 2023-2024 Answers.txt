@@ -1,0 +1,61 @@
+i. Computers need their own language for various reasons. Discuss any 3 of 
+   these reasons
+ans: 
+
+ii. Discuss object-oriented language stating the major principle behind it
+ans: Object-oriented language looks at the world as a group of objects with 
+     internal data, some of which are accessible to the outside world.
+     It thinks of a collection of objects and what services they can offer
+     It thrives on reusability and inheritance
+     The main principle here is encapsulation which refers to the coupling of the fields and methods of an object inside that object
+
+iii. Discuss the reasons behind the idea of studying programming languages.
+ans: It helps improve a programmers ability to develop effective 
+     Algorithms, It improves our ability to use existing languages, learn 
+     new languages, design a language, pick the right programming language 
+     for solving particular problems and also it adds to our vocabulary 
+     containing useful programming constructs  
+
+iv. Who would you meet when it is time to define and standardize your 
+    programming language? Why does your language need standardizing and 
+    when is the appropriate time to go for it?
+ans: Who would I meet?
+     I would either meet one of the 3
+     - ISO (International Standards Organization)
+     - IEEE (Institute of Electrical and Electronics Engineering)
+     - ANSI (American National Standards Institute)
+
+v. Discuss any 2 of the commonly used criteria for evaluating a programming 
+   language
+ans: 
+
+vi. Describe any 2 of the commonly used criteria for evaluating a 
+    programming language
+ans: 
+
+vii. Using an example, differentiate between the syntax and the semantics 
+     of a programming language
+ans: 
+
+viii. Given the statement: int i = 2 * count + 17 * (a+b);, separate the 
+      statement into its tokens and lexemes.
+ans: 
+
+ix. Given the grammar for a small language as:
+<program> -> begin <stmt_list> end
+              <stmt_list> -> <stmt> 
+              | <stmt>; <stmt_list> 
+              <stmt> -> <var>=<expression>
+              <var>->A|B|C
+              <expression>-><var>+<var>
+              |<var>-<var>
+              |<var>
+ans: 
+
+x. Generate the grammar for A=B*(A+C) and provide its parse tree.
+ans: 
+
+xi. Show that the statement: A=B+C*A is an ambiguous grammar.
+ans: 
+
+
