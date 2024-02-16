@@ -308,81 +308,157 @@ ans: - Compilation
     iii. The language which the compiler translates is the ____________?
     ans: Source code
 
-    iv. Discuss the below compilation phases?
+    iv. Explain the below compilation phases?
         a. Lexical Analyzer
         b. Syntax Analyzer
         c. Intermediate code generator
         d. Semantic Analyzer
         e. Optimization
         f. Code Generator
-   ans: 
+   ans: a. Lexical Analyzer: groups the units of the source program into 
+           lexical units or lexemes. lexical units of a program are 
+           identifiers (or variables), special words, operators, and 
+           punctuation symbols.
+
+           It also ignores comments in source program
+
+        b. Syntax Analyzer: takes the lexical units from the lexical 
+           analyzer and uses them to construct hierarchical structures 
+           called parse trees
+
+           Parse trees represent the syntactic structure of the program
+
+        c. Intermediate code generator: translates the source program into 
+           an intermediate representation that is not the machine code
+
+           The intermediate code generated could be in assembly language or 
+           a higher level one.
+
+        d. Semantic Analyzer: checks for errors, such as type errors, 
+           errors that are difficult, if not impossible, to detect during syntax analysis
+
+        e. Optimization: improves the program by making them smaller or 
+           faster or both.
+
+           This is done on intermediate code because optimization is 
+           difficult to do on machine code
+
+        f. Code Generator: translates the optimized intermediate code into 
+           its equivalent machine code (or machine language) program
+     
+     v. Explain the Symbol Table?
+     ans: - The symbol table serves as a database for the compilation 
+            process
+          - The primary contents of the symbol table are the type and 
+            attribute information of each variable in the program.
+          - This information is placed in the symbol table by the lexical 
+            and syntax analyzers and is used by the semantic analyzer and 
+            the code generator.
 
   c. Discuss the Pure Interpretation method?
-  ans: 
+  ans: - In pure interpretation method, programs are interpreted by another 
+         program called an interpreter, with no translation whatever.
+       - The interpreter program acts as a software simulation of a machine 
+         whose fetch-execute cycle deals with high-level language program 
+         statements rather than machine instructions.
+       - This software simulation obviously provides a virtual machine for 
+         the language.
+       - For example, if an array index is found to be out of range, the 
+         error message can easily indicate the source line of the error and 
+         the name of the array.
+       - Statement decoding, rather than the connection between the 
+         processor and memory, is the bottleneck of a pure interpreter.
+       - The symbol table must be present during interpretation.
+       - The primary source of slowness is the decoding of the high-level 
+         language statements, which are far more complex than machine 
+         language instructions
+
 
      i. List 2 advantages of the Pure level interpretation method
-     ans: 
+     ans: - It allows easy implementation of many source-level debugging 
+            operations, because all run-time error messages can refer to source-level units
+          - Source program are stored in a form designed for easy access 
+            and modification
 
      ii. List 3 disadvantages
-     ans: 
+     ans: - Regardless of how many times a statement is executed, it must 
+            be decoded every time.
+          - It often requires more space. 
+          - Execution is 10 to 100 times slower than in compiled systems
+
 
      iii. Draw a diagram of a Pure Interpretation program
-     ans: 
+     ans: (SLIDE I page 51)
 
   d. Discuss Hybrid Implementation?
-  ans: 
+  ans: - Some language implementation systems use both compilers and pure 
+         interpreters.
+       - Here, high-level language programs are translated to an 
+         intermediate language designed to allow easy interpretation.
+       - This method is faster because the source code is decoded once
+
+       - Also, the .NET languages are all implemented with a JIT system.
+       - Sometimes an implementer may provide both compiled and interpreted
+         implementations for a language.
+       - In these cases, the interpreter is used to develop and debug 
+         programs. Then,after a (relatively) bug-free state is reached, the 
+         programs are compiled to increase their execution speed.
+
+
 
      i. Why is Hybrid Implementation method faster than pure interpretation
-     ans: 
+     ans: This method is faster than pure interpretation because the source 
+          language statements are decoded only once.
 
      ii. Draw a diagram showing the phases in the Hybrid Implementation 
          method?
-     ans: 
+     ans: (SLIDE I page 51)
 
      iii. Explain Java Hybrid Implementation
-     ans: 
+     ans: - The initial implementations of Java were all hybrid 
+            implementation.
+          - Its intermediate form, called byte code, provides portability 
+            to any machine that has a byte code interpreter and an 
+            associated run-time system.
+          - Together, these are called the Java Virtual Machine.
+          
+          - There are now systems that translate Java byte code into 
+            machine code for faster execution.
+          - Such systems are called the “Just-in-Time (JIT)”systems.
+          - A Just-in-Time (JIT) implementation system initially translates 
+            programs to an intermediate language.
+          - Then, during execution, it compiles intermediate language  
+            methods into machine code when they are called.
+          - The machine code version is kept for subsequent calls.
+          - JIT systems now are widely used for Java programs.
 
      iv. Systems that translate javas byte code into machine code faster 
          than Java Virtual Machine are known as ______________
-     ans:     
+     ans: JIT
 
 
 Syntax and Semantics
 8a. What is syntax and what is semantics?
-ans: 
+ans: - The syntax of a programming language is the form of its expressions, 
+       statements, and program units.
+     - Semantics is the meaning of those expressions, statements, and 
+       program units.  
 
  b. For example, the syntax of a Java while statement is
     while (boolean_expr) statement
     Explain the semantics behind the statement
- ans: 
+ ans: The semantics of this statement form is that:
+      i. when the current value of the Boolean expression is true, the 
+         embedded statement is executed.
+      ii. Then control implicitly returns to the Boolean expression to 
+          repeat the process.
+      iii. If the Boolean expression is false, control transfers to the 
+          statement following the while construct
 
 
 ----------------------------------------------------------------
 
 
-
-SLIDE II
-
-
-1a. Whether it is natural or not, a language is only a __________________
- b. Lexemes are partitioned into groups. List just 2?
- c. What is a token?
- d. State the lexeme and it's equivalent token for the below programming 
-    statement 
-    index = 2*count+17;
- e. Languages are formally defined in 2 distinct ways. Name them?
-    i. Explain Language Recognition   
-    ii. Explain Language Generation   
-
-2a. What are grammars?
- b. What are the 2 most widely used syntax description methods?
-
-3a. Discuss Backus-Naur Form (BNF)?
-    i. What is a Meta language?
- b. What is Grammar?
- c. What is Derivation?
- d. How is the sentence for a language derived?
- 
 
 
 
