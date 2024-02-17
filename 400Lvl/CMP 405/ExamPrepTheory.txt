@@ -1,0 +1,32 @@
+1a. What is Computer Graphics?
+ b. What is a Pixel?
+    i. How are pixels controlled?
+ c. List 5 advantages of Computer graphics
+
+
+
+Answer
+1a. Computer Graphics is any sketch, drawing, special artwork or other 
+    materials to pictorially depict an object or process or otherwise 
+    convey information, as a supplement to or instead of written description
+
+ b. A pixel is the smallest addressable screen elements
+    or 
+    it is the smallest piece of display screen which we can control
+
+    i. By setting the intensity and color of the pixel
+ c. 1. It provides tools for producing pictures not only of concrete  
+       real-world object but also of abstract.
+    2. It has the ability to show moving pictures and thought it possible 
+       to produce animation with computer graphics. 
+    3. With it, users can control animation speed, portion of the view and 
+       goniometric relationship of the object in the scene to one another 
+       and the amount of detail shown.
+    4. It provides tools called motion dynamics. Which allows us to move 
+       objects, tumble them with respect to stationary observer, or make objects stationary while the viewer moves around them.
+    5. It provides a facility called update dynamics. Which allows us 
+       change the shape, color and other properties objects.
+    6. With the recent development of digital signal processing and audio 
+       synthesis chip the interactive graphics can now provide audio 
+       feedback along with the graphical feedback to make the simulated 
+       environment even more realistic
