@@ -82,6 +82,39 @@ Syntax and Semantics
 
 
 
+----------------------------------------------------------------
+
+
+
+SLIDE II
+
+
+1a. Whether it is natural or not, a language is only a __________________
+ b. Lexemes are partitioned into groups. List just 2?
+ c. What is a token?
+ d. State the lexeme and it's equivalent token for the below programming 
+    statement 
+    index = 2*count+17;
+ e. Languages are formally defined in 2 distinct ways. Name them?
+    i. Explain Language Recognition   
+    ii. Explain Language Generation   
+
+2a. What are grammars?
+ b. What are the 2 most widely used syntax description methods?
+
+3a. Discuss Backus-Naur Form (BNF)?
+    i. What is a Meta language?
+ b. What is Grammar?
+ c. What is Derivation?
+ d. How is the sentence for a language derived?
+ 
+
+
+
+
+
+
+
 
 
 

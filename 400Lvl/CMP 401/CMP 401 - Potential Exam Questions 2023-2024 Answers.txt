@@ -65,7 +65,8 @@ ans: Who would I meet?
       Long-term maintenance: A standardized language is easier to maintain and evolve over time. It provides a stable foundation for future enhancements and ensures that existing code will continue to work as expected.
 
      When is the appropriate time to go for it?
-      The appropriate time to standardize a programming language is typically when it has reached a certain level of maturity and adoption. This ensures that the standard reflects the language's established features and practices, and that it is widely accepted by the developer community. Additionally, standardization may be necessary when there are multiple competing implementations of a language, or when there is a need to promote interoperability and compatibility among different systems.
+      The appropriate time to standardize a programming language is typically when it has reached a certain level of maturity and adoption. 
+      This ensures that the standard reflects the language's established features and practices, and that it is widely accepted by the developer community. Additionally, standardization may be necessary when there are multiple competing implementations of a language, or when there is a need to promote interoperability and compatibility among different systems.
 
 v. Discuss any 2 of the commonly used criteria for evaluating a programming 
    language
@@ -74,7 +75,7 @@ ans: Readability
      Reliability
      Cost
 
-vi. Describe anyone of the implemenation methods. Show diagrams
+vi. Describe anyone of the implementation methods. Show diagrams
 ans: Compilation
      - This translates the entire source program into its equivalent 
        machine language program and executes it. It is very fast.
