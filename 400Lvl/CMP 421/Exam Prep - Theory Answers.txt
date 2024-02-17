@@ -5,60 +5,350 @@ FROM
 Lecturer said - "Whenever I ask you to draw and explain using diagrams, you should know that the diagram carries more marks" 
 
 1a. What is Net-Centric Computing?
+ ans: Net-Centric Computing is computing where network plays a the central 
+      or larger role
+
  b. What is Computing?
- c. What is the CPU?
+ ans: Computing is the process of using computer technology to complete a 
+      given–oriented task
+ 
+ c. What is the CPU (also known as processor or Central Processing Unit)?
+ ans: CPU is a piece of hardware that carries out the instructions of a 
+      computer program.
+
+      It is considered the brain of a computer system
+
     i. What are the operations performed by the CPU and Explain them?
+    ans: - Arithmetic
+         - Logical and
+         - input/output
+
+
 2a. What is a Multiprocessor System?
+ans: Multiprocessor is a system which has more than two processors in the 
+     system
+
  b. List the 2 types of multiprocessor systems 
     - Explain both
+ ans: - Loosely coupled 
+      - Tightly coupled 
+
+      Explanation
+      - Loosely coupled:
+        - Loosely coupled systems are referred to as distributed computing 
+          system.
+        - The degree of coupling between the processors are LOW
+      - Tightly coupled: 
+        - Tightly coupled systems are referred to as parallel computing 
+          systems 
+        - The degree of coupling between the processors are HIGH
 
 3a. Draw a diagram of a Loosely coupled system and a Tightly coupled system
- b. In a tabular format. List 4 key differences between the Loosely coupled and the 
-    tightly coupled system?
+ans: Loosely Coupled Systems Diagram
+     - (SLIDE page 5)
+     Tightly Coupled Systems Diagram
+     - (SLIDE page 6)
+
+ b. In a tabular format. List 4 key differences between the Loosely coupled 
+    and the Tightly coupled system?
+ ans: TABLE: Loosely Coupled Systems (L) vs Tightly Coupled Systems (T)
+      L1. uses distributed memory
+      T1. uses shared memory
+ 
+      L2. Efficient when the tasks running on different processors have  
+          minimal interactions between them.
+      T2. Can take a higher degree of interaction between processors and is 
+          efficient for high-speed and real-time processing
+      
+      L3. They don't encounter memory conflict 
+      T3. They experience memory conflict
+ 
+      L4. Data rate is low
+      T4. Data rate is high
+ 
+      L5. Less expensive and larger in size
+      T5. More expensive and smaller in size
+
+      L6. The interconnection network is MTS (Message Transfer System)
+      T6. The interconnection networks are 
+          - PMIN (Processor-Memory Interconnection Network) and 
+          - ISIN (Interrupt-Signal Interconnection Network)
+
+
 
 4a. What is Centralised Computing?
- b. Explain the architecture used by Centralised Computing
+ans: is computing done at a central location, that is all or most of the 
+     processing is performed on a central server
+
+ b. Explain the architecture used in Centralised Computing
+ ans: - Centralised computing uses client/server architecture where one or 
+        more client nodes are directly connected to a central server.
+      - In this computing, the client sends a request to a server and 
+        receivers from server.
+      - For example, A network of Computer Science Department, where a 
+        lecturer, admin, and student requests for a department server.
+
  c. List the 3 characteristics of Centralised Computing
+ ans: - Presence of Global Clock: All clients modes sync up with the clock 
+        of the central node (global clock)
+      - One Single Central Unit: One single central unit which 
+        serves/coordinates all the other nodes
+      - Department Failure of Components. Central node failure causes 
+        system to fail.
+
  d. Draw a diagram of Centralised Computing
+ ans: (SLIDE page 9)
+
  e. List 4 advantages of Centralised Computing and 3 disadvantages
+ ans: Advantages
+      - Easy to physically secure.
+      - Smooth and elegant person experience.
+      - Dedicated resources.
+      - More cost effective.
+      - Quick updates are possible.
+      - Easy detachment of a node from the network.
+
+      Disadvantages
+      - Highly dependent on system. If the system fails, all nodes fail.
+      - No graceful degradation of system.
+      - Less possibility of data backup.
+      - Difficult to maintain server.
+
 
 5a. What is Decentralised Computing?
- b. Explain the architecture used by Decentralised Computing?
- c. List the 3 characteristics of Decentralised Computing?
- d. Draw a diagram of Decentralised Computing
- e. List 4 advantages of Decentralized Computing and 3 disadvantages
+ans: Decentralised computing is an interconnected information system 
+     in which no single entity is the sole authority
+
+ b. List the 3 characteristics of Decentralised Computing?
+ ans: - multiple Central Units: there is more than one central unit which 
+        can listen for connections from other nodes,.
+      - Department failure of components: one central node failure causes 
+        only partial system failure and not complete system.
+      - Lack of a global clock: each node is independent, hence different 
+        clocks that they run and follow
+
+ c. Draw a diagram of Decentralised Computing
+ ans: (SLIDE page 15)
+
+ d. List 3 advantages of Decentralized Computing and 4 disadvantages
+ ans: Advantages
+      - Minimal problem of performance bottlenecks occurring –it allows 
+        balancing the network
+      - High availability
+      - More autonomy and control over resources
+
+      Disadvantages
+      - May lead to problem of coordination of the enterprise level.
+      - Not suitable for small system.
+      - Difficult to know which node failed.
+      - Difficult to know which node responded.
+      - No regulatory oversight.
+
  
 6a. What is Parallel Computing?
+ans: Parallel computing is a technique of computing where multiple tasks 
+     are process simultaneously on multiple processors
+
  b. Explain the technique used in Parallel Computing?
+ ans: Parallel computing uses divide and conquer technique to split each 
+      task and then processes each sub-task on different CPU's
+
  c. List 4 reasons why one should pick parallel computing?
+ ans: - Many applications today require more computing power than a 
+        traditional sequential computer can offer.
+      - Parallel computing provides a cost –effective solution to solve 
+        complex problem.
+      - Parallel computing allow an increase in the number of CPUs in a 
+        computer and also adding an efficient communication between the CPUs
+      - It allows work load to be shared between processors and hence a 
+        higher computing power
+ 
  d. Draw a diagram of Parallel Computing
+ ans: (SLIDE Page 19)
  
 7a. What is Distributed Computing?
+ans: Distributing computing is a computing techniques where a single task 
+     can be divided into multiple tasks and distributed to many computer
+
  b. Draw a diagram of a distributed database system?
+ ans: (SLIDE Page 22)
+
  c. List the 2 characteristics of distributed computing
- d. In a tabular format. List 5 differences between Parallel Computing vs Distributed Computing?
+ ans: - Concurrency of components –node apply consensus protocols to 
+        agree on same values/transactions/command/logs.
+      - Lack of a global clock: all nodes maintain their own clock 
+        Independently without having a significant effect on the  entire 
+        system.
+
+
+ d. In a tabular format. List 5 differences between Parallel Computing vs 
+    Distributed Computing?
+ ans: TABLE: Parallel vs Distributed Computing
+      P1. Parallel Computing is a computation type in which multiple 
+          processors execute multiple tasks simultaneously
+      D1. Parallel Computing occurs on one computer.
+
+      P2. In Parallel Computing, multiple processors perform processing.
+      D2. All processors share a single master clock for synchronization.
+
+      P3. In Parallel Computing , computers can have shared memory or 
+          distributed memory,
+      D3. Parallel Computing is used to increase performance and for 
+          scientific computation Distributing Computing
+
+      P4. Distributing Computing is a computation type in which networked 
+          computers communicate and coordinate the work through message 
+          passing to achieve a common goal.
+      D4. Distributing Computing occurs between multiple computers
+
+      P5. In Distributing Computing , computer rely on message passing.
+      D5. There is no global clock in distributing computing , it uses 
+          synchronization algorithms.
+
+      P6. In distributing computing , each  computer has their own memory.
+      D6. Distributing Computing is used to share resources and to increase 
+          scalability
+
  e. List 4 advantages of Distributed Computing and 3 disadvantages
+ ans: Advantages
+      - Low latency than centralised or decentralised system.
+      - It has redundancy and resiliency.
+      - It has high spread and content distribution.
+      - A distributed computing is scalable and can be designed parallelism
+      Disadvantages
+      - It is difficult to design.
+      - It can be difficult to spot bugs that causes errors
+      - Security and privacy can become an issue with distributed systems.
+      - It can be overkill for some tasks, using more physical resources 
+        and engineering time than is necessary
+
 
 8a. List all 5 Distributed Computing models?
+ans: Minicomputer model
+     Workstation model
+     Workstation-server model
+     Processor-Pool model
+     Hybrid model
+
  b. Discuss the Minicomputer Model and draw it's diagram?
+ ans: - The Minicomputer model is a simple extension of the centralized 
+        time–sharing system.
+      - A distributed computing system based on this model consists of    
+        few minicomputers interconnected by a communication network 
+        where each minicomputer usually has multiple users simultaneously 
+        logged onto it.
+      - Several interactive terminals are connected to each 
+        minicomputer. Each user logged onto a specific minicomputer, has 
+        remote access to other minicomputers.
+      - The network allow the user to access remote resources that are    
+        available on some machines other than the one on to which the user 
+        is currently logged. The minicomputer model may be used when 
+        resource sharing with remote users is desired.
+      - The early ARPA net is an example of a distributed computing system 
+        based on the minicomputer model
+
+      Draw Diagram
+      (SLIDE page 28)  
+        
  c. Discuss the Workstation Model and draw it's diagram?
+ ans: - A distributed computing system based on the workstation model 
+        consists of several workstation interconnected by a communication
+        network.
+      - An organization may have several workstations located throughout an
+        organisation with infrastructure were each workstation is equipped 
+        with its own disk and serves as a single-user computer.
+      - In such an environment, at any one time a significant proportion of 
+        the workstation are idle which result in the waste of large amount 
+        of CPU time.
+      - Therefore the idea of the workstation model is to interconnect all 
+        these workstations by a high-speed LAN so that idle workstation 
+        maybe used to process jobs of users who are logged onto other 
+        workstations and do not have sufficient processing power at their
+        own work stations to get their jobs processed efficiently.
+
+      Draw Diagram
+      (SLIDE page 30)    
+
  d. Discuss the Workstation-Server Model and draw it's diagram?
+ ans: - The workstation model is a network of personal workstations having 
+        its own disk & local file system.
+      - A workstation with its own local disk is usually called a diskful 
+        workstation and workstation without a local disk is called a 
+        diskless workstation. diskless workstation has become more popular 
+        in network environments than diskful workstation, making the 
+        workstation-server model more popular than the workstation model 
+        for building distributed computing systems.
+      - A distributed computing system based on the Workstation-server 
+        model consist of a few minicomputers and several workstations 
+        interconnected by a communication network.
+      - In this model, a user logs onto a workstation called his or her 
+        home workstation. Normal computation activities required by the 
+        user’s processes are performed at the user’s home workstation but 
+        request for services provided by special servers are sent to a 
+        server providing that type of service that performs the user’s 
+        requested activity and returns the result of request processing to 
+        the user’s workstation.
+      - Therefore, in this model, the user’s process need not migrated to 
+        the sever machines for getting the work done
+      - Example: The V-System.
+
+      Draw Diagram
+      (SLIDE page 32)  
+
  e. Discuss the Processor-pool Model and draw it's diagram?
+ ans: - The processor-pool model is based on the observation that must of 
+        the time a user does not need any computing Power but once in a 
+        while the users may need a very large amount of computing power for 
+        a short time.
+      - Therefore, unlike the workstation-server model, in which a 
+        processor is allocated to each user, in processor-pool model the 
+        processor are pooled together to be shared by the users as needed.
+      - The pool of a processor consist of a large number of microcomputers 
+        attached to the network.  
+      - Each processor in the pool has its own memory to load and run a 
+        system program or an application program of the distributed 
+        computing system.
+      - In this model no home machine is present and the user does not log 
+        onto any machine.
+      - This model has better utilization of processing power and greater 
+        flexibility.
+      - Example: Amoeba and the Cambridge Distributed Computing System.
+
+      Draw Diagram
+      (SLIDE page 34)  
+
  f. Discuss the Hybrid Model?
+ ans: - The workstation-server model has a large number of computer users
+        only performing simple interactive task and executing small 
+        programs.
+      - In a working environment that has group of users who often perform
+        jobs needing massive computation, the processor pool model is more
+        attractive and suitable.
+      - To combine advantages of workstation-server and processor-pool
+        model, a hybrid model can be used to build a distributed system.
+      - The processor in the pool can be allocated dynamically for
+        computations that are too large or require several computers for
+        execution.
+      - The hybrid model gives guaranteed response to interactive jobs
+        allowing them to be more processed in local workstations of the 
+        users
 
 9a. What is the Operating System?
-ans: Operating System is a system software that manages computer hardware, software 
-     resources, and provides common services for computer programs
+ans: Operating System is a system software that manages computer hardware, 
+     software resources, and provides common services for computer programs
 
  b. List 3 examples of Operating System?
  ans: Linux, MacOS, Windows
 
  c. List 4 objectives of Operating System?
- ans: - To allows for the fair sharing of computer resources by users and programs
+ ans: - To allows for the fair sharing of computer resources by users and 
+        programs
       - To hide the detail of th hardware resources from the user
       - To provide users with a convenient interface to use the computer
       - To manage the resources of a computer system
-      - To keep track of whose using which resources, granting resource requests and mediating conflict request from multiple users and programs.
+      - To keep track of whose using which resources, granting resource 
+        requests and mediating conflict request from multiple users and 
+        programs.
 
  d. List and explain 5 functions of the Operating System?
  ans: - Memory management
@@ -69,9 +359,9 @@ ans: Operating System is a system software that manages computer hardware, softw
       - Error-Detecting Aids
 
 10a. What is Distributed Operating System?
-ans: Distributed Operating system is an Operating system that runs on several machines 
-     providing them with useful sets of services, generally to make the collection of 
-     systems.
+ans: Distributed Operating system is an Operating system that runs on 
+     several machines providing them with useful sets of services, 
+     generally to make the collection of systems.
 
   b. What is a networking Operating System?
   ans: A networking Operating System is an Operating system designed for the sole purpose 
@@ -79,17 +369,28 @@ ans: Distributed Operating system is an Operating system that runs on several ma
        access sharing amongst multiple computers in the network
 
   c. List 4 challenges involved in building a Distributed Operating System?
-  ans: - Designing a distributed operating system is more difficult than a central one
-       - It is assumed that the operating system has complete and accurate information about the environment it is running in, However Distributed operating system must be designed with the assumption that complete information about the environment in which it is functioning will never be known
-       - In a distributed operating system, the resources are physically separated and there is no global clock
-       - Distributed operating system never has up to date consistent knowledge about the state of the underlying components of the system 
+  ans: - Designing a distributed operating system is more difficult than a 
+         central one
+       - It is assumed that the operating system has complete and accurate 
+         information about the environment it is running in, However 
+         Distributed operating system must be designed with the assumption 
+         that complete information about the environment in which it is 
+         functioning will never be known
+       - In a distributed operating system, the resources are physically 
+         separated and there is no global clock
+       - Distributed operating system never has up to date consistent 
+         knowledge about the state of the underlying components of the 
+         system 
 
 11a. What is Transparency (in Distributed Systems)?
-ans: Transparency is the concealment from the users and application programmers about the 
-     seperation of components such that it is perceived as a single system rather than a collection of systems working together
+ans: Transparency is the concealment from the users and application 
+     programmers about the separation of components such that it is 
+     perceived as a single system rather than a collection of systems 
+     working together
 
   b. List the 8 types of transparencies in distributed systems
-  ans: Access, Location, Migration, Relocation, Replication, Concurrency, Failure, Persistence
+  ans: Access, Location, Migration, Relocation, Replication, Concurrency, 
+       Failure, Persistence
 
   c. List 5 issues of transparency in designing of a distributed system
   ans: - Access transparency
