@@ -396,7 +396,7 @@ ans:
     be challenging.
 
   - Communication Barriers: Clients may have varying levels of domain 
-    knowledge and communication skills. Misunderstandings or misinterpretations of requirements may arise, leading to discrepancies between client expectations and the final product.
+    knowledge and communication skills. Misunderstandings or misinterpretations leading to discrepancies between client expectations and the final product.
 
   - Scope Creep: With multiple clients providing input, there's a risk of 
     scope creep, where new requirements are continuously added or existing 
@@ -472,7 +472,10 @@ ans:
     organization for success in the marketplace.
 
 
-6. As a Software Engineer, you have been given the task of reverse engineering and re-engineering a large legacy system written in languages which are no longer widely used in modern development with out-of-date and incomplete documentation.
+6. As a Software Engineer, you have been given the task of reverse 
+   engineering and re-engineering a large legacy system written in 
+   languages which are no longer widely used in modern development with 
+   out-of-date and incomplete documentation.
 a. Give an assessment of the problems likely to be encountered in this task.
    Explain how you would go about the reverse engineering of this system
    Explain 2 techniques that you could use
@@ -525,14 +528,13 @@ ans:
 
    Techniques for Reverse Engineering:
    - Static Code Analysis:
-     - Static code analysis tools helps detect coding errors, dead code, 
-       and code smells, providing insights into the codebase's structure and quality.
+     - Using static code analysis tools helps detect coding errors, dead 
+       code, and code smells, providing insights into the codebase's 
+       structure and quality.
 
    - Dynamic Analysis:
      - Dynamic analysis involves executing the system and observing its 
        behavior in real-time. Using techniques such as logging, debugging, and profiling can reveal these runtime characteristics
-     - Dynamic analysis provides valuable insights into the system's 
-       runtime behavior.
 
 
    b. 
