@@ -1,3 +1,35 @@
+1a. Definition
+ i. What is a model and what is it made up of
+ ans: A model is a human construct that helps us understand real world 
+      systems
+ ii. What is modelling
+ ans: it is the process of generating abstract, conceptual, graphical and/
+      or mathematical models
+ iii. What is Simulation?
+ ans: it is the operation of a model which is the representation of an 
+      actual system
+
+ b. Discuss why Modelling and Simulations is important
+ c. What is Computer Simulation or Computer model
+ ans: it is a computer program that attempts to simulate the model of an 
+      actual system
+
+    i. List the 2 types of Computer Simulations and state the 3 general purposes they are used for
+    ans: - Agent-based simulations
+         - Equation-based simulation
+
+    ii. Discuss Equation-based Simulations
+    iii. Discuss Agent-based simulations
+
+ d. Discuss Multiscale Simulations
+ ans: is a hybrid simulation that combines different modeling methods from 
+      different scales of description
+
+    i. What are the 2 types of Multiscale Simulations
+    ans: - Serial multiscale
+         - Parallel multiscale
+    ii. Discuss serial multiscale and parallel multiscale Simulations
+
 2a. Define Monte Carlo Simulations and further discuss
 ans: Monte carlo (MC) simulations are computer algorithms that use 
     randomness to calculate the properties of a mathematical model, where 
@@ -411,3 +443,17 @@ d. What is the main difference between the open and the closed queuing
    network?
 ans: - The open queuing network has new arrivals during simulation, whereas 
      - The closed queuing network does not have new arrivals. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
