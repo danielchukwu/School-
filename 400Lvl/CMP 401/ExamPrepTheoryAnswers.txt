@@ -456,10 +456,6 @@ ans: - The syntax of a programming language is the form of its expressions,
           statement following the while construct
 
 
-----------------------------------------------------------------
-
-
-
 
 
 
