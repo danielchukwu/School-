@@ -1,6 +1,36 @@
 i. Computers need their own language for various reasons. Discuss any 3 of 
    these reasons
-ans: 
+ans: - Direct communication with hardware: Machine code is the only 
+       language that the computer hardware understands directly. It 
+       consists of binary code, which corresponds to the electrical signals 
+       that control the hardware components.
+
+     - Efficiency: Machine code is the most efficient way for a computer to 
+       execute instructions. It provides direct control over the hardware, 
+       allowing for optimal performance.
+
+     - Control over memory and resources: Machine code allows programs to 
+       directly access and manipulate memory and other system resources, 
+       providing fine-grained control over system operations.
+
+     - Compatibility: Machine code ensures compatibility with different 
+       hardware architectures. By using a standard set of instructions, 
+       software written in machine code can run on any hardware that 
+       supports those instructions.
+
+     - Security: Machine code allows for low-level control over system 
+       security. It enables features such as memory protection and access 
+       control, which are essential for ensuring the integrity and security 
+       of computer systems.
+
+     - Real-time processing: Machine code is often used in real-time 
+       systems where timing is critical. Its direct control over hardware 
+       allows for precise timing and rapid response to external events.
+
+     - Embedded systems: Machine code is commonly used in embedded systems, 
+       where the program is tightly integrated with the hardware. Its 
+       efficiency and direct control over hardware make it ideal for such 
+       applications
 
 ii. Discuss object-oriented language stating the major principle behind it
 ans: Object-oriented language looks at the world as a group of objects with 
@@ -27,19 +57,44 @@ ans: Who would I meet?
 
 v. Discuss any 2 of the commonly used criteria for evaluating a programming 
    language
-ans: 
+ans: Readability
+     Writability
+     Reliability
+     Cost
 
-vi. Describe any 2 of the commonly used criteria for evaluating a 
-    programming language
-ans: 
+vi. Describe anyone of the implemenation methods. Show diagrams
+ans: Compilation
+     - This translates the entire source program into its equivalent 
+       machine language program and executes it. It is very fast.
+
+       Diagram
+       (Slide I page 40)
+
 
 vii. Using an example, differentiate between the syntax and the semantics 
      of a programming language
-ans: 
+ans: - Syntax is the form of the expressions, statements and program units
+     - Semantics is the meaning of the expressions, statements, and program 
+       units
 
 viii. Given the statement: int i = 2 * count + 17 * (a+b);, separate the 
       statement into its tokens and lexemes.
-ans: 
+ans:  Lexeme      Token
+      int         data_type
+      i           identifier
+      =           equal_sign
+      2           int_literal
+      *           mult_op
+      count       identifier
+      +           plus_op
+      17          int_literal
+      *           mult_op
+      (           open_bracket
+      a           identifier
+      +           plus_op
+      b           identifier
+      )           close_bracket
+      ;           semicolon
 
 ix. Given the grammar for a small language as:
 <program> -> begin <stmt_list> end
@@ -47,15 +102,32 @@ ix. Given the grammar for a small language as:
               | <stmt>; <stmt_list> 
               <stmt> -> <var>=<expression>
               <var>->A|B|C
-              <expression>-><var>+<var>
+              <expression> -> <var>+<var>
               |<var>-<var>
               |<var>
-ans: 
+
+    Describe every components of this grammar
+ans: - A program consists of the special word begin, followed by a list of
+       statements separated by semicolons, followed by the special word end.
+       
+     - An expression is either a single variable or two variables separated
+       by either a + or - operator.
+       
+     - The only variable names in this language are A, B, and C.
+
 
 x. Generate the grammar for A=B*(A+C) and provide its parse tree.
-ans: 
+ans: <assign> => <id> = <expr>
+          => A = <expr>
+          => A = <id> * <expr>
+          => A = B * <expr>
+          => A = B * ( <expr>)
+          => A = B * ( <id> + <expr>)
+          => A = B * ( A + <expr>)
+          => A = B * ( A + <id>)
+          => A = B * ( A + C )
 
 xi. Show that the statement: A=B+C*A is an ambiguous grammar.
-ans: 
+ans: (SLIDE II page 28)
 
 
