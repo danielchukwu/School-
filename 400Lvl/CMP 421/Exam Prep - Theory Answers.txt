@@ -1,0 +1,262 @@
+FROM  
+(TEST 1 - page 1 - 35 (18/01/24) - Question 1a to 8f)
+(TEST 2 - page 36 - 96 (25/01/24) - Question 1a to 8f)
+
+Lecturer said - "Whenever I ask you to draw and explain using diagrams, you should know that the diagram carries more marks" 
+
+1a. What is Net-Centric Computing?
+ b. What is Computing?
+ c. What is the CPU?
+    i. What are the operations performed by the CPU and Explain them?
+2a. What is a Multiprocessor System?
+ b. List the 2 types of multiprocessor systems 
+    - Explain both
+
+3a. Draw a diagram of a Loosely coupled system and a Tightly coupled system
+ b. In a tabular format. List 4 key differences between the Loosely coupled and the 
+    tightly coupled system?
+
+4a. What is Centralised Computing?
+ b. Explain the architecture used by Centralised Computing
+ c. List the 3 characteristics of Centralised Computing
+ d. Draw a diagram of Centralised Computing
+ e. List 4 advantages of Centralised Computing and 3 disadvantages
+
+5a. What is Decentralised Computing?
+ b. Explain the architecture used by Decentralised Computing?
+ c. List the 3 characteristics of Decentralised Computing?
+ d. Draw a diagram of Decentralised Computing
+ e. List 4 advantages of Decentralized Computing and 3 disadvantages
+ 
+6a. What is Parallel Computing?
+ b. Explain the technique used in Parallel Computing?
+ c. List 4 reasons why one should pick parallel computing?
+ d. Draw a diagram of Parallel Computing
+ 
+7a. What is Distributed Computing?
+ b. Draw a diagram of a distributed database system?
+ c. List the 2 characteristics of distributed computing
+ d. In a tabular format. List 5 differences between Parallel Computing vs Distributed Computing?
+ e. List 4 advantages of Distributed Computing and 3 disadvantages
+
+8a. List all 5 Distributed Computing models?
+ b. Discuss the Minicomputer Model and draw it's diagram?
+ c. Discuss the Workstation Model and draw it's diagram?
+ d. Discuss the Workstation-Server Model and draw it's diagram?
+ e. Discuss the Processor-pool Model and draw it's diagram?
+ f. Discuss the Hybrid Model?
+
+9a. What is the Operating System?
+ans: Operating System is a system software that manages computer hardware, software 
+     resources, and provides common services for computer programs
+
+ b. List 3 examples of Operating System?
+ ans: Linux, MacOS, Windows
+
+ c. List 4 objectives of Operating System?
+ ans: - To allows for the fair sharing of computer resources by users and programs
+      - To hide the detail of th hardware resources from the user
+      - To provide users with a convenient interface to use the computer
+      - To manage the resources of a computer system
+      - To keep track of whose using which resources, granting resource requests and mediating conflict request from multiple users and programs.
+
+ d. List and explain 5 functions of the Operating System?
+ ans: - Memory management
+      - Processor management
+      - Device management
+      - File management
+      - Job Accounting
+      - Error-Detecting Aids
+
+10a. What is Distributed Operating System?
+ans: Distributed Operating system is an Operating system that runs on several machines 
+     providing them with useful sets of services, generally to make the collection of 
+     systems.
+
+  b. What is a networking Operating System?
+  ans: A networking Operating System is an Operating system designed for the sole purpose 
+       of supporting workstations, database sharing, application sharing, file and printer 
+       access sharing amongst multiple computers in the network
+
+  c. List 4 challenges involved in building a Distributed Operating System?
+  ans: - Designing a distributed operating system is more difficult than a central one
+       - It is assumed that the operating system has complete and accurate information about the environment it is running in, However Distributed operating system must be designed with the assumption that complete information about the environment in which it is functioning will never be known
+       - In a distributed operating system, the resources are physically separated and there is no global clock
+       - Distributed operating system never has up to date consistent knowledge about the state of the underlying components of the system 
+
+11a. What is Transparency (in Distributed Systems)?
+ans: Transparency is the concealment from the users and application programmers about the 
+     seperation of components such that it is perceived as a single system rather than a collection of systems working together
+
+  b. List the 8 types of transparencies in distributed systems
+  ans: Access, Location, Migration, Relocation, Replication, Concurrency, Failure, Persistence
+
+  c. List 5 issues of transparency in designing of a distributed system
+  ans: - Access transparency
+       - Location transparency
+       - Failure transparency
+       - Concurrency transparency
+       - Scaling transparency
+
+12a. What is Remote Procedure Call (RPC)?
+     i. RPC is also known as ?
+  b. Draw a diagram of RPC? 
+  c. List the entire sequence of events in a RPC?
+  d. Draw the diagram showing the Events of RPC?
+  e. List 3 advantages and disadvantages of RPC?
+
+13a. What is Distributed Shared Memory (DSM)?
+  b. Draw a diagram showing DSM?
+  c. List 4 advantages and 2 disadvantages of DSM?
+
+14a. What is Synchronization?
+
+15a. What is Mobile Computing and give an example?
+  b. List the 4 different characteristics group communication devices fall under?
+  c. List 4 applications of mobile computing and explain them?
+  d. List 5 limitations of Mobile Computing
+  e. List and explain all 5 of the layers associated with mobile computing simplified reference model?
+  f. Draw the diagram of the Simplified Reference Model?
+
+16a. Discuss Wireless Transmission?
+  b. Discuss frequencies for wireless transmission?
+  c. SPIN-OFF: Read about ranges of frequencies and Wavelengths allocations and spectrum management in Nigeria.
+  d. CALCULATIONS (Computation of frequency from wavelength)
+     - A certain sound wave traveling in the air has a wavelength of 322 nm when the velocity of sound is 320 m/s. What is the frequency of this sound wave?
+  e. CALCULATIONS (Computation of frequency in a vacuum)
+     - the speed of electromagnetic wave in a vacuum is constant given as 3.00 * 10^8 m/s.  
+       Therefore, if λ = 5.73 * 10^-7 m
+  f. List and explain 4 factors that determine quality of communication?
+
+17a. Discuss GSM? 
+ans: - GSM which stands for Global System for mobile communication
+     - GSM is a 2nd generation cellular standard developed in 1991 by European Telecommunications
+     - It supports voice & data sharing
+     - It was also the 1st generation to introduce SIM cards 
+
+  i. What are the 3 sub-systems that make up GSM?
+  ans: RSS (Radio or Base Station Subsystem)
+       NSS (Network Switching Subsystem)
+       OSS (Operation Support Subsystem)
+       ..... actually there is one more in the below
+       MS (Mobile Station)
+
+  b. Draw a diagram containing the GSM Architecture?
+  ans: Slide page 67
+
+  i. GSM Architecture consists of 4 groups. Name them? 
+  ans: Mobile Station
+       Base Station Subsystem
+       Operational Support Subsystem
+       Public Network
+
+  c. Discuss Mobile Station (MS)?
+  ans: Mobile stations consist of 2 entities in SIM (Subscriber Identity Module) 
+       and ME (Mobile Equipment)
+       It is used to transmit voice, video and data over the air interface
+
+  i. Mobile Stations consist of 2 entities. Name them?
+  ans: ME and SIM
+
+  d. Discuss Mobile Equipment(ME) and Subscriber Identity Module(SIM)?
+  ans: ME is the portable handheld device e.g Iphone 15 pro, that is uniquely identified by 
+       IMEI (International Mobile Equipment Identity) number
+
+       SIM is a smart card e.g MTN SIM, that is uniquely identified by IMSI (International Mobile Subscriber Identity) number
+
+18a. Discuss Based Station Subsystems (BSS) and all 2 of it's components?  
+ans: Based Station Subsystem (also known as Radio Station Subsystem) is made up of 2 
+     components in BTS and BSC.
+     BTS (Base Transceiver Station)
+     - It sends and receives signals from MS (Mobile Station)
+     - It does Encoding, Multiplexing, Encryption and Modulation
+     BSC (Base Station Controller)
+     - Controls groups of BTS
+     - Allocation of radio channels
+     - Handover from one BTS to another 
+
+  b. BSS is also known as?
+  ans: Radio Station Subsystem
+
+19a. Discuss the Network Switching Subsystem (NSS) including all 5 of its components?
+ans: Network Switching Subsystem, this consists of 5 components
+     1. MSC (Mobile Switching Center)
+        - It is the heart of GSM network
+        - It manages mobile services and does things like registration and 
+          authentication, etc
+        - It performs call setup, call routing, and call switching
+        - It communicates with HLR, VLR, AUC & EIR
+     2. HLR (Home Location Register)
+        - It is a permanent database for mobile subscribers storing their information
+     3. VLR (Visitor Location Register)
+        - It is a temporary database that updates whenever a MS (Mobile Station) enters 
+          inside the coverage of the MSC
+        - It controls mobile roaming in its area
+        - It reduces number of queries to HLR
+     4. AUC (Authentication Center)
+        - It provides protection from air interface intruders
+        - It maintains authentication keys and algorithms
+     5. EIR (Equipment Identity Register)
+        - It is a database used to track mobile phones using an IMEI number
+        - It is made up of 3 sub-classes (white list, black list and grey list)
+
+20a. Discuss Operational Support Subsystem (OSS)
+ans: - It supports the operation and maintenance of GSM and allows system engineers to 
+     monitor, diagnose and troubleshoot all aspects of GSM system
+     - It supports one or more Operation Maintenance Centre (OMC) which are used to 
+     monitor the performance of each MS, BTS, BSC and MSC within a GSM system
+
+  b. List the 3 main functions of OSS?
+  ans: - To maintain all telecommunication hardware and network operations with a 
+         particular market.
+       - To manage all charging and billing procedure.
+       - To manage all mobile equipment in the system.
+  
+  c. Draw a diagram of the GSM Network Interface and explain what each interface does?
+  ans: Slide page 76
+
+...TO BE COMPLETED✏️
+
+21a. Discuss Localization and Calling?
+  b. What is a Mobile Terminated Call (MTC)?
+  bi. Draw the diagram showing the steps that take place in a MTC
+
+22a. Draw a diagram showing the steps that take place in Mobile 
+     Originated Call (MOC)
+  b. Why do cellular systems require Handover
+  c. What are the 2 basic reasons for a handover
+  d. Draw a diagram showing the 4 possible handover scenarios of GMS 
+     and discuss each?
+  e. Draw a handover decission depending on receive level
+
+Wireless Network 
+23a. Discuss the below?
+     i. Frequency Division Multiple Access (FDMS)?
+     ii. FDMA?
+     iii. Space Division Multiple Access (SDMA)
+     iv. Time Division Multiple Access (TDMA)
+     v. Carrier Sense Multiple Access (CSMA)
+
+Information Security
+24a. What is Computer Security?
+  b. What is Computer Crime?
+  c. Discuss the Information Security Terms
+     i. Vulnerability
+     ii. Backdoors
+     iii. Denial-of-Service Attack
+     iv. Direct-access attacks
+     v. Eaves dropping 
+     vi. Spoofing
+     vii. Repudiation
+     viii. Indirect attacks
+  d. List 5 Cybercrime prevention tips
+  e. List and Explain the 5 principles of Information Security
+
+
+
+
+
+
+
+
+
