@@ -55,6 +55,18 @@ ans: Who would I meet?
      - IEEE (Institute of Electrical and Electronics Engineering)
      - ANSI (American National Standards Institute)
 
+     Why does a language need standardizing
+      Interoperability: Standardization ensures that programs written in the language can run on different platforms and systems without modification. This promotes interoperability and allows developers to write code that works across a variety of environments.
+
+      Consistency: Standardization helps maintain consistency in the language's syntax, semantics, and features. This makes it easier for developers to learn and use the language, and reduces the likelihood of errors and bugs.
+
+      Compatibility: Standardization ensures that different implementations of the language (compilers, interpreters, etc.) are compatible with each other. This allows developers to choose from multiple implementations while still ensuring that their code will work correctly.
+
+      Long-term maintenance: A standardized language is easier to maintain and evolve over time. It provides a stable foundation for future enhancements and ensures that existing code will continue to work as expected.
+
+     When is the appropriate time to go for it?
+      The appropriate time to standardize a programming language is typically when it has reached a certain level of maturity and adoption. This ensures that the standard reflects the language's established features and practices, and that it is widely accepted by the developer community. Additionally, standardization may be necessary when there are multiple competing implementations of a language, or when there is a need to promote interoperability and compatibility among different systems.
+
 v. Discuss any 2 of the commonly used criteria for evaluating a programming 
    language
 ans: Readability

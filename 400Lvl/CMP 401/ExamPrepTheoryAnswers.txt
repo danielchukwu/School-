@@ -61,7 +61,8 @@ ans: Programming language is the vocabulary and a set of grammatical rules
          - Examples of procedural languages include:
            - Basic, C/C++, Java, FORTRAN and Pascal
 
-    ii. Discuss how functional programming languages work and list 3 functional languages?
+    ii. Discuss how functional programming languages work and list 3 
+        functional languages?
     ans: - These languages use stored data and frequently avoid loops in 
            favour of recursive functions to execute their problems.
          - These languages focus primarily on the return values of 
@@ -128,9 +129,11 @@ ans: - Readability
     - Readability
     - Writability
     - Reliability
-      i. List 4 characteristic used in measuring Reliability of programming languages
+      i. List 4 characteristic used in measuring Reliability of programming 
+         languages
     - Cost
-      i. List and briefly discuss the 4 characteristics that lead to the total cost of programming languages?
+      i. List and briefly discuss the 4 characteristics that lead to the 
+         total cost of programming languages?
  ans: - Readability
         The ease with which a program can be read and understood is one of the most important criteria for judging programming languages.
         
@@ -266,13 +269,15 @@ ans: - Computer Architecture and
           ans: - The processor
                - Internal Memory
 
- d. Discuss Language Implementation method and what it requires and its 
+ d. Discuss Language Implementation method, what it requires and its 
     primitives?
  ans: - Language implementation methods provide the facilities through
         which high level programming languages get to speak the
         language of the machine.
+        
       - Implementation methods require the Operating System which supplies 
         higher-level primitives than those of the machine language.
+
       - These primitives provide
          - System resource management
          - Input and output operations
@@ -456,7 +461,7 @@ ans: - The syntax of a programming language is the form of its expressions,
           statement following the while construct
 
 
-
+ 
 
 
 
