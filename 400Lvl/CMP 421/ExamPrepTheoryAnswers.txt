@@ -85,11 +85,11 @@ ans: is computing done at a central location, that is all or most of the
         more client nodes are directly connected to a central server.
       - In this computing, the client sends a request to a server and 
         receivers from server.
-      - For example, A network of Computer Science Department, where a 
-        lecturer, admin, and student requests for a department server.
+      - For example, A network for the Computer Science Department, where a 
+        lecturer, admin, and student make requests to the departments central server and receives back a response.
 
  c. List the 3 characteristics of Centralised Computing
- ans: - Presence of Global Clock: All clients modes sync up with the clock 
+ ans: - Presence of Global Clock: All clients nodes sync up with the clock 
         of the central node (global clock)
       - One Single Central Unit: One single central unit which 
         serves/coordinates all the other nodes
@@ -109,8 +109,8 @@ ans: is computing done at a central location, that is all or most of the
       - Easy detachment of a node from the network.
 
       Disadvantages
-      - Highly dependent on system. If the system fails, all nodes fail.
-      - No graceful degradation of system.
+      - Highly dependent on server. If the server fails, all nodes fail.
+      - No graceful degradation of the server.
       - Less possibility of data backup.
       - Difficult to maintain server.
 
@@ -132,31 +132,38 @@ ans: Decentralised computing is an interconnected information system
 
  d. List 3 advantages of Decentralized Computing and 4 disadvantages
  ans: Advantages
-      - Minimal problem of performance bottlenecks occurring –it allows 
-        balancing the network
+      - Minimal performance bottleneck problems 
+      – It allows for a more balanced network
       - High availability
       - More autonomy and control over resources
 
       Disadvantages
-      - May lead to problem of coordination of the enterprise level.
+      - May lead to coordination problems at enterprise levels.
       - Not suitable for small system.
       - Difficult to know which node failed.
       - Difficult to know which node responded.
       - No regulatory oversight.
 
+
+
+5.5a. What are the 2 types of computing techniques?
+ans: - Parallel computing
+     - Distributed computing
  
+
+
 6a. What is Parallel Computing?
 ans: Parallel computing is a technique of computing where multiple tasks 
      are process simultaneously on multiple processors
-
+ 
  b. Explain the technique used in Parallel Computing?
  ans: Parallel computing uses divide and conquer technique to split each 
       task and then processes each sub-task on different CPU's
-
- c. List 4 reasons why one should pick parallel computing?
+ 
+ c. List 4 reasons why one should pick parallel computing? 
  ans: - Many applications today require more computing power than a 
         traditional sequential computer can offer.
-      - Parallel computing provides a cost –effective solution to solve 
+      - Parallel computing provides a cost–effective solution to solve 
         complex problem.
       - Parallel computing allow an increase in the number of CPUs in a 
         computer and also adding an efficient communication between the CPUs
@@ -165,62 +172,63 @@ ans: Parallel computing is a technique of computing where multiple tasks
  
  d. Draw a diagram of Parallel Computing
  ans: (SLIDE Page 19)
- 
-7a. What is Distributed Computing?
-ans: Distributing computing is a computing techniques where a single task 
+
+
+
+7a. What is Distributed Computing (same as Distributing Computer)?
+ans: Distributed computing is a computing technique where a single task 
      can be divided into multiple tasks and distributed to many computer
 
  b. Draw a diagram of a distributed database system?
  ans: (SLIDE Page 22)
 
  c. List the 2 characteristics of distributed computing
- ans: - Concurrency of components –node apply consensus protocols to 
+ ans: - Concurrency of components: node apply consensus protocols to 
         agree on same values/transactions/command/logs.
       - Lack of a global clock: all nodes maintain their own clock 
         Independently without having a significant effect on the  entire 
         system.
 
-
  d. In a tabular format. List 5 differences between Parallel Computing vs 
     Distributed Computing?
- ans: TABLE: Parallel vs Distributed Computing
-      P1. Parallel Computing is a computation type in which multiple 
-          processors execute multiple tasks simultaneously
-      D1. Parallel Computing occurs on one computer.
-
-      P2. In Parallel Computing, multiple processors perform processing.
-      D2. All processors share a single master clock for synchronization.
-
-      P3. In Parallel Computing , computers can have shared memory or 
-          distributed memory,
-      D3. Parallel Computing is used to increase performance and for 
-          scientific computation Distributing Computing
-
-      P4. Distributing Computing is a computation type in which networked 
+ ans: TABLE: Parallel (P) vs Distributed Computing (D)
+      P1. Parallel Computing is a computing technique where multiple 
+          processors process multiple tasks simultaneously
+      D1. Distributed Computing is a computing technique where networked 
           computers communicate and coordinate the work through message 
           passing to achieve a common goal.
-      D4. Distributing Computing occurs between multiple computers
 
-      P5. In Distributing Computing , computer rely on message passing.
-      D5. There is no global clock in distributing computing , it uses 
-          synchronization algorithms.
+      P2. occurs on one computer
+      D2. occurs between multiple computers.
 
-      P6. In distributing computing , each  computer has their own memory.
-      D6. Distributing Computing is used to share resources and to increase 
-          scalability
+      P3. multiple processors perform processing
+      D3. computers rely on message passing
+
+      P4. All processors share a single global clock (for synchronization)
+      D4. There is no global clock (it uses synchronization algorithms)
+
+      P5. The computer can have shared memory or distributed memory
+      D5. The different computers have their individual memory
+
+      P6. is used to increase performance (for scientific computation)
+      D6. is used to share resources
+
+      P7. it is used for scientific computation
+      D7. it is used to increase scalability
 
  e. List 4 advantages of Distributed Computing and 3 disadvantages
  ans: Advantages
-      - Low latency than centralised or decentralised system.
-      - It has redundancy and resiliency.
-      - It has high spread and content distribution.
-      - A distributed computing is scalable and can be designed parallelism
+      - Lower latency than centralised or decentralised system
+      - It has redundancy and resiliency
+      - It has high spread and content distribution
+      - It is scalable
       Disadvantages
       - It is difficult to design.
       - It can be difficult to spot bugs that causes errors
       - Security and privacy can become an issue with distributed systems.
       - It can be overkill for some tasks, using more physical resources 
         and engineering time than is necessary
+
 
 
 8a. List all 5 Distributed Computing models?
@@ -233,17 +241,19 @@ ans: Minicomputer model
  b. Discuss the Minicomputer Model and draw it's diagram?
  ans: - The Minicomputer model is a simple extension of the centralized 
         time–sharing system.
-      - A distributed computing system based on this model consists of    
-        few minicomputers interconnected by a communication network 
-        where each minicomputer usually has multiple users simultaneously 
-        logged onto it.
+      - A distributed computing system based on this model consists of few 
+        minicomputers interconnected by a communication network where each 
+        minicomputer usually has multiple users simultaneously logged onto it.
       - Several interactive terminals are connected to each 
-        minicomputer. Each user logged onto a specific minicomputer, has 
+        minicomputer. 
+      - Each user logged onto a specific minicomputer, has 
         remote access to other minicomputers.
-      - The network allow the user to access remote resources that are    
-        available on some machines other than the one on to which the user 
-        is currently logged. The minicomputer model may be used when 
-        resource sharing with remote users is desired.
+      - The network allows the user to access remote resources that are    
+        available on other machines (other than the one on to which the 
+        user is currently logged). 
+      - The minicomputer model may be used when resource sharing with 
+        remote users is desired.
+
       - The early ARPA net is an example of a distributed computing system 
         based on the minicomputer model
 
@@ -258,11 +268,11 @@ ans: Minicomputer model
         organisation with infrastructure were each workstation is equipped 
         with its own disk and serves as a single-user computer.
       - In such an environment, at any one time a significant proportion of 
-        the workstation are idle which result in the waste of large amount 
-        of CPU time.
+        the workstation could be idle which result in the waste of large 
+        amount of CPU time.
       - Therefore the idea of the workstation model is to interconnect all 
         these workstations by a high-speed LAN so that idle workstation 
-        maybe used to process jobs of users who are logged onto other 
+        may be used to process jobs of users who are logged onto other 
         workstations and do not have sufficient processing power at their
         own work stations to get their jobs processed efficiently.
 
@@ -333,6 +343,8 @@ ans: Minicomputer model
         allowing them to be more processed in local workstations of the 
         users
 
+
+
 9a. What is the Operating System?
 ans: Operating System is a system software that manages computer hardware, 
      software resources, and provides common services for computer programs
@@ -358,6 +370,8 @@ ans: Operating System is a system software that manages computer hardware,
       - Job Accounting
       - Error-Detecting Aids
 
+
+
 10a. What is Distributed Operating System?
 ans: Distributed Operating system is an Operating system that runs on 
      several machines providing them with useful sets of services, 
@@ -382,6 +396,8 @@ ans: Distributed Operating system is an Operating system that runs on
          knowledge about the state of the underlying components of the 
          system 
 
+
+
 11a. What is Transparency (in Distributed Systems)?
 ans: Transparency is the concealment from the users and application 
      programmers about the separation of components such that it is 
@@ -399,25 +415,175 @@ ans: Transparency is the concealment from the users and application
        - Concurrency transparency
        - Scaling transparency
 
+
+
 12a. What is Remote Procedure Call (RPC)?
+ans: A remote procedure call is an inter process communication technique 
+     that is used for client-server based application
+
      i. RPC is also known as ?
+     ans: subroutine call or function call
+
   b. Draw a diagram of RPC? 
+  ans: (SLIDE page 45)
+
   c. List the entire sequence of events in a RPC?
+  ans: - The client stub is called by the client 
+       - The client stub makes a system call to  send the message to the 
+         server and puts the parameters in the message.
+       - The message is sent from the client to the server by the clients 
+         operating system.
+       - The message is passed to the server stub by the servers operating 
+         system.
+       - The parameters are removed from the message by the server stub.
+       - The server procedure is called by the server stub.
+
   d. Draw the diagram showing the Events of RPC?
+  ans: (SLIDE page 47)
+  
   e. List 3 advantages and disadvantages of RPC?
+  ans: Advantages
+       - RPC supports process oriented and thread oriented models.
+       - The internal message passing mechanism of RPC is hidden from the 
+         user.
+       - The effort to rewrite and redevelop the code is minimum in RPC.
+       - Many of the protocol layers are omitted by RPC to improve 
+         performance
+
+       Disadvantages
+       - It is not standardised, it can be interpreted in many ways.
+       - There is no flexibility in RPC for hardware architecture. 
+       - There is an increase in costs because of RPC.
+
+
 
 13a. What is Distributed Shared Memory (DSM)?
+ans: DSM is a form of memory architecture where physically separated 
+     memories can be addressed as one logically shared address space.
+
   b. Draw a diagram showing DSM?
+  ans: (SLIDE page 50)
+
   c. List 4 advantages and 2 disadvantages of DSM?
+  ans: Advantages
+       - Single address space; simplifies passing-by-reference
+       - No memory access bottleneck as no single bus
+       - Large virtual memory space
+       - Hide data movement and provide a simpler abstraction for sharing
+         data
+       - Cheaper to build than multiprocessor systems
+
+       Disadvantages
+       - Programmers need to understand consistency models
+       - By yielding control to DSM manager software, programmers cannot 
+         use their own msg-passing solutions.
+
+
 
 14a. What is Synchronization?
+ans: synchronization is the coordination of hardware devices, such that the 
+     data they contain or provide is made to be identical.
+
+
 
 15a. What is Mobile Computing and give an example?
-  b. List the 4 different characteristics group communication devices fall under?
+ans: it is a term used to describe technologies that enable people to access
+     network services anyplace, anytime, and anywhere.
+
+     The computing environment is mobile and moves along with the user, eg 
+     Global system for mobile communication (GSM).
+
+     e.g GSM (Global System for Mobile Communication)
+
+  b. List the 4 different characteristics group communication devices fall 
+     under?
+  ans: - Fixed and wired
+       - Mobile and wired
+       - Fixed and wireless
+       - Mobile and wireless
+
   c. List 4 applications of mobile computing and explain them?
+  ans: - Transportation: Buses, trucks, trains, aircrafts, and ships 
+         transmit information. Information such as:
+         - logistic, maintenance , weather reports, news, etc.
+
+       - Emergencies: An ambulance with a high quality wireless connection 
+         to a hospital can transmit vital information about injured person 
+         to the hospital from the scene of the accident. All the needed 
+         treatment for the accident person can be prepared and specialist 
+         can be consulted for a early diagnosis.
+
+         Also, wireless networks are the only means of communication in the 
+         case of natural disasters such as hurricanes or earthquakes.
+
+       - Business: Field officers can communicate within their head 
+         offices, send and receive information for decision making. Also 
+         mobile computing helps offices to monitor their field officers etc.
+
+       - Financial Services: At point of Sales(POS) terminals in shop and 
+         supermarkets, when customer use credit cards for transactions, the 
+         mobile network facilitate communication between the POS terminal 
+         and the bank central computer system for verification and 
+         effective transaction.
+
+       - Data Capturing: Mostly mobile devices are used for data 
+         collections in fields, such as weather, despatch delivery information, geo-mining etc.
+
+
   d. List 5 limitations of Mobile Computing
-  e. List and explain all 5 of the layers associated with mobile computing simplified reference model?
+  ans: - Resource constraints: Battery
+       - Interferences and loss rates for transmitted data
+       - Bandwidth: need for more bandwidth as a result of high overhead 
+         compare to shield wire.
+       - Dynamic changes in communication environment.
+       - Interoperability issues with regard to protocol standard.
+       - Security constraint: not only portable devices can easily be 
+         stolen, but radio interface is also prove to be damage of eaves 
+         dropping. Wireless access must always include encryption, authentication, etc.
+
+
+  e. List and explain all 5 of the layers associated with mobile computing 
+     simplified reference model?
+  ans: In a mobile computing system, the end-system need a protocol stack 
+       as in the OSI reference model, comprising the application layer, 
+       transport layer, transport layer, network layer data layer and 
+       physical layer.
+       The intermediate systems, such as the interworking unit do not 
+       necessarily need all of the layers.
+
+       - Physical layer: for wireless communication, the physical layer is 
+         responsible for frequency selection, generation of the carrier 
+         frequency, signal detection (although heavy interference may 
+         disturb the signal) modulation of data into a carrier frequency 
+         and encryption.
+
+       - Datalink layer: The main task of this layer include accessing the 
+         medium multiplexing of different data streams, correction of 
+         transmission errors and synchronization. It is also responsible 
+         for point-point connection between two devices or a 
+         point-to-multipoint connection between one sender and several 
+         receivers.
+
+       - Network Layer: This layer is responsible for routing packets 
+         through a network or establishing a connection between two 
+         entities (devices) over many other intermediate system. In 
+         wireless network, this layer is specifically responding for 
+         addressing, routing, devices location, and handover between 
+         different networks.
+
+       - Transport Layer:. This layer is responsible for end-to-end 
+         connection.
+
+       - Application layer: This layer is responsible for service location, 
+         support for multimedia applications, adaptive application that can 
+         handle the large variation in transmission and wireless access to 
+         the world-wide web.
+
+
   f. Draw the diagram of the Simplified Reference Model?
+  ans: (SLIDE page 59)
+
+
 
 16a. Discuss Wireless Transmission?
   b. Discuss frequencies for wireless transmission?
@@ -428,6 +594,8 @@ ans: Transparency is the concealment from the users and application
      - the speed of electromagnetic wave in a vacuum is constant given as 3.00 * 10^8 m/s.  
        Therefore, if λ = 5.73 * 10^-7 m
   f. List and explain 4 factors that determine quality of communication?
+
+
 
 17a. Discuss GSM? 
 ans: - GSM which stands for Global System for mobile communication
@@ -452,22 +620,25 @@ ans: - GSM which stands for Global System for mobile communication
        Public Network
 
   c. Discuss Mobile Station (MS)?
-  ans: Mobile stations consist of 2 entities in SIM (Subscriber Identity Module) 
-       and ME (Mobile Equipment)
+  ans: Mobile stations consist of 2 entities in SIM (Subscriber Identity 
+       Module) and ME (Mobile Equipment)
        It is used to transmit voice, video and data over the air interface
 
   i. Mobile Stations consist of 2 entities. Name them?
   ans: ME and SIM
 
   d. Discuss Mobile Equipment(ME) and Subscriber Identity Module(SIM)?
-  ans: ME is the portable handheld device e.g Iphone 15 pro, that is uniquely identified by 
-       IMEI (International Mobile Equipment Identity) number
+  ans: ME is the portable handheld device e.g Iphone 15 pro, that is 
+       uniquely identified by IMEI (International Mobile Equipment 
+       Identity) number
 
        SIM is a smart card e.g MTN SIM, that is uniquely identified by IMSI (International Mobile Subscriber Identity) number
 
+
+
 18a. Discuss Based Station Subsystems (BSS) and all 2 of it's components?  
-ans: Based Station Subsystem (also known as Radio Station Subsystem) is made up of 2 
-     components in BTS and BSC.
+ans: Based Station Subsystem (also known as Radio Station Subsystem) is 
+     made up of 2 components in BTS and BSC.
      BTS (Base Transceiver Station)
      - It sends and receives signals from MS (Mobile Station)
      - It does Encoding, Multiplexing, Encryption and Modulation
@@ -478,6 +649,8 @@ ans: Based Station Subsystem (also known as Radio Station Subsystem) is made up 
 
   b. BSS is also known as?
   ans: Radio Station Subsystem
+
+
 
 19a. Discuss the Network Switching Subsystem (NSS) including all 5 of its components?
 ans: Network Switching Subsystem, this consists of 5 components
@@ -501,6 +674,8 @@ ans: Network Switching Subsystem, this consists of 5 components
         - It is a database used to track mobile phones using an IMEI number
         - It is made up of 3 sub-classes (white list, black list and grey list)
 
+
+
 20a. Discuss Operational Support Subsystem (OSS)
 ans: - It supports the operation and maintenance of GSM and allows system engineers to 
      monitor, diagnose and troubleshoot all aspects of GSM system
@@ -518,9 +693,13 @@ ans: - It supports the operation and maintenance of GSM and allows system engine
 
 ...TO BE COMPLETED✏️
 
+
+
 21a. Discuss Localization and Calling?
   b. What is a Mobile Terminated Call (MTC)?
   bi. Draw the diagram showing the steps that take place in a MTC
+
+
 
 22a. Draw a diagram showing the steps that take place in Mobile 
      Originated Call (MOC)
@@ -530,6 +709,8 @@ ans: - It supports the operation and maintenance of GSM and allows system engine
      and discuss each?
   e. Draw a handover decission depending on receive level
 
+
+
 Wireless Network 
 23a. Discuss the below?
      i. Frequency Division Multiple Access (FDMS)?
@@ -537,6 +718,8 @@ Wireless Network
      iii. Space Division Multiple Access (SDMA)
      iv. Time Division Multiple Access (TDMA)
      v. Carrier Sense Multiple Access (CSMA)
+
+
 
 Information Security
 24a. What is Computer Security?
