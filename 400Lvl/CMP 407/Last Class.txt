@@ -2,6 +2,12 @@ CMP 407 LAST CLASS
 
 Advise: Study this material here on github, it's best that way. (Downloading it and opening it up in some custom app might distort the organization of some of the diagrams)
 
+
+1. Generate Postfix, Add to Stack and generate the parse tree of the below expression
+   (a + b) * (c - d) + ((e / f) * (a + b))
+
+Solution
+
 (a + b) * (c - d) + ((e / f) * (a + b))
 ------- # combine (a + b) and move +
         # (a + b) => ab+
