@@ -2,16 +2,35 @@ CMP 407 LAST CLASS
 
 Advise: Study this material here on github, it's best that way. (Downloading it and opening it up in some custom app might distort the organization of some of the diagrams)
 
-(a + b) * (c - d) + ((e/f) * (a + b))
-ab +* (c - d) + ((e/f) * (a + b))
-ab +* cd -+ ((e/f) * (a + b))
-ab +* cd -+ (ef /* (a + b))
-ab +* cd -+ (ef /* ab+)
-ab + cd -*+ (ef /* ab+)
-ab + cd -*+ ef / ab+*
-ab + cd -* ef / ab+*+
+(a + b) * (c - d) + ((e / f) * (a + b))
+------- # combine (a + b) and move +
+        # (a + b) => ab+
 
-Insert into stack [ab + cd -* ef / ab+*+], step by step
+ab+ * (c - d) + ((e / f) * (a + b))
+      ------- # combine (c - d) and move -
+              # (c - d) => cd-
+
+ab+ * cd- + ((e / f) * (a + b))
+--------- # combine (a + b) * (c - d) and move *
+          # ab+ * cd- => ab+cd-*
+
+ab+cd-* + ((e / f) * (a + b))
+           ------- # combine (e / f) and move /
+                   # (e / f) => ef/
+ab+cd-* + (ef/ * (a + b))
+                 ------- # combine (a + b) and move +
+                         # (a + b) => ab+
+ab+cd-* + (ef/ * ab+)
+          ---------- # combine (e / f) * (a + b) and move *
+                     # ef/ * ab+ => ef/ab+*
+ab+cd-* + (ef/ab+*)
+------------------- # combine (a + b) * (c - d) + ((e / f) * (a + b)) and move +
+                    # ab+cd-* + (ef/ab+*) => ab+cd-*ef/ab+*+
+
+FINAL RESULT
+ab+cd-*ef/ab+*+
+
+Insert (FINAL RESULT) into stack [ab + cd -* ef / ab +*+], step by step
 
 1. insert: ab +
    push -> a
