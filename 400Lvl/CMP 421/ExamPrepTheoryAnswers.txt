@@ -353,9 +353,8 @@ ans: Operating System is a system software that manages computer hardware,
  ans: Linux, MacOS, Windows
 
  c. List 4 objectives of Operating System?
- ans: - To allows for the fair sharing of computer resources by users and 
-        programs
-      - To hide the detail of th hardware resources from the user
+ ans: - To enable fair sharing of computer resources by users and programs
+      - To hide the detail of hardware resources from the user
       - To provide users with a convenient interface to use the computer
       - To manage the resources of a computer system
       - To keep track of whose using which resources, granting resource 
@@ -367,34 +366,42 @@ ans: Operating System is a system software that manages computer hardware,
       - Processor management
       - Device management
       - File management
+      - Security
       - Job Accounting
+      - Interaction with the Operators
       - Error-Detecting Aids
 
 
 
 10a. What is Distributed Operating System?
-ans: Distributed Operating system is an Operating system that runs on 
-     several machines providing them with useful sets of services, 
-     generally to make the collection of systems.
+ans: A distributed operating system is an operating system that runs on 
+     several machines whose purpose is to provide a useful set of services, 
+     generally to make the collection of machines behave more like a single 
+     machine
 
-  b. What is a networking Operating System?
-  ans: A networking Operating System is an Operating system designed for the sole purpose 
-       of supporting workstations, database sharing, application sharing, file and printer 
-       access sharing amongst multiple computers in the network
+  b. What is a Networking Operating System?
+  ans: A networking Operating System is an Operating system designed for 
+       the sole purpose of supporting workstations, database sharing, 
+       application sharing, file and printer access sharing amongst 
+       multiple computers in the network
 
   c. List 4 challenges involved in building a Distributed Operating System?
-  ans: - Designing a distributed operating system is more difficult than a 
-         central one
-       - It is assumed that the operating system has complete and accurate 
-         information about the environment it is running in, However 
-         Distributed operating system must be designed with the assumption 
-         that complete information about the environment in which it is 
-         functioning will never be known
-       - In a distributed operating system, the resources are physically 
-         separated and there is no global clock
-       - Distributed operating system never has up to date consistent 
-         knowledge about the state of the underlying components of the 
-         system 
+  ans: - Designing a distributed operating system is more difficult than 
+         designing a centralised operating system.
+       - It is assumed that the operating system has access to complete and 
+         accurate information about the environment in which it is 
+         functioning. However, a distributed operating system must be 
+         designed with the assumption that complete information about the 
+         system environment will never be available.
+       - In a distributed system, the resources are physically separated, 
+         there is no common clock among the multiple processors, delivery 
+         of messages is delayed, messages could even be lost.
+       - A distributed operating system does not have up-to-date consistent 
+         knowledge about the state of the various components of the 
+         underlying distributed system.
+       - Despite these complexities and difficulties, a distributed 
+         operating system must be designed to provide all the advantages of 
+         distributed systems to its user
 
 
 
@@ -411,9 +418,11 @@ ans: Transparency is the concealment from the users and application
   c. List 5 issues of transparency in designing of a distributed system
   ans: - Access transparency
        - Location transparency
-       - Failure transparency
+       - Migration transparency
        - Concurrency transparency
+       - Failure transparency
        - Scaling transparency
+       - performance transparency
 
 
 
