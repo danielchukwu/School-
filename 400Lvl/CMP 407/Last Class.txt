@@ -21,7 +21,6 @@ ab+cd-* + (ef/ * (a + b))
                  ------- # combine (a + b) and move +
                          # (a + b) => ab+
 ab+cd-* + (ef/ * ab+) 
-
           ---------- # combine (e / f) * (a + b) and move *
                      # ef/ * ab+ => ef/ab+*
 ab+cd-* + (ef/ab+*)
