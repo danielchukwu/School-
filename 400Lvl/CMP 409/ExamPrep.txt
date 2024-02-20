@@ -186,8 +186,7 @@ ans: AI
 d. NLP is focused on enabling computers to understand and process human languages. true or false?
 ans: true
 
-Note: We will discuss how NLP works and learn how to write programs using Python that can extract information 
-out of raw text and unstructured data
+Note: We will discuss how NLP works and learn how to write programs using Python that can extract information out of raw text and unstructured data
 
 e. Is it possible for computers to grab human-language?
 ans: Yes, but not like humans
@@ -460,7 +459,7 @@ SLIDE 6
 ans: An expert is a person with extensive knowledge or ability based on 
      research, experience, or occupation and in a particular area of study
 
- b. What is an Expert System? 
+ b. What is an Expert System (ES)? 
  ans: It is a computer program that tries to replicate knowledge and skills 
       of human experts in some area, and then solve problems in this area 
       (the way human experts would)
@@ -489,10 +488,9 @@ ans: - High performance
      - Reliable
      - Highly responsive
 
-i. List atleast 10 capabilities of Expert Systems?
+i. List at least 10 capabilities of Expert Systems?
 ans:  - Advising
-      - Instructing and assisting human in decision 
-      - making
+      - Instructing and assisting human in decision making
       - Demonstrating
       - Deriving a solution
       - Diagnosing
@@ -518,10 +516,9 @@ ans: SLIDE 6 Page 15
 l. _________ is required to exhibit intelligence?
 ans: knowledge
 
-l1. The success of any Expert System depends quality, completeness, and 
+l1. The success of any Expert System depends on quality, completeness, and 
      accuracy of the information stored in the knowledge base.
 ans: true
-
 
 m. What is Data?
 ans: It is a collection of facts
@@ -529,8 +526,8 @@ ans: It is a collection of facts
 n. What is Knowledge?
 ans: It is the combination of data, information, and past experience
 
-o. The knowledge base of an ES is a store of both _________ and __________?
-ans: factual and heuristic
+o. The knowledge base of an Expert System is a store of both _________ and __________ knowledge?
+ans: factual and heuristic 
 
 p. Explain Factual and Heuristic knowledge?
 ans: - Factual Knowledge: It is the information widely accepted by the 
@@ -690,8 +687,8 @@ ans: - Availability: They are easily available due to mass production of
        individual puts in.
      - Less Error Rate: Error rate is low as compared to human errors.
      - Reducing Risk: They can work in the environment dangerous to humans.
-     - Steady response: They work steadily without getting motional, tensed 
-       or fatigued.
+     - Steady response: They work steadily without getting emotional, 
+       tensed or fatigued.
   
 
 
@@ -761,7 +758,7 @@ ans: - Classification:
        training data. The input variables will be locality, size of a 
        house, etc.
 
-i1. What is binary classification and muli classification?
+i1. What is binary classification and multiclass classification?
 ans: Binary classification: is when the algorithm tries to label input into 
      two distinct classes 
      Muliclass classification: is selecting between more than two classes.
@@ -779,14 +776,14 @@ k. Explain unsupervised learning?
 ans: In Unsupervised learning, the model is not supervised. 
      - Instead, we allow the model to work on its own to discover 
        information. 
-     - It mainly deals with the unlabelled data. 
+     - It mainly deals with unlabelled data. 
      - Unsupervised learning algorithms allow you to perform more complex 
        processing tasks compared to supervised learning.
 
 l. Why unsupervised learning?
 ans: - It finds all kind of unknown patterns in data.
      - It help you to find features which can be useful for categorization.
-     - It is taken place in real time, so all the input data to be analysed 
+     - It takes place in real time, so all the input data to be analysed 
        and labelled in the presence of learners.
      - It is easier to get unlabelled data from a computer than labelled 
        data, which needs manual intervention.
