@@ -82,11 +82,11 @@ ans: is computing done at a central location, that is all or most of the
 
  b. Explain the architecture used in Centralised Computing
  ans: - Centralised computing uses client/server architecture where one or 
-        more client nodes are directly connected to a central server.
+        more client nodes are directly connected to a central server
       - In this computing, the client sends a request to a server and 
-        receivers from server.
+        receivers from server
       - For example, A network for the Computer Science Department, where a 
-        lecturer, admin, and student make requests to the departments central server and receives back a response.
+        lecturer, admin, and student make requests to the departments central server and receives back a response
 
  c. List the 3 characteristics of Centralised Computing
  ans: - Presence of Global Clock: All clients nodes sync up with the clock 
@@ -97,7 +97,7 @@ ans: is computing done at a central location, that is all or most of the
         system to fail.
 
  d. Draw a diagram of Centralised Computing
- ans: (SLIDE page 9)
+ ans: (SLIDE page 10)
 
  e. List 4 advantages of Centralised Computing and 3 disadvantages
  ans: Advantages
@@ -578,21 +578,42 @@ ans: it is a term used to describe technologies that enable people to access
 
 
 
-16a. Discuss Wireless Transmission?
+16a. What is Wireless Transmission?
+ans: It is a 2-way transmission and reception of data streams ie. 
+     two or more Communicating devices where the transmitter sends the signals and received by receivers
+
   b. Discuss frequencies for wireless transmission?
-  c. SPIN-OFF: Read about ranges of frequencies and Wavelengths allocations and spectrum management in Nigeria.
+  ans: Frequency is the rate at which current changes direction per second
+     i. What is spectrum?
+     ans: Spectrum refers to the invisible radio frequencies that wireless 
+          signals travel over
+
   d. CALCULATIONS (Computation of frequency from wavelength)
-     - A certain sound wave traveling in the air has a wavelength of 322 nm when the velocity of sound is 320 m/s. What is the frequency of this sound wave?
+     - A certain sound wave traveling in the air has a wavelength of 322 nm 
+       when the velocity of sound is 320 m/s. What is the frequency of this 
+       sound wave?
   e. CALCULATIONS (Computation of frequency in a vacuum)
-     - the speed of electromagnetic wave in a vacuum is constant given as 3.00 * 10^8 m/s.  
+     - the speed of electromagnetic wave in a vacuum is constant given as 
+       3.00 * 10^8 m/s.  
        Therefore, if λ = 5.73 * 10^-7 m
   f. List and explain 4 factors that determine quality of communication?
+  ans: - Line-of-sight propagation: This is the ideal transmission of 
+         signals, without refraction, diffraction, or scattering in between the transmitter and the receiver, but losses do occur.
+       - Attenuation: When obstacles are greater in size than signal 
+         wavelength, the strength of the signal decreases e.g. A GSM 900 MHz ( λ > = 33 cm) signal, will face attenuation in objects of size > 1 m (>> λ~33cm)
+       - Scattering: When obstacle size is equal to or less than 
+         wavelength. This decreases signal strength greatly e.g. A GSM signal, about 33 cm in wavelength, scattered by an object of 30 cm or less makes only a small part of the scattered signal to reach the receive
+       - Diffraction: A signal bends from the edges of an obstacle of size 
+         equal to or less than the wavelength e.g. A GSM signal of wavelength 33 cm will diffract from an object of 33 cm or less causing it to or not to reach its destination
+       - Reflection: A signal may also be reflected from the surface of an 
+         obstacle, or the earth’s surface e.g. A GSM 900 MHz ( λ= 33 cm) signal the transmitter signal reflects from an object of size 10 m and above (much greater than λ)
 
 
 
 17a. Discuss GSM? 
 ans: - GSM which stands for Global System for mobile communication
-     - GSM is a 2nd generation cellular standard developed in 1991 by European Telecommunications
+     - IT is a 2nd generation cellular standard developed in 1991 by 
+       European Telecommunications
      - It supports voice & data sharing
      - It was also the 1st generation to introduce SIM cards 
 
@@ -635,8 +656,13 @@ ans: Based Station Subsystem (also known as Radio Station Subsystem) is
      made up of 2 components in BTS and BSC.
      BTS (Base Transceiver Station)
      - It sends and receives signals from MS (Mobile Station)
-     - It does Encoding, Multiplexing, Encryption and Modulation
+     - It does Encoding, Multiplexing, Encryption, Modulation and it feeds 
+       the R/F signal to the antenna
+     - It consists of transceiver units
+     - Each BTS defines a single cell, and a cell has a radius of 100m to 
+       35km
      BSC (Base Station Controller)
+     - It communicates with BTS and MSC via an interface
      - Controls groups of BTS
      - Allocation of radio channels
      - Handover from one BTS to another 
@@ -649,9 +675,9 @@ ans: Based Station Subsystem (also known as Radio Station Subsystem) is
 19a. Discuss the Network Switching Subsystem (NSS) including all 5 of its components?
 ans: Network Switching Subsystem, this consists of 5 components
      1. MSC (Mobile Switching Center)
-        - It is the heart of GSM network
-        - It manages mobile services and does things like registration and 
-          authentication, etc
+        - It is the heart of the network. It manages comm between GSM and 
+          other networks
+        - It things like registration and authentication, etc
         - It performs call setup, call routing, and call switching
         - It communicates with HLR, VLR, AUC & EIR
      2. HLR (Home Location Register)
