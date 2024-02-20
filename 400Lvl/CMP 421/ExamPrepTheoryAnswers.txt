@@ -499,8 +499,7 @@ ans: synchronization is the coordination of hardware devices, such that the
 ans: it is a term used to describe technologies that enable people to access
      network services anyplace, anytime, and anywhere.
 
-     The computing environment is mobile and moves along with the user, eg 
-     Global system for mobile communication (GSM).
+     The computing environment is mobile and moves along with the user
 
      e.g GSM (Global System for Mobile Communication)
 
@@ -525,18 +524,17 @@ ans: it is a term used to describe technologies that enable people to access
          Also, wireless networks are the only means of communication in the 
          case of natural disasters such as hurricanes or earthquakes.
 
-       - Business: Field officers can communicate within their head 
+       - Business: Field officers can communicate with their head 
          offices, send and receive information for decision making. Also 
          mobile computing helps offices to monitor their field officers etc.
 
-       - Financial Services: At point of Sales(POS) terminals in shop and 
-         supermarkets, when customer use credit cards for transactions, the 
-         mobile network facilitate communication between the POS terminal 
-         and the bank central computer system for verification and 
-         effective transaction.
+       - Financial Services: Point of Sales(POS) terminals in shops and 
+         supermarkets, use mobile network to communicate with the bank 
+         central computer system for verification and effective transaction.
 
        - Data Capturing: Mostly mobile devices are used for data 
-         collections in fields, such as weather, despatch delivery information, geo-mining etc.
+         collections in fields, such as weather, despatch delivery 
+         information, geo-mining etc.
 
 
   d. List 5 limitations of Mobile Computing
@@ -553,32 +551,18 @@ ans: it is a term used to describe technologies that enable people to access
 
   e. List and explain all 5 of the layers associated with mobile computing 
      simplified reference model?
-  ans: In a mobile computing system, the end-system need a protocol stack 
-       as in the OSI reference model, comprising the application layer, 
-       transport layer, transport layer, network layer data layer and 
-       physical layer.
-       The intermediate systems, such as the interworking unit do not 
-       necessarily need all of the layers.
+  ans: - Physical layer: This layer is responsible for frequency selection, 
+         generation of the carrier frequency, signal detection (although 
+         heavy interference may disturb the signal), modulation of data 
+         into a carrier frequency and encryption.
 
-       - Physical layer: for wireless communication, the physical layer is 
-         responsible for frequency selection, generation of the carrier 
-         frequency, signal detection (although heavy interference may 
-         disturb the signal) modulation of data into a carrier frequency 
-         and encryption.
-
-       - Datalink layer: The main task of this layer include accessing the 
+       - Datalink layer: This layer is responsible for accessing the 
          medium multiplexing of different data streams, correction of 
-         transmission errors and synchronization. It is also responsible 
-         for point-point connection between two devices or a 
-         point-to-multipoint connection between one sender and several 
-         receivers.
+         transmission errors and synchronization.
 
        - Network Layer: This layer is responsible for routing packets 
          through a network or establishing a connection between two 
-         entities (devices) over many other intermediate system. In 
-         wireless network, this layer is specifically responding for 
-         addressing, routing, devices location, and handover between 
-         different networks.
+         entities (devices) over many other intermediate system.
 
        - Transport Layer:. This layer is responsible for end-to-end 
          connection.
@@ -641,7 +625,8 @@ ans: - GSM which stands for Global System for mobile communication
        uniquely identified by IMEI (International Mobile Equipment 
        Identity) number
 
-       SIM is a smart card e.g MTN SIM, that is uniquely identified by IMSI (International Mobile Subscriber Identity) number
+       SIM is a smart card e.g MTN SIM, that is uniquely identified by IMSI 
+       (International Mobile Subscriber Identity) number
 
 
 
@@ -670,10 +655,11 @@ ans: Network Switching Subsystem, this consists of 5 components
         - It performs call setup, call routing, and call switching
         - It communicates with HLR, VLR, AUC & EIR
      2. HLR (Home Location Register)
-        - It is a permanent database for mobile subscribers storing their information
+        - It is a permanent database for mobile subscribers storing their 
+          information
      3. VLR (Visitor Location Register)
-        - It is a temporary database that updates whenever a MS (Mobile Station) enters 
-          inside the coverage of the MSC
+        - It is a temporary database that updates whenever a MS (Mobile 
+          Station) enters inside the coverage of the MSC
         - It controls mobile roaming in its area
         - It reduces number of queries to HLR
      4. AUC (Authentication Center)
@@ -681,23 +667,27 @@ ans: Network Switching Subsystem, this consists of 5 components
         - It maintains authentication keys and algorithms
      5. EIR (Equipment Identity Register)
         - It is a database used to track mobile phones using an IMEI number
-        - It is made up of 3 sub-classes (white list, black list and grey list)
+        - It is made up of 3 sub-classes (white list, black list and grey 
+          list)
 
 
 
 20a. Discuss Operational Support Subsystem (OSS)
-ans: - It supports the operation and maintenance of GSM and allows system engineers to 
-     monitor, diagnose and troubleshoot all aspects of GSM system
-     - It supports one or more Operation Maintenance Centre (OMC) which are used to 
-     monitor the performance of each MS, BTS, BSC and MSC within a GSM system
+ans: - It supports the operation and maintenance of GSM and allows system 
+       engineers to monitor, diagnose and troubleshoot all aspects of GSM 
+       system
+     - It supports one or more Operation Maintenance Centre (OMC) which are 
+       used to monitor the performance of each MS, BTS, BSC and MSC within 
+       a GSM system
 
   b. List the 3 main functions of OSS?
-  ans: - To maintain all telecommunication hardware and network operations with a 
-         particular market.
+  ans: - To maintain all telecommunication hardware and network operations 
+         with a particular market.
        - To manage all charging and billing procedure.
        - To manage all mobile equipment in the system.
   
-  c. Draw a diagram of the GSM Network Interface and explain what each interface does?
+  c. Draw a diagram of the GSM Network Interface and explain what each 
+     interface does?
   ans: Slide page 76
 
 ...TO BE COMPLETED✏️
