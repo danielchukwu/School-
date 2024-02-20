@@ -14,38 +14,7 @@ ans: A. Translator
 
  b. Discuss in details the difference between a compiler and an interpreter 
     using python and use java as case studies
- ans: Compiler (C) vs	Interpreter (I)
-      -----------------------------------------------------------------
-      C1. Translates the entire source code before execution.	
-      I1. Translates and executes code line by line.
-
-      C2. Generates an intermediate code or machine code.	
-      I2. Does not necessarily produce an intermediate code; directly executes the source code.
-
-      C3. Execution Process	1. Scans entire source code. 2. Parses and analyzes syntax. 3. Generates intermediate code or machine code. 4. Executes the code.	
-      I3. Execution Process	1. Reads and interprets source code line by line. 2. Executes code immediately after translation.
-
-      C4. Errors are detected during the compilation process before execution begins.	
-      I4. Errors are often detected at runtime, line by line.
-
-      C5. Produces a standalone executable file.	
-      i5. Requires the presence of the interpreter during execution.
-
-      C6. Typically results in faster execution as the translation overhead is incurred only once.	
-      I6. May have more runtime overhead as the code is interpreted each time it runs.
-
-      C7. Can optimize memory usage by generating efficient machine code.	
-      I7. May require more memory for interpreting the code at runtime.
-
-      C8. Produces platform-specific executables.	
-      I8. Generally more portable as the interpreter can be platform-independent.
-
-      C9. Longer development cycle due to compilation.	
-      I9. Shorter development cycle as code can be executed without prior compilation.
-      ----------------------------------------------------------------
-
-
-      Python (Interpreter):
+ ans: Python (Interpreter):
       - Python uses an interpreter to translate and execute the source code line by line.
       - The Python interpreter reads the code, checks for errors, and executes it immediately.
       - The absence of a separate compilation step makes Python code highly portable, and the interpreter is required to run Python programs.
@@ -55,6 +24,50 @@ ans: A. Translator
       - The Java compiler translates the source code into platform-independent bytecode (.class files).
       - The Java Virtual Machine (JVM) interprets the bytecode at runtime, making it executable on any system with a compatible JVM.
       - This approach combines the portability of interpreted languages with the performance benefits of compiled languages.
+
+ b1. In a tabular format write the differences between Compilers and 
+     Interpreters?
+ ans: Compiler (C) vs	Interpreter (I)
+      -----------------------------------------------------------------
+      C1. Translates the entire source code before execution.	
+      I1. Translates and executes code line by line.
+
+      C2. Generates an intermediate code or machine code.	
+      I2. Does not necessarily produce an intermediate code; directly 
+          executes the source code.
+
+      C3. Execution Process	
+           1. Scans entire source code. 
+           2. Parses and analyzes syntax. 
+           3. Generates intermediate code or machine code. 
+           4. Executes the code.	
+      I3. Execution Process	
+           1. Reads and interprets source code line by line. 
+           2. Executes code immediately after translation.
+
+      C4. Errors are detected during the compilation process before 
+          execution begins.	
+      I4. Errors are often detected at runtime, line by line.
+
+      C5. Produces a standalone executable file.	
+      i5. Requires the presence of the interpreter during execution.
+
+      C6. Results in faster execution as the translation overhead 
+          is incurred only once.	
+      I6. May have more runtime overhead as the code is interpreted each 
+          time it runs.
+
+      C7. It can optimize memory usage by generating efficient machine code.
+      I7. May require more memory for interpreting the code at runtime.
+
+      C8. Produces platform-specific executables.	
+      I8. Generally more portable as the interpreter can be 
+          platform-independent.
+
+      C9. Longer development cycle due to compilation.	
+      I9. Shorter development cycle as code can be executed without prior 
+          compilation.
+      
 
  c. Draw the below diagrams?
     i. A Compiler

@@ -25,11 +25,7 @@ ans: Translators in computer programming convert high-level code into
      - They also ensure code portability, allowing programs to run on 
        different platforms. 
      - Translators facilitate code reuse by enabling the distribution of 
-       compiled libraries. Overall, 
-       
-     Translators are essential tools in programming, simplifying complex 
-     code, enhancing code sharing, and enabling software to be used across 
-     diverse computing environments.
+       compiled libraries. Overall
 
 a. Discuss in details the difference between a compiler and interpreter 
    using python and java as case studies (10 marks)
