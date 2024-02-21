@@ -12,7 +12,9 @@ ans: Computer Graphics is any sketch, drawing, special artwork or other
 
  c. List 5 advantages of Computer graphics
  ans: 1. It provides tools for producing pictures not only of concrete  
-         real-world object but also of abstract.
+         real-world object but also of abstract, synthetic object such as 
+         mathematical surfaces in 4D and of data that have no inherent 
+         geometry such as Survey results
       2. It has the ability to show moving pictures and thought it possible 
          to produce animation with computer graphics. 
       3. With it, users can control animation speed, portion of the view 
@@ -46,19 +48,32 @@ ans: Computer Graphics is any sketch, drawing, special artwork or other
 
  f. Explain 3 of the 4 major application areas for Computer Graphics?
  ans: - Computer Aided Design/Drafting (CAD/CADD)
-          A major use of computer graphics is in design process, particularly for engineering applications such as building and other structural design, mechanical and industrial design as well as design of manufacturing processes, including that of automobiles and aircraft, ships and spacecrafts and many other products.
-          
-          For some design applications,  objects are first displayed in a wireframe outline form that shows the overall shape and the internal features of the objects. Wireframe display also allows designers to quickly see the effect of interactive adjustment to design shapes.
-          
-          Current computer aided design (CAD) software packages range 
-          from 2D vector based drafting systems to 3D solid and surface 
-          modellers. 
+          CAD/CADD applications are used in design process, particularly 
+          for engineering applications such as building, structural, 
+          mechanical and industrial design 
 
-          Modern CAD applications can also frequently allow rotation in 3D  
-          allowing viewing of designed objects from a desired angle, even 
-          from the inside looking out. Some CAD software is capable of 
-          dynamic mathematical modelling in which case it may be marketed 
-          as CADD (Computer Aided Design and Drafting)
+          - CAD apps are used in designing of manufacturing processes, 
+            including that of automobiles, aircraft, ships, spacecrafts and 
+            more.
+
+          - In some CAD applications, objects are first displayed in a 
+            wireframe outline, which shows the overall shape and the internal 
+            features of the objects. 
+            
+          - Wireframe display also allows designers to quickly see the effect 
+            of interactive adjustment to design shapes.
+          
+          - Current CAD software packages range from 2D vector based drafting 
+            systems to 3D solid and surface modellers. 
+
+          - Modern CAD applications allow 
+            - rotation in 3D 
+            - viewing of designed objects from a desired angle, 
+            - viewing of designed objects from the inside looking out. 
+            
+          - Some CAD softwares are capable of dynamic mathematical modelling 
+            in which case it may be marketed as CADD (Computer Aided Design 
+            and Drafting)
 
       - Presentation Graphics
          Presentation refers to the act of presenting important points of a 
