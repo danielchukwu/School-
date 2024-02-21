@@ -23,7 +23,7 @@ ans: Computer Graphics is any sketch, drawing, special artwork or other
       4. It provides tools called motion dynamics. Which allows us to move 
          objects, tumble them with respect to stationary observer, or make objects stationary while the viewer moves around them.
       5. It provides a facility called update dynamics. Which allows us 
-         change the shape, color and other properties objects.
+         change the shape, color and other properties of the objects.
       6. With the recent development of digital signal processing and audio 
          synthesis chip the interactive graphics can now provide audio 
          feedback along with the graphical feedback to make the simulated 
@@ -77,33 +77,38 @@ ans: Computer Graphics is any sketch, drawing, special artwork or other
 
       - Presentation Graphics
          Presentation refers to the act of presenting important points of a 
-         topic to; 
-         a. the audience for a lecture, 
-         b. potential customers for a new product or service.
+         topic to: 
+          a. the audience for a lecture, 
+          b. potential customers for a new product or service.
 
-         The presentation of data in a condensed, visual, convenient form 
-         has always been an aid to understanding and promoting any idea. 
-         Graphics becomes a vital part of presenting ideas and promoting 
-         organizations even in non business endeavors such as at academic 
-         seminars or for proposing a new construction and so on. Computer 
-         graphics has raised such presentations to an art by making visuals 
-         more appealing  colorful by incorporating animations, sound 
-         effects, videos in presentations.
+         - The presentation of data in a condensed, visual, convenient form 
+           has always been an aid to understanding and promoting any idea. 
+         
+         - Computer graphics has made presentations an art by making visuals 
+           more appealingly colorful through incorporating animations, sound effects, videos in presentations.
+
+         - Graphics becomes a vital part of presenting ideas and promoting 
+           organizations even in non business endeavors such as at academic 
+           seminars or for proposing a new construction and so on. 
 
       - Entertainment
-         Computer graphics methods are used in making music videos games 
-         cartoon movies television shows etc. Sometimes the graphic scenes 
-         are displayed by themselves and sometimes graphic objects are 
-         combined with the actors and live scenes Several developers have 
-         used graphics sound animation of multimedia to create variety of 
-         games.
+         - Computer graphics methods are used in making music, videos games, 
+           cartoon, movies, television shows, etc. 
+           
+         - Sometimes the graphic scenes are displayed by themselves and 
+           sometimes graphic objects are combined with the actors in live 
+           scenes 
+
+         - Several developers have used graphics, sound and animation of 
+           multimedia to create variety of games (and they make good money 
+           doing so).
 
       - Computer-Aided Learning
-         Computer generated models of physical financial and economic 
-         system are used as educational aids. Needless to say, computer 
-         graphics tools like MS Power Point are used heavily in teaching, 
-         seminars and conference presentations on almost every subject at 
-         every level.
+         - Computer graphics tools like MS Power Point are used heavily in 
+           teaching, seminars and conference presentations on almost every 
+           subject at every level.
+         - Computer generated models of physical, financial, and economic 
+           systems are used as educational aids.  
 
 
 
@@ -120,10 +125,8 @@ ans: - Passive (off-line) computer graphics
          2. Interactive computer graphics: This is called interactive 
             graphics. Displays are controlled by mouse, trackball, joystick 
             etc. Video Games, dynamic websites, special effects in movies 
-            and cartoons are all making use of interactive computer 
+            and cartoons. They all make use of interactive computer 
             graphics.
-
-
 
  b. What are the 3 components that make up an Interactive computer graphics?
  ans: - Digital Memory Buffer
@@ -146,20 +149,20 @@ ans: - Passive (off-line) computer graphics
                                    8 x 1024 x 1024
 
  d. Explain Monitor?
- ans: Monitor helps us to view the display and they make use of CRT 
-      technology (Cathode ray Tube)
+ ans: Monitor helps us to view the display and they make use of CRT (Cathode 
+      ray Tube) technology 
 
- e. Explain Digital controller
- ans: It is an interface between Memory Buffer and Monitor. Its job is to 
-      pass the contents of frame buffer to the monitor. The image must be 
-      passed repeatedly to the monitor to maintain a steady picture on the 
-      screen. 
-      The display controller reads each successive byte of data from FB 
-      Memory and converts 0's and 1's into corresponding video signals. 
-      This signal is then feed to the monitor to produce a black and white 
-      picture on screen. In today's term, display controller is recognize 
-      as a display card and one of our choices can be VGA card with a 
-      resolution of 640x480.
+ e. Explain Display controller
+ ans: - It is an interface between Memory Buffer and Monitor. 
+      - Its job is to pass the contents of frame buffer to the monitor. 
+      - The image must be passed repeatedly to the monitor to maintain a 
+        steady picture on the screen. 
+      - The display controller reads each successive byte of data from FB 
+        Memory and converts 0's and 1's into corresponding video signals. 
+      - This signal is then feed to the monitor to produce a black and white 
+        picture on screen. 
+      - In today's term, display controllers are recognized as display cards & 
+        one of our choices can be VGA card with a resolution of 640x480.
 
 
 
@@ -193,7 +196,7 @@ ans: Computer vision is the field of computer science that focuses on
       - many other fields
 
  e. What is Image Processing?
- ans: Image processing is a method of processing that perform some 
+ ans: Image processing is a method of processing that performs some 
       operations on an image, in order to get an enhanced image or to 
       extract some useful information from it.
 
