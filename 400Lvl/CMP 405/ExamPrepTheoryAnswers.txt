@@ -68,8 +68,8 @@ ans: Computer Graphics is any sketch, drawing, special artwork or other
 
           - Modern CAD applications allow 
             - rotation in 3D 
-            - viewing of designed objects from a desired angle, 
-            - viewing of designed objects from the inside looking out. 
+            - viewing of designed objects from a desired angle
+            - viewing of designed objects from the inside looking out
             
           - Some CAD softwares are capable of dynamic mathematical modelling 
             in which case it may be marketed as CADD (Computer Aided Design 
@@ -154,15 +154,16 @@ ans: - Passive (off-line) computer graphics
 
  e. Explain Display controller
  ans: - It is an interface between Memory Buffer and Monitor. 
-      - Its job is to pass the contents of frame buffer to the monitor. 
+      - Its job is to pass the contents of frame buffer to the monitor.
       - The image must be passed repeatedly to the monitor to maintain a 
-        steady picture on the screen. 
+        steady picture on the screen.
       - The display controller reads each successive byte of data from FB 
-        Memory and converts 0's and 1's into corresponding video signals. 
+        Memory and converts 0's and 1's into corresponding video signals.
       - This signal is then feed to the monitor to produce a black and white 
-        picture on screen. 
+        picture on screen.
       - In today's term, display controllers are recognized as display cards & 
         one of our choices can be VGA card with a resolution of 640x480.
+
 
 
 
@@ -218,10 +219,11 @@ ans: Computer vision is the field of computer science that focuses on
 ans: A computer keyboard is an input device used to enter characters and 
      functions into the computer system by pressing buttons, or keys.
 
-     It is the primary device used to enter text. It contains keys for 
-     individual letters, numbers and special characters, as well as keys 
-     for specific functions, it is connected to a computer system using a 
-     cable or a wireless connection.
+     - It is the primary device used to enter text
+     - It contains keys for individual letters, numbers and special 
+       characters, as well as keys for specific functions
+     - It is connected to a computer system using a cable or a wireless 
+       connection
 
  b. List the 5 parts of a keyboard and state how many keys are on a keyboard
  ans: 1. The Alphanumeric Keys
@@ -229,25 +231,27 @@ ans: A computer keyboard is an input device used to enter characters and
       3. Function keys
       4. Modifier keys
       5. Cursor movement keys
+      
+      The number of keys on a keyboard varies from the original standard 
+      of 101 keys to the 104-key windows keyboard
 
  c. Explain how the Computer accepts Inputs from keyboard?
- ans: When we press a key, a tiny chip in the keyboard called keyboard 
-      controller notes that a key has been pressed. The keyboard 
-      controller places a code (Key Scan) in the buffer of the keyboard to 
-      indicate which key was pressed (Keyboard buffer is a temporary 
-      memory of the keyboard controller). 
-      
-      The keyboard controller sends a signal to the system software 
-      notifying that something happened at the keyboard.
-
-      When the system receives the signal it determines the appropriate 
-      response. When a keystroke has occurred, the system reads the memory 
-      location in the keyboard buffer that contains the code of the key 
-      which was pressed. The system software then passes that code to the 
-      CPU.
+ ans: - When we press a key, a tiny chip in the keyboard called keyboard 
+        controller notes that a key has been pressed.
+      - The keyboard controller places a code (Key Scan) in the buffer of the 
+        keyboard to indicate which key was pressed (Keyboard buffer is a 
+        temporary memory of the keyboard controller).
+      - The keyboard controller sends a signal to the system software 
+        notifying that something happened at the keyboard.
+      - When the system receives the signal it determines the appropriate 
+        response.
+      - Which is the system reads the memory location in the keyboard buffer 
+        where the code for the key that was pressed is
+      - The system software then passes that code to the CPU.
 
    i. Draw a diagram of how it works?
    ans: (SLIDE page 27)
+
 
 
 
@@ -256,11 +260,11 @@ ans: A computer mouse is a handheld hardware input device that controls a
      cursor in a GUI (graphical user interface) for pointing, moving and 
      selecting text, icons, files, and folders on your computer.
 
-     In addition to these functions, a mouse can also be used to 
-     drag-and-drop objects and give you access to the right-click menu
+     In addition to these functions, a mouse can also be used to drag-and-drop 
+     objects and give you access to the right-click menu
 
  b. What are the 2 types of mouse?
- ans: - Mechanical and 
+ ans: - Mechanical and
       - Optical mouse
 
  c. List 2 other pointing devices
@@ -281,6 +285,7 @@ ans: A computer mouse is a handheld hardware input device that controls a
 
 
 
+
 6a. What is a Graphics Tablet?
 ans: A graphics tablet ( digitizer, digital graphic tablet, pen tablet, or 
      digital art board) is an input device that enables a user to hand-draw 
@@ -294,18 +299,19 @@ ans: A graphics tablet ( digitizer, digital graphic tablet, pen tablet, or
      linear polylines or shapes, is called digitizing.
 
  b. What is a Printer?
- ans: A printer is a device that accepts text and graphic output from a 
-      computer and transfers the information to paper, usually to 
+ ans: A printer is an output device that accepts text and graphic output from 
+      a computer and transfers the information to paper, usually to 
       standard-size, 8.5" by 11" sheets of paper. 
 
       Printers vary in size, speed, sophistication and cost. In general, 
       more expensive printers are used for more frequent printing or 
       high-resolution color printing.
 
-      The major printer technologies available. These technology can be 
-      broken down into two main categories(Impact and Non-impact)
+      i. Printers are broken down into 2 main categories. Name them?
+      ans: - Impact and
+           - Non-impact
 
-      i. Wha tis the most important part of a PC?
+      ii. What is the most important part of a PC?
       ans: The Display system
 
 
@@ -315,7 +321,7 @@ ans: A graphics tablet ( digitizer, digital graphic tablet, pen tablet, or
 ans: 1. Random Scan display
      2. Raster Scan display
      3. Direct View storage tube
-     4. Flat Panel display 
+     4. Flat Panel display
 
  b. Display Systems have 3 parts. Name all 3 and briefly explain?
  ans: 1. Display Adapter: Creates or holds the color information
@@ -325,41 +331,43 @@ ans: 1. Random Scan display
 
   
 
-8a. Discuss how the Random Scan Display works?
- ans: In Random-Scan Display electron beam is directed only to the 
-      areas of screen where a picture has to be drawn. It is also called 
-      vector display, as it draws picture one line at time. It can draw and 
-      refresh component lines of a picture in any specified sequence. Pen 
-      plotter is an example of random-scan displays. 
-      
-      The number of lines regulates refresh rate on random-scan displays. 
-      An area of memory called refresh display files stores picture 
-      definition as a set of       line drawing commands.
 
-      The system returns back to first-line command in the list, after all 
-      the drawing commands have been processed. High-quality vector systems 
-      can handle around 100, 00 short lines at this refresh rate. Faster 
-      refreshing can burn phosphor. To avoid this every refresh cycle is 
-      delayed to prevent refresh rate greater than 60 frames per second.
+8a. Discuss how the Random Scan Display works?
+ ans: - In Random-Scan Display electron beam is directed only to the 
+        areas of screen where a picture has to be drawn. 
+      - It is also called vector display, as it draws picture one line at a 
+        time. 
+      - It can draw and refresh component lines of a picture in any specified 
+        sequence. 
+      - Pen plotter is an example of random-scan displays. 
+      - The Refresh Rate is regulated by the number of lines on the display. 
+      - The area of memory that stores picture definition as a set of line 
+        drawing commands is called the Refresh Display Files.
+      - The system returns back to first-line command in the list, after all 
+        the drawing commands have been processed.
+      - To prevent refresh rate greater than 60 frames per second, refresh 
+        cycles are delayed
+      - High-quality vector systems can handle around 100,000 short lines at 
+        this refresh rate. Faster refreshing can burn phosphor. 
 
     i. Draw a diagram of this?
     ans: (SLIDE page 41)
 
  b. What is Refresh rate and further discuss?
- ans: Refresh rate refers to the frequency that a display updates the 
-      onscreen image.
+ ans: - Refresh rate refers to the frequency that a display updates the 
+        onscreen image.
 
-      The time between these updates is measured in milliseconds (ms), 
-      while the refresh rate of the display is measured in hertz (Hz)
+      - The time between these updates is measured in milliseconds (ms), 
+        while the refresh rate of the display is measured in hertz (Hz)
 
-      The refresh rate of your display refers to how many times per second 
-      the display is able to draw a new image. This is measured in Hertz 
-      (Hz). 
+      - The refresh rate of your display refers to how many times per second 
+        the display is able to draw a new image. This is measured in Hertz 
+        (Hz). 
 
-      For example, if  your display has a refresh rate of 144Hz, it is 
-      refreshing the image 144 times per second. When paired with the high 
-      frame rates produced by a GPU and CPU working together, this can 
-      result in a smoother experience and potentially higher FPS.
+      - For example, if a display has a refresh rate of 144Hz, it is 
+        refreshing the image 144 times per second. When paired with the high 
+        frame rates produced by a GPU and CPU working together, this can 
+        result in a smoother experience and potentially higher FPS
 
     i. Draw a diagram showing 120hz to 60hz to 30hz refresh rate comparison?
     ans: (SLIDE page 46)
@@ -368,43 +376,49 @@ ans: 1. Random Scan display
 
 
 9a. Discuss how the Raster Scan Display works?
-ans: Raster Scan Displays are most common type of graphics monitor 
-     which employs CRT. It is based on television technology. In raster 
-     scan system electron beam sweeps across the screen, from top to 
-     bottom covering one row at a time.
-
-     A pattern of illuminated pattern of spots is created by turning beam 
-     intensity on and off as it moves across each row. A memory area called 
-     refresh buffer or frame buffer stores picture definition. This memory 
-     area holds intensity values for all screen points. Stored intensity 
-     values are restored from frame buffer and painted on screen taking one 
-     row at a time. Each screen point is referred to as pixels.
+ans: - Raster Scan Displays are the most common type of graphic monitors 
+       which employs CRT. 
+     - It is based on television technology. 
+     - In raster scan system electron beam sweeps across the screen, from top 
+       to bottom covering one row at a time.
+     - An illuminated pattern of spots is created by turning beam intensity 
+       on and off as it moves across each row. 
+     - The area of memory that stores picture definition as intensity values 
+       for all screen points is called Refresh Buffer (or Frame Buffer)
+     - Stored intensity values are restored from frame buffer and painted on 
+       screen one row at a time. 
+     - Each screen point is referred to as pixels.
 
   i. Draw a diagram of the Raster Scan Display?
   ans: (SLIDE page 48)
 
 
 
+
 10a. Discuss how the Direct-View Storage Tube (DVST) works?
-ans: Both in the raster scan and random scan system, the screen images are 
-     maintained (flicker free) by redrawing or refreshing the screen many 
-     times per second by cycling through the picture data stored in the 
-     refresh buffer.
+ans: - In Raster scan and Random scan displays, the screen images are 
+       maintained (flicker free) by redrawing or refreshing the screen many 
+       times per second by cycling through the picture data stored in the 
+       refresh buffer.
+     - DVST provides an alternative method to maintaining the screen image
+     - It uses the storage grid which stores the picture definition as a 
+       charge distribution just behind the phosphor-coated screen.
 
-     A DVST gives the alternative method of maintaining the screen image, it uses the storage grid which stores the picture information as a charge distribution just behind the  phosphor-coated screen.
-     It consists of two electron guns:
-     1. Primary gun
-     2. Flood gun
+     - DVST consists of two electron guns:
+       1. Primary gun
+       2. Flood gun
      
-     DVST resembles CRT as it uses electron gun to draw picture and 
-     phosphor coated screen to display it. The phosphor used in this is of 
-     high persistence. DVST does not use refresh buffer or frame buffer to 
-     store picture definition. Picture definition is stored inside CRT in 
-     form positive charged distribution. 
-
-     Because of this reason DVST is known as Storage Type CRT. In DVST no 
-     refreshing is required as result picture drawn on DVST will be seen 
-     for several minutes before fading.
+     - DVST resembles CRT as it uses electron gun to draw picture and 
+       phosphor coated screen to display it. 
+     - DVST uses a high persistence phosphor. 
+     - DVST does not use refresh buffer or frame buffer to store picture 
+       definition. 
+     - Picture definition is stored inside CRT in the form of a positive 
+       charged distribution. 
+     - Because of this reas
+     on DVST is known as Storage Type CRT.
+     - In DVST no refreshing is required as result picture drawn on DVST will 
+       be seen for several minutes before fading.
 
   i. List and explain the 2 types of DVST electron guns?
   ans: The primary gun: stores the picture pattern and 
@@ -415,18 +429,20 @@ ans: Both in the raster scan and random scan system, the screen images are
 
 
 
+
 11a. What is a Flat Panel Display?     
-ans: A flat panel display is a television, monitor or other display device 
-     that uses a thin panel design instead of a traditional cathode ray 
-     tube (CRT) design. These screens are much lighter and thinner, and can 
-     be much more portable than traditional televisions and monitors. They 
-     also have higher resolution than older models  
+ans: - A flat panel display is a television, monitor or other display device 
+       that uses a thin panel design instead of a traditional CRT design. 
+     - These screens are much lighter and thinner, and can be much more 
+       portable than traditional televisions and monitors. 
+     - They also have higher resolution than older models  
 
   b. List 3 examples of Flat Panel Displays?
   ans: - Liquid crystal display (LCD), 
        - Gas plasma display (GPD) and 
        - Electroluminescent display (ELD)
  
+
 
 
 12a. What are Vector Images?
@@ -445,13 +461,14 @@ ans: Vector images are graphical representations of mathematical objects
 
 
 
+
 13a. Study DDA Algorithm and know how to calculate it
 ans: https://www.youtube.com/watch?v=W5P8GlaEOSI&t=4s
 
-  b. List 3 advantages and 3 disadvantages of the line 
+  b. List 3 advantages and 3 disadvantages of DDA 
   ans: Advantages
        1. It is simple and easy to implement algorithm.
-       2. It avoid using multiple operations which have high time 
+       2. It avoids using multiple operations which have higher time 
           complexities.
        3. It is faster than the direct use of the line equation because it 
           does not use any floating point multiplication and it calculates 
@@ -460,7 +477,7 @@ ans: https://www.youtube.com/watch?v=W5P8GlaEOSI&t=4s
        Disadvantages
        1. It deals with the rounding off operation and floating point 
           arithmetic so it has high time complexity.
-       2. As it is orientation dependent, so it has poor endpoint accuracy.
+       2. It has poor endpoint accuracy, as it is orientation dependent
        3. Due to the limited precision in the floating point representation 
           it produces cumulative error
 
