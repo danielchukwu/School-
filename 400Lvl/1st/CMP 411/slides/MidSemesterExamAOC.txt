@@ -1,0 +1,36 @@
+Focus on Slide pages 
+24-25
+29-33
+34-40
+45-56
+
+
+Practice questions
+
+1a. List and explain all the 6 stages in the Modeling Process
+ b. Draw the diagram of the modelling process
+
+2a. What are the 4 types of Models
+ b. Discuss discrete vs continuous models
+ c. Discuss Deterministic vs Stochastic models
+
+3a. What are Random Numbers?
+ b. Define RNG?
+    i. List and discuss the 2 types of Random numbers
+    ii. List 7 and explain 5 properties of a Good Random Number Generator
+ c. Draw the Diagram Of
+    i. Pseudorandom Number generation
+    ii. Congruential Generator
+ d. What is Congruential Method and explain how the method works?
+
+ 4a. What is a Queuing System?
+  b. What are Queuing Models?
+  c. List the 3 goals of a queuing model?
+  d. In performance and analysis of Queuing Systems. List the 2 approaches 
+     that are available?
+
+5a.List all 5 Attributes of Queuing Models?
+ b. List and discuss the 3 customer decisions on a queue?
+ c. List and discuss the 3 types of Queuing Models?
+    i. Draw all the diagrams for all 3 types of Queuing Model
+

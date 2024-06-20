@@ -1,0 +1,26 @@
+AOC
+
+- Number generation algorithms and how they work
+  How to generate the seed number and constant.
+- Queuing models - Explain some of the models
+- Queuing discipline
+- Concepts around queuing - queuing population, arrival and dis...
+- Discrete, continuous, and stochastic models
+- Deterministic and Stochastic 
+- Queuing disciplines
+  Know all of it
+  - LIFO
+  - FIFO
+  - SIRO
+  - Priority Queue
+- Customers decisions on a queue
+  know them all
+  - Balking
+  - Reneging
+  - Jockeying
+
+- Little's law
+- Queuing network
+- Queuing models, what it is, why it is used, concepts of the queuing model
+
+- ..., tokens, token is a customer that requests a service from the facility .... [it's in ur note]

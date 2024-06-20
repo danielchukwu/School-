@@ -1,0 +1,44 @@
+2a. Monte carlo simulations are computer algorithms that use randomness to 
+    calculate the properties of a mathematical model, where the randomness 
+    of the algorithm is not a feature of the target Model
+
+ b. 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
