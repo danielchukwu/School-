@@ -1,0 +1,235 @@
+CMP 407 LAST CLASS
+
+Advise: Study this material here on github, it's best that way. (Downloading it and opening it up in some custom app might distort the organization of some of the diagrams)
+
+
+1. Generate Postfix, Add to Stack and generate the parse tree of the below expression
+   (a + b) * (c - d) + ((e / f) * (a + b))
+
+Solution
+
+(a + b) * (c - d) + ((e / f) * (a + b))
+------- # combine (a + b) and move +
+        # (a + b) => ab+
+
+ab+ * (c - d) + ((e / f) * (a + b))
+      ------- # combine (c - d) and move -
+              # (c - d) => cd-
+
+ab+ * cd- + ((e / f) * (a + b))
+--------- # combine (a + b) * (c - d) and move *
+          # ab+ * cd- => ab+cd-*
+
+ab+cd-* + ((e / f) * (a + b))
+           ------- # combine (e / f) and move /
+                   # (e / f) => ef/
+ab+cd-* + (ef/ * (a + b))
+                 ------- # combine (a + b) and move +
+                         # (a + b) => ab+
+ab+cd-* + (ef/ * ab+) 
+          ---------- # combine (e / f) * (a + b) and move *
+                     # ef/ * ab+ => ef/ab+*
+ab+cd-* + (ef/ab+*)
+------------------- # combine (a + b) * (c - d) + ((e / f) * (a + b)) and move +
+                    # ab+cd-* + (ef/ab+*) => ab+cd-*ef/ab+*+
+
+FINAL RESULT
+ab+cd-*ef/ab+*+
+
+Insert (FINAL RESULT) into stack [ab + cd -* ef / ab +*+], step by step
+
+1. insert: ab +
+   push -> a
+   push -> b
+   push -> +
+
+| + |      
+| b |  
+| a |     
+-----
+
+  collapse -> a + b
+
+| + |      |         |
+| b |  ->  |         |
+| a |      | (a + b) |
+-----      -----------
+
+2. insert: cd -
+   push -> c
+   push -> d
+   push -> -
+   collapse -> c-d
+
+           |    -    |      |         |
+| + |      |    d    |      |         |
+| b |  ->  |    c    |  ->  | (c - d) |
+| a |      | (a + b) |      | (a + b) |
+-----      -----------      -----------
+
+3. insert: *
+   push -> *
+   collapse -> (a + b) * (c - d)
+
+           |    -    |      |         |      |                   |
+| + |      |    d    |      |    *    |      |                   |
+| b |  ->  |    c    |  ->  | (c - d) |  ->  |                   |
+| a |      | (a + b) |      | (a + b) |      | (a + b) * (c - d) |
+-----      -----------      -----------      ---------------------
+
+4. insert: ef /
+   push -> e
+   push -> f
+   push -> /
+   collapse -> e / f
+
+           |    -    |      |         |      |         /         |      |                   |
+| + |      |    d    |      |    *    |      |         f         |      |                   |
+| b |  ->  |    c    |  ->  | (c - d) |  ->  |         e         |      |      (e / f)      |
+| a |      | (a + b) |      | (a + b) |      | (a + b) * (c - d) |      | (a + b) * (c - d) |
+-----      -----------      -----------      ---------------------      ---------------------
+
+5. insert: ab+
+   push -> a
+   push -> b
+   push -> +
+   collapse -> a + b
+                                                                        |         +         |      |                   |
+           |    -    |      |         |      |         /         |      |         b         |      |                   |
+| + |      |    d    |      |    *    |      |         f         |      |         a         |      |      (a + b)      |
+| b |  ->  |    c    |  ->  | (c - d) |  ->  |         e         |  ->  |      (e / f)      |  ->  |      (e / f)      |
+| a |      | (a + b) |      | (a + b) |      | (a + b) * (c - d) |      | (a + b) * (c - d) |      | (a + b) * (c - d) |
+-----      -----------      -----------      ---------------------      ---------------------      ---------------------
+
+6. insert: *
+   push -> *
+   collapse -> (e / f) * (a + b) 
+                                                                        |         +         |      |                   |      |                   |
+           |    -    |      |         |      |         /         |      |         b         |      |         *         |      |                   |
+| + |      |    d    |      |    *    |      |         f         |      |         a         |      |      (a + b)      |      |                   |
+| b |  ->  |    c    |  ->  | (c - d) |  ->  |         e         |  ->  |      (e / f)      |  ->  |      (e / f)      |      | (e / f) * (a + b) |
+| a |      | (a + b) |      | (a + b) |      | (a + b) * (c - d) |      | (a + b) * (c - d) |      | (a + b) * (c - d) |      | (a + b) * (c - d) |
+-----      -----------      -----------      ---------------------      ---------------------      ---------------------      ---------------------
+
+6. insert: +
+   push -> +
+   collapse -> (a + b) * (c - d) + (e / f) * (a + b) 
+                                                                        |         +         |      |                   |      |                   |
+           |    -    |      |         |      |         /         |      |         b         |      |         *         |      |                   |
+| + |      |    d    |      |    *    |      |         f         |      |         a         |      |      (a + b)      |      |         +         |
+| b |  ->  |    c    |  ->  | (c - d) |  ->  |         e         |  ->  |      (e / f)      |  ->  |      (e / f)      |      | (e / f) * (a + b) |
+| a |      | (a + b) |      | (a + b) |      | (a + b) * (c - d) |      | (a + b) * (c - d) |      | (a + b) * (c - d) |      | (a + b) * (c - d) |
+-----      -----------      -----------      ---------------------      ---------------------      ---------------------      ---------------------
+
+✅ We successfully inserted [ab + cd -* ef / ab+*+] into the stack
+
+7. CONSTRUCT A SYNTAX TREE USING OUR RESULT
+
+                       ----+----
+                     /           \
+                    /             \
+                   /               \
+                  *                 *
+                /   \             /   \
+              +      -           ÷     +
+             / \    / \         / \   / \
+            a   b  c   d       e   f a   b
+
+
+NEW TOPIC: Regular Ex
+
+Learning Resources:
+https://www.youtube.com/watch?v=rhzKDrUiJVk
+https://cheatography.com/davechild/cheat-sheets/regular-expressions/
+
+Regular Expression (short name is RegEx)
+
+What is RegEx?
+This is a sequence of symbols used to construct search terms
+
+1.1 Special Characters in Regular Expression
+^ start
+$ end
++ one or more
+* zero or more
+. match everything
+\s match space
+{x} minimum of x times
+{x, y} minimum of x times and maximum of y times
+
+
+Exam Question 1
+Write regular expression that matches a string that starts with a, and ends with c and has 1 or more b's
+ans: ab+c
+     The above matches:
+     abc
+     abbc
+     abbbc
+     abbbbbc
+     abbbbbbc
+     etc.
+
+1.2 More Special Characters in Regular Expression
+[]     match anything inside the bracket
+[A-Z]  match any uppercase character
+[a-z]  match any lowercase character
+[0-9]  match any digit
+[a-zA-Z]  match any uppercase or lowercase character
+[a-zA-Z0-9]   match alphanumeric characters
+[a|b]  match either a or b
+
+Exam Question 2
+Write a regular expression that matches a Nigerian phone number
+e.g +234-9031440396
+ans: ^[\+234-][0-9]{10,10}
+
+
+Exam Question 3
+Write a reqular expression that matches the line of code below
+e.g int a = b + c;
+ans: ^[int]\sa\s=\sb\s\+c;$
+
+
+Exam Question 4
+Write a regular expression that matches either Tall, Tail or Tag
+ans: T[all|ail|ag]
+     The above regex matches:
+     - Tall
+     - Tail
+     - Tag
+
+Exam Question 5
+Write a single regular expression that matches any one of the below line of code
+- if (a < b) 
+- if (a > b) 
+- if (a == b) 
+- if (a != b) 
+ans: if\s(a[<|>|==|!=]b)
+
+
+
+
+CLASSWORK
+1. Write a regular expression that matches any website domain 
+e.g - youtube.com
+    - 9mobile.com.ng
+    - neon.tech
+    - notion.so
+    - bible.online
+ans: ^[a-zA-Z0-9_\-\.]+\.[a-zA-Z]{2,6}
+
+2. Write a regular expression that matches at least 5 uppercase characters,
+   3 lowercase characters and ends with at most 4 digits
+ans: [A-Z]{5,}[a-z]{3}[0-9]{0, 4}
+
+
+
+
+
+
+
+
+
+
+
+     

@@ -1,0 +1,363 @@
+1. Explain Lexical Analysis
+ans: Lexical analysis, the first phase of a compiler, involves reading the 
+     source program's characters and grouping them into lexemes. Each 
+     lexeme is then converted into a token of the form <token-name, 
+     attribute-value>, which is passed to the syntax analysis phase. The 
+     token's token-name is an abstract symbol used during syntax analysis, 
+     and the attribute-value points to the symbol table entry for that 
+     token, providing information for semantic analysis and code generation.
+
+     For example, consider the assignment statement 
+     position = initial + rate * 60. 
+     The lexemes in this statement are mapped to tokens and passed to the syntax analyzer:
+
+     - position maps to <id, 1>, where id represents an identifier and 1 
+       points to the symbol table entry for position.
+     - The assignment symbol = maps to <=> (Since this doesn't need an 
+       attribute value, we've omitted it)
+     - initial maps to <id, 2>, pointing to the symbol table entry for 
+       initial.
+     - + maps to <+>.
+     - rate maps to <id, 3>, pointing to the symbol table entry for rate.
+     - * maps to <*>.
+     - 60 maps to <60>.
+     
+     Blanks between lexemes are discarded. The assignment statement after 
+     lexical analysis is represented as a sequence of tokens:
+     
+     <id, 1> <=> <id, 2> <+> <id, 3> <*> <60>.
+
+2. Explain Syntax Analysis?
+ans: Syntax analysis, the second phase of a compiler, involves using the 
+     tokens produced by the lexical analyzer to create a tree-like 
+     intermediate representation that shows the grammatical structure of 
+     the token stream. This representation is often a syntax tree, where 
+     interior nodes represent operations and their children represent the 
+     operation's arguments.
+
+     The syntax tree for our token stream is:
+               =
+             /   \
+       <id, 1>     +
+                 /   \
+           <id, 2>     *
+                     /   \  
+               <id, 3>    60 
+
+     - The node labeled * indicates multiplication, with rate (represented 
+       by <id, 3>) as the left child and 60 as the right child.
+
+     - The node labeled + indicates addition, with the result of the 
+       multiplication as the left child and initial (represented by <id, 2>) as the right child.
+     
+     - The root node labeled = indicates assignment, with the result of the 
+       addition as the left child and position (represented by <id, 1>) as the right child. 
+
+3. Explain Semantic Analysis?
+ans: The semantic analyzer, using the syntax tree and the symbol table, 
+     checks the source program for semantic correctness according to the 
+     language definition. It ensures that operators have matching operands 
+     and performs type checking. For example, if an array index should be 
+     an integer, the analyzer reports an error if a floating-point number 
+     is used.
+
+     In our example, if position, initial, and rate are declared as 
+     floating-point numbers, and 60 is an integer, the semantic analyzer 
+     notes that the * operator is applied to a floating-point number (rate) 
+     and an integer (60). It then converts the integer into a 
+     floating-point number, as shown in the figure with an inttofloat 
+     operator node.
+
+     The semantic analyzer's role is to ensure that the types of operands 
+     are compatible with the operators being applied and to perform any 
+     necessary type conversions for consistency.
+
+     The syntax tree for our token stream is:
+               =
+             /   \
+       <id, 1>     +
+                 /   \
+           <id, 2>     *
+                     /   \  
+               <id, 3>   inttofloat
+                             | 
+                            60 
+
+4. Explain Intermediate Code Generation
+ans: During the translation of a source program into target code, compilers 
+     often create intermediate representations. Syntax trees, a common form 
+     of intermediate representation, are used in syntax and semantic 
+     analysis. After analyzing the source program, compilers generate a 
+     low-level intermediate representation, resembling a program for an 
+     abstract machine. This intermediate representation should have two 
+     important properties:
+     1. It should be simple and easy to produce  
+     2. It should be easy to translate into the target machine
+
+     In our example we would have
+      t1 = intofloat(60)
+      t2 = id3 * t1
+      t3 = id2 + t2
+      id1 = t3
+
+5. Explain the Code Optimizer
+ans: The machine-independent code-optimization phase attempts to improve 
+     the intermediate code so that a better target code will be the result. 
+     
+     The objectives for performing optimization are: faster execution, 
+     shorter code, or target code that consumes less power. In our example, 
+     the optimized code is: 
+      t1 = id3 * 60.0
+      id1 = id2 + t1
+
+6. Explain the Code Generator?
+ans: The code generator converts the intermediate representation of the 
+     source program into the target language. For machine code, it assigns 
+     registers or memory locations to variables and translates intermediate 
+     instructions into machine instructions. An important part is the 
+     efficient assignment of registers. If the target language is assembly, 
+     this phase generates assembly code.
+
+      LDF  R2, id3
+      MULF R2, R2, # 60.0
+      LDF  R1, id2
+      ADDF R1, R1, R2
+      STF  id1, R1
+
+     Each instruction's first operand is a destination. The 'F' indicates 
+     floating-point operations. The code loads id3 into R2, multiplies it 
+     by 60.0, loads id2 into R1, adds the values, and stores the result in 
+     id1, correctly implementing 
+     
+     position = initial + rate * 60. 
+
+7. Explain Symbol-Table Management?
+ans: A key role of a compiler is to record variable names used in the 
+     source program and gather information about each name's attributes. 
+     These attributes include storage allocation, type, scope (where the 
+     value can be used), and for procedures, the number and types of 
+     arguments, and how each argument is passed (by value or reference), 
+     and the return type.
+     
+     The symbol table is a data structure containing a record for each 
+     variable name, with fields for its attributes. The table is designed 
+     to allow the compiler to quickly find and access the record for each 
+     name
+
+8. Explain Error Detection and Reporting
+ans: Each phase can encounter errors. However, after detecting an error, a 
+     phase must somehow deal with that error, so that compilation can 
+     proceed, allowing further errors in the source program to be detected. 
+
+     A compiler that stops when it finds the first error is not a helpful 
+     one. 
+
+9. Show the translation of the below assignment statement through the 
+   compiler
+ans: SLIDE page 7
+
+10. List the 2 main phases of compilers and discuss them?
+ans: Analysis phase
+     Synthesis phase
+     
+     Explanation: 
+
+     1. Analysis
+     Analysis Phase performs 4 actions namely:  
+      a. Lexical analysis   
+      b. syntax analysis   
+      c. Semantic analysis   
+      d. Intermediate Code Generation
+
+     The analysis part breaks up the source program into constituent pieces 
+     and imposes a grammatical structure on them. It then uses this 
+     structure to create an intermediate representation of the source 
+     program. If the analysis part detects that the source program is 
+     either syntactically ill formed or semantically unsound, then it must 
+     provide informative messages, so the user can take corrective action. 
+     The analysis part also collects information about the source program 
+     and stores it in a data structure called a symbol table, which is 
+     passed along with the intermediate representation to the synthesis part
+
+
+     2. Synthesis phase
+     Synthesis Phase performs 2 actions namely:  
+      e. Code Optimization   
+      f. Code Generation
+     The synthesis part constructs the desired target program from the intermediate representation and the information in the symbol table. 
+     
+     The analysis part is often called the front end of the compiler; the synthesis part is the back end
+
+11. What is a Syntax Tree?
+ ans: Syntax tree is an abstract or compact form of a parse tree. They are 
+      also called Abstract Syntax Trees
+
+ b. What is a Parse Tree?
+ ans: A parse tress is a graphical representation of the replacement 
+      process of a derivation
+
+ c. Draw a Syntax Tree and a Parse Tree
+ ans: (SyntaxTree.pdf page 1)
+
+ d. List 4 differences between a Parse tree and a Syntax tree?
+ ans: TABLE: Parse Tree (P) vs Syntax Tree (S)
+ P1. Parse tree is a graphical representation of the replacement process 
+     in a derivation
+ S1. Syntax tree is the compact form of a parse tree
+
+ P2. Each interior node represents a grammar rule (or nonterminal). 
+     Each leaf node represents a terminal.
+ S2. Each interior node represents an operator. 
+     Each leaf node represents an operand.  
+ 
+ P3. Parse trees provide every characteristic information from the real 
+     syntax.
+ S3. Syntax trees do not provide every characteristic information from 
+     the real syntax
+
+ P4. Parse trees are comparatively less dense than syntax trees
+ S4. Syntax trees are comparatively more dense than parse trees
+
+
+ e. Generate the Postfix and Parse Tree for the below?
+    - ( a + b ) * ( c – d ) + ( ( e / f ) * ( a + b ))
+
+
+12. List and explain 5 types of compilers
+ans: - One Pass Compiler: A compiler that passes through the source code 
+       only once, generating the target code without revisiting any part of the code.
+
+     - Multi Pass Compiler: A compiler that makes multiple passes through 
+       the source code, each time performing different tasks such as 
+       lexical analysis, syntax analysis, semantic analysis, optimization, 
+       and code generation.
+
+     - Single-pass Compiler: A compiler that processes the source code in a 
+       single pass but may make multiple passes over the input to handle 
+       forward references.  
+
+     - Just-In-Time (JIT) Compiler: A compiler that translates bytecode or 
+       intermediate code into machine code at runtime, often used in 
+       virtual machines to improve performance.
+
+     - Ahead-Of-Time (AOT) Compiler: A compiler that translates source code 
+       into machine code before execution, producing a standalone 
+       executable file.
+
+     - Cross-Compiler: A compiler that runs on one platform but generates 
+       code for another platform, used for developing software for 
+       different architectures or operating systems.
+
+
+13. Define the following terms?
+ans: - Alphabet: In computer science, an alphabet refers to a set of 
+       symbols or characters that are used to construct strings. e.g {0, 1} 
+
+     - String: A string is a sequence of characters. In programming, a 
+       string is often used to represent text and is enclosed in quotation 
+       marks. For example, "hello" is a string consisting of the characters 
+       'h', 'e', 'l', 'l', 'o'.
+
+     - Language: In the context of formal languages, a language is a set of 
+       strings over an alphabet. It can be finite or infinite. For example, 
+       the language of all binary strings that start with '0' is an 
+       infinite set of strings like "0", "00", "000", and so on.
+
+14. 
+ans: Advantages of a Compiler:
+     - Efficiency: Compiled code tends to be faster than interpreted code 
+       because it is translated directly into machine code, optimizing 
+       performance.
+
+     - Portability: Once compiled, the executable code can be run on any 
+       system that supports the target architecture, without needing the 
+       original source code or compiler.
+
+     - Optimization: Compilers can perform various optimizations, such as 
+       code reordering and constant folding, to improve the efficiency of 
+       the generated code.
+
+     - Error Checking: Compilers can catch syntax errors and some semantic 
+       errors during the compilation process, helping to identify issues early in the development cycle.
+
+     - Security: Compiled code can be more secure than interpreted code, as 
+       the source code is not exposed and can be harder to reverse-engineer.
+
+     Disadvantages of a Compiler:
+     - Compilation Time: Compiling large programs can take a significant 
+       amount of time, especially for complex optimizations and large 
+       codebases.
+
+     - Debugging: Debugging compiled code can be challenging, as the 
+       generated machine code is not human-readable, making it harder to 
+       identify and fix issues.
+
+     - Platform Dependence: Compiled code is often specific to a particular 
+       platform or architecture, requiring separate compilation for 
+       different targets.
+
+     - Memory Usage: Compiled programs may consume more memory than 
+       interpreted programs, as they often include static data and code 
+       segments.
+
+     - Flexibility: Once compiled, the code cannot be easily modified 
+       without recompilation, limiting the ability to make quick changes or 
+       updates.
+
+
+     Advantages of an Interpreter:
+     - Interactivity: Interpreters can provide a more interactive 
+       development environment, allowing for quick testing and 
+       experimentation with code snippets.
+
+     - Portability: Since interpreters work with the source code directly, 
+       they can be more portable than compilers, requiring only an 
+       interpreter for execution.
+
+     - Ease of Development: Interpreted languages often have simpler syntax 
+       and semantics, making them easier to learn and use for beginners.
+
+     - Dynamic Typing: Interpreted languages typically support dynamic 
+       typing, allowing variables to change type at runtime, which can simplify development in some cases.
+
+     - Debugging: Debugging interpreted code can be easier than debugging 
+       compiled code, as interpreters can provide more detailed error 
+       messages and support interactive debugging features.
+
+     Disadvantages of an Interpreter:
+     - Performance: Interpreted code is generally slower than compiled 
+       code, as it is translated and executed line by line at runtime.
+
+     - Dependency on Interpreter: Interpreted languages require the 
+       presence of the interpreter on the target system, which can limit 
+       portability and increase deployment complexity.
+
+     - Security: Interpreted code can be more vulnerable to certain types 
+       of attacks, such as code injection, as the source code is often 
+       exposed.
+
+     - Memory Usage: Interpreters may consume more memory than compiled 
+       programs, as they need to keep track of the source code and 
+       interpreter state during execution.
+
+     - Lack of Optimization: Interpreters may not perform as many 
+       optimizations as compilers, leading to potentially less efficient 
+       code execution.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

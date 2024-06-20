@@ -1,0 +1,58 @@
+Haskell Program;
+
+-- Filename: Factorial.hs
+
+-- Lexical analysis: Tokenization of the source code
+module Factorial where
+
+-- Syntax analysis: Parsing the tokens into an abstract syntax tree (AST)
+factorial :: Integer -> Integer
+factorial 0 = 1
+factorial n = n * factorial (n - 1)
+
+-- Sematic analysis: Type checking and ensuring correct usage of functions and variables
+
+-- Intermediate code generator: Generating an intermediate representation (IR)
+-- In Haskell, the intermediate code is essentially the same as the abstract syntax tree.
+
+-- Symbol table: Managing and storing information about identifiers (variables, functions)
+-- Haskell doesn't require an explicit symbol table as it's a statically-typed language with inferred types.
+
+-- Optimization: Applying optimizations to the intermediate representation
+-- Haskell compilers perform various optimizations automatically.
+
+-- Code generation: Translating the intermediate code to machine-independent code
+-- In Haskell, the intermediate code is already quite high-level, so this step is less explicit.
+
+-- Target code: Generating machine-specific code from the machine-independent code
+-- This is handled by the Haskell compiler and is generally not visible in the source code.
+
+-- Example usage
+main :: IO ()
+main = do
+    let result = factorial 5
+    putStrLn $ "Factorial of 5 is: " ++ show result
+
+Broken Down Steps;
+1. Lexical Analysis:
+	The source code is tokenized into language elements (keywords, identifiers, operators).
+
+2. Syntax Analysis:
+	The tokens are parsed into an abstract syntax tree (AST), representing the syntactic structure of the program.
+
+3. Semantic Analysis:
+	Type checking and ensuring that the program adheres to the language's semantic rules. In Haskell, this is implicit due to its strong, static typing.
+
+4. Intermediate Code Generation:
+	In Haskell, the intermediate code is essentially the same as the abstract syntax tree.
+5. Symbol Table:
+	Haskell is a statically-typed language with type inference, so explicit symbol tables are not needed. The compiler manages symbol information.
+
+6. Optimization:
+	Haskell compilers perform various optimizations automatically, so explicit optimization steps are not usually included in the source code.
+
+7. Code Generation:
+	Translating the intermediate code (AST) into machine-independent code. In Haskell, the intermediate code is already quite high-level.
+
+8. Target Code:
+	Generating machine-specific code from the machine-independent code. This is handled by the Haskell compiler and is not explicitly present in the source code.

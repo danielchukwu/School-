@@ -1,0 +1,90 @@
+Phases of compilation using a simple example in a hypothetical programming language
+
+# Source Program
+def calculate_square(x):
+    result = x * x
+    return result
+
+# Main Program
+number = 5
+square_result = calculate_square(number)
+print("The square of", number, "is", square_result)
+
+
+Now, let's go through each phase of compilation:
+
+1. Source Program:
+  This is the original code written by the programmer.
+
+2. Lexical Analyzer:
+  The lexical analyzer scans the source code and breaks it into tokens. Tokens are the smallest units of the code, such as keywords, identifiers, operators, and literals.
+ Example tokens:
+
+  def, calculate_square, (, x, ), :, return, 5, *, print, "The square of", ,, number, ,, "is", ,, square_result, ,, 5, ,, calculate_square, (, number, ), :
+
+3. Syntax Analyzer:
+  The syntax analyzer (parser) checks the arrangement of tokens to ensure they form a valid syntax tree according to the language's grammar rules.
+
+4. Intermediate Code Generator:
+  The intermediate code generator translates the syntax tree into an intermediate representation. In this simplified example, let's consider a three-address code as the intermediate code.
+Example three-address code:
+
+t1 = x * x
+result = t1
+return result
+number = 5
+t2 = calculate_square(number)
+square_result = t2
+print("The square of", number, "is", square_result)
+
+5. Semantic Analyzer:
+  The semantic analyzer performs checks to ensure that the code has a meaningful interpretation. It checks for semantic errors that may not be captured by the syntax analysis.
+
+6. Symbol Table:
+  The symbol table keeps track of information about variables, functions, and their scopes. It stores details like variable types, memory locations, and function signatures.
+
+Example symbol table entries:
+
+calculate_square: function
+x: parameter
+result: variable
+number: variable
+square_result: variable
+
+7. Optimization:
+  The optimization phase aims to improve the efficiency of the code. It may include various transformations to reduce execution time or memory usage.
+
+8. Code Generator:
+  The code generator translates the intermediate code into machine code or another low-level representation that can be executed by the computer. In this hypothetical case, let's consider generating simple assembly code.
+
+Example assembly code:
+
+; Assembly code (hypothetical)
+MOV  R1, number
+MUL  R1, R1     ; Calculate square
+MOV  square_result, R1
+
+
+Computer Execution:
+  The generated code is executed on the target computer.
+
+N.B-> Keep in mind that this example is quite simplified, and real-world compilers involve additional complexities and optimizations. The described phases provide a general overview of the compilation process.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

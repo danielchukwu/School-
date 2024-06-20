@@ -1,0 +1,154 @@
+1a. Discuss the below
+    - Translator
+    - Compiler
+    - Interpreter 
+
+ans: A. Translator
+     A translator is a generic term used to describe a tool or a program that converts source code from one programming language into another. Translators are essential for enabling computers to understand and execute human-readable code. The two main types of translators are compilers and interpreters.
+
+     B. Compiler
+     A compiler is a specific type of translator that translates the "entire" source code of a program into machine code or an intermediate code before execution. The compilation process involves several stages, including lexical analysis, syntax analysis, etc. Once compiled, the resulting executable file can be run independently of the original source code. Compilation is a one-time process, and errors are detected before the program runs.
+
+     C. Interpreter
+     An interpreter, on the other hand, translates and executes the source code line by line, without generating a separate executable file. The interpreter reads the source code and directly executes the corresponding machine code or intermediate code. Errors are typically reported at runtime, and the program needs to be interpreted each time it is run. Interpreters are often associated with scripting languages and provide a more dynamic and interactive programming environment.
+
+ b. Discuss in details the difference between a compiler and an interpreter 
+    using python and use java as case studies
+ ans: Python (Interpreter):
+      - Python uses an interpreter to translate and execute the source code line by line.
+      - The Python interpreter reads the code, checks for errors, and executes it immediately.
+      - The absence of a separate compilation step makes Python code highly portable, and the interpreter is required to run Python programs.
+
+      Java (Compiler + Interpreter):
+      - Java uses a two-step process involving compilation and interpretation.
+      - The Java compiler translates the source code into platform-independent bytecode (.class files).
+      - The Java Virtual Machine (JVM) interprets the bytecode at runtime, making it executable on any system with a compatible JVM.
+      - This approach combines the portability of interpreted languages with the performance benefits of compiled languages.
+
+ b1. In a tabular format write the differences between Compilers and 
+     Interpreters?
+ ans: Compiler (C) vs	Interpreter (I)
+      -----------------------------------------------------------------
+      C1. Translates the entire source code before execution.	
+      I1. Translates and executes code line by line.
+
+      C2. Generates an intermediate code or machine code.	
+      I2. Does not necessarily produce an intermediate code; directly 
+          executes the source code.
+
+      C3. Execution Process	
+           1. Scans entire source code. 
+           2. Parses and analyzes syntax. 
+           3. Generates intermediate code or machine code. 
+           4. Executes the code.	
+      I3. Execution Process	
+           1. Reads and interprets source code line by line. 
+           2. Executes code immediately after translation.
+
+      C4. Errors are detected during the compilation process before 
+          execution begins.	
+      I4. Errors are often detected at runtime, line by line.
+
+      C5. Produces a standalone executable file.	
+      i5. Requires the presence of the interpreter during execution.
+
+      C6. Results in faster execution as the translation overhead 
+          is incurred only once.	
+      I6. May have more runtime overhead as the code is interpreted each 
+          time it runs.
+
+      C7. It can optimize memory usage by generating efficient machine code.
+      I7. May require more memory for interpreting the code at runtime.
+
+      C8. Produces platform-specific executables.	
+      I8. Generally more portable as the interpreter can be 
+          platform-independent.
+
+      C9. Longer development cycle due to compilation.	
+      I9. Shorter development cycle as code can be executed without prior 
+          compilation.
+      
+
+ c. Draw the below diagrams?
+    i. A Compiler
+    ans: (PDF page 1)
+    ii. Phases of a Compiler
+    ans: (PDF page 2)
+
+ d. List all Phases of the Compiler (in order)?
+ ans: - Lexical Analysis
+      - Syntax Analysis
+      - Semantic Analysis
+      - Intermediate code generation Analysis
+      - Code Optimization
+      - Code Generation
+
+ e. What are the 2 main parts of a compiler and discuss how they work together to produce 
+    a program
+ ans: A. Analysis Phase
+         The analysis part breaks up the source program into constituent pieces and imposes a grammatical structure on them. It then uses this structure to create an intermediate representation of the source program. If the analysis part detects that the source program is either syntactically ill formed or semantically unsound, then it must provide informative messages, so the user can take corrective action. The analysis part also collects information about the source program and stores it in a data structure called a symbol table, which is passed along with the intermediate representation to the synthesis part
+
+         This phase performs 4 actions namely:
+         a. Lexical analysis   
+         b. syntax analysis   
+         c. Semantic analysis   
+         d. Intermediate Code Generation
+
+      B. Synthesis Phase
+         The synthesis part constructs the desired target program from the 
+         intermediate representation and the information in the symbol 
+         table. The analysis part is often called the front end of the 
+         compiler; the synthesis part is the back end.
+
+         This phase performs 2 actions namely:
+         e. Code optimization
+         f. Code generation
+
+
+2a. With the aid of a diagram discuss the Phases of a Compiler 
+    - use the following code assuming all variables were previously declared; v = u + a * t
+ans: (use PDF page 7 as example)
+
+ b. (Using the diagram in 2a) State the first 3 phases of the compiler and what can cause errors in each of those stages (use java code to make your case)
+ ans: 1. Lexical Analysis:
+          - Errors in Lexical Analysis:
+            - Undefined Symbols: If the lexical analyzer encounters symbols (identifiers, keywords, etc.) that are not defined in the programming language's specification or are not part of the language's vocabulary.
+            - Illegal Characters: When the input source code contains characters that do not belong to the language's character set or are not allowed at certain locations in the code.
+            - Unterminated Strings or Comments: If a string or comment is not properly terminated, it can lead to errors in lexical analysis.
+
+      2. Syntax Analysis:
+          - Errors in Syntax Analysis:
+            - Syntax Errors: Occur when the structure of the source code violates the language's grammar rules. For example, missing semicolons, mismatched parentheses, or incorrect use of keywords.
+            - Ambiguities: Situations where the grammar allows for multiple interpretations of a given sequence of tokens, leading to difficulties in deciding the correct syntactic structure.
+            - Unexpected End of File: If the parser encounters the end of the file unexpectedly, it may result in syntax errors.
+
+      3. Semantic Analysis:
+          - Errors in Semantic Analysis:
+            - Type Mismatch: When there is an attempt to use a variable, function, or operator in a way that is incompatible with its declared or expected type.
+            - Undeclared Variables or Functions: Referencing variables or functions that have not been declared or defined in the current scope.
+            - Scope Violations: Occur when there are issues related to variable scope, such as using a variable outside its defined scope or redefining a variable within the same scope.
+            - Incompatible Operations: Performing operations that are not supported or allowed by the language specification.
+
+
+3a. Discuss the below
+    - Symbol-Table Management
+    - Error Detection and Reporting
+ans: 1. Symbol-Table Management  
+     An essential function of a compiler is to record the variable names used in the 
+     source program and collect information about various attributes of each name. These attributes 
+     may provide information about the storage allocated for a name, its type, its scope (where 
+     in the program its value may be used), and in the case of procedure names, such things as 
+     the number and types of its arguments, the method of passing each argument (for 
+     example, by value or by reference), and the type returned. The symbol table is a  
+     data structure containing a record for each variable name, with fields for the attributes of the 
+     name. The data structure should be designed to allow the compiler to find the record for each name 
+     quickly and to store or retrieve data from that record quickly.  
+
+     2. Error Detection and Reporting  
+     Each phase can encounter errors. However, after detecting an error, a phase must somehow deal 
+     with that error, so that compilation can proceed, allowing further errors in the source program 
+     to be detected. A compiler that stops when it finds  the first error is not a helpful one. 
+
+
+
+

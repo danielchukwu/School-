@@ -1,0 +1,109 @@
+1. What is a translator stating it's relevance to the field of computer 
+   programming. (2 marks)
+   a. Discuss in details the difference between a compiler and interpreter 
+      using python and java as case studies (10 marks)
+   b. What are the 2 main parts of a compiler and discuss how they work 
+      together to produce a program (3 marks)
+
+2. With the aid of a diagram discuss the phases of a compiler using the 
+   following code assuming all variables were previously declared; 
+   v = u + a * t. (5 marks)
+   a. Using the diagram in 2, state the first 3 phases of the compiler and 
+      what can cause errors in each of those stages (use java code to make 
+      your case) (10 marks)
+
+ANSWER
+
+1. What is a translator stating it's relevance to the field of computer 
+   programming. (2 marks)
+ans: Translators in computer programming convert high-level code into 
+     machine code. Compilers translate entire programs, optimizing them 
+     for efficiency, while interpreters translate and execute code 
+     line-by-line, useful for debugging. 
+     - Translators enable developers to write code in more human-readable 
+       languages, enhancing code maintenance and problem-solving. 
+     - They also ensure code portability, allowing programs to run on 
+       different platforms. 
+     - Translators facilitate code reuse by enabling the distribution of 
+       compiled libraries. Overall
+
+a. Discuss in details the difference between a compiler and interpreter 
+   using python and java as case studies (10 marks)
+ans: Interpreter (Python):
+     - Python uses an interpreter to execute code.
+     - The interpreter reads the source code line by line, parses it, and 
+       executes it directly.
+     - It translates each statement into machine code or intermediate code 
+       before executing it.
+     - Interpreted languages like Python are often easier to learn and use 
+       for beginners.
+     - Python's interpreter allows for interactive coding in REPL 
+       (Read-Eval-Print Loop) environments, enabling immediate feedback.
+
+     Draw a diagram of this
+
+    Compiler (Java):
+    - Java uses a two-step process. 
+    - The Java compiler converts Java source code into bytecode.
+    - The compiler checks the entire source code for errors and 
+      translates it into an intermediate language (bytecode) that is 
+      platform-independent.
+    - The bytecode is then executed by the Java Virtual Machine (JVM) which 
+      acts like an interpreter.
+    - Compilation in Java involves several steps (lexical analysis, 
+      parsing, semantic analysis, optimization, and intermediate code 
+      generation) before the final executable is produced.
+    - Compiled languages like Java often offer better performance and are 
+      more efficient in resource usage compared to interpreted languages
+
+     Draw a diagram of this
+
+b. What are the 2 main parts of a compiler and discuss how they work 
+   together to produce a program (3 marks)
+ans: A. Analysis Phase
+         The analysis part breaks up the source program into constituent pieces and imposes a grammatical structure on them. It then uses this structure to create an intermediate representation of the source program. If the analysis part detects that the source program is either syntactically ill formed or semantically unsound, then it must provide informative messages, so the user can take corrective action. The analysis part also collects information about the source program and stores it in a data structure called a symbol table, which is passed along with the intermediate representation to the synthesis part
+
+         This phase performs 4 actions namely:
+         a. Lexical analysis   
+         b. syntax analysis   
+         c. Semantic analysis   
+         d. Intermediate Code Generation
+
+      B. Synthesis Phase
+         The synthesis part constructs the desired target program from the 
+         intermediate representation and the information in the symbol 
+         table. The analysis part is often called the front end of the 
+         compiler; the synthesis part is the back end.
+
+         This phase performs 2 actions namely:
+         e. Code optimization
+         f. Code generation
+
+
+
+2. With the aid of a diagram discuss the phases of a compiler using the 
+   following code assuming all variables were previously declared; 
+   v = u + a * t. (5 marks)
+ans: (use PDF page 7 as example)
+
+   a. Using the diagram in 2, state the first 3 phases of the compiler and 
+      what can cause errors in each of those stages (use java code to make 
+      your case) (10 marks)
+   ans: 1. Lexical Analysis:
+          - Errors in Lexical Analysis:
+            - Undefined Symbols: If the lexical analyzer encounters symbols (identifiers, keywords, etc.) that are not defined in the programming language's specification or are not part of the language's vocabulary.
+            - Illegal Characters: When the input source code contains characters that do not belong to the language's character set or are not allowed at certain locations in the code.
+            - Unterminated Strings or Comments: If a string or comment is not properly terminated, it can lead to errors in lexical analysis.
+
+      2. Syntax Analysis:
+          - Errors in Syntax Analysis:
+            - Syntax Errors: Occur when the structure of the source code violates the language's grammar rules. For example, missing semicolons, mismatched parentheses, or incorrect use of keywords.
+            - Ambiguities: Situations where the grammar allows for multiple interpretations of a given sequence of tokens, leading to difficulties in deciding the correct syntactic structure.
+            - Unexpected End of File: If the parser encounters the end of the file unexpectedly, it may result in syntax errors.
+
+      3. Semantic Analysis:
+          - Errors in Semantic Analysis:
+            - Type Mismatch: When there is an attempt to use a variable, function, or operator in a way that is incompatible with its declared or expected type.
+            - Undeclared Variables or Functions: Referencing variables or functions that have not been declared or defined in the current scope.
+            - Scope Violations: Occur when there are issues related to variable scope, such as using a variable outside its defined scope or redefining a variable within the same scope.
+            - Incompatible Operations: Performing operations that are not supported or allowed by the language specification.
