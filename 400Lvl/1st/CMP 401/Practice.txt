@@ -1,0 +1,79 @@
+1ST 
+
+a. True
+
+b. brought about the need for programming languages with different goals
+
+c. Scientific applications
+   Business applications
+   Web softwares
+   Artificial Intelligence
+
+d. Natural language is a structured system of Communication used by humans through through speech, signs, gestures and writing
+
+e. The structure of a language is in its grammar and vocabulary
+
+f. done
+
+g. Programming Language is the vocabulary and set of grammatical rules used 
+   to instruct a computer
+
+h. done
+
+i. - Procedural
+   - Functional 
+   - Object oriented programming languages
+
+i1. Procedural programs execute statements (lines of code) in a sequence
+
+i2. 
+
+m. ISO, IEEE, ANSI
+
+o. 
+
+n. Formal language is a set of finite alphabets or equivalently an arbitrary subset of 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
