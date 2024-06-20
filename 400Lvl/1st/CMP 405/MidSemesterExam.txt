@@ -1,0 +1,33 @@
+CMP 405
+
+Answer All Questions
+
+1. In your own word, distinguish between computer graphics and graphic design
+ans: 
+     Computer Graphics involves creating, manipulating, and displaying visual content using computers. It focuses on the generation of images, animations, and visual representations of data. It includes areas such as rendering, animation, modeling, and simulation
+
+     Graphic design, on the other hand, is a subset of visual communication that involves creating visual content for various purposes, such as branding, advertising, and user interface design. Graphic designers use computer graphics tools to create designs that communicate specific messages or evoke certain emotions.
+
+2. Describe in detail how the Infrared touch panel works
+ans: An Infrared touch panel works by using an array of infrared LED lights 
+     and photodetectors placed around the edges of a display. The LEDs emit 
+     infrared light across the surface of the display in a grid pattern. When 
+     a user touches the screen, their finger or stylus interrupts the infrared 
+     light beams, which are then detected by the photodetectors. The touch 
+     panel uses this information to determine the location of the touch. By 
+     analyzing which beams are interrupted, the system can calculate the 
+     precise coordinates of the touch point. This technology allows for accurate and responsive touch input on the screen
+
+3. Write a short note on picture elements highlighting their properties and 
+   how it impacts screen resolution
+ans: They are the smallest addressable screen element. They are 
+     arranged in a grid pattern and are illuminated to create images on a 
+     screen. Pixels have properties such as color (or grayscale intensity), 
+     brightness, and position. The number of pixels in a display, along with 
+     their properties, determines the screen resolution. Higher resolutions 
+     have more pixels, which can result in sharper and more detailed images. 
+     Screen resolution impacts the clarity and quality of displayed content, 
+     with higher resolutions generally providing better visual fidelity.
+
+
+4. Describe how the keyboard works
