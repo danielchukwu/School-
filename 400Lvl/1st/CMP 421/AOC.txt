@@ -1,0 +1,13 @@
+AOC for CMP 411
+Read everything on ...
+
+1. Multiprocessor
+2. Transparency
+3. Mobile computing 
+4. GSM services
+
+Extra:
+- Answer ExamPrepTheoryAnswers.txt questions and answers for this 
+  (preferably 1 to 20) 
+- Study Slide page 82 - 86 on (Handover)
+

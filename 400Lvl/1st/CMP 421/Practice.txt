@@ -1,0 +1,5 @@
+Access Transparency
+Location Transparency
+Concurrency Transparency
+Failure Transparency
+Scaling Transparency

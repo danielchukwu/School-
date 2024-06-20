@@ -1,0 +1,1363 @@
+CMP 421 EXAM PREP
+Best Practice: Study using a big screen device. Be it a laptop or a tablet. It won't be best to use phones (even though y'all ain't with your phones 😉)
+
+
+
+----------------------------------------------------------------
+
+
+TODO: for upcoming test (due 18th february 2024) study from line 10 - 435
+
+NET-CENTRIC COMPUTING
+
+
+
+Introduction
+
+1a. Earlier computer systems functioned in _________ from one another?
+ans: isolation
+
+b. Today it is almost impossible to conceive of a computer system that is not __________________?
+ans: networked in some way to other systems
+
+c. There are a wide variety of devices connected to the Internet.true or false?
+ans: true
+
+d. What is Net-Centric Computing?
+ans: It is a computing where network plays the central or larger role
+
+e. What is computing?
+ans: it is the process of using computer technology to complete a given–oriented task.
+
+f. Computing may encompass the _____ and _______ of software and hardware systems for 
+   _________________
+ans: design, development, a broad range of purpose
+
+g. Computing is fundamentally about ________________?
+ans: information process
+
+h. What is the CPU (Central Processing Unit)?
+ans: it is a piece of hardware that carries out the instructions of a computer program. 
+     It is considered the brain of the computer system
+
+i. The CPU performs the basic __________________________________ of a computer system?
+ans: arithmetic, logical and input/output operations
+
+j. The Central Processing Unit (CPU) is also called the _________?
+ans: processor
+
+k. What is a Multiprocessor System?
+ans: it is a system which has more than 2 processors in the system
+
+l. What are the 2 types of Multiprocessing Systems?
+ans: - Loosely coupled and
+     - Tightly coupled
+
+l1. Describe both systems?
+ans: - Tightly coupled systems are referred to as parallel computing systems 
+     - Loosely coupled systems are referred to as distributed computing system
+
+l2. ___________ are referred to as distributed computing systems?
+ans: Loosely coupled systems
+
+l3. ___________ are referred to as parallel computing systems?
+ans: Tightly coupled systems
+
+l4. The degree of coupling between the processors are low in _____________ system
+ans: loosely coupled
+
+l5. The degree of coupling between the processors are high in _____________ system
+ans: Tightly coupled
+
+l6. Draw a diagram of the Loosely Coupled System?
+ans: Slide (page 5)
+
+l7. Draw a diagram of the Tightly Coupled System?
+ans: Slide (page 6)
+
+l8. List the key differences between loosely coupled and Tightly coupled Multiprocessor systems?
+ans: - Loosely coupled system has distributed memory where as tightly coupled system has 
+       shared memory.
+     - Loosely coupled is efficient when the tasks running on different processor has 
+       minimal interaction between then. While, the tightly coupled system can take a higher 
+       degree of interaction between processors and is efficient for high-speed and 
+       real-time processing.
+     - The loosely coupled system generally do not encounter memory conflict which is mostly 
+       experienced by tightly coupled system.
+     - The data rate of the loosely coupled system is low whereas the data rate of tightly 
+       coupled system is high.
+     - The loosely coupled system is less expensive but larger in size whereas tightly 
+       coupled system is more expensive but compact in size.
+     - The Interconnection network in a loosely coupled system is message transfer system 
+       (MTS) whereas, in a tightly coupled system the Interconnection networks are 
+       Processor-Memory Interconnection network. (PMIN) and the Interrupt-signal 
+       Interconnection Network (ISIN).
+
+
+CENTRALISED COMPUTING 
+
+2a. What is Centralised computing?
+ans: is computing done at a central location, that is all or most of the processing is 
+     performed on a central server
+
+b. What type of architecture does Centralised computing use?
+ans: client/server architecture (where one or more client nodes are directly connected to 
+     a central server)
+
+c. How does the client/server architecture work?
+ans: the client sends a request to a server and receivers from server
+
+d. List the characteristics of Centralised Computing?
+ans: - Presence of Global Clock: All clients modes sync up with the clock of the central 
+       node (global clock)
+     - One Single Central Unit: One single central unit which serves/coordinates all the    
+       other nodes
+     - Department Failure of Components. Central node failure causes system to fail.
+
+e. Draw a diagram of Centralized Computing?
+ans: Slide (page 10)
+
+f. List 6 advantages of Centralised computing?
+ans: - Easy to physically secure.
+     - Smooth and elegant person experience.
+     - Dedicated resources.
+     - More cost effective.
+     - Quick updates are possible.
+     - Easy detachment of a node from the network.
+
+g. List 4 disadvantages of Centralised Computer?
+ans: - Highly dependent on system. If the system fails, all nodes fail.
+     - No graceful degradation of system.
+     - Less possibility of data backup.
+     - Difficult to maintain server.
+
+
+
+DECENTRALISED COMPUTING 
+
+3a. What is Decentralised Computing?
+ans: it is an interconnected information system where no single entity is the sole authority.
+     or
+     a decentralised computing is collection of autonomous computers which communicate with one another to perform a common service
+
+b. A decentralised computing architecture distributes _____________________________?
+ans: workloads among several machines instead of relying on a single central server
+
+c. A decentralised computing generally has multiple authoritative nodes, each of which 
+   _____________________________
+ans: serves a subset of the total end users
+
+d. In decentralised computing, these are different CPU connected on the network and each 
+   processor can do its job _________ of each other
+ans: independent
+
+e. List the characteristics of Decentralised Computing?
+ans: - multiple Central Units –there is more than one central unit which can listen for 
+       connections from other nodes,.
+     - Department failure of components –one central node failure causes only partial 
+       system failure and not complete system.
+     - Lack of a global clock –each node is independent, hence different clocks that they 
+       run and follow.
+
+f. Draw a diagram of a Decentralized System?
+ans: Slide (page 15)
+
+g. List 3 advantages of a Decentralized System?
+ans: - Minimal problem of performance bottlenecks occurring –it allows balancing the network
+     - High availability
+     - More autonomy and control over resources
+
+h. List 5 disadvantages of a Decentralized System?
+ans: - May lead to problem of coordination of the enterprise level.
+     - Not suitable for small system.
+     - Difficult to know which node failed.
+     - Difficult to know which node responded.
+     - No regulatory oversight.
+
+
+
+PARALLEL COMPUTING
+
+4a. What is Parallel Computing?
+ans: it is a technique of computing where multiple tasks are processed simultaneously on 
+     multiple processors
+
+b. In parallel computing, a given task uses divide & conquer technique and each one of 
+   the task are _______________________?
+ans: Processed on different CPU's
+
+c. Parallel computing are used for _____________________?
+ans: Complex Calculation
+
+d. Why Parallel Computing?
+ans: - Many applications today require more computing power than a traditional sequential 
+       computer can offer
+      - Parallel computing provides a cost –effective solution to solve complex problem.
+      - Parallel computing allow an increase in the number of CPUs in a computer and also 
+        adding an efficient communication between the CPUs.
+      - It allows work load to be shared between processors and hence a higher computing 
+        power
+
+e. Draw a diagram showing Parallel Computing?
+ans: Slide (page 19)
+
+
+DISTRIBUTED COMPUTING
+
+f. What is Distributed Computing?
+ans: it refers to multiple computer systems working on a single problem
+
+g. In distributed system every node make its __________?
+ans: own decision
+
+h. In distributed computing, every node on the network ______________________________?
+ans: communicates with every other node and are working together as a single system
+
+i. In distributed computing, a single problem (or task) is ________________________________?
+ans: divided into many parts, and each part is solved by different computers
+
+j. The aim of distributing computing is to _____________________________________________?
+ans: maximize performance by connecting users and IT resources in a cost effective, 
+     transparent and reliable manner by utilizing computer resources as if it is a single system
+
+k. These computers can communicate with other computers through the __________
+ans: Network
+
+l. Each computer in a distributed system is known as a _______
+ans: Node
+
+m. A set of nodes is known as a __________
+ans: cluster
+
+n. Name 2 big companies that use distributed computing?
+ans: Facebook and
+     Google
+
+o. Draw a diagram of a distributed database system?
+ans: Slide (page 22)
+
+p. List the characteristics of distributed computing?
+ans: - Concurrency of components – node applies consensus protocols to agree on same 
+       values/transactions/command/logs
+     - Lack of a global clock: all nodes maintain their own clock Independently without 
+       having a significant effect on the  entire system
+
+q. In a table, list at least 5 differences between Parallel vs Distributed Computing?
+ans: Parallel Computing vs Distributing Computing
+
+P1. Parallel Computing is a computation type in which multiple processors execute multiple 
+    tasks simultaneously
+D1. Distributing Computing is a computation type in which networked computers communicate 
+    and coordinate the work through message passing to achieve a common goal.
+
+P2. Parallel Computing occurs on one computer
+D2. occurs between multiple computers
+
+P3. In Parallel Computing, multiple processors perform Processing
+D3. In Distributing Computing , computer rely on message passing
+
+P4. All processors share a single master clock for synchronization
+D4. There is no global clock in distributing computing , it uses synchronization algorithms
+
+P5. In Parallel Computing , computers can have shared memory or distributed memory
+D5. In distributing computing , each  computer has their own memory
+
+P6. Parallel Computing is used to increase performance and for scientific computation
+D6. Distributing Computing is used to share resources and to increase scalability
+
+r. List the advantages of Distributed Computing?
+ans: - Low latency than centralised or decentralised system.
+     - It has redundancy and resiliency.
+     - It has high spread and content distribution.
+     - A distributed computing is scalable and can be designed parallelism
+
+s. List the disadvantages of Distributed Computing?
+ans: - It is difficult to design
+     - It can be difficult to spot bugs that causes errors
+     - Security and privacy can become an issue with distributed systems
+     - It can be overkill for some tasks, using more physical resources and 
+       engineering time than is necessary
+
+t. Draw a diagram showing the Centralized, Decentralized, distributed systems?
+ans: Slide (page 26)
+
+u. List all 5 distributed computing models?
+ans: - Minicomputer model
+     - Workstation model
+     - Workstation-Server model
+     - Processor-Pool model
+     - Hybrid model
+
+Minicomputer Model
+u1. The Minicomputer model is a simple extension of _____________________________?
+ans: the centralized time sharing system
+
+u2. The minicomputer model consists of?
+ans: a few minicomputers interconnected by a communication network where each minicomputer 
+     usually has multiple users simultaneously logged onto it
+
+u3. ________________ are connected to each minicomputer
+ans: Several interactive terminals
+
+u4. Each user logged onto a specific minicomputer, has __________________________?
+ans: remote access to other minicomputers
+
+u5. The network allow the user to access remote resources that are available on some 
+    machines other than the one on to which the user is currently logged into. true or false?
+ans: true
+
+u6. The minicomputer model may be used when resource sharing with remote users is desired
+ans: true
+
+u7. The early _________ is an example of a distributed computing system based on the 
+    minicomputer model
+ans: ARPA net
+
+u8. Draw diagram of the Minicomputer Model?
+ans: Slide(page 28)
+
+
+Workstation Model
+u9. The workstation model is a model that ___________________________________?
+ans: consists of several workstation interconnected by a communication network
+
+u10. An organization may have several workstations located throughout an organisation with 
+     infrastructure were each workstation is equipped with its own disk and serves as a 
+     single-user computer. In the Workstation Model environment, at any one time a significant proportion of the workstation are idle which result in ____________________________?
+ans: the waste of large amount of CPU time
+
+u12. The idea of the workstation model is to ______________________________________?
+ans: interconnect all these workstations by a high-speed LAN so that idle workstation may be used to process jobs of users who are logged onto other workstations and do not have sufficient processing power at their own workstations to get their jobs processed efficiently
+
+u13. Draw a diagram of the Workstation Model?
+ans: Slide (page 30)
+
+
+Workstation-Server Model
+
+u14. The workstation model is a network of _________________________________
+ans: personal workstations (having its own disk & local file system)
+
+u15. A workstation with its own local disk is usually called a _________________ 
+ans: diskful workstation
+
+u16. A workstation without a local disk is called a _______________________
+ans: diskless workstation
+
+u17. The workstation-server model is a model that __________________________?
+ans: consist of a few minicomputers and several workstations interconnected by a 
+     communication network 
+
+u18. How does the workstation-server model work?
+ans: a user logs onto a workstation called his or her home workstation. Normal computation 
+     activities required by the user’s processes are performed at the user’s home 
+     workstation but request for services provided by special servers are sent to a 
+     server providing that type of service that performs the user’s requested activity 
+     and returns the result of request processing to the user’s workstation
+
+u19. In this model, the user’s process need not be migrated to the sever machines in 
+     order to get the work done
+ans: true
+
+u20. An example of the Workstation-server Model is the __________________?
+ans: V-System
+
+u21. Draw a diagram of the Workstation-server Model?
+ans: Slide (page 32)
+
+
+Processor-Pool Model
+
+u22. The processor-pool model is based on ___________________________________?
+ans: the observation that most of the time a user does not need any computing Power but 
+     once in a while the users may need a very large amount of computing power for a 
+     short time
+
+u23. Unlike the workstation-server model, in which a processor is allocated to each user, in processor-pool model ___________________________________?
+ans: the processor are pooled together to be shared by the users as needed
+
+u24. The pool of a processor consist of _______________________________?
+ans: a large number of microcomputers attached to the network
+
+u25. Each processor in the pool has its own memory to _______________________ of the distributed computing system
+ans: load and run a system program or an application program
+
+u26. In this model no home machine is present and the user does not log onto any machine.
+ans: true
+
+u27. The processor-pool model has better utilization of _________________ and _________________
+ans: processing power, greater flexibility
+
+u28. List 2 examples of the Processor-pool Model?
+ans: Amoeba and 
+     The Cambridge Distributed Computing System
+
+u29. Draw a diagram of the Processor-pool Model?
+ans: Slide (page 34)
+
+
+Hybrid Model
+
+- In a working environment that has group of users who often perform
+jobs needing massive computation, the processor pool model is more
+attractive and suitable.
+- To combine advantages of workstation-server and processor-pool
+model, a hybrid model can be used to build a distributed system.
+- The processor in the pool can be allocated dynamically for
+computations that are too large or require several computers for
+execution.
+- The hybrid model gives guaranteed response to interactive jobs
+allowing them to be more processed in local workstations of the users
+
+
+u30. The Hybrid model has __________________________________?
+ans: a large number of computer users only performing simple interactive task and 
+     executing small programs
+
+u31. In a working environment that has group of users who often perform jobs needing 
+     massive computation, _______________ model is more attractive and suitable
+ans: the processor pool
+
+u32. hybrid model combines the advantages of the ____________________ and _______________?
+ans: workstation-server, processor-pool model
+
+u33. The processor in the pool can be allocated dynamically for _____________________?
+ans: computations that are too large or require several computers for execution
+
+u34. The hybrid model gives guaranteed response to interactive jobs allowing them to be _________________________?
+ans: more processed in local workstations of the users
+
+
+
+
+OPERATING SYSTEM
+
+
+5a. What is Operating System?
+ans: it is a system software that manages computer hardware, software resources, and 
+     provides common services for computer programs
+     or
+     It is an integrated set of specialised programs used to manage overall resources and
+     operation of the computer
+     or
+     It is a specialised software that control and monitors the execution of all other 
+     programs that reside in the computer, including application programs and other 
+     systems software
+     
+
+b. Give 3 popular examples of Operating System?
+ans: Windows, MacOS and Linux
+
+c. An operating system is a program that acts as an interface between the computers __________ and ____________?
+ans: software, hardware
+
+d. What are the the objectives of the Operating System?
+ans: - To hide the detail of the hardware resources from the users
+     - To provide users a convenient interface to use the computer system
+     - To manage the resources of a computer system.
+     - To keep track of who is using  which resource, granting resource requests and mediating conflict request from different programs and users,
+     - To provide efficient and fair sharing of resources among users and programs
+
+e. List at least 5 functions of the Operating System?
+ans: - Memory Management
+     - Processor Management
+     - Device Management
+     - File Management
+     - Security
+     - Job Accounting
+     - Interaction with the Operators
+     - Error-Detecting Aids
+
+e1. Explain all functions?
+ans: - Memory Management: keep track of the primary memory, i.e Registering used and 
+       empty memory location and allocate the memory when a process or  program request it.
+     - Processor Management: Allocates the processor to a process and de-allocates the 
+       processor when it is no longer required.
+     - Device Management: Keep track of all the devices. This is also called I/O 
+       controller. It decides which process gets the device, when, and for how much time.
+     - File Management: Allocates and de-allocates the resources and decides who gets 
+       the resources.
+     - Security: Prevent unauthorised access to programs and data by means of passwords 
+       and other similar techniques.
+     - Job Accounting –Keeps truck of time and resources used by various jobs and/or users. 
+     - Interaction with the Operators –interaction may take place via the console of the 
+       computer in the form of instructions.
+     - Error –Detecting Aids –Production of traces, error massages and other debugging and 
+       error detecting methods.
+
+
+DISTRIBUTED OPERATING SYSTEMS
+
+f. What is a Distributed Operating System?
+ans: it's an operating system that runs on several machines whose purpose is to provide a 
+     useful set of services, generally to make the collection of machines behave more like 
+     a single machine
+
+g. The machine controlled by a distributed operating system are connected by _______________________________?
+ans: a relatively high quality network (such as a high speed local area network)
+
+h. Distributed operating system typically runs cooperatively on all machines whose 
+   __________________?
+ans: resources they control
+
+h. Distributed operating system is an extension of ___________________________?
+ans: network operating system (that supports higher level of communication and integration of the machines on the network)
+
+i. What is a Networking Operating System?
+ans: it is an operating system designed for the sole purpose of supporting workstations, 
+     database, sharing, application sharing and file and printer access sharing among 
+     multiple computers in a network
+
+j. List some of the challenges in building Distributed Operating Systems
+ans: - Designing a distributed operating system is more difficult than designing a 
+       centralised operating system.
+     - It is assumed that the operating system has access to complete and accurate 
+       information about the environment in which it is functioning. However, a 
+       distributed operating system must be designed with the assumption that complete 
+       information about the system environment will never be available.
+     - In a distributed system, the resources are physically separated, there is no 
+       common clock among the multiple processors, delivery of messages is delayed, 
+       messages could even be lost.
+     - Due to the above reasons, a distributed operating system does not have up-to-date 
+       consistent knowledge about the state of the various components of the underlying 
+       distributed system.
+     - Despite these complexities and difficulties, a distributed operating system must 
+       be designed to provide all the advantages of distributed system to its user. That 
+       is the users should be able to virtue centralised system that is flexible, 
+       efficient, secure and easy to use.
+
+
+
+
+TRANSPARENCY
+
+
+k. Transparency is an important characteristic of distributed systems, why is this?
+ans: Because it makes their operation in the eyes of the user to be more friendly, easy 
+     or simple transparent
+
+l. Users should be unaware of the complexities and the location of the services, and 
+   the transfer from a local to a remote machine should remain transparent to them
+ans: true
+
+m. What is Transparency?
+ans: it is the concealment from the user and the application programmer of the separation 
+     of components such that it is perceived as a single programmers rather than a 
+     collection of autonomous systems which are cooperating
+
+n. List the 8 types of transparencies in a Distributed System?
+ans: - Access, 
+     - Location migration, 
+     - Relocation, 
+     - Replication, 
+     - Concurrency, 
+     - Failure and 
+     - Persistence Transparency
+
+o. List some of the issues of Transparency when designing a Distributed System?
+ans: - Access transparency enables users to be unaware of the distribution of files. 
+       The files could be present on a totally different set of servers which are 
+       physically distant apart and a single set of operations should be provided to 
+       access these remote files.
+     - Location transparency enables sources to be accessed without knowledge their 
+       physical or remote location.
+     - Failure transparency enables the concealment of faults, allowing users and 
+       application programs to complete their task despite the failure of hardware 
+       or software components.
+     - Concurrency transparency enables several processes to operate concurrently using 
+       shared resources without interference between them
+     - Scaling transparency enables a system to grow without affecting application 
+       algorithm. Note graceful growth and evolution is an important requirement for 
+       most enterprises.
+     - Performance transparency enables systems to be reconfigured to improve the 
+       performance if the need arises.
+     - Migration transparency enables the users to be unaware of the movement of 
+       information of processes within a system without affecting the operations of the 
+       users and the applications hat are running.
+
+
+
+
+
+
+REMOTE PROCEDURE CALL (RPC)
+
+6a. What is a Remote Procedure Call (RPC)?
+ans: is an inter process communication technique that is used for client-server based 
+     application.
+
+b. RPC is also known as __________ or __________?
+ans: subroutine call function call
+
+c. How does RPC work?
+ans: When a client has a request message, the RPC translates it and sends to the server. 
+   The request may be a procedure (or a function) call to the remote server
+   The server receives the request, processes the request, and sends the required response 
+   back to the client.
+   The client is blocked while the server is processing the call and only resumes 
+   execution after the server is finished.
+
+d. Draw a diagram of the Remote Procedure Call (RPC)?
+ans: Slide (page 45)
+
+e. List the sequence of events in a RPC?
+ans: - The client stub is called by the client 
+     - The client stub makes a system call to  send the message to the server and puts 
+       the parameters in the message
+     - The message is sent from the client to the server by the clients operating system
+     - The message is passed to the server stub by the servers operating system
+     - The parameters are removed from the message by the server stub
+     - The server procedure is called by the server stub
+
+f. Draw a diagram of the Events of RPC?
+ans: Slide (page 47)
+
+g. List the advantages of RPC?
+ans: - RPC supports process oriented and thread oriented models
+     - The internal message passing mechanism of RPC is hidden from the user
+     - The effort to rewrite and redevelop the code is minimum in RPC
+     - Many of the protocol layers are omitted by RPC to improve performance
+
+h. List the disadvantages of RPC?
+ans: - It is not standardised, it can be interpreted in many ways.
+     - There is no flexibility in RPC for hardware architecture. 
+     - There is an increase in costs because of RPC
+
+
+
+Distributed Shared Memory (DSM)
+
+i. What is DSM?
+ans: DSM is a form of memory architecture where physically separated memories can be
+     addressed as one logically shared address space
+
+j. Draw a diagram of the DSM?
+ans: Slide (page 50)
+
+k. List the advantages of DSM?
+ans: - Single address space; simplifies passing-by-reference
+     - No memory access bottleneck as no single bus
+     - Large virtual memory space
+     - Hide data movement and provide a simpler abstraction for sharing data
+     - Cheaper to build than multiprocessor systems
+
+l. List the disadvantages of DSM?
+ans: - Programmers need to understand consistency models
+     - By yielding control to DSM manager software, programmers cannot use their own 
+       msg-passing solutions
+
+m. What is synchronization?
+ans: it is the coordination of hardware devices, such that the data they contain or 
+     provide is made to be identical
+
+
+
+
+
+
+
+
+MOBILE COMPUTING
+
+7a. What is Mobile Computing?
+ans: it is a term used to describe technologies that enable people to access network services anyplace, 
+     anytime, and anywhere
+     or
+     It can be defined as a computing environment over physical mobility
+
+b. The user of mobile computing environment will be able to access ____________________________?
+ans: data, information or other logical objects from any device in any network while on the move
+
+c. The computing environment is ________ and _________________________?
+ans: mobile, it moves along with the user
+
+d. An example of Mobile Computing would be ___________________________?
+ans: Global System for Mobile Communication (GSM)
+
+e. List some of the characteristics that communication devices can be on?
+ans: - Fixed and wired
+     - Mobile and wired
+     - Fixed and wireless
+     - Mobile and wireless
+
+f. Mobile computing refers to the use of small and portable computing devices in wireless enabled 
+   networks that perform computation tasks. true or false?
+ans: true
+
+g. Mobile Computing enables people to access network services anyplace, and anytime, with 
+portable and wireless computing and communication enabled devices. true or false?
+ans: true
+
+h. Mobile Computing allows transmission of data, voice and video via a computer or any other 
+   wireless enabled device without having to be connected to a fixed physical link
+ans: true
+
+i. Mobile Computing consists of ____________, ___________ and _______________?
+ans: the hardware devices, the software and communication parts
+
+j. List some applications of Mobile Computing?
+ans: - Transportation,
+     - Emergencies
+     - Business
+     - Financial Services
+     - Data Capturing
+
+j1. Explain these application scenarios
+ans: - Transportation: Buses, trucks, trains, aircrafts, and ships transmit information 
+       logistic, maintenance , weather reports, news, road conditions, current position of the vehicles
+       through global positioning system (GPS) to their home station. This help in effective management 
+       of transportation system which saves time and money.
+     - Emergencies: An ambulance with a high quality wireless connection to a hospital can transmit 
+       vital information about injured person to the hospital from the scene of the accident. All the 
+       needed treatment for the accident person can be prepared and specialist can be consulted for a 
+       early diagnosis.
+     - Business: Field officers can communicate within their head offices, send and receive information 
+       for decision making. Also mobile computing help offices to monitor their field officers etc.
+     - Financial Services: At point of Sales(POS) terminals in shop and supermarkets, when customer use 
+       credit cards for transactions, the mobile network facilitate  communication between the POS 
+       terminal and the bank central computer system for verification and effective transaction.
+     - Data Capturing: Mostly mobile devices are used for data collections in fields, such as weather, 
+       despatch delivery information, geo-mining etc.
+
+l. List 6 Limitations of Mobile Computing?
+ans: - Resource constraints: Battery
+     - Interferences and loss rates for transmitted data
+     - Bandwidth: need for more bandwidth as a result of high overhead compare to shield wire.
+     - Dynamic changes in communication environment.
+     - Interoperability issues with regard to protocol standard.
+     - Security constraint: not only portable devices can easily be stolen, but radio interface is also 
+       prove to be damage of eaves dropping. Wireless access must always include encryption, authentication, etc.
+
+m. What are the Mobile Computing simplified Reference Model?
+ans: - Physical layer
+     - Datalink layer
+     - Network layer
+     - Transport layer
+     - Application layer
+
+m1. Explain the models?
+ans: - Physical layer: for wireless communication, the physical layer is responsible for 
+       frequency selection, generation of the carrier frequency, signal detection (although 
+       heavy interference may disturb the signal) modulation of data into a carrier frequency 
+       and encryption.
+     - Datalink layer: The main task of this layer include accessing the medium multiplexing 
+       of different data streams, correction of transmission errors and synchronization. 
+       It is also responsible for point-point connection between two devices or a 
+       point-to-multipoint connection between one sender and several receivers.
+     - Network Layer: This layer is responsible for routing packets through a network or 
+       establishing a connection between two entities (devices) over many other intermediate 
+       system. In wireless network, this layer is specifically responding for addressing, 
+       routing, devices location, and handover between different networks.
+     - Transport Layer:. This layer is responsible for end-to-end connection.
+     - Application layer: This layer is responsible for service location, support for multimedia 
+       applications, adaptive application that can handle the large variation in transmission 
+       and wireless access to the world-wide web.
+
+m2. The intermediate systems, such as the interworking unit do not necessarily need all of 
+    the layers in the above reference model. true or false
+ans: true
+
+n. Draw a diagram showing A Simplified Reference Model?
+ans: Slide (page 59)
+
+
+
+Wireless transmission
+
+o. What is Communication?
+ans: it is a two-way transmission and reception of data streams
+     or 
+     it involves two or more Communicating devices where the transmitter sends the signals 
+     and received by receivers
+
+p. What is Mobile Communication?
+ans: Mobile communication entails transmission of data to and from communicating devices, whereby at least 
+     one of the device is mobile which is remotely located.
+
+q. Wireless Communication uses ________________ for transmission?
+ans: Unguided media
+
+r. In Wireless form of transmission, what happens?
+ans: Electrical signals are transmitted by converting them into electromagnetic radiation. 
+     The radiation is transmitted via antennae that radiates electromagnetic signals.
+
+s. Wireless systems operate via transmission through space, other than through physical connections
+ans: true
+
+t. What is Frequency?
+ans: Frequency is the rate at which current changes direction per second
+
+u. What is Spectrum?
+ans: it refers to the invisible radio frequencies that wireless signals travel over
+
+v. We have various signal frequency bands within the electromagnetic spectrum, whereby a 
+   frequency of a signal is measured by
+ans: f=c/λ
+     - Frequency, f is measured in Hz
+     - wavelength, λ in meter
+     - the velocity of signal propagation,
+
+ASSIGNMENT
+- Read about ranges of Frequencies and Wavelengths allocations and spectrum management in Nigeria.
+
+---
+Calculation
+Computation of frequency from wavelength
+w. A certain sound wave traveling in the air has a wavelength of 322 nm when the velocity 
+   of sound is 320 m/s. What is the frequency of this sound wave?
+ans: 
+• f=c/λ
+• λ= 322nm convert to m > 322nm X 1m/10^9nm  >  0.000000322m
+• C= 320m/s
+• F= 320m/s / 0.000000322 = 993788819.88 Hz
+• F= 9.94 *10^8H
+
+Computation of frequency in a vacuum
+x. Note the speed of electromagnetic wave in a vacuum is constant 
+given as 3.00 * 10^8 m/s. Therefore, if λ = 5.73 * 10^-7 m
+ans: 
+• F = 3.00*10^8 m/s  / 5.73 *10^-7m
+• F = 5.24 * 10^14 Hz
+--
+
+y. List some of the factors that determine the quality of communication
+ans: - Line-of-sight propagation. This is the ideal transmission of signals, without 
+       refraction, diffraction, or scattering in between the transmitter and the 
+       receiver, but losses do occur.
+     - Attenuation. When obstacles are greater in size than signal wavelength, the 
+       strength of the signal decreases e.g. A GSM 900 MHz ( λ > = 33 cm) signal, will 
+       face attenuation in objects of size > 1 m (>> λ~33cm)
+     - Scattering. When obstacle size is equal to or less than wavelength. This 
+       decreases signal strength greatly e.g. A GSM signal, about 33 cm in wavelength, 
+       scattered by an object of 30 cm or less makes only a small part of the scattered 
+       signal to reach the receive
+     - Diffraction. A signal bends from the edges of an obstacle of size equal to or less 
+       than the wavelength e.g. A GSM signal of wavelength 33 cm will diffract from an 
+       object of 33 cm or less causing it to or not to reach its destination
+     - Reflection. A signal may also be reflected from the surface of an obstacle, or 
+       the earth’s surface e.g. A GSM 900 MHz ( λ= 33 cm) signal the transmitter signal 
+       reflects from an object of size 10 m and above (much greater than λ)
+
+
+
+
+
+
+
+GSM SERVICES
+
+8a. GSM is the most successful digital mobile telecommunication system in the world today
+ans: true
+
+b. GSM is used by over ____________ amount of people in over ____ countries worldwide
+ans: 7.26 billion, 190
+
+c. GSM permits the integrates of different voice, video and data services and the interworking with 
+existing network
+ans: true
+
+d. A GSM system consist of three subsystems. Name them?
+ans: - the radio sub-system (RSS)
+     - the network and switching sub-system(NSS) 
+     - the operation subsystem (OSS)
+
+e. Draw a diagram of the GSM architecture?
+ans: Slide(page 67)
+
+f. Mobile Station consists of two entities. Name them?
+ans: - Mobile Equipment 
+     - Subscriber Identity Module (SIM)
+
+f1. What does SIM stand for?
+ans: Subscriber Identity Module
+
+g. A mobile station communicates across the air interface with a base transceiver in the same cell in which the mobile subscriber unit is located. true or false?
+ans: true
+
+Mobile Equipment
+h. The Mobile Equipment (ME) refers to the ____________?
+ans: physical device
+
+i. The ME comprises of ___________, _____________ and ______________?
+ans: - transceiver
+     - digital signal processor
+     - antenna
+
+j. The SIM is unique to the ME system and has a memory of ____?
+ans: 32kb
+
+k. List 3 characteristics of the ME?
+ans: - It is a portable hand held device
+     - It is uniquely identified by an International Mobile Equipment Identity (IMEI) Number
+     - It is used for voice, video and data transmission, it also monitors power and signal 
+       quality of surrounding cells for optimum handover.
+     - It can send 160 characters long sms
+
+Subscriber Identity Module (SIM)
+l. List some of the characteristics of SIM?
+ans: - It is a smart card that contains the International Mobile Subscriber Identity 
+       (IMSI) number.
+     - It allows user to send and receive voice, data and other subscriber services.
+     - It is usually protected by password or pin
+     - It contains encoded network identification details (it has key information to 
+       activate the phone)
+     - it can be moved from one mobile to another
+
+
+Based Station Subsystem (BSS)
+
+m. Based Station Subsystem is also known as __________________
+ans: Radio Station Subsystem
+
+n. What is BSS? 
+ans: it is a station that provides and manages radio transmission paths between the 
+     Mobile Station and the Mobile Switching Centre (MSC)
+
+o. BSS also manages interface between the Mobile station and all other subsystems of GSM
+ans: true
+
+p. BSS consists of _____________ and ________________?
+ans: - Base Transceiver Station (BTS)
+     - Based Station Controller (BSC)
+
+q. List some characteristics of Base Transceiver Station (BTS)
+ans: - Each BTS defines a single cell. A cell can have a radius of between 100m to 35km.
+     - It encodes, encrypts, multiplexes, modulate and feeds the R/F signal to the antenna.
+     - It consists of transceivers Units
+     - It communicates with mobile stations via radio air Interface and also communicates 
+       with BSC via A-bis
+
+r. List some characteristics of Base Station Controller (BSC)
+ans: - It manages radio resources for BTS.  A BSC  control one or more BTS
+     - It assigns frequency and time slots for all mobile station in its area
+     - It handles call set-up, transcoding and adaption functionality handover for each 
+       MS radio and power control
+     - It communicate with MSC via A Interface and also with BTS
+
+
+Network Switching Subsystem (NSS)
+
+s. What does NSS do?
+ans: It manages the switching functions of the system and allows MSC to communicate 
+     with other Networks (such as PSTN and ISDN)
+
+t. List the types of NSS?
+ans: - Mobile Switching Center (MSC)
+     - Human Location Registration (HLR)
+     - Visitor Location Registers (VLR)
+     - Authentication Centre
+     - Equipment Identity Registry (EIR)
+
+t1. What does MSC do?
+ans: - It is the heart of the network. It manages communication between GSM and other 
+       Network
+     - It manages call set-up function, routing and basic switching.
+     - It performs mobility management including registration, location updating and inter
+       BSS and inter MSC call handoff.
+     - It provides billing information.
+     - MSC does gateway function while its customers roam to other network by using HLR/VLR
+
+t2. What does HLR do?
+ans: - Home Location Registration (HLR). It is a permanent database about mobile 
+       subscribers in a large services area.  
+     - It database contains IMSI, IMSISDN, prepaid/post-paid, roaming restriction, 
+       supplementary services.
+
+t3. What does VLR do?
+ans: - It is a temporary database which updates whenever an MS enter inside the coverage 
+       area of an MSC.
+     - It controls mobile roaming in its area.
+     - It reduces number of queries to HLR
+
+t4. What does Authentication Centre do?
+ans: - It provides protection against intruders in air interface
+     - It maintains authentication Keys and algorithms and provide security triplets 
+       (RAND, SRES, KI)
+
+t5. What does EIR do?
+ans: - It is a database that is used to track handset using the IMEI number
+     - It is made up of three sub-classes, white list, black list and the grey list
+
+
+Operational Support Subsystem (OSS)
+
+u. What are the characteristics of the Operational Support Subsystem (OSS)?
+ans: - It supports the operation and maintenance of GSM and allows system engineers 
+       to monitor, diagnose and troubleshoot all aspects of GSM system.
+     - It supports one or more Operation Maintenance Centre (OMC) which are used to 
+       monitor the performance of each MS, BTS, BSC and MSC within a GSM system.
+     - It has 3 main functions.
+          - To maintain all telecommunication hardware and network operations with a 
+          particular market
+          - To manage all charging and billing procedure
+          - To manage all mobile equipment in the system
+
+
+
+
+
+
+INTERFACES FOR GSM NETWORK
+
+9a. What are the below used for?
+- UM Interface
+- A-bis Interface
+- A Interface
+- Singing protocol SS7
+
+ans: - UM Interface: used to communicate between BTS and MS
+     - A-bis Interface: used to communicate between BSC to BTS
+     - A Interface: used to communicate between BCS and MSC.
+     - Singing protocol SS7: used to communicate between MSC and other network
+
+b. Draw a diagram of the GSM NETWORK INTERFACE?
+ans: Slide (page 75)
+
+LOCATION AND CALLING
+c. The fundamental feature of the GSM System is the automatic, worldwide localization 
+   of users for which, the system performs periodic location updates
+ans: true
+
+d. The HLR always contains information about the _______________?
+ans: current location
+
+e. The VLR is responsible for the current __________________________________
+ans: MS information update to the HLR about the location changes
+
+f. Changing the VLRs with Uninterrupted availability is called ________. 
+ans: roaming
+
+g. Roaming can take place within a network of one provider, between two providers a 
+   country and also between different providers in different countries. true or false?
+ans: true
+
+h. To locate and address an MS, several numbers are needed.
+ans: true
+
+Noted:
+- Mobile Station International ISDN number (MSISDN) the only important number for a user of GSM is the phone number. This number consists of the country code (cc), the national destination code (NDC) and the subscriber number (SN).
+- International Mobile Subscriber Identity (IMSI) GSM uses the IMSI for Internal Unique Identification of a subscriber. IMSI consists of a mobile country code (MCC), the mobile network code (MNC), and finally the mobile subscriber identification Number (MSIN).
+- Temporary Mobile Subscriber Identity (TMSI) to hide the IMSI, which would give away the exact identity for the user signalling over the air interface, GSM uses the 4 byte IMSI for local subscriber identification,
+- Mobile Station Roaming Number (MSRN). Another temporary address that hide the identity and location of a subscriber is MSRN. The VLR generates this address on request from the MSC, and the address is also stored in the HLR.  MSRN contains the current visitor country code (VCC). The visitor National Destination Code (VNDC). The identification of the current MSC together with then subscriber number. The NISRN helps the HLR to find a subscriber for an incoming call.
+
+
+MOBILE TERMINATED CALL (MTC)
+i. What is a Mobile Terminated Call (MTC)?
+ans: It is a call originating from a station (PSTN) to a mobile station
+
+j. Draw a diagram of the steps taken in Mobile Terminated Call (MTC)?
+ans: Slide (page 78)
+
+k. Outline all the steps involved?
+ans: - Step 1: User dials the phone number of GSM subscriber
+     - Step 2: The fixed network (PSTN) identifies the number belongs to a user in GSM 
+               network and forwards the call setup to the Gateway MSC (GMSC).
+     - Step 3: the GMSC identifies the HLR for the subscriber and signals the call setup 
+               to HLR
+     - Step 4: The HLR checks for number existence and its subscribed services and 
+               requests an MSRN from the current VLR.
+     - Step 5: VLR sends the MSRN to HLR
+     - Step 6: Upon receiving MSRN, the HLR determines the MSC responsible for MS and 
+               forwards the information to the GMSC.
+     - Step 7: the GMSC can now forward the call setup request for the MSC indicated.
+     - Step 8: The MSC requests the VLR for the current status of the MS
+     - Step 9: VLR sends the requested information
+     - Step 10: if MS is available, the MSC initiates paging in all calls it is responsible 
+                for
+     - Step 11: The BTSs  of all BSSs transmit the paging signal to the MS
+     - Step 12: Step 13: if MS answers, VLR performs security checks
+     - Step 15: Till step 17: Then the VLR signals to the MSC to setup a connection to 
+                the MS
+
+FOR A MOBILE ORIGINATED CALL (MOC)
+l. Draw a diagram of the steps that take place in Mobile Originated Calls (MOC)
+ans: Slide (80)
+
+m. Outline all the steps involved?
+ans: - Step 1: The MS transmits a request for a new connection.
+     - Step 2: The BSS forwards this request to the MSC 
+     - Step 3: The MSC then checks if this user is allowed to set up a call with the 
+               request and checks the availability of resources through GSM network 
+               and into the PSTN. If all resources are available, the MSC sets up a 
+               connection between the MS and the fixed network.
+
+
+
+
+
+
+
+
+
+HANDOVER
+
+10a. Cellular systems require handover procedures, as single cells ____________________
+ans: do not cover the whole service area
+
+b. A Handover should not cause a _________?
+ans: cut-off (also called a call drop)
+
+c. GSM aims at maximum handover duration of ____?
+ans: 60ms
+
+d. What are the 2 basic reasons for a handover?
+ans: 1. The mobile station moves out of the range of a BTS, decreasing the received 
+        signal level increasing the error rate thereby diminishing the quality of the 
+        radio link.
+     2. Handover may be due to load balancing, when an MSC/BSC decides the traffic is 
+        too high in one cell and shifts some MS to other cells with a lower load
+
+e. Draw a diagram showing the 4 possible handover scenarios of GMS?
+ans: Slide (page 83)
+
+e1. Discuss all 4 possible handover scenarios?
+ans: - Intra-cell handover: Within  a cell, narrow-band interference could make 
+       transmission as a certain frequency impossible. The BSC could then decide 
+       to change the carrier frequency (scenario I).
+     - Inter-cell, intra-BSC handover: This is a typical handover scenario. The mobile 
+       station moves from one cell to another, but stays within the control of the same 
+       BSC. The BSC then performs a handover, assigns a new radio channel in the new 
+       cell and releases the old one (scenario 2)
+     - Inter-BSC, intra-MSC handover: As a BSC only controls a limited number of cell, 
+       GSM also has to performs a handover between cells controlled by different BSCs. 
+       This handover then has to be controlled by the MSC (scenario 3).
+     - Inter MSC handover: A handover could be required between two cells belonging 
+       to different MSCs. Now both MSCs perform the handover together (scenario 4)
+
+f. Draw a diagram of the Handover decision depending on receive level?
+ans: Slide (page 85)
+
+g. To provide all the necessary information for a handover due to a weak link, MS and 
+   BTS both perform _______________________________________
+ans: periodic measurements of the downlink and uplink quality respectively
+
+h. Measurement reports are sent by the MS about every half-second and contain the quality 
+   of the current link used for transmission as well as the quality of certain channels 
+   in neighbouring cells.true or false?
+ans: true
+
+
+
+
+
+
+
+
+WIRELESS NETWORK FOR GSM
+
+11a. What is Space Division Multiple Access (SDMA)?
+ans: it is used for allocating a separated space to users in wireless network. 
+
+b. A typical application involves assigning  an optimal base station to a mobile phone use.
+   A mobile phone may receive several base stations with different quality. SDMA decide 
+   ______________________________
+ans: which base station is best (taking into account which frequencies, time slots or 
+     code are still available)
+
+c. What is Frequency Division Multiple Access (FDMS)?
+ans: it is a method employed to permit several users to transmit simultaneously on one 
+     satellite transponder by assigning a specific frequency within the channel to each user
+
+c1. Each conversation in FDMA gets its own, unique, radio channel. true or false
+ans: true
+
+c2. The channels are relatively narrow, usually 30KHz or less and are defined as either 
+    transmit or received channels
+ans: true
+
+c3. A full duplex conversation requires a __________________?
+ans: transmit and receive channels pair (which refers to uplink from MS to BTS and downlink from BTS to MS)
+
+d. FDMA in general describes schemes to subdivide the frequency dimension into several 
+   non-over-lapping frequency band.
+ans: true
+
+e. _________________________ offers a much more flexible scheme, which comprises all 
+   technologies that allocates certain time slots for communication
+ans: Time Division Multiple Access (TDMA)
+
+f. __________________________ offers technology of sensing the carrier before accessing 
+   the medium. Sensing the carrier and accessing the medium only if the carrier is idle,
+   which decreases the probability of a collision. This scheme is still used in most 
+   wireless LAWS
+ans: Carrier Sense Multiple Access (CSMA)
+
+
+INFORMATION SECURITY
+g. What is Computer Security?
+ans: It is broadly, security applied to computing devices such as computers, 
+     smartphones and computer networks (private, public & the internet)
+
+h. Computer Security covers all the processes and mechanisms by which digital equipment,
+   Information and services are protected from unintended or unauthorised access, 
+   change or destruction. It is sometimes referred to as cyber security or IT security.
+   true or false?
+ans: true
+
+i. What is Computer Crime?
+ans: it refers to any crime that involves a computer and a network
+
+j. List some of the Information Security terms?
+ans: - Vulnerability
+     - Backdoors
+     - Denial of Service attack
+     - Direct access attacks
+     - Eves dropping
+     - Spoofing
+     - Repudiation
+     - Indirect attacks
+
+j1. Explain all the terms above?
+ans: - Vulnerability: is a weakness which allows an attacker to reduce a system’s 
+       information assurance. Vulnerability is the intersection of three elements: a 
+       system susceptibility or flaw, attacker access to the flaw and attacker capability 
+       to exploit the flaw
+
+     - Backdoors: In computer system, a backdoor is a method of bypassing normal 
+       authentication, securing remote access to a computer, obtaining access to plan 
+       text and so on, while attempting to remain undectated.
+       The backdoor may take the form of an installed program or could be a modification 
+       of an existing program or hardware device. It may also take information about 
+       disk and memory usage
+     
+     - Denial of Service attack: This attack is designed to render services unusable.
+       Attacker can deny serviced to individual victims, such as by deliberately entering a wrong password so many times to cause the victim account to be lucked or overloading the capabilities of the system or network and block all users at once for example a 
+       worm Trojan horse etc
+
+     - Direct access attacks: An unauthorised user gaining physical access to a computer, 
+       the attacker can perform many functions, install different types of device to 
+       compromise security, including operating system modifications, software worms, 
+       key loppers and convert listening devices
+
+     - Eves dropping: is the act of surreptitiously listening to a private conversation, 
+       typically between hosts on a network. For example security organizations.
+
+     - Spoofing: is where an attacker (person or program) successfully masquerades as 
+       another by falsifying data and thereby gaining an illegitimate advantage
+
+     - Repudiation: is where the authenticity of a signature is being challenged
+
+     - Indirect attacks: is an attack launched by a third party computer. It usually 
+       becomes far more difficult to track down the actual attacker
+
+
+CYBERCRIME PREVENTION TIPS
+
+k. List at least 5 tips for preventing cyber crime?
+ans: - Use Strong password
+     - Secure your computer
+     - Be careful using social media
+     - Secure your mobile devices
+     - Install the latest Operating Systems update
+     - Protect your data
+     - Secure your wireless network
+     - Protect your e-identity
+     - Avoid being scammed
+
+k1. Discuss all tips listed above?
+ans: - Use strong passwords: Make the passwords more complicated by combining 
+       letters, numbers, special characters (minimum 10 characters in total) and 
+       change them on a regular basis.
+
+     - Secure your Computer
+       - Activate Firewall: firewall are the first line of Cyber defence, they block 
+         connection to unknown or bogus sites and will keep out some types of virus 
+         and hackers.
+       - Anti–Virus/Malware Software: Install and regularly update anti-virus software 
+         to prevent virus from infecting your computer.
+       - Block spyware attacks: install and updating anti-spyware software to prevent 
+         spyware from infiltrating your computer.
+
+     - Be careful using social media: make sure your social networking profiles 
+       (egFacebook, Twitter, Youtube, MSN, etc) are set on private. Ensure your 
+       security setting are properly configure and be careful on what information you 
+       post online. 
+
+     - Secure your mobile devices: Be aware that your mobile devices is vulnerable 
+       to viruses and hackers. Download application from trusted sources only.
+
+     - Install the latest operating system update . Keep your applications and 
+       operating system (e.g Windows, Linux, Mac, etc) current with the latest system 
+       updates. Turn-on automatic updates to prevent potentials attackers on older 
+       software.
+
+     - Protect your Data: Use encryption for your most sensitive files and make regular 
+       back-up of all your important data and store it in another locations.
+
+     - Secure your Wireless network: Wifi networks at home or public places are 
+       vulnerable to intrusion if they are not properly secured. Always review and 
+       modify the defaults settings.
+
+     - Protect your e-identity: Make sure your personal information or financial 
+       information are giving only on security websites.
+
+     - Avoid being scammed: always think before you click on a link or file of unknown 
+       origin. Don’t feel pressured by e-mails, always check the source of the message. 
+       Never reply to e-mails that ask you to verify your information or confirm your 
+       sensitive information online.
+
+l. What are the principles of Information Security?
+ans: - Confidentiality
+     - Integrity
+     - Availability
+     - Non-Repudiation
+     - Authentication
+
+l1. Discuss the principles?
+ans: - Confidentiality: Sometimes refer to privacy. This involve all measures undertaken 
+       to ensure confidentiality are designed to prevent sensitive information from 
+       reaching wrong people, while making sure that the right people can get it. 
+       That is, access is restricted to those only authorised. Safeguarding data 
+       confidentiality may involve special training on security risk that could threaten 
+       the information and the use of strong passwords. 
+
+     - Integrity: Involve maintaining the consistency, accuracy and trustworthiness of 
+       data over its entire life cycle. Data must not be changed in transit, and steps 
+       must be taken to ensure that data cannot be altered by unauthorised person. This 
+       can be achieved through the use of file permission and user access control.
+       
+     - Availability: is best ensure by rigorously maintaining all hardware, correctly 
+       functioning operating system environment that is free of software conflicts. It 
+       also important to keep current with all necessary system upgrades. Providing 
+       adequate communication bandwidth and preventing the occurrence of bottlenecks
+
+     - Non-Repudiation: is the assurance that someone cannot deny something. It is the     
+       presentation of unforgetable evidence that a message was sent or received. If 
+       messages or transactions can be disputed, then important identity actions can be challenged and jeopardised.
+
+     - Authentication: is the process or action of verifying the identity of a user or 
+       process. It is the mechanism of associating an incoming request with a set of 
+       identifying credentials. The credentials provided are compared to those on a 
+       file in  a database of the authorised user’s information on a local operating 
+       system or within an authentication server.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
