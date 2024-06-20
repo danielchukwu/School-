@@ -1,0 +1,6 @@
+AOC for CMP 441
+The text book is the main thing to focus on and read
+The lecture slides we use in the class is just a reference
+And the points made in the lecture slides is basically a guide for to read in the textbook 
+
+If you have any questions ask in the main group

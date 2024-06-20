@@ -1,0 +1,119 @@
+1a. HCI is a field of computer science concerned with studying how people relate with computers and how to make that interaction better
+
+b. Develop interactive products that are usable
+
+c. - It contributes to and overlaps many disciplines
+   - Many people are involved in it
+   - It is a viable career path
+
+d. Users
+
+e. - Considering who is going to be using it, how they are going to be used 
+     and where they are going to be used
+
+   - Understanding the kind of activities people are doing when interacting 
+     with these products
+
+f. Interaction design focuses attention on users and their goals
+
+
+g. 4 Activities of Interaction Design
+   1. Discovering requirements for an interactive product
+   2. Designing alternatives that meet those requirements
+   3. Prototyping the alternative designs so that they can be communicated 
+      and assessed
+   4. Evaluating the product and the UX it offers throughout the process
+
+h. done
+
+i. done
+j. Investigating the target domain and collecting relevant data and facts, 
+   by taking a user-centered approach to development, and ensuring users 
+   opinion to early designs are sought and that users are involved 
+   appropriately in the development process itself
+
+k. - Are there problems with an existing product?
+   - If so what are they
+   - Why do you think they are problems
+   - Why do u think your proposed solution might be useful
+     - How do u see people integrating your design with how they do things 
+       currently in their everyday Life
+   -  
+
+l. It is the process of acquiring knowledge through thinking, learning, 
+   remembering, daydreaming, and understanding
+
+m. - Attention
+   - Memory
+   - Perception and recognition
+   - Learning
+   - Speaking, reading, listening
+   - planning, reasoning, decision making, problem solving
+
+n. Discretionary users
+   Mandatory users
+   Direct users
+   Indirect users
+   support users
+   remote users
+
+o. Novice users
+   Intermittent users
+   Expert users
+
+p. Observations
+   Interviews
+   questionnaires
+   Formal or informal discussion
+   Use of expert
+
+q. Experimental cognition
+   Reflective cognition
+   External cognition
+
+r. Mental models
+   Information processing
+   External cognition
+
+
+
+2a. true
+ b. Quantitative or Qualitative
+ c. Quantitative data
+ d. - Goal setting
+    - 
+
+
+
+ q. Requirement is a statement about an intended product that specifies 
+    what it should do or how it should perform 
+
+ r. Functional requirement: What system should do
+    Non-functional requirements: constraints on the system and it's development
+
+ s. 
+
+ j. Requirements Gathering
+    Developing alternative designs
+    Building interactive versions
+    Evaluation
+
+ k. focus on users
+    iteration
+    specific usability and user experience goals
+
+l. Who are the users
+   What do we mean by needs
+   How do I generate alternative designs
+   How do I choose among alternatives
+
+m. Error Messages
+   Overburdening the user
+   Appearance
+   Gimmicks
+
+p. done
+
+q. Controlled setting with users
+   Natural setting with users
+   Any setting without users
