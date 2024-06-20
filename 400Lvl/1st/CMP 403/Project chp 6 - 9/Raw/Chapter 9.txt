@@ -1,0 +1,586 @@
+chapter 9 
+
+*****************************************1-20********************************************
+Software change
+- Software change is inevitable
+   i. New requirements emerge when the software is used;
+   ii.The business environment changes;
+   iii.Errors must be repaired;
+   iv. New computers and equipment is added to the system;
+   v. The performance or reliability of the system may have to be 
+improved.
+- A key problem for all organizations is implementing and 
+managing change to their existing software systems.
+
+
+Importance of evolution
+ -Organisations have huge investments in their software 
+systems - they are critical business assets.
+- To maintain the value of these assets to the business, 
+they must be changed and updated.
+- The majority of the software budget in large companies 
+is devoted to changing and evolving existing software 
+rather than developing new software
+
+
+A spiral model of development and evolution
+[image page 5]
+
+Evolution and servicing
+[image page 6]
+
+Evolution and servicing
+- Evolution
+   i. The stage in a software system’s life cycle where it is in 
+operational use and is evolving as new requirements are 
+proposed and implemented in the system.
+- Servicing
+   i. At this stage, the software remains useful but the only changes 
+made are those required to keep it operational i.e. bug fixes and 
+changes to reflect changes in the software’s environment. No 
+new functionality is added.
+- Phase-out
+   i. The software may still be used but no further changes are made 
+to it.
+
+
+Evolution processes
+- Software evolution processes depend on
+   i. The type of software being maintained;
+   ii.The development processes used;
+   iii. The skills and experience of the people involved.
+- Proposals for change are the driver for system evolution.
+    i. Should be linked with components that are affected by the 
+change, thus allowing the cost and impact of the change to be 
+estimated.
+- Change identification and evolution continues throughout 
+the system lifetime.
+
+
+Change identification and evolution processes
+[image page 9]
+
+The software evolution process
+[image page 10]
+
+Change implementation
+[image page 11]
+
+
+Change implementation
+- Iteration of the development process where the revisions 
+to the system are designed, implemented and tested.
+- A critical difference is that the first stage of change 
+implementation may involve program understanding, 
+especially if the original system developers are not 
+responsible for the change implementation. 
+- During the program understanding phase, you have to 
+understand how the program is structured, how it 
+delivers functionality and how the proposed change 
+might affect the program.
+
+
+Urgent change requests
+- Urgent changes may have to be implemented without 
+going through all stages of the software engineering 
+process
+   i. If a serious system fault has to be repaired to allow normal 
+operation to continue;
+   ii. If changes to the system’s environment (e.g. an OS upgrade) 
+have unexpected effects;
+   iii. If there are business changes that require a very rapid response 
+(e.g. the release of a competing product).
+
+The emergency repair process
+[image page 14]
+
+
+Agile methods and evolution
+- Agile methods are based on incremental development so 
+the transition from development to evolution is a 
+seamless one.
+   i. Evolution is simply a continuation of the development process 
+based on frequent system releases.
+- Automated regression testing is particularly valuable 
+when changes are made to a system.
+- Changes may be expressed as additional user stories.
+ 
+
+Handover problems
+- Where the development team have used an agile 
+approach but the evolution team is unfamiliar with agile 
+methods and prefer a plan-based approach. 
+    i. The evolution team may expect detailed documentation to 
+support evolution and this is not produced in agile processes. 
+- Where a plan-based approach has been used for 
+development but the evolution team prefer to use agile 
+methods. 
+    i. The evolution team may have to start from scratch developing 
+automated tests and the code in the system may not have been 
+refactored and simplified as is expected in agile development. 
+
+Program evolution dynamics
+- Program evolution dynamics is the study of the 
+processes of system change.
+- After several major empirical studies, Lehman and 
+Belady proposed that there were a number of ‘laws’ 
+which applied to all systems as they evolved.
+- There are sensible observations rather than laws. They 
+are applicable to large systems developed by large 
+organisations.
+    i. It is not clear if these are applicable to other types of software 
+system.
+
+Change is inevitable
+- The system requirements are likely to change 
+while the system is being developed because 
+the environment is changing. Therefore a 
+delivered system won't meet its requirements!
+- Systems are tightly coupled with their environment. 
+When a system is installed in an 
+environment it changes that environment and 
+therefore changes the system requirements.
+- Systems MUST be changed if they 
+are to remain useful in an environment
+
+Lehman’s laws
+Laws & Description
+
+- Continuing change: 
+A program that is used in a real-world environment must necessarily 
+change, or else become progressively less useful in that 
+environment.
+- Increasing complexity:
+As an evolving program changes, its structure tends to become more 
+complex. Extra resources must be devoted to preserving and 
+simplifying the structure.
+- Large program evolution:
+Program evolution is a self-regulating process. System attributes 
+such as size, time between releases, and the number of reported 
+errors is approximately invariant for each system release.
+- Organizational stability:
+Over a program’s lifetime, its rate of development is approximately 
+constant and independent of the resources devoted to system 
+development.
+- Conservation of familiarity:
+Over the lifetime of a system, the incremental change in each 
+release is approximately constant.
+- Continuing growth:
+The functionality offered by systems has to continually 
+increase to maintain user satisfaction.
+- Declining quality:
+The quality of systems will decline unless they are modified to 
+reflect changes in their operational environment.
+- Feedback system:
+Evolution processes incorporate multiagent, multiloop
+feedback systems and you have to treat them as feedback 
+systems to achieve significant product improvement.
+
+
+****************************************21-40************************************************
+
+Applicability of Lehman’s laws
+- Lehman’s laws seem to be generally applicable to large, 
+tailored systems developed by large organisations.
+    i. Confirmed in early 2000’s by work by Lehman on the FEAST 
+project.
+- It is not clear how they should be modified for
+    i. Shrink-wrapped software products;
+    ii. Systems that incorporate a significant number of COTS 
+components;
+    iii. Small organisations;
+    iv. Medium sized systems.
+
+
+Key points
+- Software development and evolution can be thought of 
+as an integrated, iterative process that can be 
+represented using a spiral model.
+- For custom systems, the costs of software maintenance 
+usually exceed the software development costs.
+- The process of software evolution is driven by requests 
+for changes and includes change impact analysis, 
+release planning and change implementation. 
+- Lehman’s laws, such as the notion that change is 
+continuous, describe a number of insights derived from 
+long-term studies of system evolution.
+
+Software maintenance
+- Modifying a program after it has been put into use.
+- The term is mostly used for changing custom software. 
+Generic software products are said to evolve to create 
+new versions.
+- Maintenance does not normally involve major changes to 
+the system’s architecture.
+- Changes are implemented by modifying existing 
+components and adding new components to the system.
+
+Types of maintenance
+- Maintenance to repair software faults
+    i. Changing a system to correct deficiencies in the way meets its 
+requirements.
+- Maintenance to adapt software to a different operating 
+environment
+    i. Changing a system so that it operates in a different environment 
+(computer, OS, etc.) from its initial implementation.
+- Maintenance to add to or modify the system’s 
+functionality
+    i. Modifying the system to satisfy new requirements.
+
+
+Maintenance effort distribution
+[image page 26]
+
+Maintenance costs
+- Usually greater than development costs (2* to 
+100* depending on the application).
+- Affected by both technical and non-technical 
+factors.
+- Increases as software is maintained. 
+Maintenance corrupts the software structure so 
+makes further maintenance more difficult.
+- Ageing software can have high support costs 
+(e.g. old languages, compilers etc.).
+
+
+Development and maintenance costs
+[image page 28]
+
+
+Maintenance cost factors
+- Team stability
+    i. Maintenance costs are reduced if the same staff are involved 
+with them for some time.
+- Contractual responsibility
+    i. The developers of a system may have no contractual 
+responsibility for maintenance so there is no incentive to design 
+for future change.
+- Staff skills
+    i. Maintenance staff are often inexperienced and have limited 
+domain knowledge.
+- Program age and structure
+    i. As programs age, their structure is degraded and they become 
+harder to understand and change.
+
+
+Maintenance prediction
+- Maintenance prediction is concerned with assessing 
+which parts of the system may cause problems and have 
+high maintenance costs
+    i. Change acceptance depends on the maintainability of the 
+components affected by the change;
+    ii. Implementing changes degrades the system and reduces its 
+maintainability;
+    iii. Maintenance costs depend on the number of changes and costs 
+of change depend on maintainability
+
+
+Maintenance prediction
+[image page 31]
+
+Change prediction
+- Predicting the number of changes requires and 
+understanding of the relationships between a system 
+and its environment.
+- Tightly coupled systems require changes whenever the 
+environment is changed.
+- Factors influencing this relationship are
+    i. Number and complexity of system interfaces;
+    ii. Number of inherently volatile system requirements;
+    iii. The business processes where the system is used.
+
+Complexity metrics
+- Predictions of maintainability can be made by assessing 
+the complexity of system components.
+- Studies have shown that most maintenance effort is 
+spent on a relatively small number of system 
+components.
+- Complexity depends on
+   i. Complexity of control structures;
+   ii. Complexity of data structures;
+   iii. Object, method (procedure) and module size.
+
+Process metrics
+- Process metrics may be used to assess maintainability
+   i. Number of requests for corrective maintenance;
+   ii. Average time required for impact analysis;
+   iii. Average time taken to implement a change request;
+   iv. Number of outstanding change requests.
+- If any or all of these is increasing, this may indicate a 
+decline in maintainability.
+
+
+System re-engineering
+- Re-structuring or re-writing part or all of a 
+legacy system without changing its 
+functionality.
+- Applicable where some but not all sub-systems 
+of a larger system require frequent 
+maintenance.
+- Re-engineering involves adding effort to make 
+them easier to maintain. The system may be restructured and re-documented.
+
+Advantages of reengineering
+- Reduced risk
+    i. There is a high risk in new software development. There may be 
+development problems, staffing problems and specification 
+problems.
+- Reduced cost
+    i. The cost of re-engineering is often significantly less than the 
+costs of developing new software.
+
+
+The reengineering process
+[image page 37]
+
+
+Reengineering process activities
+- Source code translation
+    i. Convert code to a new language.
+- Reverse engineering
+    i. Analyse the program to understand it;
+- Program structure improvement
+    i. Restructure automatically for understandability;
+- Program modularisation
+    i. Reorganise the program structure;
+- Data reengineering
+    i. Clean-up and restructure system data
+
+ Reengineering approaches
+[image page 39]
+
+Reengineering cost factors
+- The quality of the software to be reengineered.
+- The tool support available for reengineering.
+- The extent of the data conversion which is required.
+- The availability of expert staff for reengineering. 
+      i. This can be a problem with old systems based on technology 
+that is no longer widely used.
+
+******************************************41-57**************************************************
+Preventative maintenance by refactoring
+- Refactoring is the process of making improvements to a 
+program to slow down degradation through change.
+- You can think of refactoring as ‘preventative 
+maintenance’ that reduces the problems of future 
+change. 
+- Refactoring involves modifying a program to improve its 
+structure, reduce its complexity or make it easier to 
+understand. 
+- When you refactor a program, you should not add 
+functionality but rather concentrate on program 
+improvement.
+
+Refactoring and reengineering
+- Re-engineering takes place after a system has been 
+maintained for some time and maintenance costs are 
+increasing. You use automated tools to process and reengineer a legacy system to create a new system that is 
+more maintainable. 
+- Refactoring is a continuous process of improvement 
+throughout the development and evolution process. It is 
+intended to avoid the structure and code degradation 
+that increases the costs and difficulties of maintaining a 
+system.
+
+
+‘Bad smells’ in program code
+- Duplicate code 
+    i. The same or very similar code may be included at different 
+places in a program. This can be removed and implemented as a 
+single method or function that is called as required.
+- Long methods
+    i. If a method is too long, it should be redesigned as a number of 
+shorter methods.
+- Switch (case) statements 
+    i. These often involve duplication, where the switch depends on 
+the type of a value. The switch statements may be scattered 
+around a program. In object-oriented languages, you can often 
+use polymorphism to achieve the same thing.
+
+‘Bad smells’ in program code
+- Data clumping 
+    i. Data clumps occur when the same group of data items (fields in 
+classes, parameters in methods) re-occur in several places in a 
+program. These can often be replaced with an object that 
+encapsulates all of the data.
+- Speculative generality 
+    i. This occurs when developers include generality in a program in 
+case it is required in the future. This can often simply be 
+removed.
+
+Legacy system management
+- Organisations that rely on legacy systems must choose 
+a strategy for evolving these systems
+    i. Scrap the system completely and modify business processes so 
+that it is no longer required;
+    ii. Continue maintaining the system;
+    iii. Transform the system by re-engineering to improve its 
+maintainability;
+    iv. Replace the system with a new system.
+- The strategy chosen should depend on the system 
+quality and its business value.
+
+An example of a legacy system 
+assessment
+[image page 46]
+
+Legacy system categories
+- Low quality, low business value
+    i. These systems should be scrapped. 
+- Low-quality, high-business value
+    i. These make an important business contribution but are 
+expensive to maintain. Should be re-engineered or replaced if a 
+suitable system is available.
+- High-quality, low-business value
+    i. Replace with COTS, scrap completely or maintain.
+- High-quality, high business value
+    i. Continue in operation using normal system maintenance.
+
+
+Business value assessment
+- Assessment should take different viewpoints into 
+account
+   i. System end-users;
+   ii. Business customers;
+   iii. Line managers;
+   iv. IT managers;
+   v. Senior managers.
+- Interview different stakeholders and collate results.
+
+Issues in business value assessment
+- The use of the system 
+    i. If systems are only used occasionally or by a small number of 
+people, they may have a low business value. 
+- The business processes that are supported 
+    i. A system may have a low business value if it forces the use of 
+inefficient business processes. 
+- System dependability 
+    i. If a system is not dependable and the problems directly affect 
+business customers, the system has a low business value.
+- The system outputs 
+    i. If the business depends on system outputs, then the system has 
+a high business value.
+
+
+System quality assessment
+- Business process assessment
+    i. How well does the business process support the current goals of 
+the business?
+- Environment assessment
+    i. How effective is the system’s environment and how expensive is 
+it to maintain?
+- Application assessment
+    i. What is the quality of the application software system?
+
+Business process assessment
+- Use a viewpoint-oriented approach and seek answers 
+from system stakeholders
+    i. Is there a defined process model and is it followed?
+    ii. Do different parts of the organisation use different processes for 
+the same function?
+    iii. How has the process been adapted?
+    iv. What are the relationships with other business processes and 
+are these necessary?
+    v. Is the process effectively supported by the legacy application 
+software?
+- Example - a travel ordering system may have a low 
+business value because of the widespread use of webbased ordering.
+
+
+Factors used in environment assessment
+Factors & Questions
+
+- Supplier stability:
+ Is the supplier still in existence? Is the supplier financially stable and 
+likely to continue in existence? If the supplier is no longer in business, 
+does someone else maintain the systems? 
+
+- Failure rate:
+ Does the hardware have a high rate of reported failures? Does the 
+support software crash and force system restarts? 
+
+- Age:
+ How old is the hardware and software? The older the hardware and 
+support software, the more obsolete it will be. It may still function 
+correctly but there could be significant economic and business 
+benefits to moving to a more modern system.
+
+- Performance:
+ Is the performance of the system adequate? Do performance 
+problems have a significant effect on system users?
+
+- Support requirements:
+What local support is required by the hardware and 
+software? If there are high costs associated with this 
+support, it may be worth considering system replacement.
+
+- Maintenance costs:
+ What are the costs of hardware maintenance and support 
+software licences? Older hardware may have higher 
+maintenance costs than modern systems. Support software 
+may have high annual licensing costs.
+
+- Interoperability:
+ Are there problems interfacing the system to other systems? 
+Can compilers, for example, be used with current versions 
+of the operating system? Is hardware emulation required?
+
+- Understandability :
+How difficult is it to understand the source code of the current 
+system? How complex are the control structures that are used? 
+Do variables have meaningful names that reflect their function?
+
+- Documentation :
+What system documentation is available? Is the documentation 
+complete, consistent, and current?
+
+- Data :
+Is there an explicit data model for the system? To what extent is 
+data duplicated across files? Is the data used by the system up to 
+date and consistent?
+
+- Performance:
+ Is the performance of the application adequate? Do performance 
+problems have a significant effect on system users?
+
+
+- Programming language:
+ Are modern compilers available for the programming 
+language used to develop the system? Is the programming 
+language still used for new system development?
+
+- Configuration management:
+Are all versions of all parts of the system managed by a 
+configuration management system? Is there an explicit 
+description of the versions of components that are used in 
+the current system?
+- Test data:
+ Does test data for the system exist? Is there a record of 
+regression tests carried out when new features have been 
+added to the system? 
+- Personnel skills:
+ Are there people available who have the skills to maintain the 
+application? Are there people available who have experience 
+with the system?
+
+
+System measurement
+- You may collect quantitative data to make an 
+assessment of the quality of the application system
+    i. The number of system change requests; 
+    ii. The number of different user interfaces used by the system;
+    iii. The volume of data used by the system.
+
+Key points
+- There are 3 types of software maintenance, namely bug 
+fixing, modifying software to work in a new environment, 
+and implementing new or changed requirements.
+- Software re-engineering is concerned with re-structuring 
+and re-documenting software to make it easier to 
+understand and change. 
+- Refactoring, making program changes that preserve 
+functionality, is a form of preventative maintenance.
+- The business value of a legacy system and the quality of 
+the application should be assessed to help decide if a 
+system should be replaced, transformed or maintained
+

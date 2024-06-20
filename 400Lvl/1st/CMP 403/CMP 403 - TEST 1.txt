@@ -1,0 +1,19 @@
+Question
+1. Compare and contrast between plan-driven /agile methods
+2. Write the requirements for the four software projects
+------------------------------------------------------
+1. Employee Management system(EMS)
+Usually, large companies and organizations have a vast army of human resources working under them. In such scenarios where there's a significant number of human employees to manage, it becomes challenging to supervise and manage the activities of the human resources efficiently. Such companies/organizations need an advanced employee management system that can handle everything related to the company's human resources.
+This project aims to build an employee management system that consolidates all the relevant information on a company’s human resources. It has two major components – Admin and Employee. The Admin is in charge of the company information, leave management, and can also add and tweak employee details. Likewise, employees can use the system to check their leave status, Qualifications details, Promotion History, yearly holiday list, and also for voicing grievances or resigning.
+
+2. Payroll Management System
+The application works something like this each employee is given an employee ID and password for accessing the app from their Android device. When an employee logs into the system from an Android device and immediately, the user image is captured. Then, the system sends the user image and their GPS location to the Admin. As long as the user stays logged into the system via an Android device, the GPS location will continue to be automatically updated and forwarded to the Admin every five minutes. When the user logs out, their image and GPS location are again sent to the Admin. This application allows Admins to keep track of employee attendance and payroll. The Admin creates employee profiles for each employee by entering all the relevant personal information (name, job position, qualification, etc.). They can also check the salary details and breakdown of the salary of each employee by entering the employee ID and date. Since the application is GPS-enabled, no employee can add proxy attendance. This enables the HRS to keep an accurate record of working days of individual employees and tweak their payroll accordingly.
+
+3. Fingerprint-Based ATM card
+This project is a desktop application that uses the fingerprint of users for authentication. Since each individual has a unique fingerprint, this method of using fingerprint as a means of authentication to access your ATM is safer and more secure than using an ATM card. Users need not carry their ATM cards with them at all times - they can use their fingerprint to access ATM services.
+To use the fingerprint-based ATM system, users have to log in to their account using their fingerprint. After login in, once they provide their unique pin, they can conduct all kinds of banking transactions, from withdrawing cash to money transfer, and even viewing their account balance. Furthermore, users can also check the last 5 transactions from their account.
+
+4. Android Local Ticketing System
+In this project, you will develop ticketing application for local trains. Users can use the app to book tickets for local trains and receive online booking receipts. They can print these online booking receipts as a hard copy proof for traveling via local trains.
+The application consists of two accounts - Admin account and User account. Using the admin account, the admin can recharge the user account balance and view all the processed tickets of a user. When users log into the application, they have to fill a ticket booking form to book tickets for the local trains traveling to their preferred destination.
+In the booking form, users can't choose both the source and destination. The system will also provide the option for a single-route journey or return journey along with the travel class (first class or second class).

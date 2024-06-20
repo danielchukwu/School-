@@ -1,0 +1,564 @@
+Past Questions 2023
+
+1a. What is evolution?
+ans: It is the gradual development of something
+
+i. What is the difference between Software evolution and Software maintenance?
+ans: 
+  Software Evolution:
+  - Refers to the ongoing improvement and enhancement of software.
+  - Includes adding new features, improving performance, fixing bugs, and enhancing architecture.
+  - Responds to changing user needs, technology, market trends, or organizational requirements.
+  - Involves iterative updates or versions to add functionality or enhance existing features.
+  - Aims to keep software relevant, efficient, and effective for users over time.
+
+  Software Maintenance:
+  - Ongoing management of software post-deployment.
+  - Includes bug fixing, security patching, performance optimization, and ensuring compatibility.
+  - Types: Corrective (bug fixing), Adaptive (adapting to new environments), Perfective (improving performance), Preventive (addressing potential issues).
+  - Reactive nature compared to proactive software evolution.
+  - Can dominate software lifecycle for long-lived or critical systems.
+
+b. List and explain different types of testing done during the testing phase
+ans: 1. Unit Testing: Testing individual units or components of the 
+        software in isolation.
+     2. Integration Testing: Testing the interaction between integrated 
+        units/modules.
+     3. System Testing: Testing the entire system as a whole to ensure it 
+        meets specified requirements.
+     4. Acceptance Testing: Testing performed to determine whether the 
+        system meets user/customer requirements.
+     5. Regression Testing: Testing to ensure that previously developed and 
+        tested software still performs after a change.
+     6. Performance Testing: Testing to assess the performance 
+        characteristics of the system under various conditions.
+     7. Load Testing: Testing to evaluate system performance under 
+        anticipated load conditions.
+     8. Stress Testing: Testing to evaluate system behavior under extreme 
+        conditions beyond normal operation.
+     9. Usability Testing: Testing to assess how user-friendly and 
+        intuitive the software is.
+     10. Security Testing: Testing to identify vulnerabilities and ensure 
+        the security of the software.
+
+c. What is User Acceptance Testing? 
+ans: User Acceptance Testing (UAT) is the final phase of testing before 
+     releasing a software product to the end-users. It involves validating 
+     that the system meets the business requirements and functions 
+     correctly from the user's perspective.
+
+c1. Explain different testing in user acceptance testing. 
+ans: - Alpha Testing: is a testing that aims to uncover any issues or 
+       defects in a software before the software is released for beta 
+       testing or to a wider audience. 
+       It is performed by a select group of end-users within the 
+       organization
+
+     - Beta Testing: Beta testing involves releasing the software to a 
+       limited number of external users or customers for testing in a 
+       real-world environment. Feedback from beta testers is collected to 
+       identify any remaining issues or usability concerns before the final 
+       release.
+
+     - Contract Acceptance Testing: In this type of testing, the software 
+       is tested against the contract or agreement between the client and 
+       the vendor. It ensures that all agreed-upon requirements and 
+       functionalities have been implemented correctly.  
+
+c2. Why is it necessary?
+ans: - Validation of Requirements: UAT ensures that the software meets the 
+       specified business requirements and performs as expected in 
+       real-world scenarios.
+
+     - Quality Assurance: It helps identify any defects or issues that may 
+       have been overlooked during earlier testing phases, ensuring a 
+       higher level of quality before the software is released.
+
+     - User Satisfaction: UAT allows end-users or stakeholders to provide 
+       feedback on the software's usability, functionality, and overall 
+       user experience, leading to higher user satisfaction.
+
+     - Risk Mitigation: By identifying and addressing any remaining issues 
+       or concerns before release, UAT helps mitigate the risk of software 
+       failure or dissatisfaction among users.
+
+     - Compliance: UAT ensures that the software complies with relevant 
+       regulatory standards and contractual agreements, reducing the risk 
+       of non-compliance and potential legal issues.
+
+
+2. A web ticketing application for local trains.
+   In this project users can use the app to book tickets for local trains 
+   and receive online booking receipts. They can print these online booking 
+   receipts as a hard copy proof for traveling via local trains. The 
+   application consists of 2 accounts - Admin account and User account. 
+   Using the account, the Admin can recharge the user account balance and 
+   view all the processed tickets of a user. When users log in to the 
+   application, they have to fill a ticket booking form to book tickets for 
+   the local trains traveling to heir preferred destination. In the booking 
+   for, users can't choose both the source and destination. THe system will 
+   also provide the option for a single-route journey or return journey 
+   along with the travel class (first class or second class).
+
+   a. List the scenarios of the system described in (2)
+   b. Draw the Sequence diagram of 2 use cases derived from (a)
+   c. Sketch the Input Screen Designs of the Train Ticketing System
+ans: 
+  a. The scenarios of the system
+  - User Registration and Authentication:
+     - User creates an account with valid credentials.
+     - User logs in using registered username and password.
+  - Ticket Booking:
+     - User fills out a ticket booking form with destination, journey type 
+       (single or return), and travel class options.
+     - User selects preferred destination and travel class for the journey.
+     - User submits the booking form for ticket reservation.
+     - User receives an online booking receipt upon successful ticket 
+       reservation.
+
+  - Printing Booking Receipt:
+     - User prints the online booking receipt as a hard copy for traveling 
+       via local trains.
+
+  - Admin Functions:
+     - Admin logs in using admin credentials.
+     - Admin recharges user account balance.
+     - Admin views all processed tickets of a specific user.
+
+  - Ticket Management:
+     - Admin adds, edits, or removes routes and schedules for local trains.
+     - Admin manages ticket availability for different routes and travel 
+       classes.
+
+  - Account Management:
+     - User views account balance and transaction history.
+     - User recharges account balance if needed.
+     - Admin views user account details and transaction history.
+
+  b.  You could draw the sequence diagram for any 2 of the sections (from 2a. answer above). e.g
+      i. Ticket Booking, 
+      ii. Admin Functions
+   [To know what a sequence diagram looks like checkout https://github.com/danielchukwu/School-/tree/master/400Lvl/CMP%20403/example%20diagrams%20for%20a%20hotel%20management%20system]
+
+
+3. A small specialist language training company would like to improve the services offered to existing clients and increase its client base by replacing existing call center and paper-based mailshots (a paper advert sent to homes) with online web technology deployment.
+
+a. As a consultant requirements engineer, discuss the tools and techniques that you would deploy to elicit, analyze, document, and check services requested by the company and any actual or implied constraints.
+b. Discuss whether it is advantageous for the company to continue requirements engineering beyond the first phase of the development process.
+ans: 
+ a. 
+ - Stakeholder Interviews:
+   - Conduct interviews with key stakeholders, including company 
+     executives, trainers, call center staff, and existing clients.
+   - Use open-ended questions to understand their needs, pain points, and 
+     expectations for the new online web technology deployment.
+
+ - Surveys and Questionnaires:
+   - Distribute surveys or questionnaires to existing clients and potential 
+     clients to gather feedback on their preferences and requirements for 
+     online language training services.
+   - Analyze the survey responses to identify common themes and priorities.
+
+ - User Personas and Scenarios:
+   - Create user personas representing different types of clients and their 
+     characteristics, goals, and challenges.
+   - Develop user scenarios to illustrate how different personas would 
+     interact with the online language training platform and what features 
+     they would find valuable.
+
+ - Brainstorming Sessions:
+   - Facilitate brainstorming sessions with internal teams to generate 
+     ideas for new features and improvements to the online platform.
+   - Encourage creativity and collaboration to explore innovative solutions 
+     to meet client needs.
+
+ - Prototyping:
+   - Develop prototypes or mockups of the online platform to visualize the 
+     proposed features and gather feedback from stakeholders.
+   - Use rapid prototyping tools to quickly iterate on design concepts and 
+     refine the user interface based on user feedback.
+
+ - Requirements Workshops:
+   - Organize requirements workshops with cross-functional teams to discuss 
+     and prioritize the desired features and functionalities of the online 
+     platform.
+   - Use techniques such as voting and ranking to identify the most 
+     important requirements and establish consensus among stakeholders.
+
+ - Use Case Analysis:
+   - Identify and document use cases describing the interactions between 
+     users and the online platform.
+   - Analyze each use case to define the functional requirements and system 
+     behaviors required to support the desired interactions.
+
+ - Requirement Documentation:
+   - Document the elicited requirements using structured formats such as 
+     user stories, use cases, and functional requirements specifications.
+   - Ensure that the requirements are clear, complete, and consistent to 
+     serve as a basis for development and testing.
+
+ - Requirement Validation and Verification:
+   - Conduct reviews and walkthroughs of the requirement documents with 
+     stakeholders to validate the accuracy and completeness of the 
+     requirements.
+   - Use techniques such as traceability analysis to ensure that each 
+     requirement is linked to a corresponding business need or stakeholder 
+     requirement.
+
+ - Risk Analysis:
+   - Identify potential risks and constraints associated with the online 
+     web technology deployment, such as technical limitations, budget 
+     constraints, and regulatory requirements.
+   - Develop mitigation strategies to address identified risks and ensure 
+     successful project delivery.
+
+
+ b. Yes, it is advantageous for the company to continue requirements 
+    engineering beyond the first phase of the development process. 
+    Requirements engineering is not a one-time activity but rather an 
+    ongoing process that should be integrated throughout the entire 
+    software development lifecycle. Here are several reasons why continuing 
+    requirements engineering is beneficial:
+
+    - Evolving Business Needs: Business needs and market conditions can 
+      change over time.
+
+    - Feedback Loop: Continuous requirements engineering enables the 
+      company to gather feedback from stakeholders, end-users, and the 
+      development team throughout the development process. 
+
+    - Scope Management: As the project progresses, there may be changes in 
+      project scope due to various factors (such as budget constraints, 
+      technological advancements, or regulatory requirements.) Continuously 
+      refining and updating requirements helps manage scope creep
+
+    - Risk Mitigation: Ongoing requirements engineering helps identify and 
+      mitigate risks early in the development process.
+
+    - Adaptability and Flexibility: In today's dynamic business 
+      environment, adaptability is essential for success. 
+
+    - Quality Assurance: Effective requirements engineering contributes to 
+      the overall quality of the software product. 
+
+    - Continuous Improvement: Requirements engineering provides 
+      opportunities for continuous improvement and learning
+
+
+4a. Compare and Contrast the main features and practices of the Agile 
+    Approach and Plan-driven Approach at each of the key phases of software 
+    development
+ans: 1. Requirements Analysis and Planning:
+        Agile Approach:
+        - Focuses on iterative and incremental development.
+        - Requirements are often expressed as user stories and maintained 
+          in a product backlog.
+        - Planning is done in short iterations or sprints, typically 
+          lasting 2-4 weeks.
+        - Emphasizes flexibility and responsiveness to change.
+        Plan-driven Approach:
+        - Requires comprehensive upfront planning before development begins.
+        - Detailed requirements are documented in a comprehensive 
+          requirements specification.
+        - Planning is done in a linear manner, with distinct phases such as 
+          requirements analysis, design, implementation, testing, and 
+          deployment.
+        - Emphasizes adherence to a predefined plan and schedule.
+
+     2. Design and Development:
+        Agile Approach:
+        - Design and development are done incrementally, with each 
+          iteration delivering a working, potentially shippable product 
+          increment.
+        - Teams are cross-functional and self-organizing, collaborating  
+          closely with stakeholders.
+        - Emphasizes simplicity, continuous integration, and frequent 
+          delivery of value.
+        Plan-driven Approach:
+        - Design is typically done upfront, based on the detailed 
+          requirements specification.
+        - Development follows a sequential, step-by-step process, with each 
+          phase building upon the previous one.
+        - Emphasizes comprehensive documentation, adherence to design 
+          specifications, and adherence to predefined processes.
+
+     3. Testing and Quality Assurance:
+        Agile Approach:
+        - Testing is integrated throughout the development process, with 
+          automated testing and continuous integration.
+        - Emphasizes early and frequent testing, including unit testing, 
+          integration testing, and user acceptance testing.
+        - Quality assurance is a shared responsibility among the entire 
+          team.
+        Plan-driven Approach:
+        - Testing is typically conducted after development is complete, 
+          following a predefined test plan.
+        - Emphasizes formal testing phases, such as system testing and 
+          acceptance testing, conducted by dedicated testing teams.
+        - Quality assurance is often seen as a separate function, with 
+          dedicated QA teams responsible for ensuring adherence to quality 
+          standards.
+
+     4. Deployment and Delivery:
+        Agile Approach:
+        - Delivery occurs incrementally, with each iteration delivering 
+          potentially shippable increments of the product.
+        - Emphasizes continuous delivery and deployment, allowing for rapid 
+          and frequent releases.
+        - Feedback from stakeholders and end-users is used to inform future 
+          iterations and improvements.
+        Plan-driven Approach:
+        - Deployment occurs after all development and testing phases are 
+          complete and the final product is deemed ready for release.
+        - Emphasizes adherence to the predefined project plan and schedule, 
+          with a focus on delivering the final product according to 
+          specifications.
+        - Limited opportunities for feedback and iteration once deployment 
+          has occurred.
+
+b. Discuss 'bad smells' in program code
+ans: In the context of software development, "bad smells" refer to certain 
+     characteristics or patterns in code that indicate potential problems 
+     or areas for improvement. These "smells" can make code harder to 
+     understand, maintain, or extend, and they often indicate underlying 
+     issues with design, organization, or implementation. Identifying and 
+     addressing these bad smells is important for producing high-quality, 
+     maintainable software. Here are some common types of bad smells in 
+     program code:
+     - Code Duplication: When the same or similar code appears in multiple 
+       places 
+     - Long Methods/Functions: that are excessively long can be difficult 
+       to understand and maintain. They may also indicate that a function 
+       is doing too much and violating the Single Responsibility Principle.
+     - Large Classes/Modules: Similarly, classes or modules that are overly 
+       large can be difficult to work with.
+     - Nested Control Structures: Excessive nesting of loops, if 
+       statements, or switch cases can make code difficult to follow and 
+       reason about
+     - Inconsistent Naming Conventions: Inconsistent naming of variables, 
+       functions, or classes can make code harder to understand.
+     - Dead Code: Code that is never executed or serves no purpose can 
+       clutter the codebase and confuse developers.
+     - Inefficient Algorithms or Data Structures: Code that uses 
+       inefficient algorithms or data structures can lead to poor 
+       performance.
+     - Lack of Comments or Documentation: Code that lacks sufficient 
+       comments or documentation can be difficult for other developers to 
+       understand.
+     - Overly Complex Logic: Code that contains overly complex logic or 
+       algorithms can be difficult to understand and maintain
+
+c. Discuss 2 architecture patterns in Software engineering
+ans: 1. Layered Architecture:
+         - This pattern organizes the software into distinct layers (such 
+           as presentation, business logic, and data access), with each 
+           layer responsible for specific functionality.
+         - Communication typically occurs only between adjacent layers, 
+           promoting separation of concerns and modular design.
+         - Examples include the OSI model for networking and the 
+           traditional three-tier architecture for web applications.
+     2. Repository Architecture:
+         - The Repository Architecture is an architectural pattern that 
+           focuses on centralizing and managing data access logic in a 
+           separate layer called the repository.
+         - In this pattern, data access code is abstracted away from the 
+           rest of the application and encapsulated within repository 
+           classes.
+         - The repository acts as a mediator between the application's 
+           business logic and the data source (such as a database or 
+           external service).
+     3. Client-Server Architecture:
+         - This is a distributed computing model where client devices (such 
+           as computers, smartphones, or IoT devices) request and consume services from central server systems.
+         - clients send requests to servers, and then servers process these 
+           requests and return responses.
+         - Servers typically provide centralized resources, such as 
+           - data storage, 
+           - processing power, or 
+           - application logic, 
+           while clients interact with and consume these resources.    
+
+
+
+5. TMQ LTD is company that deals with buying spare parts and selling to its 
+   four clients. The GM directed that a software must be developed to take 
+   care of the challenges facing the organization. Assuming you are one of 
+   the Software Engineers selected to manage the project.
+a. Discuss some of the problems that may occur when requirement must be 
+   elicited from 4 different clients
+b. Change is inevitable in any existing system. Discuss the causes of 
+   change, and what change can lead to in systems development.
+ans: 
+
+  a. 
+  - Differing Needs and Priorities: Each client may have unique needs, 
+    priorities, and expectations. Balancing these diverse requirements can 
+    be challenging.
+
+  - Communication Barriers: Clients may have varying levels of domain 
+    knowledge and communication skills. Misunderstandings or misinterpretations leading to discrepancies between client expectations and the final product.
+
+  - Scope Creep: With multiple clients providing input, there's a risk of 
+    scope creep, where new requirements are continuously added or existing 
+    ones are expanded beyond the original project scope.
+
+  - Consistency and Standardization: Maintaining consistency and 
+    standardization across requirements from different clients can be 
+    challenging.
+
+  - Conflict Resolution: Conflicts may arise between the requirements of 
+    different clients, especially if their needs or preferences are 
+    incompatible.
+
+  - Incomplete or Inaccurate Requirements: Clients may not always 
+    articulate their requirements clearly or comprehensively, leading to 
+    incomplete or ambiguous requirements.
+
+  - Resource Constraints: Limited resources, such as time, budget, or 
+    personnel, can constrain the elicitation process.
+
+
+  b. The causes of change in a system:
+  - Evolving Business Requirements: Changes in market conditions, customer 
+    preferences, regulatory requirements, or organizational goals may 
+    necessitate modifications to the system.
+
+  - Technological Advancements: Advances in technology, frameworks, or 
+    platforms may prompt changes to the system.
+
+  - User Feedback and Usability Issues: Feedback from end-users or 
+    usability testing may reveal areas where the system can be improved or features that need to be added or modified to enhance user experience and satisfaction.
+
+  - Bug Fixes and Maintenance: Identification of software defects or 
+    maintenance tasks may require changes to the system
+
+  - Organizational Changes: Changes in organizational structure, policies, 
+    or procedures may require changes to the system.
+
+  - External Dependencies: Changes in third-party APIs, libraries, or 
+    services that the system relies on may necessitate change in system.
+
+  - unforeseen circumstances: New opportunities or challenges may arise 
+    during the development process or after deployment, prompting the need 
+    for changes.
+
+
+  Outcomes to changes in systems:
+  - Improved Functionality: Changes can enhance the system's capabilities, 
+    introduce new features, or refine existing functionality to better meet 
+    user needs and organizational objectives.
+
+  - Enhanced Usability: Modifications to the user interface or user 
+    experience can improve the system's usability, making it easier and 
+    more intuitive for users to interact with and navigate.
+
+  - Increased Performance: Changes aimed at optimizing code, algorithms, or 
+    system architecture can lead to improved performance.
+
+  - Greater Flexibility and Adaptability: Adapting the system to 
+    accommodate changing requirements can increase its flexibility and 
+    adaptability, allowing it to remain relevant and effective in dynamic 
+    business landscapes.
+
+  - Improved Stability and Reliability: Addressing software defects, 
+    security vulnerabilities, or stability issues enhances the system's 
+    reliability.
+
+  - Cost Savings: Strategic changes that optimize resource utilization, can 
+    reduce maintenance overhead
+
+  - Competitive Advantage: Changes that differentiate the system from 
+    competitors, enhances its value proposition, positioning the 
+    organization for success in the marketplace.
+
+
+6. As a Software Engineer, you have been given the task of reverse 
+   engineering and re-engineering a large legacy system written in 
+   languages which are no longer widely used in modern development with 
+   out-of-date and incomplete documentation.
+a. Give an assessment of the problems likely to be encountered in this task.
+   Explain how you would go about the reverse engineering of this system
+   Explain 2 techniques that you could use
+b. What do you understand by the following below
+   i. Software Engineer
+   ii. Process Models
+   iii. Requirement Elicitation
+   iv. Ethnography
+ans: 
+  a. 
+
+  Assessment of Problems Likely to be Encountered:
+  - Lack of Documentation: The absence of up-to-date and comprehensive 
+    documentation makes it challenging to understand the system's 
+    architecture, design decisions, and functionality.
+
+   - Outdated Technologies: The use of obsolete programming languages and 
+     outdated technologies complicates the reverse engineering process.
+
+   - Complexity and Size: Large legacy systems often have complex 
+     architectures and extensive codebases. Understanding the system may require significant time and effort.
+
+   - Dependency on Legacy Components: The system may rely on deprecated 
+     libraries, frameworks, or hardware.
+
+   - Knowledge Gap: Finding developers with expertise in obsolete languages 
+     and technologies may be difficult.
+
+   - Inconsistent Coding Practices: Over time, different developers may 
+     have contributed to the system, resulting in inconsistent coding 
+     styles, naming conventions, and programming paradigms
+
+   Reverse Engineering Approach:
+   - Code Analysis: Begin by analyzing the existing codebase to gain a 
+     high-level understanding of its structure, modules, and dependencies.
+
+   - Decomposition: Break down the system into smaller, manageable modules 
+     or subsystems.
+
+   - Documentation Reconstruction: Document the system's architecture, 
+     design patterns, and business logic as you uncover them during the 
+     reverse engineering process.
+
+   - Functional Analysis: Identify the system's core functionality and 
+     critical features. Prioritize areas for re-engineering based on 
+     business value, technical feasibility, and risk.
+
+   - Testing and Validation: Develop tests to verify the behavior of the 
+     system and ensure that re-engineered components function correctly.
+
+   Techniques for Reverse Engineering:
+   - Static Code Analysis:
+     - Using static code analysis tools helps detect coding errors, dead 
+       code, and code smells, providing insights into the codebase's 
+       structure and quality.
+
+   - Dynamic Analysis:
+     - Dynamic analysis involves executing the system and observing its 
+       behavior in real-time. Using techniques such as logging, debugging, and profiling can reveal these runtime characteristics
+
+
+   b. 
+   i. Software Engineer: A software engineer is a professional who applies 
+      engineering principles and methodologies to design, develop, test, 
+      and maintain software systems.
+
+   ii. Process Models: Process models in software engineering are abstract 
+       representations that describe the stages, activities, and 
+       relationships involved in developing a software product. 
+
+   iii. Requirement Elicitation: Requirement elicitation is the process of 
+        gathering, identifying, and documenting the needs, expectations, 
+        and constraints of stakeholders regarding a software system.
+
+   iv. Ethnography: Ethnography involves observing and analyzing users' 
+       behaviors, practices, and interactions with technology in their 
+       natural environments. 
+
+
+
+
+
+
+
+
+

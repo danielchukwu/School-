@@ -1,0 +1,32 @@
+CMP 403
+
+1. A small specialist language training company would like to improve the services offered to existing clients and increase its client base by replacing existing call centre and paper-based mailshots, with online web technology deployment
+
+a. As a consultant requirements engineer, discuss the tools and techniques that you would deploy to elicit, analyze, document, and check services requested by the company. (10 marks)
+
+b. What do you understand by the following (10 marks)
+i. Software Engineering
+ii. Process Models
+iii. Requirement licitation
+iv. Ethnography
+v. Systems Engineering
+
+
+2. As a software Engineer, you have been given the task to draw an 
+- Activity diagram
+- Use case diagram
+- Sequence diagram
+for an online shopping software. Describe the online shopping software and execute the task, ensure drawings are neat and all UML symbols are labelled properly (20 marks)
+
+3a. Compare and contrast the main features and practices of the Agile approach and Plan-driven Approach at each of the key phase of the software development. (give example) (10 marks)
+
+b. One of the problems with agile development methods (and other incremental development and delivery approaches) concerns contracts. Briefly explain why this can be a problem. (5 marks)
+
+c. Change is inevitable in any existing software system. Discuss the causes of change, and what change can lead to in systems development. (5 marks)
+
+4. DMZEE NIG. LTD is company that deals with buying spare parts and selling to its 4 clients. The GM directed that a software must be developed to take care of the challenges facing the organization. 
+
+a. Assuming you are one of the Software Engineers selected to manage the project. Discuss some of the problems that may occur when requirement must be elicited from 4 different clients. (10 marks)
+
+b.As a software project manager, what factors would you take into account when selecting staff to work on a software development project? (10 marks)
+
