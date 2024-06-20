@@ -1,4 +1,0 @@
-EXAM AOC (Will be 70 marks)
-- 5 questions, answer 3, Question number 1 will be compulsory
-- Question number 1 will encompass everything ranging from translators, compilers, 
-  compiler phases diagram, applied questions, regular expression and more. It will touch on everything

@@ -1,2 +1,0 @@
-AOC for CMP 409
-Read the lecture slides
