@@ -1,0 +1,77 @@
+CMP 404 EXAM PREP
+
+
+----------------------------------------------------------------
+
+
+SLIDE 1
+
+
+
+
+SOFTWARE Engineering
+
+
+
+
+
+
+1a. What is Software Design and Implementation?
+ans: Software design and implementation is the stage in the software engineering 
+     process at which an executable software system is developed. 
+ 
+b. Structured object-oriented design processes involves ____________?
+ans: developing a number of different system models
+
+b1. They require a lot of effort for development and maintenance of these models for small 
+    systems, this may not be ____________.
+ans: cost-effective
+
+b2. However, for large systems developed by different groups design models are an important 
+    ____________
+ans: communication mechanism
+
+c. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

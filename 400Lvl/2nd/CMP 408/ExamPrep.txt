@@ -1,0 +1,158 @@
+CMP 408 EXAM PREP
+
+
+----------------------------------------------------------------
+
+
+SLIDE 1
+
+
+
+
+INFORMATION SECURITY
+
+
+Brief History
+
+1a. Who did an intrusion on a pentagon computer and in what year?
+ans: Kevin Mitnick in 1983
+
+b. How much did the first worm ever created caused in damages and who created it?
+ans: It cost $50,000 and was created by Robert Tappan
+
+c. Who intruded the American bank computer and stole 10 million dollars and in what year?
+ans: Vladimir Levin did in the year 1994
+
+d. Which 16 years old infiltrated a NASA computer and had access to data worth 1,7 millions dollars and in what year?
+ans: Jonathan James in the year 1999
+  
+e. List the 4 goals of Computer Security?
+ans: - Integrity
+     - Confidentiality
+     - Reliability
+     - Authentication
+  
+e1. Explain the 4 goals of Computer Security?
+ans: - Integrity: Guarantee that the data is what we expect
+     - Confidentiality: The information must just be accessible to the authorized people
+     - Reliability: Computers should work without having unexpected problems
+     - Authentication: Guarantee that only authorized persons can access to the resources
+
+g. List the 3 types of Security?
+ans: Network Security
+     System and Software Security
+     Physical Security
+
+h. List 4 common attacks?
+ans: Network attacks
+     Web attacks
+     OS, applications and software attacks
+     Social Engineering
+
+h1. Give 2 examples for each common attacks listed?
+ans: Network attacks - (e.g Packet sniffing, man-in-the-middle, DNS hacking)
+     Web attacks - (e.g Phishing, SQL Injection, Cross Site Scripting)
+     OS, applications and software attacks - (e.g Virus, Trojan, Worms, Rootkits, Buffer Overflow)
+     Social Engineering
+
+i. What is a virus?
+ans: It's a piece of code that automatically reproduces itself. It’s attached to other 
+     programs or files, but requires user intervention to propagate
+
+j. What is a worm?
+ans: It's a piece of code that automatically reproduces itself over the Network. It doesn’t 
+     need user intervention to propagate (autonomous)
+
+k. What is a Backdoor?
+ans: A backdoor is a program placed by a black-hacker that allows him to 
+     access a system. A backdoor have many functionalities such as 
+     keyboard-sniffer, display spying, etc
+
+l. What is a Trojan?
+ans: A Trojan is a software that seems useful in the beginning, but is actually 
+     hiding a malicious functionality
+
+m. What is RootKits (the ultimate virus)?
+ans: Rootkits operate like backdoor and Trojan, but also modify existing 
+     programs in the operating system. That allows a black-hacker to control 
+     the system without being detected. A rootkit can be in user-mode or in 
+     kernel-mode.
+
+n. What is the goal of backdoor, Trojan and rootkits?
+ans: The goal of backdoor, Trojan and rootkits is to take possession of a 
+     machine subsequently through an infection made via a backdoor
+
+o. What is Social Engineering?
+ans: Manipulating a person(s) in divulging confidential information
+
+p. List the types of Password attacks?
+ans: Password guessing
+     Dictionary attacks
+     Rainbow table
+
+q. What are the below?
+   - Vulnerability
+   - Threat
+   - Countermeasure
+ans: 
+    - Vulnerability: is a point where a system is susceptible to attack
+    - Threat: is a possible danger to the system
+    - Countermeasure: are techniques for protecting your system
+
+r. List 4 techniques for achieving security (Computer and Network Security)?
+ans: - Cryptography
+     - Secure networks
+     - Antivirus software
+     - Firewalls
+
+s. List 4 "safe computing" practices that users can practice to improve 
+   security
+ans: - Not downloading from unsafe websites
+     - Not opening attachments
+     - Not trusting what you see on websites
+     - Avoiding Scams
+
+t. What is Cryptography?
+ans: It's simply secret codes
+
+u. What is Encryption?
+ans: It is the conversion of data into unreadable codes (to prevent anyone from accessing 
+     the data). It needs a key, to find the original data
+
+w. What are Public keys?
+ans: An ingenious system of proving you know your password without disclosing your password.
+
+x. What is Hashing?
+ans: creating fingerprints of documents
+
+
+
+
+
+
+
+
+
+
+
+SLIDE 2
+
+
+
+
+
+2a.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
