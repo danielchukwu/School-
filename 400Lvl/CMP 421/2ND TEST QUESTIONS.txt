@@ -1,4 +1,0 @@
-CMP 421 2ND TEST
-1a. Explain the concept of transparency in Distributed Systems
- b. Briefly explain any 3 types of transparency in a distributed system
- c. What do you consider as the challenges in building distributed Operating Systems
