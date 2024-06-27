@@ -1,0 +1,88 @@
+CMP 418 EXAM PREP
+Best Practice: Study using a big screen device. Be it a laptop or a tablet. It won't be best to use phones (even though y'all ain't with your phones 😉)
+
+
+
+----------------------------------------------------------------
+
+
+
+
+DSA
+
+
+
+
+1a. What is an Algorithm?
+ans: A sequence of unambiguous instruction for solving a problem that 
+is, for obtaining a required output for any legitimate input in a 
+finite amount of time
+
+b. List 5 properties of Algorithms?
+ans: 
+- Finiteness: terminates after a finite number of steps.
+- Definiteness: each step must be rigorously and unambiguously specified, 
+  e.g., “stir until lumpy”
+- Input: valid inputs must be clearly specified
+- Output: data that result upon completion of the algorithm must be specified
+- Effectiveness: steps must be simple and basic, e.g., check if m is prime
+
+c. Draw the diagram of Algorithm Design and Analysis Process??
+ans: Slide 1 (page 5)
+
+d. Explain what takes place in the first 2 steps of Algorithm design?
+ans: 
+1. Understanding the Problem
+   - Ask questions, do a few small examples by hand, think about special cases, etc.
+   - An input is an instance of the problem the algorithm solves
+   - Specify exactly the set of instances the algorithm needs to handle
+2  Decide on Exact vs. approximate solution
+   - Approximate solution cannot solve exactly, e.g., extracting square roots, solving 
+     definite integrals, etc.
+   - Algorithms for exact solution can be unacceptably slow
+
+e. What is Algorithm Design Techniques?
+ans: They are the general approach to solving problems algorithmically that is 
+     applicable to a variety of problems from different areas of computing 
+
+e1. List 5 of these techniques?
+ans: 
+- Brute force
+- Decrease and Conquer
+- Divide and Conquer
+- Transform and Conquer
+- Space and time tradeoffs
+- Dynamic Programming
+
+f. Algorithms + DataStructures = (equals)?
+ans: Programs
+
+g. List 5 Data Structures?
+ans: List, Array, Dictionary, Sets, Queue, Stack
+
+h. Algorithm yields required output for every ________________
+ans: legitimate input in finite time
+
+i. List the 2 techniques for proving the correctness?
+ans: Exact algorithm
+     Approximate algorithm
+
+k. List 4 ways of analyzing an Algorithm?
+ans: 
+- Time efficiency: how fast it runs
+- Space efficiency: How much extra memory it uses
+- Simplicity: easier to understand, usually contains fewer bugs, sometimes simpler is more
+  efficient, but not always!
+- Generality: of the problem algorithm solves or the set of inputs it accepts
+
+l. List 5 important problem types?
+ans:
+- Sorting
+- Searching
+- String processing
+- Graph problem
+- Combinatorial Problem 
+- Geometric Problem 
+- Numerical Problem
+
+Stopped at (Page 9)
