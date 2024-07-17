@@ -1,0 +1,253 @@
+CMP 410 EXAM PREP
+
+
+----------------------------------------------------------------
+
+LECTURE 1
+PAGE 166 - 179
+
+
+
+
+DATA COMMUNICATION
+
+
+
+1a. What is Computer used for?
+ans: Computer is used to capture, process, store, generate and communicate 
+     data/ information.
+
+b. What is Data Communication(DC)?
+ans: DC is the active process of transporting data/ information from one 
+     point to another
+
+d. Data communication can be on ________ or _________ connectivity
+ans: wired, wireless
+
+e. The Effectiveness of data communication system depends on 3 fundamental 
+   characteristics. Name them
+ans: - Delivery
+     - Accuracy
+     - Timeliness
+
+e1. Explain all 3
+ans: - Delivery: The system must deliver data to the correct destination
+     - Accuracy: The system must deliver data accurately
+     - Timeliness: The system must deliver data in a timely manner.
+
+f. List 8 Standards Organization for Data Communication?
+ans: - International Standard Organization (ISO)
+     - International Telecommunications Union-Telecommunication Sector (ITU-T)
+     - Institute of Electrical and Electronics Engineers (IEEE)
+     - American National Standards Institute (ANSI)
+     - Electronics Industry Association (EIA)
+     - Telecommunications Industry Association (TIA)
+     - Internet Architecture Board (IAB)
+     - Internet Engineering Task Force (IETF)
+     - Internet Research Task Force (IRTF)
+
+g. List and explain the 5 major Data Communication components?
+ans: - Transmitter: is the device that sends the message, it can be a 
+       computer, workstations, telephone e.t.c
+     - Receiver: Is the device that receives the message. It can be a 
+       computer, workstation telephone e.t.c
+     - Medium: is the physical path by which a message travels from the 
+       sender to receiver through pair wire, coaxial cable, fiber-optic 
+       cable, radio waves etc
+     - Message: is the transmission (data) to be communicated. It can 
+       consist of text, number, picture, sound, video. etc
+     - Protocol: is a set of rules that governs data communication. It 
+       represents an agreement between the communicating devices. Without 
+       a protocol, two device may be connected but not communicating.
+
+h. What is Data Communication Circuits?
+ans: Data communication circuit provides a transmission path between 
+     locations and transfers digital information from one station 
+     (node, where computers or other digital equipment are located) to 
+     another using electronic circuits
+
+h1. Draw a diagram of Data Communication Circuits?
+ans: Slide 1 (page 169)
+
+h2. Discuss what takes place on each step in the above diagram?
+ans: - Source: This device generates the data to be transmitted; examples 
+       are mainframe computer, personal computer, workstation Mobile 
+       Station etc. The source equipment provides a means for humans to 
+       enter data into system.
+     - Transmitter: A transmitter transforms and encodes the information 
+       in such a way as to produce electromagnetic signals that can be 
+       transmitted across some sort of transmission system. For example, a 
+       modem takes a digital bit stream from an attached device such as a 
+       personal computer and transforms that bit stream into an analog 
+       signal that can be handled by the telephone network.
+     - Transmission medium: The transmission medium carries the 
+       electromagnetic signals from the transmitter to the receiver. 
+       Different types of transmission media include free-space radio 
+       transmission (wireless transmission) and physical facilities such as 
+       metallic and optical fiber cables. 
+     - Receiver: The receiver accepts the signal from the transmission 
+       medium and converts it into a form that can be handled by the 
+       destination device. For example, a modem will accept an analog 
+       signal coming from a network or transmission line and convert it 
+       into a digital bit stream.
+     - Destination: Takes the incoming data from the receiver and can be 
+       any kind of digital equipment like the source
+
+i. Transmission mediums are also known as _______?
+ans: Channels
+
+j. What is the capacity of a Channel?
+ans: It is the maximum amount of signals or traffic that a channel can 
+     carry
+
+j1. How is the capacity of a Channel measured?
+ans: it is measured in terms of bandwidth and data transfer rate. Bandwidth 
+     is measured in Hertz (1KHz = 1000 Hz)
+ 
+j2. What is the bandwidth of a Channel?
+ans: It is the range of frequencies available for transmission of data 
+     through that channel
+
+j3. Higher bandwidth equals (=) what?
+ans: Higher data rate
+
+j4. Data travels in the form of ____________ over channels?
+ans: electromagnetic signals
+
+j5. Data signal carries one or two ____ or ____ bits over the channel.
+ans: 1 or 2
+
+j6. What is Data transfer rate?
+ans: it is the number of bits transmitted between source and destination in 
+     1 second. It is measured in terms of bits per second (bps)
+
+j7. Answer the below
+1 Kbps = ?
+1 Mbps = ?       
+1 Gbps = ?
+1 Tbps = ?
+ans: 1 Kbps = 1024 bps    
+     1 Mbps = 1024 Kbps       
+     1 Gbps = 1024 Mbps  
+     1 Tbps = 1024 Gbps
+
+j8. What is the formula for calculating Data Transfer Rate speed?
+ans: S = A ÷ T
+     where:
+     S = speed (or rate) of transfer
+     A = Amount of data
+     T = Time 
+
+j9. Calculation. Determine the speed or the rate of transfer 
+    of 25 megabyte(mb) in 2 min.
+ans: S = A ÷ T
+     where:
+     A = 25mb
+     T = 2min * 60sec = 120sec
+     S = 25mb ÷ 120sec = 0.208mbps
+     #Convert mbps to Kbps
+     0.208mbps * 1024kbps = 212.9kbps
+
+j10. Calculation. You transferred 100 GB at a rate of 7 MB/s. 
+     Compute the Time required for the transfer.
+ans: T = A ÷ S
+     where:
+     T = ?
+     A = 100gb
+     S = 7mbps
+     # convert 100gb to mb
+     100gb * 1024mb = 102400mb
+     T = 102400mb ÷ 7mbps
+       = 14628.6sec
+     # convert to hour
+     14628.6sec ÷ 60 ÷ 60 = 4.06hours
+
+j11. A user wants to upload a text document at the rate of 
+     10 pages per 20 seconds. What will be the required data 
+     rate of the  channel ?. Assume that 1 page contains 1600 
+     characters and each character is of 8 bits.
+ans: S = A ÷ T
+     where:
+     A = 10pages * 1600 characters * 8bits = 128000bits
+     T = 20seconds
+     S = 128000bits/20seconds
+     S = 6400bps
+     # convert to Kbps
+       = 6400bps ÷ 1024b
+       = 6.25kbps
+
+k. What is the transmission medium?
+ans: The transmission medium is the physical path between 
+     transmitter and receiver in a data transmission system. 
+     It is included in the physical layer of the OSI protocol hierarchy.
+
+l. The Transmission media can be generally categorized as either 
+   _______ or _________?
+ans: unguided, guided
+
+m. Explain Guided Transmission Media?
+ans: Guided Transmission Media uses a "cabling" system (or 
+     some sort of conductor) that guides the data signals along 
+     a specific path. The data signals are bound by the "cabling" system.  
+     The conductor directs the signal propagating down it.
+
+n. Guided Media is also known as __________?
+ans: Bound Media
+
+o. List 2 examples of Guided Transmission media?
+ans: Copper wire
+     Optic fiber
+
+p. Draw the hierarchy diagram of Communication/Transmission medium?
+ans: Slide 1 (page 178)
+
+q. Explain Unguided Transmission Media?
+ans: Unguided Transmission Media is a means for data signals 
+     to travel without anything to guide them along a specific path.
+
+r. The data signals in unguided media are not bound to a 
+   cabling media and as such are often called _________?
+ans: Unbound Media
+
+s. ___________ are wireless systems
+ans: Unguided transmission media
+
+t. Signals propagating down an unguided transmission medium are 
+   available to ___________
+ans: Anyone who has a device capable of receiving them
+
+     
+
+
+
+
+
+
+
+
+
+LECTURE 2
+page 1 - 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
