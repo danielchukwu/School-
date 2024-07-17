@@ -1,2 +1,7 @@
 1st Test AOC
 - Slide 166 - 179 (Data Communication)
+
+Lectures
+1. Slide 166 - 179 (Data Communication)
+2. Slide 1 - 15
+3. 
