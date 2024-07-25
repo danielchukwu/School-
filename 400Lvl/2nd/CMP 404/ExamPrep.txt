@@ -17,21 +17,546 @@ SOFTWARE Engineering
 
 
 1a. What is Software Design and Implementation?
-ans: Software design and implementation is the stage in the software engineering 
-     process at which an executable software system is developed. 
- 
-b. Structured object-oriented design processes involves ____________?
-ans: developing a number of different system models
+ans: Software design and implementation is the stage in the software 
+     engineering process at which an executable software system is 
+     developed
 
-b1. They require a lot of effort for development and maintenance of these models for small 
-    systems, this may not be ____________.
+a1. What is Software Design?
+ans: Software design is a creative activity in which you identify 
+     software components and their relationships, based on a customer’s 
+     requirements. 
+
+a2. What is Implementation?
+ans: Implementation is the process of realizing the design as a program.
+
+b. In a wide range of domains, it is possible to buy __________?
+ans: off-the-shelf systems (COTS)
+
+c. Off-the-shelf systems can be _______ and ________ to fit the users 
+   requirements?
+ans: adapted and tailored
+
+d. Are off-the-shelf systems a cheaper and faster approach for most domains?
+ans: Yes, they are
+
+e. When we develop an application using off-the-shelf systems, the design  
+   process becomes concerned with __________________?
+ans: How to use the configuration features of that system to deliver the 
+     system requirements.
+
+f. Structured object-oriented design processes involve developing a number 
+   of different ___________?
+ans: System models
+
+g. object-oriented design requires __________ for _________ and __________
+   its system models
+ans: a lot of effort, the development, maintenance
+
+h. Object-oriented design may not be ________ for small systems?
 ans: cost-effective
 
-b2. However, for large systems developed by different groups design models are an important 
-    ____________
-ans: communication mechanism
+i. For large systems developed by different groups _________ are an 
+   important communication mechanism.
+ans: design models
 
-c. 
+j. List 5 common activities in design processes?
+ans: - Define the context and modes of use of the system,
+     - Design the system architecture,
+     - Identify the principal system objects,
+     - Develop design models,
+     - Specify object interfaces,
+
+k. Why is understanding of the system context (relationships between the 
+   software that is being designed and its external environment) essential?
+ans: Because it helps in 
+     - Deciding how to provide the required system functionality 
+     - How to structure the system to communicate with its environment
+     - Establishing system boundaries (which helps in deciding what 
+       features are implemented in the system being designed)
+
+l. What is a System Context Model?
+ans: It is a structural model that demonstrates the other systems in the 
+     environment of the system being developed
+
+m. What is an Interaction Model?
+ans: It is a dynamic model that shows how the system interacts with its 
+     environment as it is used.
+
+n. Draw a diagram showing the System Context for the Weather Station?
+ans: Slide 1 (page 10)
+
+o. Draw a diagram of the Weather Station Use Cases?
+ans: Slide 1 (page 11)
+
+p. Once interactions between the system and its environment have been 
+   understood, What do we use the information for?
+ans: We use it for designing the System Architecture
+
+q. What do you do in Architectural Design?
+ans: - You identify the major components that make up the system and their 
+       interactions
+     - Then you organize the components using an architectural pattern    
+       (such as a layered or client-server model)
+
+r. Draw the high-level Architecture of the weather station?
+ans: Slide 1 (page 14)
+
+s. What is the weather station composed of and how does it communicate?
+ans: The weather station is composed of independent subsystems that 
+     communicate by broadcasting messages on a common infrastructure.
+
+t. Draw the Architecture of Data Collection?
+ans: Slide 1 (page 15)
+
+u. Is identifying of object classes in object oriented design difficult?
+ans: Yes it is
+
+v. Object class identification relies on?
+ans: - Your skill
+     - Your experience
+     - Your domain knowledge of system designers
+
+w. Object identification is an __________  process, that you are unlikely to get right the _____ time?
+ans: Iterative, first
+
+x. List the 4 approaches to Object identification?
+ans: - Use a grammatical approach based on a natural language 
+       description of the system (used in Hood OOD method)
+     - Base the identification on tangible things in the application domain
+     - Use a behavioral approach and identify objects based on what 
+       participates in what behavior
+     - Use a scenario-based analysis. The objects, attributes and methods 
+       in each scenario are identified
+
+y. What is a Weather Station?
+ans: A weather station is a package of software controlled instruments 
+     which collects data, performs some data processing and transmits 
+     this data for further processing. 
+
+y1. List the instruments used in the Weather Station?
+ans: - Air thermometer
+     - Ground thermometer
+     - Anemometer,
+     - A Wind vane
+     - A Barometer and 
+     - A rain gauge
+
+y2. How often does the Weather Station collect data?
+ans: Data is collected periodically
+
+y3. When a command is issued to transmit the weather data
+ans: The weather station processes and summarises the collected data. The 
+     summarised data is transmitted to the mapping computer when a request 
+     is received.
+
+y4. What do you think the Object class identification of the Weather Station may be based on
+ans: - Ground thermometer, Anemometer, Barometer:
+       Application domain objects that are ‘hardware’ objects related to 
+       the instruments in the system.
+     - Weather station:
+       The basic interface of the weather station to its environment. It 
+       therefore reflects the interactions identified in the use-case model.
+     - Weather data:
+       Encapsulates the summarized data from the instruments.
+
+z. Draw a diagram that shows the Weather Station Object Classes?
+ans: Slide 1 (page 20)
+
+Round 2
+a. What do Design models really show?
+ans: They show 
+     - Objects 
+     - Object classes and 
+     - Relationships between these entities(or objects)
+
+b. What do Static models describe?
+ans: They describe the static structure of the system in terms of object 
+     classes and relationships
+
+c. What do Dynamic models describe? 
+ans: They describe the dynamic interactions between objects
+
+d. List 3 different examples of Design Models?
+ans: - Subsystem models
+     - Sequence models
+     - State machine models
+     Others include
+     - Use-case models
+     - Aggregation models
+     - Generalization models
+
+d1. Explain the 3 Design Models listed above?
+ans: - Subsystem models that show logical groupings of objects into 
+       coherent subsystems.
+     - Sequence models that show the sequence of object interactions.
+     - State machine models that show how individual objects change their 
+       state in response to events.
+
+e. Subsystem models show _________ of objects into ______________?
+ans: Logical groupings, Coherent subsystems
+
+e1. How are subsystem models shown in UML?
+ans: They are shown using packages - an encapsulation construct
+
+f. Sequence models show ________________.
+ans: The sequence of object interactions
+
+f1. Describe the layout of the Sequence model diagram?
+ans: - Objects are arranged horizontally across the top;
+     - Time is represented vertically so models are read top to bottom;
+     - Interactions are represented by labelled arrows, Different styles of 
+       arrow represent different types of interaction;
+     - A thin rectangle in an object lifeline represents the time when the 
+       object is the controlling object in the system.
+
+f2. Draw an example sequence model diagram describing data collection?
+ans: Slide 1 (page 25)
+
+g1. State machine models show __________________.
+ans: How individual objects change their state in response to events
+
+g2. You don't usually need a state diagram. Why is this?
+ans: - This is because many of the objects in a system are relatively 
+       simple and
+     - It adds unnecessary detail to the design
+
+g1. Draw a State model diagram showing the Weather Station?
+ans: Slide 1 (page 27) 
+
+h. Why do Object Interfaces need to be specified?
+ans: It needs to be specified so that the objects and other components 
+     can be designed in parallel
+
+i. Designers should avoid designing the interface representation, they 
+   should instead __________?
+ans: hide the interface representation in the object itself
+
+j. Objects may have several interfaces which are ________________
+ans: viewpoints on the methods provided
+
+k. Draw a diagram of the Weather Station Interface?
+ans: Slide 1 (page 29)
+
+
+
+
+
+
+
+
+
+
+
+SLIDE 2
+
+
+
+
+
+Design and Implementation
+
+
+
+
+
+a. What is a Design Pattern?
+ans: A design pattern is a way of  reusing abstract knowledge about a 
+     problem and its solution
+     OR
+
+b. What is a pattern?
+ans: It is a description of the problem and the essence of its solution. It 
+     should be sufficiently abstract to be reused in different settings.
+
+c. Pattern descriptions usually makes use of _________ characteristics such 
+   as ____________ and _____________?
+ans: Object-oriented characteristics, Inheritance and polymorphism
+
+d. List the Pattern elements?
+ans: - Name
+     - Problem description
+     - Solution description
+     - Consequences
+
+d1. List the Pattern elements?
+ans: - Name: A meaningful pattern identifier
+     - Problem description
+     - Solution description: Not a concrete design but a template for a 
+       design solution that can be instantiated in different ways
+     - Consequences: The results and trade-offs of applying the pattern
+
+e. Explain the Observer Pattern?
+ans: - Name: Observer
+     - Description: Separates the display of  object state from the object 
+                    itself
+     - Problem description: Used when multiple displays of  state are needed
+     - Solution description: See slide with UML description.
+     - Consequences: Optimizations to enhance display performance are 
+                     impractical
+
+e1. Draw a diagram of the Observer Pattern being used?
+ans: Slide 2 (Page 8)
+
+e2. Draw a UML model of the observer pattern?
+ans: Slide 2 (page 9)
+
+f. To use patterns in your design, you need to recognize that?
+ans: Any design problem you are facing may have an associated pattern that 
+     can be applied.
+
+g. List 4 patterns?
+ans: - Observer Pattern
+     - Façade pattern
+     - Iterator pattern
+     - Decorator pattern
+
+g1. Explain all 4 patterns above?
+ans: - Observer Pattern: It tells several objects that the state of some 
+       other object has changed
+     - Façade pattern: Tidy up the interfaces to a number of  related 
+       objects that have often been developed incrementally
+     - Iterator pattern: It provides a standard way of accessing the 
+       elements in a collection, irrespective of how that collection is 
+       implemented
+     - Decorator pattern: It allows for the possibility of  extending the 
+       functionality of  an existing class at run-time
+
+g2. what are some implementation issues faced with implementing these 
+    patterns?
+ans: - Reuse
+     - Configuration management
+     - Host-target development
+
+g3. Explain each of the issues listed above?
+ans: - Reuse: Most modern software is constructed by reusing existing 
+       components or systems. When you are developing software, you should 
+       make as much use as possible of existing code
+     - Configuration management: During the development process, you have 
+       to keep track of the many different versions of each software 
+       component in a configuration management system
+     - Host-target development: Production software does not usually 
+       execute on the same computer as the software development 
+       environment. Rather, you develop it on one computer (the host 
+       system) and execute it on a separate computer (the target system)
+
+h. List the 5 different Reuse levels?
+ans: - The abstraction level
+     - The object level
+     - The component level
+     - The system level
+
+h1. Explain what happens at every Reuse level
+ans: - The abstraction level: At this level, you don’t reuse software 
+       directly but use knowledge of successful abstractions in the design 
+       of your software. 
+     - The object level: At this level, you directly reuse objects from a 
+       library rather than writing the code yourself. 
+     - The component level: Components are collections of objects and 
+       object classes that you reuse in application systems. 
+     - The system level: At this level, you reuse entire application systems
+
+h2. List 4 Reuse costs?
+ans: - The costs of the time spent in looking for software to reuse and 
+       assessing whether or not it meets your needs. 
+     - Where applicable, the costs of buying the reusable software. For 
+       larger off-the-shelf systems, these costs can be very high.
+     - The costs of adapting and configuring the reusable software 
+       components or systems to reflect the requirements of the system that you are developing.
+     - The costs of integrating reusable software elements with each other 
+       (if you are using software from different sources) and with the new 
+       code that you have developed. 
+
+i. Configuration management is the name given to the general process of  
+   _____________?
+ans: managing a changing software system
+
+i1. What is the aim of Configuration Management?
+ans: The aim of configuration management is to support the system 
+     integration process so that all developers can access the project code 
+     and documents in a controlled way, find out what changes have been 
+     made, and compile and link components to create a system.
+
+i2. List the 3 Problems of Configuration Management?
+ans: - Version Management
+     - System Integration
+     - Problem tracking
+
+i3. Explain all 3 problems above?
+ans: - Version Management: where support is provided to keep track of the 
+       different versions of software components. Version management 
+       systems include facilities to coordinate development by several 
+       programmers.
+     - System Integration: where support is provided to help developers 
+       define what versions of components are used to create each version 
+       of a system. This description is then used to build a system 
+       automatically by compiling and linking the required components.
+     - Problem tracking: where support is provided to allow users to report 
+       bugs and other problems, and to allow all developers to see who is 
+       working on these problems and when they are fixed.
+
+j. Most software is developed on one computer called ________, but runs on 
+   a separate machine called ________
+ans: The host, The target
+
+j1. The host machine is also called the ____________ and the target machine 
+    is also called the _________
+ans: Development platform, Execution platform
+
+j2. A platform is more than just hardware. It includes 
+ans: The installed OS and other supporting software (such as a database 
+     management system or, for development platforms, an interactive 
+     development environment)
+
+j3. Development platform and Execution platform usually has different _________?
+ans: Installed software and Architecture
+
+j4. List 4 Development platform tools?
+ans: 
+     - An integrated compiler and syntax-directed editing system that 
+       allows you to create, edit and compile code.
+     - A language debugging system.
+     - Graphical editing tools, such as tools to edit UML models.
+     - Testing tools, such as Junit that can automatically run a set of  
+       tests on a new version of  a program.
+     - Project support tools that help you organize the code for different 
+       development projects.
+
+j5. What does the acronym IDE stand for?
+ans: Integrated development environment
+
+j5. What is an IDE?
+ans: An IDE is a set of software tools that supports different aspects of  
+     software development, within some common framework and user interface
+
+j6. Why are IDE's created?
+ans: To support development in a specific programming language such as 
+     Java. The language IDE may be developed specially, or may be an 
+     instantiation of a general-purpose IDE, with specific language-support 
+     tools.
+
+k. List the 3 Components/System deployment factors?
+ans: - If  a component is designed for a specific hardware architecture, or 
+       relies on some other software system, it must obviously be deployed 
+       on a platform that provides the required hardware and software 
+       support
+     - High availability systems may require components to be deployed on 
+       more than one platform. This means that, in the event of  platform 
+       failure, an alternative implementation of  the component is available.
+     - If  there is a high level of communications traffic between 
+       components, it usually makes sense to deploy them on the same 
+       platform or on platforms that are physically close to one other. 
+       This reduces the delay between the time a message is sent by one 
+       component and received by another.
+
+l. What is Open Source Development?
+ans: Open source development is an approach to software development in 
+     which the source code of a software system is published and 
+     volunteers are invited to participate in the development process
+
+m. The best-known open source product is ____________?
+ans: The linux operating system
+
+m1. Linux is widely used as a ________ and __________?
+ans: Server system, Desktop environment
+
+n. List 3 other open source products?
+ans: - Java
+     - Apache web server
+     - MySQL database management system
+
+o. List the 2 open source issues?
+ans: - Should the product that is being developed make use of  open source 
+       components?
+     - Should an open source approach be used for the software’s 
+       development?
+
+p. Why do companies make their products open source?
+ans: - Because their business model is not reliant on selling a software 
+       product but on selling support for that product. 
+     - They believe that involving the open source community will allow 
+       software to be developed more cheaply, more quickly and will create a community of users for the software. 
+
+q. A fundamental principle of  open-source development is that source code 
+   should be __________, it does not mean that _______________?
+ans: freely available, anyone can do as they wish with that code
+
+r. Discuss Open Source Licensing
+ans: A fundamental principle of  open-source development is that source 
+     code should be freely available, this does not mean that anyone can do 
+     as they wish with that code.
+     - Legally, the developer of  the code (either a company or an 
+       individual) still owns the code. They can place restrictions on how 
+       it is used by including legally binding conditions in an open source 
+       software license. 
+     - Some open source developers believe that if  an open source 
+       component is used to develop a new system, then that system should 
+       also be open source. 
+     - Others are willing to allow their code to be used without this 
+       restriction. The developed systems may be proprietary and sold as 
+       closed source systems.
+
+s. List 3 open source license models?
+ans: - The GNU General Public License (GPL)
+     - The GNU Lesser General Public License (LGPL)
+     - The Berkley Standard Distribution (BSD) License
+
+s1. Discuss all 3 license models above?
+ans: - The GNU General Public License (GPL): This is a so-called 
+       ‘reciprocal’ license that means that if  you use open source 
+       software that is licensed under the GPL license, then you must make 
+       that software open source. 
+     - The GNU Lesser General Public License (LGPL): This is a variant of 
+       the GPL license where you can write components that link to open 
+       source code without having to publish the source of  these 
+       components. 
+     - The Berkley Standard Distribution (BSD) License: This is a 
+       non-reciprocal license, which means you are not obliged to 
+       re-publish any changes or modifications made to open source code. 
+       You can include the code in proprietary systems that are sold
+
+t. List 5 ways for achieving License management
+ans: - Establish a system for maintaining information about open-source 
+       components that are downloaded and used. 
+     - Be aware of  the different types of  licenses and understand how a 
+       component is licensed before it is used. 
+     - Be aware of evolution pathways for components. 
+     - Educate people about open source. 
+     - Have auditing systems in place. 
+     - Participate in the open source community. 
+
+
+
+
+
+
+
+
+
+
+
+
+SLIDE 3
+
+
+
+
+
+Software Testing
+
+
+
+
+
+
+
+
+3a.  
+
+
+
+
+
+
 
 
 
