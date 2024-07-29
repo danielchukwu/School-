@@ -1,0 +1,13 @@
+Potential questions
+
+1. Discuss the different types of cyber attacks. 
+
+page 166-179
+page 1-hackers
+page 35-48
+page 91-96 (Network design consideration)
+page 101 - 105(Protocols)
+
+
+For your test
+- focus on data communications

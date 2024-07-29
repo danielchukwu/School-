@@ -1,0 +1,11 @@
+Web Development Issues I
+1. There are so many issues with web development, implementation, deployment and usage. Describe an issue (challenge) and discuss how the issue can be solved (use code snippets/web views to explain the challenge and mitigation method). Submit in groups of 5. There will be presentation.
+
+
+Web Development Issues II
+2. There are many process models that are adaptable in implementing software engineering projects. Use your knowledge of web characteristics and of software process models to argue whether or not a model (selected by your group) is suitable for web features, and adjust the model in question to suite web application development.
+
+NOTE:
+You are to describe with the aid of the diagram the process model in question and the new (adjusted) model.
+
+Submission date: Friday this week/submit in groups of 5
