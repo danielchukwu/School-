@@ -1,6 +1,7 @@
 CMP 404 EXAM PREP
 
-
+Coverage
+- Slide 1 to 4 (only)
 ----------------------------------------------------------------
 
 
@@ -260,7 +261,7 @@ Design and Implementation
 
 
 a. What is a Design Pattern?
-ans: A design pattern is a way of  reusing abstract knowledge about a 
+ans: A design pattern is a way of reusing abstract knowledge about a 
      problem and its solution
      OR
 
@@ -287,9 +288,9 @@ ans: - Name: A meaningful pattern identifier
 
 e. Explain the Observer Pattern?
 ans: - Name: Observer
-     - Description: Separates the display of  object state from the object 
+     - Description: Separates the display of object state from the object 
                     itself
-     - Problem description: Used when multiple displays of  state are needed
+     - Problem description: Used when multiple displays of state are needed
      - Solution description: See slide with UML description.
      - Consequences: Optimizations to enhance display performance are 
                      impractical
@@ -313,13 +314,13 @@ ans: - Observer Pattern
 g1. Explain all 4 patterns above?
 ans: - Observer Pattern: It tells several objects that the state of some 
        other object has changed
-     - Façade pattern: Tidy up the interfaces to a number of  related 
+     - Façade pattern: Tidy up the interfaces to a number of related 
        objects that have often been developed incrementally
      - Iterator pattern: It provides a standard way of accessing the 
        elements in a collection, irrespective of how that collection is 
        implemented
-     - Decorator pattern: It allows for the possibility of  extending the 
-       functionality of  an existing class at run-time
+     - Decorator pattern: It allows for the possibility of extending the 
+       functionality of an existing class at run-time
 
 g2. what are some implementation issues faced with implementing these 
     patterns?
@@ -366,7 +367,7 @@ ans: - The costs of the time spent in looking for software to reuse and
        (if you are using software from different sources) and with the new 
        code that you have developed. 
 
-i. Configuration management is the name given to the general process of  
+i. Configuration management is the name given to the general process of 
    _____________?
 ans: managing a changing software system
 
@@ -416,8 +417,8 @@ ans:
        allows you to create, edit and compile code.
      - A language debugging system.
      - Graphical editing tools, such as tools to edit UML models.
-     - Testing tools, such as Junit that can automatically run a set of  
-       tests on a new version of  a program.
+     - Testing tools, such as Junit that can automatically run a set of 
+       tests on a new version of a program.
      - Project support tools that help you organize the code for different 
        development projects.
 
@@ -425,7 +426,7 @@ j5. What does the acronym IDE stand for?
 ans: Integrated development environment
 
 j5. What is an IDE?
-ans: An IDE is a set of software tools that supports different aspects of  
+ans: An IDE is a set of software tools that supports different aspects of 
      software development, within some common framework and user interface
 
 j6. Why are IDE's created?
@@ -440,8 +441,8 @@ ans: - If  a component is designed for a specific hardware architecture, or
        on a platform that provides the required hardware and software 
        support
      - High availability systems may require components to be deployed on 
-       more than one platform. This means that, in the event of  platform 
-       failure, an alternative implementation of  the component is available.
+       more than one platform. This means that, in the event of platform 
+       failure, an alternative implementation of the component is available.
      - If  there is a high level of communications traffic between 
        components, it usually makes sense to deploy them on the same 
        platform or on platforms that are physically close to one other. 
@@ -465,7 +466,7 @@ ans: - Java
      - MySQL database management system
 
 o. List the 2 open source issues?
-ans: - Should the product that is being developed make use of  open source 
+ans: - Should the product that is being developed make use of open source 
        components?
      - Should an open source approach be used for the software’s 
        development?
@@ -476,15 +477,15 @@ ans: - Because their business model is not reliant on selling a software
      - They believe that involving the open source community will allow 
        software to be developed more cheaply, more quickly and will create a community of users for the software. 
 
-q. A fundamental principle of  open-source development is that source code 
+q. A fundamental principle of open-source development is that source code 
    should be __________, it does not mean that _______________?
 ans: freely available, anyone can do as they wish with that code
 
 r. Discuss Open Source Licensing
-ans: A fundamental principle of  open-source development is that source 
+ans: A fundamental principle of open-source development is that source 
      code should be freely available, this does not mean that anyone can do 
      as they wish with that code.
-     - Legally, the developer of  the code (either a company or an 
+     - Legally, the developer of the code (either a company or an 
        individual) still owns the code. They can place restrictions on how 
        it is used by including legally binding conditions in an open source 
        software license. 
@@ -507,7 +508,7 @@ ans: - The GNU General Public License (GPL): This is a so-called
        that software open source. 
      - The GNU Lesser General Public License (LGPL): This is a variant of 
        the GPL license where you can write components that link to open 
-       source code without having to publish the source of  these 
+       source code without having to publish the source of these 
        components. 
      - The Berkley Standard Distribution (BSD) License: This is a 
        non-reciprocal license, which means you are not obliged to 
@@ -517,7 +518,7 @@ ans: - The GNU General Public License (GPL): This is a so-called
 t. List 5 ways for achieving License management
 ans: - Establish a system for maintaining information about open-source 
        components that are downloaded and used. 
-     - Be aware of  the different types of  licenses and understand how a 
+     - Be aware of the different types of licenses and understand how a 
        component is licensed before it is used. 
      - Be aware of evolution pathways for components. 
      - Educate people about open source. 
@@ -550,7 +551,214 @@ Software Testing
 
 
 
-3a.  
+3a.  Why do we need to Program Testing (or Testing)?
+ans: Testing is intended to show that a program does what it is intended to 
+     do and to discover program defects before it is put into use.
+
+a1. When you test software, you execute a program using _____________
+ans: artificial data
+
+a2. You check the results of the test run for _______, _________ or 
+    ___________
+ans: - Errors
+     - Anomalies
+     - Information about the program’s non-functional attributes
+
+a3. Testing is part of a more general _________ and _________ process?
+ans: verification, validation
+
+b. List the 2 goals of Program testing (or Testing)?
+ans: - Validation testing
+     - Defect testing
+
+c. Explain validation testing (the 1st goal of testing) and defect testing 
+   (the 2nd goal of testing)?
+ans: - Validation testing: To demonstrate to the developer and the customer 
+       that the software meets its requirements. A successful test shows 
+       that the system operates as intended
+     - Defect testing: To discover faults or defects in the software where 
+       its behavior is incorrect or not in conformance with its 
+       specification. A successful test is a test that makes the system 
+       perform incorrectly and so exposes a defect in the system.
+
+d. Draw a diagram of the input-output model of Program testing?
+ans: Slide 3 (page 7)
+
+e. Which of the options below refers to verification and validation (V&V), 
+   individually?
+   - "Are we building the product right" 
+     The software should conform to its specification
+   - "Are we building the right product" 
+     The software should do what the user really requires
+
+ans: - "Are we building the product right" (Verification)
+     - "Are we building the right product" (Validation)
+
+e1. What is the acronym V & V stand for?
+ans: Verification and validation
+
+e2. What is the aim of V & V confidence?
+ans: It is to establish confidence that the system is ‘fit for purpose’
+
+e3. V & V depends on 3 factors. List them?
+ans: - Software purpose: The level of confidence depends on how critical 
+                         the software is to an organisation
+     - User expectations: Users may have low expectations of certain kinds 
+                          of software
+     - Marketing environment: Getting a product to market early may be more 
+                              important than finding defects in the program
+
+f. What is Software Inspection?
+ans: Software inspections is the analysis of the static system 
+     representation to discover problems (static verification)
+
+f1. What is Software testing?
+ans: Software testing Concerned with executing and observing product 
+     behavior (dynamic verification). The system is executed with test data and its behavior is observed
+
+f2. Draw a diagram of Inspections and Testing?
+ans: Slide 3 (page 11)
+
+f3. Discuss Software Inspection?
+ans: - These involve people examining the source representation with the 
+       aim of discovering anomalies and defects.
+     - Inspections not require execution of a system so may be used before 
+       implementation.
+     - They may be applied to any representation of the system 
+       (requirements, design,configuration data, test data, etc.).
+     - They have been shown to be an effective technique for discovering 
+       program errors.
+
+f4. List 3 Advantages of Inspections?
+ans: - During testing, errors can mask (hide) other errors. Because 
+       inspection is a static process, you don’t have to be concerned with 
+       interactions between errors.
+     - Incomplete versions of a system can be inspected without additional 
+       costs. If a program is incomplete, then you need to develop 
+       specialized test harnesses to test the parts that are available. 
+     - As well as searching for program defects, an inspection can also 
+       consider broader quality attributes of a program, such as 
+       compliance with standards, portability and maintainability
+
+f5. Are the below statements true?
+    - Inspections and testing are complementary and not opposing 
+      verification techniques.
+    - Both should be used during the V & V process.
+    - Inspections can check conformance with a specification but not 
+      conformance with the customer’s real requirements.
+    - Inspections cannot check non-functional characteristics such as 
+      performance, usability, etc.
+ans: Yes they are
+
+f6. Draw a diagram showing a model of the software testing process?
+ans: Slide 3 (page 15)
+
+g. List the 3 stages of testing?
+ans: - Development testing, where the system is tested during development 
+       to discover bugs and defects
+     - Release testing, where a separate testing team test a complete 
+       version of the system before it is released to users
+     - User testing, where users or potential users of a system test the 
+       system in their own environment
+
+g1. During Development testing, there are different kinds of testing that 
+    takes place. List only 3?
+ans: - Unit testing
+     - Component testing
+     - System testing
+
+g2. Explain all 3 testings listed above?
+ans: - Unit testing: where individual program units or object classes are 
+       tested. Unit testing should focus on testing the functionality of 
+       objects or methods
+     - Component testing: where several individual units are integrated to 
+       create composite components. Component testing should focus on 
+       testing component interfaces
+     - System testing: where some or all of the components in a system are 
+       integrated and the system is tested as a whole. System testing 
+       should focus on testing component interactions
+
+g3. What is Unit Testing?
+ans: It is the process of testing individual components in isolation. 
+     (It's a defect testing process)
+
+g4. What are these units that are tested?
+ans: - Individual functions or methods
+     - Object classes (with several attributes and methods)
+     - Composite components (with defined interfaces used to access their 
+       functionality)
+
+g5. Discuss Automated testing
+ans: - Whenever possible, unit testing should be automated so that tests 
+       are run and checked without manual intervention.
+     - In automated unit testing, you make use of a test automation 
+       framework (such as JUnit) to write and run your program tests. 
+     - Unit testing frameworks provide generic test classes that you extend 
+       to create specific test cases. They can then run all of the tests that you have implemented and report, often through some GUI
+
+g6. Automated test components have 3 parts. Name them?
+ans: - A Setup part
+     - A Call part
+     - An Assertion part
+
+g7. Explain what happens in each part above?
+ans: - A Setup part: where you initialize the system with the test case, 
+       namely the inputs and expected outputs
+     - A Call part: where you call the object or method to be tested
+     - An Assertion part: where you compare the result of the call with 
+       the expected result
+
+g8. If the assertion evaluates to true, the test has been ________. If  
+    false, then it has ________
+ans: successful, failed
+
+g9. List the effectiveness of Unit tests?
+ans: - The test cases should show that, when used as expected, the 
+       component that you are testing does what it is supposed to do
+     - If there are defects in the component, these should be revealed by 
+       test cases
+     - This leads to 2 types of unit test case:
+       - The first of these should reflect normal operation of a program 
+         and should show that the component works as expected. 
+       - The other kind of test case should be based on testing experience 
+         of where common problems arise. It should use abnormal inputs to 
+         check that these are properly processed and do not crash the 
+         component.
+
+h. List 2 Testing strategies?
+ans: - Partition testing
+     - Guideline-based testing
+
+i. Explain both strategies above?
+ans: - Partition testing: where you identify groups(or classes) of inputs 
+       that have common characteristics and should be processed in the same 
+       way
+     - Guideline-based testing: where you use testing guidelines to choose 
+       test cases
+
+j. Discuss Partition testing further?
+ans: - Input data and output results often fall into different classes 
+       where all members of a class are related.
+     - Each of these classes is an equivalence partition or domain where 
+       the program behaves in an equivalent way for each class member.
+     - Test cases should be chosen from each partition.
+
+j1. Draw a diagram of Equivalence Partitioning?
+ans: Slide 3 (page 27)
+
+k. List 4 Sequence testing guidelines?
+ans: - Test software with sequences which have only a single value.
+     - Use sequences of different sizes in different tests.
+     - Derive tests so that the first, middle and last elements of the 
+       sequence are accessed.
+     - Test with sequences of zero length
+
+l. List 5 General testing guidelines?
+ans: - Choose inputs that force the system to generate all error messages 
+     - Design inputs that cause input buffers to overflow 
+     - Repeat the same input or series of inputs numerous times 
+     - Force invalid outputs to be generated 
+     - Force computation results to be too large or too small.
 
 
 
@@ -563,6 +771,13 @@ Software Testing
 
 
 
+SLIDE 4
+
+
+
+
+
+Software Testing
 
 
 
@@ -570,8 +785,238 @@ Software Testing
 
 
 
+4a. Discuss Component Testing?
+ans: Software components are often composite components that are made up of 
+     several interacting objects
+     You access the functionality of these objects through the defined component interface
+     Testing composite components should therefore focus on showing that the component interface behaves according to its specification
 
+b. Draw a diagram of Interface testing?
+ans: Slide (page 3)
 
+c. What is Interface Testing?
+ans: It is a testing that aims to detect faults due to interface errors or 
+     invalid assumptions about interfaces
+
+c1. List the 4 Interface types?
+ans: - Parameter interfaces
+     - Shared memory interfaces
+     - Procedural interfaces
+     - Message passing interfaces
+
+c2. Explain all Interface types above?
+ans: - Parameter interfaces: Data passed from one method or procedure to 
+       another.
+     - Shared memory interfaces: Block of memory is shared between 
+       procedures or functions.
+     - Procedural interfaces: Sub-system encapsulates a set of procedures 
+       to be called by other sub-systems.
+     - Message passing interfaces: Sub-systems request services from other 
+       sub-systems
+
+c3. List 3 Interface Errors encountered?
+ans: - Interface misuse
+       A calling component calls another component and makes an error in 
+       its use of its interface e.g. parameters in the wrong order.
+     - Interface misunderstanding
+       A calling component embeds assumptions about the behavior of the called component which are incorrect.
+     - Timing errors
+       The called and the calling component operate at different speeds and out-of-date information is accessed.
+
+c4. List 5 Interface testing guidelines?
+ans: - Design tests so that parameters to a called procedure are at the 
+       extreme ends of their ranges.
+     - Always test pointer parameters with null pointers.
+     - Design tests which cause the component to fail.
+     - Use stress testing in message passing systems.
+     - In shared memory systems, vary the order in which components are 
+       activated.
+
+d. What is System Testing?
+ans: System testing during development involves integrating components to 
+     create a version of the system and then testing the integrated system.
+     Additionally:
+     - The focus in system testing is testing the interactions between 
+       components. 
+     - System testing checks that components are compatible, interact 
+       correctly and transfer the right data at the right time across their 
+       interfaces. 
+     - System testing tests the emergent behavior of a system
+
+d1. Further discuss System Testing?
+ans: - During system testing, reusable components that have been separately 
+       developed and off-the-shelf  systems may be integrated with newly 
+       developed components. The complete system is then tested.
+     - Components developed by different team members or sub-teams may be 
+       integrated at this stage. System testing is a collective rather than 
+       an individual process. 
+       - In some companies, system testing may involve a separate testing 
+         team with no involvement from designers and programmers. 
+
+d2. Discuss Use-case testing?
+ans: - The use-cases developed to identify system interactions can be used 
+       as a basis for system testing.
+     - Each use case usually involves several system components so testing 
+       the use case forces these interactions to occur.
+     - The sequence diagrams associated with the use case documents the 
+       components and interactions that are being tested.
+
+d3. Discuss Testing policies?
+ans: - Exhaustive system testing is impossible so testing policies which 
+       define the required system test coverage may be developed.
+     - Examples of testing policies:
+       - All system functions that are accessed through menus should be 
+         tested.
+       - Combinations of functions (e.g. text formatting) that are 
+         accessed through the same menu must be tested.
+       - Where user input is provided, all functions must be tested with 
+         both correct and incorrect input.
+
+e. What is Test-Driven Development (TDD)?
+ans: Test-driven development (TDD) is an approach to program development 
+     in which you inter-leave testing and code development.
+     Additionally:  
+     - Tests are written before code and ‘passing’ the tests is the 
+       critical driver of development. 
+     - You develop code incrementally, along with a test for that 
+       increment. You don’t move on to the next increment until the code 
+       that you have developed passes its test. 
+     - TDD was introduced as part of agile methods such as Extreme 
+       Programming. However, it can also be used in plan-driven development 
+       processes.
+
+e. Draw a diagram showing TDD?
+ans: Slide 4 (page 13)
+
+f. List the activities of the TDD process (Do this in order)?
+ans: - Start by identifying the increment of functionality that is 
+       required. This should normally be small and implementable in a few 
+       lines of code.
+     - Write a test for this functionality and implement this as an 
+       automated test. 
+     - Run the test, along with all other tests that have been implemented. 
+       Initially, you have not implemented the functionality so the new 
+       test will fail. 
+     - Implement the functionality and re-run the test. 
+     - Once all tests run successfully, you move on to implementing the 
+       next chunk of functionality
+
+g. List the Benefits of test-driven development (TDD)?
+ans: - Code coverage
+     - Regression testing
+     - Simplified debugging
+     - System documentation
+
+g1. Explain the benefits above?
+ans: - Code coverage: Every code segment that you write has at least one 
+       associated test so all code written has at least one test
+     - Regression testing: is testing the system to ensure that new code 
+       changes have not ‘broken’ previously working code
+     - Simplified debugging: When a test fails, it should be obvious where 
+       the problem lies. The newly written code needs to be checked and 
+       modified
+     - System documentation: The tests themselves are a form of 
+       documentation that describe what the code should be doing
+
+g2. In a manual testing process, regression testing is ________ but, with 
+    automated testing, it is ______ and __________.
+ans: Expensive, Simple and Straightforward
+
+g3. In automated testing, does all test rerun every time a change is made 
+    to the program?
+ans: Yes, they do
+
+g4. Is it a must that all tests must run ‘successfully’ before the change 
+    is committed?
+ans: Yes, they do
+
+h. What is Release Testing?
+ans: It is the process of testing a particular release of a system that is 
+     intended for use outside of the development team
+
+h1. What is the primary goal of release testing?
+ans: It is to convince the supplier of the system that it is good enough 
+     for use
+     Additionally:
+     Release testing, therefore, has to show that the system delivers its 
+     specified functionality, performance and dependability, and that it 
+     does not fail during normal use
+
+h2. Release testing is a form of ________ testing?
+ans: System
+
+h3. Release testing is usually a black-box testing process where tests are 
+    only derived from the _________
+ans: system specification
+
+h4. What is the difference between release testing and system testing?
+ans: - A separate team that has not been involved in the system 
+       development, should be responsible for release testing.
+     - System testing by the development team should focus on discovering 
+       bugs in the system (defect testing). The objective of release 
+       testing is to check that the system meets its requirements and is 
+       good enough for external use (validation testing)
+
+i. What is Requirements based testing?
+ans: It is the examining of each requirement and developing a test (
+     or tests) for it
+
+j. What is Performance testing?
+ans: it is a test that usually involves planning a series of tests where 
+     the load is steadily increased until the system performance becomes 
+     unacceptable
+
+k. What is Stress testing?
+ans: it is a form of performance testing where the system is deliberately 
+     overloaded to test its failure behavior
+
+l. What is User or Customer testing?
+ans: it is a stage in the testing process in which users or customers 
+     provide input and advice on system testing
+     Additionally:
+     User testing is essential, even when comprehensive system and release 
+     testing have been carried out. 
+     - The reason for this is that influences from the user’s working 
+       environment have a major effect on the reliability, performance, 
+       usability and robustness of a system. These cannot be replicated 
+       in a testing environment
+
+l1. List the 3 types of User testing?
+ans: - Alpha testing
+     - Beta testing
+     - Acceptance testing
+
+l2. Explain each type of User testing?
+ans: - Alpha testing: Users of the software work with the development team 
+       to test the software at the developer’s site.
+     - Beta testing: A release of the software is made available to users 
+       to allow them to experiment and to raise problems that they 
+       discover with the system developers.
+     - Acceptance testing: Customers test a system to decide whether or 
+       not it is ready to be accepted from the system developers and 
+       deployed in the customer environment. Primarily for custom systems
+
+l3. Draw a diagram showing The acceptance testing process?
+ans: Slide 4 (page 26)
+
+l4. List the 6 stages in Acceptance testing?
+ans: - Define acceptance criteria
+     - Plan acceptance testing
+     - Derive acceptance tests
+     - Run acceptance tests
+     - Negotiate test results
+     - Reject/accept system
+
+m. How dos acceptance testing occur in the Agile methodology?
+ans: - In agile methods, the user/customer is part of the development 
+       team and is responsible for making decisions on the acceptability 
+       of the system.
+     - Tests are defined by the user/customer and are integrated with 
+       other tests in that they are run automatically when changes are 
+       made.
+     - There is no separate acceptance testing process.
+     - Main problem here is whether or not the embedded user is ‘typical’ 
+       and can represent the interests of all system stakeholders.
 
 
 
