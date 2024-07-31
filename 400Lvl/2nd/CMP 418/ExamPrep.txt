@@ -8,81 +8,324 @@ Best Practice: Study using a big screen device. Be it a laptop or a tablet. It w
 
 
 
-DSA
+
+
+
+
+
+
+
+Lecture 1: Introduction
+
+
+
+
+
+
 
 
 
 
 1a. What is an Algorithm?
 ans: A sequence of unambiguous instruction for solving a problem that 
-is, for obtaining a required output for any legitimate input in a 
-finite amount of time
+     is, for obtaining a required output for any legitimate input in a 
+     finite amount of time
+     OR
+     It is a sequence of unambiguous instructions that yields required 
+     output for every legitimate input in finite time
 
 b. List 5 properties of Algorithms?
-ans: 
-- Finiteness: terminates after a finite number of steps.
-- Definiteness: each step must be rigorously and unambiguously specified, 
-  e.g., “stir until lumpy”
-- Input: valid inputs must be clearly specified
-- Output: data that result upon completion of the algorithm must be specified
-- Effectiveness: steps must be simple and basic, e.g., check if m is prime
+ans: - Finiteness
+     - Definiteness
+     - Input
+     - Output
+     - Effectiveness
+
+b. Explain each property?
+ans: - Finiteness: terminates after a finite number of steps.
+     - Definiteness: each step must be rigorously and unambiguously 
+       specified, e.g., “stir until lumpy”
+     - Input: valid inputs must be clearly specified
+     - Output: data that result upon completion of the algorithm must be 
+       specified
+     - Effectiveness: steps must be simple and basic, e.g., check if m is 
+       prime
 
 c. Draw the diagram of Algorithm Design and Analysis Process??
 ans: Slide 1 (page 5)
 
-d. Explain what takes place in the first 2 steps of Algorithm design?
-ans: 
-1. Understanding the Problem
-   - Ask questions, do a few small examples by hand, think about special cases, etc.
-   - An input is an instance of the problem the algorithm solves
-   - Specify exactly the set of instances the algorithm needs to handle
-2  Decide on Exact vs. approximate solution
-   - Approximate solution cannot solve exactly, e.g., extracting square roots, solving 
-     definite integrals, etc.
-   - Algorithms for exact solution can be unacceptably slow
+d. List all 6 steps of Algorithm design?
+ans: - Understanding the Problem
+     - Decide on Exact vs. approximate solution
+     - Algorithm Design and Data Structure
+     - Prove correctness of the algorithm
+     - Analyzing an Algorithm
+     - Coding Algorithm
 
 e. What is Algorithm Design Techniques?
-ans: They are the general approach to solving problems algorithmically that is 
-     applicable to a variety of problems from different areas of computing 
+ans: They are the general approach to solving problems algorithmically that 
+     is applicable to a variety of problems from different areas of 
+     computing 
 
 e1. List 5 of these techniques?
-ans: 
-- Brute force
-- Decrease and Conquer
-- Divide and Conquer
-- Transform and Conquer
-- Space and time tradeoffs
-- Dynamic Programming
+ans: - Brute force
+     - Decrease and Conquer
+     - Divide and Conquer
+     - Transform and Conquer
+     - Space and time tradeoffs
+     - Dynamic Programming
 
-f. Algorithms + DataStructures = (equals)?
+f. Algorithms + DataStructures = ______?
 ans: Programs
 
 g. List 5 Data Structures?
 ans: List, Array, Dictionary, Sets, Queue, Stack
-
-h. Algorithm yields required output for every ________________
-ans: legitimate input in finite time
 
 i. List the 2 techniques for proving the correctness?
 ans: Exact algorithm
      Approximate algorithm
 
 k. List 4 ways of analyzing an Algorithm?
-ans: 
-- Time efficiency: how fast it runs
-- Space efficiency: How much extra memory it uses
-- Simplicity: easier to understand, usually contains fewer bugs, sometimes simpler is more
-  efficient, but not always!
-- Generality: of the problem algorithm solves or the set of inputs it accepts
+ans: - Time efficiency
+     - Space efficiency
+     - Simplicity
+     - Generality
 
-l. List 5 important problem types?
-ans:
-- Sorting
-- Searching
-- String processing
-- Graph problem
-- Combinatorial Problem 
-- Geometric Problem 
-- Numerical Problem
+k1. Explain all 4 ways?
+ans: - Time efficiency: how fast it runs
+     - Space efficiency: How much extra memory it uses
+     - Simplicity: easier to understand, usually contains fewer bugs, 
+       sometimes simpler is more efficient, but not always!
+     - Generality: of the problem algorithm solves or the set of inputs it 
+       accepts
 
-Stopped at (Page 9)
+l. List 5 important types of problems algorithms help us solve?
+ans: - Sorting
+     - Searching
+     - String processing
+     - Graph problem
+     - Combinatorial Problem 
+     - Geometric Problem 
+     - Numerical Problem
+
+m. What is Sorting?
+ans: It is the rearranging of items in a given list (in a nondecreasing 
+     order)
+
+n. List the 2 properties of Sorting Algorithms?
+ans: - stable
+     - in-place
+
+n1. Explain the 2 properties listed above?
+ans: - stable: An sorting algorithm is stable if it preserves the relative 
+               order of any 2 equal elements (in its input)
+     - in-place: A sorting algorithm is said to be in-place if it does not 
+                 require extra memory
+
+n2. List 5 Sorting Algorithms?
+ans: - Bubble sort
+     - Selection sort
+     - Insertion sort
+     - Merge sort
+     - Quick sort
+
+o. What is a String?
+ans: it is a sequence of characters from an alphabet. (it contains letters, 
+     number, and special characters)
+
+o1. What is string matching?
+ans: it is a particular problem of searching for a given word/pattern in a 
+     text
+
+p. What is a Graph?
+ans: It is a collection of points called vertices, some of which are 
+     connected by line segments called edges
+
+q. List the 3 fundamental data structures?
+ans: - Linear Data Structure (Array, Linked list, Stacks and Queues)
+     - Graphs (Directed, Undirected, Weighted, Unweighted, Circle)
+     - Trees (Binary Tree, Binary Search Tree)
+
+q1. List the 5 Basic Array Operations?
+ans: - Traverse
+     - Insertion
+     - Deletion
+     - Search
+     - Update
+
+q1. Explain all 5 Basic Array Operations?
+ans: - Traverse: print all the array elements one by one.
+     - Insertion: Adds an element at the given index.
+     - Deletion: Deletes an element at the given index.
+     - Search: Searches an element using the given index or by the value.
+     - Update: Updates an element at the given index.
+
+r. What is a tree?
+ans: A tree is an undirected graph with no Circle
+     OR
+     A tree is a connected acyclic graph
+
+s. What is a forest?
+ans: A forest is a tree with no circle but may be disconnected.
+     Additionally:
+     - Between every two vertices there is exactly one simple path.
+     - Any vertex can be regarded as the root, and then we have a rooted 
+       tree.
+
+t. Draw a tree that has a root and label it?
+ans: Slide 1 (Page 34)
+
+u. What is an Ordered tree?
+ans: It is a rooted tree in which all children of each vertex are ordered
+
+v. What is a Binary Tree?
+ans: It is a type of ordered tree where each vertex has at most 2 children and each children is designated as either left child or right child
+
+w. What is  a Binary Search Tree?
+ans: It is a Binary Tree where each vertex is assigned a number?
+     Additionally:
+     - A number assigned to a parental vertex is larger than all numbers in 
+       the left subtree and smaller than all numbers in the right subtree
+
+w1. Draw an example of a Binary Search Tree (BST)?
+ans: Slide 1 (Page 37)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lecture 2: Fundamentals of the Analysis of Algorithm Efficiency
+
+
+
+
+
+
+
+
+
+2a. What is the Analysis of Algorithm?
+ans: It is the theoretical study of computer program performance 
+     (processing speed) and resource usage (communication, primary and 
+     secondary memory)
+
+b. Analysis of algorithm’s efficiency can be achieve using 2 resources. 
+   Name them?
+ans: - Time efficiency and;
+     - Space efficiency
+
+b1. Explain both of resources?
+ans: - Time efficiency: indicates how fast an algorithm in question runs ~ 
+       performance
+     - Space efficiency: refers to the amount of memory units required by 
+       the algorithm in addition to the space needed for its input and 
+       output ~ resource usage
+
+b2. Time efficiency is also called _________, and space efficiency is also 
+    called ________?
+ans: - Time complexity
+     - Space complexity
+
+b3. List 8 other evaluable criteria of algorithm other than Time & Space 
+    complexity
+ans: - Correctness (Accuracy & precision)
+     - Simplicity (Ease)
+     - Maintainability (Continuity)
+     - Cost of programming time
+     - Robustness
+     - Stability
+     - Features
+     - Security
+     - Scalability
+
+c. What are the questions one must ask in The Efficiency Analysis Framework?
+ans: - How to measure an Input’s Size
+     - How to state Units for Measuring Running Time
+     - How to Compute Orders of Growth
+     - How to derive Worst, Best and Average Cases Efficiencies
+
+d. What is the Basic Operation(Bop) in algorithms?
+ans: it is the operation contributing the most to the total running time 
+     (we compute the number of times the basic operation is executed)
+     OR
+     it is the most time-consuming operation in the algorithm's innermost 
+     loop
+
+e. How do you measure Time efficiency?
+ans: it is measured by counting the number of times the algorithm’s basic 
+     operation is executed
+
+e1. How do you measure Space efficiency?
+ans: it is measured by counting the number of extra memory units consumed 
+     by the algorithm
+
+f. The Efficiency analysis framework’s primary interest lies where?
+ans: It lies in the order of growth of the algorithm’s running time 
+     (extra memory units consumed) as its input size goes to infinity.
+
+
+Page 16: Asymptotic Notations and Basic Efficiency Classes
+
+g. What is Asymptotic Order of Growth?
+ans: It is a way of comparing functions that ignores constant factors and 
+     small input sizes
+     OR
+     It is a way of comparing size and functionality of a function
+     Its is a way of describing the characteristics of a function in the limit
+
+Note: ≈ basically means "Approximately equal to (OR simply equal to OR same 
+      as)"
+h. What is the equivalent of the following below?
+   𝑶 ≈ ?, Ω ≈ ?, Θ ≈ ?, o ≈ ?, ω ≈ ?
+ans: 𝑶 ≈ ≤
+     o ≈ <, 
+     Ω ≈ ≥
+     ω ≈ >
+     Θ ≈ =, 
+
+i. We can define Asymptotic Order of Growth in 2 methods. List them?
+ans: - Using Theorem
+     - Using definitions of O-, Ω-, and Θ-notations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
