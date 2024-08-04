@@ -1,0 +1,133 @@
+CMP 416 EXAM PREP
+Best Practice: Study using a big screen device. Be it a laptop or a tablet. It won't be best to use phones (even though y'all ain't with your phones 😉)
+
+
+
+----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+Lecture 1: Introduction
+
+
+
+
+
+
+
+
+
+
+1a. List the 4 key characteristics of web application development?
+ans: - Software product itself
+     - its development
+     - its use
+     - its evolution
+     
+b. Draw a diagram of the Web application characteristics?
+ans: (Dr Annes) Slide 1 (page 4) 
+
+c. List the 3 Software Product Characteristics?
+ans: - The Web is essentially content-driven
+     - Hypertext is the fundamental language of the web. It provides new 
+       ways of structuring and accessing information
+     - Presentation
+
+d. List the 3 Usage Characteristics?
+ans: - Context
+     - Technical Infrastructure
+     - Diversity and magnitude
+
+e. List the 3 Development Characteristics?
+ans: - Development team
+     - Development environment
+     - Development process
+
+f. Discuss Evolution Characteristics?
+ans: Traditionally, software development methodologies have 
+     taken an approach which sets down the requirements of 
+     the system
+     - how it will work and what it will do, at the start and builds to that specification. The product is then put into live operation, where it is maintained, and altered only to correct errors and to add enhancements.
+     - How the product will change in the future is not usually considered in traditional software development. However, it is emerging as an extremely important aspect of web application development. 
+     Web applications typically require frequent changes and are usually in a state of permanent evolution.
+
+     This is driven both by changing technology.
+     - Lets refer back to our question.
+     - It is clear that web developers 
+     - Web developers can clearly learn from the mistakes and 
+       solutions of earlier developers, but web
+     - applications also have some specific characteristics 
+       not found in conventional system
+     - Just as software engineering emerged as a discipline 
+       in its own right for conventional software systems, so 
+       Web engineering is emerging as a separate discipline, 
+       with its own tools and procedures
+
+
+
+
+
+
+
+
+
+
+
+Lecture 2: Models & Methodology
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
