@@ -11,3 +11,11 @@ page 101 - 105(Protocols)
 
 For your test
 - focus on data communications
+
+EXTRAS: AOC Given on test day during revision week
+- Computer network, its components and functions (1-14) ✅
+- Network security, attacks and how to prevent it (33-48) ✅
+- Data communication (164-179) ✅
+- Multiplexing and its types (206-232)✅
+- Network Switching (233-250)✅
+- Waves (180-183)✅

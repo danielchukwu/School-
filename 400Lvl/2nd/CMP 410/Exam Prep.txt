@@ -21,7 +21,7 @@ b. What is Data Communication(DC)?
 ans: DC is the active process of transporting data/ information from one 
      point to another
 
-d. Data communication can be on ________ or _________ connectivity
+d. Data communication can be on ________ or ________ connectivity
 ans: wired, wireless
 
 e. The Effectiveness of data communication system depends on 3 fundamental 
@@ -114,7 +114,7 @@ ans: Higher data rate
 j4. Data travels in the form of ____________ over channels?
 ans: electromagnetic signals
 
-j5. Data signal carries one or two ____ or ____ bits over the channel.
+j5. Data signal carries ____ or ____ bits over the channel.
 ans: 1 or 2
 
 j6. What is Data transfer rate?
@@ -195,8 +195,9 @@ n. Guided Media is also known as __________?
 ans: Bound Media
 
 o. List 2 examples of Guided Transmission media?
-ans: Copper wire
-     Optic fiber
+ans: Coaxial Copper
+     Twisted-pair
+     Fiber optic
 
 p. Draw the hierarchy diagram of Communication/Transmission medium?
 ans: Slide 1 (page 178)
@@ -227,13 +228,593 @@ ans: Anyone who has a device capable of receiving them
 
 
 LECTURE 2
-page 1 - 20
+page 1 - 14
 
 
 
 
 
 
+
+
+
+
+
+
+2a. What is a Computer Network?
+ans: it is a set of computers and devices connected together 
+     for the purpose of sharing resources
+
+b. Networks are classified into 5 places. List all 5?
+ans: - Medium used to transport the data
+     - Communication protocol used
+     - Scale
+     - Topology
+     - Organizational scope, etc
+
+c. List the major Components of the Network?
+ans: - End stations
+     - Applications and;
+     - A network that will support traffic between the end 
+       stations
+
+d. List the components, functions and features of a Network?
+ans: - servers
+     - clients
+     - transmission media
+     - shared data
+     - shared printers and other peripherals
+     - hardware and software resources
+     - network interface card (NIC)
+     - local operating system (LOS) 
+     - network operating system (NOS)
+
+d1. Explain how 5 of the above listed?
+ans: - Servers: Servers are computers that hold shared files, 
+       programs and the network operating system. Servers 
+       provide access to network resources to all the users 
+       of the network and different kinds of servers are 
+       present.
+     - Clients: Clients are computers that access and use the 
+       network and access network resources.
+     - Shared Data: Shared data are data that file servers 
+       provide to clients, such as data files, printer access 
+       programs, and e-mail
+     - Shared Printers and other peripherals: these are 
+       hardware resources provided to the users of the 
+       network by servers. 
+     - Network interface card: Every computer in the network 
+       has a special expansion card called network interface 
+       card (NIS), which prepares and sends data, receives 
+       data, and controls data flow between the computer and 
+       the network.
+
+e. List 8 Benefits of a network?
+ans: - File sharing
+     - Printer sharing
+     - Internet connection sharing
+     - Multi-player games
+     - Home entertainment
+     - Enables access to remote networks
+     - Facilitate communications
+     - Facilitate information dissemination
+     - Overall cost reduction in Hardware and software.
+     - Facilitate Social networks
+
+f. List 4 desirable criteria for a Network?
+ans: - Performance
+     - Reliability
+     - Security
+
+g. List the 2 Network Models?
+ans: - Peer-to-peer network
+     - Dedicated client/server network
+
+h. Draw a diagram of a typical Network Architecture?
+ans: Slide 1 (page 13)
+
+     
+
+
+
+
+
+
+
+
+
+LECTURE 2
+page 34 - 48
+
+
+
+
+
+
+
+
+
+
+
+
+
+3a. What is Network Security?
+ans: it is the protection of the underlying networking 
+     infrastructure from unauthorized access, misuse, or 
+     theft.
+
+b. List 5 types of Network Security?
+ans: - Firewalls
+     - Intrusion prevention systems
+     - Workload security
+     - Network segmentation
+     - Web security
+     - Wireless security
+     - VPN
+     - Access control
+     - Anti-virus and anti-malware software
+     - Application security
+     - Behavioral analytics
+     - Cloud security
+     - Data loss prevention
+     - Email security
+     - Mobile device security
+     - Security information and event management
+
+c. List 5 Cyber Attacks?
+ans: - Malware Attack
+     - Phishing Attack
+     - Password Attack
+     - Man-in-the-Middle Attack
+     - SQL Injection Attack
+     - Denial-of-Service Attack
+     - Insider Threat
+     - Cryptojacking
+
+d. List 7 ways of Securing Networks?
+ans: - Use strong passwords.
+     - Keep everything updated.
+     - Turn on encryption.
+     - Use a VPN.
+     - Use multiple firewalls.
+     - Rename routers and networks.
+     - Turn off the WPS setting.
+
+e. Who are Hackers?
+ans: Hackers are digital safecrackers who use their computer 
+     skills to break into restricted digital spaces, such as 
+     networks, servers, personal devices, online accounts, 
+     and cloud infrastructure
+
+f. List all types of Hackers?
+ans: - White hat hackers
+     - Black hat hackers
+     - Gray hat hackers
+     - Red hat hackers
+     - Malicious insider (whistleblower)
+     - Blue hat hackers
+     - Script kiddies and green hat hackers
+     - Hacktivists
+     - State/nation-sponsored hackers
+
+f1. Briefly explain the different types of Hackers listed 
+   above?
+ans: - White hat hackers: are paid to infiltrate digital 
+       systems to identify potential security vulnerabilities 
+       and report their findings to their clients.
+     - Black hat hackers: are cyber criminals who orchestrate 
+       scams and exploit vulnerabilities with the intent to 
+       cause harm. The aim of black hat hackers is usually to 
+       make money.
+     - Gray hat hackers: infiltrate systems without their 
+       targets’ consent, but they don’t exploit 
+       vulnerabilities to cause harm. Instead, they inform 
+       the victims of the hack in order to help them improve 
+       their security.
+     - Red hat hackers: Red hat hackers see themselves as the 
+       “superheroes” of the hacking world. They 
+       typically target black hat hackers to disrupt their 
+       attacks or retaliate against them.
+     - Malicious insider (whistleblower): is someone who 
+       works for an organization and decides to expose 
+       wrongdoing from within
+     - Blue hat hackers: are white hat hackers who 
+       are employed by an organization. Their job is to 
+       maintain the cybersecurity of the organization and 
+       prevent attacks.
+     - Script kiddies and green hat hackers: These are 
+       inexperienced hackers, they use existing malware and 
+       scripts created by other hackers to launch their 
+       attacks.
+     - Hacktivists: Hacktivists are people who hack into 
+       systems to fight back against perceived political or 
+       social injustice.
+     - State/nation-sponsored hackers: State-sponsored 
+       hackers work for governments. Some are white hat 
+       hackers who work to improve national cybersecurity, 
+       but others use black hat tactics to harm other 
+       countries.
+
+g. What is Cryptography?
+ans: Cryptography is a technique use to encrypt the main text 
+     which makes it difficult to understand and interpret by 
+     unauthorized user.
+
+h. List 3 types of Cryptography algorithm used as solutions 
+   to Security Threats?
+ans: - Secret key
+     - Public key
+     - Message digest
+
+h1. Explain all listed above?
+ans: - Secret key: In secrete key encryption, both the sender 
+       and receiver have one secrete key. The secrete key is 
+       used to encrypt the plain text from the user’s end to 
+       cypher text and the same secrete key at receiver end 
+       will decrypt the data to plain text.
+     - Public key: In this encryption system, every user has 
+       its own secrete key, the secrete key is not revealed 
+       on public domain. The senders use this key to encrypt 
+       the plaintext and every users uses his own secrete key 
+       to decrypt the cypher text to plain text.
+     - Message digest: In this encryption system, actual data 
+       is not send, instead a hash value is calculated and 
+       send. The other end user computes its own hash value 
+       and compares with the one just received if both  hash 
+       value are matched, then it is accepted, otherwise 
+       rejected
+
+     
+
+
+
+
+
+
+
+
+
+LECTURE 3
+page 206 - 232
+
+
+
+
+
+
+
+
+
+
+
+
+
+3a. What is Multiplexing?
+ans: it is a technique that divides high capacity medium into 
+     low capacity logical medium which is then shared by 
+     different streams
+
+b. What is the Multiplexer (MUX)?
+ans: It is a device used to carry out multiplexing, it 
+     combines input lines to generate one output line i.e 
+     (Many to one)
+
+c. What is Demultiplexer (DEMUX)?
+ans: it is a device at the receiving end that is used to 
+     separate signal into its component Signal i.e. (one to 
+     many)
+
+d. Draw a diagram of Multiplexing?
+ans: Slide 1 (page 209)
+
+e. List 2 advantages of multiplexing?
+ans: - More than one signals can be sent over single medium 
+       or link.
+     - Effective use of the bandwidth of medium.
+
+f. Draw a diagram showing the Multiplexing tree structure?
+ans: Slide 1 (page 211)
+
+g. List the 3 types of Multiplexing?
+ans: - Frequency Division Multiplexing (FDM)
+     - Wave Division Multiplexing (WDM)
+     - Time Division Multiplexing
+
+h. Discuss FDM?
+ans: - It is an analog techniques.
+     - Signals of different frequencies are combine into a 
+       composite signal and is transmitted through a single 
+       link.
+     - Bandwidth of the link should be greater than the 
+       combined bandwidth of the various channels.
+     - Each signal is having different frequency.
+     - Channels are separated by the strips of unused 
+       bandwidth called Guard Bands (to prevent overlapping)
+
+h1. Draw a diagram of FDM?
+ans: Slide 1 (page 213)
+
+h2. List 3 applications of FDM?
+ans: - FDM  is used for FM and AM radio Broadcasting
+     - AM frequency is 530 to 1700 KHZ
+     - FM frequency is 88 to 108 MHZ
+     - FDM is used in television broadcasting.
+     - First generation cellular telephone also used FDM
+
+i. Discuss WDM?
+ans: - WDM is an analogue multiplexing technology.
+     - Working is same as FDM
+     - In WDM different signals are optical or light signals 
+       that are transmitted through optical fiber.
+     - Various light wires from different sources are 
+       combined to form a composite light signal that is 
+       transmitted across the channel to the receiver.
+     - At the received end, this composite light signal is
+       broken into different light waves by demultiplex.
+     - This combination and the splitting of light waves is
+       done by using a PRISM. Prism bends beam of the light 
+       based on the angle of incidence and the frequency of 
+       light wave
+
+i1. Draw a diagram for WDM?
+ans: Slide 1 (page 217)
+
+j. Discuss TDM?
+ans: - It is the digital multiplexing technique
+     - Channel or link is divided on the  basis of time.
+     - Total time available in the channel is divided between 
+       several users.
+     - Each user is allotted a particular time interval 
+       called time slot or slice.
+     - In TDM the data rate capacity of the transmission 
+       medium should be greater than the data rate required 
+       by sending and receiving devices
+
+i1. Draw a diagram for TDM?
+ans: Slide 1 (page 219)
+
+i2. List the 2 types of TDM?
+ans: - Synchronous 
+     - Asynchronous
+
+Stopped at page 220
+
+     
+
+
+
+
+
+
+
+
+
+LECTURE 4
+page 233 - 250
+
+
+
+
+
+
+
+
+
+
+
+
+
+4a. What is Network Switching?
+ans: It is the technique of transferring data or information 
+     from one computer network to another network
+
+     Additionally:
+     - Network switches operate at layer 2 (Data link layer) 
+       in the OSI model
+     - Switching is transparent to the user and does not 
+       require any configuration in the home network
+     - Switches are used to forward the packets based on MAC
+       addresses.
+     - It is operated in full duplex mode.
+     - Packet collision is minimum as it directly 
+       communicates between source and destination.
+
+b. What is a switch?
+ans: It is a hardware device which is used to join multiple 
+     computers together with one local area network (LAN)
+
+c. What is ingress?
+ans: The incoming data to a port/node
+
+d. What is the outgoing data from a port/node?
+ans: egress
+
+e. Why is the Switching Concept required?
+ans: - Bandwidth
+     - Collision
+
+f. List the advantages of Switching?
+ans: - Switch increases the bandwidth of the network
+     - It reduces the workload on individual PCs as it sends 
+       the information to only that device which has been 
+       addressed.
+     - It increases the overall performance of the network by 
+       reducing the traffic on the network.
+     - There will be less frame collision as switch creates 
+       the collision domain for each connection
+
+g. List the disadvantages of Switching?
+ans: - A Switch is more expensive than network bridges.
+     - A Switch cannot determine the network connectivity 
+       issues easily.
+     - Proper designing and configuration of the switch are 
+       required to handle multicast packets
+
+h. What is a switch in the Computer Network?
+ans: it refers to the networking devices that operate at an 
+     OSI model’s layer 2 or data link layer.
+
+     Additionally:
+     - They establish connections between networked devices 
+       and employ packet switching to transmit, receive, or 
+       forward data packets or frames over the network.
+     - There are numerous ports on a switch where computers 
+       can be connected. 
+     - A network switch evaluates the destination address of 
+       each data frame that enters one of its ports, runs any 
+       necessary checks, and then sends the frame to the 
+       appropriate device(s).
+     - It enables broadcast, multicast, and unicast 
+       communication.
+
+i. List the features of Switches?
+ans: - Switches function in the OSI model’s layer 2 or data 
+       connection layer.
+     - It is a smart network appliance that resembles a 
+       multiport network bridge.
+     - The media access control (MAC) sublayer addresses are 
+       used to transport data packets to certain target ports.
+     - It uses packet switching technology to transmit data 
+       packets (from the source device to the target device).
+     - It allows one-to-one (unicast), one-to-many 
+       (multicast), and one-to-all (broadcast) communications.
+     - Full duplex transmission (means that communication in 
+       the channel happens in both directions at once. As a 
+       result, collisions do not happen).
+     - Switches are operational hardware that has network 
+       management and software capabilities.
+     - They can carry out error checking before sending data 
+       to the target port.
+     - There are a total of 24/48 ports (which is more than 
+       usual)
+
+j. List the types of switches?
+ans: - Unmanaged Switch
+     - Managed Switch
+     - LAN Switch
+     - PoE Switch
+
+k. Draw a diagram showing the taxonomy of Switched Network?
+ans: Slide 1 (page 243)
+
+l. List the 3 main types of switching?
+ans: - Circuit Switching
+     - Packet Switching
+     - Message Switching
+ 
+k. Discuss Circuit Switching?
+ans: - Transmission  of data between two nodes are done over 
+       a dedicated communication path.
+     - A pre-specified route is created for which data 
+       travels and no other data is permitted.
+     - Transmission in circuit switching have to go through 
+       three phases.
+       - Establish a circuit
+       - Transfer the data.
+       - Disconnect the circuit
+     Circuit switching are primarily design for voice communications. Before a user can make a call, a virtual path between caller and callee is established over the network.
+
+l. Discuss Packet Switching?
+ans: - Transmission data is broken down into smaller chunks 
+       called packets.
+     - A switching information is added in the header of each 
+       packets.
+     - Data transmission of packets over the network is done 
+       independently.
+     - These packets are sometime store on the intermediate 
+       networking devices and they do not take much resources 
+       either on carried path or in the memory of switches.
+     - Packets switching enhances transmission efficiently as 
+       packets from multiple communication channels can be 
+       multiplexed.
+     - The internet uses packets switching techniques.
+     - Packet are stored and forwarded according to their 
+       priority to provide quality of service.
+
+l1. List the 2 types of Packet Switching?
+ans: - Connectionless Communication
+     - Connection oriented communication
+
+m. Discuss Message Switching?
+ans: - This technique is somewhere in middle of circuit 
+       switching and packets switching.
+     - In message switching, the whole data is treated as a 
+       data units, and is transmitted in its entirety (whole).
+     - A switch receives the whole data unit and buffers it 
+       until there are resources available to transfer it to 
+       the next node.
+     - If the next node does not have enough resource to 
+       accommodate the data unit, the data unit have to waits 
+       on the current node.
+     - Message switching has the following drawbacks
+     - Every switch in the transit path needs enough storage 
+       to accommodate entire message.
+     - Because of the store-and-forward technique and waits 
+       of the availability of resources, message switching is 
+       very slow.
+     - Message switching is not suitable for real time 
+       application.
+
+n. List at least 5 benefits of Packet switching over the 
+   others?
+ans: - Packets switching ensures that no user monopolize any 
+       transmission line very long, enhance it is suited for 
+       handling interactive traffic
+     - Packet switching reduce delay and improve throughput 
+       than message switching
+     - Packet switching does not require any advance setup,
+       while circuit switching requires that a circuit be 
+       setup end to end before communication begins
+     - Packet switching is more fault tolerant than circuit 
+       switching.
+     - Packet switching does not waste bandwidth
+
+     
+
+
+
+
+
+
+
+
+
+LECTURE 5
+page 180 - 183
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5a. What is wave?
+ans: A wave is a disturbance in a medium that carries energy 
+     without a net movement of particles
+
+b. What are the 2 basic types of waves?
+ans: Longitudinal and Transverse
+
+c. Explain Longitudinal and Transverse waves?
+ans: - With longitudinal waves, the displacement is parallel 
+       in the direction of propagation e.g. Earthquake, ultrasound, sound waves in air, etc.
+     - With transverse waves, the displacement is 
+       perpendicular to the direction of propagation. e.g Electromagnetic waves, guitar string, etc.
+
+d. What are the 3 main characteristics of Electromagnetic 
+   waves
+ans: - Wave velocity
+     - Frequency
+     - Wavelength
+
+Stopped at page 181
 
 
 

@@ -1,0 +1,12 @@
+CMP 416 TEST QUESTION I
+
+1a. Define Multiplexing in the context of computer networks?
+ b. Why is multiplexing important in network communications.
+ c. Explain the differences between TDM and FDM, provide example of where each method is used
+
+2a. Define Network Switching?
+ b. Explain its importance in computer networks?
+ c. Compare and contrast the 3 main types of network Switching
+    - Circuits Switching
+    - Massage Switching
+    - Packet Switching
