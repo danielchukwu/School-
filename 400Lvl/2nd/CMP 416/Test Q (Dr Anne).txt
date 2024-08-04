@@ -1,0 +1,41 @@
+CMP416 TEST  TIME ALLOWED 1HR  
+a. Various Process Models have evolved over time, with the 
+   water fall model usually  considered as being the one 
+   which other models are based on.  The Models tend to fall 
+   into 1wo  categories based on 'Construction 'And 
+   'Evolution'. Paradigm  Explain the Concept of'Construction 
+   'and 'Evolution' paradigm with respect to process models. 
+   Discuss one example  (Construction' and 'Evolution") and  
+   of model in each category  highlight their Advantages and 
+   Disadvantages.(10marks)  
+
+b. Software is often not tremendously robust - in fact, it is 
+   often full of bugs. If a more tangible product, a 
+   refrigerator, say, behaved differently from what is 
+   expected, you'd  take it back to the shop and demand your 
+   money back! However, it is the nature of  software that it 
+   is very difficult - some say impossible - to release it 
+   100% bug-free  What is Software quality? Discuss the 
+   issues regarding software quality.(5marks)  
+
+c. One of the issues with E-commerce Sites concerns WYSIWYG, 
+   many users complained  about not getting what was 
+   advertised on the site or what they ordered for. Suggest 
+   ways  to improve on what you order is what you get.
+   (5marks)  
+
+2a. If a customer or user is dissatisfied with a system 
+    (product), the developer can always claim to have 
+    fulfilled their obligations, provided they have supplied 
+    what was originally  required. 'The user, however, may 
+    feel that the original specification was inadequate. In  
+    your opinion, whose fault is that? The users? Or the 
+    developer's or Both? why do you think so?(2marks)  
+
+b. Consider the research conducted by kappel ct al(2004). The 
+   researcher attempts to find  out whether or not web 
+   development is same as other traditional systems 
+   development.  The Researcher identifies the four web 
+   application development characteristics. With the  aid of 
+   the diagram, Explain the four characteristics of web 
+   development and their  challenges(8marks)  
