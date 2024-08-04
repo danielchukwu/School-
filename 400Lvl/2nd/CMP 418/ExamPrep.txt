@@ -280,10 +280,8 @@ ans: It is a way of comparing functions that ignores constant factors and
      small input sizes
      OR
      It is a way of comparing size and functionality of a function
-     Its is a way of describing the characteristics of a function in the limit
 
-Note: ≈ basically means "Approximately equal to (OR simply equal to OR same 
-      as)"
+Note: ≈ means "Approximately equal to (OR simply equal to OR same as)"
 h. What is the equivalent of the following below?
    𝑶 ≈ ?, Ω ≈ ?, Θ ≈ ?, o ≈ ?, ω ≈ ?
 ans: 𝑶 ≈ ≤
@@ -292,14 +290,178 @@ ans: 𝑶 ≈ ≤
      ω ≈ >
      Θ ≈ =, 
 
+     Cheat code: Cram the above rules, they will help you in the future
+
 i. We can define Asymptotic Order of Growth in 2 methods. List them?
 ans: - Using Theorem
-     - Using definitions of O-, Ω-, and Θ-notations
+     - Using definitions of O, Ω, and Θ notations
+
+j. Define the below Asymptotic Notations?
+   - Asymptotic O(big oh)-Notation
+   - Asymptotic Ω(big Omega)-Notation
+   - Asymptotic Θ(big theta)-Notation
+ans: - Asymptotic O(big oh)-Notation
+       A function t(n) is said to be in O(g(n)), denoted f(n) є O(g(n)), if 
+       f(n) is bounded above by some positive constant multiple of g(n) for 
+       sufficiently large n. If we can find +ve constants c and n0 (n not) such that: f(n) ≤ c × g(n) for all n ≥ n0.
+       
+       O(g(n)): is a set of functions that grow no faster than g(n).
+
+     - Asymptotic Ω(big Omega)-Notation
+       A function t(n) is said to be in Ω(g(n)), denoted f(n) є Ω(g(n)), if f(n) is bounded below by some positive constant multiple of g(n) for sufficiently large n. If we can find +ve constants c and n0 such that: f(n) ≥ c × g(n) for all n ≥ n0 
+       
+       Ω(g(n)): Set of functions that grow no faster than f(n).
+       
+     - Asymptotic Θ(big theta)-Notation
+       A function f(n) is said to be in Θ(g(n)) denoted f(n) є Θ(g(n)), if f
+       (n) is bounded both above and below by some positive constant 
+       multiples of g(n) for all sufficiently large n. If we can find +ve 
+       constants c1, c2, and n0 such that. c2 × g(n) ≤ f(n) ≤ c1× g(n) ∀n ≥ 
+       n0 (n not)
+
+j1. Draw a diagram for each Asymptotic Notation listed above?
+ans: - Asymptotic O(big oh)-Notation
+       Slide 2 (page 18)
+       
+     - Asymptotic Ω(big Omega)-Notation
+       Slide 2 (page 20)
+
+     - Asymptotic Θ(big theta)-Notation
+       Slide 2 (page 22)
+
+i. List out the 7 properties of Logarithms?
+ans:  Slide 2 (page 26)
+
+j. Write out the 4 Sum Manipulation Rules?
+ans: Slide 2 (page 29)
+
+k. List the General Plan for Analysis of Nonrecursive Algorithms?
+ans: - Decide on parameter n indicating input size
+     - Identify algorithm’s basic operation
+     - Determine worst, average, and best cases for input of size n
+     - Set up a sum for the number of times the basic operation is executed
+     - Simplify the sum using standard formulas and rules to establish its 
+       order of growth
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+Lecture 3: Brute Force and Exhaustive Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3a. What is Brute Force Approach (BFA)?
+ans: it is the first algorithm design Approach
+
+a1. In short, brute force means __________?
+ans: Just do it
+
+b. How does Selection Sort work?
+ans: We start selection sort by scanning the entire given list to find its 
+     smallest element and Exchange it with the first element
+
+c. Describe Selection Sort?
+ans: Slide 3 (page 4)
+
+     Tip: Use video below to see an animation of how it works
+     https://visualgo.net/en/sorting
+
+c1. Write the Selection Sort Algorithm?
+ans: Slide 3 (page 5)
+
+c2. Using the Selection Sort Algorithm, show the step by step sorting of 
+    the below arrays
+i.   A = 89   45   68   90   29   34   17
+ii.  A = 13   11   33   48   9   81   62   28  
+iii. A = 13   11   33   48   9   81
+ans: Tip: Slide 3 (page 5)
+
+c3. Calculate to find the complexity class of the Selection sort algorithm?
+ans: Tip: Slide 3 (page 5)
+
+d1. Write the Bubble Sort Algorithm?
+ans: Slide 3 (page 7)
+
+d2. Using the Bubble Sort Algorithm, show the step by step sorting of 
+    the below arrays
+i.   A = 89   45   68   90   29   34   17
+ii.  A = 13   11   33   48   9   81   62   28  
+iii. A = 13   11   33   48   9   81
+ans: Tip: Slide 3 (page 7)
+
+d3. Calculate to find the complexity class of the Bubble sort algorithm?
+ans: Tip: Slide 3 (page 7)
+
+e. What is the difference between Selection and Bubble sort?
+ans: 
+
+f. Write the Sequential Search Algorithm?
+ans: Slide 3 (page 14)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lecture 3: Decrease and Conquer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4a. What is Decrease and Conquer?
+ans: It is based on exploiting the relationship between a solution to a 
+     given instance of a problem and a solution to its smaller instance
+
+b. Top-down means _______, and Bottom-up means ________?
+ans: Recursive, iterative
+
+c. What are the 3 major types?
+ans: - Decrease by a constant
+     - Decrease by a constant factor
+     - Decrease by Variable size
 
 
 
