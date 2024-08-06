@@ -364,12 +364,6 @@ ans: - Secret Key Algorithms:
 
 
 SLIDE 5
-
-
-
-
-
-
 Secret Key Cryptography
 
 
@@ -387,7 +381,13 @@ Secret Key Cryptography
 
 
 
-3a. List 4 Common uses of Secret Key Cryptography?
+
+
+
+
+
+
+5a. List 4 Common uses of Secret Key Cryptography?
 ans: - Confidentiality: sender and receiver share a secret and use it 
        to communicate
      - Secure storage: encrypt content before storing it
@@ -423,6 +423,549 @@ ans: - Generates a random string: Keystream
        - Designed in 1987 and leaked out in 1994
        - Ron’s (Rivest) Code?
        - Rivest Cipher 4?
+
+
+
+
+
+
+
+
+
+
+
+SLIDE 6
+Public Key Encryption
+RSA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6a. What are Prime numbers?
+ans: This are numbers that can only be divided by 1 and itself
+     OR
+     X is a prime number if it can only be divided by X or 1
+
+b. Give some examples of prime numbers?
+ans: 2, 3, 5, 7, 11, 13, ... and so on
+
+c. What are Relatively prime numbers?
+ans: X and Y are relatively prime if they do not have any 
+     common divider other than 1. e.g 9 and 10 are relatively 
+     prime
+
+d. What is the totient function 𝜑(n)?
+ans: It is a function that gives the number of numbers 
+     smaller than n that are relatively prime to n
+
+d1. What is the result of the below totient functons?
+    - 𝜑(4) = ? 
+    - 𝜑(5) = ? 
+    - 𝜑(6) = ?
+    - 𝜑(10) = ? 
+    - 𝜑(143) = ?
+ans: - 𝜑(4) = 2
+     - 𝜑(5) = 4
+     - 𝜑(6) = 2
+     - 𝜑(10) = 4
+     - 𝜑(143) = 120
+
+     e.g The below shows how to find such?
+     𝜑(12)
+     - find prime factors of 12
+     2*2*3
+     - numbers found should be distinct
+     2*3
+     - use below formula
+     = 12*(1-1/prime factor)*(1-1/prime factor)
+     = 12*(1-1/2)*(1-1/3)
+     = 4
+
+e. Find the below?
+   - 7 mod 4 = ?
+   - 10 mod 2 = ?
+   - 4 mod 3 = ?
+   - 5 mod 8 = ?
+ans: - 7 mod 4 = 3
+     - 10 mod 2 = 0
+     - 4 mod 3 = 
+     - 5 mod 8 = ?
+
+     e.g How does it work?
+     1. 7 mod 4 = ?
+     Basically the answer is the remainder of 7/4
+     7 is divided by 4 = 1 times, and the remainder is = 3
+     ANSWER = 3
+
+     2. 9 mod 2 = ?
+     Basically the answer is the remainder of 8/2
+     8 is divided by 2 = 4 times, and the remainder is = 1
+     ANSWER = 1
+
+     3. 2 mod 5 = ?
+     Basically the answer will always be the left number if 
+     the right number is greater than the left number
+     ANSWER = 2
+
+f. Find the below?
+   - 13+17 mod 5 = ?
+   - 8+11 mod 6 = ?
+ans: - 13+17 mod 5 = ((13 mod 5) + (17 mod 5)) mod 5 
+                   = (3 + 2) mod 5
+                   = 5 mod 5
+                   = 0
+
+     - 8+11 mod 6  = ((8 mod 6) + (11 mod 6)) mod 6
+                   = (2 + 5) mod 6
+                   = 7 mod 6
+                   = 1
+
+
+g. Find the below?
+   - 7*9 mod 5 = ?
+   - 13*8 mod 6 = ?
+ans: - 7*9 mod 5 = ((7 mod 5) * (9 mod 5)) mod 5 
+                   = (2 * 4) mod 5
+                   = 8 mod 5
+                   = 3
+
+     - 13*8 mod 6  = ((13 mod 6) * (8 mod 6)) mod 6
+                   = (1 * 2) mod 6
+                   = 2 mod 6
+                   = 2
+
+h1. Does 4 have a multiplicative inverse of mod 3?
+ans: The goal is to find b, such that the calculation
+     results in an answer of 1 as shown below
+     
+     (4*b) mod 3 = 1
+
+     So lets try b = 3 to see:
+     4*3 mod 3 = ((4 mod 3) * (3 mod 3)) mod 3
+               = (1*0) mod 3
+               = 0 mod 3
+               = 0 (b=3 is Incorrect because we did not get 1 as our result)
+
+     So lets try b=7 to see: 
+     4*7 mod 3 = ((4 mod 3) * (7 mod 3)) mod 3
+               = (1*4) mod 3
+               = 4 mod 3
+               = 1 (b=7 is Correct because we got 1 as our result, therefore 7 is the multiplicative inverse of 4 mod 3) ✅
+
+h2. Does 4 have a multiplicative inverse mod 8?
+ans: # Try it urself
+
+h3. Does 4 have a multiplicative inverse mod 6?
+ans: # Try it urself
+
+
+
+
+
+
+
+
+
+
+
+
+
+SLIDE 7
+Hash Functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7a. What is a Hash Function?
+ans: A hash function is like a special machine that turns any 
+     input (like a message) into a fixed-size number
+     e.g a hash function might turn a message into a 128-bit
+         number
+
+b. List the 2 key properties of Hash Functions?
+ans: - One-Way: If you have the output, it’s very hard to 
+       figure out the original input
+     - Collision-Free: It’s very hard to find two different 
+       messages that give the same hash
+
+c. Mention 2 common hash functions?
+ans: MD5 (Produces a 128-bit hash)
+     SHA-1 (Produces a 160-bit hash)
+
+d. What is the feasibility of finding collisions in theory and in practice?
+ans: In Theory: You might find two different inputs that 
+                produce the same hash.
+     In Practice: Finding two such inputs is extremely 
+                  difficult and usually not feasible with 
+                  current technology.
+
+e. What is Data Integrity?
+ans: It is ensuring that a message hasn’t been changed or 
+     tampered with
+
+f. Assume Alice and Bob want to exchange some messages with 
+   data integrity. Is hashing the message and sending the hash along with the message enough?
+ans: Simple Hashing Isn’t Enough:
+     - Just sending the hash along with the message isn't 
+       secure enough. Attackers could modify the message and 
+       create a new hash that still matches.
+     Solution: Use a Keyed Hash
+     - Keyed Hash: Use a secret key along with the message to 
+       make the hash. This makes it much harder for attackers 
+       to fake a valid hash.
+
+g. What does the acronym HMAC stand for?
+ans: Hash-based Message Authentication code
+
+g1. How does HMAC work?
+ans: - Step 1: Compute a hash of the message with one key 
+       (K1)
+     - Step 2: Compute a final hash using another key (K2) 
+       with the result from Step 1
+     - If the key is too long, it’s shortened or hashed first 
+       to fit the required size (512 bits)
+     - Why Two Keys? 
+       Helps protect against certain types of attacks and 
+       ensures that the hash cannot be forged easily
+
+
+
+
+
+
+
+
+
+
+
+
+
+SLIDE 8
+Symmetric Authentication
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8a. What is Authentication?
+ans: - It’s about making sure a person is who they say they 
+       are.
+     - It ensures that the data hasn’t been changed on its 
+       way from the sender to the receiver.
+     - Comes before ensuring privacy and data correctness.
+     - You need authentication to grant permissions 
+       (authorization).
+
+b. List the 3 types of Authentication?
+ans: - Something I Am:
+       Using something unique about you, like your fingerprint or face.
+     - Something I Know:
+       Using a secret you know, like a password.
+     - Something I Possess:
+       Using something you have, like a key card or a phone.
+
+c. Which is the weakest but the most common type of 
+   authentication?
+ans: Something I know
+
+d. What is Password Based Authentication?
+ans: It's using a secret word or phrase to prove who you are.
+
+e. List the strengths and weaknesses of Password Based 
+   Authentication?
+ans: - Weakest Type: Passwords can be copied or stolen
+       without you knowing.
+     - Most Common Today: Despite weaknesses, passwords are 
+       widely used
+
+f. How do attackers Break Passwords?
+ans: They use information they know about you:
+     - Names of family members or pets.
+     - Addresses or phone numbers.
+     - Car registration numbers.
+
+g. List 5 characteristics of a good password?
+ans: - Never make it a real word - too vulnerable to 
+       dictionary attacks and guessing
+     - Always should be easy to remember and hard to guess
+     - Should be a combination of UPPER and lower case, 
+       numerals, letters and punctuation
+     - Should be reasonably long
+       - 6 characters is only equivalent to a 40bit symmetric 
+         key
+       - Need about 22 random characters to be equivalent to 
+         128 bit key
+
+h. How can the login process be protected?
+ans: - By making the login process slow (e.g. add a 1 
+       second delay between each login)
+     - By keeping a record of failed login attempts and 
+       temporarily disabling a login if a limit is exceeded 
+       (ATM Machines)  
+     - Ask the user to carry out an action which requires 
+       human intervention
+       - Recognising letters inside an image
+       - Recognising a word in a sound file
+
+i. List 2 Common Authentication Methods? 
+ans: - Kerberos: A secure way to prove your identity over a 
+                 network.
+     - Diffie-Hellman: A method for securely exchanging keys 
+                       over a public channel.
+
+...
+
+
+
+
+
+
+
+
+
+
+
+
+SLIDE 9
+ASymmetric Authentication
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9a. Discuss Asymmetric Authentication?
+ans: - Each user has a 
+       - public key and
+       - private key
+     - it's not possible to derive one key from the other
+     - One key is known by only one entity (private key) 
+     - The other key is known by everyone (public key)
+     - Both keys can be used for encryption
+     - Using public keys for encryption ensures confidentiality 
+     - Using private keys for encryption ensures authentication
+
+b. How does the private key work per user?
+ans: - Only Alice (a particular user example) can make it
+     - Everybody else can verify it
+
+c. What does alice need to know to prove her identity to multiple users
+   (Using Asymmetric Encryption)?
+ans: Her private key
+     Note:
+     With Symmetric encryption, Alice would need a separate key for each 
+     user
+
+d. What is the major problem  with Asymmetric Encryption?
+ans: Asymmetric encryption is slower and requires more processing power 
+     compared to symmetric encryption and hash techniques.
+
+e. How does Asymmetric Encryption for Authentication work?
+ans: Instead of signing the whole message, Alice signs a summary (hash) of 
+     the message.
+
+f. Discuss hash?
+ans: - A hash is like a digital fingerprint of a message.
+     - Each message produces a unique hash.
+     - Given a hash, you cannot easily find the original message.
+     - Example Hash Algorithms: MD5 and SHA-1 (producing 128-bit or 160-bit 
+       hashes).
+
+g. Draw a diagram of how hashing works?
+ans: Slide 9 (page 8)
+
+h. The signature is trusted if and only if ____________?
+ans: No one except its owner can produce it 
+
+i. When the owner of the private key produces it, what next?
+ans: The private key can then be stored in an encrypted file, protected 
+     by a password 
+     OR
+     It can also be stored in a smart card protected by a password or PIN 
+
+j. In a context where each user may need to prove his identity to others.   
+   What must happen?
+ans: Each user needs to know the public keys of the other users
+
+k. How are these keys distributed securely?
+ans: - Certificates are used to distribute public keys securely.
+     - Certificate chains link certificates back to a trusted CA 
+       (certificate authority)
+
+l. What are the 2 Certificate formats?
+ans: - X.509: A CA issues certificates to users and subordinate CAs.
+     - PGP: (Pretty Good Privacy) Users issue their own certificates and 
+            others can sign them to certify their authenticity.
+
+m. What are the 3 Trust Models?
+ans: - Monopoly Model (Centralized): one universally trusted entity
+     - Oligarchy: many trust anchors e.g Used in Browsers
+     - Anarchy (Web of Trust): anyone can sign a certificate for anyone else
+                               e.g PGP (Pretty Good Privacy)
+
+n. When is Certificate Revocation Needed?
+ans: A certificate might need to be revoked if:
+     - The private key is stolen.
+     - An employee is fired.
+     - A user forgets their password.
+
+o. What are the  methods used for Revocation by x.509?
+ans: - Uses Certificate Revocation Lists (CRLs) to list revoked 
+       certificates.
+     - Uses Online Certificate Status Protocol (OCSP) to check certificate 
+       validity in real-time.
+
+p. What are the methods used for Revocation by PGP?
+ans: - Each signer can revoke their own signatures.
+     - Only the key owner can revoke their public key, but a designated 
+       revoker can be specified.
+
+p. Who can Revoke Certificates?
+ans: - X.509:
+       - CRLs are published in the same way as certificates and stored in 
+         directories and on web pages.
+       - PKIX (Public Key Infrastructure X.509) defines OCSP to check 
+         certificate validity.
+     - PGP:
+       - Revoked signatures are sent to key servers and friends
+
+
+
+
+
+
+
+
+
+
+
+
+SLIDE 10
+SSL/TLS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10a. What is SSL/TLS?
+ans: SSL/TLS is a technology that's used to secure web communication by 
+     addressing several security issues
+
+b. What does SSL and TLS stand for?
+ans: SSL: Secure Sockets Layer
+     TLS: Transport Layer Security
+
+
+c. Why SSL/TLS?
+ans: To eliminate
+     - Modification of message/traffic in transit 
+     - Impersonation of users (Fake users) 
+     - Data forgery (Data created by an intruder are considered to be 
+       genuine) 
+     - Eavesdropping on the net (Loss of privacy)
+
+d. List the 3 Web Security Requirement?
+ans: - Data Integrity
+     - Confidentiality
+     - Authentication
+
+d1. Explain each of the Requirements listed above?
+ans: - Data Integrity: Ensures that the received data is the same as when 
+       sent by the sender (using checksums, message authentication codes)
+     - Confidentiality: Protection of data from unauthorized disclosure 
+       (using encryption)
+     - Authentication: The proof of the communicating entity is the one it 
+       pretends to be. It's essential on the server side, optional on the 
+       client one (using challenge-response, username/password, 
+       certificates, ...)
+
+e. What are the Objectives of SSL/TLS: 
+ans: - Allow two entities to authenticate
+     - Establish session keys
+
+d. 
+
+...
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
