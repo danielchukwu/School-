@@ -196,7 +196,6 @@ ans: It is the art of obtaining original message from ciphertext without
 e. What is Cryptology?
 ans: It is the combination of Cryptography and Cryptanalysis
 
-
 f. Discuss briefly about the history of  Cryptography?
 ans: - Caesar Cipher: Shifts letters by a set number (e.g., CAT becomes FDW).
      - Monoalphabetic Ciphers: Assign any letter to any other letter (e.g., A 
@@ -207,20 +206,7 @@ ans: - Caesar Cipher: Shifts letters by a set number (e.g., CAT becomes FDW).
 g. Encrypt HACKNOW using CAT (With the vigenere Cipher)?
 ans: Slide 4 (page 7)
 
-h. Should Crypto algorithms be kept secret. Discuss?
-ans: - Keeping an algorithm secret prevents crackers from knowing it, they 
-       cannot break what they don't know (Security through obscurity) 
-     - Difficult in practice 
-       - Each time you use the algorithm with someone, they need to learn  
-         it (and might leak it?) 
-       - If it is implemented in some hardware, reverse-engineering it 
-         could reveal the algorithm
-     - Making an algorithm available makes it possible for crackers to do 
-       all tests on the algorithm 
-       -  And all the good guys too 
-       -  As a good guy finds a loophole
-
-i. Should algorithms be secret?
+h. Should algorithms be secret?
 ans: - Keeping algorithms secret is impractical; they may get leaked.
      - Public algorithms allow for peer review and improvement.
      - Kirchhoff's Principle: The only secret should be the key.
@@ -269,12 +255,12 @@ ans: - Ciphertext-only Attack: Attacker only has encrypted messages.
      - Known Plaintext Attack: Attacker has pairs of plaintext and ciphertext.
      - Chosen Plaintext Attack: Attacker can choose plaintext to be encrypted.
 
-h. List the 3 types of Cryptographic Algorithm?
+k. List the 3 types of Cryptographic Algorithm?
 ans: - Secret Key Algorithms (Symmetric Cryptography)
      - Public Key algorithms (Asymmetric Cryptography)
      - Hash algorithms
 
-h1. Explain each algorithm above?
+k1. Explain each algorithm above?
 ans: - Secret Key Algorithms (Symmetric Cryptography):
        - Same key for encryption and decryption.
        - Commonly used for confidentiality.
@@ -324,17 +310,16 @@ Secret Key Cryptography
 
 5a. Why is Secret Key Cryptography Important?
 ans: - Confidentiality
-     - Secure storage
      - Authentication
      - Integrity
+     - Secure storage
 
 a1. Explain each listed above?
 ans: - Confidentiality: Sender and receiver share a secret 
                         and use it to communicate securely
+     - Authentication: Prove identity by sharing and using a key
+     - Integrity:      Encrypt checksums for data integrity
      - Secure storage: Encrypt data before storing it.
-     - Authentication: Prove identity by sharing and using a 
-                       key
-     - Integrity: Encrypt checksums for data integrity
 
 b. Name the 2 techniques used for Secret Key Cryptography?
 ans: - Stream ciphers
@@ -358,7 +343,6 @@ ans: - Generates a keystream (pseudo-random string).
      - Simple and lightweight but with weak security.
      - Example: Used in WEP and an older version of WPA
 
-
 d. Discuss Block Cipher?
 ans: - Encrypts fixed-length blocks (as defined by the 
        algorithm)
@@ -379,9 +363,13 @@ ans: - Published in 1977 by NIST.
        and a final permutation.
      - Decryption involves reversing the encryption process.
 
+     Additionally: In each round
+     - The 56 bit key is used to generate a new 48 bit round key
+     - A 64 bit input is converted into 64 bit output
+
 g. Why Modes of Operation?
 ans: It describes how to encrypt a message larger than one 
-     block (e.g encrypting wih DES when input is larger than 
+     block (i.e encrypting wih DES when input is larger than 
      64-bits)
 
 h. When where the first 4 modes introduced for DES?
@@ -467,7 +455,7 @@ ans: - 𝜑(4) = 2
 
      e.g The below shows how to find such?
      𝜑(12)
-     - find prime factors of 12
+     - find prime factors of 12 (numbers that multiply to get 12)
      2*2*3
      - numbers found should be distinct
      2*3
@@ -483,8 +471,8 @@ e. Find the below?
    - 5 mod 8 = ?
 ans: - 7 mod 4 = 3
      - 10 mod 2 = 0
-     - 4 mod 3 = 
-     - 5 mod 8 = ?
+     - 4 mod 3 = 1
+     - 5 mod 8 = 5
 
      e.g How does it work?
      1. 7 mod 4 = ?
@@ -541,11 +529,11 @@ ans: The goal is to find b, such that the calculation
                = 0 mod 3
                = 0 (b=3 is Incorrect because we did not get 1 as our result)
 
-     So lets try b=7 to see: 
-     4*7 mod 3 = ((4 mod 3) * (7 mod 3)) mod 3
-               = (1*4) mod 3
-               = 4 mod 3
-               = 1 (b=7 is Correct because we got 1 as our result, therefore 7 is the multiplicative inverse of 4 mod 3) ✅
+     So lets try b=1 to see: 
+     4*7 mod 3 = ((4 mod 3) * (1 mod 3)) mod 3
+               = (1*1) mod 3
+               = 1 mod 3
+               = 1 (b=1 is Correct because we got 1 as our result, therefore 1 is the multiplicative inverse of 4 mod 3) ✅
 
 h2. Does 4 have a multiplicative inverse mod 8?
 ans: # Try it urself
@@ -619,7 +607,7 @@ ans: Simple Hashing Isn’t Enough:
        secure enough. Attackers could modify the message and 
        create a new hash that still matches.
      Solution: Use a Keyed Hash
-     - Keyed Hash: Use a secret key along with the message to 
+     - Use a secret key along with the message to 
        make the hash. This makes it much harder for attackers 
        to fake a valid hash.
 
@@ -670,32 +658,39 @@ Symmetric Authentication
 
 
 8a. What is Authentication?
-ans: - It’s about making sure a person is who they say they 
-       are.
-     - It ensures that the data hasn’t been changed on its 
-       way from the sender to the receiver.
-     - Comes before ensuring privacy and data correctness.
-     - You need authentication to grant permissions 
-       (authorization).
+ans: Confirming a person is who they claim to be
 
 b. List the 3 types of Authentication?
-ans: - Something I Am:
-       Using something unique about you, like your fingerprint or face.
-     - Something I Know:
-       Using a secret you know, like a password.
-     - Something I Possess:
-       Using something you have, like a key card or a phone.
+ans: - Something I Am
+     - Something I Know
+     - Something I Possess
 
-c. Which is the weakest but the most common type of 
-   authentication?
-ans: Something I know
+     Additionally:
+     - Something I Am: Using something unique about you, like your fingerprint 
+                       or face.
+     - Something I Know:    Using a secret you know, like a password.
+     - Something I Possess: Using something you have, like keys, cards or 
+                            phones.
+
+c. Discuss all 3 types of Authentication in terms of examples and security?
+ans: - Something I Am
+       - Examples: Fingerprints, DNA, face scans, retina scans.
+       - Security: Strong but can have issues like false positives/negatives 
+                   and the need to capture biometrics live to prevent theft.
+     - Something I Know
+       - Examples: Passwords, cryptographic secrets.
+       - Security: Generally weaker as secrets can be copied without detection 
+                   but still the most common method.
+     - Something I Possess
+       - Examples: Proximity cards, smart cards, passports, mobile phones.
+       - Security: Often used in two-factor authentication, combining 
+                   "something you know" with "something you possess".
 
 d. What is Password Based Authentication?
 ans: It's using a secret word or phrase to prove who you are.
 
-e. List the strengths and weaknesses of Password Based 
-   Authentication?
-ans: - Weakest Type: Passwords can be copied or stolen
+     Additionally:
+     - Weakest Type: Passwords can be copied or stolen
        without you knowing.
      - Most Common Today: Despite weaknesses, passwords are 
        widely used
@@ -706,28 +701,20 @@ ans: They use information they know about you:
      - Addresses or phone numbers.
      - Car registration numbers.
 
-g. List 5 characteristics of a good password?
-ans: - Never make it a real word - too vulnerable to 
-       dictionary attacks and guessing
-     - Always should be easy to remember and hard to guess
-     - Should be a combination of UPPER and lower case, 
-       numerals, letters and punctuation
-     - Should be reasonably long
-       - 6 characters is only equivalent to a 40bit symmetric 
-         key
-       - Need about 22 random characters to be equivalent to 
-         128 bit key
+g. List 3 characteristics of a good password?
+ans: - Avoid real words.
+     - Use combinations of uppercase, lowercase, numbers, and punctuation.
+     - Longer passwords are more secure.
 
 h. How can the login process be protected?
-ans: - By making the login process slow (e.g. add a 1 
-       second delay between each login)
-     - By keeping a record of failed login attempts and 
-       temporarily disabling a login if a limit is exceeded 
-       (ATM Machines)  
-     - Ask the user to carry out an action which requires 
-       human intervention
-       - Recognising letters inside an image
-       - Recognising a word in a sound file
+ans: - Slow down login processes.
+     - Record failed login attempts and disable login after multiple failures.
+     - Require human interaction for login (e.g., CAPTCHA)  
+
+i. How can I gain access to multiple computer systems if 
+   password based authentication is used?
+ans: - Single sign-on applications (e.g Mozilla firefox).
+     - Trust-based single sign-on systems
 
 i. List 2 Common Authentication Methods? 
 ans: - Kerberos: A secure way to prove your identity over a 
@@ -901,14 +888,20 @@ b. What does SSL and TLS stand for?
 ans: SSL: Secure Sockets Layer
      TLS: Transport Layer Security
 
-
 c. Why SSL/TLS?
-ans: To eliminate
-     - Modification of message/traffic in transit 
-     - Impersonation of users (Fake users) 
-     - Data forgery (Data created by an intruder are considered to be 
-       genuine) 
-     - Eavesdropping on the net (Loss of privacy)
+ans: - Modification Prevention
+     - Impersonation Prevention
+     - Data Forgery Prevention
+     - Eavesdropping Prevention: Stops unauthorized users from listening in on communication.
+
+c1. Explain each reason listed above?
+ans: - Modification Prevention: Stops changes to messages during transmission.
+     - Impersonation Prevention: Stops fake users from pretending to be 
+       someone else.
+     - Data Forgery Prevention: Ensures data created by intruders isn’t 
+       treated as genuine.
+     - Eavesdropping Prevention: Stops unauthorized users from listening in on 
+       communication.
 
 d. List the 3 Web Security Requirement?
 ans: - Data Integrity
@@ -916,16 +909,18 @@ ans: - Data Integrity
      - Authentication
 
 d1. Explain each of the Requirements listed above?
-ans: - Data Integrity: Ensures that the received data is the same as when 
-       sent by the sender (using checksums, message authentication codes)
-     - Confidentiality: Protection of data from unauthorized disclosure 
-       (using encryption)
-     - Authentication: The proof of the communicating entity is the one it 
-       pretends to be. It's essential on the server side, optional on the 
-       client one (using challenge-response, username/password, 
-       certificates, ...)
+ans: - Data Integrity: 
+       - Ensures that the received data is the same as when sent by the sender 
+       - (Uses checksums, message authentication codes)
+     - Confidentiality: 
+       - Protects data from unauthorized access.
+       - (Uses encryption)
+     - Authentication: 
+       - Ensures the communicating entity is who they claim to be.
+       - Essential for servers, optional for clients.
+       - Uses methods like challenge-response, username/password, certificates.
 
-e. What are the Objectives of SSL/TLS: 
+d2. What are the Objectives of SSL/TLS: 
 ans: - Authenticate two entities
      - Establish session keys
 
@@ -936,7 +931,43 @@ ans: - Under TCP (IPSec)
        - No OS changes needed (applications over TCP need changes)
        - TCP’s reliable service means SSL doesn’t need extra controls or 
          retransmission
-...
+
+e. Discuss history of SSL/TLS?
+ans: - Secure Network Programming (SNP) API (1993):
+       - Encapsulates sensitive information in a secure layer.
+     - SSL (Secure Socket Layer):
+       - Proposed by Netscape.
+       - SSL v1 had security flaws, never released.
+       - SSL v2 released in 1994, had security issues.
+       - Microsoft’s version: Private Communication Technology (PCT).
+       - SSL v3 released in 1996.
+     - TLS (Transport Layer Security):
+       - Internet standard version of SSL.
+       - TLS 1.0 published in 1999 by IETF.
+
+f. List the 3 Basic Protocols?
+ans: - Client Wants Secure Connection:
+       - Requires server authentication, data integrity, and confidentiality.
+     - Server’s X.509 Certificate:
+       - From a trusted Certification Authority (CA).
+     - Client’s Web Browser:
+       - Encrypts a random number using the server’s public key.
+       - Sends the encrypted number to the server.
+       - Establishes a secure channel once the server responds correctly.
+
+g. List out the 4 phases to SSL Handshake?
+ans: - Phase 1: Client and server exchange supported SSL versions, algorithms, 
+                nonces, and session ID
+     - Phase 2: Server sends public key certificate, client certificate 
+                request, key parameters, and “Server Hello Done” message.
+     - Phase 3: Client sends key exchange parameters, optional public key 
+                certificate, and verification message.
+     - Phase 4: Client and server agree on ciphers and finish the handshake.
+
+h. Draw a diagram of the SSL Handshake Summary?
+ans: Slide 10 (page 12)
+
+i. 
 
 
 
