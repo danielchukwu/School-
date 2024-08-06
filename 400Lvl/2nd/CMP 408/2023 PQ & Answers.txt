@@ -1,0 +1,408 @@
+QUESTIONS
+
+
+
+BINGHAM UNIVERSITY 
+FACULTY OF SCIENCE AND TECHNOLOGY 
+DEPARTMENT OF COMPUTER SCIENCE 
+SECOND SEMESTER EXAMINATION, 2022/2023 SESSION 
+COURSE TITLE: INFORMATION SECURITY 
+COURSE CODE:  CMP 408   COURSE CREDIT UNITS: 2 
+TIME ALLOWED: 2 HRS 
+INSTRUCTION: ANSWER QUESTION ONE AND ANY OTHER TWO QUESTIONS 
+ 
+ 
+1a. Assuming you work as a cloud engineer at your company and 
+    you manage the data hosted on your company’s server in the night, an attacker was able to access your data base and insert some malicious  records  in your data  base, so in the  morning when  you came,  you ran your daily data verifications checks and you got an alarm that something has gone wrong, which pillar of CIA has been violated? (Explain your answer) (8 Marks) 
+
+b. When Bob initiates communication with Alice, a situation 
+   arises where Jackson hijacks the transmission and 
+   impersonates Alice. Could you illustrate possible event 
+   scenarios using a diagram? (8 Marks) 
+
+c. What are four essential security services that are typically 
+   necessary when making a purchase from amazon's e-commerce platform? Provide a justification for each service. (8 Marks) 
+
+d. Two business partners engage in a contract negotiation via 
+   email. Describe a scenario where one partner later denies 
+   agreeing to specific terms, highlighting the need for 
+   non-repudiation to resolve the dispute. (6 Marks) 
+
+
+2a. Two branches of a multinational corporation DBASE, need to 
+    establish a secure communication channel over an untrusted 
+    network. Describe a scenario where the branches must 
+    distribute encryption keys securely and explain the 
+    challenges they may face during the key distribution 
+    process. (8 Marks) 
+
+b. Prove S=X1A2 Mod P = X2A1 Mod P = YA1A2 Mod P (6 Marks) 
+
+c. A social media platform wants to store user passwords 
+   securely. Describe a scenario where the platform utilizes 
+   hashing to protect user passwords and explain the advantages 
+   of using hashing over other methods of password storage. 
+   (6 Marks) 
+
+
+3a. As a consultant hired to educate the staff of the Central 
+    Bank of Nigeria about the risks of unauthorized access, what 
+    key arguments would you present in favor of recommending the 
+    inclusion of lowercase, uppercase, numerals, and special 
+    characters in passwords? Alternatively, would you advise 
+    them to use only lowercase characters? Support your 
+    explanation with statistical evidence. (7 Marks) 
+
+b. Bingham Ventures utilizes an SQL database to store sensitive
+   customer information, including personal details and 
+   financial data. Describe a scenario where SQL injection 
+   occurs, explain the potential consequences of this attack, 
+   and suggest preventive measures to mitigate the risk of SQL 
+   injection vulnerabilities in the company's database system. 
+   (7 Marks) 
+
+c. A spy agency needs to securely transmit a confidential 
+   message to its operative in the field. Describe a scenario 
+   where the agency decides to use a Caesar cipher encryption 
+   technique to protect the message. Explain how the Caesar 
+   cipher works, its limitations, and suggest additional 
+   cryptographic methods that could enhance the security of the 
+   message transmission. (6 Marks) 
+
+
+4a. During the establishment of an SSL session, there are four 
+    stages that play a crucial role in maintaining a secure link 
+    for data transmission between communicating devices. What 
+    occurs if the user suspends the connection and attempts to 
+    resume data transmission at a later time? Please provide a 
+    diagrammatic illustration to support your answer. (8 Marks)
+ 
+b. Differentiate between these authentication methods with 
+   examples 
+   i.   Something I am 
+   ii.  Something I posses 
+   iii. Something I know (6 Marks) 
+
+c. What properties must you consider when working with the RSA 
+   parameters n, e and d? (6 Marks) 
+
+
+5a. Bingham University is considering the use of symmetric based 
+    authentication in curbing falsification of lecture 
+    attendance by students whereby, students sign on behalf of 
+    other students absent. The university management approaches 
+    your company for a solution. You are to present and justify 
+    your choice based on the three types of authentication 
+    narrowing your answer to a particular technology. (8 Marks) 
+
+b. In practice there is no universally trusted entity in the 
+   distribution of certificates. With the aid of a diagram, 
+   explain the process of distributing certificates and how 
+   domains are managed. (8 Marks) 
+
+c. Assume Alice and Bob want to exchange some messages with data 
+   integrity. Is hashing the message and sending the hash along 
+   with the message enough? Explain your answer. (4 Marks)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------
+
+
+QUESTIONS & ANSWERS
+
+1a. Assuming you work as a cloud engineer at your company and 
+    you manage the data hosted on your company’s server in the night, an attacker was able to access your database and insert some malicious records in your database, so in the morning when you came, you ran your daily data verifications checks and you got an alarm that something has gone wrong, which pillar of CIA has been violated? (Explain your answer) (8 Marks) 
+ans: CIA Pillar Violated
+     The CIA Triad consists of C-Confidentiality, I-Integrity, and A-Availability. In this scenario, the pillar of Integrity has been violated. 
+     
+     Integrity ensures that data remains accurate, consistent, and trustworthy over its entire lifecycle. The insertion of malicious records into the database compromises the trustworthiness and accuracy of the data, indicating a breach of integrity.
+
+
+b. When Bob initiates communication with Alice, a situation 
+   arises where Jackson hijacks the transmission and 
+   impersonates Alice. Could you illustrate possible event 
+   scenarios using a diagram? (8 Marks) 
+ans: 
+     Bob -----------------> Alice (Intended)
+        \                  ^
+         \                /
+          \              /
+           \            /
+            \          /
+             \        /
+              \      /
+               \    /
+                \  /
+               Jackson (Hijacker)
+     1.	Bob sends a message to Alice.
+     2.	Jackson intercepts the message.
+     3.	Jackson impersonates Alice and sends a 
+        fake response to Bob.
+
+
+c. What are four essential security services that are typically 
+   necessary when making a purchase from amazon's e-commerce platform? Provide a justification for each service. (8 Marks) 
+ans: Security Services for Amazon E-commerce Platform
+     1. Confidentiality: Protects customer data from 
+        unauthorized access, ensuring personal and payment 
+        information remains private. For example, encryption is 
+        used to secure data transmitted between the customer and 
+        Amazon.
+     2. Integrity: Ensures that data, such as order details and 
+        payment information, is accurate and has not been 
+        tampered with. This is achieved through the use of 
+        checksums and hash functions.
+     3. Authentication: Verifies the identity of customers and 
+        merchants to prevent fraudulent transactions. Amazon 
+        uses multi-factor authentication (MFA) to ensure that 
+        users are who they claim to be.
+     4. Non-repudiation: Ensures that a party cannot deny the 
+        authenticity of their signature on a document or the 
+        sending of a message. Digital signatures and audit logs 
+        are used to provide proof of transactions.
+
+
+d. Two business partners engage in a contract negotiation via 
+   email. Describe a scenario where one partner later denies 
+   agreeing to specific terms, highlighting the need for 
+   non-repudiation to resolve the dispute. (6 Marks) 
+ans: Scenario: 
+     Two business partners, Alice and Bob, engage in contract negotiations via email. Alice agrees to specific terms in an email. Later, Alice denies agreeing to those terms, leading to a dispute.
+    
+     Non-repudiation is crucial here to prove that Alice did indeed agree to the terms. Using digital signatures ensures that Alice cannot deny sending the email with the agreed terms, as her digital signature provides proof of origin and integrity of the message.
+
+
+
+
+2a. Two branches of a multinational corporation DBASE, need to 
+    establish a secure communication channel over an untrusted 
+    network. Describe a scenario where the branches must 
+    distribute encryption keys securely and explain the 
+    challenges they may face during the key distribution 
+    process. (8 Marks) 
+ans: a. Secure Key Distribution
+        Scenario: Two branches of DBASE, located in different countries, need to establish a secure communication channel over an untrusted network.
+        Challenges:
+        - Key Exchange: Securely exchanging encryption keys over 
+          an untrusted network is challenging. They can use 
+          Public Key Infrastructure (PKI) or Diffie-Hellman key 
+          exchange to securely distribute keys.
+        - Man-in-the-Middle Attacks: An attacker could intercept 
+          the keys during transmission. Using certificates 
+          signed by a trusted Certificate Authority (CA) can 
+          mitigate this risk.
+
+
+b. Prove S=X1A2 Mod P = X2A1 Mod P = YA1A2 Mod P (6 Marks)
+ans: 
+
+
+c. A social media platform wants to store user passwords 
+   securely. Describe a scenario where the platform utilizes 
+   hashing to protect user passwords and explain the advantages 
+   of using hashing over other methods of password storage. 
+   (6 Marks) 
+ans: Hashing Passwords
+     Scenario: A social media platform wants to store user passwords securely.
+     Advantages of Hashing:
+     - One-way Function: Hashing is a one-way function, making 
+       it infeasible to reverse-engineer the original password 
+       from the hash.
+     - Salted Hashing: Adding a unique salt to each password 
+       before hashing prevents the use of precomputed hash 
+       tables (rainbow tables) for cracking.
+     - Security: Even if the hashed passwords are exposed, the 
+       original passwords remain protected due to the difficulty 
+       of reversing the hash.
+
+
+
+
+3a. As a consultant hired to educate the staff of the Central 
+    Bank of Nigeria about the risks of unauthorized access, what 
+    key arguments would you present in favor of recommending the 
+    inclusion of lowercase, uppercase, numerals, and special 
+    characters in passwords? Alternatively, would you advise 
+    them to use only lowercase characters? Support your 
+    explanation with statistical evidence. (7 Marks)
+ans: Arguments for using lowercase, uppercase, numerals, and 
+     special characters:
+     - Increased Entropy: Each additional character type 
+       significantly increases the number of possible 
+       combinations, making brute-force attacks more difficult.
+     - Statistical Evidence: A password with only lowercase 
+       letters (26 characters) and length 8 has 26826^8268 
+       combinations (~208 billion). Including uppercase, 
+       numerals, and special characters (~94 characters) 
+       increases this to 94894^8948 combinations (~6 
+       quadrillion).
+     - Lowercase-only passwords are easier to crack due to fewer 
+       possible combinations.
+
+
+b. Bingham Ventures utilizes an SQL database to store sensitive
+   customer information, including personal details and 
+   financial data. Describe a scenario where SQL injection 
+   occurs, explain the potential consequences of this attack, 
+   and suggest preventive measures to mitigate the risk of SQL 
+   injection vulnerabilities in the company's database system. 
+   (7 Marks) 
+ans: Scenario: Bingham Ventures’ SQL database is vulnerable to
+     SQL injection.
+     
+     Potential Consequences:
+     - Data Breach: Attackers can access, modify, or delete 
+       sensitive customer information.
+     - Financial Loss: Exposure of financial data can lead to 
+       significant monetary loss.
+     
+     Preventive Measures:
+     - Parameterized Queries: Use prepared statements to 
+       separate SQL code from data.
+     - Input Validation: Validate and sanitize all user inputs 
+       to ensure they do not contain malicious SQL code.
+     - Least Privilege: Limit database permissions to the 
+       minimum necessary for application functionality.
+
+
+c. A spy agency needs to securely transmit a confidential 
+   message to its operative in the field. Describe a scenario 
+   where the agency decides to use a Caesar cipher encryption 
+   technique to protect the message. Explain how the Caesar 
+   cipher works, its limitations, and suggest additional 
+   cryptographic methods that could enhance the security of the 
+   message transmission. (6 Marks) 
+ans: Scenario: A spy agency uses Caesar cipher to encrypt a 
+     message.
+
+     How Caesar Cipher Works:
+     - Shift: Each letter in the plaintext is shifted a fixed 
+       number of positions in the alphabet.
+     - Example: With a shift of 3, 'A' becomes 'D', 'B' becomes 
+       'E', etc.
+
+     Limitations:
+     - Simplicity: Easily broken with frequency analysis or 
+       brute-force attacks due to limited key space (26 possible 
+       shifts).
+
+     Enhanced Methods:
+     - AES (Advanced Encryption Standard): Provides strong 
+       encryption with larger key sizes (128, 192, or 256 bits).
+     - Public Key Cryptography: Uses a pair of keys (public and 
+       private) for secure communication.
+
+
+4a. During the establishment of an SSL session, there are four 
+    stages that play a crucial role in maintaining a secure link 
+    for data transmission between communicating devices. What 
+    occurs if the user suspends the connection and attempts to 
+    resume data transmission at a later time? Please provide a 
+    diagrammatic illustration to support your answer. (8 Marks)
+ans: SSL Session Resumption
+     If a user suspends the connection and resumes later, the SSL session can be resumed without a full handshake using session tickets or session IDs. Here’s a diagram:
+     
+Client           Server
+  |                |
+  |---Hello------->|
+  |<---Hello-------|
+  |---Key Exchange->|
+  |<---Key Exchange-|
+  |---Finished----->|
+  |<---Finished-----|
+(Session Established)
+
+  |                |
+  | (Suspend)      |
+  | (Resume)       |
+  |---Resume------>|
+  |<---Resume------|
+
+
+b. Differentiate between these authentication methods with 
+   examples 
+   i.   Something I am 
+   ii.  Something I posses 
+   iii. Something I know (6 Marks) 
+ans: 1.	Something I am: Biometric authentication (e.g., 
+        fingerprint, facial recognition).
+     2.	Something I possess: Token-based authentication (e.g., 
+        smart card, security token).
+     3.	Something I know: Knowledge-based authentication (e.g., 
+        password, PIN).
+
+
+c. What properties must you consider when working with the RSA 
+   parameters n, e and d? (6 Marks) 
+ans: Properties to consider:
+     - n (Modulus): Product of two large prime numbers (p and q).
+     - e (Public Exponent): Typically a small number like 65537, 
+         chosen to be coprime with ϕ(n)\phi(n)ϕ(n).
+     - d (Private Exponent): Calculated as the modular inverse 
+       of e modulo ϕ(n)\phi(n)ϕ(n).
+
+
+
+5a. Bingham University is considering the use of symmetric based 
+    authentication in curbing falsification of lecture 
+    attendance by students whereby, students sign on behalf of 
+    other students absent. The university management approaches 
+    your company for a solution. You are to present and justify 
+    your choice based on the three types of authentication 
+    narrowing your answer to a particular technology. (8 Marks)
+ans: a. Symmetric-Based Authentication
+        Scenario: Bingham University wants to curb falsification of lecture attendance.
+        Solution: Use a secure mobile app with cryptographic 
+        signatures to verify student attendance. The app 
+        generates a unique, time-sensitive code that students 
+        must enter during the lecture.
+
+b. In practice there is no universally trusted entity in the 
+   distribution of certificates. With the aid of a diagram, 
+   explain the process of distributing certificates and how 
+   domains are managed. (8 Marks)
+ans:  The process of distributing certificates involves:
+      1. Certificate Authority (CA): Issues and signs certificates.
+      2. Public Key Infrastructure (PKI): Manages keys and certificates.
+      3. Domain Management: Ensures certificates are correctly associated with domain names.
+      Diagram:
+
+      User -> RA -> CA -> RA -> User -> Domain Server -> User
+    |---------------------- (certificate distribution) ----------------------|
+
+c. Assume Alice and Bob want to exchange some messages with data 
+   integrity. Is hashing the message and sending the hash along 
+   with the message enough? Explain your answer. (4 Marks)
+ans: No.
+     Explanation:
+     - Hashing Alone: Only ensures that the message hasn't 
+       changed. If an attacker intercepts the message, they can 
+       modify both the message and its hash to match the new 
+       message.
+     - Solution: Use a Hash-Based Message Authentication Code 
+       (HMAC). HMAC combines a secret key with the message 
+       before hashing, ensuring that only someone with the 
+       secret key can generate a valid hash.
+     - Benefit: Ensures both data integrity and authenticity. An 
+       attacker can't alter the message or hash without knowing 
+       the secret key.
