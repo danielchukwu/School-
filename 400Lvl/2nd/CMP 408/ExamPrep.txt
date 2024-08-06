@@ -17,13 +17,16 @@ Brief History
 1a. Who did an intrusion on a pentagon computer and in what year?
 ans: Kevin Mitnick in 1983
 
-b. How much did the first worm ever created caused in damages and who created it?
+b. How much did the first worm ever created cause in damages and who 
+   created it?
 ans: It cost $50,000 and was created by Robert Tappan
 
-c. Who intruded the American bank computer and stole 10 million dollars and in what year?
+c. Who intruded the American bank computer and stole 10 million dollars 
+   and in what year?
 ans: Vladimir Levin did in the year 1994
 
-d. Which 16 years old infiltrated a NASA computer and had access to data worth 1,7 millions dollars and in what year?
+d. Which 16 year old kid infiltrated a NASA computer and had access to 
+   data worth 1.7 millions dollars and in what year?
 ans: Jonathan James in the year 1999
   
 e. List the 4 goals of Computer Security?
@@ -31,7 +34,7 @@ ans: - Integrity
      - Confidentiality
      - Reliability
      - Authentication
-  
+
 e1. Explain the 4 goals of Computer Security?
 ans: - Integrity: Guarantee that the data is what we expect
      - Confidentiality: The information must just be accessible to the authorized people
@@ -50,18 +53,21 @@ ans: Network attacks
      Social Engineering
 
 h1. Give 2 examples for each common attacks listed?
-ans: Network attacks - (e.g Packet sniffing, man-in-the-middle, DNS hacking)
-     Web attacks - (e.g Phishing, SQL Injection, Cross Site Scripting)
-     OS, applications and software attacks - (e.g Virus, Trojan, Worms, Rootkits, Buffer Overflow)
+ans: Network attacks - (e.g Packet sniffing, man-in-the-middle, DNS 
+                       hacking)
+     Web attacks -     (e.g Phishing, SQL Injection, Cross Site Scripting)
+     OS, applications and software attacks - (e.g Virus, Trojan, Worms, 
+                       Rootkits, Buffer Overflow)
      Social Engineering
 
 i. What is a virus?
-ans: It's a piece of code that automatically reproduces itself. It’s attached to other 
-     programs or files, but requires user intervention to propagate
+ans: It's a piece of code that automatically reproduces itself. It’s 
+     attached to other programs or files, but requires user intervention 
+     to propagate
 
 j. What is a worm?
-ans: It's a piece of code that automatically reproduces itself over the Network. It doesn’t 
-     need user intervention to propagate (autonomous)
+ans: It's a piece of code that automatically reproduces itself over the 
+     Network. It doesn’t need user intervention to propagate (autonomous)
 
 k. What is a Backdoor?
 ans: A backdoor is a program placed by a black-hacker that allows him to 
@@ -69,21 +75,19 @@ ans: A backdoor is a program placed by a black-hacker that allows him to
      keyboard-sniffer, display spying, etc
 
 l. What is a Trojan?
-ans: A Trojan is a software that seems useful in the beginning, but is actually 
-     hiding a malicious functionality
+ans: A Trojan is a software that seems useful in the beginning, but is 
+     actually hiding a malicious functionality
 
 m. What is RootKits (the ultimate virus)?
 ans: Rootkits operate like backdoor and Trojan, but also modify existing 
-     programs in the operating system. That allows a black-hacker to control 
-     the system without being detected. A rootkit can be in user-mode or in 
-     kernel-mode.
+     programs in the OS. That allows a black-hacker to control the system without being detected.A rootkit can be in user-mode or in kernel-mode
 
 n. What is the goal of backdoor, Trojan and rootkits?
 ans: The goal of backdoor, Trojan and rootkits is to take possession of a 
      machine subsequently through an infection made via a backdoor
 
 o. What is Social Engineering?
-ans: Manipulating a person(s) in divulging confidential information
+ans: Manipulating a person(s) into divulging confidential information
 
 p. List the types of Password attacks?
 ans: Password guessing
@@ -94,10 +98,9 @@ q. What are the below?
    - Vulnerability
    - Threat
    - Countermeasure
-ans: 
-    - Vulnerability: is a point where a system is susceptible to attack
-    - Threat: is a possible danger to the system
-    - Countermeasure: are techniques for protecting your system
+ans: - Vulnerability: point where a system is susceptible to attack
+     - Threat: possible danger to the system
+     - Countermeasure: techniques for protecting the system
 
 r. List 4 techniques for achieving security (Computer and Network Security)?
 ans: - Cryptography
@@ -116,11 +119,12 @@ t. What is Cryptography?
 ans: It's simply secret codes
 
 u. What is Encryption?
-ans: It is the conversion of data into unreadable codes (to prevent anyone from accessing 
-     the data). It needs a key, to find the original data
+ans: It is the conversion of data into unreadable codes (to prevent anyone 
+     from accessing the data). It needs a key, to find the original data
 
 w. What are Public keys?
-ans: An ingenious system of proving you know your password without disclosing your password.
+ans: An ingenious system of proving you know your password without 
+     disclosing your password.
 
 x. What is Hashing?
 ans: creating fingerprints of documents
@@ -159,75 +163,70 @@ Introduction to Cryptography
 
 
 
-2a. What does the greek word Cryptography mean?
+4a. What does the greek word Cryptography mean?
 ans: (crypto) - secret
      (graphy) - writing
 
 b. What is Cryptography?
-ans: It is the art of mangling information into apparent unintelligibility 
-     in a manner allowing a secret method of unmangling
+ans: It's the art of making information unintelligible, allowing it to be 
+     transformed back to its original form using a secret method.
      or
-     It’s the art of creating and using codes to secure transmission of 
+     It’s the art of creating and using codes to secure the transmission of 
      information
-     
-     Additionally:
-     It allows the transformation of a plaintext (cleartext) into a 
-     ciphertext and vice versa 
-     - Plaintext 🡪ciphertext = encryption 
-     - Ciphertext 🡪plaintext = decryption
+     or 
+     Creating and using codes to secure information
+
+b1. What is Encryption?
+ans: It is converting Plaintext to Ciphertext
+
+b1. What is Decryption?
+ans: It is converting Ciphertext back to Plaintext
 
 c. List 4 reasons why Cryptography is needed?
-ans: - It Protects stored data 
-     - Protects data in transit 
-     - Provides protection against 
-       - Data eavesdropping and Tampering with data 
-     - Could be easily used for authentication purposes
+ans: - It protects stored data 
+     - It protects data in transit 
+     - It guards against eavesdropping and tampering
+     - It could be easily used for authentication purposes
 
 d. What is Cryptanalysis?
 ans: It is the art of obtaining original message from ciphertext without 
      access to secret information (key or algorithm itself)
+     In summary: It's the decoding of messages without knowing the key.
 
 e. What is Cryptology?
 ans: It is the combination of Cryptography and Cryptanalysis
 
-f. Discuss "When Did it all start" Cryptography?
-ans: 
-- Julius Caesar (sometime BC) ! 
-  - A substitution cipher 
-  - The Caesar cipher replaces the ith letter by the i+3th letter 
-    - CAT becomes FDW 
-    - Wraps around to A from Z 
-- Generalised in monoalphabetic ciphers 
-  - No restriction (such as i 🡪i+3) on which letter could be 
-    assigned to which 
-    - E.g. A is encrypted as B, B as D, C as Z, D as A, etc. 
-    - 26! possible monoalphabetic ciphers (4x1026) 
-  - Stronger than Julius Caesar, but would you use it? 
-    - NO ! Vulnerable to statistical analysis 
-  - Most common English letters? 
 
-g. Discuss "What happened next"?
-ans: - Vigenere Cipher 
-       - Not his 
-       - First appeared in Rome in “La cifra del. Sig. 
-         Giovan Battista Bellaso”, in 1553 
-       - “Le chiffre indéchiffrable” for about 3 
-          centuries 
-       - Similar to a Caesar cipher but has a variable 
-         shift value 
-         - First letter shifted by 5, second by 17, third by 11 
-         - 5, 17 and 11 are defined by a secret 
-         - The values range is 0 to 25 (A to Z): A is 0, Z is 25
+f. Discuss briefly about the history of  Cryptography?
+ans: - Caesar Cipher: Shifts letters by a set number (e.g., CAT becomes FDW).
+     - Monoalphabetic Ciphers: Assign any letter to any other letter (e.g., A 
+       to B, B to D).
+     - Vigenère Cipher: Uses a variable shift value defined by a secret key. 
+       Encrypts by shifting letters based on the key.
 
-g1. Encrypt HACKNOW using CAT (With the vigenere Cipher)?
+g. Encrypt HACKNOW using CAT (With the vigenere Cipher)?
 ans: Slide 4 (page 7)
 
-h. Keeping an algorithm secret prevents _______ from knowing it 🡪they 
-   cannot break it. This is also known as _________
-ans: crackers, Security through obscurity
+h. Should Crypto algorithms be kept secret. Discuss?
+ans: - Keeping an algorithm secret prevents crackers from knowing it, they 
+       cannot break what they don't know (Security through obscurity) 
+     - Difficult in practice 
+       - Each time you use the algorithm with someone, they need to learn  
+         it (and might leak it?) 
+       - If it is implemented in some hardware, reverse-engineering it 
+         could reveal the algorithm
+     - Making an algorithm available makes it possible for crackers to do 
+       all tests on the algorithm 
+       -  And all the good guys too 
+       -  As a good guy finds a loophole
 
-h. Why should Crypto algorithms be kept secret?
-ans: - Keeping an algorithm secret prevents crackers from knowing it 🡪they 
+i. Should algorithms be secret?
+ans: - Keeping algorithms secret is impractical; they may get leaked.
+     - Public algorithms allow for peer review and improvement.
+     - Kirchhoff's Principle: The only secret should be the key.
+
+     ADDITIONALLY
+     - Keeping an algorithm secret prevents crackers from knowing it 🡪they 
        cannot break it 
        - Security through obscurity 
      - Difficult in practice 
@@ -255,28 +254,10 @@ ans: - Keeping an algorithm secret prevents crackers from knowing it 🡪they
 
 
 i. Discuss how difficult it is to find a key?
-ans: - Assume you are using an algorithm with a 16 bit key 
-       - 216 (=16384) possible keys 
-       - If a computer can test 100 keys/sec, then it will take a bit less 
-         than 3 minutes to try all of them 
-         - brute-force 
-       - And, in average, half that time to find the right key 
-       - This time doubles for each added bit (0 or 1) 
-       - For a 24 bit key, the same computer will need almost 20 months to 
-         try all combinations 
-     - In practice, computers are much faster, but keys are much longer too 
-     - We would say that it is computationally infeasible to brute-force a 
-       cryptographic algorithm if it required an unreasonable amount of 
-       time using the most powerful computers 
-     - Note that if the keys are chosen and used by humans, then they have 
-       limited choices 
-       - 24 bit key is a 3 character key 
-       - Say for example that the used characters are upper and lower case 
-         and numerals 
-       - 26+26+10 = 62 possibilities for each character 
-       - 623(=238328) possible keys in all 
-       - Takes less than an hour to try all combinations ! 
-     - Nowadays, 280 possible combinations are considered feasible
+ans: - For example: 16-bit key = 2^16 possible keys.
+     - Longer keys exponentially increase difficulty (e.g., 24-bit key takes 
+       much longer to brute-force).
+     - Modern keys are much longer (e.g., 80-bit keys).
 
 j. List 3 typical attacks used in breaking Crypto Algorithms?
 ans: - Ciphertext only
@@ -284,74 +265,28 @@ ans: - Ciphertext only
      - Chosen Plaintext
 
 j1. Explain each of the attacks?
-ans: - Ciphertext only:
-       - Attacker has access to encrypted messages 
-       - The attacker has to try possible keys in turn until one works 
-       - The attacker has to be able to recognize that a key actually works 
-         - Hence the name recognizable plaintext attack 
-       - Problem when dealing with a cipher text that can be decrypted in 
-         several ways 
-          - Should have many samples 
-          - Does not occur with modern crypto algorithms (too randomised 
-            outputs) 
+ans: - Ciphertext-only Attack: Attacker only has encrypted messages.
+     - Known Plaintext Attack: Attacker has pairs of plaintext and ciphertext.
+     - Chosen Plaintext Attack: Attacker can choose plaintext to be encrypted.
 
-     - Known Plaintext:
-       - The attacker obtained pairs of plain and cipher texts 
-       - Could be because the meaning of the ciphertext was revealed 
-         - Attack? Yes, no 
-         - Next target? 
-       - Should prevent attackers from getting those pairs 
-         - Adding a sequence number 
-
-     - Chosen Plaintext
-       - The attacker can choose the plaintext and make the system encrypt 
-         it!
-       - Real life example: WEP 
-         - In WEP, the access point can send random numbers to the station 
-         (e.g. laptop) and the station encrypts and returns it 
-         - An attacker could pretend to be the access point 
-       - Same if there are only few possible meanings of the ciphertext 
-         - E.g. YES or NO
-
-h. List 3 types of Crypto (or Cryptographic) Algorithm?
-ans: - Secret Key Algorithms
-     - Public Key algorithms
+h. List the 3 types of Cryptographic Algorithm?
+ans: - Secret Key Algorithms (Symmetric Cryptography)
+     - Public Key algorithms (Asymmetric Cryptography)
      - Hash algorithms
 
 h1. Explain each algorithm above?
-ans: - Secret Key Algorithms: 
-       - Most intuitive: same key for encryption and decryption 
-       - Also known as Symmetric Cryptography 
-       - Many uses in secure systems, one of the most obvious ones is 
-         confidentiality 
-       - The two communication parties have to find a way of sharing the 
-         key before communicating 
-         - More on this later
+ans: - Secret Key Algorithms (Symmetric Cryptography):
+       - Same key for encryption and decryption.
+       - Commonly used for confidentiality.
+       - Communicating parties must share the key before communicating
+     - Public Key Algorithms (Asymmetric Cryptography):
+       - Uses key pairs: one public (public key), one private (private key).
+       - Commonly used for authentication.
+       - When a key is used to encrypt, only the other one can decrypt
+     - Hash Algorithms:
+       - One-way transformation to a fixed-length output (hash).
+       - Commonly used for digital signatures.
 
-     - Public Key algorithms:
-       - Keys work in pairs 
-       - When a key is used to encrypt, only the other one can decrypt 
-       - Can encrypt with either; different uses 
-       - Also known as Asymmetric Cryptography 
-       - Typically one key is kept secret (private key), the other one is 
-         made public (public key) 
-       - Many uses in secure systems, one of the most obvious ones is 
-         authentication 
-       - The two communication parties have to find a way of sharing public 
-         key(s?) before communicating 
-         - More on this later
-
-     - Hash algorithms:
-       - A one-way transformation 
-         - If h is a hash function such that y=(h), then it is 
-           computationally infeasible for a user who has h and y to find x
-           (or an x’ ?such that h(x’)=y) 
-       - Gives a fixed length output, whatever the input size is 
-         - MD5’s is 128, SHA-1’s is 160 
-       - The output is sometimes called hash, digest or checksum 
-       - Many uses in secure systems, one of the most common ones is 
-         digital signatures 
-         - More on this later 
 
 
 
