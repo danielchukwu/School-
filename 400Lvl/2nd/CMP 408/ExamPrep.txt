@@ -690,10 +690,8 @@ d. What is Password Based Authentication?
 ans: It's using a secret word or phrase to prove who you are.
 
      Additionally:
-     - Weakest Type: Passwords can be copied or stolen
-       without you knowing.
-     - Most Common Today: Despite weaknesses, passwords are 
-       widely used
+     - Weakest Type: Passwords can be copied or stolen without you knowing.
+     - Most Common Today
 
 f. How do attackers Break Passwords?
 ans: They use information they know about you:
@@ -714,13 +712,12 @@ ans: - Slow down login processes.
 i. How can I gain access to multiple computer systems if 
    password based authentication is used?
 ans: - Single sign-on applications (e.g Mozilla firefox).
-     - Trust-based single sign-on systems
+     - Trust-based single sign-on systems (e.g Microsoft)
 
 i. List 2 Common Authentication Methods? 
-ans: - Kerberos: A secure way to prove your identity over a 
-                 network.
-     - Diffie-Hellman: A method for securely exchanging keys 
-                       over a public channel.
+ans: - Kerberos: A secure way to prove your identity over a network.
+     - Diffie-Hellman: A method for securely exchanging keys over a public 
+       channel.
 
 ...
 
@@ -756,9 +753,7 @@ ASymmetric Authentication
 
 
 9a. Discuss Asymmetric Authentication?
-ans: - Each user has a 
-       - public key and
-       - private key
+ans: - Each user has a public key and private key
      - it's not possible to derive one key from the other
      - One key is known by only one entity (private key) 
      - The other key is known by everyone (public key)
@@ -767,7 +762,7 @@ ans: - Each user has a
      - Using private keys for encryption ensures authentication
 
 b. How does the private key work per user?
-ans: - Only Alice (a particular user example) can make it
+ans: - Only Alice (a user example) can make it
      - Everybody else can verify it
 
 c. What does alice need to know to prove her identity to multiple users
@@ -830,7 +825,7 @@ ans: A certificate might need to be revoked if:
      - An employee is fired.
      - A user forgets their password.
 
-o. What are the  methods used for Revocation by x.509?
+o. What are the methods used by x.509 for Revocation ?
 ans: - Uses Certificate Revocation Lists (CRLs) to list revoked 
        certificates.
      - Uses Online Certificate Status Protocol (OCSP) to check certificate 
