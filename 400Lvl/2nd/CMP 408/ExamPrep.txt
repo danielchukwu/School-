@@ -387,46 +387,89 @@ Secret Key Cryptography
 
 
 
-5a. List 4 Common uses of Secret Key Cryptography?
-ans: - Confidentiality: sender and receiver share a secret and use it 
-       to communicate
-     - Secure storage: encrypt content before storing it
-     - Authentication: share a key and prove that you know it when being 
-       authenticated
-     - Integrity: instead of having a simple cleartext checksum, encrypt it 
-       - Becomes Message Integrity Check or Code
+5a. Why is Secret Key Cryptography Important?
+ans: - Confidentiality
+     - Secure storage
+     - Authentication
+     - Integrity
+
+a1. Explain each listed above?
+ans: - Confidentiality: Sender and receiver share a secret 
+                        and use it to communicate securely
+     - Secure storage: Encrypt data before storing it.
+     - Authentication: Prove identity by sharing and using a 
+                       key
+     - Integrity: Encrypt checksums for data integrity
 
 b. Name the 2 techniques used for Secret Key Cryptography?
 ans: - Stream ciphers
      - Block ciphers
 
 b1. Explain both techniques above?
-ans: - Stream ciphers: can encrypt any size
-       - Are based on random number generators
-       - The generated random number string has the same size as the data
-     - Block ciphers: encrypt fixed size blocks
-       - The data to be encrypted is split into blocks of a predefined size
-       - If the block is smaller than that size, then padding bits are 
-         added before encryption (e.g. add zeros at the end)
-       - Example: DES and IDEA use 64 bit blocks, AES uses 128 bit block
+ans: - Stream ciphers: 
+       - Encrypts data of any size.
+       - Uses random number generators.
+       - Example: RC4
+     - Block ciphers: 
+       - Encrypts fixed-size blocks.
+       - Splits data into predefined size blocks (e.g., DES 
+         uses 64-bit blocks, AES uses 128-bit blocks).
 
-c. Discuss Stream Cipher?
-ans: - Generates a random string: Keystream
-       - Not to be confused with the shared Key
-     - XORs it with the message to be encrypted
-     - The random string is not really random
-       - Pseudo-random
-     - The pseudo-random string is used only once
-       - One-time pad
-     - RC4 is one of the most widely known stream ciphers
-       - Used in WEP and in one version of WPA (TKIP)
-       - Designed in 1987 and leaked out in 1994
-       - Ron’s (Rivest) Code?
-       - Rivest Cipher 4?
+c. Discuss Stream Cipher (RC4)?
+ans: - Generates a keystream (pseudo-random string).
+     - XORs keystream with the message for encryption.
+     - Decipher by XORing the encrypted message with the same 
+       keystream.
+     - Simple and lightweight but with weak security.
+     - Example: Used in WEP and an older version of WPA
 
 
+d. Discuss Block Cipher?
+ans: - Encrypts fixed-length blocks (as defined by the 
+       algorithm)
+     - Ensures block size is optimal (to avoid wasting 
+       resources or aiding crackers)
+     - Example: DES uses 64-bit blocks, AES uses 128-bit block
 
+e. How does Encryption work?
+ans: - Permutation: Changes positions of bits.
+     - Substitution: Replaces bits with other bits.
+     - It Combines thi techniques(Permutation & Substitution) 
+       to map cleartext to ciphertext and vice versa
 
+f. Discuss DES (Data Encryption Standards)?
+ans: - Published in 1977 by NIST.
+     - Encrypts 64-bit blocks with a 56-bit key.
+     - Uses initial permutation, 16 rounds of encryption, 
+       and a final permutation.
+     - Decryption involves reversing the encryption process.
+
+g. Why Modes of Operation?
+ans: It describes how to encrypt a message larger than one 
+     block (e.g encrypting wih DES when input is larger than 
+     64-bits)
+
+h. When where the first 4 modes introduced for DES?
+ans: 1981
+
+g. List the 4 Modes of Operation?
+ans: - ECB (Electronic Code Block)
+     - CTR (Counter)
+     - OFB (Output Feedback)
+     - CFB (Cipher Feedback)
+
+j. Discuss all 4 Modes?
+ans: - Electronic Code Block (ECB):
+       - Encrypts each block separately.
+       - Vulnerable to identical block attacks.
+     - Counter (CTR):
+       - Generates a keystream offline using counters.
+     - Output Feedback (OFB):
+       - Works like a stream cipher.
+       - Generates a keystream using initial vectors.
+     - Cipher Feedback (CFB):
+       - Similar to OFB but uses block plaintext in the 
+         process.
 
 
 
@@ -948,13 +991,17 @@ ans: - Data Integrity: Ensures that the received data is the same as when
        certificates, ...)
 
 e. What are the Objectives of SSL/TLS: 
-ans: - Allow two entities to authenticate
+ans: - Authenticate two entities
      - Establish session keys
 
-d. 
-
+d. List the 2 Web Security Approaches?
+ans: - Under TCP (IPSec)
+       - Requires OS changes, no changes to applications over TCP
+     - Over TCP (SSL/TLS)
+       - No OS changes needed (applications over TCP need changes)
+       - TCP’s reliable service means SSL doesn’t need extra controls or 
+         retransmission
 ...
-
 
 
 
