@@ -127,7 +127,7 @@ ans: An ingenious system of proving you know your password without
      disclosing your password.
 
 x. What is Hashing?
-ans: creating fingerprints of documents
+ans: is a fingerprint of document
 
 
 
@@ -196,7 +196,7 @@ ans: It is the art of obtaining original message from ciphertext without
 e. What is Cryptology?
 ans: It is the combination of Cryptography and Cryptanalysis
 
-f. Discuss briefly about the history of  Cryptography?
+f. Discuss briefly about the history of Cryptography?
 ans: - Caesar Cipher: Shifts letters by a set number (e.g., CAT becomes FDW).
      - Monoalphabetic Ciphers: Assign any letter to any other letter (e.g., A 
        to B, B to D).
@@ -441,7 +441,7 @@ d. What is the totient function 𝜑(n)?
 ans: It is a function that gives the number of numbers 
      smaller than n that are relatively prime to n
 
-d1. What is the result of the below totient functons?
+d1. What is the result of the below totient functions?
     - 𝜑(4) = ? 
     - 𝜑(5) = ? 
     - 𝜑(6) = ?
@@ -606,7 +606,7 @@ ans: Simple Hashing Isn’t Enough:
      - Just sending the hash along with the message isn't 
        secure enough. Attackers could modify the message and 
        create a new hash that still matches.
-     Solution: Use a Keyed Hash
+     Solution: Use a Keyed Hash (HMAC)
      - Use a secret key along with the message to 
        make the hash. This makes it much harder for attackers 
        to fake a valid hash.
@@ -887,7 +887,7 @@ c. Why SSL/TLS?
 ans: - Modification Prevention
      - Impersonation Prevention
      - Data Forgery Prevention
-     - Eavesdropping Prevention: Stops unauthorized users from listening in on communication.
+     - Eavesdropping Prevention
 
 c1. Explain each reason listed above?
 ans: - Modification Prevention: Stops changes to messages during transmission.
