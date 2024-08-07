@@ -322,7 +322,9 @@ ans: Scenario: A spy agency uses Caesar cipher to encrypt a
     resume data transmission at a later time? Please provide a 
     diagrammatic illustration to support your answer. (8 Marks)
 ans: SSL Session Resumption
-     If a user suspends the connection and resumes later, the SSL session can be resumed without a full handshake using session tickets or session IDs. Here’s a diagram:
+     If a user suspends the connection and resumes later, the 
+     SSL session can be resumed without a full handshake using 
+     session tickets or session IDs. Here’s a diagram:
      
 Client           Server
   |                |
