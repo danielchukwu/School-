@@ -132,10 +132,13 @@ QUESTIONS & ANSWERS
 
 1a. Assuming you work as a cloud engineer at your company and 
     you manage the data hosted on your company’s server in the night, an attacker was able to access your database and insert some malicious records in your database, so in the morning when you came, you ran your daily data verifications checks and you got an alarm that something has gone wrong, which pillar of CIA has been violated? (Explain your answer) (8 Marks) 
-ans: CIA Pillar Violated
-     The CIA Triad consists of C-Confidentiality, I-Integrity, and A-Availability. In this scenario, the pillar of Integrity has been violated. 
+ans: CIA pillar (C-Confidentiality, I-Integrity, and A-Availability)
+     In this scenario, the pillar of Integrity has been violated. 
      
-     Integrity ensures that data remains accurate, consistent, and trustworthy over its entire lifecycle. The insertion of malicious records into the database compromises the trustworthiness and accuracy of the data, indicating a breach of integrity.
+     Integrity ensures that data remains accurate, consistent, and trustworthy 
+     over its entire lifecycle. The insertion of malicious records into the 
+     database compromises the trustworthiness and accuracy of the data, 
+     indicating a breach of integrity.
 
 
 b. When Bob initiates communication with Alice, a situation 
@@ -162,8 +165,7 @@ ans:
 
 c. What are four essential security services that are typically 
    necessary when making a purchase from amazon's e-commerce platform? Provide a justification for each service. (8 Marks) 
-ans: Security Services for Amazon E-commerce Platform
-     1. Confidentiality: Protects customer data from 
+ans: 1. Confidentiality: Protects customer data from 
         unauthorized access, ensuring personal and payment 
         information remains private. For example, encryption is 
         used to secure data transmitted between the customer and 
@@ -213,7 +215,7 @@ ans: a. Secure Key Distribution
           mitigate this risk.
 
 
-b. Prove S=X1A2 Mod P = X2A1 Mod P = YA1A2 Mod P (6 Marks)
+b. Prove S=X1^A2 Mod P = X2^A1 Mod P = Y^(A1A2) Mod P (6 Marks)
 ans: 
 
 
@@ -251,13 +253,13 @@ ans: Arguments for using lowercase, uppercase, numerals, and
        significantly increases the number of possible 
        combinations, making brute-force attacks more difficult.
      - Statistical Evidence: A password with only lowercase 
-       letters (26 characters) and length 8 has 26826^8268 
-       combinations (~208 billion). Including uppercase, 
-       numerals, and special characters (~94 characters) 
-       increases this to 94894^8948 combinations (~6 
-       quadrillion).
-     - Lowercase-only passwords are easier to crack due to fewer 
-       possible combinations.
+       letters (26 characters) and length 8 has 26^8 
+       combinations (208 billion). Including uppercase, 
+       numerals, and special characters (94 characters) 
+       increases this to 94^8 combinations (6 quadrillion).
+     
+     Lowercase-only passwords are easier to crack due to fewer 
+     possible combinations.
 
 
 b. Bingham Ventures utilizes an SQL database to store sensitive
