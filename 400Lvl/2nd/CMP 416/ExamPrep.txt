@@ -1,9 +1,5 @@
 CMP 416 EXAM PREP
-Best Practice: Study using a big screen device. Be it a laptop or a tablet. It won't be best to use phones (even though y'all ain't with your phones 😉)
-
-
-
-----------------------------------------------------------------
+Best Practice: Study using a big screen device. Be it a laptop or a tablet
 
 
 
@@ -13,10 +9,7 @@ Best Practice: Study using a big screen device. Be it a laptop or a tablet. It w
 
 
 
-
-
-Lecture 1: Introduction
-
+--------------------------------------------------------------
 
 
 
@@ -25,51 +18,106 @@ Lecture 1: Introduction
 
 
 
-
-1a. List the 4 key characteristics of web application development?
-ans: - Software product itself
-     - its development
-     - its use
-     - its evolution
+PDF 1
+Introduction to the Law
      
-b. Draw a diagram of the Web application characteristics?
-ans: (Dr Annes) Slide 1 (page 4) 
 
-c. List the 3 Software Product Characteristics?
-ans: - The Web is essentially content-driven
-     - Hypertext is the fundamental language of the web. It provides new 
-       ways of structuring and accessing information
-     - Presentation
+1a. What are Laws?
+ans: "Laws" are rules that help society run smoothly
 
-d. List the 3 Usage Characteristics?
-ans: - Context
-     - Technical Infrastructure
-     - Diversity and magnitude
+b. What is common law?
+ans: it is the body of law created by judges and centralized 
+     courts.
 
-e. List the 3 Development Characteristics?
-ans: - Development team
-     - Development environment
-     - Development process
+c. Common law relies on _______?
+ans: Precedents (and past decisions)
 
-f. Discuss Evolution Characteristics?
-ans: Traditionally, software development methodologies have 
-     taken an approach which sets down the requirements of 
-     the system
-     - how it will work and what it will do, at the start and builds to that specification. The product is then put into live operation, where it is maintained, and altered only to correct errors and to add enhancements.
-     - How the product will change in the future is not usually considered in traditional software development. However, it is emerging as an extremely important aspect of web application development. 
-     Web applications typically require frequent changes and are usually in a state of permanent evolution.
+d. Why is common law consistent?
+ans: Because judges follow precedents
 
-     This is driven both by changing technology.
-     - Lets refer back to our question.
-     - It is clear that web developers 
-     - Web developers can clearly learn from the mistakes and 
-       solutions of earlier developers, but web
-     - applications also have some specific characteristics 
-       not found in conventional system
-     - Just as software engineering emerged as a discipline 
-       in its own right for conventional software systems, so 
-       Web engineering is emerging as a separate discipline, 
-       with its own tools and procedures
+e. What year was it ruled that a man can be guilty of raping his 
+   wife, and who ruled this?
+ans: 1992, by the House of Lords
+
+e1. How many years of precedents where overturned by the ruling 
+    of the above law?
+ans: 250 years
+
+f. During what time were the Statute Law enacted (made into law)?
+ans: During the industrial revolution
+
+g. What are Statutes?
+ans: Statutes are laws formally created by Parliament (it can 
+     override common law)
+
+g1. Statute Law is also known as _________?
+ans: Legislation
+
+h. What is Case Law?
+ans: it refers to the application of precedents in legal 
+     decisions
+
+i. English Law is divided into 2 parts. Name them?
+ans: Criminal and Civil law
+
+i1. Explain Criminal law?
+ans: Criminal law deals with actions harmful to society, aiming 
+     to punish offenders. 
+     Examples include murder and theft. Criminal cases are prosecuted by the Crown and must be proven "beyond reasonable doubt."
+
+i2. Explain Civil Law?
+ans: Civil law handles disputes between individuals or 
+     organizations, focusing on compensation rather than 
+     punishment. Cases are decided based on the "balance of 
+     probabilities." Civil law includes contract law, torts, 
+     family law, and property law.
+
+i3. List 3 Countries that are influenced by English Law?
+ans: - USA
+     - Australia
+     - New Zealand
+
+i4. List countries that follow systems influenced by Roman Law?
+ans: - Germany
+     - Scotland
+
+j. What is Computer Law?
+ans: These are laws that addresses crimes involving computers
+
+j1. Give some examples of Computer Laws?
+ans: - Hacking
+     - Creating viruses
+     - Phishing
+     - Packet sniffing
+     - Social Engineering
+     etc.
+
+k. What does Donal Gotterbarn argue?
+ans: He argues that computer ethics should focus on professional 
+     conduct and decision-making in the development of computer 
+     artifacts
+
+l. What year saw rapid growth in computer use and the need for 
+   new laws since old laws often couldn't address 
+   computer-related crimes adequately
+ans: 1980's
+
+m. There are several laws that address Computer-related issues. 
+   List 3?
+ans: - Computer Misuse Act 1990: Covers hacking, using computers 
+       to commit crimes, and unauthorized modifications.
+     - Data Protection Act 1998: Governs personal data handling.
+     - Intellectual Property Law: Includes copyright, patents, 
+       and trade secrets.
+
+Contract and Liability
+n. What are Contracts?
+ans: Contracts are legally binding agreements between 2 parties, 
+     enforced by the law (Breaching them can lead to lawsuits)
+
+o. What is a Legal Liability?
+ans: it means being responsible for damage or loss, (it is found 
+     in various law branches like criminal law and torts)
 
 
 
@@ -79,10 +127,7 @@ ans: Traditionally, software development methodologies have
 
 
 
-
-
-Lecture 2: Models & Methodology
-
+--------------------------------------------------------------
 
 
 
@@ -91,6 +136,88 @@ Lecture 2: Models & Methodology
 
 
 
+PDF 2
+The Computer Misuse Act 1990 (CMA)
+
+
+
+2a. Before _________, the courts struggled to address crimes 
+    involving technology
+ans: The Computer Misuse Act 1990
+
+b. What are the 2 key cases?
+ans: - Cox v Riley (1986)
+     - R v Gold & Schifreen (1988)
+
+b1. Discuss the 1st case?
+ans: Cox v Riley (1986)
+     - Riley, a fired employee, erased programs on a saw's 
+       control card, making it useless.
+     - He was charged with criminal damage.
+     - Riley argued that a computer program is intangible and 
+       can't be damaged.
+     - The court upheld his conviction, stating that the saw was 
+       damaged as it required reprogramming.
+
+b2. Discuss the 2nd case?
+ans: R v Gold & Schifreen (1988)
+     - Journalists hacked into British Telecom’s Prestel system 
+       to show security flaws.
+     - Charged under the Forgery and Counterfeiting Act for 
+       using a "false instrument" (password).
+     - Convictions were overturned because the passwords were 
+       not considered "recorded or stored."
+     - Highlighted the need for new legislation to address 
+       computer crimes.
+
+c. What was the Computer Misuse Act (CMA) based on?
+ans: The Act was based on a Law Commission review. it was aimed 
+     to address unauthorized access and modification of data.
+
+d. List some of the motivations of Hacking?
+ans: - Thrill
+     - Challenge
+     - Proving Skills
+     - Criminal acts
+     - Stealing information
+
+e. Some view hackers as helpful for exposing security flaws, 
+   while others see them as a __________
+ans: nuisance or worse
+
+f. Is there anything such as Harmless Hacking?
+ans: Even "innocent" hacking can cause accidental damage or 
+     leave systems vulnerable.
+
+g. List the 3 Sections to the Computer Misuse Act 1990 (CMA)?
+ans: 1. Section 1: Basic Hacking Offense
+        - Unauthorized access to computer programs or data is 
+          illegal.
+     2. Section 2: Ulterior Intent Offense
+        - Using computer access to commit another crime is 
+          illegal.
+     3. Section 3: Unauthorised Modification Offense
+        - Unauthorized changes to computer data or programs are 
+          illegal.
+
+h. What are some Reference cases under the CMA?
+ans: 1. Attorney-General's Reference Case No 1 of 1991
+        - Clarified that unauthorized access to a single 
+          computer is an offense.     
+
+     2. R v Paul Bedworth
+        - Teenager hacked into multiple computers. Although 
+          acquitted due to claimed addiction, it raised 
+          questions about the need to prove intent.
+
+i. What are the Changes and Challenges to the CMA (1990)?
+ans: - The Act is becoming outdated due to new crimes like 
+       DOS (denial of service) attacks.
+     - The Police and Justice Bill 2006 proposes updates:
+       - Section 35: Increases penalties for unauthorized access.
+       - Section 36: Includes DOS attacks under unauthorized acts
+       - Section 37: Criminalizes making or supplying tools for 
+                     hacking.
 
 
 
@@ -100,6 +227,120 @@ Lecture 2: Models & Methodology
 
 
 
+--------------------------------------------------------------
+
+
+
+
+
+
+
+
+PDF 3
+Privacy and Data Protection
+
+
+
+3a. What is Information Privacy?
+ans: it is control over personal data
+
+b. Privacy is seen as a _________?
+ans: Basic human need and right
+
+c. Historically, English law did not recognize a ___________?
+an: right to privacy
+
+d. List some of the concerns to Information Privacy?
+ans: - Collection: Excessive data collection.
+     - Unauthorized Secondary Use: Data used for purposes other 
+               than intended.
+     - Errors: Inaccurate data leading to problems.
+     - Improper Access: Unauthorized access to personal data.
+
+e. List 5 types of Personal Information?
+ans: - Bank details
+     - purchasing history
+     - medical records
+     - credit card information
+     - survey data
+     - police records
+     - etc.
+
+f. List 4 Consequences of Data Misuse?
+ans: - Over-collection can lead to misuse.
+     - Unauthorized secondary use increases junk mail.
+     - Errors can lead to denial of credit or loans.
+     - Improper access can result in fraud or identity theft.
+
+g. List 3 Rights to Information Privacy in Law?
+ans: - Human Rights Act 1998: 
+         (Protects private and family life)
+     - Universal Declaration of Human Rights: 
+         (Offers additional privacy protection)
+     - Regulation of Investigatory Powers Act 2000: 
+         (Can undermine privacy rights)
+
+h. What are RFID Tags?
+ans: They are tags that can track objects and people (raising 
+     privacy concerns)
+
+i. List some use cases of the RFID tag?
+ans: - The US Department of Defence is using RFID to trace 
+       military supply shipments,
+     - They are used by many shops to manage the supply chain
+
+j. What are some scenarios that have shown concerns about the 
+   potential impact the RFID tag has on a person's privacy
+ans: - An Australian casino placed 80,000 RFID tags in employees 
+       uniforms
+     - Michelin tyres plans to put RFID into car tyres linked to 
+       the VIN of the vehicle - this is good for tracking 
+       thefts, but could also be used to track someone's 
+       movements
+     - An RFID tag is also to be placed in Euro notes - this 
+       could be used to monitor the entire 'journey' of each 
+       individual note!
+     - Delegates at the Chinese Party Congress were required to 
+       wear an RFID equipped badge at all times to track their 
+       movements.
+
+k. The Data Protection Acts?
+ans: - 1984 Act: Introduced due to EU requirements, focusing on
+       data protection.
+     - 1995 EU Directive: Established privacy principles and 
+       restricted data transfer to countries without adequate 
+       protection.
+     - 1998 Act: Enhanced data protection measures, including 
+       data controller registration, data security, access 
+       rights, and transfer restrictions.
+
+l. Define the below?
+   - Data Controller
+   - Data Subject
+   - Personal Data
+ans: - Data Controller: Determines how personal data is processed
+     - Data Subject: The individual the data is about
+     - Personal Data: Identifiable information about a living 
+                      individual
+
+m. List 8 Principles of Data Protection?
+ans: 1. Fair and lawful processing.
+     2. Processed for limited purposes.
+     3. Adequate, relevant, and not excessive.
+     4. Accurate and up-to-date.
+     5. Not kept longer than necessary.
+     6. Processed in line with your rights.
+     7. Secure.
+     8. Not transferred without adequate protection.
+
+n. Regulation of Investigatory Powers Act 2000 is divided into 3 
+   parts. Name them?
+ans: - Interception and access to communications data: 
+         Allows monitoring of internet traffic.
+     - Surveillance and covert human intelligence sources: 
+         Regulates and keeps surveillance methods secret.
+     - Encryption:   
+         Demands decryption of data for security purposes.
 
 
 
@@ -109,6 +350,95 @@ Lecture 2: Models & Methodology
 
 
 
+--------------------------------------------------------------
+
+
+
+
+
+
+
+
+PDF 4
+Intellectual Property Law (1)
+
+
+
+4a. What is Intellectual Property (IP)?
+ans: IP is work resulting from human creativity, like art, 
+     science, or literature.
+
+b. What is Intellectual Property Rights (IPR)?
+ans: it is a right that protects intangible property allowing 
+     the owner to make money from it.
+
+c. Why are information's valuable?
+ans: - Information is unique as it can be repeatedly sold or 
+       traded
+     - Information does not need big warehouses for storage
+     - Shipping tangible goods involves high shipping costs. 
+       Shipping information is cheap.
+
+d. Can information be stolen according to The Theft Act (1968)?
+ans: - According to the Theft Act (1968), theft involves 
+       permanently depriving someone of their property.
+     - Information is intangible and cannot be stolen under this 
+       act.
+
+e. What is the Intellectual Property Law?
+ans: It is a law that covers a number of different areas:
+     - Copyright Law: Protects creative works.
+     - Patent Law: For new inventions.
+     - Law of Confidence: Protects trade secrets and business 
+       know-how.
+     - Trademarks: Protect brand names and logos.
+     - Semiconductor Regulations: Protect chip designs.
+
+f. Why do we have IPR?
+ans: - Encourages creation and innovation by granting 
+       exploitation rights.
+     - Rewards creators for their efforts.
+
+g. List 5 Justification for Copyright?
+ans: - Incentive for creation and innovation.
+     - Reward for creative effort.
+     - Intellectual labor should be protected as property.
+     - Prevents unjust enrichment.
+     - "Thou shalt not steal."
+
+h. List 6 Arguments Against Copyright?
+ans: - Information isn't like other property.
+     - Often benefits owners more than authors.
+     - Can restrict creativity and innovation.
+     - Creativity existed before copyright laws.
+     - Usually only large organizations enforce it.
+     - Hard to enforce in the digital age.
+
+i. What is Copyleft?
+ans: Copyleft is a method of using copyright to guarantee the 
+     freedom to use, modify and redistribute a program and its 
+     derivatives.
+
+     The open source movement opposes traditional IP views,   
+     advocating for free use and modification of software
+
+i1. Give an example of a software that uses Copyleft?
+ans: GNU/Linux is an example, promoting freedom to run, 
+     replicate, modify, and distribute software.
+
+j. Issues arise when linking to other sites using frames, 
+  potentially causing _________ and _________?
+ans: confusion about site ownership,
+     bypassing legal notices.
+
+k. List 7 Considerations for a New Digital Copyright Act?
+ans: - Should there be a new copyright act or abolish it?
+     - What materials should be covered?
+     - Criteria for qualifying for copyright.
+     - Duration of copyright.
+     - Rights of copyright holders and users.
+     - Remedies for copyright breaches.
+     - Possible exceptions to copyright.
 
 
 
@@ -118,10 +448,112 @@ Lecture 2: Models & Methodology
 
 
 
+--------------------------------------------------------------
 
 
 
 
+
+
+
+PDF 5
+Intellectual Property Law (2)
+
+
+
+5a. What are the Key Legislation?
+ans: - Copyright Designs and Patents Act 1988 (CDPA): Covers 
+       original literary, dramatic, musical works, and more. For 
+       web designers, original literary works include computer 
+       programs if they are "original."
+     - Copyright and Rights in Databases Regulations 1997(CRDR): 
+       Provides "Database Right" for substantial investment in 
+       databases. Infringement occurs if someone extracts or 
+       reuses significant parts of the database.
+
+b. What does originality under CDPA mean?
+ans: Originality under CDPA means the work must originate from 
+     the author, not be copied, and show skill and judgment.
+
+c. How long does the protection offered by copyright and 
+   database rights last for?
+ans: - Copyright: Lasts 70 years after the author's death (50 
+       years for sound recordings and broadcasts).
+     - Database Rights: Last 15 years from the year of 
+       completion or public availability to the public.
+
+     Computer generated works are protected for fifty years
+
+d. How does someone qualify for copyright protection?
+ans: If the author is a citizen or resident of the UK, then
+     copyright is automatic, but it is good practice to put
+     some sort of notice on the work, for example:
+     - Copyright 2007 A.N. Other. All rights reserved.
+     
+     If you are not a UK-resident, take this opportunity to investigate the law of copyright in your own country
+
+e. What is Authorship and Ownership?
+ans: Authorship and ownership are distinct concepts in copyright 
+     law
+     1. Authorship - Moral Rights:
+     The author, or creator, of a copyright work has moral rights over the work. These are:
+     - Paternity Rights: Authors have the right to be identified 
+       as the author of the work (but not for computer programs)
+     - Integrity Rights: right to protect their work from 
+       derogation.
+
+     2. Ownership - Economic Rights
+     The owner of the copyright has economic rights over the work
+     
+     Owners can sell, license, or transfer copyright. In employment, the employer usually owns the copyright unless agreed otherwise.
+
+f. What are Rights and Infringements?
+ans: - Rights: Owners can copy, distribute, perform, broadcast,  
+       and adapt the work.
+     - Infringements: Unauthorized acts like copying or 
+       distributing the work without permission. Primary 
+       infringement is a civil matter, while secondary 
+       infringement can be criminal.
+
+g. Computer Software and Infringements
+ans: - Copying from the original disc to a new disc. This is an 
+       infringement of copyright
+     - Copying a computer program listing. This is an 
+       infringement because the program is a literary work and 
+       therefore copyrighted
+     - "Look and Feel" cases involve both literal and 
+       non-literal copying.
+
+h. List the Updates made to CDPA?
+ans: - Creative Commons (CC): Licenses allow artists to specify 
+       how their work can be used, promoting creativity.
+     - Copyright (Computer Programmes) Regulations 1992 (CCPR): 
+       Allows making one backup copy of a program.
+     - EU Copyright Directive 2001: Protects technological 
+       measures and electronic rights management.
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------
+
+
+
+
+
+
+
+PDF 5
+Intellectual Property Law (2)
+
+
+
+6a. 
 
 
 
