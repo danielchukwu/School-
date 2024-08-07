@@ -1,0 +1,334 @@
+BINGHAM UNIVERSITY       
+DEPARTMENT OF COMPUTER SCIENCE 
+Faculty of Science and Technology 
+SECOND SEMESTER EXAMINATION 2022/2023 SESSION 
+COURSE CODE: CMP 416, COURSE TITTLE: Web Development Issues 
+(Section A: Legal Aspect, Section B: Computer System Aspect) 
+TIME ALLOWED: 2 Hours, 
+INSTRUCTIONS: Attempt Only Two Questions under Section A and 
+              Two Questions under Section B. 
+       
+SECTION A: 
+1. Rehab Tanko, reincarnated as a neoclassical existentialist 
+   poet, gave a poetry recital at the ring your heart Concert 
+   Hall of the Bingham University arena for intellectual display 
+   (better known as "BUAID") On this occasion, she extemporized 
+   her poetry, a fancy way of saying she made it up on the spot. 
+   Mario ("The Memory") Martinez, a student with an exceptional 
+   memory, returned home afterwards and wrote down from memory 
+   one of Rehab Tanko's extemporized poems. He published it 
+   under the name "Conversations." Does Tabitha have a claim for 
+   copyright infringement against Mario? If yes, what will be 
+   your justification for the protection of intellectual 
+   property right. 
+
+2. "We are sleepwalking into a surveillance society" this was a 
+   statement attributed to Richard Thomas, UK Information 
+   Commissioner (Dec 2018) how true is this statement in the 
+   light of the massive threat to national security and the need 
+   to maintain an effective balance between the right to Privacy 
+   of person and property rights and the overall security of 
+   lives. 
+
+3. JoJo and Nikos are both employees of a large IT company, 
+   Orange Computers. JoJo is angry with Nikos regarding an 
+   argument they had earlier in the day and goes to Nikos’ 
+   office to confront him. Upon arriving at Nikos’ office JoJo 
+   realises that Nikos has left his computer logged in. JoJo 
+   sits down at Nikos’ desk and opens and looks through several 
+   of the files saved on Nikos’ computer. JoJo feels bad about 
+   this, as Nikos has always told him “You must never look 
+   through my computer, I will never give you permission to do 
+   this”. Later, when JoJo gets home, he has calmed down and has 
+   forgiven Nikos for their argument. Instead, JoJo believes 
+   that his boss at Orange Computers is to blame for the 
+   argument. He decides, therefore, to send a large volume of 
+   emails to his boss’s email address, which causes the server 
+   hosting this email address to crash. All email addresses 
+   hosted on the server become inoperative for a week as a 
+   result. Following this, JoJo sends Nikos an email apologising 
+   for their argument, but accidentally sends Nikos a virus 
+   which deletes all the contents of Nikos’ computer. In 
+   relation to the above events, consider whether JoJo has 
+   committed any criminal offences under the Computer Misuse Act 
+
+
+SECTION B: 
+
+4. Department of computer science under Faculty of Science and 
+   Technology, Bingham University wanted you as a Computer 
+   Analyst and Web Designer to create a website for the 
+   Department, Mention Seven (7) Web Development Issues and 
+   briefly discuss possible solutions to the mentioned issues 
+   which would enable you create a good website. 
+
+5. Department of Chemical sciences under Faculty of Science and 
+   Technology, Bingham University wanted you as a Computer 
+   Analyst and Web Designer to create a website for the 
+   Department, Mention Five (5) Web Development Tools required 
+   for the design and briefly discuss each of the tools 
+   mentioned above which would enable you create a good website. 
+   Give one example each for the Five (5) web development tools. 
+
+6. Department of Biological sciences under Faculty of Science 
+   and Technology, Bingham University wanted you as a Computer 
+   Analyst and Web Designer to create a website for the 
+   Department, Mention Four basic area of website area and 
+   briefly discuss each of the areas mentioned above. List Five 
+   (5) reasons why we do structure a website.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+ANSWERS 
+
+
+
+
+
+
+
+
+
+
+1. Rehab Tanko, reincarnated as a neoclassical existentialist 
+   poet, gave a poetry recital at the ring your heart Concert 
+   Hall of the Bingham University arena for intellectual display 
+   (better known as "BUAID") On this occasion, she extemporized 
+   her poetry, a fancy way of saying she made it up on the spot. 
+   Mario ("The Memory") Martinez, a student with an exceptional 
+   memory, returned home afterwards and wrote down from memory 
+   one of Rehab Tanko's extemporized poems. He published it 
+   under the name "Conversations." Does Tabitha have a claim for 
+   copyright infringement against Mario? If yes, what will be 
+   your justification for the protection of intellectual 
+   property right. 
+Ans: Yes, Rehab Tanko has a valid claim for copyright 
+     infringement against Mario Martinez. Justification for this 
+     claim includes:
+
+     - Originality and Fixation: Even though the poem was 
+       extemporized, if Rehab Tanko’s work was original and 
+       fixed in some tangible medium (even orally), it is 
+       protected by copyright. Mario's act of writing down and 
+       publishing the poem constitutes copying, thus infringing 
+       on Rehab's rights.
+
+     - Intellectual Property Rights: These rights are designed 
+       to protect the creator’s original works. Publishing the 
+       poem without Rehab’s permission violates her exclusive 
+       rights to reproduce, distribute, and display the work.
+
+
+2. "We are sleepwalking into a surveillance society" this was a 
+   statement attributed to Richard Thomas, UK Information 
+   Commissioner (Dec 2018) how true is this statement in the 
+   light of the massive threat to national security and the need 
+   to maintain an effective balance between the right to Privacy 
+   of person and property rights and the overall security of 
+   lives. 
+Ans: This statement underscores the tension between the need for 
+     security and the protection of individual privacy.
+     
+     - True in Many Contexts: In many countries, there has been 
+       a significant increase in surveillance for security 
+       purposes, such as CCTV, internet monitoring, and data 
+       collection.
+
+     - Privacy Concerns: This surveillance often infringes on 
+       individuals' privacy rights, creating a society where 
+       personal data is constantly monitored.
+
+     - Balance: Effective laws and regulations must balance 
+       security needs with privacy rights, ensuring that 
+       surveillance measures are necessary, proportionate, and 
+       transparent.
+
+
+3. JoJo and Nikos are both employees of a large IT company, 
+   Orange Computers. JoJo is angry with Nikos regarding an 
+   argument they had earlier in the day and goes to Nikos’ 
+   office to confront him. Upon arriving at Nikos’ office JoJo 
+   realises that Nikos has left his computer logged in. JoJo 
+   sits down at Nikos’ desk and opens and looks through several 
+   of the files saved on Nikos’ computer. JoJo feels bad about 
+   this, as Nikos has always told him “You must never look 
+   through my computer, I will never give you permission to do 
+   this”. Later, when JoJo gets home, he has calmed down and has 
+   forgiven Nikos for their argument. Instead, JoJo believes 
+   that his boss at Orange Computers is to blame for the 
+   argument. He decides, therefore, to send a large volume of 
+   emails to his boss’s email address, which causes the server 
+   hosting this email address to crash. All email addresses 
+   hosted on the server become inoperative for a week as a 
+   result. Following this, JoJo sends Nikos an email apologising 
+   for their argument, but accidentally sends Nikos a virus 
+   which deletes all the contents of Nikos’ computer. In 
+   relation to the above events, consider whether JoJo has 
+   committed any criminal offences under the Computer Misuse Act 
+Ans: JoJo’s actions potentially violate several provisions of 
+     the Computer Misuse Act:
+     
+     - Unauthorized Access: JoJo accessed Nikos' computer 
+       without permission, which constitutes unauthorized access.
+     
+     - Email Bombing: Sending a large volume of emails to crash 
+       the server is a form of Denial-of-Service (DoS) attack, 
+       causing disruption and damage.
+     
+     - Virus Transmission: Sending a virus that deletes all 
+       contents of Nikos' computer constitutes unauthorized 
+       modification of data.
+
+
+
+
+SECTION B:
+
+
+4. Department of computer science under Faculty of Science and 
+   Technology, Bingham University wanted you as a Computer 
+   Analyst and Web Designer to create a website for the 
+   Department, Mention Seven (7) Web Development Issues and 
+   briefly discuss possible solutions to the mentioned issues 
+   which would enable you create a good website. 
+Ans: 1. User Experience (UX):
+        - Issue: Poor navigation and design.
+        - Solution: Conduct user testing, ensure intuitive 
+                    design, and improve accessibility.
+
+     2. Security:
+        - Issue: Vulnerability to cyber attacks.
+        - Solution: Implement SSL, regular security audits, and 
+                    strong authentication methods.
+
+     3. Performance:
+        - Issue: Slow load times.
+        - Solution: Optimize images, leverage caching, and use 
+                    content delivery networks (CDNs).
+
+     4. Compatibility:
+        - Issue: Inconsistent display across different browsers 
+                 and devices.
+        - Solution: Use responsive design techniques and test on 
+                    multiple platforms.
+        
+     5. Content Management:
+        - Issue: Difficulties in updating content.
+        - Solution: Implement a robust CMS like WordPress or 
+                    Joomla.
+                    
+     6. SEO:
+        - Issue: Poor search engine ranking.
+        - Solution: Optimize content with relevant keywords, use 
+                    meta tags, and improve site structure.
+
+     7. Compliance:
+        - Issue: Not adhering to legal and ethical standards.
+        - Solution: Ensure compliance with data protection laws 
+                    and web accessibility guidelines.
+
+
+5. Department of Chemical sciences under Faculty of Science and 
+   Technology, Bingham University wanted you as a Computer 
+   Analyst and Web Designer to create a website for the 
+   Department, Mention Five (5) Web Development Tools required 
+   for the design and briefly discuss each of the tools 
+   mentioned above which would enable you create a good website. 
+   Give one example each for the Five (5) web development tools. 
+Ans: 1. HTML/CSS:
+        - Use: Structuring and styling web pages.
+        - Example: Bootstrap - a CSS framework for responsive 
+                   design.
+
+     2. JavaScript Libraries/Frameworks:
+        - Use: Adding interactivity.
+        - Example: React.js - a JavaScript library for building 
+                   user interfaces.
+
+     3. Content Management System (CMS):
+        - Use: Managing digital content.
+        - Example: WordPress - a widely-used CMS.
+
+     4. Version Control Systems:
+        - Use: Managing code changes.
+        - Example: Git - a distributed version control system.
+
+     5. Web Hosting Services:
+        - Use: Hosting the website online.
+        - Example: Bluehost - a web hosting provider.
+        
+6. Department of Biological sciences under Faculty of Science 
+   and Technology, Bingham University wanted you as a Computer 
+   Analyst and Web Designer to create a website for the 
+   Department, Mention Four basic area of website area and 
+   briefly discuss each of the areas mentioned above. List Five 
+   (5) reasons why we do structure a website.
+Ans: 1. Homepage:
+        - Description: The main landing page that provides an 
+                       overview and navigation to other sections.
+
+     2. About Us:
+        - Description: Information about the department, its 
+                       history, mission, and vision.
+                       
+     3. Academics:
+        - Description: Details on courses, programs, and faculty 
+                       members.
+
+     4. Contact Us:
+        - Description: Information on how to contact the 
+                       department, including address, phone 
+                       numbers, and email.
+     
+     
+     Reasons for Structuring a Website:
+     - Improved Navigation: Helps users find information easily.
+     - Professional Appearance: Enhances credibility and user 
+       trust.
+     - Better User Experience: Provides a seamless and engaging 
+       experience.
+     - SEO Benefits: Improved structure aids in better search 
+       engine indexing.
+     - Content Organization: Ensures content is logically 
+       categorized and easy to manage.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
