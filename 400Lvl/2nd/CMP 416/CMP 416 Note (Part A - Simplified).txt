@@ -1,0 +1,59 @@
+CMP 416: PART A (Dr Barr Julius)
+
+SIMPLIFIED NOTE
+Coverage: PDF 1 to 6
+
+
+PDF 1
+
+
+Introduction
+"Laws" are rules that help society run smoothly. English law, like all laws, has evolved over a long time and continues to change, especially with new technology. As web developers, knowing the laws that affect your work is crucial. This unit will give you an understanding of computer law principles and where to find current information, though you should consult an expert for specific advice.
+
+Development of English Law
+English law has developed over centuries. Before the Norman Conquest in 1066, local customs governed laws. Post-Conquest, centralized courts and judges established a unified legal system, known as "common law," which relies on precedents or past decisions.
+
+Common Law and Precedent
+Common law is consistent because judges follow precedents. This system allows the law to adapt to societal changes. For example, in 1992, the House of Lords ruled that a man could be guilty of raping his wife, overturning 250 years of precedent.
+
+Statute Law
+As society changed, especially during the industrial revolution, new laws called statutes were enacted. Statutes are laws formally created by Parliament and can override common law.
+
+Law Reporting
+Case law, where past decisions influence future cases, is recorded by the Incorporated Council of Law Reporting for England and Wales, producing The Law Reports and The Weekly Law Reports.
+
+Criminal and Civil Law
+English law is divided into criminal and civil law.
+
+Criminal Law
+Criminal law deals with actions harmful to society, aiming to punish offenders. Examples include murder and theft. Criminal cases are prosecuted by the Crown and must be proven "beyond reasonable doubt."
+
+Civil Law
+Civil law handles disputes between individuals or organizations, focusing on compensation rather than punishment. Cases are decided based on the "balance of probabilities." Civil law includes contract law, torts, family law, and property law.
+
+International Aspects
+English common law influences many countries, including the USA, Australia, and New Zealand. Other countries, like Germany and Scotland, follow systems influenced by Roman law. The European Union (EU) also impacts UK law, where EU regulations automatically become part of UK law.
+
+English Court System
+The English court system includes several levels: House of Lords, Court of Appeal, High Court, and lower courts. Higher court decisions bind lower courts. Appeals can be made to higher courts, with the European Court of Justice influencing but not binding UK courts.
+
+Computer Law
+Computer law addresses crimes involving computers. Examples include hacking, using computers to commit other crimes, and creating viruses. Reflect on what constitutes "computer crime" and discuss with peers.
+
+Professionalism and Computer Ethics
+Consider what it means to be a computer professional and if computing should have ethical guidelines. Donald Gotterbarn argues that computer ethics should focus on professional conduct and decision-making in the development of computer artifacts.
+
+Recent History
+The 1980s saw rapid growth in computer use and the need for new laws. Old laws often couldn't address new computer-related crimes adequately.
+
+Relevant Legislation
+Several laws address computer-related issues:
+
+Computer Misuse Act 1990: Covers hacking, using computers to commit crimes, and unauthorized modifications.
+Data Protection Act 1998: Governs personal data handling.
+Intellectual Property Law: Includes copyright, patents, and trade secrets.
+Contract and Liability
+Contracts are legally binding agreements, and breaching them can lead to lawsuits. Legal liability means being responsible for damage or loss, found in various law branches like criminal law and torts.
+
+Knowledge Check
+Review what you have learned in this unit to ensure understanding.
