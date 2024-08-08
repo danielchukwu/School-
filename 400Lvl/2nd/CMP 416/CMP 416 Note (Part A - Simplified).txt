@@ -49,11 +49,415 @@ The 1980s saw rapid growth in computer use and the need for new laws. Old laws o
 Relevant Legislation
 Several laws address computer-related issues:
 
-Computer Misuse Act 1990: Covers hacking, using computers to commit crimes, and unauthorized modifications.
-Data Protection Act 1998: Governs personal data handling.
-Intellectual Property Law: Includes copyright, patents, and trade secrets.
+- Computer Misuse Act 1990: Covers hacking, using computers to commit crimes, and unauthorized modifications.
+- Data Protection Act 1998: Governs personal data handling.
+- Intellectual Property Law: Includes copyright, patents, and trade secrets.
+
 Contract and Liability
 Contracts are legally binding agreements, and breaching them can lead to lawsuits. Legal liability means being responsible for damage or loss, found in various law branches like criminal law and torts.
 
-Knowledge Check
-Review what you have learned in this unit to ensure understanding.
+
+
+
+
+
+
+
+
+--------------------------------------------------------------
+
+
+
+
+
+
+
+
+PDF 2
+
+
+Computer Misuse Act
+
+Introduction
+Before the Computer Misuse Act, the courts struggled to address crimes involving technology. This led to the creation of the Act. 
+
+Key Cases
+
+1. Cox v Riley (1986)
+   - Riley, a fired employee, erased programs on a saw's control card, making it useless.
+   - He was charged with criminal damage.
+   - Riley argued that a computer program is intangible and can't be damaged.
+   - The court upheld his conviction, stating that the saw was damaged as it required reprogramming.
+
+2. R v Gold & Schifreen (1988)
+   - Journalists hacked into British Telecom’s Prestel system to show security flaws.
+   - Charged under the Forgery and Counterfeiting Act for using a "false instrument" (password).
+   - Convictions were overturned because the passwords were not considered "recorded or stored."
+   - Highlighted the need for new legislation to address computer crimes.
+
+Birth of the Computer Misuse Act 1990
+- The Act was based on a Law Commission review and aimed to address unauthorized access and modification of data.
+
+Computer Hacking
+- Motivations: Thrill, challenge, proving skills, criminal acts, or stealing information.
+- Heroes or Villains?: Some view hackers as helpful for exposing security flaws, while others see them as a nuisance or worse.
+- Harmless Hacking?: Even "innocent" hacking can cause accidental damage or leave systems vulnerable.
+
+Computer Misuse Act 1990 Sections
+
+1. Section 1: Basic Hacking Offense
+   - Unauthorized access to computer programs or data is illegal.
+
+2. Section 2: Ulterior Intent Offense
+   - Using computer access to commit another crime is illegal.
+
+3. Section 3: Unauthorised Modification Offense
+   - Unauthorized changes to computer data or programs are illegal.
+
+Reference Cases
+
+1. Attorney-General's Reference Case No 1 of 1991
+   - Clarified that unauthorized access to a single computer is an offense.
+
+2. R v Paul Bedworth
+   - Teenager hacked into multiple computers. Although acquitted due to claimed addiction, it raised questions about the need to prove intent.
+
+Changes and Challenges
+- The Act is becoming outdated due to new crimes like denial of service attacks.
+- The Police and Justice Bill 2006 proposes updates:
+  - Section 35: Increases penalties for unauthorized access.
+  - Section 36: Includes denial of service attacks under unauthorized acts.
+  - Section 37: Criminalizes making or supplying tools for hacking.
+
+
+
+
+
+
+
+--------------------------------------------------------------
+
+
+
+
+
+
+
+
+PDF 3
+
+
+Privacy and Data Protection
+
+---
+
+Introduction
+- Explore issues of privacy and e-privacy (online privacy).
+- Discuss the impact of the Data Protection Act 1998 and European Human Rights Act.
+- Examine the Freedom of Information Act 2000 and the Regulation of Investigatory Powers Act 2000.
+- Consider why privacy matters and who should be concerned.
+
+The "Right" of Privacy
+- Privacy is seen as a basic human need and right.
+- Historically, English law did not recognize a right to privacy.
+- Information privacy involves control over personal data.
+
+Information Privacy Concerns
+1. Collection: Excessive data collection.
+2. Unauthorized Secondary Use: Data used for purposes other than intended.
+3. Errors: Inaccurate data leading to problems.
+4. Improper Access: Unauthorized access to personal data.
+
+Types of Personal Information
+- Bank details, purchasing history, medical records, credit card information, survey data, police records, etc.
+
+Consequences of Data Misuse
+- Over-collection can lead to misuse.
+- Unauthorized secondary use increases junk mail.
+- Errors can lead to denial of credit or loans.
+- Improper access can result in fraud or identity theft.
+
+Rights to Information Privacy in Law
+- Human Rights Act 1998: Protects private and family life.
+- Universal Declaration of Human Rights: Offers additional privacy protection.
+- Regulation of Investigatory Powers Act 2000: Can undermine privacy rights.
+
+Case Study: RFID Tags
+- RFID tags can track objects and people, raising privacy concerns.
+- Examples include use in military, retail, and even in human implants.
+- Debate on the ethical implications and potential misuse.
+
+Data Protection Acts
+- 1984 Act: Introduced due to EU requirements, focusing on data protection.
+- 1995 EU Directive: Established privacy principles and restricted data transfer to countries without adequate protection.
+- 1998 Act: Enhanced data protection measures, including data controller registration, data security, access rights, and transfer restrictions.
+
+Key Definitions
+- Data Controller: Determines how personal data is processed.
+- Data Subject: Individual the data is about.
+- Personal Data: Identifiable information about a living individual.
+
+Eight Principles of Data Protection
+1. Fair and lawful processing.
+2. Processed for limited purposes.
+3. Adequate, relevant, and not excessive.
+4. Accurate and up-to-date.
+5. Not kept longer than necessary.
+6. Processed in line with your rights.
+7. Secure.
+8. Not transferred without adequate protection.
+
+Regulation of Investigatory Powers Act 2000
+- Interception: Allows monitoring of internet traffic.
+- Surveillance: Regulates and keeps surveillance methods secret.
+- Encryption: Demands decryption of data for security purposes.
+
+
+
+
+
+
+
+
+--------------------------------------------------------------
+
+
+
+
+
+
+
+
+PDF 4
+
+
+Web Development Issues - Legal Aspects
+
+Lesson: Intellectual Property Law (1)
+
+Introduction
+This lesson focuses on Intellectual Property Law, especially copyright. We’ll cover the main points to give an insight into how the law works in this area.
+
+What is Intellectual Property (IP)?
+- IP is work resulting from human creativity, like art, science, 
+  or literature.
+- Intellectual Property Rights (IPR) protect the creators or 
+  owners of such work for a limited time.
+
+The Nature of Information
+- Information is unique as it can be repeatedly sold or traded.
+- It doesn't require large storage spaces and is cheap to ship.
+
+Can Information be Stolen?
+- According to the Theft Act, 1968, theft involves permanently 
+  depriving someone of their property.
+- Information is intangible and cannot be stolen under this act.
+
+Intellectual Property Law Areas
+- Copyright Law: Protects creative works.
+- Patent Law: For new inventions.
+- Law of Confidence: Protects trade secrets and business 
+  know-how.
+- Trademarks: Protect brand names and logos.
+- Semiconductor Regulations: Protect chip designs.
+
+Why Do We Have IPR?
+- Encourages creation and innovation by granting exploitation 
+  rights.
+- Rewards creators for their efforts.
+
+Justification for Copyright
+1. Incentive for creation and innovation.
+2. Reward for creative effort.
+3. Intellectual labor should be protected as property.
+4. Prevents unjust enrichment.
+5. "Thou shalt not steal."
+
+The Argument Against Copyright
+1. Information isn't like other property.
+2. Often benefits owners more than authors.
+3. Can restrict creativity and innovation.
+4. Creativity existed before copyright laws.
+5. Usually only large organizations enforce it.
+6. Hard to enforce in the digital age.
+
+Copyleft and Free Software
+- The open source movement opposes traditional IP views, 
+  advocating for free use and modification of software.
+- GNU/Linux is an example, promoting freedom to run, replicate, 
+  modify, and distribute software.
+
+Hyperlinking and Framing
+- Issues arise when linking to other sites or using frames, 
+  potentially causing confusion about site ownership and 
+  bypassing legal notices.
+
+The Debate on Intellectual Property
+- The complexity of IPR and copyright has implications for the 
+  web and e-commerce.
+- Various perspectives exist, and it’s crucial to form your own 
+  opinion.
+
+Considerations for a New Digital Copyright Act
+1. Should there be a new copyright act or abolish it?
+2. What materials should be covered?
+3. Criteria for qualifying for copyright.
+4. Duration of copyright.
+5. Rights of copyright holders and users.
+6. Remedies for copyright breaches.
+7. Possible exceptions to copyright.
+
+Discuss these issues with fellow learners or your tutor for deeper understanding.
+
+
+
+
+
+
+
+
+--------------------------------------------------------------
+
+
+
+
+
+
+
+
+PDF 5
+Intellectual Property Law (2)
+
+
+Introduction
+This lesson focuses on Intellectual Property (IP) Law, mainly on copyright. We'll look at detailed legislation.
+
+Key Legislation
+- Copyright Designs and Patents Act 1988 (CDPA): Covers original literary, dramatic, musical works, and more. For web designers, original literary works include computer programs if they are "original."
+- Copyright and Rights in Databases Regulations 1997 (CRDR): Provides "Database Right" for substantial investment in databases. Infringement occurs if someone extracts or reuses significant parts of the database.
+
+Originality
+Originality under CDPA means the work must originate from the author, not be copied, and show skill and judgment.
+
+Duration of Rights
+- Copyright: Lasts 70 years after the author's death (50 years for sound recordings and broadcasts).
+- Database Rights: Last 15 years from the year of completion or public availability.
+
+Authorship and Ownership
+- Moral Rights: Authors have rights to be identified and to protect their work from derogation.
+- Economic Rights: Owners can sell, license, or transfer copyright. In employment, the employer usually owns the copyright unless agreed otherwise.
+
+Rights and Infringements
+- Rights: Owners can copy, distribute, perform, broadcast, and 
+  adapt the work.
+- Infringements: Unauthorized acts like copying or distributing 
+  the work without permission. Primary infringement is a civil 
+  matter, while secondary infringement can be criminal.
+Computer Software and Infringements
+- Copying software or program listings is a copyright 
+  infringement.
+- "Look and Feel" cases involve both literal and non-literal 
+  copying.
+
+Updates to CDPA
+- Creative Commons (CC): Licenses allow artists to specify how their work can be used, promoting creativity.
+- Copyright (Computer Programmes) Regulations 1992 (CCPR): Allows making one backup copy of a program.
+- EU Copyright Directive 2001: Protects technological measures and electronic rights management.
+
+For any legal issues on IP, seek legal advice.
+
+
+
+
+
+
+
+
+--------------------------------------------------------------
+
+
+
+
+
+
+
+
+PDF 6
+
+
+Liability and Contracts
+
+Introduction
+In this lesson, we explore Liability and Contracts, essential components of business law. This is a complex area, so always seek legal advice.
+
+Liability
+Liability can be found in various branches of law:
+- Criminal Law
+- Law of Tort (civil wrongs like defamation and negligence)
+- Law of Contract
+
+The core idea of liability is that individuals are responsible for their own actions and omissions. There is no liability without fault, meaning the act or omission must have caused the loss or damage.
+
+Vicarious Liability: This is when someone is held responsible for the actions of others, such as an employer for their employees' actions.
+
+The Law of Tort
+A tort is a civil wrong that causes loss or damage. The purpose of tort law is to compensate the plaintiff with money, called "damages."
+
+Types of torts include:
+
+- Trespass: Intentional invasion of personal or property rights
+- Defamation: Damage to someone's reputation through libel or slander
+- Negligence: Causing personal injury through careless acts or omissions
+
+Quotes to consider:
+- R L Abel (1982) suggests capitalism may lead to sacrificing safety for profit.
+- Harris (1997) suggests tort law assumes everything can be compensated financially.
+
+Defamation and IT
+Defamation involves injuring someone's reputation through false statements. It can be:
+
+- Slander: Verbal or unrecorded
+- Libel: Written or recorded
+
+Emails and text messages are increasingly considered permanent publications, making them subject to defamation laws.
+
+Negligence
+Defined by Blyth v Birmingham Waterworks Co (1856) as failing to act as a reasonable person would. Important in professional and consulting work, negligence requires:
+
+- Duty of Care: Foreseeable risk of harm
+- Breach of Duty: Failure to meet that duty
+- Damage: Resulting harm or injury
+
+Negligent Misstatement
+This occurs when a careless statement causes someone to suffer a loss. For example, a false character reference that leads to damage.
+
+Duty of Care
+For a negligence claim, three components must exist:
+
+1. Foreseeability of Damage
+2. Proximity between defendant and plaintiff
+3. Fairness in imposing duty
+
+The Law of Contracts
+Contracts are legally binding agreements between parties with obligations and rights. Essential elements include:
+
+- Offer
+- Acceptance
+- Intention to create legal relations
+- Consideration: Value exchanged
+
+Exemption Clauses
+These clauses attempt to limit liability, but legislation like the Unfair Contract Terms Act (1977) restricts their use, especially for death or personal injury.
+
+Software Contracts and Liability
+Liability in software contracts is influenced by negligent misstatement, consumer protection, and health and safety laws. Key legislation includes:
+
+- Sale and Supply of Goods Act (1994)
+- Supply of Goods and Services Act (1982)
+- Consumer Protection Act (1987)
+- Unfair Contract Terms Act (1977)
+
+Repetitive Strain Injury (RSI)
+Extended keyboard use can cause RSI, recognized as an industrial injury. Employers must comply with health and safety guidelines to prevent negligence claims.
+
+Always seek legal advice when in doubt!
