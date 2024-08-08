@@ -548,12 +548,134 @@ ans: - Creative Commons (CC): Licenses allow artists to specify
 
 
 
-PDF 5
-Intellectual Property Law (2)
+PDF 6
+Liability and Contracts
 
 
 
-6a. 
+6a. Liability is found in different branches of law. List all 3?
+ans: - Criminal law
+     - Law of tort (civil wrongs) e.g. defamation and negligence
+     - Law of contract
+
+b. The core idea of liability is that ________________
+ans: individuals are responsible for their own actions and 
+     omissions
+
+c. There can be no liability without _______, meaning the act or 
+   omission must have caused the loss or damage.
+   (excluding loss or damage caused by a natural event)
+ans: fault
+
+d. What is Vicarious Liability?
+ans: This is when someone is held responsible for the actions of 
+     others, such as an employer for their employees' actions
+
+e. What is the Law of Tort?
+ans: A tort is a civil wrong that causes loss or damage
+
+e1. What is the purpose of Tort Law?
+ans: It is to compensate the plaintiff with money, called 
+     "damages."
+
+e2. List the 3 types of Torts?
+ans: - Trespass:   Intentional invasion of personal or property 
+                   rights
+     - Defamation: Damage to someone's reputation through libel 
+                   or slander
+     - Negligence: Causing personal injury through careless acts 
+                   or omissions
+     - Loss resulting from false statements
+     - Loss or damage caused by dangerous premises
+
+f. R L Abel (1982) suggests a particular relationship between 
+   capitalism and tort law?
+ans: He suggests capitalism may lead to sacrificing safety (of 
+     workers, consumers, those affected by environmental danger) for profit
+
+g. Harris (1997) suggests?
+ans: tort law assumes everything can be compensated financially.
+
+h. What is Defamation?
+ans: it involves injuring someone's reputation (or character) 
+     through false statements. Such statements may be
+     - Libellous: Written or recorded
+     - Slander: Verbal or unrecorded
+
+h1. The penalties for ____ are usually more severe than for ____?
+ans: Libel, slander
+
+h2. The penalties for ____ are usually less severe than for ____?
+ans: Slander, Libel
+
+i. Emails and text messages are increasingly considered 
+   permanent publications, making them subject to ________ laws
+ans: defamation
+
+j. What does Blyth v Birmingham Waterworks Co (1856) define 
+   Negligence to be?
+ans: it is failing to do what a reasonable person would do, or 
+     doing something a reasonable and prudent man would not do
+
+k. A number of criteria exist which must be met in order to sue 
+   for damages due to negligence. List all 3?
+ans: - Duty of Care: Foreseeable risk of harm
+     - Breach of Duty: Failure to meet that duty
+     - Damage: Resulting harm or injury
+
+l. What is Negligent Misstatement?
+ans: This occurs when a careless statement causes someone to 
+     suffer a loss. For example, a false character reference 
+     that leads to damage.
+
+m. For a negligence claim on Duty of Care, 3 components must 
+   exist?
+ans: - Foreseeability of Damage
+     - Relationship or Proximity between defendant and plaintiff
+     - Fairness in imposing duty
+
+n. What are Contract?
+ans: Contracts are legally binding agreements between parties 
+     with obligations and rights
+
+o. List the 4 essential elements that must be present to 
+   constitute a Contract?
+ans: - An Offer
+     - An Acceptance (hence creating an agreement)
+     - Intention to create legal relations
+     - Consideration: Value exchanged
+
+p. What are Exemption Clauses?
+ans: These clauses attempt to limit liability, but legislation 
+     like the Unfair Contract Terms Act (1977) restricts their 
+     use, especially for death or personal injury.
+
+q. Give an example?
+ans: For example "The management accepts no responsibility for 
+     loss or damage to guests' property howsoever caused".
+
+r. Liability in software contracts is affected by. List 3?
+ans: - By Negligent misstatement
+     - By Consumer protection legislation
+     - By Health and Safety legislation
+
+r1. List Key legislation related to Liability in Software 
+    Contracts?
+ans: - Sale and Supply of Goods Act (1994)
+     - Supply of Goods and Services Act (1982)
+     - Consumer Protection Act (1987)
+     - Unfair Contract Terms Act (1977)
+
+s. Many workers spend extended periods of time working at a 
+   keyboard. This may cause problems with the wrists and hands, known as _________?
+ans: Repetitive Strain Injury (RSI)
+
+
+
+
+
+
+
 
 
 
