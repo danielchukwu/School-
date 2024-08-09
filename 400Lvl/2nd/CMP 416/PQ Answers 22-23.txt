@@ -14,7 +14,7 @@ SECTION A:
    Hall of the Bingham University arena for intellectual display 
    (better known as "BUAID") On this occasion, she extemporized 
    her poetry, a fancy way of saying she made it up on the spot. 
-   Mario ("The Memory") Martinez, a student with an exceptional 
+   Mario ("The Memory"). Martinez, a student with an exceptional 
    memory, returned home afterwards and wrote down from memory 
    one of Rehab Tanko's extemporized poems. He published it 
    under the name "Conversations." Does Tabitha have a claim for 
@@ -280,11 +280,11 @@ Ans: 1. HTML/CSS:
      5. Web Hosting Services:
         - Use: Hosting the website online.
         - Example: Bluehost - a web hosting provider.
-        
+
 6. Department of Biological sciences under Faculty of Science 
    and Technology, Bingham University wanted you as a Computer 
    Analyst and Web Designer to create a website for the 
-   Department, Mention Four basic area of website area and 
+   Department, Mention Four basic area of website and 
    briefly discuss each of the areas mentioned above. List Five 
    (5) reasons why we do structure a website.
 Ans: 1. Homepage:

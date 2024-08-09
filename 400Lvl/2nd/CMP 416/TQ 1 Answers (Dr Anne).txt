@@ -45,18 +45,6 @@ b. Consider the research conducted by kappel ct al(2004). The
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ---------------------------------------------------------------
 
 
@@ -79,12 +67,12 @@ ANSWERS
 QUESTION 1
 
 a. Various Process Models have evolved over time, with the 
-   water fall model usually  considered as being the one 
-   which other models are based on.  The Models tend to fall 
-   into 1wo  categories based on 'Construction 'And 
-   'Evolution'. Paradigm  Explain the Concept of'Construction 
+   water fall model usually considered as being the one 
+   which other models are based on. The Models tend to fall 
+   into two  categories based on 'Construction 'And 
+   'Evolution' Paradigm. Explain the Concept of'Construction 
    'and 'Evolution' paradigm with respect to process models. 
-   Discuss one example  (Construction' and 'Evolution") and  
+   Discuss one example  (Construction' and 'Evolution")  
    of model in each category  highlight their Advantages and 
    Disadvantages.(10marks)
 ans: Construction Paradigm:
@@ -100,7 +88,7 @@ ans: Construction Paradigm:
      Disadvantages:
      - Inflexible to Changes: Once a phase is completed, it is 
        difficult to go back and make changes without starting 
-       from scratch.
+       from scratch
      - Late Testing: Testing only begins after development is 
        complete, which can lead to discovering defects late in 
        the process.
@@ -131,7 +119,7 @@ b. Software is often not tremendously robust - in fact, it is
    often full of bugs. If a more tangible product, a 
    refrigerator, say, behaved differently from what is 
    expected, you'd take it back to the shop and demand your 
-   money back! However, it is the nature of  software that it 
+   money back! However, it is the nature of software that it 
    is very difficult - some say impossible - to release it 
    100% bug-free  What is Software quality? Discuss the 
    issues regarding software quality.(5marks)  
@@ -158,7 +146,7 @@ ans: Software Quality:
 
 
 c. One of the issues with E-commerce Sites concerns WYSIWYG, 
-   many users complained  about not getting what was 
+   many users complained about not getting what was 
    advertised on the site or what they ordered for. Suggest 
    ways  to improve on what you order is what you get.
    (5marks)
@@ -184,7 +172,7 @@ Question 2
 2a. If a customer or user is dissatisfied with a system 
     (product), the developer can always claim to have 
     fulfilled their obligations, provided they have supplied 
-    what was originally  required. 'The user, however, may 
+    what was originally required. 'The user, however, may 
     feel that the original specification was inadequate. In  
     your opinion, whose fault is that? The users? Or the 
     developer's or Both? why do you think so?(2marks)
@@ -205,59 +193,73 @@ ans: In my opinion, both the user and the developer share the
        the user’s needs.
 
 
-b. Consider the research conducted by kappel ct al(2004). The 
-   researcher attempts to find  out whether or not web 
+b. Consider the research conducted by kappel et al(2004). The 
+   researcher attempts to find out whether or not web 
    development is same as other traditional systems 
-   development.  The Researcher identifies the four web 
+   development. The Researcher identifies the four web 
    application development characteristics. With the  aid of 
    the diagram, Explain the four characteristics of web 
-   development and their  challenges(8marks)  
-ans: - Content-Driven:
-       - Description: Web applications are often content-rich, 
-         requiring frequent updates and management of large 
-         volumes of information.
-       - Challenges: Managing and maintaining up-to-date 
-         content, ensuring consistency, and dealing with large 
-         amounts of data.
-
-     - User-Interface Driven:
-       - Description: The user interface is a critical aspect of 
-         web applications, influencing user experience and 
-         satisfaction.
-       - Challenges: Designing intuitive and responsive 
-         interfaces, ensuring cross-browser compatibility, and 
-         providing accessibility.
-
-     - Transaction-Intensive:
-       - Description: Many web applications involve complex 
-         transactions, such as e-commerce sites or online 
-         banking.
-       - Challenges: Ensuring the security and reliability of 
-         transactions, handling concurrent users, and 
-         maintaining data integrity.
-         
-     - Highly Interactive:
-       - Description: Web applications often require high levels 
-         of interactivity, with features such as real-time 
-         updates and user feedback.
-       - Challenges: Implementing interactive features without 
-         compromising performance, ensuring scalability, and 
-         managing user interactions.
-
-     Diagram:
-     --------------------------------
-     |         Web Development        |
-     |--------------------------------|
-     | 1. Content-Driven              |
-     | 2. User-Interface Driven       |
-     | 3. Transaction-Intensive       |
-     | 4. Highly Interactive          |
-     --------------------------------
-
+   development and their challenges(8marks)  
+    - software product, 
+    - its development,
+    - its use and 
+    - its evolution.
+ans: 1. Software Product:
+        - Description: Web applications are dynamic and content-driven 
+          software products that are delivered over the internet. Unlike 
+          traditional software, web applications are continuously accessible 
+          and often involve complex interactions between the client (browser) 
+          and the server.
+        - Challenges:
+          - Scalability: Ensuring the software can handle increasing numbers 
+            of users and data volume.
+          - Security: Protecting sensitive data from threats like hacking and 
+            unauthorized access.
+          - Performance: Maintaining fast load times and responsiveness under 
+            varying traffic conditions.
      
-     Each characteristic poses unique challenges that need to be 
-     addressed to ensure the success of a web application. 
-     Effective strategies, such as using content management 
-     systems, adopting responsive design principles, 
-     implementing robust security measures, and utilizing modern 
-     web technologies, can help mitigate these challenges.
+     2. Development:
+        - Description: Web development involves shorter and more iterative 
+          development cycles compared to traditional software development. It 
+          requires rapid prototyping, continuous integration, and deployment 
+          to meet the evolving demands of users and businesses.
+        - Challenges:
+          - Continuous Delivery: Releasing updates frequently without 
+            disrupting user experience.
+          - Cross-Platform Compatibility: Ensuring the application works 
+            consistently across different browsers and devices.
+          - Rapid Changes: Adapting to new technologies, tools, and frameworks 
+            that emerge frequently in the web development landscape.
+     
+     3. Use:
+        - Description: The use of web applications is characterized by high 
+          levels of interactivity and user engagement. Users expect real-time 
+          feedback, personalized experiences, and seamless interactions with 
+          the software.
+        - Challenges:
+          - User Experience (UX): Designing interfaces that are intuitive, 
+                                  responsive, and accessible to all users.
+          - Interactivity: Implementing features that allow real-time updates 
+                           and interactions without sacrificing performance.
+          - Accessibility: Ensuring the application is usable by people with 
+                           various disabilities, adhering to web accessibility 
+                           standards.
+     
+     4. Evolution:
+        - Description: Web applications are continuously evolving due to the 
+          fast-paced nature of the web environment. They require frequent 
+          updates and enhancements to stay relevant, address user feedback, 
+          and adapt to new technologies.
+        - Challenges:
+          - Maintainability: Managing the codebase over time, ensuring that 
+                             updates don’t introduce new bugs or degrade 
+                             performance.
+          - Backward Compatibility: Ensuring that new versions of the 
+                                    application work well with older systems 
+                                    and browsers.
+          - Legacy Systems Integration: Integrating new features with existing 
+                                        systems and data without causing 
+                                        disruptions
+
+To Draw the diagram - Checkout 👇
+👉👉Part B (Dr Anne Slide 1 page 5)👈👈

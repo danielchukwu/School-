@@ -22,8 +22,9 @@ PDF 1
 Introduction to the Law
      
 
-1a. What are Laws?
-ans: "Laws" are rules that help society run smoothly
+1a. What is Law?
+ans: "Laws" are rules that help society run smoothly. It is 
+     backed by sanctions
 
 b. What is common law?
 ans: it is the body of law created by judges and centralized 
@@ -62,15 +63,22 @@ ans: Criminal and Civil law
 
 i1. Explain Criminal law?
 ans: Criminal law deals with actions harmful to society, aiming 
-     to punish offenders. 
-     Examples include murder and theft. Criminal cases are prosecuted by the Crown and must be proven "beyond reasonable doubt."
+     to punish offenders. e.g murder and theft
+
+i1. Criminal cases are prosecuted by the _____ and must be proven "beyond 
+    __________" 
+ans: Crown, reasonable doubt
 
 i2. Explain Civil Law?
 ans: Civil law handles disputes between individuals or 
      organizations, focusing on compensation rather than 
-     punishment. Cases are decided based on the "balance of 
-     probabilities." Civil law includes contract law, torts, 
-     family law, and property law.
+     punishment. 
+     
+i3. List 4 types of laws under Civil law
+ans:  - Contract Law
+      - Tort Law
+      - Family Law
+      - Property Law
 
 i3. List 3 Countries that are influenced by English Law?
 ans: - USA
@@ -84,12 +92,11 @@ ans: - Germany
 j. What is Computer Law?
 ans: These are laws that addresses crimes involving computers
 
-j1. Give some examples of Computer Laws?
+j1. Give some examples of offenses handled by Computer Laws?
 ans: - Hacking
      - Creating viruses
      - Phishing
      - Packet sniffing
-     - Social Engineering
      etc.
 
 k. What does Donal Gotterbarn argue?
@@ -145,7 +152,7 @@ The Computer Misuse Act 1990 (CMA)
     involving technology
 ans: The Computer Misuse Act 1990
 
-b. What are the 2 key cases?
+b. What are the 2 key cases that inspired The CMA (1990)?
 ans: - Cox v Riley (1986)
      - R v Gold & Schifreen (1988)
 
@@ -186,7 +193,7 @@ e. Some view hackers as helpful for exposing security flaws,
 ans: nuisance or worse
 
 f. Is there anything such as Harmless Hacking?
-ans: Even "innocent" hacking can cause accidental damage or 
+ans: No. Even "innocent" hacking can cause accidental damage or 
      leave systems vulnerable.
 
 g. List the 3 Sections to the Computer Misuse Act 1990 (CMA)?
@@ -211,8 +218,8 @@ ans: 1. Attorney-General's Reference Case No 1 of 1991
           questions about the need to prove intent.
 
 i. What are the Changes and Challenges to the CMA (1990)?
-ans: - The Act is becoming outdated due to new crimes like 
-       DOS (denial of service) attacks.
+ans: CMA is becoming outdated due to new crimes like DOS 
+     (denial of service) attacks.
      - The Police and Justice Bill 2006 proposes updates:
        - Section 35: Increases penalties for unauthorized access.
        - Section 36: Includes DOS attacks under unauthorized acts
@@ -385,9 +392,8 @@ ans: - According to the Theft Act (1968), theft involves
      - Information is intangible and cannot be stolen under this 
        act.
 
-e. What is the Intellectual Property Law?
-ans: It is a law that covers a number of different areas:
-     - Copyright Law: Protects creative works.
+e. List the types of Intellectual Properties?
+ans: - Copyright Law: Protects creative works.
      - Patent Law: For new inventions.
      - Law of Confidence: Protects trade secrets and business 
        know-how.
@@ -403,8 +409,7 @@ g. List 5 Justification for Copyright?
 ans: - Incentive for creation and innovation.
      - Reward for creative effort.
      - Intellectual labor should be protected as property.
-     - Prevents unjust enrichment.
-     - "Thou shalt not steal."
+     - Prevents unjust enrichment "Thou shalt not steal."
 
 h. List 6 Arguments Against Copyright?
 ans: - Information isn't like other property.
@@ -511,9 +516,11 @@ f. What are Rights and Infringements?
 ans: - Rights: Owners can copy, distribute, perform, broadcast,  
        and adapt the work.
      - Infringements: Unauthorized acts like copying or 
-       distributing the work without permission. Primary 
-       infringement is a civil matter, while secondary 
-       infringement can be criminal.
+       distributing the work without permission.
+
+f1. What are the 2 types of infringements?
+ans: - Primary infringement:   it's a civil matter
+     - Secondary infringement: it can be a criminal matter.
 
 g. Computer Software and Infringements
 ans: - Copying from the original disc to a new disc. This is an 
@@ -527,7 +534,7 @@ ans: - Copying from the original disc to a new disc. This is an
 h. List the Updates made to CDPA?
 ans: - Creative Commons (CC): Licenses allow artists to specify 
        how their work can be used, promoting creativity.
-     - Copyright (Computer Programmes) Regulations 1992 (CCPR): 
+     - Copyright (Computer Programs) Regulations 1992 (CCPR): 
        Allows making one backup copy of a program.
      - EU Copyright Directive 2001: Protects technological 
        measures and electronic rights management.
@@ -578,7 +585,7 @@ e1. What is the purpose of Tort Law?
 ans: It is to compensate the plaintiff with money, called 
      "damages."
 
-e2. List the 3 types of Torts?
+e2. List the types of Torts?
 ans: - Trespass:   Intentional invasion of personal or property 
                    rights
      - Defamation: Damage to someone's reputation through libel 
@@ -599,7 +606,7 @@ ans: tort law assumes everything can be compensated financially.
 h. What is Defamation?
 ans: it involves injuring someone's reputation (or character) 
      through false statements. Such statements may be
-     - Libellous: Written or recorded
+     - Libel: Written or recorded
      - Slander: Verbal or unrecorded
 
 h1. The penalties for ____ are usually more severe than for ____?
