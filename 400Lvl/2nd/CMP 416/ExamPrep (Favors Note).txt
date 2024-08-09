@@ -1,0 +1,141 @@
+1b. ________ compels people to follow the law?
+ans: Sanctions
+
+c. Law is not what you know, it is instead what you ________?
+ans: can prove
+
+d. Lawyers pursue _______ and not ______?
+ans: evidence, truth
+
+e. Crime is  made up of 2 components. Name them?
+ans: - The act of the crime
+     - The mind of the crime
+
+f. What is Heat of Action?
+ans: Doing something without consulting your mind
+
+g. For an act to be a crime, what must happen?
+ans: The mind must intend to do that
+
+h. What is Standard of proof (SOP)?
+ans: the amount of evidence necessary to prove an assertion or claim in a trial
+
+i. What is a Strict  Liability offense?
+ans: A type of crime where your state of mind is not considered. e.g Drug 
+     trafficking, exam malpractice etc
+
+j. The opposite of Law is _________?
+ans: Anarchy
+
+k. The essence of criminal law is?
+ans: Punishment
+
+l. The essence of civil law is?
+ans: Compensation
+
+m. List 4 Sources of Law?
+ans: - Precedents: Law gotten from previous law orders
+     - Legislation: People who make laws
+     - International Law: This is a law from other countries
+     - Customary Law: This are laws from customs
+
+
+
+Contract & Liability
+
+a. What is a contract?
+ans: It is a legally binding agreement between 2 parties 
+     recognized by the law
+
+b. All Contracts are agreements but not all agreements are 
+   ________
+ans: Contracts
+
+c. For an agreement to be a contract, what must happen?
+ans: The Law must recognize it
+
+d. All Contracts must contain 5 elements, Name them?
+ans: - An offer
+     - An acceptance
+     - Intention to create legal relations
+     - Consideration
+
+e. A Product is categorized into 3 parts Name them?
+ans: - Contents:  This are the data of the web, they can be 
+                  structured or unstructured. They need to be 
+                  updated often
+     - Hypertext: The fundamental language of the web
+     - Presentation: The look & feel
+
+Assignment
+Look for the case of **** vs stevenson. He bought a VR & saw the decompose of a snail and sued the person
+
+f. List the types of Intellectual properties?
+ans: - Copyright
+     - Patent
+     - Trade secrets
+     - Trademarks
+
+g. Types of Computer Misuse?
+ans: - Malware
+     - Hacking: Unauthorized access to computer system by 
+       bypassing security measures
+     - Phishing: Fraudulent attempts to get sensitive 
+       information pretending to be a trustworthy entity
+     - DOS attack: Overload a system so it is not available to 
+       its intended user  
+     - Identity theft: Stealing personal information to 
+       impersonate (which can cause damages) 
+     - Piracy: Illegal copy of someones work  
+
+h. What are the consequences of Computer Misuse?
+ans: - System repairs
+     - Data breach
+     - Financial loses
+     - Reputation damages
+
+i. What are some prevention methods used to avoid Computer 
+   Misuse?
+ans: - Education
+     - Best practices
+     - Robust security policies
+     - Use of Security software
+     - Data Encryption
+     - Incidence response plan (Prepare for potential attacks) 
+
+
+Copyright
+Patents
+Trade secrets
+Trademark
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
