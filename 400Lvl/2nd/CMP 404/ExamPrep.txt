@@ -50,7 +50,7 @@ f. Structured object-oriented design processes involve developing a number
 ans: System models
 
 g. object-oriented design requires __________ for _________ and __________
-   its system models
+   of its system models
 ans: a lot of effort, the development, maintenance
 
 h. Object-oriented design may not be ________ for small systems?
@@ -70,13 +70,13 @@ ans: - Define the context and modes of use of the system,
 k. Why is understanding of the system context (relationships between the 
    software that is being designed and its external environment) essential?
 ans: Because it helps in 
-     - Deciding how to provide the required system functionality 
+     - Deciding, how to provide the required system functionality 
      - How to structure the system to communicate with its environment
-     - Establishing system boundaries (which helps in deciding what 
+     - Establishing system boundaries (More: which helps in deciding what 
        features are implemented in the system being designed)
 
 l. What is a System Context Model?
-ans: It is a structural model that demonstrates the other systems in the 
+ans: It is a structural model that demonstrates how the other systems in the 
      environment of the system being developed
 
 m. What is an Interaction Model?
@@ -279,13 +279,6 @@ ans: - Name
      - Solution description
      - Consequences
 
-d1. List the Pattern elements?
-ans: - Name: A meaningful pattern identifier
-     - Problem description
-     - Solution description: Not a concrete design but a template for a 
-       design solution that can be instantiated in different ways
-     - Consequences: The results and trade-offs of applying the pattern
-
 e. Explain the Observer Pattern?
 ans: - Name: Observer
      - Description: Separates the display of object state from the object 
@@ -405,20 +398,18 @@ ans: Development platform, Execution platform
 
 j2. A platform is more than just hardware. It includes 
 ans: The installed OS and other supporting software (such as a database 
-     management system or, for development platforms, an interactive 
-     development environment)
+     management system or, for development platforms an IDE)
 
 j3. Development platform and Execution platform usually has different _________?
 ans: Installed software and Architecture
 
 j4. List 4 Development platform tools?
-ans: 
-     - An integrated compiler and syntax-directed editing system that 
+ans: - An integrated compiler and syntax-directed editing system that 
        allows you to create, edit and compile code.
      - A language debugging system.
-     - Graphical editing tools, such as tools to edit UML models.
-     - Testing tools, such as Junit that can automatically run a set of 
-       tests on a new version of a program.
+     - Graphical editing tools (such as tools to edit UML models).
+     - Testing tools (such as Junit that can automatically run a set of 
+       tests on a new version of a program).
      - Project support tools that help you organize the code for different 
        development projects.
 
@@ -436,14 +427,14 @@ ans: To support development in a specific programming language such as
      tools.
 
 k. List the 3 Components/System deployment factors?
-ans: - If  a component is designed for a specific hardware architecture, or 
+ans: - If a component is designed for a specific hardware architecture, or 
        relies on some other software system, it must obviously be deployed 
        on a platform that provides the required hardware and software 
        support
      - High availability systems may require components to be deployed on 
        more than one platform. This means that, in the event of platform 
        failure, an alternative implementation of the component is available.
-     - If  there is a high level of communications traffic between 
+     - If there is a high level of communications traffic between 
        components, it usually makes sense to deploy them on the same 
        platform or on platforms that are physically close to one other. 
        This reduces the delay between the time a message is sent by one 
@@ -549,8 +540,6 @@ Software Testing
 
 
 
-
-
 3a.  Why do we need to Program Testing (or Testing)?
 ans: Testing is intended to show that a program does what it is intended to 
      do and to discover program defects before it is put into use.
@@ -601,8 +590,8 @@ e2. What is the aim of V & V confidence?
 ans: It is to establish confidence that the system is ‘fit for purpose’
 
 e3. V & V depends on 3 factors. List them?
-ans: - Software purpose: The level of confidence depends on how critical 
-                         the software is to an organisation
+ans: - Software purpose:  The level of confidence depends on how critical 
+                          the software is to an organisation
      - User expectations: Users may have low expectations of certain kinds 
                           of software
      - Marketing environment: Getting a product to market early may be more 
@@ -613,7 +602,7 @@ ans: Software inspections is the analysis of the static system
      representation to discover problems (static verification)
 
 f1. What is Software testing?
-ans: Software testing Concerned with executing and observing product 
+ans: Software testing us concerned with executing and observing product 
      behavior (dynamic verification). The system is executed with test data and its behavior is observed
 
 f2. Draw a diagram of Inspections and Testing?
@@ -622,7 +611,7 @@ ans: Slide 3 (page 11)
 f3. Discuss Software Inspection?
 ans: - These involve people examining the source representation with the 
        aim of discovering anomalies and defects.
-     - Inspections not require execution of a system so may be used before 
+     - Inspections dont require execution of a system so it may be used before 
        implementation.
      - They may be applied to any representation of the system 
        (requirements, design,configuration data, test data, etc.).
@@ -636,9 +625,8 @@ ans: - During testing, errors can mask (hide) other errors. Because
      - Incomplete versions of a system can be inspected without additional 
        costs. If a program is incomplete, then you need to develop 
        specialized test harnesses to test the parts that are available. 
-     - As well as searching for program defects, an inspection can also 
-       consider broader quality attributes of a program, such as 
-       compliance with standards, portability and maintainability
+     - Inspections can also consider broader quality attributes of a program, 
+       such as compliance with standards, portability and maintainability
 
 f5. Are the below statements true?
     - Inspections and testing are complementary and not opposing 
@@ -654,11 +642,16 @@ f6. Draw a diagram showing a model of the software testing process?
 ans: Slide 3 (page 15)
 
 g. List the 3 stages of testing?
-ans: - Development testing, where the system is tested during development 
+ans: - Development testing
+     - Release testing
+     - User testing
+
+g1. Explain each stage of testing?
+ans: - Development testing: where the system is tested during development 
        to discover bugs and defects
-     - Release testing, where a separate testing team test a complete 
+     - Release testing: where a separate testing team test a complete 
        version of the system before it is released to users
-     - User testing, where users or potential users of a system test the 
+     - User testing: where users or potential users of a system test the 
        system in their own environment
 
 g1. During Development testing, there are different kinds of testing that 
@@ -747,7 +740,7 @@ j1. Draw a diagram of Equivalence Partitioning?
 ans: Slide 3 (page 27)
 
 k. List 4 Sequence testing guidelines?
-ans: - Test software with sequences which have only a single value.
+ans: - Test with sequences which have only a single value.
      - Use sequences of different sizes in different tests.
      - Derive tests so that the first, middle and last elements of the 
        sequence are accessed.
@@ -788,7 +781,10 @@ Software Testing
 4a. Discuss Component Testing?
 ans: Software components are often composite components that are made up of 
      several interacting objects
-     You access the functionality of these objects through the defined component interface
+     You access the functionality of these objects through the defined component interface3a.  Why do we need to Program Testing (or Testing)?
+ans: Testing is intended to show that a program does what it is intended to 
+     do and to discover program defects before it is put into use.
+
      Testing composite components should therefore focus on showing that the component interface behaves according to its specification
 
 b. Draw a diagram of Interface testing?
@@ -800,17 +796,17 @@ ans: It is a testing that aims to detect faults due to interface errors or
 
 c1. List the 4 Interface types?
 ans: - Parameter interfaces
-     - Shared memory interfaces
      - Procedural interfaces
+     - Shared memory interfaces
      - Message passing interfaces
 
 c2. Explain all Interface types above?
 ans: - Parameter interfaces: Data passed from one method or procedure to 
        another.
-     - Shared memory interfaces: Block of memory is shared between 
-       procedures or functions.
      - Procedural interfaces: Sub-system encapsulates a set of procedures 
        to be called by other sub-systems.
+     - Shared memory interfaces: Block of memory is shared between 
+       procedures or functions.
      - Message passing interfaces: Sub-systems request services from other 
        sub-systems
 
@@ -842,9 +838,7 @@ ans: System testing during development involves integrating components to
        correctly and transfer the right data at the right time across their 
        interfaces. 
      - System testing tests the emergent behavior of a system
-
-d1. Further discuss System Testing?
-ans: - During system testing, reusable components that have been separately 
+     - During system testing, reusable components that have been separately 
        developed and off-the-shelf  systems may be integrated with newly 
        developed components. The complete system is then tested.
      - Components developed by different team members or sub-teams may be 
@@ -873,7 +867,7 @@ ans: - Exhaustive system testing is impossible so testing policies which
          both correct and incorrect input.
 
 e. What is Test-Driven Development (TDD)?
-ans: Test-driven development (TDD) is an approach to program development 
+ans: Test-driven development (TDD) is an approach to software development 
      in which you inter-leave testing and code development.
      Additionally:  
      - Tests are written before code and ‘passing’ the tests is the 
@@ -1028,6 +1022,199 @@ ans: - In agile methods, the user/customer is part of the development
 
 
 
+
+SLIDE 5
+
+
+
+
+
+Software evolution
+
+
+
+
+
+
+
+
+
+
+
+
+5a. Discuss Software Change?
+ans: - Software change is inevitable
+       - New requirements emerge when the software is used;
+       - The business environment changes;
+       - Errors must be repaired;
+       - New computers and equipment is added to the system;
+       - The performance or reliability of  the system may have to be improved.
+     - A key problem for all organizations is implementing and managing change 
+       to their existing software systems.
+
+b. List the importance  of Evolution?
+ans: - Organizations have huge investments in their software systems - they 
+       are critical business assets.
+     - To maintain the value of  these assets to the business, they must be 
+       changed and updated.
+     - The majority of  the software budget in large companies is devoted to
+       changing and evolving existing software rather than developing new 
+       software.
+
+c. Draw a diagram showing a spiral model of development and evolution?
+ans: Slide 5 (page 5)
+
+d. Draw a diagram showing evolution and servicing?
+ans: Slide 5 (page 6)
+
+d1. What takes place at Evolution?
+ans: The stage in a software system’s life cycle where it is in operational 
+     use and is evolving as new requirements are proposed and implemented in 
+     the system
+
+d2. What takes place at Servicing?
+ans: At this stage, the software remains useful but the only changes made are 
+     those required to keep it operational i.e. bug fixes and changes to 
+     reflect changes in the software’s environment. No new functionality is 
+     added
+
+d3. What takes place at Phase-out?
+ans: The software may still be used but no further changes are made to it.
+
+e. Software evolution processes depend on. List all 3?
+ans: - The type of  software being maintained;
+     - The development processes used;
+     - The skills and experience of  the people involved
+
+f. Proposals for change are the driver for _________?
+ans: system evolution
+
+g. Change identification and evolution continues throughout __________?
+ans: the system lifetime
+
+h. Draw the diagram of Change identification and evolution processes?
+ans: Slide 5 (page 9)
+
+i. Draw the diagram of the software evolution process?
+ans: Slide 5 (page 10)
+
+j. Draw the diagram of Change Implementation?
+ans: Slide 5 (page 11)
+
+k. Discuss Change Implementation?
+ans: - Iteration of the development process where the revisions to the system 
+       are designed, implemented and tested.
+     - A critical difference is that the first stage of  change implementation 
+       may involve program understanding, especially if  the original system 
+       developers are not responsible for  the change implementation. 
+     - During the program understanding phase, you have to understand how the 
+       program is structured, how it delivers functionality and how the 
+       proposed change might affect the program
+
+l. Urgent changes may have to be implemented without going through 
+   ___________
+ans: All stages of the software engineering process
+
+m. What scenarios lead to Urgent change requests?
+ans: - If  a serious system fault has to be repaired to allow normal operation 
+       to continue;
+     - If changes to the system’s environment (e.g. an OS upgrade) have 
+       unexpected effects;
+     - If  there are business changes that require a very rapid response (e.g. 
+       the release of  a competing product)
+
+n. Draw the diagram of repair process?
+ans: Slide 5 (page 14)
+
+o. Agile methods are based on incremental development so the transition from 
+   development to evolution is ________?
+ans: a seamless one
+
+o1. Evolution for agile is simply a continuation of  the development process 
+    based on _________
+ans: Frequent system releases
+
+p. Automated regression testing is particularly valuable when ____________
+ans: Changes are made to a system
+
+q. Where the development team have used an agile approach but the evolution 
+   team is unfamiliar with agile methods and prefer a plan-based approach. 
+   What happens in this Handover problem?
+ans: The evolution team may expect detailed documentation to support evolution 
+     and this is not produced in agile processes.
+
+q1. Where a plan-based approach has been used for development but the 
+    evolution team prefer to use agile methods. 
+    What happens in this Handover problem?
+ans: The evolution team may have to start from scratch developing automated 
+     tests and the code in the system may not have been refactored and 
+     simplified as is expected in agile development
+
+r. What is Program evolution dynamics?
+ans: Program evolution dynamics is the study of  the processes of  system 
+     change.
+
+r1. After several major empirical studies, Lehman and Belady proposed that 
+    _____________
+ans: There were a number of ‘laws’ which applied to all systems as they evolved
+
+     Additionally:
+     There are sensible observations rather than laws. They are applicable to 
+     large systems developed by large organizations
+     - It is not clear if  these are applicable to other types of  software 
+       system
+
+s. Systems MUST be changed if ______________
+ans: they are to remain useful in an environment
+
+t. List the Lehman's laws?
+ans: - Continuing change
+     - Increasing complexity
+     - Large program evolution
+     - Organizational stability
+     - Conservation of familiarity
+     - Continuing growth
+     - Declining quality
+     - Feedback system
+
+t. Explain all laws listed above?
+ans: - Continuing change: 
+       A program that is used in a real-world environment must necessarily 
+       change, or else become progressively less useful in that environment.
+     - Increasing complexity: 
+       As an evolving program changes, its structure tends to become more 
+       complex. Extra resources must be devoted to preserving and simplifying 
+       the structure.
+     - Large program evolution:
+       Program evolution is a self-regulating process. System attributes 
+       such as size, time between releases, and the number of reported errors 
+       is approximately invariant for each system release.
+     - Organizational stability:
+       Over a program’s lifetime, its rate of development is approximately 
+       constant and independent of the resources devoted to system development.
+     - Conservation of familiarity: 
+       Over the lifetime of a system, the incremental change in each release 
+       is approximately constant.
+     - Continuing growth:
+       The functionality offered by systems has to continually increase to 
+       maintain user satisfaction.
+     - Declining quality: 
+       The quality of systems will decline unless they are modified to reflect 
+       changes in their operational environment.
+     - Feedback system: 
+       Evolution processes incorporate multiagent, multiloop feedback systems 
+       and you have to treat them as feedback systems to achieve significant 
+       product improvement
+
+u. Where is Lehman's Laws Applicable?
+ans: Lehman’s laws seem to be generally applicable to large, tailored systems 
+     developed by large organisations
+
+v. Applicability of Lehman's Laws is not clear how they should be modified for?
+     - Shrink-wrapped software products
+     - Systems that incorporate a significant number of  COTS components
+     - Small organisations
+     - Medium sized systems
 
 
 
