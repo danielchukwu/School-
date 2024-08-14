@@ -10,3 +10,168 @@ CMP 416 TEST QUESTION I
     - Circuits Switching
     - Massage Switching
     - Packet Switching
+
+   
+
+
+Answers
+
+1a. Define Multiplexing in the context of computer networks?
+ans: Multiplexing is a technique used in computer networks to combine multiple 
+     signals or data streams into a single signal over a shared medium. This 
+     process allows multiple communication channels to be transmitted 
+     simultaneously over a single physical link, making efficient use of 
+     available bandwidth.
+b. Why is multiplexing important in network communications.
+ans: - Efficient Utilization of Resources: By allowing multiple data streams 
+       to share the same communication channel, multiplexing maximizes the use 
+       of available bandwidth, reducing the need for additional physical links.
+     - Cost Reduction: Multiplexing minimizes the need for separate physical 
+       connections for each communication channel, leading to lower infrastructure costs.
+     - Scalability: It enables the network to support more users and devices 
+       without requiring additional resources, making it easier to scale the 
+       network.
+     - Improved Data Transmission: Multiplexing can increase the data 
+       transmission rate by allowing multiple channels to be transmitted 
+       simultaneously, which is essential in high-speed networks
+
+c. Explain the differences between TDM and FDM, provide example of where each 
+    method is used?
+ans: FDM
+     - It is an analog technique.
+     - Signals of different frequencies are combine into a 
+       composite signal and is transmitted through a single 
+       link.
+     - Bandwidth of the link should be greater than the 
+       combined bandwidth of the various channels.
+     - Each signal has different frequency.
+     - Channels are separated by the strips of unused 
+       bandwidth called Guard Bands (to prevent overlapping)
+    TDM
+    - It is the digital multiplexing technique
+    - Channel or link is divided on the  basis of time.
+    - Total time available in the channel is divided between 
+      several users.
+    - Each user is allotted a particular time interval 
+      called time slot or slice.
+    - In TDM the data rate capacity of the transmission 
+      medium should be greater than the data rate required 
+      by sending and receiving devices
+
+ans: Time Division Multiplexing (TDM) and Frequency Division Multiplexing 
+     (FDM) are two common types of multiplexing methods:
+
+      - Time Division Multiplexing (TDM):
+        - Mechanism: TDM divides the time domain into several slots, and each 
+          channel is assigned a specific time slot in which it can transmit 
+          its data. The time slots are rotated in a sequence, allowing 
+          multiple channels to share the same frequency.
+        - Example of Use: TDM is commonly used in digital telephony systems, 
+          where voice signals from multiple users are multiplexed over a 
+          single communication channel.
+        - Characteristics:
+          - Synchronous TDM: Fixed time slots are assigned to each channel, 
+            whether data is present or not.
+          - Asynchronous TDM: Time slots are dynamically assigned based on the 
+            presence of data.
+      
+      - Frequency Division Multiplexing (FDM):
+        - Mechanism: FDM divides the frequency spectrum into multiple distinct 
+          frequency bands, each allocated to a different channel. Each channel 
+          transmits simultaneously on its own frequency, without interference 
+          from others.
+        - Example of Use: FDM is used in traditional analog radio and 
+          television broadcasting, where different stations operate on 
+          different frequency bands.
+        - Characteristics:
+          - Requires guard bands (small frequency gaps) to prevent 
+            interference between adjacent channels.
+          - Suitable for analog and digital signals
+
+
+
+
+2a. Define Network Switching?
+ans: Network Switching refers to the process of directing data 
+     packets or circuits through a network from the source to 
+     the destination
+
+b. Explain its importance in computer networks?
+ans: - Efficiency Data Routing
+     - Scalability
+     - Resource Management
+     - Fault Tolerance
+     - Quality of Service (QoS)
+
+     Explained:
+     - Efficient Data Routing: Switching enables data to be 
+       directed through the most efficient paths in a network, 
+       optimizing the use of network resources and improving 
+       overall performance.
+     - Scalability: It allows networks to handle a large number 
+       of simultaneous connections and data flows by managing 
+       how data is transmitted and routed.
+     - Resource Management: Switching helps in the effective 
+       utilization of network resources by dynamically 
+       allocating bandwidth and managing data traffic.
+     - Fault Tolerance: It provides mechanisms for rerouting 
+       data in case of network failures or congestion, ensuring 
+       reliable communication.
+     - Quality of Service (QoS): Switching can prioritize 
+       different types of traffic to ensure that high-priority 
+       data (e.g., voice or video) receives the necessary 
+       bandwidth and low latency.
+
+c. Compare and contrast the 3 main types of network Switching
+   - Circuits Switching
+   - Massage Switching
+   - Packet Switching
+ans: 1. Circuit Switching
+     - Transmission of data between two nodes are done over 
+       a dedicated communication path.
+     - A pre-specified route is created for which data 
+       travels and no other data is permitted.
+     - Transmission in circuit switching have to go through 
+       three phases.
+       - Establish a circuit
+       - Transfer the data.
+       - Disconnect the circuit
+     Circuit switching are primarily design for voice communications. Before a user can make a call, a virtual path between caller and callee is established over the network.
+
+     2. Message Switching
+     - This technique is somewhere in middle of circuit 
+       switching and packets switching.
+     - In message switching, the whole data is treated as a 
+       data units, and is transmitted in its entirety (whole).
+     - A switch receives the whole data unit and buffers it 
+       until there are resources available to transfer it to 
+       the next node.
+     - If the next node does not have enough resource to 
+       accommodate the data unit, the data unit have to waits 
+       on the current node.
+     - Message switching has the following drawbacks
+     - Every switch in the transit path needs enough storage 
+       to accommodate entire message.
+     - Because of the store-and-forward technique and waits 
+       of the availability of resources, message switching is 
+       very slow.
+     - Message switching is not suitable for real time 
+       application.
+
+     3. Packet Switching
+     - Transmission data is broken down into smaller chunks 
+       called packets.
+     - A switching information is added in the header of each 
+       packets.
+     - Data transmission of packets over the network is done 
+       independently.
+     - These packets are sometime store on the intermediate 
+       networking devices and they do not take much resources 
+       either on carried path or in the memory of switches.
+     - Packets switching enhances transmission efficiently as 
+       packets from multiple communication channels can be 
+       multiplexed.
+     - The internet uses packets switching techniques.
+     - Packet are stored and forwarded according to their 
+       priority to providing quality of service.
+      

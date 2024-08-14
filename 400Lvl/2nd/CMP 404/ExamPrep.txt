@@ -947,13 +947,13 @@ h4. What is the difference between release testing and system testing?
 ans: - A separate team that has not been involved in the system 
        development, should be responsible for release testing.
      - System testing by the development team should focus on discovering 
-       bugs in the system (defect testing). The objective of release 
-       testing is to check that the system meets its requirements and is 
-       good enough for external use (validation testing)
+       bugs in the system (defect testing). 
+       
+       The focus of release testing is to check that the system meets its 
+       requirements and is good enough for external use (validation testing)
 
 i. What is Requirements based testing?
-ans: It is the examining of each requirement and developing a test (
-     or tests) for it
+ans: It is the examining of each requirement and developing a test for it
 
 j. What is Performance testing?
 ans: it is a test that usually involves planning a series of tests where 

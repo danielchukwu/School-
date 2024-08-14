@@ -1,19 +1,354 @@
 CMP 410 EXAM PREP
 
 
-----------------------------------------------------------------
-
-LECTURE 1
-PAGE 166 - 179
+----------------------------------------------------------------    
 
 
 
 
+
+
+
+
+
+Section 1
+page 1 - 14
+
+
+
+
+
+
+
+
+
+
+
+
+1a. What is a Computer Network?
+ans: it is a set of computers and devices connected together 
+     for the purpose of sharing resources
+
+b. Networks are classified into 5 places. List all?
+ans: - Medium used to transport the data
+     - Communication protocol used
+     - Scale
+     - Topology
+     - Organizational scope, etc
+
+c. List the major Components of the Network?
+ans: - End stations
+     - Applications and;
+     - A network that will support traffic between the end 
+       stations
+
+d. List the components, functions and features of a Network?
+ans: - servers
+     - clients
+     - transmission media
+     - shared data
+     - shared printers and other peripherals
+     - hardware and software resources
+     - network interface card (NIC)
+     - local operating system (LOS) 
+     - network operating system (NOS)
+
+d1. Explain how 5 of the above listed?
+ans: - Servers: Servers are computers that hold shared files, 
+       programs and the network operating system. Servers 
+       provide access to network resources to all the users 
+       of the network and different kinds of servers are 
+       present.
+     - Clients: Clients are computers that access and use the 
+       network and access network resources.8
+     - Shared Data: Shared data are data that file servers 
+       provide to clients, such as data files, printer access 
+       programs, and e-mail
+     - Shared Printers and other peripherals: these are 
+       hardware resources provided to the users of the 
+       network by servers. 
+     - Network interface card: Every computer in the network 
+       has a special expansion card called network interface 
+       card (NIS), which prepares and sends data, receives 
+       data, and controls data flow between the computer and 
+       the network.
+
+e. List 8 Benefits of a network?
+ans: - File sharing
+     - Printer sharing
+     - Internet connection sharing
+     - Multi-player games
+     - Home entertainment
+     - Enables access to remote networks
+     - Facilitate communications
+     - Facilitate information dissemination
+     - Overall cost reduction in Hardware and software.
+     - Facilitate Social networks
+
+f. List 4 desirable criteria for a Network?
+ans: - Performance
+     - Reliability
+     - Security
+
+g. List the 2 Network Models?
+ans: - Peer-to-peer network
+     - Dedicated client/server network
+
+h. Draw a diagram of a typical Network Architecture?
+ans: Slide 1 (page 13)
+
+     
+
+
+
+
+
+
+
+
+
+LECTURE 2
+page 34 - 48
+
+
+
+
+
+
+
+
+
+
+
+
+
+2a. What is Network Security?
+ans: it is the protection of the underlying networking 
+     infrastructure from unauthorized access, misuse, or 
+     theft.
+
+b. List 5 types of Network Security?
+ans: - Firewalls
+     - Intrusion prevention systems
+     - Workload security
+     - Network segmentation
+     - Web security
+     - Wireless security
+     - VPN
+     - Access control
+     - Anti-virus and anti-malware software
+     - Application security
+     - Behavioral analytics
+     - Cloud security
+     - Data loss prevention
+     - Email security
+     - Mobile device security
+     - Security information and event management
+
+c. List 5 Cyber Attacks?
+ans: - Malware Attack
+     - Phishing Attack
+     - Password Attack
+     - Man-in-the-Middle Attack
+     - SQL Injection Attack
+     - Denial-of-Service Attack
+     - Insider Threat
+     - Cryptojacking
+
+d. List 7 ways of Securing Networks?
+ans: - Use strong passwords.
+     - Keep everything updated.
+     - Turn on encryption.
+     - Use a VPN.
+     - Use multiple firewalls.
+     - Rename routers and networks.
+     - Turn off the WPS setting.
+
+e. Who are Hackers?
+ans: Hackers are digital safecrackers who use their computer 
+     skills to break into restricted digital spaces, such as 
+     networks, servers, personal devices, online accounts, 
+     and cloud infrastructure
+
+f. List all types of Hackers?
+ans: - White hat hackers
+     - Black hat hackers
+     - Gray hat hackers
+     - Red hat hackers
+     - Malicious insider (whistleblower)
+     - Blue hat hackers
+     - Script kiddies and green hat hackers
+     - Hacktivists
+     - State/nation-sponsored hackers
+
+f1. Briefly explain the different types of Hackers listed 
+   above?
+ans: - White hat hackers: are paid to infiltrate digital 
+       systems to identify potential security vulnerabilities 
+       and report their findings to their clients.
+     - Black hat hackers: are cyber criminals who orchestrate 
+       scams and exploit vulnerabilities with the intent to 
+       cause harm. The aim of black hat hackers is usually to 
+       make money.
+     - Gray hat hackers: infiltrate systems without their 
+       targets’ consent, but they don’t exploit 
+       vulnerabilities to cause harm. Instead, they inform 
+       the victims of the hack in order to help them improve 
+       their security.
+     - Red hat hackers: Red hat hackers see themselves as the 
+       “superheroes” of the hacking world. They 
+       typically target black hat hackers to disrupt their 
+       attacks or retaliate against them.
+     - Malicious insider (whistleblower): is someone who 
+       works for an organization and decides to expose 
+       wrongdoing from within
+     - Blue hat hackers: are white hat hackers who 
+       are employed by an organization. Their job is to 
+       maintain the cybersecurity of the organization and 
+       prevent attacks.
+     - Script kiddies and green hat hackers: These are 
+       inexperienced hackers, they use existing malware and 
+       scripts created by other hackers to launch their 
+       attacks.
+     - Hacktivists: Hacktivists are people who hack into 
+       systems to fight back against perceived political or 
+       social injustice.
+     - State/nation-sponsored hackers: State-sponsored 
+       hackers work for governments. Some are white hat 
+       hackers who work to improve national cybersecurity, 
+       but others use black hat tactics to harm other 
+       countries.
+
+g. What is Cryptography?
+ans: Cryptography is a technique used to encrypt plaintext 
+     (or main text) which makes it difficult to understand 
+     and interpret by unauthorized user.
+
+g1. Draw a diagram of the Cryptography process?
+ans: Slide 1 (page 47)
+
+h. List 3 types of Cryptography algorithm used as solutions 
+   to Security Threats?
+ans: - Secret key Encryption
+     - Public key Encryption
+     - Message digest
+
+h1. Explain all listed above?
+ans: - Secret key: In secrete key encryption, both the sender 
+       and receiver have one secrete key. The secrete key is 
+       used to encrypt the plain text from the senders end to 
+       cypher text and the same secrete key at receiver end 
+       will decrypt the data to plain text.
+     - Public key: In this encryption system, every user has 
+       its own secrete key, the secrete key is not revealed 
+       on public domain. The senders use this key to encrypt 
+       the plaintext and every users uses his own secrete key 
+       to decrypt the cypher text to plain text.
+     - Message digest: In this encryption system, actual data 
+       is not sent, instead a hash value is calculated and 
+       sent. The receiver computes his own hash value and 
+       compares with the one just received if both hash value 
+       are matched, then it is accepted, otherwise rejected
+
+
+
+
+
+
+
+
+
+
+
+
+
+Section 2I (PAGE 101 - 105)
+Network Protocols
+
+
+
+
+
+
+
+
+
+2Ia. What is Network Protocol?
+ans: Network Protocol is a set of rules outlining how connected
+     devices communicate across a network to exchange 
+     information easily and safely
+
+b. List the types of Protocols?
+ans: - Transmission Control Protocol (TCP) 
+     - Internet Protocol (IP)
+     - User Datagram Protocol (UDP)
+     - Post office Protocol (POP)
+
+c. Explain all 4 types mentioned?
+ans: - Transmission Control Protocol (TCP): is a communications
+       standard that enables application programs and computing 
+       devices to exchange messages over a network. It is 
+       designed to send packets across the internet and ensure 
+       the successful delivery of data and messages over 
+       networks
+       
+       TCP organizes data so that it can be transmitted between 
+       a server and a client. It guarantees the integrity of 
+       the data being communicated over a network
+       
+       TCP establishes a connection between a source and its 
+       destination, which it ensures remains live until 
+       communication begins
+
+     - Internet Protocol (IP): The Internet Protocol (IP) is a 
+       set of standards for addressing and routing data on the 
+       Internet.
+       Each computer -- known as a host -- on the internet has 
+       at least one IP address that uniquely identifies it from 
+       all other computers on the internet.
+       message is divided into chunks called packets. Each 
+       packet contains both the sender's internet address and 
+       the receiver's address.
+       Any packet is sent first to a gateway computer that 
+       understands a small part of the internet.  
+
+     - User Datagram Protocol (UDP): User Datagram Protocol 
+       (UDP) is a communications protocol for time-sensitive 
+       applications like gaming, playing videos, etc.
+       UDP results in speedier communication because it does 
+       not spend time forming a firm connection with the 
+       destination before transferring the data.
+       Because establishing the connection takes time, 
+       eliminating this step results in faster data transfer 
+       speeds. 
+       UDP can also cause data packets to get lost as they go 
+       from the source to the destination. It can also make it 
+       relatively easy for a hacker to execute a distributed 
+       denial-of-service (DDoS) attack  
+
+
+
+
+
+
+
+
+
+
+
+
+Section 3 (PAGE 166 - 179)
 DATA COMMUNICATION
 
 
 
-1a. What is Computer used for?
+
+
+
+
+
+
+3a. What is Computer used for?
 ans: Computer is used to capture, process, store, generate and communicate 
      data/ information.
 
@@ -227,254 +562,7 @@ ans: Anyone who has a device capable of receiving them
 
 
 
-LECTURE 2
-page 1 - 14
-
-
-
-
-
-
-
-
-
-
-
-
-2a. What is a Computer Network?
-ans: it is a set of computers and devices connected together 
-     for the purpose of sharing resources
-
-b. Networks are classified into 5 places. List all 5?
-ans: - Medium used to transport the data
-     - Communication protocol used
-     - Scale
-     - Topology
-     - Organizational scope, etc
-
-c. List the major Components of the Network?
-ans: - End stations
-     - Applications and;
-     - A network that will support traffic between the end 
-       stations
-
-d. List the components, functions and features of a Network?
-ans: - servers
-     - clients
-     - transmission media
-     - shared data
-     - shared printers and other peripherals
-     - hardware and software resources
-     - network interface card (NIC)
-     - local operating system (LOS) 
-     - network operating system (NOS)
-
-d1. Explain how 5 of the above listed?
-ans: - Servers: Servers are computers that hold shared files, 
-       programs and the network operating system. Servers 
-       provide access to network resources to all the users 
-       of the network and different kinds of servers are 
-       present.
-     - Clients: Clients are computers that access and use the 
-       network and access network resources.
-     - Shared Data: Shared data are data that file servers 
-       provide to clients, such as data files, printer access 
-       programs, and e-mail
-     - Shared Printers and other peripherals: these are 
-       hardware resources provided to the users of the 
-       network by servers. 
-     - Network interface card: Every computer in the network 
-       has a special expansion card called network interface 
-       card (NIS), which prepares and sends data, receives 
-       data, and controls data flow between the computer and 
-       the network.
-
-e. List 8 Benefits of a network?
-ans: - File sharing
-     - Printer sharing
-     - Internet connection sharing
-     - Multi-player games
-     - Home entertainment
-     - Enables access to remote networks
-     - Facilitate communications
-     - Facilitate information dissemination
-     - Overall cost reduction in Hardware and software.
-     - Facilitate Social networks
-
-f. List 4 desirable criteria for a Network?
-ans: - Performance
-     - Reliability
-     - Security
-
-g. List the 2 Network Models?
-ans: - Peer-to-peer network
-     - Dedicated client/server network
-
-h. Draw a diagram of a typical Network Architecture?
-ans: Slide 1 (page 13)
-
-     
-
-
-
-
-
-
-
-
-
-LECTURE 2
-page 34 - 48
-
-
-
-
-
-
-
-
-
-
-
-
-
-3a. What is Network Security?
-ans: it is the protection of the underlying networking 
-     infrastructure from unauthorized access, misuse, or 
-     theft.
-
-b. List 5 types of Network Security?
-ans: - Firewalls
-     - Intrusion prevention systems
-     - Workload security
-     - Network segmentation
-     - Web security
-     - Wireless security
-     - VPN
-     - Access control
-     - Anti-virus and anti-malware software
-     - Application security
-     - Behavioral analytics
-     - Cloud security
-     - Data loss prevention
-     - Email security
-     - Mobile device security
-     - Security information and event management
-
-c. List 5 Cyber Attacks?
-ans: - Malware Attack
-     - Phishing Attack
-     - Password Attack
-     - Man-in-the-Middle Attack
-     - SQL Injection Attack
-     - Denial-of-Service Attack
-     - Insider Threat
-     - Cryptojacking
-
-d. List 7 ways of Securing Networks?
-ans: - Use strong passwords.
-     - Keep everything updated.
-     - Turn on encryption.
-     - Use a VPN.
-     - Use multiple firewalls.
-     - Rename routers and networks.
-     - Turn off the WPS setting.
-
-e. Who are Hackers?
-ans: Hackers are digital safecrackers who use their computer 
-     skills to break into restricted digital spaces, such as 
-     networks, servers, personal devices, online accounts, 
-     and cloud infrastructure
-
-f. List all types of Hackers?
-ans: - White hat hackers
-     - Black hat hackers
-     - Gray hat hackers
-     - Red hat hackers
-     - Malicious insider (whistleblower)
-     - Blue hat hackers
-     - Script kiddies and green hat hackers
-     - Hacktivists
-     - State/nation-sponsored hackers
-
-f1. Briefly explain the different types of Hackers listed 
-   above?
-ans: - White hat hackers: are paid to infiltrate digital 
-       systems to identify potential security vulnerabilities 
-       and report their findings to their clients.
-     - Black hat hackers: are cyber criminals who orchestrate 
-       scams and exploit vulnerabilities with the intent to 
-       cause harm. The aim of black hat hackers is usually to 
-       make money.
-     - Gray hat hackers: infiltrate systems without their 
-       targets’ consent, but they don’t exploit 
-       vulnerabilities to cause harm. Instead, they inform 
-       the victims of the hack in order to help them improve 
-       their security.
-     - Red hat hackers: Red hat hackers see themselves as the 
-       “superheroes” of the hacking world. They 
-       typically target black hat hackers to disrupt their 
-       attacks or retaliate against them.
-     - Malicious insider (whistleblower): is someone who 
-       works for an organization and decides to expose 
-       wrongdoing from within
-     - Blue hat hackers: are white hat hackers who 
-       are employed by an organization. Their job is to 
-       maintain the cybersecurity of the organization and 
-       prevent attacks.
-     - Script kiddies and green hat hackers: These are 
-       inexperienced hackers, they use existing malware and 
-       scripts created by other hackers to launch their 
-       attacks.
-     - Hacktivists: Hacktivists are people who hack into 
-       systems to fight back against perceived political or 
-       social injustice.
-     - State/nation-sponsored hackers: State-sponsored 
-       hackers work for governments. Some are white hat 
-       hackers who work to improve national cybersecurity, 
-       but others use black hat tactics to harm other 
-       countries.
-
-g. What is Cryptography?
-ans: Cryptography is a technique use to encrypt the main text 
-     which makes it difficult to understand and interpret by 
-     unauthorized user.
-
-h. List 3 types of Cryptography algorithm used as solutions 
-   to Security Threats?
-ans: - Secret key
-     - Public key
-     - Message digest
-
-h1. Explain all listed above?
-ans: - Secret key: In secrete key encryption, both the sender 
-       and receiver have one secrete key. The secrete key is 
-       used to encrypt the plain text from the user’s end to 
-       cypher text and the same secrete key at receiver end 
-       will decrypt the data to plain text.
-     - Public key: In this encryption system, every user has 
-       its own secrete key, the secrete key is not revealed 
-       on public domain. The senders use this key to encrypt 
-       the plaintext and every users uses his own secrete key 
-       to decrypt the cypher text to plain text.
-     - Message digest: In this encryption system, actual data 
-       is not send, instead a hash value is calculated and 
-       send. The other end user computes its own hash value 
-       and compares with the one just received if both  hash 
-       value are matched, then it is accepted, otherwise 
-       rejected
-
-     
-
-
-
-
-
-
-
-
-
-LECTURE 3
+LECTURE 4
 page 206 - 232
 
 
@@ -489,7 +577,7 @@ page 206 - 232
 
 
 
-3a. What is Multiplexing?
+4a. What is Multiplexing?
 ans: it is a technique that divides high capacity medium into 
      low capacity logical medium which is then shared by 
      different streams
@@ -521,13 +609,13 @@ ans: - Frequency Division Multiplexing (FDM)
      - Time Division Multiplexing
 
 h. Discuss FDM?
-ans: - It is an analog techniques.
+ans: - It is an analog technique.
      - Signals of different frequencies are combine into a 
        composite signal and is transmitted through a single 
        link.
      - Bandwidth of the link should be greater than the 
        combined bandwidth of the various channels.
-     - Each signal is having different frequency.
+     - Each signal has different frequency.
      - Channels are separated by the strips of unused 
        bandwidth called Guard Bands (to prevent overlapping)
 
@@ -542,14 +630,14 @@ ans: - FDM  is used for FM and AM radio Broadcasting
      - First generation cellular telephone also used FDM
 
 i. Discuss WDM?
-ans: - WDM is an analogue multiplexing technology.
-     - Working is same as FDM
-     - In WDM different signals are optical or light signals 
-       that are transmitted through optical fiber.
+ans: - WDM is an analogue multiplexing technique.
+     - Works same as FDM
+     - In WDM, different signals are light signals that are 
+       transmitted through optical fiber.
      - Various light wires from different sources are 
        combined to form a composite light signal that is 
        transmitted across the channel to the receiver.
-     - At the received end, this composite light signal is
+     - At the receiving end, this composite light signal is
        broken into different light waves by demultiplex.
      - This combination and the splitting of light waves is
        done by using a PRISM. Prism bends beam of the light 
@@ -560,8 +648,8 @@ i1. Draw a diagram for WDM?
 ans: Slide 1 (page 217)
 
 j. Discuss TDM?
-ans: - It is the digital multiplexing technique
-     - Channel or link is divided on the  basis of time.
+ans: - It is a digital technique
+     - Channel or link is divided on the basis of time.
      - Total time available in the channel is divided between 
        several users.
      - Each user is allotted a particular time interval 
@@ -589,7 +677,7 @@ Stopped at page 220
 
 
 
-LECTURE 4
+Section 5 (PAGE 233 - 250)
 page 233 - 250
 
 
@@ -604,9 +692,9 @@ page 233 - 250
 
 
 
-4a. What is Network Switching?
-ans: It is the technique of transferring data or information 
-     from one computer network to another network
+5a. What is Network Switching?
+ans: It is the technique used for transferring data or 
+     information from one computer network to another network
 
      Additionally:
      - Network switches operate at layer 2 (Data link layer) 
@@ -703,7 +791,7 @@ ans: - Circuit Switching
      - Message Switching
  
 k. Discuss Circuit Switching?
-ans: - Transmission  of data between two nodes are done over 
+ans: - Transmission of data between two nodes are done over 
        a dedicated communication path.
      - A pre-specified route is created for which data 
        travels and no other data is permitted.
@@ -729,17 +817,17 @@ ans: - Transmission data is broken down into smaller chunks
        multiplexed.
      - The internet uses packets switching techniques.
      - Packet are stored and forwarded according to their 
-       priority to provide quality of service.
+       priority to providing quality of service.
 
 l1. List the 2 types of Packet Switching?
 ans: - Connectionless Communication
-     - Connection oriented communication
+     - Connection-oriented communication
 
 m. Discuss Message Switching?
-ans: - This technique is somewhere in middle of circuit 
+ans: - This technique is somewhere in the middle of circuit 
        switching and packets switching.
      - In message switching, the whole data is treated as a 
-       data units, and is transmitted in its entirety (whole).
+       data unit, and is transmitted in its entirety (whole).
      - A switch receives the whole data unit and buffers it 
        until there are resources available to transfer it to 
        the next node.
@@ -747,19 +835,19 @@ ans: - This technique is somewhere in middle of circuit
        accommodate the data unit, the data unit have to waits 
        on the current node.
      - Message switching has the following drawbacks
-     - Every switch in the transit path needs enough storage 
-       to accommodate entire message.
-     - Because of the store-and-forward technique and waits 
-       of the availability of resources, message switching is 
-       very slow.
-     - Message switching is not suitable for real time 
-       application.
+       - Every switch in the transit path needs enough storage 
+         to accommodate entire message.
+       - Because of the store-and-forward technique and waits 
+         of the availability of resources, message switching 
+         is very slow.
+       - Message switching is not suitable for real time 
+         application.
 
 n. List at least 5 benefits of Packet switching over the 
    others?
 ans: - Packets switching ensures that no user monopolize any 
-       transmission line very long, enhance it is suited for 
-       handling interactive traffic
+       transmission line very long, 
+     - it is suited for handling interactive traffic
      - Packet switching reduce delay and improve throughput 
        than message switching
      - Packet switching does not require any advance setup,
@@ -779,7 +867,7 @@ ans: - Packets switching ensures that no user monopolize any
 
 
 
-LECTURE 5
+Section 6
 page 180 - 183
 
 
@@ -796,15 +884,16 @@ page 180 - 183
 
 
 5a. What is wave?
-ans: A wave is a disturbance in a medium that carries energy 
-     without a net movement of particles
+ans: A wave is a disturbance in a medium that carries
+     energy without a net movement of particles
 
 b. What are the 2 basic types of waves?
 ans: Longitudinal and Transverse
 
 c. Explain Longitudinal and Transverse waves?
-ans: - With longitudinal waves, the displacement is parallel 
-       in the direction of propagation e.g. Earthquake, ultrasound, sound waves in air, etc.
+ans: - With longitudinal waves, the displacement is 
+       parallel in the direction of propagation e.g. 
+       Earthquake, ultrasound, sound waves in air, etc.
      - With transverse waves, the displacement is 
        perpendicular to the direction of propagation. e.g Electromagnetic waves, guitar string, etc.
 
