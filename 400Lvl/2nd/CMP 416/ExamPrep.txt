@@ -534,7 +534,7 @@ ans: - Copying from the original disc to a new disc. This is an
 h. List the Updates made to CDPA?
 ans: - Creative Commons (CC): Licenses allow artists to specify 
        how their work can be used, promoting creativity.
-     - Copyright (Computer Programs) Regulations 1992 (CCPR): 
+     - Copyright Computer Programs Regulations 1992 (CCPR): 
        Allows making one backup copy of a program.
      - EU Copyright Directive 2001: Protects technological 
        measures and electronic rights management.
