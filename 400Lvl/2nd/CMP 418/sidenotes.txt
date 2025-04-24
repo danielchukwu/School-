@@ -1,0 +1,39 @@
+Lect:If you understand the concept of swapping in sorting, u've completed 50% of this course
+
+Sorting Algorithms
+- Brute force
+- Selection sort (Comparing j with i)
+- Bubble sort (Comparing j with j)
+  Tip: By so doing we increase the complexity of the algorithm
+
+
+Loop: Path of your program that executes repeatedly
+Iteration: Each step of the loop
+Pass: The number of times a set of iteration occurs (1 complete iteration)
+
+Expensiveness
+Selection sort occurs at Theta of N
+Bubble sort occurs at  Theta of N² (More number)
+
+Exam Question
+- 1 compulsory question
+- Your Exam is going to be 6 questions answer 4
+- Differentiate  between bubble sort and selection sort
+Ans: Bubble sort has a higher number of swapping
+
+
+Sequential sort
+pattern=m
+text=n
+
+e.g n can be alist that contains the names of everybody in the class
+    m can be a the string we are trying to find
+
+e.g 
+text = mark markus mat
+pattern = us
+
+solution
+# we keep iterating till we find a match
+mark markus mat
+         us     # match found

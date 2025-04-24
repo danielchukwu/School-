@@ -4,3 +4,7 @@ Below link Simplifies the sorting algorithms (Showing u how they work visually -
 - Insertion sort
 
 https://visualgo.net/en/sorting
+
+
+Topological Ordering
+- https://www.youtube.com/watch?v=eL-KzMXSXXI&ab_channel=WilliamFiset
