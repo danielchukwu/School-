@@ -1,31 +1,40 @@
 Answers
 
+1a. Kelvin Mitnick, 1983
+b. $50k in damages, Robert Tappan was responsible
+c. Vladimir Levin, 1994
+e. - Confidentiality
+   - Authentication
+   - Reliability
+   - Integrity
 
-1a. Kevin Mitnick, 198
+g. Network, System and software, Physical
+h. - Network attacks
+   - Web attacks
+   - OS, applications and software
+   - Social Engineering
 
-b. $50,000 and wass created by Robert Tappan
+    - 𝜑(4) = 2
+    - 𝜑(5) = 4 
+    - 𝜑(6) = 2
+    - 𝜑(10) = ? 
+    - 𝜑(143) = ?
 
-c. Vladimir Levin in the year 1984
+- 7 mod 4 = 3
+   - 10 mod 2 = 0
+   - 4 mod 3 = 1
+   - 5 mod 8 = 5
 
-d. Jonathan James he did it in 1999
 
-e. Integrity: Ensuring the data is not tampered with
-   Confidentiality: Only accessible to authorized personels
-   Reliability: Ensuring the system is woks and doesn't runs into unexpected problems
-   authorization: Ensuring only authorized users have access
 
-f. Network security
-   Physical security
-   System and Software security
 
-g. Network attack (e.g Packet sniffing, Man in the middle, DNS hijacking)
-   Web attack (e.g Phishing, Cross Site Scripting, SQL Injection)
-   OS attack (Virus, Worms, Trojan, Rootkits)
-   Social Engineering
-   Password attack (Password guessing, Dictionary attack, Rainbow attack)
 
-h. A virus is a piece of code that automatically reproduces itself. Its attached to other programs and requires user intervention to spread
 
-i. A worm is a piece of code that automatically reproduces itself over the Network. It doesn't need user intervention ot propagate
 
-j. Backdoor is a program
+
+
+
+
+
+
+
